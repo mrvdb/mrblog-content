@@ -1,3 +1,4 @@
+# Not sure where these are used
 name: Marcel van der Boom
 email: marcel@hsdev.com
 timezone: Europe/Amsterdam
@@ -5,5 +6,16 @@ timezone: Europe/Amsterdam
 relative_permalinks: false
 github: mrvdb
 twitter: mrvdb
+
+# If there is an .htaccess file, publish it
+include:
+  - .htaccess
 exclude:
   - wordpress.xml
+
+# Used in tag generation plugin, must be quoted
+tag_title_prefix: "&nbsp;"
+tag_title_suffix: "&nbsp;"
+
+# Make sure the sitemap.xml URL's are always absolute
+url: http://mrblog.nl
