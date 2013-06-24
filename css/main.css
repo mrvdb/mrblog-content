@@ -1,0 +1,546 @@
+/* Import font stylesheets */
+@import url('fonts/stylesheet-ubuntu.css');
+
+
+* { margin: 0; padding: 0;}
+img, fieldset { border: none;}
+
+/* defaults mostly go in body */
+body {
+  min-width: 800px;
+  font-size: 10pt;
+  font-family: "UbuntuRegular", sans-serif, helvetica, arial;
+  color: rgb(255,255,255);
+  background-color: rgb(10,10,10);
+  background-color: rgb(255,255,255);
+  counter-reset: figures;
+}
+
+p {	text-align: justify;}
+
+h1.pagetitle { text-align: center; margin: 0 auto 1em auto; }
+a { text-decoration: none; font-weight: bold;}
+
+/* Top and footer have white links, blue hover */
+#top a, #footer a { color: white; }
+#top a:hover, #footer a:hover { color: rgb(0,128,255);}
+
+/* Normal content has blue links, black hover */
+#content a {
+   /* As we potentially have many autolinks, don't make them all too obvious */
+   color: rgb(30,30,120);
+}
+/* But do, when someone hovers over them */
+#content a:hover { color: rgb(0,80,228); }
+
+/* Headers are linked to article and are black and hover to a greyish color */
+h2 a { color: rgb(10,10,10) !important;}
+h2 a:hover { color: #666666 !important;}
+
+
+.off { display: none; visibility:hidden; }
+.count {
+  background-color: rgb(0,0,163); color: rgb(255,255,255);
+  border: .1em solid rgb(0,0,163); padding:.15em .5em;
+  margin-right: .25em; text-align:center;
+}
+
+/*   .navigation   */
+.navigation { clear: both; padding-bottom: 35px; margin-top: .25em; font-size: 95%; }
+.navigation .alignleft a {
+  float: left; padding-left: 20px;
+  background: url(images/post-nav-previous.gif) no-repeat left center;
+}
+.navigation .alignright a {
+  float: right; padding-right: 20px; text-align: right;
+  background: url(images/post-nav-next.gif) no-repeat right center;
+}
+
+/*   #top   */
+#topwrap {
+  background-color: rgb(10,10,10);
+  position:absolute;
+  width:100%;
+  top:0;
+  left:0;
+  height:50px;
+}
+body>div#topwrap {	position:fixed;}
+
+#top {
+    padding: .7em;}
+#top p {   float:left;  font-size: 110%; font-weight: bold; }
+#top div { text-align: right; }
+ul.years {  list-style: none;  display: inline;}
+ul.years li {  display: inline;}
+
+
+/*   #content   */
+#content {
+  margin: .5em auto;
+  margin-left: 0em;
+  padding-right: 1em;
+  padding-left: 4em;
+/*  float: left;
+*/  color: rgb(50,25,20);
+  background-color: rgb(250,250,250);
+  margin-top: 50px;
+  margin-bottom: 155px;
+}
+/*   .post-nav   */
+.post-nav {
+  /*clear: both;*/ padding: .5em .5em .75em .5em;
+  height: 15px; margin: -1em 0em .5em 0em;  font-size: 95%;
+}
+.post-nav .previous a { float: left;  }
+.post-nav .next a { float: right;text-align: right; }
+
+
+
+/*   .post   */
+.post {
+  /* First post, starts below previous content, but may have things to the right */
+  /* FIXME: However, this does not work on say, category pages */
+  clear: left;
+  margin: 0em 1em 1em 0em;
+  margin-top: 15px;
+  padding-top: 35px;
+}
+
+/* But we don't want old right content besides a new post */
+.post.excerpt {
+    clear: both;
+    }
+
+/*   .post .title   */
+.post .title {  margin-left: 4em;}
+.post .title h2 {
+    font-size: 2.2em;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+/* .post .title h2 a, .post .title h2 a:link, .post .title h2 a:visited {  */
+/*     color: rgb(0,0,0);   */
+/* } */
+.post .title h2 a:visited:hover, .post .title h2 a:hover, .post .title h2 a:active {
+    color: #666666;
+}
+
+
+
+/*   .post .date   */
+.post .date {
+    height: 50px; width: 45px;
+    background: url(images/calendar.gif) no-repeat;
+    font: bold 22px Arial, Helvetica, sans-serif; color: #666666;
+    text-align: center; padding: 0px 2px 0 0; line-height: 100%;
+    float: left;
+}
+.post .date span {
+    height: 16px; display: block;
+    font: bold 11px Arial, Helvetica, sans-serif;	color: #ffffff;
+    text-align: center; padding-top: 5px;
+}
+
+
+/*   .postdata   */
+.postdata {
+    font-size: 90%;
+    color: rgb(10,10,10);
+    /* overflow: auto;  */
+}
+.postdata a, .postdata a:visited { text-decoration: none; }
+
+.the_tags, .category {
+  float: left;
+  font-size: 11px;
+  background: url(images/icons.gif) no-repeat;
+  padding-left: 20px;
+  margin-right: 4px;
+  height:16px;
+  line-height:16px;
+}
+
+/* icons */
+.category {  background-position: 0 -32px;}
+.the_tags {  background-position: 0 -16px;}
+
+.postdata .comments{ float: right; }
+
+/*   .post .mini-add-comment   */
+.mini-add-comment {
+    font-size: small;
+    background: url() no-repeat left center;
+    padding-left: 12px;
+    float: right;
+}
+
+/*   start .entry   */
+
+.entry {
+    margin-top: 1.5em;
+   padding-bottom: 25px;
+}
+
+.entry p {
+    line-height: 1.2em;
+    margin-top: 0.7em;
+}
+.entry ol {
+    list-style-type: decimal;
+    padding: .5em 0em;
+    padding-left: 2em;
+}
+.entry h2 a, .post h2 a:visited { color: rgb(0,0,0); font-weight: normal; }
+.entry h2 a:hover {
+    background-color: rgb(0,0,0); color: rgb(255,255,255);
+    text-decoration: none;
+}
+/* IE specific because it does not have min-width */
+/** html .entry { width: 600px;}*/
+
+.entry ul {
+    padding-left: 2em;
+    list-style-type: disc;
+}
+/*   .postmetadata   */
+.postmetadata {
+    margin: 0em; padding: 1em; background-color: rgb(248,248,248);
+    border: .15em solid rgb(221,221,221);
+}
+
+/*   .comments-wrapper   */
+.comments-wrapper {
+  clear:both;
+  background-color: rgb(60,60,70); color: rgb(255,255,255);
+  margin-top: -155px;
+  padding-bottom: 12px;
+  margin-bottom: 155px;
+}
+
+
+/*   .comments   */
+.comments {
+    font-size: 95%;
+    margin-left: 70px;
+    margin-right: 23em;
+    padding: 1em 0em;  }
+.comments p { margin: 1em 0em; }
+.comments a { color: rgb(255,255,255); }
+.comments a:hover { color: rgb(255,255,255); }
+.comments h2 { margin: .25em 0em .5em 0em; padding-bottom: .25em; }
+.comments .count { background-color: rgb(0,0,0); color: rgb(255,255,255); }
+
+
+/*   .metalinks   */
+.commentsrsslink,
+.trackbacklink {
+    font-size: 8pt;
+}
+.metalinks { padding: .35em; text-align: right;}
+.metalinks .commentsrsslink {
+    background: url('images/feed.png') left center no-repeat;
+    padding: 2px 0 2px 17px; margin-right: 6px; height: 16px;
+}
+.metalinks .trackbacklink {
+    background: url('images/trackback.png') left center no-repeat;
+    padding: 2px 0 2px 17px; height: 16px;
+}
+
+
+/*   ol.commentlist   */
+.authorinfo {    float: left;}
+
+.commentlist li {
+    background-color: rgb(51,51,51);
+    color: rgb(255,255,255); margin: 0em;
+    padding: 1em;
+    list-style: none;
+    margin-bottom: .5em;
+}
+.commentlist li .count {
+    background-color: rgb(0,0,0); color: rgb(255,255,255);
+}
+
+.commentlist li.alt {
+    background-color: rgb(30,30,30); color: rgb(255,255,255); overflow: hidden;
+}
+.commentlist li.alt .count {
+    background-color: rgb(51,51,51); color: rgb(255,255,255);
+}
+
+.commentlist li img.gravatar {
+    float: left; margin-right: 1em; background: rgb(230,230,230);
+    border: .25em solid rgb(241,241,241); padding: .25em;
+    width:40px; height:40px;
+}
+.commentlist li a:hover img.gravatar {
+    background: rgb(0,0,153); border: .25em solid rgb(0,0,153);
+    text-decoration:none
+}
+
+.commentlist .count {
+    float: right; margin-left: 1em; border: .1em solid rgb(255,255,255);
+    color: rgb(255,255,255); font-size:14px;
+}
+.comment-content {
+    padding: .6em 0em 0em 0em; }
+.comment-content .cc {
+    border-left: 1px solid rgb(250,250,250); line-height: 20px;
+    padding-left: 12px; margin: 0px 120px;
+    margin-right:18px;
+}
+.comment-content .cc p {
+    font-size: 90%; padding-right: 50px; color:rgb(250,250,250);
+}
+
+/*   .comment_form   */
+
+.comment_form input.med,
+.comment_form select.med,
+.comment_form textarea.textbox {
+    border: .05em solid rgb(0,0,153);
+    color : rgb(51,51,51);
+    padding: .25em; margin: 1em 0em;
+    font-family: Trebuchet MS, Arial, sans-serif; font-size: 1.1em;
+}
+.comment_form textarea.textbox { width: 95%; margin: 1em auto; }
+
+.comment_form input.submit-button {
+    margin : .5em 0em; padding: .25em; width: 11em;
+    cursor: pointer; background-color: rgb(51,51,51); color: rgb(255,255,255);
+    text-align : center; font-size: 1.25em;
+}
+.comment_form input.submit-button:hover,
+.comment_form input.submit-button:focus {
+    background-color : rgb(0,0,0); color : rgb(255,255,255);
+    background-image:none; text-decoration:underline;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>> #footer <<<<<<<<<<<<<<<<<<<< */
+div#footerwrap {
+  background-color: rgb(10,10,10);
+	width:100%;
+	p\osition:absolute;
+	bottom:0;
+	left:0;
+	height:125px;
+	padding-bottom: 20px;
+	padding-top: 15px;
+}
+body>div#footerwrap {	position:fixed;}
+
+/* Order of the below three statements is important */
+#topwrap, #footerwrap {
+opacity: 0.90;
+-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+filter: alpha(opacity=90);
+}
+
+#footer {
+    padding: .25em;
+    text-align: right;
+    padding-left: 3em;
+    clear:both;
+}
+#footer p { margin: 1em 0em; }
+#copyright {
+  margin-top: -15px !important;
+}
+
+
+.sidebar-bottom .block {
+    font-size: 80%;
+    line-height: 150%;
+    margin: 0em 7em 0em 1em;
+    float:right;
+}
+
+.sidebar-bottom ul li { list-style-type: none; }
+.sidebar-bottom { padding: 0em 0em; margin: 0em auto; overflow: hidden; }
+.sidebar-bottom .block h2, #sidebar .block h3 {
+  /* display:none; */
+    margin: 0em 0em 1em 0em;
+    font-size: 13px;
+}
+
+
+/*
+    Do fancy blockquote quoting,
+    taken from http://www.monc.se/kitchen/129/rendering-quotes-with-css
+*/
+blockquote            { margin-left: 2em;  background-color: #ddd; padding-right: 3pt;  padding-left: 3pt; padding-bottom: 2pt;           }
+blockquote *          { quotes: '';                       }
+blockquote > *:before { content: '\201C'; font-size: 150%;}
+blockquote > *:after  { content: '\201D'; font-size: 128%;}
+blockquote q:before   { content: '\2018';                 }
+blockquote q:after    { content: '\2019';                 }
+
+.mu_register, .widecolumn {
+    background-color: rgb(250,250,250);
+}
+
+img.flickr {width: 300px !important;height: auto;}
+img.portrait{width: 200px;height: auto;}
+
+.cat-item a { text-transform: capitalize }
+
+.sidebar-additional {
+  width: 320px;
+  font-size: small;
+  margin-left: 20px;
+  margin-top: 10px;
+padding-left: 10px;
+  float: right;
+}
+.sidebar-additional ul {
+  margin-left: 2em;
+  list-style: none;
+}
+.sidebar-additional li {
+  margin-top: 5px;
+}
+.sidebar-additional h2 {
+  padding-left: 8px;
+}
+
+.twitter-timestamp {
+  color: gray;
+}
+.additional { font-size: smaller;}
+.additional h2 { font-size: 1.2em;}
+div.additional { margin-bottom: 1em; margin-top: 1em;}
+
+/* .excerpt {  font-size: smaller;} */
+
+.cutout {
+  float: right;
+  width: 35%;
+  font-size: 9pt;
+  border: thin solid gray;
+  margin: 10px;
+  margin-left: 55px;
+  margin-top: 35px !important;
+  margin-bottom: 55px !important;
+  padding: 15px;
+  background-color: #EEE;
+}
+.cutout ul { list-style:none;}
+
+
+/* MrB and friends block on the right ------------------------------- */
+#twitter_div > div {
+    border: thin solid gray !important;
+}
+
+.tweet > p { text-align: left; }
+
+#twitter_div>div, .cutout, .shadow, .flickr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -webkit-box-shadow: #888 10px 10px 5px;
+  -moz-box-shadow: #888 10px 10px 5px;
+}
+
+.tweet {margin:4px 0;padding: 5px; margin-bottom: 0;}
+.tweet img {float:left;margin: 0 8px 4px 0;}
+.tweet .text {margin: 0;}
+.tweet .time a {font-size: 80%;color: #888;white-space: nowrap;text-decoration: none;}
+.tweet .time a:hover {text-decoration: underline;}
+#timeline .tweet .text { min-height: 25px; }
+/* ---------------------------------------------------- */
+
+div.rssSummary     {  font-size: 85%;}
+div.rssSummary img {  width: 266px;}
+div.rssSummary ul  {  list-style-type: disc !important; margin-left: 2em; }
+div.rssSummary ol  {  margin-left: 2em; }
+
+
+div.wrap {
+  float: left;
+/*  margin-left: 55px;*/
+  margin-right: 55px;
+  margin-bottom: 20px;
+}
+
+.attribution { width: 55%;  text-align: right; }
+
+cite {
+  font-size:8pt;
+  margin-right: 30pt;
+  margin-top:-7pt;
+  padding:0;
+  font-style: italic;
+}
+
+h2,h3,h4 {
+    margin-top: 20px;
+}
+
+pre {
+    margin: 10px;
+    padding: 5px;
+    background-color: #eee;
+    border: thin solid gray;
+    overflow: hidden;
+}
+
+div.markdown_generated {
+   text-align: center;
+}
+
+.figure p + p {
+    /* Either a caption of text belonging to the figure */
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.figure p + p:before {
+    content: "Figure " counter(figures) ": ";
+    counter-increment: figures
+}
+
+/* .entry h2, .entry h3 { */
+/*     clear:left; */
+/* } */
+
+#footerwrap {
+    position: fixed !important;
+    bottom: 0 !important;
+    }
+
+/* Make sure that the top header is on top */
+#topwrap {
+    z-index: 1;
+    }
+
+/* Bitcoin tips plugin adjustment */
+div.bitcointips-widget {
+    float:right;
+    width: 40em;
+    margin-left: 2em;
+    -webkit-box-shadow: #888 10px 10px 5px;
+    -moz-box-shadow: #888 10px 10px 5px;
+    border: thin solid;
+    clear: both;
+}
+
+div.bitcointips-wrapper:before {
+  content: '' ;
+  display:block;
+  float: right;
+  border: thin solid;
+  visibility: hidden;
+}
+
+.bitcointips-widget .contents h2 {
+    font-size: 13pt !important;
+    }
+/* An empty cutout leaves a residu */
+.cutout { display: none; }
+
+.qrcode {
+    margin-right: 28px !important;
+}

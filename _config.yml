@@ -1,0 +1,9 @@
+name: Marcel van der Boom
+email: marcel@hsdev.com
+timezone: Europe/Amsterdam
+
+relative_permalinks: false
+github: mrvdb
+twitter: mrvdb
+exclude:
+  - wordpress.xml

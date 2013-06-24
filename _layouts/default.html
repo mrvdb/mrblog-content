@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://mrblog.nl/feed" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="http://mrblog.nl/feed/rss" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://mrblog.nl/feed/atom" />
+
+    </head>
+    <body>
+      <div id="topwrap">
+	<div id="top">
+          <p>
+            <a href="/">MrBlog</a>
+          </p>
+        <div>
+
+        <!-- Search form -->
+        <form style="margin-left: 2em; display: inline-block;" method="get" id="searchform" action="/">
+          <div>
+            <input type="text" value="" name="s" id="s" />
+            <input type="submit" id="searchsubmit" value="Search" />
+          </div>
+         </form>
+	</div>
+	</div>
+      </div>
+
+      <div id="content">
+        {{ content }}
+      </div>
+
+      <div id="footerwrap">
+	<div id="footer">
+	  <div class="sidebar-bottom">
+            <!-- place blocks here -->
+	    <div class="block"><h2>Pages</h2>
+	      <ul>
+		<li class="page_item page-item-2"><a href="about">About</a></li>
+	      </ul>
+	    </div>
+	  </div>
+
+	  <p id="copyright">&copy; 2003—2013 <a href="/">Marcel van der Boom</a></p>
+	</div>
+      </div>
+
+      <!-- Make comment counts available -->
+      <script type="text/javascript">
+        var disqus_shortname = 'mrblog2';
+	(function () {
+	  var s = document.createElement('script'); s.async = true;
+	  s.type = 'text/javascript';
+	  s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+	  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+	}());
+      </script>
+    </body>
+</html>
