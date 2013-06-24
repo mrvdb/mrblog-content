@@ -7,7 +7,7 @@ layout: default
     {{ page.date | date: "%d" }}
   </div>
   <div class="title">
-    <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+    <h2><a href="{{ page.url }}">{{ page.title | xml_escape }}</a></h2>
     <div class="postdata">
       <!-- Tag list -->
       <span class="the_tags">
@@ -17,7 +17,9 @@ layout: default
 	{% endfor %}
       </span>
       <span class="right mini-add-comment">
-        <a href="{{ page.url }}#disqus_thread" title="Comment on Bitcoin, lure or cure?">Comments &#187;</a>
+        <a href="{{ page.url }}#disqus_thread"
+	   data-disqus-identifier="{{ page.id }}"
+	   title="{{page.title | xml_escape}}">Comments</a>&nbsp;&#187;
       </span>
     </div>
   </div>

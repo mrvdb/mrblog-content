@@ -13,9 +13,8 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
-	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://mrblog.nl/feed" />
-	<link rel="alternate" type="text/xml" title="RSS .92" href="http://mrblog.nl/feed/rss" />
-	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://mrblog.nl/feed/atom" />
+	<!-- Feeds we expose -->
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://mrblog.nl/feed/atom.xml" />
 
     </head>
     <body>
@@ -27,12 +26,13 @@
         <div>
 
         <!-- Search form -->
-        <form style="margin-left: 2em; display: inline-block;" method="get" id="searchform" action="/">
-          <div>
-            <input type="text" value="" name="s" id="s" />
-            <input type="submit" id="searchsubmit" value="Search" />
-          </div>
-         </form>
+	<!-- FIXME: this is somewhat non-trivial -->
+        <!-- <form style="margin-left: 2em; display: inline-block;" method="get" id="searchform" action="/"> -->
+        <!--   <div> -->
+        <!--     <input type="text" value="" name="s" id="s" /> -->
+        <!--     <input type="submit" id="searchsubmit" value="Search" /> -->
+        <!--   </div> -->
+        <!--  </form> -->
 	</div>
 	</div>
       </div>
