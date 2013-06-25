@@ -1,4 +1,10 @@
 Options -Indexes
 
 # Redirects I could find from old stuff
+
 Redirect 301 /archives/000024.html /2003/07/15/i-thought-nobody-did-that-anymore.html
+
+# Always use mrblog.nl
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} !^mrblog\.nl
+RewriteRule (.*) http://mbblog.nl/$1 [R=301,L]
