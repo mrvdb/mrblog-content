@@ -15,7 +15,7 @@ meta:
   blogger_permalink: /2008/05/animoto-test.html
   bitcointips_address: 1P8VvSRdhaH6evosrxbiFuLTQWu16zCDHf
 ---
-<p>Was looking at animoto this morning and uploaded the donor parts picasa album. It automagically creates a short video from a set of pictures. Good fun.</p>
-<div style="text-align: center">
-[youtube http://www.youtube.com/watch?v=WBlZPKK4W7g&hl=en&fs=1&rel=0&color1=0x2b405b&color2=0x6b8ab6&border=1]
-</div>
+
+Was looking at animoto this morning and uploaded the donor parts
+picasa album. It automagically creates a short video from a set of
+pictures. Good fun.
