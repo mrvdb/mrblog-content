@@ -27,6 +27,21 @@ layout: default
     {{ content }}
   </div>
 
+  <!-- Include navigation block for next/prev post -->
+  <div class="navigation">
+    {% if page.next %}
+    <span class="alignleft">
+      <a href="{{ page.next.url }}" >{{ page.next.title }}</a>
+    </span>
+    {% endif %}
+    {% if page.previous %}
+    <span class="alignright">
+      <!-- When previous post is syndicated and setting is to have permalink go to the original blog, this points to somewhere outside us!! -->
+      <a href="{{ page.previous.url }}" rel="prev">{{ page.previous.title }}</a>
+    </span>
+    {% endif %}
+  </div>
+
   <!-- Comments section -->
   <div id="disqus_thread"></div>
   <script type="text/javascript">

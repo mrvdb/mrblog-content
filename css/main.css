@@ -56,6 +56,10 @@ h2 a:hover { color: #666666 !important;}
   background: url(images/post-nav-next.gif) no-repeat right center;
 }
 
+div.navigation {
+    padding-top: 8px;
+    background-color: #eee;
+}
 /*   #top   */
 #topwrap {
   background-color: rgb(10,10,10);
