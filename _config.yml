@@ -1,5 +1,8 @@
 # Not sure where these are used
 name: Marcel van der Boom
+
+# Used in feed
+author: Marcel van der Boom
 email: marcel@hsdev.com
 timezone: Europe/Amsterdam
 
