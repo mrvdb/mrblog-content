@@ -19,3 +19,6 @@ tag_title_suffix: "&nbsp;"
 
 # Make sure the sitemap.xml URL's are always absolute
 url: http://mrblog.nl
+
+# Enable pagination
+paginate: 10

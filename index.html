@@ -18,8 +18,9 @@ title: MrBlog
   </div>
 </div>
 
-<!-- Show the last 3 posts completely -->
-{% for post in site.posts limit:10 %}
+<!-- Show the last 3 posts completely, rest only the excerpt -->
+<!-- Pagination is automatic -->
+{% for post in paginator.posts %}
 <div class="post">
   <div class="date">
     <span>{{ post.date | date: "%b" }}</span>
@@ -43,7 +44,8 @@ title: MrBlog
   </div>
   <div class="clearing"><!-- close clearing --></div>
   <div class="entry">
-    {% if forloop.index > 3 %}
+
+    {% if forloop.index > 3 or paginator.page > 1 %}
     {{ post.excerpt }}
     {% else %}
     {{ post.content }}
@@ -51,3 +53,22 @@ title: MrBlog
   </div>
 </div>
 {% endfor %}
+
+<!-- Include navigation block -->
+<div class="navigation">
+  {% if paginator.previous_page %}
+  <span class="alignleft">
+    {% if paginator.previous_page == 1 %}
+      <a href="/" >Newer entries&hellip;</a>
+    {% else %}
+      <a href="/{{ paginator.previous_page_path }}" >Newer entries&hellip;</a>
+    {% endif %}
+  </span>
+  {% endif %}
+  {% if paginator.next_page %}
+  <span class="alignright">
+    <!-- When previous post is syndicated and setting is to have permalink go to the original blog, this points to somewhere outside us!! -->
+    <a href="/{{ paginator.next_page_path }}" rel="prev">Older entries&hellip;</a>
+  </span>
+  {% endif %}
+</div>
