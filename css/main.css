@@ -548,3 +548,34 @@ div.bitcointips-wrapper:before {
 .qrcode {
     margin-right: 28px !important;
 }
+
+/* Archives */
+
+#blog-archives article{
+    position:relative;
+    padding:1em 0 1em;
+    padding-left:4.5em;
+    padding-bottom:.7em;
+    margin-bottom: 15px;
+    margin-left:5em
+}
+#blog-archives article footer{padding:0;margin:0}
+
+/* Time display uppercased, hide year, as we already have it */
+#blog-archives time{
+    font-size:.9em;
+    line-height:1.2em;
+    position:absolute;
+    text-align:right;
+    left:0em;top:1.8em
+}
+#blog-archives time .month{text-transform:uppercase}
+#blog-archives time .year { display: none; }
+
+/* The main year header starts anew */
+#blog-archives h2 {
+    clear:left;
+    margin-top: 0; margin-bottom:.3em;
+    font-weight:normal;display:inline-block;
+    position:relative;
+    float:left}
