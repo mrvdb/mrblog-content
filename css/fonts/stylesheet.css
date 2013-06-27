@@ -46,7 +46,8 @@
 @font-face {
     font-family: 'EntypoRegular';
     src: url('entypo-webfont.eot');
-    src: url('entypo-webfont.eot?#iefix') format('embedded-opentype'),
+    src: local('☺'),
+         url('entypo-webfont.eot?#iefix') format('embedded-opentype'),
          url('entypo-webfont.woff') format('woff'),
          url('entypo-webfont.ttf') format('truetype'),
          url('entypo-webfont.svg#EntypoRegular') format('svg');

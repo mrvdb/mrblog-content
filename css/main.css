@@ -67,7 +67,7 @@ div.navigation {
   width:100%;
   top:0;
   left:0;
-  height:50px;
+  height:55px;
 }
 body>div#topwrap {	position:fixed;}
 
@@ -580,8 +580,19 @@ div.bitcointips-wrapper:before {
     position:relative;
     float:left}
 
-/* Icons use the entypo class */
-.icon {
-    font-family: "EntypoRegular";
-    font-size: 28pt;
-    }
+/* Icons use the entypo font */
+.icon:before{
+    font:48px/.75 'EntypoRegular';
+    height:36px;
+    width:32px;
+    margin-right:5px;
+    vertical-align:-2px;
+    text-decoration:none;
+    display:inline-block;
+    zoom:1;
+    *display:inline;
+    _height:36px;
+}
+/* Bring a rule for each icon */
+.home.icon:before{content:"\00EF"}
+.home { font-size: 180%;}
