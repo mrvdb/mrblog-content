@@ -1,0 +1,10 @@
+Sitemap: http://mrblog.nl/sitemap.xml
+
+User-agent: *
+Disallow: /feed/
+Disallow: /archive/
+Disallow: /css/
+Disallow: /files/
+Disallow: /js/
+Disallow: /tag/
+Disallow: /page*/
