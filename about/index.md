@@ -11,15 +11,16 @@ To build the site I have borrowed a number of tools and resources from
 others. I try to keep a complete list of them complete with links back
 to them:
 
-* blog system is [jekyll][jekyll];
+* blog system is [jekyll][];
 * theme is a modified [72 Class theme][class72] by Alan Who;
 * some images came from the [iNove theme][inove] by NeoEase;
-* Programs used for posting content: Emacs, [orgmode][orgmode], [jekyll][jekyll];
-* Comment system: [Disqus][disqus];
-* Some parts of the theme came from the [octopress][octopress] theme;
-* I use [git][gitscm] to publish the blog to my server;
-* Content is mostly written in [orgmode][orgmode] or [markdown][markdown].
-* Some of the images are hosted on [flickr][flickr];
+* Programs used for posting content: Emacs, [orgmode][], [jekyll][];
+* Comment system: [Disqus][];
+* Some parts of the theme came from the [octopress][] theme;
+* I use [git][] to publish the blog to my server;
+* Content is mostly written in [orgmode][] or [markdown][].
+* Some of the images are hosted on [flickr][];
+* the [Entypo][] icons are used;
 
 If you feel that credit for one of your programs should be in this list, let me know.
 
@@ -30,5 +31,6 @@ If you feel that credit for one of your programs should be in this list, let me 
 [disqus]:    http://disqus.com "Elevating the discussion"
 [inove]:     http://www.neoease.com/inove/ "iNove wordpress theme"
 [octopress]: http://octopress.org "A blogging framework for hackers"
-[gitscm]:    http://git-scm.com
+[git]:       http://git-scm.com
 [flickr]:    http://flickr.com
+[entypo]:    http://entypo.com
