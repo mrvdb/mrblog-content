@@ -579,3 +579,9 @@ div.bitcointips-wrapper:before {
     font-weight:normal;display:inline-block;
     position:relative;
     float:left}
+
+/* Icons use the entypo class */
+.icon {
+    font-family: "EntypoRegular";
+    font-size: 28pt;
+    }
