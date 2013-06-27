@@ -596,3 +596,5 @@ div.bitcointips-wrapper:before {
 /* Bring a rule for each icon */
 .home.icon:before{content:"\00EF"}
 .home { font-size: 180%;}
+.rss.icon:before{content:"\0053"}
+.rss.icon { float: right; font-size: 200%;}
