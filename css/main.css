@@ -119,7 +119,7 @@ ul.years li {  display: inline;}
 /*   .post .title   */
 .post .title {  margin-left: 4em;}
 .post .title h2 {
-    font-size: 2.2em;
+    font-size: 2.0em;
     font-weight: bold;
     padding-bottom: 5px;
 }
@@ -596,6 +596,6 @@ div.bitcointips-wrapper:before {
 }
 /* Bring a rule for each icon */
 .home.icon:before{content:"\00EF"}
-.home { font-size: 180%;}
+.home { font-size: 160%;}
 .rss.icon:before{content:"\0053"}
 .rss.icon { float: right; font-size: 200%;}
