@@ -25,3 +25,6 @@ url: http://mrblog.nl
 
 # Enable pagination
 paginate: 10
+
+# Force permalink without categories for now
+permalink: /:year/:month/:day/:title.html
