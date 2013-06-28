@@ -21,10 +21,16 @@ tag_title_prefix: "&nbsp;"
 tag_title_suffix: "&nbsp;"
 
 # Make sure the sitemap.xml URL's are always absolute
+# FIXME: this conflicts with my plan for subdomains
 url: http://mrblog.nl
 
 # Enable pagination
 paginate: 10
 
 # Force permalink without categories for now
+# This is needed to allow freedom in directory location, so
+# the url wont change when I change location of _posts folder.
 permalink: /:year/:month/:day/:title.html
+
+# Use rdiscount for markdown processing
+markdown: rdiscount
