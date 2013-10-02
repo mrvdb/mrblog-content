@@ -1,4 +1,11 @@
-# Not sure where these are used
+# Basic settings
+
+# I define the destination as a hidden folder. The whole idea is to
+# abstract the site  away, so under normal circumstances we do not
+# need to see the site files. But, we want to be able to reach them.
+# The default is _site, so it makes sense to name it '.site'
+destination: .site
+
 name: Marcel van der Boom
 
 # Used in feed
