@@ -579,23 +579,24 @@ div.bitcointips-wrapper:before {
     margin-top: 0; margin-bottom:.3em;
     font-weight:normal;display:inline-block;
     position:relative;
-    float:left}
+    float:left;
+}
 
 /* Icons use the entypo font */
-.icon:before{
-    font:48px/.75 'EntypoRegular';
-    height:36px;
-    width:32px;
-    margin-right:5px;
-    vertical-align:-2px;
-    text-decoration:none;
-    display:inline-block;
-    zoom:1;
-    *display:inline;
-    _height:36px;
+.icon {
+    display: inline !important;
 }
+
+.icon:before {
+  font-family: 'EntypoRegular';
+  font-size: 300%;
+  display: inline;
+  vertical-align: middle;
+}
+
 /* Bring a rule for each icon */
-.home.icon:before{content:"\00EF"}
-.home { font-size: 160%;}
-.rss.icon:before{content:"\0053"}
-.rss.icon { float: right; font-size: 200%;}
+.rss-icon:before{ content:"\0053" }
+
+nav a:hover {
+    color: #428bca !important;
+}

@@ -4,7 +4,9 @@
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
         <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" type="text/css" href="/css/syntax.css"/>
@@ -17,26 +19,9 @@
 
     </head>
     <body>
-      <div id="topwrap">
-	<div id="top">
-          <p>
-            <a href="/" class="home icon">Marcel van der Boom</a>
-          </p>
-	    <a href="/feed" class="rss icon" title="Subscribe to atom feed"></a>
+      <!-- Navigation bar -->
+      {% include navbar.inc %}
 
-        <div>
-
-        <!-- Search form -->
-	<!-- FIXME: this is somewhat non-trivial -->
-        <!-- <form style="margin-left: 2em; display: inline-block;" method="get" id="searchform" action="/"> -->
-        <!--   <div> -->
-        <!--     <input type="text" value="" name="s" id="s" /> -->
-        <!--     <input type="submit" id="searchsubmit" value="Search" /> -->
-        <!--   </div> -->
-        <!--  </form> -->
-	</div>
-	</div>
-      </div>
 
       <div id="content">
         {{ content }}
@@ -68,5 +53,9 @@
 	  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
 	}());
       </script>
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="js/jquery.min.js"></script>
+      <scritp src="js/bootstrap.min.js"
     </body>
 </html>
