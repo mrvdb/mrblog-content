@@ -10,10 +10,11 @@
     </button>
 
 
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/">
       <span class="glyphicon glyphicon-home"></span>
-      <span>Marcel van der Boom</span>
     </a>
+    <span class="navbar-brand">Marcel van der Boom</span>
+
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
