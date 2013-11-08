@@ -1,6 +1,8 @@
+#+COMMENT -*- mode:org -*-
+
 This directory contains the files needed for the program jekyll to
-produce a website. The content of the site is placed in '_posts'
-folders and '_pages' folders.
+produce a website. The content of the site is taken from the '_posts'
+and '_pages' folders.
 
 The content can be any format that jekyll supports, which includes at
 least markdown and html.
