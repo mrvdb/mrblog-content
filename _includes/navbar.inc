@@ -21,12 +21,12 @@
     </ul>
 
     <!-- Search form -->
-    <form class="navbar-form navbar-right" role="search">
-      <div class="form-group">
-        <input type="text" class="form-control input-sm" placeholder="Search"/>
-      </div>
-      <button type="submit" class="btn-sm btn-primary">Search</button>
-    </form>
+    <!-- <form class="navbar-form navbar-right" role="search"> -->
+    <!--   <div class="form-group"> -->
+    <!--     <input type="text" class="form-control input-sm" placeholder="Search"/> -->
+    <!--   </div> -->
+    <!--   <button type="submit" class="btn-sm btn-primary">Search</button> -->
+    <!-- </form> -->
 
     <!-- Other menu items -->
     <!-- <ul class="nav navbar-nav navbar-right"> -->
