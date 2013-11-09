@@ -22,8 +22,8 @@ h1.pagetitle { text-align: center; margin: 0 auto 1em auto; }
 a { text-decoration: none; font-weight: bold;}
 
 /* Top and footer have white links, blue hover */
-#top a, #footer a { color: white; }
-#top a:hover, #footer a:hover { color: rgb(0,128,255);}
+#footer a { color: white; }
+#footer a:hover { color: rgb(0,128,255);}
 
 /* Normal content has blue links, black hover */
 #content a {
@@ -60,21 +60,7 @@ div.navigation {
     padding-top: 8px;
     background-color: #eee;
 }
-/*   #top   */
-#topwrap {
-  background-color: rgb(10,10,10);
-  position:absolute;
-  width:100%;
-  top:0;
-  left:0;
-  height:55px;
-}
-body>div#topwrap {	position:fixed;}
 
-#top {
-    padding: .7em;}
-#top p {   float:left;  font-size: 110%; font-weight: bold; }
-#top div { text-align: right; }
 ul.years {  list-style: none;  display: inline;}
 ul.years li {  display: inline;}
 
@@ -338,7 +324,7 @@ div#footerwrap {
 body>div#footerwrap {	position:fixed;}
 
 /* Order of the below three statements is important */
-#topwrap, #footerwrap {
+.navbar-inverse, #footerwrap {
 opacity: 0.90;
 -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 filter: alpha(opacity=90);
@@ -516,10 +502,6 @@ div.markdown_generated {
     bottom: 0 !important;
     }
 
-/* Make sure that the top header is on top */
-#topwrap {
-    z-index: 1;
-    }
 
 /* Bitcoin tips plugin adjustment */
 div.bitcointips-widget {
@@ -597,6 +579,6 @@ div.bitcointips-wrapper:before {
 /* Bring a rule for each icon */
 .rss-icon:before{ content:"\0053" }
 
-nav a:hover {
-    color: #428bca !important;
-}
+/* nav a:hover { */
+/*     color: #428bca !important; */
+/* } */

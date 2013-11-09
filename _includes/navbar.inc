@@ -13,7 +13,7 @@
     <a class="navbar-brand" href="/">
       <span class="glyphicon glyphicon-home"></span>
     </a>
-    <span class="navbar-brand">Marcel van der Boom</span>
+    <a class="navbar-brand" href="/">{{ site.name }}</a>
 
   </div>
 
