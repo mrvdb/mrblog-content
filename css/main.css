@@ -354,22 +354,22 @@ img.portrait{width: 200px;height: auto;}
 
 .cat-item a { text-transform: capitalize }
 
-.sidebar-additional {
+.sidebar {
   width: 320px;
   font-size: small;
   margin-left: 20px;
-  margin-top: 30px;
-padding-left: 10px;
-  float: right;
+  margin-top: 50px;
+  padding-left: 10px;
+
 }
-.sidebar-additional ul {
+.sidebar ul {
   margin-left: 2em;
   list-style: none;
 }
-.sidebar-additional li {
+.sidebar li {
   margin-top: 5px;
 }
-.sidebar-additional h2 {
+.sidebar h2 {
   padding-left: 8px;
 }
 
@@ -382,42 +382,15 @@ div.additional { margin-bottom: 1em; margin-top: 1em;}
 
 /* .excerpt {  font-size: smaller;} */
 
-.cutout {
-  float: right;
-  width: 35%;
-  font-size: 9pt;
-  border: thin solid gray;
-  margin: 10px;
-  margin-left: 55px;
-  margin-top: 35px !important;
-  margin-bottom: 55px !important;
-  padding: 15px;
-  background-color: #EEE;
-}
-.cutout ul { list-style:none;}
-
-
-/* MrB and friends block on the right ------------------------------- */
-#twitter_div > div {
-    border: thin solid gray !important;
-}
-
 .tweet > p { text-align: left; }
-
-#twitter_div>div, .cutout, .shadow, .flickr {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  -webkit-box-shadow: #888 10px 10px 5px;
-  -moz-box-shadow: #888 10px 10px 5px;
-}
-
 .tweet {margin:4px 0;padding: 5px; margin-bottom: 0;}
 .tweet img {float:left;margin: 0 8px 4px 0;}
 .tweet .text {margin: 0;}
 .tweet .time a {font-size: 80%;color: #888;white-space: nowrap;text-decoration: none;}
 .tweet .time a:hover {text-decoration: underline;}
 #timeline .tweet .text { min-height: 25px; }
-/* ---------------------------------------------------- */
+
+
 
 div.rssSummary     {  font-size: 85%;}
 div.rssSummary img {  width: 266px;}

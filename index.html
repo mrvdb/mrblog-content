@@ -4,19 +4,11 @@ title: MrBlog
 ---
 
 <!-- Cutout with a stream of statuses -->
-<div class="sidebar-additional">
-  <div class="block additional">
-    <h2>MrB and friends...</h2>
-    <div id="twitter_div">
-      <div id="timeline"></div>
-    </div>
-    <script src="/js/jquery.min.js" type="text/javascript" ></script>
-    <script src="/js/jquery.livetwitter.js" type="text/javascript"></script>
-    <script type="text/javascript">
-      $('#timeline').liveTwitter('mrb', {limit: 10, mode: 'home_timeline', showAuthor: true, service: 'o.mrblog.nl'});
-    </script>
-  </div>
+<div class="sidebar pull-right">
+  <!-- Include a timeline of 10 dents/tweets/pumps -->
+  {% include home-timeline.inc %}
 </div>
+
 
 <!-- Show the last 3 posts completely, rest only the excerpt -->
 <!-- Pagination is automatic -->
