@@ -12,10 +12,13 @@ layout: page
       <h2>{{ year }}</h2>
     {% endunless %}
     <article>
-      <h1><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h1>
-      {% include taglist.html %}
+      <h3><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h3>
+      {% assign tagobject=post %}
+      {% include object_tags.inc %}
 
-    <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>{{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}</time>
+    <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>
+      {{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}
+    </time>
   </article>
 
       <p class="summary">{{post.excerpt}}</p>

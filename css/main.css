@@ -19,7 +19,7 @@ body {
 p {	text-align: justify;}
 
 h1.pagetitle { text-align: center; margin: 0 auto 1em auto; }
-a { text-decoration: none; font-weight: bold;}
+a { text-decoration: none !important; font-weight: bold;}
 
 /* Normal content has blue links, black hover */
 #content a {
@@ -317,7 +317,7 @@ img.portrait{width: 200px;height: auto;}
 
 .sidebar {
   width: 320px;
-  font-size: small;
+  font-size: 12px;
   margin-left: 20px;
   margin-top: 50px;
   padding-left: 10px;
@@ -337,11 +337,8 @@ img.portrait{width: 200px;height: auto;}
 .twitter-timestamp {
   color: gray;
 }
-.additional { font-size: smaller;}
-.additional h2 { font-size: 1.2em;}
-div.additional { margin-bottom: 1em; margin-top: 1em;}
 
-/* .excerpt {  font-size: smaller;} */
+
 
 .tweet > p { text-align: left; }
 .tweet {margin:4px 0;padding: 5px; margin-bottom: 0;}
@@ -350,13 +347,6 @@ div.additional { margin-bottom: 1em; margin-top: 1em;}
 .tweet .time a {font-size: 80%;color: #888;white-space: nowrap;text-decoration: none;}
 .tweet .time a:hover {text-decoration: underline;}
 #timeline .tweet .text { min-height: 25px; }
-
-
-
-div.rssSummary     {  font-size: 85%;}
-div.rssSummary img {  width: 266px;}
-div.rssSummary ul  {  list-style-type: disc !important; margin-left: 2em; }
-div.rssSummary ol  {  margin-left: 2em; }
 
 
 div.wrap {
