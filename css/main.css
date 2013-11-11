@@ -41,21 +41,6 @@ h2 a:hover { color: #666666 !important;}
   margin-right: .25em; text-align:center;
 }
 
-/*   .navigation   */
-.navigation { clear: both; padding-bottom: 35px; margin-top: .25em; font-size: 95%; }
-.navigation .alignleft a {
-  float: left; padding-left: 20px;
-  background: url(images/post-nav-previous.gif) no-repeat left center;
-}
-.navigation .alignright a {
-  float: right; padding-right: 20px; text-align: right;
-  background: url(images/post-nav-next.gif) no-repeat right center;
-}
-
-div.navigation {
-    padding-top: 8px;
-    background-color: #eee;
-}
 
 ul.years {  list-style: none;  display: inline;}
 ul.years li {  display: inline;}
@@ -308,29 +293,13 @@ ul.years li {  display: inline;}
 
 /* Order of the below three statements is important */
 .navbar-inverse {
-opacity: 0.90;
--ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-filter: alpha(opacity=90);
+    opacity: 0.90;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    filter: alpha(opacity=90);
 }
 
 #copyright {
   margin-top: -15px !important;
-}
-
-
-.sidebar-bottom .block {
-    font-size: 80%;
-    line-height: 150%;
-    margin: 0em 7em 0em 1em;
-    float:right;
-}
-
-.sidebar-bottom ul li { list-style-type: none; }
-.sidebar-bottom { padding: 0em 0em; margin: 0em auto; overflow: hidden; }
-.sidebar-bottom .block h2, #sidebar .block h3 {
-  /* display:none; */
-    margin: 0em 0em 1em 0em;
-    font-size: 13px;
 }
 
 
