@@ -2,26 +2,37 @@
 layout: nil
 ---
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/feed/atom2html.xsl"
+  media="screen"?>
+<!--
+    This comment has a function. Due to braindead browser designers we
+    are forced to fill up the first 512 bytes of this file without
+    starting the feed tag.
+    This tricks the browser sniffer; not applying its own styling (in
+    the case of firefox) or not applying any styling at all (like in
+    the case of chrome).
+    By the time we have filled the 512 bytes the sniffer gives up and
+    our file is parsed according to standards, as it should have been
+    from the beginning.
+-->
 <feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.name }}</title>
+  <link href="{{site.url}}/feed/atom.xml" rel="self"/>
+  <link href="{{site.url}}/"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{site.url}}/</id>
+  <author>
+    <name><![CDATA[{{ site.author }}]]></name>
+    {% if site.email %}<email><![CDATA[{{ site.email }}]]></email>{% endif %}
+  </author>
 
- <title>{{ site.name }}</title>
- <link href="{{site.url}}/feed/atom.xml" rel="self"/>
- <link href="{{site.url}}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{site.url}}/</id>
- <author>
-   <name><![CDATA[{{ site.author }}]]></name>
-   {% if site.email %}<email><![CDATA[{{ site.email }}]]></email>{% endif %}
- </author>
-
- {% for post in site.posts limit: 20 %}
-   <entry>
-     <title type="html"><![CDATA[{{ post.title }}]]></title>
-     <link href="{{site.url}}{{ post.url }}"/>
-     <updated>{{ post.date | date_to_xmlschema }}</updated>
-     <id>{{site.url}}{{ post.id }}</id>
-     <content type="html"><![CDATA[{{ post.content }}]]></content>
-   </entry>
- {% endfor %}
-
+  {% for post in site.posts limit: 20 %}
+  <entry>
+    <title type="html"><![CDATA[{{ post.title }}]]></title>
+    <link href="{{site.url}}{{ post.url }}"/>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>{{site.url}}{{ post.id }}</id>
+    <content type="html"><![CDATA[{{ post.content }}]]></content>
+  </entry>
+  {% endfor %}
 </feed>
