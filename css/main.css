@@ -8,7 +8,7 @@ img, fieldset { border: none;}
 /* defaults mostly go in body */
 body {
   min-width: 800px;
-  font-size: 16px;
+  font-size: 15px;
   font-family: "UbuntuRegular", sans-serif, helvetica, arial;
   color: rgb(255,255,255);
   background-color: rgb(10,10,10);
@@ -19,18 +19,20 @@ body {
 p {	text-align: justify;}
 
 h1.pagetitle { text-align: center; margin: 0 auto 1em auto; }
-a { text-decoration: none !important; font-weight: bold;}
+a { text-decoration: none !important;}
 
 /* Normal content has blue links, black hover */
-#content a {
-   /* As we potentially have many autolinks, don't make them all too obvious */
-   color: rgb(30,30,120);
-}
+/* #content a { */
+/*    /\* As we potentially have many autolinks, don't make them all too obvious *\/ */
+/*    color: rgb(30,30,120); */
+/* } */
+/* / *
+
 /* But do, when someone hovers over them */
-#content a:hover { color: rgb(0,80,228); }
+/* #content a:hover { color: rgb(0,80,228); } */
 
 /* Headers are linked to article and are black and hover to a greyish color */
-h2 a { color: rgb(15,15,10) !important;}
+/* h2 a { color: rgb(15,15,10) !important;} */
 h2 a:hover { color: #666666 !important;}
 
 
@@ -469,6 +471,6 @@ div.bitcointips-wrapper:before {
 /* Bring a rule for each icon */
 .rss-icon:before{ content:"\0053" }
 
-/* nav a:hover { */
-/*     color: #428bca !important; */
-/* } */
+.pager {
+    clear: both;
+}

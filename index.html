@@ -43,21 +43,5 @@ title: MrBlog
 </div>
 {% endfor %}
 
-<!-- Include navigation block for next/prev page -->
-<div class="navigation">
-  {% if paginator.previous_page %}
-  <span class="alignleft">
-    {% if paginator.previous_page == 1 %}
-      <a href="/" >Newer entries&hellip;</a>
-    {% else %}
-      <a href="/{{ paginator.previous_page_path }}" >Newer entries&hellip;</a>
-    {% endif %}
-  </span>
-  {% endif %}
-  {% if paginator.next_page %}
-  <span class="alignright">
-    <!-- When previous post is syndicated and setting is to have permalink go to the original blog, this points to somewhere outside us!! -->
-    <a href="/{{ paginator.next_page_path }}" rel="prev">Older entries&hellip;</a>
-  </span>
-  {% endif %}
-</div>
+<!-- Include pagination block for next/prev page -->
+{% include pagination.inc %}
