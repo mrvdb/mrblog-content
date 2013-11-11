@@ -20,9 +20,10 @@
       </body>
     </html>
   </xsl:template>
+
   <xsl:template match="atom:entry">
     <li>
-      <div><a href="{atom:link}"><xsl:value-of select="atom:title" disable-output-escaping="yes"/></a></div>
+      <a href="{atom:link/@href}"><xsl:value-of select="atom:title" disable-output-escaping="yes"/></a>
     </li>
   </xsl:template>
 </xsl:stylesheet>
