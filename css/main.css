@@ -124,19 +124,11 @@ ul.years li {  display: inline;}
 }
 .postdata a, .postdata a:visited { text-decoration: none; }
 
-.the_tags, .category {
-  float: left;
-  font-size: 11px;
-  background: url(images/icons.gif) no-repeat;
-  padding-left: 20px;
-  margin-right: 4px;
-  height:16px;
-  line-height:16px;
+.the_tags {
+    float: left;
+    font-size: smaller;
+    margin-top: -10px;
 }
-
-/* icons */
-.category {  background-position: 0 -32px;}
-.the_tags {  background-position: 0 -16px;}
 
 .postdata .comments{ float: right; }
 

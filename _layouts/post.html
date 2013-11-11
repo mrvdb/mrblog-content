@@ -10,12 +10,9 @@ layout: default
     <h2><a href="{{ page.url }}">{{ page.title | xml_escape }}</a></h2>
     <div class="postdata">
       <!-- Tag list -->
-      <span class="the_tags">
-	{% for tag in page.tags %}
-	<a href="/tag/{{ tag }}" rel="tag">{{ tag }}</a>
-	{% unless forloop.last %}|{% endunless %}
-	{% endfor %}
-      </span>
+      {% assign  tagobject=page %}
+      {% include object_tags.inc %}
+
       <span class="right mini-add-comment">
         <a href="{{ page.url }}#disqus_thread"
 	   title="{{page.title | xml_escape}}">Comments</a>&nbsp;&#187;
