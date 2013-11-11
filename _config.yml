@@ -33,7 +33,7 @@ tag_title_suffix: "&nbsp;"
 url: http://mrblog.nl
 
 # Enable pagination
-paginate: 10
+paginate: 5
 
 # Force permalink without categories for now
 # This is needed to allow freedom in directory location, so
