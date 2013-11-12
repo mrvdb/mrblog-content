@@ -21,21 +21,6 @@ p {	text-align: justify;}
 h1.pagetitle { text-align: center; margin: 0 auto 1em auto; }
 a { text-decoration: none !important;}
 
-/* Normal content has blue links, black hover */
-/* #content a { */
-/*    /\* As we potentially have many autolinks, don't make them all too obvious *\/ */
-/*    color: rgb(30,30,120); */
-/* } */
-/* / *
-
-/* But do, when someone hovers over them */
-/* #content a:hover { color: rgb(0,80,228); } */
-
-/* Headers are linked to article and are black and hover to a greyish color */
-/* h2 a { color: rgb(15,15,10) !important;} */
-h2 a:hover { color: #666666 !important;}
-
-
 .off { display: none; visibility:hidden; }
 .count {
   background-color: rgb(0,0,163); color: rgb(255,255,255);
@@ -96,9 +81,9 @@ ul.years li {  display: inline;}
 /* .post .title h2 a, .post .title h2 a:link, .post .title h2 a:visited {  */
 /*     color: rgb(0,0,0);   */
 /* } */
-.post .title h2 a:visited:hover, .post .title h2 a:hover, .post .title h2 a:active {
-    color: #666666;
-}
+/* .post .title h2 a:visited:hover, .post .title h2 a:hover, .post .title h2 a:active { */
+/*     color: #666666; */
+/* } */
 
 
 
@@ -187,16 +172,16 @@ ul.years li {  display: inline;}
 
 
 /*   .comments   */
-.comments {
-    font-size: 95%;
-    margin-left: 70px;
-    margin-right: 23em;
-    padding: 1em 0em;  }
-.comments p { margin: 1em 0em; }
-.comments a { color: rgb(255,255,255); }
-.comments a:hover { color: rgb(255,255,255); }
-.comments h2 { margin: .25em 0em .5em 0em; padding-bottom: .25em; }
-.comments .count { background-color: rgb(0,0,0); color: rgb(255,255,255); }
+/* .comments { */
+/*     font-size: 95%; */
+/*     margin-left: 70px; */
+/*     margin-right: 23em; */
+/*     padding: 1em 0em;  } */
+/* .comments p { margin: 1em 0em; } */
+/* .comments a { color: rgb(255,255,255); } */
+/* .comments a:hover { color: rgb(255,255,255); } */
+/* .comments h2 { margin: .25em 0em .5em 0em; padding-bottom: .25em; } */
+/* .comments .count { background-color: rgb(0,0,0); color: rgb(255,255,255); } */
 
 
 /*   .metalinks   */
@@ -212,76 +197,6 @@ ul.years li {  display: inline;}
 .metalinks .trackbacklink {
     background: url('images/trackback.png') left center no-repeat;
     padding: 2px 0 2px 17px; height: 16px;
-}
-
-
-/*   ol.commentlist   */
-.authorinfo {    float: left;}
-
-.commentlist li {
-    background-color: rgb(51,51,51);
-    color: rgb(255,255,255); margin: 0em;
-    padding: 1em;
-    list-style: none;
-    margin-bottom: .5em;
-}
-.commentlist li .count {
-    background-color: rgb(0,0,0); color: rgb(255,255,255);
-}
-
-.commentlist li.alt {
-    background-color: rgb(30,30,30); color: rgb(255,255,255); overflow: hidden;
-}
-.commentlist li.alt .count {
-    background-color: rgb(51,51,51); color: rgb(255,255,255);
-}
-
-.commentlist li img.gravatar {
-    float: left; margin-right: 1em; background: rgb(230,230,230);
-    border: .25em solid rgb(241,241,241); padding: .25em;
-    width:40px; height:40px;
-}
-.commentlist li a:hover img.gravatar {
-    background: rgb(0,0,153); border: .25em solid rgb(0,0,153);
-    text-decoration:none
-}
-
-.commentlist .count {
-    float: right; margin-left: 1em; border: .1em solid rgb(255,255,255);
-    color: rgb(255,255,255); font-size:14px;
-}
-.comment-content {
-    padding: .6em 0em 0em 0em; }
-.comment-content .cc {
-    border-left: 1px solid rgb(250,250,250); line-height: 20px;
-    padding-left: 12px; margin: 0px 120px;
-    margin-right:18px;
-}
-.comment-content .cc p {
-    font-size: 90%; padding-right: 50px; color:rgb(250,250,250);
-}
-
-/*   .comment_form   */
-
-.comment_form input.med,
-.comment_form select.med,
-.comment_form textarea.textbox {
-    border: .05em solid rgb(0,0,153);
-    color : rgb(51,51,51);
-    padding: .25em; margin: 1em 0em;
-    font-family: Trebuchet MS, Arial, sans-serif; font-size: 1.1em;
-}
-.comment_form textarea.textbox { width: 95%; margin: 1em auto; }
-
-.comment_form input.submit-button {
-    margin : .5em 0em; padding: .25em; width: 11em;
-    cursor: pointer; background-color: rgb(51,51,51); color: rgb(255,255,255);
-    text-align : center; font-size: 1.25em;
-}
-.comment_form input.submit-button:hover,
-.comment_form input.submit-button:focus {
-    background-color : rgb(0,0,0); color : rgb(255,255,255);
-    background-image:none; text-decoration:underline;
 }
 
 
