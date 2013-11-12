@@ -10,9 +10,6 @@ body {
   min-width: 800px;
   font-size: 15px;
   font-family: "UbuntuRegular", sans-serif, helvetica, arial;
-  color: rgb(255,255,255);
-  background-color: rgb(10,10,10);
-  background-color: rgb(255,255,255);
   counter-reset: figures;
 }
 
@@ -168,10 +165,6 @@ blockquote > *:before { content: '\201C'; font-size: 150%;}
 blockquote > *:after  { content: '\201D'; font-size: 128%;}
 blockquote q:before   { content: '\2018';                 }
 blockquote q:after    { content: '\2019';                 }
-
-.mu_register, .widecolumn {
-    background-color: rgb(250,250,250);
-}
 
 img.flickr {width: 300px !important;height: auto;}
 img.portrait{width: 200px;height: auto;}
