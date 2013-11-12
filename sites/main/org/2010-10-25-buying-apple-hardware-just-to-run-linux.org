@@ -1,0 +1,87 @@
+#+POSTID: 1077
+#+DATE: [2010-10-25 ma 21:10]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY:
+#+TAGS: linux apple
+#+DESCRIPTION:
+#+TITLE: Buying apple hardware just to run linux?
+As mentioned in my previous post, I moved back to using Linux as my
+desktop operating system, coming from OSX. I have a couple of notes on
+the why and some observations about it which may be of interest.
+
+My main machine has been a macbook pro 17 inch (or powerbook when they
+still had a ppc in them) for a couple of years now and I was pretty
+much a happy camper using OSX. OSX has represented an ideal mix for my
+long unix based experience and the need for screen candy and proper
+support of drivers which make usage of the hardware flawless.
+
+In short, my hardware broke down. That is, it broke down a bit. Every
+once in a while I'd get coloured stripes on my screen or a yellowish
+glow or fonts of which the letter 'm' would not display correctly (go
+figure). Annoying, but fixable with a reboot and I could live with
+that, at least for a short period of time. When the machine started
+rebooting spontaneously and I started losing work because of it,
+replacement seemed the only option left.
+
+As the problem was intermittent and seemed a bit related to how hard I
+was hitting the cpu with my compiler whip, I decided, before scrapping
+the machine, to install ubuntu linux on it, just to see how it would
+deal with the same hardware error and to have a look at the new ubuntu
+(at that time Lucid) release.
+
+The hardware problem was still present under Linux, but I was able to
+control it. A major help was to be able to control the fanspeed and
+thus the temperature of the machine. This was something that I never
+succeeded in doing under OSX. Perhaps I didn't look hard enough, or
+was not experienced enough in OSX details or whatever. Fact remains, I
+got to control the fans in Linux within the hour and with that a large
+portion of the problem.
+
+By carefully configuring display settings and upgrading to newer
+customized kernels I am now in the situation that my machine is
+basically back to a state where "/scrapping it/" sounds ridiculous and
+it's good to go for a while.
+
+The above process took about 3 to 4 weeks. After that I realized that
+the level of control I had over my machine felt really good.
+
+Having worked on a daily basis under Linux a notable observation was
+that I didn't really miss anything from OSX, apart from a dedicated
+blogging application (MarsEdit) and possibly iTunes. Apart from those,
+most of the applications I used a lot are also available on
+Linux. Emacs and Claws mail actually run a lot better on Linux than
+they do on OSX. I do have a solution for the blogging (org2blog with
+emacs), but replacing iTunes is still a problem;
+
+So, now I have apple hardware all over and not using OSX on any of
+it. At first, that does not sound like a smart thing to do.
+From a financial point of view for one, most people argue that apple
+hardware may be expensive, but a lot of quality software comes
+included. Throwing the sofware away, which is effectively what you do
+when you go running linux on that hardware, does not make much sense
+then, does it?
+
+What I found however, is that it is quite a challenge to match the
+macbook pro specs, build quality and features like the magsafe
+connector for the same price. Add to that an ability to drive the 30"
+screen and it's pretty darn difficult to find a machine other than the
+macbook pro series from apple. (I was charmed by the Sony Vaio Z
+series, but it can't drive the 30"-screen and it's a bit more
+expensive than an MBP too) Viewed from this (admittedly biased) angle
+it makes sense, even if you don't plan on running OSX to buy a
+macbook pro again.
+
+On top of all what is above, there is another issue which has been
+bothering me, and apparently I'm not alone in this, is the general
+direction Apple is taking. While I love their attention to detail and
+precise execution of production of their hardware, I loathe the way
+they treat (iPhone) developers and their strategy of control and
+censorship. The latest preview of OSX Lion only confirmed my
+concerns. Notably the appstore developments and the limitation of
+freedom to run sofware is bothering me. I guess the balance was held
+in some way with their sort-of-open contributions to several pieces of
+sofware (darwin, calendarserver, launchd etc.) but lately the scale
+tipped over for me.
+
+I fully realize this is all subjective and food for rants and all, but
+hey, it's my blog. :-)

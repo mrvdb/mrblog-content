@@ -1,0 +1,132 @@
+#+POSTID: 1112
+#+DATE: [2011-02-23 za 16:40]
+#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
+#+CATEGORY: integration
+#+TAGS: statusnet
+#+PARENT:
+#+DESCRIPTION:
+#+TITLE: Using StatusNet to simplify some social network problems
+
+I'm probably not the typical user of social networks. I join them not
+for social reasons, i.e. interact with /friends/, but because i'm
+interested in the phenomena and the techniques involved. Many of [[http://o.mrblog.nl/mrb][my
+status updates]] are about those techniques itself and probably not very
+interesting reading material for my friends, i.e. the ones I normally
+interact with socially. I bet most of them just ignore my updates. I
+have at times considered splitting my (online) personality into '/ich
+geek/' and '/ich normal/' (cfr. Schachnovelle, Stefan Zweig) and have the
+people I know follow the one or the other, but to date I haven't found
+a good way to deal with that.
+
+** Register at them all?
+Let's assume for the moment that I *am* interested in following my
+friends through social networks. Scribbling down a list of social
+networks I would have to join to be able to follow them:
+
+1. [[http://twitter.com][Twitter]] : most people I know are on there, but many are also on
+   there just because others are on there and not because it is *their*
+   primary network;
+2. [[http://hyves.nl][Hyves]] : Big in the Netherlands only, but used by many of the
+   people I know as their primary network;
+3. [[http://facebook.com][Facebook]] : mostly my international contacts use Facebook, but
+   increasingly more dutch users are switching from hyves to facebook;
+4. [[http://identi.ca][Identi.ca]] : the largest instance of the [[http://status.net][StatusNet]]
+   software. Here's where most of my geek contacts are.
+
+
+Those four basically cover the usage of social networks by my friends.
+So, if I want to follow my (actual real life) friends I need to
+register myself on at least four networks. The actual act of
+registering isn't the problem, that's a one time thing. Checking in on
+a regular basis, (which is what the social part is all about no?), is
+the real problem. I don't want to spent time checking in at 4
+different places. That's the first problem.
+
+As a consequence of people using different networks, and therefore
+hindered in communication, several "/solutions/" have popped up. I
+quoted solutions because they are not really solutions in my view,
+but workarounds. All of these solutions involve some kind of mirroring
+updates on one network on the other, so a different audience has access
+to them. This can be done by the person himself by literally posting
+it to different networks (semi-automatically) or having one network
+/watch/ the other (and vice-versa perhaps) and pull in updates when
+available. Apart from the fact that these mirror operations are not
+very reliable, the bigger issue is that there's duplication without
+reference. The status on the one network rarely accepts the one on the
+other as the original and thus the update is now in fact 2 unrelated
+updates. Especially in an area of short notices like status updates
+which are very abundant it's a big problem when from the start these
+messages get polluted and split.
+
+The third problem is that almost all of these social networks are
+owned and operated by single companies making you sign a lengthy user
+agreement you do not want to read nor fully comprehend if you
+did. This may not be a big issue for most, but it is a problem for
+me. It sounds unreasonable that I should surrender to unclear
+conditions if I am unable to avoid their service, for example by being
+able to choose my own provider or be one myself.
+
+So, impracticality, polution of status and unavoidability present my
+main 3 problems.
+
+** Take control
+Despite the fact that there are quite a few initiatives to solve at
+least part of those problems (StatusNet aims at an open federated
+microblogging platform for example) these initiatives did not bring me
+any closer yet. In fact, so far they have moved me further away from a
+solution, because I had to introduce yet another social network to the
+list initially.
+
+I think there is no real solution to the problems yet. There are a
+couple of things I did though to make my life a bit easier.
+
+First, I chose my /entry point/ to be an open system. For
+me this meant building my whole setup around a StatusNet instance,
+controlled by me and running on my own servers (http://o.mrblog.nl).
+This gives me connectivity and basically flawless federation with all
+statusnet sites. For both twitter and facebook there are bridges which
+make bidirectional comminication possible (not completely for facebook
+yet). Because StatusNet is open source and promotes Open Standards I can
+adjust my local install to my needs if needed. All the data relevant
+to my social graph is stored locally.
+
+Second, I've set up a bridge to Twitter. The StatusNet bridge is mostly
+working, it needs a kick in the butt about once a week, but other than
+that it happily transfers status updates back and forth. One change I
+made to it was to show the twitter status updates in the public
+timeline instead of just in the personal timeline. This makes it
+consistent with what StatusNet itself.
+
+Third, the bridge to facebook does not work fully yet and to be able
+to get status updates to facebook, you have to create an application
+on Facebook to pull out your status updates. So, my friends can hear
+me, but I can't hear them yet. I've worked around that by using gwibber
+which can merge (client side obviously) the two timelines into one.
+
+The above brings me a bit in the direction where I want to be, but the
+effort I've had to put in is way too much for this to be a scaleable solution.
+
+** What's still missing
+With my setup there are still quite a few annoyances:
+
+- I can not subscribe directly to Twitter or Facebook users, I still
+  have to visit their sites to click on 'Follow';
+- There are minor annoyances in bridging my StatusNet updates (@mrb)
+  and my Twitter updates (@mrvdb) The bridge does not translate the
+  two usernames properly into eachother (may be a feature?)
+- The facebook bridge is incomplete.
+- Much better filtering, so I can filter out some notices from users
+  based on a regular expression of some sort. For example, check-in
+  notices from people I'm not that interested in, so a filter would be
+  nice to at least suppress them in my stream.
+- It takes time to keep the stuff running.
+
+** Bonus features
+By setting it up like I have I got a couple of bonus features:
+
+- StatusNet supports a conversation view natively, [[http://o.mrblog.nl/conversation/209001][Here's an example]]
+  Note that the other person is from Twitter. Try to find this view on
+  twitter itself, i have not been able to.
+- I can do away with *some* feeds, because I can subscribe to them
+  directly using StatusNet (using OStatus). Subscribing to
+  blogspot.com blogs is an example.
