@@ -68,7 +68,7 @@ ul.years li {  display: inline;}
 /*   .post .title   */
 h2, h3, h4 {  font-weight: bold;}
 
-.entry h2 {
+.entry h2, .entry h3 {
     clear: left;
 }
 .post .title {  margin-left: 4em;}
