@@ -66,25 +66,15 @@ ul.years li {  display: inline;}
 }
 
 /* But we don't want old right content besides a new post */
-.post.excerpt {
-    clear: both;
-    }
+.post.excerpt { clear: both; }
 
 /*   .post .title   */
-.post .title {  margin-left: 4em;}
-.post .title h2 {
-    font-size: 2.0em;
-    font-weight: bold;
-    padding-bottom: 5px;
+h2, h3, h4 {  font-weight: bold;}
+
+.entry h2 {
+    clear: left;
 }
-
-/* .post .title h2 a, .post .title h2 a:link, .post .title h2 a:visited {  */
-/*     color: rgb(0,0,0);   */
-/* } */
-/* .post .title h2 a:visited:hover, .post .title h2 a:hover, .post .title h2 a:active { */
-/*     color: #666666; */
-/* } */
-
+.post .title {  margin-left: 4em;}
 
 
 /*   .post .date   */
@@ -102,19 +92,17 @@ ul.years li {  display: inline;}
     text-align: center; padding-top: 5px;
 }
 
-
 /*   .postdata   */
 .postdata {
     font-size: 90%;
     color: rgb(10,10,10);
-    /* overflow: auto;  */
 }
 .postdata a, .postdata a:visited { text-decoration: none; }
 
 .the_tags {
     float: left;
     font-size: smaller;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 
 .postdata .comments{ float: right; }
@@ -130,7 +118,7 @@ ul.years li {  display: inline;}
 /*   start .entry   */
 
 .entry {
-    margin-top: 1.5em;
+   margin-top: 2.2em;
    padding-bottom: 25px;
 }
 
@@ -138,65 +126,23 @@ ul.years li {  display: inline;}
     line-height: 1.2em;
     margin-top: 0.7em;
 }
+
 .entry ol {
     list-style-type: decimal;
     padding: .5em 0em;
     padding-left: 2em;
 }
-.entry h2 a, .post h2 a:visited { color: rgb(0,0,0); font-weight: normal; }
-.entry h2 a:hover {
-    background-color: rgb(0,0,0); color: rgb(255,255,255);
-    text-decoration: none;
-}
-/* IE specific because it does not have min-width */
-/** html .entry { width: 600px;}*/
 
 .entry ul {
     padding-left: 2em;
     list-style-type: disc;
 }
+
+
 /*   .postmetadata   */
 .postmetadata {
     margin: 0em; padding: 1em; background-color: rgb(248,248,248);
     border: .15em solid rgb(221,221,221);
-}
-
-/*   .comments-wrapper   */
-.comments-wrapper {
-  clear:both;
-  background-color: rgb(60,60,70); color: rgb(255,255,255);
-  margin-top: -155px;
-  padding-bottom: 12px;
-  margin-bottom: 155px;
-}
-
-
-/*   .comments   */
-/* .comments { */
-/*     font-size: 95%; */
-/*     margin-left: 70px; */
-/*     margin-right: 23em; */
-/*     padding: 1em 0em;  } */
-/* .comments p { margin: 1em 0em; } */
-/* .comments a { color: rgb(255,255,255); } */
-/* .comments a:hover { color: rgb(255,255,255); } */
-/* .comments h2 { margin: .25em 0em .5em 0em; padding-bottom: .25em; } */
-/* .comments .count { background-color: rgb(0,0,0); color: rgb(255,255,255); } */
-
-
-/*   .metalinks   */
-.commentsrsslink,
-.trackbacklink {
-    font-size: 8pt;
-}
-.metalinks { padding: .35em; text-align: right;}
-.metalinks .commentsrsslink {
-    background: url('images/feed.png') left center no-repeat;
-    padding: 2px 0 2px 17px; margin-right: 6px; height: 16px;
-}
-.metalinks .trackbacklink {
-    background: url('images/trackback.png') left center no-repeat;
-    padding: 2px 0 2px 17px; height: 16px;
 }
 
 
@@ -269,7 +215,6 @@ img.portrait{width: 200px;height: auto;}
 
 div.wrap {
   float: left;
-/*  margin-left: 55px;*/
   margin-right: 55px;
   margin-bottom: 20px;
 }
@@ -282,10 +227,6 @@ cite {
   margin-top:-7pt;
   padding:0;
   font-style: italic;
-}
-
-h2,h3,h4 {
-    margin-top: 20px;
 }
 
 pre {
@@ -311,37 +252,8 @@ div.markdown_generated {
     counter-increment: figures
 }
 
-/* Bitcoin tips plugin adjustment */
-div.bitcointips-widget {
-    float:right;
-    width: 40em;
-    margin-left: 2em;
-    -webkit-box-shadow: #888 10px 10px 5px;
-    -moz-box-shadow: #888 10px 10px 5px;
-    border: thin solid;
-    clear: both;
-}
-
-div.bitcointips-wrapper:before {
-  content: '' ;
-  display:block;
-  float: right;
-  border: thin solid;
-  visibility: hidden;
-}
-
-.bitcointips-widget .contents h2 {
-    font-size: 13pt !important;
-    }
-/* An empty cutout leaves a residu */
-.cutout { display: none; }
-
-.qrcode {
-    margin-right: 28px !important;
-}
 
 /* Archives */
-
 #blog-archives article{
     position:relative;
     padding:1em 0 1em;
