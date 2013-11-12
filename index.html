@@ -25,10 +25,10 @@ title: MrBlog
       {% assign tagobject=post %}
       {% include object_tags.inc %}
 
-      <span class="right mini-add-comment">
-	<a href="{{ post.url }}#disqus_thread"
-	   title="{{post.title | xml_escape}}">Comments</a>&#187;
-      </span>
+      <!-- Link to comments -->
+      {% assign  commentobject=post %}
+      {% include commentlink.inc %}
+
     </div>
   </div>
   <div class="clearing"><!-- close clearing --></div>

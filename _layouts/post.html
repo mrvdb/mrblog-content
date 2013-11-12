@@ -13,10 +13,10 @@ layout: default
       {% assign  tagobject=page %}
       {% include object_tags.inc %}
 
-      <span class="right mini-add-comment">
-        <a href="{{ page.url }}#disqus_thread"
-	   title="{{page.title | xml_escape}}">Comments</a>&nbsp;&#187;
-      </span>
+      <!-- Link to comments -->
+      {% assign  commentobject=page %}
+      {% include commentlink.inc %}
+
     </div>
   </div>
   <div class="clearing"><!-- close clearing --></div>
