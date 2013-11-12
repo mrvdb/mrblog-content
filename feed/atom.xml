@@ -27,12 +27,6 @@ layout: nil
   </author>
 
   {% for post in site.posts limit: 20 %}
-  <entry>
-    <title type="html"><![CDATA[{{ post.title }}]]></title>
-    <link href="{{site.url}}{{ post.url }}"/>
-    <updated>{{ post.date | date_to_xmlschema }}</updated>
-    <id>{{site.url}}{{ post.id }}</id>
-    <content type="html"><![CDATA[{{ post.content }}]]></content>
-  </entry>
+    {% include atom-entry.inc %}
   {% endfor %}
 </feed>
