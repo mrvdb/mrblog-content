@@ -27,7 +27,7 @@
     </ul>
 
     <!-- Search form -->
-    <form class="navbar-form navbar-right" role="search">
+    <form class="navbar-form navbar-right" role="search" action="/search">
       <div class="form-group">
         <input type="search" class="form-control input-sm" name="query" placeholder="Search"/>
       </div>
