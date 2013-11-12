@@ -318,6 +318,7 @@ img.portrait{width: 200px;height: auto;}
 .cat-item a { text-transform: capitalize }
 
 .sidebar {
+  overflow-wrap: break-word;
   width: 320px;
   font-size: 12px;
   margin-left: 20px;
@@ -456,11 +457,8 @@ div.bitcointips-wrapper:before {
     float:left;
 }
 
-/* Icons use the entypo font */
-.icon {
-    display: inline !important;
-}
-
+/* Some icons are not in bootstrap glyphicons, so we use the entypo font */
+.icon { display: inline !important; }
 .icon:before {
   font-family: 'EntypoRegular';
   font-size: 300%;
@@ -471,6 +469,5 @@ div.bitcointips-wrapper:before {
 /* Bring a rule for each icon */
 .rss-icon:before{ content:"\0053" }
 
-.pager {
-    clear: both;
-}
+/* Make sure the page has free range */
+.pager { clear: both; }
