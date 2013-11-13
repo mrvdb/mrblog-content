@@ -1,10 +1,14 @@
-#+POSTID: 1077
-#+DATE: [2010-10-25 ma 21:10]
-#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
-#+CATEGORY:
-#+TAGS: linux apple
-#+DESCRIPTION:
-#+TITLE: Buying apple hardware just to run linux?
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+BEGIN_HTML
+---
+layout: post
+tags:
+- linux
+- apple
+title: Buying apple hardware just to run linux?
+---
+#+END_HTML
+
 As mentioned in my previous post, I moved back to using Linux as my
 desktop operating system, coming from OSX. I have a couple of notes on
 the why and some observations about it which may be of interest.

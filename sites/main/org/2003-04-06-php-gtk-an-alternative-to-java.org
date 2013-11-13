@@ -12,26 +12,62 @@ published: true
 meta:
   bitcointips_address: 13EeWFaGKUYP2qwiautaBGVKLZLmViB2Vh
 ---
-#+END_HTML
-<p>I experimented a little with PHP-GTK yesterday. I have massive amounts of PHP-libraries lying around and didn't want to switch to another language for using those libraries in other applications than pure web.</p>
-<p>The combo of PHP and GTK makes up for a reasonable alternative (for java for example) for platform independent applications. Especially if combined with libglade. Glade is a tool which is used to build graphical interfaces and store this in a XML format. PHP-GTK is able to read those XML-files and dynamically build the interface. This way, the interface is separated nicely from the code and can be changed without changing the code. :-))</p>
-<p>Example:</p>
+
+<p>I experimented a little with PHP-GTK yesterday. I have massive amounts of PHP-libraries lying around and didn't want to switch to another language for using those libraries in other applications than pure web.
+</p>
+<p>The combo of PHP and GTK makes up for a reasonable alternative (for java for example) for platform independent applications. Especially if combined with libglade. Glade is a tool which is used to build graphical interfaces and store this in a XML format. PHP-GTK is able to read those XML-files and dynamically build the interface. This way, the interface is separated nicely from the code and can be changed without changing the code. :-))
+</p>
+<p>Example:
+</p>
 <pre>
 &lt;?xml version="1.0"?&gt;
 &lt;GTK-Interface&gt;
 &lt;widget&gt;
 &lt;class&gt;GtkWindow&lt;/class&gt;
-&lt;name&gt;windowMain&lt;/name&gt;<br />&lt;width&gt;150&lt;/width&gt;<br />&lt;height&gt;80&lt;/height&gt;<br />&lt;title&gt;PHP-GTK-Glade for world domination&lt;/title&gt;<br />&lt;type&gt;GTK_WINDOW_TOPLEVEL&lt;/type&gt;<br />&lt;position&gt;GTK_WIN_POS_NONE&lt;/position&gt;<br />&lt;modal&gt;False&lt;/modal&gt;<br />&lt;allow_shrink&gt;False&lt;/allow_shrink&gt;<br />&lt;allow_grow&gt;True&lt;/allow_grow&gt;<br />&lt;auto_shrink&gt;False&lt;/auto_shrink&gt;<br />&lt;widget&gt;<br />&lt;class&gt;GtkButton&lt;/class&gt;<br />&lt;name&gt;button&lt;/name&gt;<br />&lt;can_focus&gt;True&lt;/can_focus&gt;<br />&lt;signal&gt;<br />&lt;name&gt;clicked&lt;/name&gt;<br />&lt;handler&gt;<strong>on_button_clicked</strong>&lt;/handler&gt;<br />&lt;/signal&gt;<br />&lt;label&gt;Exit&lt;/label&gt;<br />&lt;relief&gt;GTK_RELIEF_NORMAL&lt;/relief&gt;<br />&lt;/widget&gt;&lt;/widget&gt;&lt;/GTK-Interface&gt;
+&lt;name&gt;windowMain&lt;/name&gt;
+<br />&lt;width&gt;150&lt;/width&gt;
+<br />&lt;height&gt;80&lt;/height&gt;
+<br />&lt;title&gt;PHP-GTK-Glade for world domination&lt;/title&gt;
+<br />&lt;type&gt;GTK_WINDOW_TOPLEVEL&lt;/type&gt;
+<br />&lt;position&gt;GTK_WIN_POS_NONE&lt;/position&gt;
+<br />&lt;modal&gt;False&lt;/modal&gt;
+<br />&lt;allow_shrink&gt;False&lt;/allow_shrink&gt;
+<br />&lt;allow_grow&gt;True&lt;/allow_grow&gt;
+<br />&lt;auto_shrink&gt;False&lt;/auto_shrink&gt;
+<br />&lt;widget&gt;
+<br />&lt;class&gt;GtkButton&lt;/class&gt;
+<br />&lt;name&gt;button&lt;/name&gt;
+<br />&lt;can_focus&gt;True&lt;/can_focus&gt;
+<br />&lt;signal&gt;
+<br />&lt;name&gt;clicked&lt;/name&gt;
+<br />&lt;handler&gt;
+<strong>on_button_clicked
+</strong>&lt;/handler&gt;
+<br />&lt;/signal&gt;
+<br />&lt;label&gt;Exit&lt;/label&gt;
+<br />&lt;relief&gt;GTK_RELIEF_NORMAL&lt;/relief&gt;
+<br />&lt;/widget&gt;&lt;/widget&gt;&lt;/GTK-Interface&gt;
 </pre>
-<p>And the code:</p>
+<p>And the code:
+</p>
 <pre>
 function on_button_clicked() {
 echo "Clickedn";
 }$gx = &amp;new GladeXML('interface.glade');
 $gx-&gt;signal_autoconnect();
 </pre>
-<p>This creates a window with a button on it and connects the <em>clicked</em> signal to the function <em>on_button_clicked</em>. With minimal effort this application can be deployed on any platform which supports PHP and GTK. (someone else may figure out how many, but lots).</p>
-<p>Because the glade interface is in XML this can be deployed locally or remotely at will. For PHP we know that it can run both locally and on the server. This combined opens up some interesting possibilities. We now can deploy interface and code both locally and remotely.</p>
-<p>The usual goodies which relate to XML are of course applicable to glade, like for example XSLT transformations on the interface file (for example filtering out interface elements which have no usefull meaning due to privilege restrictions).</p>
-<p>The combo opens up interesting options for bringing desktop applications and web applications closer together. The whole suite reminds one of techniques used in XUL applications and of Java deployment strategies. I gather if we could hook up this combo to an object broker service like Corba and a PHP compiler we'd have a very powerfull platform.</p>
-<p>It certainly warrants further investigation.</p>
+<p>This creates a window with a button on it and connects the
+<em>clicked
+</em> signal to the function
+<em>on_button_clicked
+</em>. With minimal effort this application can be deployed on any platform which supports PHP and GTK. (someone else may figure out how many, but lots).
+</p>
+<p>Because the glade interface is in XML this can be deployed locally or remotely at will. For PHP we know that it can run both locally and on the server. This combined opens up some interesting possibilities. We now can deploy interface and code both locally and remotely.
+</p>
+<p>The usual goodies which relate to XML are of course applicable to glade, like for example XSLT transformations on the interface file (for example filtering out interface elements which have no usefull meaning due to privilege restrictions).
+</p>
+<p>The combo opens up interesting options for bringing desktop applications and web applications closer together. The whole suite reminds one of techniques used in XUL applications and of Java deployment strategies. I gather if we could hook up this combo to an object broker service like Corba and a PHP compiler we'd have a very powerfull platform.
+</p>
+<p>It certainly warrants further investigation.
+</p>
+#+END_HTML

@@ -5,13 +5,8 @@ layout: post
 title: Dutch nights
 tags:
 - current affairs
-status: publish
-type: post
-published: true
-meta:
-  _edit_last: '1'
-  bitcointips_address: 17BKEho3apipTwtW2exZAKsMvYvsy6yzkF
 ---
 #+END_HTML
-<p>From the back yard. Pity it is too cold to sit there with a beer.</p>
-<p><a href="http://www.flickr.com/photos/96151162@N00/3235033336/"><img src="http://farm4.static.flickr.com/3457/3235033336_f8108d3bde.jpg" class="flickr" alt="Dutch nights" /></a></p>
+From the back yard. Pity it is too cold to sit there with a beer.
+
+[[http://farm4.static.flickr.com/3457/3235033336_f8108d3bde.jpg]]

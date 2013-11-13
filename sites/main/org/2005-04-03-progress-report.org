@@ -6,22 +6,25 @@ title: Progress report
 tags:
 - coding
 - xaraya
-status: publish
-type: post
-published: true
-meta:
-  bitcointips_address: 13LerRukGtV58sF3aPy6Wh3HtV3TC2Uo33
 ---
 #+END_HTML
-<p>Making xaraya react to the mt_keywords MT member was easy with the existing keywords module. The harder part (read: more time consuming) was to make the visual presentation of them in the site somewhat acceptable.</p>
-<p>If you view this article by itself (what we call the <strong>display</strong> view in Xaraya), you'll notice an extra part on the right side "Related entries" which lists other entries which have the same keywords attached to them. This allows a reader to quickly read all entries which have the same or similar taxonomy. <strike>The block isnt fully functional yet, because it reacts to some keywords while it doesn't for others, so there's still some digging to do there.</strike> (FIXED)</p>
-<p>Outstanding task list:</p>
-<ul>
-  <li>making Xaraya react on the mt_tb_ping_urls member</li>
 
-  <li>deal with the allow/disallow flags for trackback and comments</li>
+Making xaraya react to the =mt_keywords= MT member was easy with the
+existing keywords module. The harder part (read: more time consuming)
+was to make the visual presentation of them in the site somewhat
+acceptable.
 
-  <li>find a home for mt_excerpt</li>
+If you view this article by itself (what we call the
+*display* view in Xaraya), you'll notice an extra part
+on the right side "Related entries" which lists other entries which
+have the same keywords attached to them. This allows a reader to
+quickly read all entries which have the same or similar
+taxonomy. +The block isnt fully functional yet, because it reacts to some keywords while it doesn't for others, so there's still
+some digging to do there.+ (FIXED)
 
-  <li>implement the mt.supportedTextFilters method to allow for markdown or textile input</li>
-</ul>
+Outstanding task list:
+ - making Xaraya react on the =mt_tb_ping_urls= member
+ - deal with the allow/disallow flags for trackback and comments
+ - find a home for =mt_excerpt=
+ - implement the mt.supportedTextFilters method to allow for markdown
+   or textile input

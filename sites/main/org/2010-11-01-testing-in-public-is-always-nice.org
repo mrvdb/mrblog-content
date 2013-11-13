@@ -1,10 +1,10 @@
-#+POSTID: 1084
-#+DATE: [2010-11-01 ma 10:57]
-#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
-#+CATEGORY: Uncategorized, Hello
-#+TAGS:
-#+DESCRIPTION:
-#+TITLE: Testing in public is always nice
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+BEGIN_HTML
+---
+title: Testing in public is always nice
+published: false
+---
+#+END_HTML
 
 This is a testing post to see whether this post gets nicely inserted
 below my testcontainer in the tracking file. Should this post be

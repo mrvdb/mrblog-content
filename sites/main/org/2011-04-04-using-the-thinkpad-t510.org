@@ -1,9 +1,15 @@
-#+DATE: [2011-04-04 ma 22:25]
-#+OPTIONS: toc:nil nxum:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
-#+CATEGORY:
-#+TAGS: thinkpad, macbook, review, ubuntu
-#+DESCRIPTION:
-#+TITLE: Using the Thinkpad T510
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+BEGIN_HTML
+---
+tags:
+- thinkpad
+- macbook
+- review
+- ubuntu
+published: false
+title: Using the Thinkpad T510
+---
+#+END_HTML
 
 I've elaborated a bit in a previous post about my dislikes of the way
 Apple seems to be heading. One of the consequences I took from that

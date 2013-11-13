@@ -12,12 +12,12 @@ meta:
   bitcointips_address: 1K24nar6uzgyZyxkaSH7RuWrkGdHtDLKky
 ---
 #+END_HTML
-<p>And a client naturally...Once you have the blog server side set up,
-  you obviously need something better than a webform to post the
-  ramblings. Installation of mozblog(http://mozblog.mozdev.org) went
-  with some hickups. I really like the fact of pressing Alt-P, jotting
-  down something and going back to where I was. No separate
-  application, no nothing.We should seriously considering making the
-  mozblog suitable for Xaraya. This kind of blogging is something I
- can relate to
-</p>
+
+And a client naturally...Once you have the blog server side set up,
+you obviously need something better than a webform to post the
+ramblings. Installation of mozblog(http://mozblog.mozdev.org) went
+with some hickups. I really like the fact of pressing Alt-P, jotting
+down something and going back to where I was. No separate
+application, no nothing.We should seriously considering making the
+mozblog suitable for Xaraya. This kind of blogging is something I
+can relate to.

@@ -6,14 +6,9 @@ title: 5 years of blogging?
 tags:
 - current affairs
 - xaraya
-status: publish
-type: post
-published: true
-meta:
-  _edit_last: '1'
-  bitcointips_address: 1KGnhCxQcjSLhhwWjA9tWFvsPAVfaovJnn
 ---
-#+END_HTML
+
+
 <p>I just migrated the posts from this site from Xaraya to a Wordpress
 install, just like I did with
 <a href="http://cobra.mrblog.nl">My Cobra Blog
@@ -41,3 +36,4 @@ The plan is to have mrblog.nl be a 'top-level' kinda thing, perhaps multi-domain
 
 We'll see.
 </p>
+#+END_HTML

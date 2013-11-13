@@ -1,19 +1,13 @@
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+BEGIN_HTML
 ---
 layout: post
 title: Revisiting Emacs on OSX
 tags:
 - current affairs
-status: publish
-type: post
-published: true
-meta:
-  aktt_notify_twitter: 'yes'
-  _edit_last: '5'
-  _tc_post_format: markdown
-  _tc_post_encoding: wptexturize
-  aktt_tweeted: '1'
-  bitcointips_address: 1Mw2x1hNFHwUCH81hfZuHUUxga5VrN7YV4
 ---
+#+END_HTML
+
 Before I used an Apple machine with OSX, XEmacs was my editor of
 choice. Recently I saw Emacs 23 being released with native OSX support
 in the main repository (well, NextStep support formally, but with Cocoa
@@ -27,7 +21,7 @@ doable to have to wait for another developer to be able to find the time
 to fix issues or provide upgrades within reasonable intervals.
 
 I've had a similar experience with Ecto not that long ago. You'd think
-I'd have learned by now... 
+I'd have learned by now...
 
 Using Emacs again instead of TextMate was actually quite easy. My
 fingers still 'remembered' the keys to press apparently. However, the
@@ -38,7 +32,7 @@ with though.
 What keeps (re-)surprising me about Emacs is that there's apparently a
 mode or package for anything you want to do to get you 80% of the way
 and, thanks to the strong customization, the other 20% is around the
-corner. 
+corner.
 
 I switched last week and since then I've *discovered* a mode that lets
 me view PDF-files (docview), a mode that connects to my microblog

@@ -1,9 +1,12 @@
-#+DATE: [2010-11-10 wo 12:11]
-#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
-#+CATEGORY:
-#+TAGS: openerp
-#+DESCRIPTION:
-#+TITLE: Surviving OpenERP
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+
+#+BEGIN_HTML
+---
+tags: openerp
+title: Surviving OpenERP
+published: false
+---
+#+END_HTML
 
 * Discuss usecase for mailgate
 List of immediate apparent problems which make usage problematic:

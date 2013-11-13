@@ -5,12 +5,16 @@ layout: post
 title: Sigh
 tags:
 - current affairs
-status: publish
-type: post
-published: true
-meta:
-  bitcointips_address: 13Tnu1moaigADiyi6qLvvv5Cfubp8irqFo
 ---
 #+END_HTML
-<p><a href="http://maccentral.macworld.com/news/2004/06/03/microsoft/?lsrc=mcrss-0604">Microsoft granted patent on button click timing</a><br />
-Microsoft Corp. has been granted a patent relating to the use of buttons on hardware devices that form part of a user interface. U.S. patent 6,727,830, granted April 27, is described as a "time-based hardware button for application launch." The patent abstract goes on to explain that the patent relates to how different functions can be invoked depending on whether a button is clicked once, clicked and held down for a period of time, or double-clicked within a short period of time. [<a href="http://maccentral.macworld.com/">MacCentral</a>]</p>
+
+[[http://maccentral.macworld.com/news/2004/06/03/microsoft/?lsrc=mcrss-0604][Microsoft granted patent on button click timing]]
+
+Microsoft Corp. has been granted a patent relating to the use of
+buttons on hardware devices that form part of a user
+interface. U.S. patent 6,727,830, granted April 27, is described as a
+"time-based hardware button for application launch." The patent
+abstract goes on to explain that the patent relates to how different
+functions can be invoked depending on whether a button is clicked
+once, clicked and held down for a period of time, or double-clicked
+within a short period of time. [[http://maccentral.macworld.com][MacCentral]]

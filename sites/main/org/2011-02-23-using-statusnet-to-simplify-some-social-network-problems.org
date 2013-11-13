@@ -1,11 +1,11 @@
-#+POSTID: 1112
-#+DATE: [2011-02-23 za 16:40]
-#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
-#+CATEGORY: integration
-#+TAGS: statusnet
-#+PARENT:
-#+DESCRIPTION:
-#+TITLE: Using StatusNet to simplify some social network problems
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+BEGIN_HTML
+---
+layout: post
+tags: statusnet
+title: Using StatusNet to simplify some social network problems
+---
+#+END_HTML
 
 I'm probably not the typical user of social networks. I join them not
 for social reasons, i.e. interact with /friends/, but because i'm
@@ -18,7 +18,7 @@ geek/' and '/ich normal/' (cfr. Schachnovelle, Stefan Zweig) and have the
 people I know follow the one or the other, but to date I haven't found
 a good way to deal with that.
 
-** Register at them all?
+* Register at them all?
 Let's assume for the moment that I *am* interested in following my
 friends through social networks. Scribbling down a list of social
 networks I would have to join to be able to follow them:
@@ -69,7 +69,7 @@ able to choose my own provider or be one myself.
 So, impracticality, polution of status and unavoidability present my
 main 3 problems.
 
-** Take control
+* Take control
 Despite the fact that there are quite a few initiatives to solve at
 least part of those problems (StatusNet aims at an open federated
 microblogging platform for example) these initiatives did not bring me
@@ -106,7 +106,7 @@ which can merge (client side obviously) the two timelines into one.
 The above brings me a bit in the direction where I want to be, but the
 effort I've had to put in is way too much for this to be a scaleable solution.
 
-** What's still missing
+* What's still missing
 With my setup there are still quite a few annoyances:
 
 - I can not subscribe directly to Twitter or Facebook users, I still
@@ -121,7 +121,7 @@ With my setup there are still quite a few annoyances:
   nice to at least suppress them in my stream.
 - It takes time to keep the stuff running.
 
-** Bonus features
+* Bonus features
 By setting it up like I have I got a couple of bonus features:
 
 - StatusNet supports a conversation view natively, [[http://o.mrblog.nl/conversation/209001][Here's an example]]

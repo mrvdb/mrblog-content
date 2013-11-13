@@ -11,7 +11,7 @@ published: true
 meta:
   bitcointips_address: 1D8CHrEpYP3XnJn3AKjxi614mAZ9jaq8E9
 ---
-#+END_HTML
+
 <p>Distributed and peer 2 peer systems&amp;nbsp; seem to have found it's way into several applications:</p>
 <ul>
   <li>instant messaging (icq, jabber, msn etc.)</li>
@@ -38,3 +38,4 @@ meta:
 </ul>
 <p>Now that fuel-cells will start to appear in notebooks and cellphones the process has started; we're still at the <em>mainframe</em> stage though, but the general outline of the things to come isn't hard to imagine.&amp;nbsp; Each change in type of energy and type of communication has caused radical changes in the past, i fully expect this one to do the same</p>
 <p>By its character the principles of distributed production and p2p delivery are just easier to implement in information technology than in other areas.... We will, most likely based on a combination of solar/wind energy and fuel cells, produce our energy needs in a distributed manner, delivering surplus energy to micro-grids in our neighborhood which in turn delivers to the macro-grids in our town. customization: energy needs for everyone are different, smaller energy plants controlled by the users, not the producers; Now that fuel-cells will start to appear in notebooks and cellphones the process has started; we're still at the mainframe stage though, but the general outline of the things to come isn't hard to imagine.</p>
+#+END_HTML

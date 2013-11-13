@@ -12,12 +12,34 @@ meta:
   bitcointips_address: 1DDyHPeTGFcYjXuHPaAdHi5kyQbWLTihj7
 ---
 #+END_HTML
-After quite a long period of using ecto, I have switched to using [Marsedit][marsedit]. Ecto got sold beginning last year by Adriaan to Illuminix. There has been no update of ecto since and I'm seeing no signs of improvement either. Does this mean ecto as a product is bad? No. I still love the idea and implementation of it. It is still a rough product though, has a number of annoying bugs and generally needs polishing; in other words: maintenance. After filing a couple of bugs and generally getting minimal or no response to them, time has probably come to expand my options.
+After quite a long period of using ecto, I have switched to using
+[[marsedit][Marsedit]]. Ecto got sold beginning last year by Adriaan to
+Illuminix. There has been no update of ecto since and I'm seeing no
+signs of improvement either. Does this mean ecto as a product is bad?
+No. I still love the idea and implementation of it. It is still a
+rough product though, has a number of annoying bugs and generally
+needs polishing; in other words: maintenance. After filing a couple of
+bugs and generally getting minimal or no response to them, time has
+probably come to expand my options.
 
-With the set-up I have (wordpress-µ self hosted, off-line editing, flickr for images) switching between ecto and MarsEdit is hardly any work at all. Key in the account details in the new client and you're basically good to go.
+With the set-up I have (wordpress-µ self hosted, off-line editing,
+flickr for images) switching between ecto and MarsEdit is hardly any
+work at all. Key in the account details in the new client and you're
+basically good to go.
 
-The only drawback I saw upfront was that MarsEdit does not have a wysiwyg like editor as ecto has. I'm not so much looking for the wysiwyg part, but avoiding the html editing process. I worked around this by installing a server side MarkDown plugin which enables me to edit posts in MarkDown. MarsEdit has a Preview Text Filter which supports MarkDown, so I actually feel the situation has improved.
+The only drawback I saw upfront was that MarsEdit does not have a
+wysiwyg like editor as ecto has. I'm not so much looking for the
+wysiwyg part, but avoiding the html editing process. I worked around
+this by installing a server side MarkDown plugin which enables me to
+edit posts in MarkDown. MarsEdit has a Preview Text Filter which
+supports MarkDown, so I actually feel the situation has improved.
 
-I find MarsEdit a bit more intuitive in terms of navigation and menu entries and quite a bit faster to work with. The most important thing however is that the product is properly maintained by Daniel Jalkut from Red Sweater Software. In the last year he has updated the application 4 or 5 times with healthy changelogs and (judging by the forums) Daniel is very much on top of things. That looks a lot better than the current ecto situation.
+I find MarsEdit a bit more intuitive in terms of navigation and menu
+entries and quite a bit faster to work with. The most important thing
+however is that the product is properly maintained by Daniel Jalkut
+from Red Sweater Software. In the last year he has updated the
+application 4 or 5 times with healthy changelogs and (judging by the
+forums) Daniel is very much on top of things. That looks a lot better
+than the current ecto situation.
 
-[marsedit]:http://red-sweater.com/marsedit "MarsEdit blogging client"
+#+LINK: marsedit http://red-sweater.com/marsedit

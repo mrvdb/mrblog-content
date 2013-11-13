@@ -1,10 +1,16 @@
-#+POSTID: 999
-#+DATE: [2010-10-11 ma 15:03]
-#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
-#+CATEGORY: integration
-#+TAGS: org-mode, emacs, wordpress
-#+DESCRIPTION: The excerpt of the blog post goes here. This particular blog-post is a meta-post about org2lbog
-#+TITLE: Using org2blog
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+BEGIN_HTML
+---
+layout: post
+tags:
+- org-mode
+- emacs
+- wordpress
+excerpt: The excerpt of the blog post goes here. This particular blog-post is a meta-post about org2lbog
+title: Using org2blog
+---
+#+END_HTML
+
 Since moving from OSX to Linux, for reasons I will elaborate on in
 another post, the only real thing which I missed was the MarsEdit
 blogging application. The immediate effect is that both this blog and
@@ -97,7 +103,7 @@ way.
 
 Which results in this:
 
-[[file:blue.png]]
+[[http://mrblog.nl/files/2010/10/blue.png]]
 
 Users of org-mode may recognize this image as an example of the usage
 of the ditaa system. Processing of /begin_src/ sections in the org file
@@ -144,6 +150,3 @@ Example:
 
 So, with this basic knowledge I should be able to start publishing
 again.
-
-#+blue.png http://mrblog.nl/files/2010/10/blue.png
-#+blue2.png http://mrblog.nl/files/2010/10/blue2.png

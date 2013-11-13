@@ -6,12 +6,11 @@ title: First itch scratched
 tags:
 - coding
 - xaraya
-status: publish
-type: post
-published: true
-meta:
-  bitcointips_address: 17w84fDKpyf3xYv4VGUoSCJUfLVC1dkSYK
 ---
 #+END_HTML
-<p>Brought back the metaweblog api module and activated it on this blog.</p>
-<p>The metaweblog api in Xaraya is incomplete, but the first result is there: multiple category support, directly from the blog client. (This post is in two for example)</p>
+
+Brought back the metaweblog api module and activated it on this blog.
+
+The metaweblog api in Xaraya is incomplete, but the first
+result is there: multiple category support, directly from the blog
+client. (This post is in two for example)

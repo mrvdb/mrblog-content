@@ -1,19 +1,15 @@
 #+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+BEGIN_HTML
 ---
 layout: post
 title: Sometimes you run into something on the web...
 tags:
 - current affairs
-status: publish
-type: post
-published: true
-meta:
-  _edit_last: '5'
-  bitcointips_address: 16dzipgYFR9NmT8z5yu4DL6qqUSofSCpAJ
 ---
 #+END_HTML
 While looking for a solution to a LaTeX path search problem i ran into this:
 
+#+BEGIN_HTML
 <div class="attribution">
   <blockquote cite="http://hans.fugal.net/blog/2009/03/12/microwave-duty-cycle#comments">
     <p>As you may know, when you change the power setting on most microwaves, it doesn’t change the power output of the magnetron. It changes the duty cycle, i.e. when the magnetron is on and when it is off.</p>
@@ -22,6 +18,7 @@ While looking for a solution to a LaTeX path search problem i ran into this:
     From: <a href="http://hans.fugal.net/blog/2009/03/12/microwave-duty-cycle#comments">Microwave Duty Cycle | The Fugue</a>
   </cite>
 </div>
+#+END_HTML
 
 He's a brave soul, I did this years ago too, but was afraid to admit (let alone publish it).
 (Oh and I also found the solution to my LaTeX search problem there)

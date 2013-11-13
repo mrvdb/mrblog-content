@@ -1,9 +1,10 @@
-#+DATE: [2010-11-01 ma 10:57]
-#+OPTIONS: toc:nil num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil
-#+TAGS: Uncategorized, Hello
-#+TAGS:
-#+DESCRIPTION:
-#+TITLE: Testing jekyll posting
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+BEGIN_HTML
+---
+title: Testing jekyll posting
+published: false
+---
+#+END_HTML
 
 The intent of this file is to represent the way in which I would like
 a blog posting to be, i.e. a plain org file.
