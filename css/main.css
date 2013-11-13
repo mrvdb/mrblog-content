@@ -291,3 +291,21 @@ div.markdown_generated {
 
 /* Make sure the page has free range */
 .pager { clear: both; }
+
+/* Pullquote styling */
+.pullquote-right:before {
+    /* Content */
+    content: attr(data-pullquote);
+    color: #357ebd;
+
+    float: right;
+    width: 320px;
+    margin-left: 24px;
+    /* Baseline correction */
+    position: relative;
+    top: 5px;
+
+    /* Typography (30px line-height equals 25% incremental leading) */
+    font-size: 23px;
+    line-height: 30px;
+}

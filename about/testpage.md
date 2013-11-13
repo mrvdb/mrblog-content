@@ -24,12 +24,21 @@ text. We could write actual content but we haven't got anything to say really.
 ###### Header 6
 
 
+### Block quotes
+
 > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 > consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 > Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
 >
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
 > id sem consectetuer libero luctus adipiscing.
+
+### Pull quotes
+
+{% pullquote %}
+Surround your paragraph with the pull quote tags. {" Then when you come to
+the text you want to pull,  surround it like this "} and that's all there is to it.
+{% endpullquote %}
 
 ## Lists
 
@@ -56,7 +65,31 @@ spaces
     And this is the paragraph that follows it, which should obviously have
     a little bit of text to see the lines wrap to the next line. This
     paragraph will be repeated everywhere we want to have a block of
-    text. We could write actual content but we haven't got anything to say really.
+    text. We could write actual content but we haven't got anything to
+    say really.
+
+Higlighting of code is supported, this requires python pygments and a
+syntax highlighting stylesheet.
+
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
+Line numbers can also be used with this:
+
+{% highlight ruby linenos %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
+Other code related embedding is for githubs gist facility
+
+{% gist 5555251 result.md %}
+
+
 
 ## Rules
 
