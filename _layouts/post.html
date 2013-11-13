@@ -2,10 +2,8 @@
 layout: default
 ---
 <div class="post">
-  <div class="date">
-    <span>{{ page.date | date: "%b" }}</span>
-    {{ page.date | date: "%d" }}
-  </div>
+  {% include calendar.inc date=page.date %}
+
   <div class="title">
     <h2><a href="{{ page.url }}">{{ page.title | xml_escape }}</a></h2>
     <div class="postdata">

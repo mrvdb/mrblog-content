@@ -83,10 +83,17 @@ h2, h3, h4 {  font-weight: bold;}
     float: left;
     margin-top:20px;
 }
-.post .date span {
+.post .date span.month {
     height: 16px; display: block;
-    font: bold 11px Arial, Helvetica, sans-serif;	color: #ffffff;
+    font: bold 11px Arial, Helvetica, sans-serif;
+    color: #ffffff;
     text-align: center; padding-top: 5px;
+}
+.post .date span.day {
+    vertical-align: text-bottom;
+    position: relative;
+    top: 3px;
+    color:#666666;
 }
 
 /*   .postdata   */
