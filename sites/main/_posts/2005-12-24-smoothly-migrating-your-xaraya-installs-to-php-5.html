@@ -3,19 +3,45 @@ layout: post
 title: Smoothly migrating your Xaraya installs to PHP 5
 tags:
 - xaraya
-status: publish
-type: post
-published: true
-meta:
-  bitcointips_address: 192P7KqCD9fmB7N27v4jVDWLwHoP5p2Sjg
 ---
-<p>We run about 30 Xaraya installations for our clients on our servers. Some of those clients are eager to migrate to PHP 5 while others are more conventional and want to wait. For others, due to the specific requirements, moving to PHP 5 is not possible yet. How to cater for both of these customers?</p>
-<p>Assuming it's common knowledge that if you want to run both php versions on the same server you'll have to run two different instances of your webserver, usually on two different ports. In our case, when you access a site you get apache 1.3 with php4 by default. If you access the same site at port 81 (like site.com:81) you get apache 2 with php5.</p>
-<p>When you want to make sure that a particular site runs php5 even if accessed through the default port (80) you can include the following in your htaccess file:</p>
-<pre>
+<p>
+We run about 30 Xaraya installations for our clients on our
+servers. Some of those clients are eager to migrate to PHP 5 while
+others are more conventional and want to wait. For others, due to the
+specific requirements, moving to PHP 5 is not possible yet. How to
+cater for both of these customers?
+</p>
+
+<p>
+Assuming it's common
+knowledge that if you want to run both php versions on the same server
+you'll have to run two different instances of your webserver, usually
+on two different ports. In our case, when you access a site you get
+apache 1.3 with php4 by default. If you access the same site at port
+81 (like site.com:81) you get apache 2 with php5.&lt;/p&gt; &lt;p&gt;When you want
+to make sure that a particular site runs php5 even if accessed through
+the default port (80) you can include the following in your htaccess
+file:
+</p>
+
+{% highlight apache %}
 # Force this site to use port 81 on which php5 is served
 RewriteCond %{SERVER_PORT} !81
 RewriteRule ^.* http://marcel.hsdev.com:81%{REQUEST_URI} [L,R=301]
-</pre>
-<p>The first line tests whether the port accessed is <strong>NOT</strong> port 81 and, if the case, redirects the browser to the same request uri, using the 301 status code ("moved permanently") and makes sure it is the last rewrite rule</p>
-<p>This setup allows each individual site to decide whether to run on php5, optionally using bleeding edge Xaraya features like the creole scenario (which requires php5 ) or to server on both php4 and php5. Likewise if you want to <strong>prevent</strong> using php5 it's easy to see how the htaccess could be adapted. This situation is however far less common.</p>
+{% endhighlight %}
+
+<p>
+The first line tests whether the port accessed is <b>NOT</b>
+port 81 and, if the case, redirects the browser to the same request
+uri, using the 301 status code ("moved permanently") and makes sure it
+is the last rewrite rule.
+</p>
+
+<p>
+This setup allows each individual site
+to decide whether to run on php5, optionally using bleeding edge
+Xaraya features like the creole scenario (which requires php5 ) or to
+server on both php4 and php5. Likewise if you want to
+<b>prevent</b> using php5 it's easy to see how the htaccess
+could be adapted. This situation is however far less common.
+</p>

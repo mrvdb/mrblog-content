@@ -1,189 +1,179 @@
 ---
 layout: post
-title: Using org2blog
 tags:
-- emacs
-- integration
 - org-mode
+- emacs
 - wordpress
-status: publish
-type: post
-published: true
-meta:
-  _wp_old_slug: ''
-  _edit_last: '5'
-  status_net: 'yes'
-  _tc_post_encoding: wptexturize
-  bitcointips_address: 1JhNBEKYT9GMwKyMcQSSsebhU33CRZi2jH
+excerpt: The excerpt of the blog post goes here. This particular blog-post is a meta-post about org2lbog
+title: Using org2blog
 ---
- <p>Since moving from OSX to Linux, for reasons I will elaborate on in
- another post, the only real thing which I missed was the MarsEdit
- blogging application. The immediate effect is that both this blog and
-   my cobra blog have not seen any posts since the switch.
- </p>
-<p> Initially I did make an effort to create a VirtualBox image for
-  MacOSX so I could potentially run OSX applications in my Ubuntu
-  install, but Apple made a pretty good effort to prevent me from
-  running a virtualized OSX, even if you have ticked all their boxes
-  (read: spent enough money on both their hardware and software). So,
-  for the moment, no OSX applications on my main machine anymore.
+
+<p>
+Since moving from OSX to Linux, for reasons I will elaborate on in
+another post, the only real thing which I missed was the MarsEdit
+blogging application. The immediate effect is that both this blog and
+my cobra blog have not seen any posts since the switch.
 </p>
 
-
-<p> The next step was to decide on a new blogging solution, or perhaps
-  publishing solution, as a replacement for MarsEdit. My requirements
-  were as follows:
+<p>
+Initially I did make an effort to create a VirtualBox image for MacOSX
+so I could potentially run OSX applications in my Ubuntu install, but
+Apple made a pretty good effort to prevent me from running a
+virtualized OSX, even if you have ticked all their boxes (read: spent
+enough money on both their hardware and software). So, for the moment,
+no OSX applications on my main machine anymore.
 </p>
-<ul>
-  <li> emacs based solution, preferably integrated with org-mode;
-  </li>
-  <li> based on an api that wordpress supports;
-  </li>
-  <li> reasonably active project and responsive.
-  </li>
+
+<p>
+The next step was to decide on a new blogging solution, or perhaps
+publishing solution, as a replacement for MarsEdit. My requirements were
+as follows:
+</p>
+<ul class="org-ul">
+<li>emacs based solution, preferably integrated with
+org-mode;
+</li>
+<li>based on an api that wordpress supports;
+</li>
+<li>reasonably active project and responsive.
+</li>
 </ul>
-<p>Finding a solution that satisfies all 3 of the above requirements
-  basically left me with org2blog. I did look at a couple of other
-  solutions but none of them met all 3 requirements, amazingly.
+
+<p>
+Finding a solution that satisfies all 3 of the above requirements
+basically left me with org2blog. I did look at a couple of other
+solutions but none of them met all 3 requirements, amazingly.
 </p>
-<p> The use of org2blog is pretty simple, especially if you are
-  already using orgmode to publish documents. The gist of it is to
-  start an outline header and start writing the
-  blog-post. Alternatively the command
-  <code>M-x org2blog-new-entry
-  </code> can be used to start a blog-entry in a new buffer
-  (presumably to be saved to a file later on). Once finished writing a
-  <code>C-c d
-  </code> keyboard shortcut publishes a buffer as a draft, where
-  <code>C-c p
-  </code> publishes the buffer as a finalized post. (Posting as a page
-  in wordpress is also possible).
+
+<p>
+The use of org2blog is pretty simple, especially if you are already
+using orgmode to publish documents. The gist of it is to start an
+outline header and start writing the blog-post. Alternatively the
+command <code>M-x org2blog-new-entry</code> can be used to start a blog-entry in a
+new buffer (presumably to be saved to a file later on). Once finished
+writing a <code>C-c d</code> keyboard shortcut publishes a buffer as a draft, where
+<code>C-c p</code> publishes the buffer as a finalized post. (Posting as a page in
+wordpress is also possible).
 </p>
-<p> I'm using the
-  <i>post-per-buffer variety
-  </i> for this post, so I can attach the source for this posting at
-  the end more easily. I also found that working in a
-  <i>one-posting-per-file
-  </i> matter is easier. (For starters, the org2blog key shortcuts
-  work properly).
+
+<p>
+I'm using the <i>post-per-buffer variety</i> for this post, so I can attach
+the source for this posting at the end more easily. I also found that
+working in a <i>one-posting-per-file</i> matter is easier. (For starters, the
+org2blog key shortcuts work properly).
 </p>
-<p> The concept of org2blog is rather simple. It piggybacks on the
-  excellent export options already present in org-mode and exports the
-  relevant piece of text to html, takes that output and uses the
-  wordpress xml-rpc api to publish it.
+
+<p>
+The concept of org2blog is rather simple. It piggybacks on the
+excellent export options already present in org-mode and exports the
+relevant piece of text to html, takes that output and uses the
+wordpress xml-rpc api to publish it.
 </p>
-<p> This post contains a small set of examples which should be enough
-  to fullfill the vast majority of my blogging-needs. I need a way to
-  chop up text into paragraphs, marking some of my words with some
-  inline markup and I need a way to insert images in a variety of
-  ways. Additionally I want to be able to attach/link to files,
-  preferably automatically attached to the blog-posting.
+
+<p>
+This post contains a small set of examples which should be enough to
+fullfill the vast majority of my blogging-needs. I need a way to chop
+up text into paragraphs, marking some of my words with some inline
+markup and I need a way to insert images in a variety of
+ways. Additionally I want to be able to attach/link to files,
+preferably automatically attached to the blog-posting.
 </p>
-<p> So, let's have a look at the basic ingredients.
+
+<p>
+So, let's have a look at the basic ingredients.
 </p>
-<div id="outline-container-1" class="outline-2">
-  <h2 id="sec-1">Headers
-  </h2>
-  <div class="outline-text-2" id="text-1">
-    <p>Outline headers in org-mode (the lines that start with one or
-    more stars) are translated into html header elements.  Here is an
-      example of the first 5 levels of org-mode outline header levels:
-    </p>
-  </div>
+
+<div id="outline-container-sec-1" class="outline-3">
+<h3 id="sec-1">Headers</h3>
+<div class="outline-text-3" id="text-1">
+<p>
+Outline headers in org-mode (the lines that start with one or more
+stars) are translated into html header elements.  Here is an example
+of the first 5 levels of org-mode outline header levels:
+</p>
 </div>
-<div id="outline-container-2" class="outline-2">
-  <h2 id="sec-2">Header 1
-  </h2>
-  <div class="outline-text-2" id="text-2">
-  </div>
-  <div id="outline-container-2_1" class="outline-3">
-    <h3 id="sec-2_1">Header 2
-    </h3>
-    <div class="outline-text-3" id="text-2_1">
-    </div>
-    <div id="outline-container-2_1_1" class="outline-4">
-      <h4 id="sec-2_1_1">Header 3
-      </h4>
-      <div class="outline-text-4" id="text-2_1_1">
-	<ul>
-	  <li id="sec-2_1_1_1">Header 4
-	    <br />
-	    <ul>
-	      <li id="sec-2_1_1_1_1">Header 5
-		<br />
-	      </li>
-	    </ul>
-	  </li>
-	</ul>
-      </div>
-    </div>
-  </div>
 </div>
-<div id="outline-container-3" class="outline-2">
-  <h2 id="sec-3">Headers (cont'd)
-  </h2>
-  <div class="outline-text-2" id="text-3">
-    <p>The limitation/feature of org-mode that a paragraph belongs to
-    the immediate header above it is equally valid for the texts
-      produced with the help of org2blog. In this example, had I not put
-    the
-      <i>Header (cont'd)
-      </i> header above this paragraph, the text would have belonged
-to the
-      <i>Header 5
-      </i> header.
-    </p>
-    <p> With these, basic structuring of text is achieved. Within
-      normal text, inline markuplike
-      <b>bold
-      </b>,
-      <i>emphasized
-      </i>,
-      <span style="text-decoration:underline;">underlined
-      </span>,
-      <del>striked through
-      </del>, and
-      <code>monospace
-      </code> and
-      <code>ver ba tim
-      </code> should work as well. (not sure what verbatim should
-      produce, but typically a multiple of spaces is the way to
-      distinguish it from normal monospaced paragraphs)
-    </p>
-    <p> These two mechanisms should be enough to create readable blobs
-    of texts, but obviously I would like to have some means to make my
-      posts a bit more attractive; by including images.
-    </p>
-  </div>
+<div id="outline-container-sec-2" class="outline-3">
+<h3 id="sec-2">Header 1</h3>
+<div class="outline-text-3" id="text-2">
+</div><div id="outline-container-sec-2-1" class="outline-4">
+<h4 id="sec-2-1">Header 2</h4>
+<div class="outline-text-4" id="text-2-1">
+</div><div id="outline-container-sec-2-1-1" class="outline-5">
+<h5 id="sec-2-1-1">Header 3</h5>
+<div class="outline-text-5" id="text-2-1-1">
+</div><div id="outline-container-sec-2-1-1-1" class="outline-6">
+<h6 id="sec-2-1-1-1">Header 4</h6>
+<div class="outline-text-6" id="text-2-1-1-1">
+</div><div id="outline-container-sec-2-1-1-1-1" class="outline-7">
+<h7 id="sec-2-1-1-1-1">Header 5</h7>
 </div>
-<div id="outline-container-4" class="outline-2">
-  <h2 id="sec-4">Images
-  </h2>
-  <div class="outline-text-2" id="text-4">
-    <p>Images in org-mode are basically references / links to image
-    locations. If such an image is a file on the local disk of the
-    machine I'm working on, I can insert a link to that file in the
-      usual org-mode way.
-    </p>
-    <pre class="prettyprint src src-org">
-      <span class="org-org-link">file:filename.png
-      </span>
-    </pre>
-    <p> Which results in this:
-    </p>
-    <p>
-      <img src="/files/2010/10/blue.png"
-	   alt="/files/2010/10/blue.png" />
-    </p>
-    <p> Users of org-mode may recognize this image as an example of
-      the usage of the ditaa system. Processing of
-      <i>begin_src
-      </i> sections in the org file will be done prior to publishing,
-      so the image does not even need to be linked explicitly, but can
-      be an implicit result of code evaluation like in the example
-      below:
-    </p>
-    <pre class="example">\#+begin\_src ditaa :file filename.png :cmdline -r
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-sec-3" class="outline-3">
+<h3 id="sec-3">Headers (cont'd)</h3>
+<div class="outline-text-3" id="text-3">
+<p>
+The limitation/feature of org-mode that a paragraph belongs to the
+immediate header above it is equally valid for the texts produced with
+the help of org2blog. In this example, had I not put the <i>Header
+(cont'd)</i> header above this paragraph, the text would have belonged to
+the <i>Header 5</i> header.
+</p>
+
+<p>
+With these, basic structuring of text is achieved. Within normal text,
+inline markup like <b>bold</b>, <i>emphasized</i>, <span class="underline">underlined</span>, <del>striked through</del>, and
+<code>monospace</code> and <code>ver ba tim</code> should work as well. (not sure what verbatim
+should produce, but typically a multiple of spaces is the way to
+distinguish it from normal monospaced paragraphs)
+</p>
+
+<p>
+These two mechanisms should be enough to create readable blobs of
+texts, but obviously I would like to have some means to make my posts
+a bit more attractive; by including images.
+</p>
+</div>
+</div>
+<div id="outline-container-sec-4" class="outline-3">
+<h3 id="sec-4">Images</h3>
+<div class="outline-text-3" id="text-4">
+<p>
+Images in org-mode are basically references / links to image
+locations. If such an image is a file on the local disk of the machine
+I'm working on, I can insert a link to that file in the usual org-mode
+way.
+</p>
+
+<div class="org-src-container">
+
+<pre class="src src-org"><span style="color: #D0BF8F; text-decoration: underline;"><a href="file:filename.png">file:filename.png</a></span>
+</pre>
+</div>
+
+<p>
+Which results in this:
+</p>
+
+
+<div class="figure">
+<p><img src="http://mrblog.nl/files/2010/10/blue.png" alt="blue.png" />
+</p>
+</div>
+
+<p>
+Users of org-mode may recognize this image as an example of the usage
+of the ditaa system. Processing of <i>begin<sub>src</sub></i> sections in the org file
+will be done prior to publishing, so the image does not even need to
+be linked explicitly, but can be an implicit result of code evaluation
+like in the example below:
+</p>
+
+<pre class="example">
+\#+begin\_src ditaa :file filename.png :cmdline -r
 +---------+
 | cBLU    |
 |         |
@@ -192,34 +182,46 @@ to the
 |    |    |
 +----+----+
 \#+end\_src
-    </pre>
-    <p>
-      <img src="/files/2010/10/blue2.png"
-	   alt="/files/2010/10/blue2.png" />
-    </p>
-    <p> In this example the ditaa code evaluated delivered a file
-    /files/2010/10/blue2.png which was subsequently uploaded to the
-    blog. (the problem here is that mentioning the filename translates
-    it into the url on the server, the basename of the file is the
-local filename).
-    </p>
-    <p> Using images which are already somewhere else on the web (I
-    tend to use flickr.com for these) inserting a link to their
-      location should suffice to get the image in the web page.
-    </p>
-    <p> Example:
-    </p>
-    <div class="figure">
-      <p>
-	<img src="http://farm5.static.flickr.com/4066/4645566650_839553e399.jpg"
-	class="flickr" alt="external image example" title="Workbench"
-/>
-      </p>
-      <p>This text is the image caption.
-      </p>
-    </div>
-    <p> So, with this basic knowledge I should be able to start
-      publishing again.
-    </p>
-  </div>
+</pre>
+
+
+<div class="figure">
+<p><img src="blue2.png" alt="blue2.png" />
+</p>
+</div>
+
+<p>
+In this example the ditaa code evaluated delivered a file blue2.png
+which was subsequently uploaded to the blog. (the problem here is that
+mentioning the filename translates it into the url on the server, the
+basename of the file is the local filename).
+</p>
+
+<p>
+Using images which are already somewhere else on the web (I tend to
+use flickr.com for these) inserting a link to their location should
+suffice to get the image in the web page.
+</p>
+
+<p>
+Example:
+</p>
+
+
+<div class="figure">
+<p><img src="http://farm5.static.flickr.com/4066/4645566650_839553e399.jpg" alt="4645566650_839553e399.jpg" />
+</p>
+<p><span class="figure-number">Figure 1:</span> This text is the image caption.</p>
+</div>
+
+<p>
+So, with this basic knowledge I should be able to start publishing
+again.
+</p>
+
+<p>
+#+blue.png <img src="http://mrblog.nl/files/2010/10/blue.png" alt="blue.png" />
+#+blue2.png <img src="http://mrblog.nl/files/2010/10/blue2.png" alt="blue2.png" />
+</p>
+</div>
 </div>
