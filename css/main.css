@@ -18,12 +18,8 @@ p {	text-align: justify;}
 h1.pagetitle { text-align: center; margin: 0 auto 1em auto; }
 a { text-decoration: none !important;}
 
+/* Class to turn stuff off temporarily quickly */
 .off { display: none; visibility:hidden; }
-.count {
-  background-color: rgb(0,0,163); color: rgb(255,255,255);
-  border: .1em solid rgb(0,0,163); padding:.15em .5em;
-  margin-right: .25em; text-align:center;
-}
 
 
 ul.years {  list-style: none;  display: inline;}
