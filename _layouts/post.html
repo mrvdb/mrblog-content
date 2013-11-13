@@ -10,12 +10,10 @@ layout: default
     <h2><a href="{{ page.url }}">{{ page.title | xml_escape }}</a></h2>
     <div class="postdata">
       <!-- Tag list -->
-      {% assign  tagobject=page %}
-      {% include object_tags.inc %}
+      {% include object_tags.inc object=page %}
 
       <!-- Link to comments -->
-      {% assign  commentobject=page %}
-      {% include commentlink.inc %}
+      {% include commentlink.inc object=page %}
 
     </div>
   </div>

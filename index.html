@@ -22,12 +22,10 @@ title: MrBlog
     <h2><a href="{{ post.url }}" >{{post.title}}</a></h2>
     <div class="postdata">
       <!-- Tag list -->
-      {% assign tagobject=post %}
-      {% include object_tags.inc %}
+      {% include object_tags.inc object=post %}
 
       <!-- Link to comments -->
-      {% assign  commentobject=post %}
-      {% include commentlink.inc %}
+      {% include commentlink.inc object=post %}
 
     </div>
   </div>
