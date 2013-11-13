@@ -13,8 +13,8 @@ footer: false
     {% endunless %}
     <article>
       <h3><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h3>
-      {% assign tagobject=post %}
-      {% include object_tags.inc %}
+
+      {% include object_tags.inc object=post %}
 
     <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>
       {{ post.date | date: "<span class='month'>%b</span> <span class='day'>%d</span> <span class='year'>%Y</span>"}}
