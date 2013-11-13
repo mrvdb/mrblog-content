@@ -1,0 +1,28 @@
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+BEGIN_HTML
+---
+layout: post
+title: Moving over
+tags:
+- xaraya
+status: publish
+type: post
+published: true
+meta:
+  bitcointips_address: 1LyA3t5nknr4gMXdYJ6s4AJ2Fx15Xi36Ly
+---
+#+END_HTML
+<p>I moved over my Moveable Type powered blog over to a Xaraya install. Long overdue, given that I am a developer on Xaraya, it is sort of obligatory to run the blog from that package.</p>
+<p>I tried to mimick the old look as much as possible. While Xaraya is certainly more flexible and some things were much easier to do than in MT, I also noticed that the finesses of MT will take a while to move over.<br />
+Some things which will take some time to come back the full MT way:<br /></p>
+<ul>
+  <li>Trackback functionaliy; while Xaraya supports this, it will take some manual effort to get it to be a friendly player;</li>
+
+  <li>Inline RDF Moveable type supports by default for autodiscovery;</li>
+
+  <li>Some templating work is still left (like directly showing the older entries).</li>
+
+  <li>The support for uploading images directly with blog postings</li>
+
+  <li>The extended API support</li>
+</ul>The above is one of the reasons i moved over, so i have a real life itch to implement those things in Xaraya. We'll see

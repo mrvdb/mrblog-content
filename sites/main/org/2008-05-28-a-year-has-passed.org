@@ -1,0 +1,15 @@
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+BEGIN_HTML
+---
+layout: post
+title: A year has passed
+tags:
+- current affairs
+status: publish
+type: post
+published: true
+meta:
+  bitcointips_address: 1BFUMyQa3dzf56LtH5dARnQ15VW7nZV2gw
+---
+#+END_HTML
+<p>More than a year even, time i come back here again. Most of my publishing has been done at http://cobra.mrblog.nl lately.</p>

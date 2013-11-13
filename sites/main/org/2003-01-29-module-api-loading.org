@@ -1,0 +1,25 @@
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+BEGIN_HTML
+---
+layout: post
+title: Module API loading
+tags:
+- xaraya
+status: publish
+type: post
+published: true
+meta:
+  bitcointips_address: 142UNQry17RNJqMRt8Nh6Q7cd5SWvj9t6z
+---
+#+END_HTML
+<p>In calling an API function for a module you had to make sure that the API of that module was loaded in your module. The core had already provisions that if the API was already loaded, it wouldn't load it again. This can be automated. On calliing an API function (assuming that call is necessary of course) the core can check whether the API is loaded and if not, load the API.</p>
+<p>This has the following advantages:</p>
+<ul>
+  <li>guaranteed loading of API</li>
+
+  <li>smaller code size</li>
+
+  <li>simplification for module developers</li>
+</ul>
+<p>This changeset makes it a lot easier for module developers. They can just use xarModAPIFunc in their modules, without calling xarModAPILoad each time. Basically this lil change does the same as the developer did. Check whether the module API was already loaded, if not load the module API.</p>
+<p>All diffs for ChangeSet 1.498</p>

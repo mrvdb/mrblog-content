@@ -1,0 +1,17 @@
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+BEGIN_HTML
+---
+layout: post
+title: Xaraya connects to worldkit
+tags:
+- integration
+- xaraya
+status: publish
+type: post
+published: true
+meta:
+  bitcointips_address: 1EPPZAbZwLnvkEsMGXaUbqBm1H9XTrUPyy
+---
+#+END_HTML
+<p>For play, i constructed a couple of templates on the <a href="http://xaraya.com" title="Xaraya homepage">Xaraya</a> site to connect the <a href="http://brainoff.com/worldkit/" title="RSS based Mapping package">Worldkit</a> package to a xaraya installation to construct a <a href="http://xaraya.com/worldmap" title="Map of developer locations">geographical map</a> (flash based) of the registered users on the Xaraya site.</p>
+<p>Worldkit uses an RSS feed with location information to construct an image where the data points are shown on a map. In doing so, of course the RSS feed can be subscribed to in the 'normal' way too, giving you an addressbook directly in your aggregator of all people who have provided their longitude and latitude information on the site.</p>

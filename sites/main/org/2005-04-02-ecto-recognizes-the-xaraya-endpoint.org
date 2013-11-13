@@ -1,0 +1,21 @@
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+BEGIN_HTML
+---
+layout: post
+title: Ecto recognizes the Xaraya endpoint
+tags:
+- integration
+- xaraya
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '1'
+  bitcointips_address: 1D2iZg22X2Gwuv8yGWAnQ3taotqGbtjK3z
+---
+#+END_HTML
+<p>I dropped a quick message to Adriaan Tijsseling, the developer of the amazing <a title="Ecto blogging application" href="http://ecto.kung-foo.tv/">Ecto</a> package with a number of questions. One of the questions was whether Xaraya could be included as an endpoint in the accounts screen.</p>
+<p>This morning, I fired up Ecto, and the update which contained it was already there! Man, this guy is quick.</p>
+<p style="font-size:11pt"></p>
+<p style="font-size:11pt"></p><a href="/files/2008/11/ectoxar.jpg"><img class="alignnone size-medium wp-image-70" src="/files/2008/11/ectoxar-300x95.jpg" alt="" width="300" height="95" /></a>
+<p>Awesome!</p>

@@ -1,0 +1,17 @@
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+BEGIN_HTML
+---
+layout: post
+title: ! 'Opportunity: apt-get like program on windows'
+tags:
+- ideas
+status: publish
+type: post
+published: true
+meta:
+  bitcointips_address: 12mDVtrjn3ADb7VuFKR1xSQFQnsctD1ifP
+---
+#+END_HTML
+<p>As more and more open source software runs well on windows (something which has not always been that way to my great frustration), becomes more cross platform (e.g. <a href="http://www.xchat.org">xchat</a>, <a href="http://www.sodipodi.com">sodipodi</a>, <a href="http://gaim.sourceforge.net">gaim</a>, <a href="http://www.openoffice.org">openoffice</a> ), i found myself needing an apt-get equivalent on windows.</p>
+<p>Usually windows versions of OSS are either file archives to be dumped into their install directory, or wrapped in a (big) windows installer. I <a href="http://www.google.nl/search?q=apt-get+win32">searched</a> for a windows version for apt-get, but got not much to work with / from.</p>
+<p>I wonder why, can't be that difficult. Shame i have no credit left on my time account.</p>

@@ -1,0 +1,17 @@
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+BEGIN_HTML
+---
+layout: post
+title: BK-view Xaraya module
+tags:
+- revision control
+status: publish
+type: post
+published: true
+meta:
+  bitcointips_address: 1B1LEW3Yhr4s1aZpHm8xbkAQsyccCM7CXQ
+---
+#+END_HTML
+<p>Today the BK-view module I wrote for Xaraya went into a live site which can actually be used for something usefull.</p>
+<p>The site http://bk.xaraya.com is the BitKeeper central for the Xaraya project. The BK-view module is used to browse through all of the clones used in the project, which is in the mean time a rather large number, and I've only included the top level clones.</p>
+<p>The clones from the clones are not even in there.</p>

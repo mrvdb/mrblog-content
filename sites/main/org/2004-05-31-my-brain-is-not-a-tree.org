@@ -1,0 +1,22 @@
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+BEGIN_HTML
+---
+layout: post
+title: My brain is not a tree
+tags:
+- current affairs
+status: publish
+type: post
+published: true
+meta:
+  bitcointips_address: 13x7Lu63UZTGcBSso92feyArNAK6CDF1mZ
+---
+#+END_HTML
+<p>Mind mapping seemed an attractive concept to bring some order into my chaotic thoughts, so i spend an afternoon looking for a program running on OSX to give it a spin.</p>
+<p>The first thing I noticed all these programs assumed (with the exception of <a href="http://thebrain.com" title="PersonalBrain">PersonalBrain</a> which is not available on OS X) that my thoughts are organized in a tree like manner. At some point someone must have decided that a tree like organization for creative thinking is appropriate.</p>
+<p><em>I am probably not a creative person</em></p>
+<p>The <a href="http://www.nova-mind.com/">leading mind mapping software on OS X</a> does not even support quick linking between one part of a tree and another part. Yes, you can draw a line between two leaves, but that's not exactly what i had in mind.</p>
+<p>The PersonalBrain mentioned above comes quite close to what i was looking for, taking each idea as a possible starting point for organizing. So, i played with it for an hour, deleting it from my PC right after that. I managed to make a mess out of it immediately. Instead of stimulating navigation and organizing thoughts I found the program chaotic itself. It created links for me which i didnt want with no obvious feedback when I did that. (and i got dizzy from the UI too)</p>
+<p><em>There must be something wrong with my brain.</em></p>
+<p>If i understand all the involved techniques right, <strong>i need a very graphically oriented and very fast RDF editor with lots of attention to keyboard shortcuts and screen organization</strong>, which hides the horrendous details of RDF graphs and how they are specified. There are some RDF editors out there, mostly java based, but they are exactly that: <strong>RDF editors</strong>, nothing more, nothing less. Not very imaginative about making RDF being a storage format for semantical relationships and abstracting the interface around it.</p>
+<p><em>I must have misunderstood the semantics.</em></p>

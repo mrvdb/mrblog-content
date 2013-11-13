@@ -1,0 +1,18 @@
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+BEGIN_HTML
+---
+layout: post
+title: Gimme a picture too!
+tags:
+- xaraya
+status: publish
+type: post
+published: true
+meta:
+  bitcointips_address: 19jx7t4wRXEpS7ynjG4JkABheScAV6jzAb
+---
+#+END_HTML
+<p>Continuing the work on the metaweblog api implementation in Xaraya, i just finished an initial implementation of the newMediaObject method the API.</p>
+<p>This allows (from capable clients) to upload files to Xaraya directly from the blogging client program.</p>
+<p>Like this:</p>
+<p><span style="color: #808080"><a href="http://www.flickr.com/photos/96151162@N00/3234224329/"><img src="http://farm4.static.flickr.com/3100/3234224329_edf5a31895.jpg" height="160" width="120" alt="Photobooth experiment?" /></a><br /></span></p>
