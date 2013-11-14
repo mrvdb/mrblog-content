@@ -32,6 +32,9 @@ tag_title_suffix: "&rdquo;"
 # FIXME: this conflicts with my plan for subdomains
 url: http://mrblog.nl
 
+# Future posting is just silly
+future: false
+
 # Enable pagination
 paginate: 5
 
