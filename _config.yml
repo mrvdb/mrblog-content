@@ -25,8 +25,8 @@ exclude:
   - wordpress.xml
 
 # Used in tag generation plugin, must be quoted
-tag_title_prefix: "&nbsp;"
-tag_title_suffix: "&nbsp;"
+tag_title_prefix: "Posts tagged with:&nbsp;&ldquo;"
+tag_title_suffix: "&rdquo;"
 
 # Make sure the sitemap.xml URL's are always absolute
 # FIXME: this conflicts with my plan for subdomains
@@ -38,7 +38,7 @@ paginate: 5
 # Force permalink without categories for now
 # This is needed to allow freedom in directory location, so
 # the url wont change when I change location of _posts folder.
-permalink: /:year/:month/:day/:title.html
+permalink: /:year//:month/:day/:title.html
 
 # Use rdiscount for markdown processing
 markdown: rdiscount
