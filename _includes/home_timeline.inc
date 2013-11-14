@@ -8,7 +8,7 @@
     <script src="/js/jquery.livetwitter.js"
 	    type="text/javascript"></script>
     <script type="text/javascript">
-      $('#timeline').liveTwitter('mrb', {limit: 10, mode: 'home_timeline', showAuthor: true, service: 'o.mrblog.nl'});
+      $('#timeline').liveTwitter('mrb', {limit: 6, mode: 'home_timeline', showAuthor: true, service: 'o.mrblog.nl'});
     </script>
   </div>
 </div>
