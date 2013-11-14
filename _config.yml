@@ -42,3 +42,6 @@ permalink: /:year/:month/:day/:title.html
 
 # Use rdiscount for markdown processing
 markdown: rdiscount
+
+# Use UTF-8 everywhere, why isn't this the default by now
+encoding: UTF-8
