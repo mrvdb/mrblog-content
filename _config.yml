@@ -14,7 +14,10 @@ author: Marcel van der Boom
 email: marcel@hsdev.com
 timezone: Europe/Amsterdam
 
+# We generated absolute permalinks, this will become the default of
+# jekyll v2.0 and up.
 relative_permalinks: false
+
 github: mrvdb
 twitter: mrvdb
 
