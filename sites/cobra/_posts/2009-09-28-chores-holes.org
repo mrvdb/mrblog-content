@@ -1,0 +1,39 @@
+---
+layout: post
+title: Chores &amp; Holes
+tags:
+- cobra
+- brakes
+- chassis
+- rear suspension
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  _stcr@_marcel@hsdev.com: '2013-06-23 16:12:24|Y'
+  status_net: 'yes'
+  aktt_notify_twitter: 'yes'
+  aktt_tweeted: '1'
+  _edit_last: '5'
+  bitcointips_address: 1H5DCcRqo1cEEVp7qNHk1erJUV3rfzS4kr
+---
+#+BEGIN_HTML
+
+Continuing with little jobs to finish the rear end backend. First up was the final assembly of the top bolts on the diff.  It's not exactly clear to what value these should be torqued, but I guess the value of the original Jaguar bolts will come close. The lock-wire went considerably smoother than earlier (on the diff bracket). I only needed 3 attempts this time!
+
+<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3936712837" title="View 'Final assembly of diff into chassis' on Flickr.com"><img src="http://farm4.static.flickr.com/3444/3936712837_20e78ea3a5.jpg" class="flickr" alt="Final assembly of diff into chassis" /></a>
+</p>
+
+On to the front, there are six bolts on the suspension which need their head drilled for the lock-wire. Mostly a patience job, making sure the bit gets cooled properly and preventing to much pressure on it. 5 bolts went fine, during the sixth the drill-bit broke. As such that isn't a disaster, you count on the smaller bits to break soon, but the bit got stuck in the bolt! The bolts are jaguar specific and as such a rip-off (around the &euro; 10,- mark I believe). Having no choice, I ordered a new one.
+
+Having the bench drill now is essential, a hole like below just would not be possible by hand. (1.5mm hole, 2.5mm finish)
+<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3937493422" title="View 'Drilled hole for lock-wire' on Flickr.com"><img src="http://farm3.static.flickr.com/2583/3937493422_fd41003a8a.jpg" class="flickr" alt="Drilled hole for lock-wire" /></a></p>
+
+Back to the back again. The handbrake mechanism comes with two extra helper springs which somehow need to be attached to the chassis. There are two or three locations which would be suitable, but only one of them was reachable with the rivet tool I have. It remains scary to drill holes in the chassis.
+<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3958687163" title="View 'Another hole in the chassis, still scary&#8230;' on Flickr.com"><img src="http://farm3.static.flickr.com/2540/3958687163_f7b215a408.jpg" class="flickr" alt="Another hole in the chassis, still scary&#8230;" /></a></p>
+
+At the right bottom you can see the black dot of a more preferable location (it pulls on the spring straight instead of in a slight angle), but unreachable for my tool.
+<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3958685669" title="View 'Handbrake helper spring' on Flickr.com"><img src="http://farm4.static.flickr.com/3444/3958685669_158566a4df.jpg" class="flickr" alt="Handbrake helper spring" /></a></p>
+
+#+END_HTML

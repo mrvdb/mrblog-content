@@ -1,0 +1,32 @@
+---
+layout: post
+title: Rear hub buildup pt. 3
+tags:
+- cobra
+- donor parts
+- rear suspension
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  _stcr@_marcel@hsdev.com: '2013-06-23 16:08:15|Y'
+  status_net: 'yes'
+  bitcointips_address: 16D3TE95B1moNqVnpxgCp6pgBJLYLeAN6x
+---
+#+BEGIN_HTML
+
+<p style="text-align: left">With all parts galvanized, a next step can be taken in building up the rear hubs. I can't complete the rear hubs completely because a spacer thickness needs to be determined to get the necessary endfloat in the hubs. Starting by putting the rear hub in a vice...</p>
+<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3592276645/"><img src="http://farm4.static.flickr.com/3111/3592276645_13005de4ee.jpg" class="flickr" alt="" /></a></p>
+<p style="text-align: left">…and greasing up the bearing.</p>
+<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3592994032/"><img src="http://farm3.static.flickr.com/2432/3592994032_7776799cb4.jpg" class="flickr" alt="" /></a><br /></p>
+<p style="text-align: left">After placing the housing on top of the bearing and filling the cavity with lots of grease, the inner bearing can be driven in, but not completely. Formally, a jaguar specific tool (J15 or something like that) should be used to put pressure on the bearing. This tools contains a machined edge with a specific height (0.152" I think) which makes sure the bearing is not driven in completely. By leaving a little bit of room a (large) endfloat can be measured and from there the necessary spacer thickness can be calculated. Not having this tool I ordered the thickest spacer (0.148") for an alternative procedure.</p>
+<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3593084638/"><img src="http://farm4.static.flickr.com/3404/3593084638_d7a4b92d53.jpg" class="flickr" alt="" /></a><br /></p>
+<p style="text-align: left">With this spacer on top of the inner bearing the whole hub was put under the press to drive in the bearing. When the spacer is flat with the bearing the endfloat can be measured.</p>
+<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3592994612/"><img src="http://farm3.static.flickr.com/2437/3592994612_b3ba0d2a70.jpg" class="flickr" alt="20090603-04597" /></a><br /></p>
+<p style="text-align: left">In my case the endfloat was 0.016" The target endfloat is between 0.002" and 0.006", aiming at the average 0.004". So, instead of the 0.148" spacer I would need a 0.148" - 0.012" = 0.136" which is exactly the size I took out of the donor part, so I can reuse that one.</p>
+<p style="text-align: left">This result was expected for one hub only though. One of the hubs <a href="http://cobra.mrblog.nl/2008/04/crack-in-the-pot.html">had to be replaced</a> because of a crack. It is likely that this hub has different dimensions and another size spacer will be needed. Doing the same procedure for the other hub revealed that the 0.148" spacer would lead to an endfloat of near zero ?!?</p>
+<p style="text-align: left">Hmm...</p>
+<p style="text-align: left">So, I would need a spacer with a minimum thickness of 0.150" (leading to the minimal endfloat of 0.002") This spacer <strong>used to</strong> exist, but apparently not anymore. Need to sleep on this one what to do here.</p>
+
+#+END_HTML

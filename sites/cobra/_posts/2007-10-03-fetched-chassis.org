@@ -1,0 +1,25 @@
+---
+layout: post
+title: Fetched chassis
+tags:
+- cobra
+- chassis
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  _stcr@_marcel@hsdev.com: '2013-06-23 15:59:42|Y'
+  status_net: 'yes'
+  blogger_blog: cobra.mrblog.nl
+  blogger_author: Marcel van der Boomhttp://www.blogger.com/profile/14504033381756826347marcel@hsdev.com
+  blogger_permalink: /2007/10/fetched-chassis.html
+  bitcointips_address: 1NVrZxkcfqh71oonfpkzZsvnu2wXgnLM6W
+---
+#+BEGIN_HTML
+
+<p>Went to <a href="http://www.speedon.nl" title="Speedon">speedon</a> yesterday to fetch the chassis and the assorted bits needed to help me construct a rolling chassis.</p>
+<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2670753694/"><img src="http://farm4.static.flickr.com/3063/2670753694_9bb92beec4.jpg" class="flickr" alt="" /></a><br /></p>
+<p>I should probably stick to the proper order and first finish revising all the jaguar bits, but it's very tempting to start putting things on the chassis. M.u.s.t. r.e.s.i.s.t....</p>
+
+#+END_HTML

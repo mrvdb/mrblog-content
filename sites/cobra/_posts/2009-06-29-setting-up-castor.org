@@ -1,0 +1,38 @@
+---
+layout: post
+title: Setting up castor
+tags:
+- cobra
+- front suspension
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  _stcr@_marcel@hsdev.com: '2013-06-23 16:10:06|Y'
+  status_net: 'yes'
+  aktt_notify_twitter: 'yes'
+  bitcointips_address: 1F6C2uU8k4j3Lr3KBooiLvgbToBDdEg8qd
+---
+#+BEGIN_HTML
+
+While the final castor setting is determined by personal preference after a test ride, the initial castor setting target is between 3 to 5 degrees. The first step is to determine the amount of shims which will not push the two parts of the upper wishbone together and won't push them apart either.
+
+Starting with the original 5 shims (although I think the original shims were of different thickness) turned out to be ok. I also started with the original setup of 3 shims to the front and 2 shims at the back.  This gave me a 4.4&deg; on the left side and 5.0&deg; on the right side of the car.
+
+<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3672069723" title="View '' on Flickr.com"><img src="http://farm3.static.flickr.com/2590/3672069723_e1b3bece58.jpg" alt="" class="flickr"/></a>
+</p>
+
+<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3672068783" title="View '' on Flickr.com"><img src="http://farm3.static.flickr.com/2473/3672068783_9fd6fa414a.jpg" alt="" class="flickr"/></a>
+</p>
+
+Leaving the left side of the car alone, I moved all 3 shims to the back and that gave me 4.5&deg; on the right side.
+
+<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3672875686" title="View '' on Flickr.com"><img src="http://farm4.static.flickr.com/3614/3672875686_a31a584c4c.jpg" alt="" class="flickr"/></a></p>
+
+Should be close enough for now. The measurement is sort of 'an estimate of what it should be' at the moment. It does not really matter what the castor is (within reason obviously) as long as both sides are equal, we should be good to go. (Not that I have hands-on experience with this, it's all theory for me still)
+
+<!--more-->
+<p></p>
+
+#+END_HTML

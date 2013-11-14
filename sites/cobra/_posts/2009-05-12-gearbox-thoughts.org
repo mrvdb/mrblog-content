@@ -1,0 +1,47 @@
+---
+layout: post
+title: Gearbox thoughts
+tags:
+- cobra
+- engine
+- gearbox
+- info
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  _stcr@_marcel@hsdev.com: '2013-06-23 16:07:23|Y'
+  status_net: 'yes'
+  bitcointips_address: 1KcfTdwwaWsq5G3Wfeo4Eq3KEJo71mbT4J
+---
+#+BEGIN_HTML
+
+<p>It's about time I made up my mind about a gearbox to put behind the LS2. When I started to focus on a gearbox I had not a very good idea what criteria to use to evaluate gearboxes. I sort of tried to deliberately ignore (but not completely) the obvious choices in the different forums; not because they are bad or anything, but I wanted to reason my way into a gearbox choice based on technical criteria and personal preferences.</p>
+<p>So, the first thing I did was read up on how the thing actually works.</p>
+<p>The way I look at it, the drivetrain from engine to the wheel on the road is a divider, where you can control the division factor by selecting gears. Other than the gearbox there are is only one other factor which determines how 1 turn of the engine-output-shaft translates into a movement of the rear wheels.</p>
+<div style="text-align: center">
+  <img src="http://static.howstuffworks.com/gif/transmission-diagram.gif" alt="transmission-diagram.gif" /><br />
+</div>
+<p>This is the differential ratio, 3.54 in my case. Once the gear is known, you can calculate how many rotations of the engine it takes to let the wheels rotate once.</p>
+<p>How that translates into road-speed and handling, which is what I am ultimately interested in, is a bit more complicated. The size of the (rear) wheels is one thing, their grip on the road and the influence of all sorts of drag are others.</p>
+<p>It is pretty easy to create a set of graphs with the above information and the gear ratios of the gearbox. These graphs show you rpm vs (ideal) road-speed and a 'shift behaviour' graph, which shows the drops in rpm given a shiftpoint. Here's what that looks like, given a Tremec TKO600 gearbox and 275/40-18 rear wheels.</p>
+<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3507253410/"><img src="http://farm4.static.flickr.com/3612/3507253410_a3aa619acf.jpg" class="flickr" alt="speedvsrpm.png" /></a><br /></p>
+<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3507254300/"><img src="http://farm4.static.flickr.com/3614/3507254300_9cee3a615e.jpg" class="flickr" alt="rpmvsspeed.png" /></a><br /></p>
+<p style="text-align: center"><br /></p>
+<p style="text-align: left">Obviously this is all theoretical. The speeds will be lower in practice as drag increases with speed and how the 'dry numbers' will translate into actual experience is the big surprise I guess. What can be determined from the numbers however, is if the setup of engine,gearbox and differential makes sense overall and helps giving a quick visual overview of the length of the gears, an indication of the effect of the overdrive etc. The second graph above clearly shows the length of the overdrive vs the first 4 gears.</p>
+<p style="text-align: left">I've done this graphing for a couple of gearboxes and stared at the numbers and graphs for a day. Combined with my personal preferences these are the conclusions I came to:</p>
+<p style="text-align: left"></p>
+<ul>
+  <li>manual gearbox;</li>
+
+  <li>in the 'grand touring' theme I'd like an overdrive in top gear(s) which gives me a cruising speed of around 100 km/h at 2000 rpm;</li>
+
+  <li>'open box', that is, the gearbox needs to be documented and serviceable (by me);</li>
+</ul>
+<p>After all that, the choice boiled down for me to a Tremec TKO600 5-speed or the Tremec T56 6-speed (big surprise... not!). Having no hands on experience with either of those two boxes, I spoke to a couple of people having some experience with one or both. Apart from the obvious differences like 5 vs 6 speed and the TKO being a bit stronger on torque allowance, the main thing I distilled from the comments was that the TKO is the more 'raw' box, more aggressive perhaps and better suited to track (ab)use, and the T56 being a bit softer and perhaps more suited for cruising.</p>
+<p>Making my mind up, I think I'll opt for the TKO 600. The bigger torque number gives some playing room with the engine, and I think the LS2 has enough torque to already let me skip 2 gears, so why bother with a 6-speed?</p><br />
+<p style="text-align: left"><br /></p>
+<p style="text-align: left"><br /></p>
+
+#+END_HTML

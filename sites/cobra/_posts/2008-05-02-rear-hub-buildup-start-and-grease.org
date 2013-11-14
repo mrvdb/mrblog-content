@@ -1,0 +1,42 @@
+---
+layout: post
+title: Rear hub buildup start and grease
+tags:
+- cobra
+- donor parts
+- tools
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  _stcr@_marcel@hsdev.com: '2013-06-23 16:02:29|Y'
+  status_net: 'yes'
+  blogger_blog: cobra.mrblog.nl
+  blogger_author: Marcel van der Boomhttp://www.blogger.com/profile/14504033381756826347marcel@hsdev.com
+  blogger_permalink: /2008/05/rear-hub-buildup-start-and-grease.html
+  bitcointips_address: 13bLFXCfhpALwxfC9Yw1WYeioppeFPWLuX
+---
+#+BEGIN_HTML
+
+<p>While waiting on the return of all the suspension components from the galvanizer, there is not much to do. One thing is to prepare the rear hubs for buildup.</p>
+<p>I started to put in the bearing tracks. The fulcrum ones are relatively easy.</p>
+<p style="text-align: center"><br /></p>
+<p style="text-align: center;color: #333333;font-family: 'Trebuchet MS';font-size: 13px;margin-bottom: 9px;margin-left: 0px;margin-right: 0px;margin-top: 0px;padding-bottom: 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px"><span><a href="http://www.flickr.com/photos/96151162@N00/2669249016/"><img src="http://farm4.static.flickr.com/3241/2669249016_5477584d4b.jpg" class="flickr" alt="" /></a></span><br /></p>The innner and outer bearing track is a different story though. Even with the proper bearing drifts it takes quite a bit of hammering to drive them home. After having done two, or rather one and a half i phoned the local garage with the question if i could use their press. That made it a lot easier! It did hurt a bit too see my hubs getting dirty again though.
+
+<div style="text-align: center">
+  <a href="http://www.flickr.com/photos/96151162@N00/2668430113/"><img src="http://farm4.static.flickr.com/3236/2668430113_f143f5e3a7.jpg" class="flickr" alt="" /></a><br />
+</div>
+<div style="text-align: center">
+  <br />
+</div>Also did a bit of reading to choose a grease. I ended up with <a href="http://www.kroon-oil.com/en/products/catalogue/seg_aut/krgr/402/automotive/kroon-oil-greases/high-grade-grease-ht-q9">Kroon Oil Q9</a>. It had the words 'high grade' and 'automotive' on it, came with a free grease gun, which looks a whole lot easier than my current one....
+
+<div style="text-align: center">
+  <a href="http://www.flickr.com/photos/96151162@N00/2941883779/"><img src="http://farm4.static.flickr.com/3171/2941883779_ae8a69bb53.jpg" class="flickr" alt="Grease plus grease gun" /></a><br />
+</div>
+<p style="text-align: center"><br /></p>
+<p>and the stuff is blue! I'm sold.</p>
+<p style="text-align: center"><br /></p>
+<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2942742464/"><img src="http://farm4.static.flickr.com/3146/2942742464_f7fafa89cc.jpg" class="flickr" alt="Blue grease!" /></a><br /></p>
+
+#+END_HTML

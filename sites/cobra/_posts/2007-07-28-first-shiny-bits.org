@@ -1,0 +1,38 @@
+---
+layout: post
+title: First shiny bits
+tags:
+- cobra
+- donor parts
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  _stcr@_marcel@hsdev.com: '2013-06-23 15:58:36|Y'
+  status_net: 'yes'
+  blogger_blog: cobra.mrblog.nl
+  blogger_author: Marcel van der Boomhttp://www.blogger.com/profile/14504033381756826347marcel@hsdev.com
+  blogger_permalink: /2007/07/first-shiny-bits.html
+  bitcointips_address: 1Jz5umV3EfKAYJVCWWU3v69aorWtngTywY
+---
+#+BEGIN_HTML
+
+<p>Went to <a href="http://www.daxbenelux.com">DAX Benelux</a> today to exchange the disassembled calipers for reconditioned ones. I dont actually need them right away, as there is no part finished yet to which i can attach a caliper, but it replaces 4 rusty parts for 4 shiny parts, which feels like progress.<br /></p>
+<div style="text-align: center">
+  <a href="http://www.flickr.com/photos/96151162@N00/2668336895/"><img src="http://farm4.static.flickr.com/3221/2668336895_3527eba57a.jpg" class="flickr" alt="" /></a><br />
+</div>For any part to be ready for anything, the postman brought in the nasty stuff this morning, representing the 4 phases most of the parts will need to go through.<br />
+<div style="text-align: center">
+  <a href="http://www.flickr.com/photos/96151162@N00/2669161100/"><img src="http://farm4.static.flickr.com/3250/2669161100_a2f0aa162a.jpg" class="flickr" alt="" /></a><br />
+</div>
+<ol>
+  <li>Marine Clean; get rid of dirt and grease (i doubt there is any left after the soda-soak they all got, but i'm following instructions here)</li>
+
+  <li>Metal Ready; acid plus zinc-phosphate to get the metal ready to receive the real thing;</li>
+
+  <li>POR15; the coat that is going to protect the parts from rust;</li>
+
+  <li>Chassis Black; the coat that is going to protect the POR15 from UV light; as far as there will be any under the car. (and yes, i got a bit more than just that tiny can there)</li>
+</ol>These and the preceding electrolytic treatment should be more than adequate to keep the donorparts free from rust and protected from whatever may be out there.
+
+#+END_HTML

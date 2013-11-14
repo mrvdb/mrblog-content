@@ -1,0 +1,44 @@
+---
+layout: post
+title: All time favourite cars
+tags:
+- cobra
+- info
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  _stcr@_marcel@hsdev.com: '2013-06-23 16:05:09|Y'
+  status_net: 'yes'
+  _edit_last: '5'
+  _tc_post_format: markdown
+  _tc_post_encoding: wptexturize
+  bitcointips_address: 1Mc74WmuuBU3qPYmrMrRsH71JyozZp2tMN
+---
+#+BEGIN_HTML
+
+A friend and myself decided to exchange our ten all time favourite cars, just for fun.
+
+Here's mine, ordered by age:
+<ol>
+	<li><a href="http://upload.wikimedia.org/wikipedia/commons/6/6d/RL_1938_Bugatti_57SC_Atlantic_34_2.jpg">Bugatti Type 57 Atlantic</a> — 1936</li>
+	<li><a href="http://upload.wikimedia.org/wikipedia/commons/a/a9/1955_Mercedes-Benz_300SL_Gullwing_Coupe_34.jpg">Mercedes 300 SL Gullwing</a> — 1954</li>
+	<li><a href="http://farm4.static.flickr.com/3123/2558461137_bf19e3451b_o.jpg">Chrevrolet 3x00 (pickup)</a> — 1955</li>
+	<li><a href="http://www.partaj.cz/imgs/ameriky/chevy/corvette_c2_3.jpg">Corvette Stingray</a> — 1963 (split rear window version)</li>
+	<li>AC cobra 427 (duh!) — 1965</li>
+	<li><a href="http://www.supercars.net/gallery/119513/2952/1060894-1024.jpg">Ford GT 40 Mk I</a> — 1966</li>
+	<li><a href="http://upload.wikimedia.org/wikipedia/commons/5/53/Landrover_Defender_front_20070914.jpg">Landrover Defender </a>— any year</li>
+	<li><a href="http://upload.wikimedia.org/wikipedia/commons/6/6b/Dino_206_GT.jpg">Ferrari Dino 206 GT</a> — 1968</li>
+	<li><a href="http://upload.wikimedia.org/wikipedia/commons/d/d1/Jaguar_XJ6L_1975.jpg">Jaguar XJ12 Series II</a> — 1973</li>
+	<li><a href="http://upload.wikimedia.org/wikipedia/commons/d/d4/Amvanquish.jpg">Aston Martin Vanquish</a> — 2001</li>
+</ol>
+Runner up:
+
+11.<a href="http://www.wiesmann.com/_media/themes/1/layout/GTMF4/Wallpaper02.jpg"> Wiesmann GT MF4</a> — 2003
+
+Apparently the 80s and 90s didn't do it for me.
+
+Feel free to add your list as a comment.
+
+#+END_HTML

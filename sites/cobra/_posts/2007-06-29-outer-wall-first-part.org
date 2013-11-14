@@ -1,0 +1,26 @@
+---
+layout: post
+title: Outer wall, first part
+tags:
+- cobra
+- garage
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  _stcr@_marcel@hsdev.com: '2013-06-23 15:56:28|Y'
+  status_net: 'yes'
+  blogger_blog: cobra.mrblog.nl
+  blogger_author: Marcel van der Boomhttp://www.blogger.com/profile/14504033381756826347marcel@hsdev.com
+  blogger_permalink: /2007/06/outer-wall-first-part.html
+  bitcointips_address: 15upEdiP9QFitL9zC4B7XqnVEF9tpCk2Dw
+---
+#+BEGIN_HTML
+
+<p>Beginnings of the outer wall.</p>
+<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2669983165/"><img src="http://farm4.static.flickr.com/3292/2669983165_7c5e7d9106.jpg" class="flickr" alt="" /></a><br /></p>
+<p>Not much to do but wait until it's done.</p>
+<p>I'm going for a visit to <a href="http://speedon.nl" title="Kitcar specialists">Speedon</a> tomorrow; visit their new location and hopefully get a step further in planning out the project.</p>
+
+#+END_HTML

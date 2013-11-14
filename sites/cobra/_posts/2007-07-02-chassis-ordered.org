@@ -1,0 +1,33 @@
+---
+layout: post
+title: Chassis ordered
+tags:
+- cobra
+- chassis
+- donor parts
+- engine
+- garage
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  _stcr@_marcel@hsdev.com: '2013-06-23 15:56:38|Y'
+  status_net: 'yes'
+  blogger_blog: cobra.mrblog.nl
+  blogger_author: Marcel van der Boomhttp://www.blogger.com/profile/14504033381756826347marcel@hsdev.com
+  blogger_permalink: /2007/07/chassis-ordered.html
+  bitcointips_address: 1KeJe2PZQAb6NCFQg4zMUZ5HDPs4YTc9ek
+---
+#+BEGIN_HTML
+
+<p>The chassis has been ordered, that is, Mischa is visiting <a href="http://www.gdcars.com">Gardner Douglas</a> on wednessday an will order on my behalf. We spoke on what type of engine I wanted for the car. (I managed to decide on the cubic inches, but not on carburated or injection yet, although i'm beginning to like the LS1 more and more) Apart from the fact that most decisions on differential, engine, gearbox etc. are all related and you can't really decide on one at a time, I'm also seeing the whole car as a <em>concept</em> which should be <em>balanced</em>. If I should choose for a classic 350 cui carburated engine, for me that has an effect on how the interior should look too. Likewise, if the choice is for the more modern LS1 or LS6 engine, that should influence the rest of the looks too. So, the two decisions were really just:</p>
+<ol>
+  <li>a GM 5.7 liter v8</li>
+
+  <li>a limited slip differential of ratio 3.54 or 3.31</li>
+</ol>Those two are enough to get me working on the donor parts and the rolling chassis. Oh, the outer wall is a bit higher today too...
+
+<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2669986695/"><img src="http://farm4.static.flickr.com/3210/2669986695_dc6de796fd.jpg" class="flickr portrait" alt="" /></a><br /></p>
+
+#+END_HTML
