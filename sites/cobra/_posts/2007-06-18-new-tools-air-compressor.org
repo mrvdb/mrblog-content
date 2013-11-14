@@ -7,14 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _wpas_done_all: '1'
-  _stcr@_marcel@hsdev.com: '2013-06-23 15:55:50|Y'
-  status_net: 'yes'
-  blogger_blog: cobra.mrblog.nl
-  blogger_author: Marcel van der Boomhttp://www.blogger.com/profile/14504033381756826347marcel@hsdev.com
-  blogger_permalink: /2007/06/new-tools-compressor.html
-  bitcointips_address: 1EctLoo2yihjz7myqEg3c4pnY7ZHNZ3fSq
 ---
 #+BEGIN_HTML
 

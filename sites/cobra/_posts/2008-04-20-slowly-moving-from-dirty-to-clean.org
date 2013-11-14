@@ -8,14 +8,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _wpas_done_all: '1'
-  _stcr@_marcel@hsdev.com: '2013-06-23 16:01:53|Y'
-  status_net: 'yes'
-  blogger_blog: cobra.mrblog.nl
-  blogger_author: Marcel van der Boomhttp://www.blogger.com/profile/14504033381756826347marcel@hsdev.com
-  blogger_permalink: /2008/04/slowly-moving-from-dirty-to-clean.html
-  bitcointips_address: 1JxVdkR9gLPHayrso7sYD1E5b1UjxKPo3x
 ---
 #+BEGIN_HTML
 

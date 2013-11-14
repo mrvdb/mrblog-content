@@ -7,11 +7,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _wpas_done_all: '1'
-  _stcr@_marcel@hsdev.com: '2013-06-23 16:06:17|Y'
-  status_net: 'yes'
-  bitcointips_address: 1ExAS9NVV8DwVta9Diq8A7HgRsRpDBwqyr
 ---
 #+BEGIN_HTML
 
