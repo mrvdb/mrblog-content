@@ -1,0 +1,15 @@
+---
+layout: post
+title: ! 'Feature: No More Free BitKeeper'
+tags:
+- people
+- revision control
+---
+
+[[http://kerneltrap.org/node/4966][Feature: No More Free BitKeeper]]:
+
+Linus, not interested in a one sided deal even when he's on the
+winning side, decided for this and other reasons to migrate away from
+BitKeeper and to begin looking for an alternative.
+
+It will be interesting to see how this works out.

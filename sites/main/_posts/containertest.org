@@ -1,0 +1,14 @@
+
+* mrblog
+** Title of the post
+   #+BEGIN_HTML
+   ---
+   layout: post
+   title: <Unitled>
+   tags:
+   - tag1
+   - tag2
+   ---
+   #+END_HTML
+
+   <Content starts here>

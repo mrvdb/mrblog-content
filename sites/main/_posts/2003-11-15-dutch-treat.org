@@ -1,0 +1,32 @@
+---
+layout: post
+title: Dutch treat?
+tags:
+- current affairs
+---
+
+#+BEGIN_HTML
+<p>Will the
+<a
+href="http://www.ebaygeeks.com/desktopmodules/ebaygeeks/ebay2rss.aspx"
+title="Ebay2RSS Feed">Ebay2RSS Feed
+</a> help me to get the best prices on the expensive electronics i
+would like to buy?
+</p>
+<p>I hate shopping for lowest prices. Once i decide what i want to
+buy, it must be available near me, with good service and i don't want
+to wait.
+</p>
+<p>Unfortunately my wishes do not correspond to the size of my wallet,
+so to make them fit you dig and dig the internet to get good bargains
+for stuff.
+</p>
+<p>This used to take a lot of time. Being able to construct an RSS
+feed from online auctions (eBay in this example) It should be a matter
+of minutes to check whether there is an item in the search i want to
+bid on, or not
+</p>
+<p>My hopes aren't that high set, but i tried it out
+anyway. (Searching for a digital SLR camera body below a $1000,-)
+</p>
+#+END_HTML

@@ -1,0 +1,30 @@
+---
+layout: post
+title: All blogs under one hood now
+tags:
+- integration
+---
+Finally gotten around to integrating http://cobra.mrblog.nl and this
+site to the [[http://mu.wordpress.org][wordpress]] installation. This site already
+ran under wordpress—µ for while, but I wanted to wait for the
+integration part until most of the 2.7 features appeared in the
+subversion repository.
+
+Creating this site (toplevel mrblog.nl) in the =wordpress—µ= application was easy,
+content-wise. Adjusting the installation so I could register both
+independent toplevel blogs (domains) and sites below that took a bit
+of fiddling around, most of it related to getting the subdomains and
+its users right.
+
+Most of the conversion-work for the cobra blog involved installing the
+plugins and making sure the users and admins were properly aligned.
+
+In addition to the plugins used for the content I wanted the wordpress
+feed plugin, so the toplevel blog can syndicate it's children. For
+starters, this blog now syndicates all posts on the cobra blog, thus
+fulfilling one of the steps i wanted to take with mrblog.nl (it being
+the parent of *.mrblog.nl in a planet-like construction)
+
+There are some smaller things which I want to correct (like the
+toplevel syndication pinging back to the child, which is kinda silly)
+but those can wait.

@@ -1,0 +1,30 @@
+---
+layout: post
+title: Only pragmatic arguments for Open source?
+tags:
+- current affairs
+---
+[[http://www.computereconomics.com/article.cfm?id=1043][Computer Economics: research on strategic and financial management of
+information systems]] has results on a survey they held on why
+organisations choose an Open Source solution.
+
+#+BEGIN_HTML
+<blockquote>
+  "Computer Economics recently conducted a survey of visitors to its website regarding the perceived advantages in the use of open source software. Although not a scientific sample, the results are nevertheless startling"
+</blockquote>
+#+END_HTML
+
+[[http://mrblog.nl/files/2008/11/opensource-reasons.gif]]
+
+From those results I largely miss 2 things:
+
+ 1. If "less dependence on vendor" is the main factor, i would like to
+    see some cases where that really mattered, not by showing people
+    who can't switch from MS (we know there is a lock-in there), but
+    by showing the ease of switching OSS providers.
+ 2. Apparently only the economical arguments count here. Which might
+    make sense considering the focus area of Computer Economics, but
+    what i would like to know if the argument of "freedom" or "right
+    thing to do" was asked, or mentioned at all.
+
+Also, why these results are startling is beyond me.

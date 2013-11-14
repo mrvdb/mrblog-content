@@ -1,0 +1,17 @@
+---
+layout: post
+title: Gimme a picture too!
+tags:
+- xaraya
+---
+
+Continuing the work on the metaweblog api implementation in Xaraya, I
+just finished an initial implementation of the newMediaObject method
+the API.
+
+This allows (from capable clients) to upload files to
+Xaraya directly from the blogging client program.
+
+Like this:
+
+[[http://farm4.static.flickr.com/3100/3234224329_edf5a31895.jpg]]

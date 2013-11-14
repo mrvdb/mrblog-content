@@ -1,0 +1,21 @@
+---
+layout: post
+title: Gentoo's Portage to be ported to Windows Services for UNIX
+tags:
+- ideas
+- integration
+status: publish
+type: post
+published: true
+meta:
+  bitcointips_address: 15AL51n8Wcno549bcc7N9YZL41jQjW7ofz
+---
+
+#+BEGIN_HTML
+<p><a href="http://www.osnews.com/story.php?news_id=10616">Gentoo's Portage to be ported to Windows Services for UNIX</a>:<br /></p>
+
+<blockquote>
+  <p>A group of Windows programmers is working on porting Gentoo's Portage over to Windows SFU. If you don't know already, Windows Services for UNIX is a full POSIX subsystem for Windows, enabling it to compile and run almost any software that will compile on BSD, Solaris, HP/UX, and Linux. Details to "emerge" soon.</p>
+</blockquote>
+<p>That sounds a lot like a <a href="http://mrblog.nl/2004/12/07/opportunity-apt-get-like-program-on-windows.html">post i made earlier</a></p>
+#+END_HTML

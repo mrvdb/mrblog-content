@@ -1,0 +1,19 @@
+---
+layout: post
+title: Linus on kernel management style
+tags:
+- current affairs
+---
+
+[[http://lwn.net/Articles/105375][Linus on kernel management style]]
+
+#+BEGIN_QUOTE
+While it turns out that most people are idiots, the corollary to that
+is sadly that you are one too, and that while we can all bask in the
+secure knowledge that we're better than the average person (let's face
+it, nobody ever believes that they're average or below-average), we
+should also admit that we're not the sharpest knife around, and there
+will be other people that are less of an idiot that you are.
+#+END_QUOTE
+
+Amen

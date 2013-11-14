@@ -1,0 +1,21 @@
+---
+layout: post
+title: I thought nobody did that anymore
+tags:
+- people
+status: publish
+type: post
+published: true
+meta:
+  _edit_last: '5'
+  status_net: 'yes'
+  bitcointips_address: 113ZYQVQY8yM7MxiZe14HgSoZwvgdSFraX
+---
+#+BEGIN_HTML
+<p>
+<a href="http://greg.abstrakt.ch/archives/2003/07/quines_mutating" title="quines, mutating code and virtual life">Gregor J. Rothfuss :: Imagination is key to your dreams coming true: quines, mutating code and virtual life
+</a>
+</p>
+<p>Kinda funny. I used quines all the time when i wanted to learn a new programming language during college. I thought it was extinct (except Douglas H. of course but he's a dinosaur anyway )
+</p>
+#+END_HTML

@@ -1,0 +1,65 @@
+---
+layout: post
+title: Status update
+tags:
+- front suspension
+- garage
+- info
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  _stcr@_marcel@hsdev.com: '2013-06-23 16:04:33|Y'
+  status_net: 'yes'
+  bitcointips_address: 1AiX5ig6wFuJGtJqq9kKDSagsHM2ULonyd
+---
+#+BEGIN_HTML
+
+<blockquote>
+  <p><em>"It's been 117 days since my last confession</em>..."</p>
+</blockquote>
+<p>So, perhaps a little status update is in order. Although I <a href="http://cobra.mrblog.nl/2007/12/declaring-garage-finished.html" title="Garage finished">declared the garaged finished earlier</a>, there's always something that needs to be finished/improved. So, this summer we place 2 new windows in the south wall.</p>
+<div style="text-align: center">
+  <a href="http://www.flickr.com/photos/96151162@N00/2992151608/"><img src="http://farm4.static.flickr.com/3213/2992151608_0dd5c0ed0a.jpg" class="flickr" alt="DSC_6631.jpg" /></a><br />
+</div>
+<div style="text-align: left">
+  With the help of <a href="http://www.rousse.nl" title="Peter Rousse klusbedrijf">Peter Rousse</a> new isolation was placed, and the wall was plated with Keralit panels.
+</div>
+<div style="text-align: center">
+  <br />
+  <a href="http://www.flickr.com/photos/96151162@N00/2992152304/"><img src="http://farm4.static.flickr.com/3175/2992152304_0ca7c842fb.jpg" class="flickr portrait" alt="DSC_6661.jpg" /></a><br />
+</div>
+<p>Although not a very big job, it always takes more time than originally planned. And yet again, I forgot to take a picture of the finished project!</p>
+<p>Blogging wise, time was spent migrating from <a href="http://blogger.com" title="Blogger">Blogger.com</a> to a local <a href="http://wordpress.org" title="Wordpress ">Wordpress</a> installation. This allows me to use all the server stuff I already have in place in the office anyway and gives me a bit more control over the blog. I also got fed up with google analytics slowing the blog down even further than I do myself with all the pictures.</p>
+<p>Wordpress also gives me a couple of extra options which would be harder to do at blogger:</p>
+<ul>
+  <li><a href="http://www.bravenewcode.com/wptouch/" title="iPhone theme for Wordpress">iphone specific theme</a>;</li>
+
+  <li>support for pages and posts within my ecto blogging client;</li>
+
+  <li>support for both categories and tags;</li>
+
+  <li>more flexible uploads which I'll need shortly.</li>
+</ul>
+<p>I have tried to keep all URLs the same where possible. All feeds and links should still work as they did on Blogger. I had to sacrifice the <em>'Followers'</em> widget and the <em>'Profile details'</em> which are Blogger specific items. There's some work left to cater for Internet Explorer users (although they should use a better browser anyway).</p>
+<p>Work on the cobra has been a bit slow, partly due to the above. All donor parts are basically done and waiting for me to put them on to the chassis. For the front-end I assemble the uprights, at first a bit baffled why the ball joints did not fit.</p>
+<div style="text-align: center">
+  <a href="http://www.flickr.com/photos/96151162@N00/2992152888/"><img src="http://farm4.static.flickr.com/3289/2992152888_103650e914.jpg" class="flickr" alt="DSC_6806.jpg" /></a><br />
+</div>
+<div style="text-align: left">
+  Took me a bit to realise there was still a part of the old ball joint attached to the upright which I apparently thought it was part of the upright. Other than that, quick job.
+</div>
+<div style="text-align: left">
+  <br />
+</div>
+<div style="text-align: left">
+  <div style="text-align: center">
+    <a href="http://www.flickr.com/photos/96151162@N00/2992153510/"><img src="http://farm4.static.flickr.com/3216/2992153510_d7cb896c07.jpg" class="flickr" alt="DSC_6809.jpg" /></a><br />
+  </div>
+
+  <div style="text-align: left">
+    <br />
+  </div>
+</div><br />
+#END_HTML

@@ -1,0 +1,21 @@
+---
+layout: post
+title: Xaraya 2.0 Brainstorming
+tags:
+- coding
+- ideas
+- xaraya
+---
+
+Let's try to create a chain of documents like the one John did in
+ [[http://wyome.com/index.php?module=articles&amp;func=display&amp;ptid=10&amp;aid=473][Xaraya 2.0 Brainstorming]]. After a while the common denominators
+ should float to the surface by looking at the whole chain.  I tend to
+ view at an application development process like this:
+
+ 1. make it work
+ 2. make it right
+ 3. make it nice
+ 4. make if fast
+
+For Xaraya, the 1.0 release signals to me we've been able to make it
+work. Now, let's try to make it right. Some ideas on how follow.

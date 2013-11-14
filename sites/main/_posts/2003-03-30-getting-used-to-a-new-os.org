@@ -1,0 +1,26 @@
+---
+layout: post
+title: Getting used to a new OS
+tags:
+- current affairs
+status: publish
+type: post
+published: true
+meta:
+  bitcointips_address: 17ebjLdYafGvUKeLYb4a3Cx49vnMswf8JQ
+---
+#+BEGIN_HTML
+<p>Last week i got myself a 17" Apple Powerbook. I've been wanting to check both hardware and OS X out for a long time. The combo of a Free BSD like core and the interface reputation of Apple seemed like an attractive combination.
+</p>
+<p>Not sure if it is yet, but so far I haven't been able to concentrate much on work ;-). Two things which stand out:
+</p>
+<ol>
+<li>There is much more to play out there than is healthy for a person
+</li>
+
+<li>I completely underestimated the way you set your machine to your hands to work efficiently, i feel completely disabled using the new machine.
+</li>
+</ol>
+<p>Let's see if that changes over the next few weeks.
+</p>
+#+END_HTML

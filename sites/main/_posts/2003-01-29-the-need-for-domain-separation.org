@@ -1,0 +1,23 @@
+---
+layout: post
+title: The need for domain separation
+tags:
+- xaraya
+status: publish
+type: post
+published: true
+meta: {}
+---
+#+BEGIN_HTML
+<p>In general, the temptation to bring the templating language close to the programming domain is high. It creates a possibility to do all things which the programming language can do as well, often powerfull and most of the time dangerous.
+</p>
+<p>In BL there is some PHP syntax hidden in the tags (for example the evaluation of conditions in if and while constructs).
+</p>
+<p>Here's a good example why the domain of the blocklayout templating system and the programming language in which it was implemented should be separated.
+</p>
+<p>Because the domain of blocklayout and PHP are so tight together now, this is just one example of what can happen.
+<br />
+<a title="set&gt; allows PHP to be executed" href="http://bugs.xaraya.com/show_bug.cgi?id=107">Bug 107 - &lt;xar:set&gt; allows PHP to be executed
+</a>
+</p>
+#+END_HTML

@@ -1,0 +1,19 @@
+---
+layout: post
+title: Ecto recognizes the Xaraya endpoint
+tags:
+- integration
+- xaraya
+---
+
+I dropped a quick message to Adriaan Tijsseling, the developer of the
+amazing [[http://ecto.kung-foo.tv][Ecto blogging application]] package with a number of
+questions. One of the questions was whether Xaraya could be included
+as an endpoint in the accounts screen.
+
+This morning, I fired up Ecto, and the update which contained it was already there! Man, this
+guy is quick.
+
+[[http://mrblog.nl/files/2008/11/ectoxar.jpg]]
+
+Awesome!

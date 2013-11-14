@@ -1,0 +1,44 @@
+---
+layout: post
+title: Revisiting Emacs on OSX
+tags:
+- current affairs
+---
+
+Before I used an Apple machine with OSX, XEmacs was my editor of
+choice. Recently I saw Emacs 23 being released with native OSX support
+in the main repository (well, NextStep support formally, but with Cocoa
+bindings, which makes it OSX native I guess).
+
+That alone was enough to revisit the old friend. With caution, because I
+still feel the pain somewhat of switching to TextMate **from**
+Xemacs. Another reason is that I sort of lost patience lately with
+proprietary applications. (TextMate in this case). I'm finding it less
+doable to have to wait for another developer to be able to find the time
+to fix issues or provide upgrades within reasonable intervals.
+
+I've had a similar experience with Ecto not that long ago. You'd think
+I'd have learned by now...
+
+Using Emacs again instead of TextMate was actually quite easy. My
+fingers still 'remembered' the keys to press apparently. However, the
+learning curve to use the editor effectively is still steep.  It's
+still, and now more than it was with the native build, a joy to work
+with though.
+
+What keeps (re-)surprising me about Emacs is that there's apparently a
+mode or package for anything you want to do to get you 80% of the way
+and, thanks to the strong customization, the other 20% is around the
+corner.
+
+I switched last week and since then I've *discovered* a mode that lets
+me view PDF-files (docview), a mode that connects to my microblog
+(identica-mode), spent quite a few hours in *org-mode* organizing my
+notes and task-lists (including syncing them to my iPhone), editting
+XML files in nxml-mode and blogging right now with the weblogger
+package.
+
+I seriously think you can take a bare iron machine, install a minimal
+linux kernel on it, configure Emacs as the 'sole interactive
+application' on it and still end up with a useful machine, not missing
+out on any task you'd want to perform.
