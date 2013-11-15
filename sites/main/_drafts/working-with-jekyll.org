@@ -1,0 +1,112 @@
+---
+layout: post
+title: Working with Jekyll and Org-Mode
+tags:
+- emacs
+- jekyll
+- org-mode
+- git
+---
+I spent a couple of days migrating, or actually finishing the process
+which was left behind a while ago, of all wordpress postings
+(including archived and internal stuff) to /something that jekyll can
+use/. I wanted to share a couple of things about how and what I use to
+manage this information.
+
+
+Most of my notetaking and task management is in org-mode so it made
+sense to use that as the basic format of my postings. This is usually
+done by publishing a project from org-mode into the location where
+jekyll keeps its files and let jekyll convert that into something
+publishable.
+
+Getting stuff out of wordpress and into a text format was relatively
+straightforward and rather boring using an export file of wordpress
+and some semi-automated text conversions. Having stuff in org-mode, how
+to get it into something publishable.
+
+Initially this turned out harder than I thought. The publish process
+is pretty demanding in org-mode and you only end up with raw documents
+that still need to be processed by jekyll. It occurred to me that
+[[http://github.com]] has the ability to render org-mode documents directly
+and perhaps that library could be used to turn it into a jekyll plugin
+so I could use the org-mode format directly.
+
+#+BEGIN_HTML
+{% pullquote left %}
+Turns out there was a recent commit which mentioned an org-mode
+converter plugin; long story short: installed it and never looked
+back. {" Having jekyll convert org-mode files directly saves the whole
+publishing configuration step in Emacs "} which would otherwise be neede
+from within org-mode.
+{% endpullquote %}
+#+END_HTML
+
+So, the first part was easy, I can just write org-mode files now with
+a frontmatter and they'll end up automatically as blog postings. I
+don't particularly like the fact that I can't hide the frontmatter in
+a block that org-mode can ignore because the frontmatter lines have to
+be the first in the file for jekyll to be happy. This makes it harder
+to use the blog postings for anything else than jekyll because the
+frontmatter will get in the way; exporting the file to PDF for
+example.
+
+To have a reference document for writing I created a [[/about/org-testpage.html][test org-mode]]
+file. This file helps to check what org-mode constructs render into
+something useful and verifying visual layout of them. Not everything
+worked as I had hoped, but given the amount of complexity that got
+eliminated I'm quite happy with it.
+
+Issues that I found in the rendering:
+  - the headers start at level 1 which is probably 1 or 2 levels too
+    high for my purpose; I haven't found a way to correct this yet. I
+    probably should file a feature request for this;
+  - footnotes do not work, which I would use to keep links nicely at
+    the bottom of an article.
+  - some rendering is ugly (blockquotes for example), but that's
+    probably not a direct consequence of the org-mode converter
+  - there are only a couple of org-mode environments supported;
+  - the use of liquid tags that jekyll uses is somewhat cumbersome.
+
+I was presently surprised by the code highlighting which worked out
+of the box.
+
+*** Making the process effective
+When writing articles, the activities are basically somewhat boring:
+1. Start a new file (based on a template)
+2. Jot down some points which I want to write about, make sure the
+   notes for myself get a =:noexport:= tag in orgmode;
+3. Fill in layout type (always post)
+4. Define some tags and other frontmatter material
+5. Start writing
+6. Save the file in the =_drafts= folder, give some thought about the filename
+7. Commit it to the local git repository
+8. When finished, move it to _posts, rename to something Jekyll wants
+   (Prefix with: 'yyyy-mm-dd-').
+9. Final checks and commit
+10. Git push
+11. - 35. Correct silly mistakes.
+
+It's quite easy to make this less boring by writing a bit of emacs
+lisp to cover the boring bits. First, create a buffer to start typing
+in based on a template.
+
+#+BEGIN_SRC emacs-lisp
+  (defun mrb/newblogdraft(template)
+    "Asks for a filename and inserts a template for a new blog posting"
+    (interactive "sFilename: ")
+
+    (switch-to-buffer (generate-new-buffer template))
+    (insert-file-contents "~/dat/blogs/_posttemplate.org")
+    (org-mode)
+  )
+#+END_SRC
+
+
+** Points                                                                                          :noexport:
+- overview of the emacs commands written; show highlighted sources
+-
+* Configuration                                                                                     :noexport:
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+OPTIONS f:t
