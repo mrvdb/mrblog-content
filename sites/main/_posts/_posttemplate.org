@@ -1,8 +1,21 @@
 ---
 layout: post
 title: <Unitled>
+categories:
+- cat1
+- cat2
 tags:
 - tag1
-- tag2---
+- tag2
+---
 
-<Content starts here>
+Content starts here
+
+*** First header
+*** Second header
+
+
+* Notes                                                                                             :noexport:
+* Configuration                                                                                     :noexport:
+#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+EXPORT_EXCLUDE_TAGS: noexport

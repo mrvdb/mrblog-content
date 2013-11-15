@@ -1,12 +1,11 @@
 ---
 layout: post
 title: Throttle cable assembly
+categories:
+- cobra
 tags:
 - cobra
 - engine
-status: publish
-type: post
-published: true
 ---
 #+BEGIN_HTML
 
