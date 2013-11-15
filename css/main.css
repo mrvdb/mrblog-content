@@ -303,12 +303,19 @@ div.markdown_generated {
 
     float: right;
     width: 320px;
-    margin-left: 24px;
-    /* Baseline correction */
-    position: relative;
-    top: 5px;
+    margin: 20px;
+    font-size: 22px;
+    line-height: 30px;
+}
 
-    /* Typography (30px line-height equals 25% incremental leading) */
-    font-size: 23px;
+.pullquote-left:before {
+    /* Content */
+    content: attr(data-pullquote);
+    color: #357ebd;
+
+    float: left;
+    width: 320px;
+    margin: 20px;
+    font-size: 22px;
     line-height: 30px;
 }
