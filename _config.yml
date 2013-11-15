@@ -1,4 +1,3 @@
-# -*- mode: org -*-
 # Basic settings
 
 # I define the destination as a hidden folder. The whole idea is to
@@ -44,7 +43,8 @@ paginate: 5
 # Force permalink without categories for now
 # This is needed to allow freedom in directory location, so
 # the url wont change when I change location of _posts folder.
-permalink: /:year//:month/:day/:title.html
+# In short: this variable determines what directories are created.
+permalink: /:year/:month/:day/:title.html
 
 # Use rdiscount for markdown processing
 markdown: rdiscount
