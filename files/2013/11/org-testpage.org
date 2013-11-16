@@ -1,7 +1,3 @@
----
-layout: page
----
-
 This page originates in an =org-mode= written document and has been
 written to create a reference of things that are (im-)possible using
 the direct org to html conversion.
