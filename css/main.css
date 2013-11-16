@@ -319,3 +319,7 @@ div.markdown_generated {
     font-size: 22px;
     line-height: 30px;
 }
+
+.highlight {
+    clear: left;
+}
