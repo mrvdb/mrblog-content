@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <Unitled>
+title: %s
 categories:
 - cat1
 - cat2
