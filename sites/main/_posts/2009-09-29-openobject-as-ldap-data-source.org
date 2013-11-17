@@ -124,7 +124,7 @@ follows:
     VALUES(
 		1,'telephoneNumber','telephoneNumber','ldap_inetOrgPerson','1=1'
 	);
-#+END_SQL
+#+END_SRC
 
 
 This says basically to the ldap server that in order to get to the
@@ -159,7 +159,7 @@ as a view on the raw data as follows:
 		 0 AS parent,
 		 ldap_inetorgperson.id AS keyval
 	   FROM ldap_inetorgperson;
-#+END_SQL
+#+END_SRC
 
 This does 2 things, it refers the ldap addres
 =ou=addressbook,dc=hsdev,dc=com= as the organizational unit (=oc_map_id=
