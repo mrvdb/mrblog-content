@@ -35,7 +35,7 @@ ul.years li {  display: inline;}
 /*  float: left;
 */  color: rgb(50,50,20);
   background-color: rgb(250,250,250);
-  margin-top: 10px;
+  margin-top: 50px;
   margin-bottom: 155px;
 }
 /*   .post-nav   */
@@ -55,7 +55,7 @@ ul.years li {  display: inline;}
   clear: left;
   margin: 0em 1em 1em 0em;
   margin-top: 15px;
-  padding-top: 35px;
+  padding-top: 5px;
 }
 
 /* But we don't want old right content besides a new post */
@@ -179,7 +179,7 @@ img.portrait{width: 200px;height: auto;}
   width: 320px;
   font-size: 12px;
   margin-left: 20px;
-  margin-top: 50px;
+  margin-top: 20px;
   padding-left: 10px;
 
 }
