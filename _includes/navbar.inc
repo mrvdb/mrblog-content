@@ -26,6 +26,7 @@
       </li>
     </ul>
 
+    {% if {{include.search != 'disabled'}}  %}
     <!-- Search form -->
     <form class="navbar-form navbar-right" role="search" action="/search">
       <div class="form-group">
@@ -33,6 +34,7 @@
       </div>
       <button type="submit" class="btn-sm btn-primary">Search</button>
     </form>
+    {% endif %}
 
     <!-- Other menu items -->
     <!-- <ul class="nav navbar-nav navbar-right"> -->
