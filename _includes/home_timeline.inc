@@ -8,7 +8,13 @@
     <script src="/assets/js/jquery.livetwitter.js"
 	    type="text/javascript"></script>
     <script type="text/javascript">
-      $('#timeline').liveTwitter('mrb', {limit: 6, mode: 'home_timeline', showAuthor: true, service: 'o.mrblog.nl'});
+      $('#timeline').liveTwitter(
+        '{{site.social.user}}', {
+	  limit: {{site.social.limit}},
+	  mode:  '{{site.social.mode}}',
+	  showAuthor: true,
+	  service: '{{site.social.service}}'
+	});
     </script>
   </div>
 </div>

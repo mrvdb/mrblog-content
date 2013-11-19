@@ -47,7 +47,16 @@ paginate: 5
 permalink: /:year/:month/:day/:title.html
 
 # Use rdiscount for markdown processing
+# Why was this again?
 markdown: rdiscount
 
 # Use UTF-8 everywhere, why isn't this the default by now
 encoding: UTF-8
+
+# Setting for the home timeline in the sidebar
+# (cfr. livetwitter from somewhere )
+social:
+  service : 'o.mrblog.nl'
+  user: 'mrb'
+  mode: 'home_timeline'
+  limit: 8
