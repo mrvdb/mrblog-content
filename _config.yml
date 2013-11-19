@@ -24,7 +24,7 @@ twitter: mrvdb
 include:
   - .htaccess
 exclude:
-  - wordpress.xml
+  - _data/wordpress.xml
 
 # Used in tag generation plugin, must be quoted
 tag_title_prefix: "Posts tagged with:&nbsp;&ldquo;"
