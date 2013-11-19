@@ -3,8 +3,8 @@ Sitemap: http://mrblog.nl/sitemap.xml
 User-agent: *
 Disallow: /feed/
 Disallow: /archive/
-Disallow: /css/
+Disallow: /assets/css/
 Disallow: /files/
-Disallow: /js/
+Disallow: /assets/js/
 Disallow: /tag/
 Disallow: /page*/
