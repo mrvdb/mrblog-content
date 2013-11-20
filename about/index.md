@@ -14,16 +14,17 @@ to them:
 * blog system is [jekyll][];
 * theme is a built with [bootstrap][] components;
 * all files are edited with the [Emacs][] editor;
-* Comment system: [Disqus][];
+* Comment system: [Disqus][]; ( TODO: move to something static or at least something open )
 * I use [git][] to publish the blog to my server;
 * Content is mostly written in [orgmode][] or [markdown][].
-* Some of the images are hosted on [flickr][];
+* Some of the images are hosted on [flickr][]; ( TODO: move to http://media.mrblog.nl)
 * the [Entypo][] icons are used;
 * Orgmode files are converted using [org-ruby][] with the help of a
   little [org-converter][]
 * [ruby-oembed][] is use for automatic embedding of media with the
   help of an [oembed liquid tag][]
-* The [tapir][] search service is used to provide search functionality
+* The [tapir][] search service is used to provide search
+  functionality. (TODO: replace with something local or at least something open)
 * Bootstrap is dependent on the [jquery][] library, but I use it
   directly too for the live statusnet feed and the tapir search
   service.
@@ -59,6 +60,5 @@ If you feel that credit for one of your programs should be in this list, let me 
 - Total number of pages: {{ site.pages | size }}
 - Total number of posts: {{ site.posts | size }}
 - Total number of tags: {{ site.tags | size }}
-- Total number of categories: {{ site.categories | size }}
 - Last generated on: {{ site.time }}
 - The canonical site url is {{ site.url }}
