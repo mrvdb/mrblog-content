@@ -3,14 +3,9 @@ layout: post
 title: Switching to another blog client
 tags:
 - current affairs
-status: publish
-type: post
-published: true
-meta:
-  bitcointips_address: 1DDyHPeTGFcYjXuHPaAdHi5kyQbWLTihj7
 ---
 After quite a long period of using ecto, I have switched to using
-[[marsedit][Marsedit]]. Ecto got sold beginning last year by Adriaan to
+[[http://red-sweater.com/marsedit][Marsedit]]. Ecto got sold beginning last year by Adriaan to
 Illuminix. There has been no update of ecto since and I'm seeing no
 signs of improvement either. Does this mean ecto as a product is bad?
 No. I still love the idea and implementation of it. It is still a
@@ -38,5 +33,3 @@ from Red Sweater Software. In the last year he has updated the
 application 4 or 5 times with healthy changelogs and (judging by the
 forums) Daniel is very much on top of things. That looks a lot better
 than the current ecto situation.
-
-#+LINK: marsedit http://red-sweater.com/marsedit

@@ -8,5 +8,5 @@ tags:
 [[http://www.theregister.co.uk/2005/05/11/open_access_research][Dutch academics declare research free-for-all]]
 
 It has been there for a while, but now it's official. I'm linking to
-the english summary on the register, the [[http://www.darenet.nl/page/language.view/home][actual site]] where
+the english summary on the register, the [[http://www.narcis.nl][actual site]] where
 the stuff is accessible</a> is in Dutch.
