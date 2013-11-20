@@ -1,5 +1,18 @@
 ---
-layout: default
+layout: photoindex
+title: Photos
+category: photo
 ---
 
-Nothing here yet.
+{% for post in site.categories.photo %}
+<article>
+  <header>
+    <h2><a href="{{ post.url }}" rel="bookmark" title="Permanent link to {{post.title}}">{{ post.title}}</a></h2>
+    <time>{{ post.date | date: '%B' }} {{ post.date | date: '%e' }}, {{ post.date | date: '%Y' }}</time>
+  </header>
+  <div class="content">
+    {{ post.content }}
+  </div>
+  {% include object_tags.inc object=post %}
+</article>
+{% endfor %}

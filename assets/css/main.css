@@ -323,3 +323,9 @@ div.markdown_generated {
 .highlight {
     clear: left;
 }
+
+.gmg-media {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+}
