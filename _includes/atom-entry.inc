@@ -6,7 +6,9 @@
   <content type="html">
     <![CDATA[{{ post.content }}]]>
   </content>
-  <author>{{site.author}}</author>
+  <author>
+    <name>{{site.author}}</name>
+  </author>
   <summary type="html">
     <![CDATA[{{post.excerpt}}]]>
   </summary>
