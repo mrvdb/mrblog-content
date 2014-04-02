@@ -54,9 +54,11 @@ _______________________________________________________________________________
 005  [ ] Fingerprint OK        [ ] ID OK
 pub   1024D/F19326A9 2001-06-20
       Key fingerprint = 730D 9B3A F406 F28A 957D  6397 31E8 6D4C F193 26A9
-uid                  Joris Bontje (mids) <mids@invisiblenet.net>
+uid                  Joris Bontje (mids) <joris@pikapay.com>
 uid                  Joris Bontje (mids) <jbontje@bvier.nl>
+uid                  Joris Bontje (mids) <mids@invisiblenet.net>
 uid                  Joris Bontje (mids) <jbontje@suespammers.org>
 uid                  Joris Bontje (mids) <j.m.bontje@student.utwente.nl>
+uid                  Joris Bontje (mids) <jorisbontje@gmail.com>
 
 _______________________________________________________________________________
