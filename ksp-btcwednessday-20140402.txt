@@ -45,9 +45,9 @@ uid                  Jouke Hofman <jouke@bitonic.nl>
 _______________________________________________________________________________
 
 004  [ ] Fingerprint OK        [ ] ID OK
-pub   2048R/94D0E3A8 2014-04-02
-      Key fingerprint = B5CA ED7A F633 B526 9430  9127 9CA3 0E75 94D0 E3A8
-uid                  ikbenwouter <ikbenwouter@gmail.com>
+pub   2048R/DEA8BE71 2014-04-02
+      Key fingerprint = 066F 70D5 DDE5 9E9B C1C9  871E 0CED 18C0 DEA8 BE71
+uid                  Wouter Smeenk <mail@woutersmeenk.nl>
 
 _______________________________________________________________________________
 
