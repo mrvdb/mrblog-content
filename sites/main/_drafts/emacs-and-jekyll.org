@@ -52,5 +52,5 @@ point.
 
 * Notes                                                                                             :noexport:
 * Configuration                                                                                     :noexport:
-#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+SETUPFILE: "~/dat/org/etc/org-config.org"
 #+EXPORT_EXCLUDE_TAGS: noexport

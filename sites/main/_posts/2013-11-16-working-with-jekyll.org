@@ -95,6 +95,6 @@ The next step is finding or making some helper functions in emacs lisp
 to support working with drafts and publishing.
 
 * Configuration                                                                                     :noexport:
-#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+SETUPFILE: "~/dat/org/etc/org-config.org"
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+OPTIONS f:t

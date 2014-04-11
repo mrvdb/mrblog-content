@@ -248,5 +248,5 @@ When was the last time you validated your bank's software?
     wire. When a wallet.dat file has been sent over the wire, all money
     in it must be considered at risk and must be spent immediately by
     transferring it to new addresses into a newly created wallet.
-#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+SETUPFILE: "~/dat/org/etc/org-config.org"
 #+EXPORT_EXCLUDE_TAGS: noexport

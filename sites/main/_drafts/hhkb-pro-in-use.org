@@ -5,4 +5,4 @@ title: Happy Hacking Keyboard in use
 
 * Points											    :noexport:
 * Configuration
-#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+SETUPFILE: "~/dat/org/etc/org-config.org"
