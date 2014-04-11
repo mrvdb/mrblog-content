@@ -23,11 +23,11 @@ to them:
   little [org-converter][]
 * [ruby-oembed][] is use for automatic embedding of media with the
   help of an [oembed liquid tag][]
-* The [tapir][] search service is used to provide search
-  functionality. (TODO: replace with something local or at least something open)
+* A locally generated json file is used to implement search
+  functionality. A modified version of
+  [jekyll-search][] is used.
 * Bootstrap is dependent on the [jquery][] library, but I use it
-  directly too for the live statusnet feed and the tapir search
-  service.
+  directly too for the live statusnet feed and the search function.
 * the site is served with [nginx][] on machine running [Debian][]
   GNU/Linux
 
@@ -53,6 +53,7 @@ If you feel that credit for one of your programs should be in this list, let me 
 [tapir]:                http://tapirgo.com
 [jquery]:               http://jquery.com/
 [Emacs]:                http://www.gnu.org/software/emacs/
+[jekyll-search]:        https://github.com/mathaywarduk/jekyll-search
 
 
 ### Some stats
