@@ -28,9 +28,9 @@
 
     {% if {{include.search != 'disabled'}}  %}
     <!-- Search form -->
-    <form class="navbar-form navbar-right" role="search" action="/search">
+    <form method="get" class="navbar-form navbar-right" role="search" action="/search" data-search-form >
       <div class="form-group">
-        <input type="search" class="form-control input-sm" name="query" placeholder="Search"/>
+        <input id="q" type="search" class="form-control input-sm" name="q" placeholder="Search" data-search-input />
       </div>
       <button type="submit" class="btn-sm btn-primary">Search</button>
     </form>
