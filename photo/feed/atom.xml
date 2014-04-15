@@ -1,6 +1,6 @@
 ---
 layout: nil
-title: blog posts
+title: photostream
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="/feed/atom2html.xsl"
@@ -20,7 +20,7 @@ title: blog posts
   {% include atomheader.inc %}
 
 
-  {% for post in site.posts limit: 20 %}
+  {% for post in site.categories.photo limit: 20 %}
     {% include atom-entry.inc %}
   {% endfor %}
 </feed>

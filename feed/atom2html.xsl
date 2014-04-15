@@ -10,10 +10,10 @@
   <xsl:template match="/">
     <html>
       <head>
-        <title>Atom feed for: <xsl:value-of select="atom:feed/atom:title"/></title>
+        <title>Atom feed: <xsl:value-of select="atom:feed/atom:title"/></title>
       </head>
       <body>
-	<h1>Atom feed for site of: <xsl:value-of select="atom:feed/atom:title"/></h1>
+	<h1>Atom feed: <xsl:value-of select="atom:feed/atom:title"/></h1>
         <ul>
           <xsl:apply-templates select="//atom:entry"/>
         </ul>
