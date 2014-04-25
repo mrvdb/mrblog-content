@@ -29,7 +29,9 @@ to them:
 * Bootstrap is dependent on the [jquery][] library, but I use it
   directly too for the live statusnet feed and the search function.
 * the site is served with [nginx][] on machine running [Debian][]
-  GNU/Linux
+GNU/Linux
+* for the git log listing (see below), I adapted the [gitactivity][]
+  tag plugin by Alexandre Girard
 
 If you feel that credit for one of your programs should be in this list, let me know.
 
@@ -54,7 +56,7 @@ If you feel that credit for one of your programs should be in this list, let me 
 [jquery]:               http://jquery.com/
 [Emacs]:                http://www.gnu.org/software/emacs/
 [jekyll-search]:        https://github.com/mathaywarduk/jekyll-search
-
+[gitactivity]:          https://gist.github.com/alx/730347
 
 ### Some stats
 
