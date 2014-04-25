@@ -69,6 +69,7 @@ gmg:
       attr:
         class: 'gmg-media'
 
+# TODO: the dir should be determined automatically.
 git:
   dir: '.'
   baseurl: 'https://github.com/mrvdb/mrblog/commit/'

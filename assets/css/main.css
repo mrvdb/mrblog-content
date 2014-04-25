@@ -329,3 +329,8 @@ div.markdown_generated {
     height: auto;
     padding: 20px;
 }
+
+
+ol.git-log {
+    list-style: none;
+}
