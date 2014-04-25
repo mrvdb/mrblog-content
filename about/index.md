@@ -63,3 +63,7 @@ If you feel that credit for one of your programs should be in this list, let me 
 - Total number of tags: {{ site.tags | size }}
 - Last generated on: {{ site.time }}
 - The canonical site url is {{ site.url }}
+
+### Last {{ site.git.nrofcommits }} changes to the site
+
+{% gitactivity %}

@@ -68,3 +68,9 @@ gmg:
     default:
       attr:
         class: 'gmg-media'
+
+git:
+  dir: '.'
+  baseurl: 'https://github.com/mrvdb/mrblog/commit/'
+  nrofcommits: 25
+  dateformat: "%Y-%m-%d"
