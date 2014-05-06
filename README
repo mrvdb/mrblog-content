@@ -1,8 +1,8 @@
 #+COMMENT -*- mode:org -*-
 
 This directory contains the files needed for the program jekyll to
-produce a website. The content of the site is taken from the '_posts'
-and '_pages' folders.
+produce a website, in this case my personal blog at http://mrblog.nl
+The content of the site is taken from the '_posts' and '_pages' folders.
 
 The content can be any format that jekyll supports, which includes at
 least markdown and html.
@@ -21,3 +21,19 @@ The content itself however may find its origin in other places,
 typically an org-mode document or outline subtree; that is perfectly
 fine. As long as a supported jekyll format ends up in this folder, the
 site can be generated.
+
+* Folders
+  - _data :: a yaml file objects.yml in this directory can be accessed
+             with site.data.objects
+  - _includes :: templating snippets to be included in multiple places
+  - _layouts :: layout templates
+  - _pages ::  pages source directory
+  - _plugins :: (ruby) plugins, these are called during build
+  - about :: source for about directory
+  - archive :: base folder for the archive pages
+  - assets :: statis assets: css, js, images
+  - error :: error documents
+  - feed :: feeds templates
+  - files :: downloads to be copied to the site (move to assets?)
+  - search :: base folder for the local search engine.
+  - sites :: source files for different sites.
