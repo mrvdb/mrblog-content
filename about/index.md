@@ -15,7 +15,7 @@ to them:
 * theme is a built with [bootstrap][] components;
 * all files are edited with the [Emacs][] editor;
 * Comment system: [Disqus][]; ( TODO: move to something static or at least something open )
-* I use [git][] to publish the blog to my server;
+* I use [git][] to publish the blog to my server and to a repository on [github][].
 * Content is mostly written in [orgmode][] or [markdown][].
 * Some of the images are hosted on [flickr][]; ( TODO: move to http://media.mrblog.nl)
 * the [Entypo][] icons are used;
@@ -57,7 +57,7 @@ If you feel that credit for one of your programs should be in this list, let me 
 [Emacs]:                http://www.gnu.org/software/emacs/
 [jekyll-search]:        https://github.com/mathaywarduk/jekyll-search
 [gitactivity]:          https://gist.github.com/alx/730347
-
+[github]:               https://github.com/mrvdb/mrblog
 ### Some stats
 
 - Total number of pages: {{ site.pages | size }}
