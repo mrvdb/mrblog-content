@@ -24,7 +24,7 @@ and documentation into separate documents.
 {%pullquote right %}
 The default way to publish an Emacs configuration with that system
 would be to let org-mode export the configuration document to html and
-publish that somewhere. What I wanted to do was to use the [[working-with-jekyll.html][in-place]]
+publish that somewhere. What I wanted to do was to use the in-place
 org-mode converter I am using with Jekyll. In short, {"the ideal would
 be that jekyll fetches the authoritative version of my emacs
 configuration in org-mode syntax"} and treats that as /normal/ content
