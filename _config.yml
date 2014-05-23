@@ -75,3 +75,9 @@ git:
   baseurl: 'https://github.com/mrvdb/mrblog/commit/'
   nrofcommits: 25
   dateformat: "%Y-%m-%d"
+
+
+collections:
+  emacs:
+    output: true
+    
