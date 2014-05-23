@@ -7,7 +7,7 @@ The content of the site is taken from the '_posts' and '_pages' folders.
 The content can be any format that jekyll supports, which includes at
 least markdown and html.
 
-By default, anything  in this folder is copied to the website by
+By default, anything  in folders is copied to the website by
 jekyll unless:
 
 - the folder is special (starts with '_')
