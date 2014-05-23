@@ -1,0 +1,76 @@
+---
+layout: post
+title: Publishing your Emacs configuration with Jekyll
+tags:
+- jekyll
+- org-mode
+- integration
+- emacs
+---
+
+Many people in the Emacs community use orgmode. Quite a few of them
+use the =org-babel= system to write and maintain their emacs
+configuration, and so am I. I find the biggest advantage to be able to
+document my thought process as well as the configuration
+details. Emacs configuration can get pretty big and maintaining it
+becomes a lot easier for me if I can read back what I was thinking 6
+months ago.
+
+The system borrows from /literate programming/ concepts where you write
+code and documentation in one document and let tools /tangle/ the code
+and documentation into separate documents.
+
+#+BEGIN_HTML
+{%pullquote right %}
+The default way to publish an Emacs configuration with that system
+would be to let org-mode export the configuration document to html and
+publish that somewhere. What I wanted to do was to use the [[working-with-jekyll.html][in-place]]
+org-mode converter I am using with Jekyll. In short, {"the ideal would
+be that jekyll fetches the authoritative version of my emacs
+configuration in org-mode syntax"} and treats that as /normal/ content
+and publish it.
+{% endpullquote %}
+#+END_HTML
+
+I started off by defining a collection, a new feature of jekyll, which
+gave me a chance to use it. The collection is defined in the
+=_config.yml= file:
+
+#+BEGIN_SRC yaml
+  # Emacs collection contains emacs 'generated' documents
+  collections:
+    emacs:
+      # Render them, i.e. convert them to html. 
+      output: true
+#+END_SRC
+
+This will render source files in the =_emacs= folder as if they were
+pages. The url generated for them will be prefixed by =/emacs/=.
+
+In this folder I placed a file =config.org= with the following
+contents
+
+#+BEGIN_SRC org
+---
+layout: orgmode
+--- 
+
+[... text left out  ..]
+
+{% raw %}
+{% include extern/mrb.org %}
+{% endraw %}
+#+END_SRC
+
+That includes the file =<root>/_includes/extern/mrb.org= from the
+jekyll installation and renders its content. The only correction I had
+to make was to insert a =raw...endraw= block around some org-mode
+settings.
+
+You can view the result of the rendering in [[/emacs/config.html]]
+
+* Notes 											    :noexport:
+  the raw/endraw rendering is hard to portray here
+* Configuration                                                                                     :noexport:
+#+SETUPFILE: "~/dat/org/etc/org-config.org"
+#+EXPORT_EXCLUDE_TAGS: noexport
