@@ -187,7 +187,12 @@
 					tweet_url = 'http://twitter.com/' + screen_name + '/statuses/' + this.id;
 				    }
 				    var userInfo = this.user;
-				    var linkified_text = this.text.replace(/[A-Za-z]+:\/\/[A-Za-z0-9-_]+\.[A-Za-z0-9-_:%&\?\/.=]+/, function (m) {
+
+				    var map = {"&": "&amp;","'": "&apos;",'"': "&quot;","<": "&lt;",">": "&gt;"};
+				    function replaceEntity(chr) { return map[chr];}
+				    var linkified_text = this.text.replace(/[&"'\<\>]/g, replaceEntity)
+
+				    linkified_text = linkified_text.replace(/[A-Za-z]+:\/\/[A-Za-z0-9-_]+\.[A-Za-z0-9-_:%&\?\/.=]+/, function (m) {
 					return m.link(m);
 				    });
 				    if (settings.service.length > 0) {
