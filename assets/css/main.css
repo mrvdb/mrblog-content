@@ -334,3 +334,8 @@ div.markdown_generated {
 ol.git-log {
     list-style: none;
 }
+
+span.label {
+    font-family: "UbuntuRegular", sans-serif, helvetica, arial;
+    font-size: 102%;
+}
