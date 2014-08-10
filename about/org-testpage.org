@@ -304,8 +304,11 @@ The frontmatter is parsed by jekyll, obviously
 :END:
 If nothing specific is configured, the TODO items is just treated as a
 header, and rendered without the TODO keyword. If a =todo:t= snippet
-is present in the #+OPTIONS than the TODO keyword will be rendered.
+is present in the #+OPTIONS than the TODO keyword will be shown. The
+keyword as such will be just part of the header, not rendered
+specially. There is however extra HTML generated, so the CSS can take
+care of the extra rendering if needed.
 ** Config											    :noexport:
-#+SETUPFILE: "~/.outlet/etc/org-config.org"
+#+SETUPFILE: "~/dat/org/etc/org-config.org"
 #+EXPORT_EXCLUDE_TAGS: noexport
 #+OPTIONS: todo:t f:t
