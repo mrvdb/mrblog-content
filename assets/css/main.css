@@ -340,3 +340,12 @@ ol.git-log {
     font-size: 102%;
     font-weight: normal;
 }
+
+
+.TODO {
+    color: #C7254E;
+}
+.TODO:before {
+    content: "* ";
+    color: black;
+}
