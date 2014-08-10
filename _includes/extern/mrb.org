@@ -1,7 +1,8 @@
+#+SETUPFILE: "~/dat/org/etc/org-config.org"
 #+TITLE: Emacs configuration
 #+DESCRIPTION: An org-babel based emacs configuration
 #+LANGUAGE:  en
-#+OPTIONS:  h:5 toc:2 creator:nil email:nil author:t timestamp:t tags:nil
+#+OPTIONS:  H:5 toc:2 creator:nil email:nil author:t timestamp:t tags:nil
 #+PROPERTY: results silent
 
 This is my emacs configuration file that is loaded with
@@ -71,7 +72,7 @@ And edit the file obviously.
   # This script starts emacs daemon if it is not running, opens whatever file
   # you pass in and changes the focus to emacs.  Without any arguments, it just
   # opens the current buffer or *scratch* if nothing else is open.
-  EMACSCLIENT="/usr/local/bin/emacsclient --quiet --no-wait"
+  EMACSCLIENT="`which emacsclient` --quiet --no-wait"
 
   # Number of current visible frames,
   # Emacs daemon always has a visible frame called F1
@@ -118,6 +119,129 @@ And edit the file obviously.
   fi
 #+END_SRC
 
+* Package Management
+Package handling, do this early so emacs knows where to find things.
+
+This has gotten a bit of attention in the last years and there are now
+lots of options, of which package.el seems to be the choice if not
+anything else explicitly preferred. I have always used el-get instead
+of package.el, although I have no idea why I made that decision at
+that time, but I think it was because it allowed me to inlcude git
+recipes in an easy way. ([2014-03-03 ma] Not sure if this is stil the
+case now)
+
+There are several options:
+1. Just use plain package.el
+2. Use el-get
+3. Use use-package (piggybacks on package.el)
+4. Homebrew
+5. Others...?
+
+The *important* bit here is that this section manages *ALL* my packages,
+including the ones gotten from apt-get, git and elpa.
+The reason for this is that it provides one neat umbrella (in Emacs)
+to manage its packages.
+
+We manage everything with =el-get= so we start by loading that if we
+don't have it already.
+
+First of all, define the package archives I need; for now, just the
+default gnu augmented with the melpa repository. I use setq because I
+want *this* entry to be the definitive one, not adding to a list.
+#+BEGIN_SRC emacs-lisp
+  (setq package-archives
+        '(("melpa" . "http://melpa.milkbox.net/packages/")
+          ("gnu"   . "http://elpa.gnu.org/packages/")))
+  (package-initialize)
+#+END_SRC
+
+#+BEGIN_SRC emacs-lisp
+  (add-to-list 'load-path (concat emacs-directory "/el-get/el-get"))
+
+  (unless  (require 'el-get nil 'noerror)
+    (with-current-buffer
+        (url-retrieve-synchronously
+         "https://raw.github.com/dimitri/el-get/master/el-get-install.el")
+      (goto-char (point-max))
+      (eval-print-last-sexp)))
+#+END_SRC
+
+Now, =el-get= is either require’d, and thus available, or loaded by the
+el-get installer, in which case it is also available.
+
+The rest is basically a long list of sources for el-get where to get
+the packages from and how to install and update them.
+When installing a new package, add a recipe in this list, eval it,
+and run =el-get-install= with the package name.
+
+#+BEGIN_SRC emacs-lisp
+  ;; Personal or adapted recipes
+  ;; Sounds like this could use its own file?
+  (setq el-get-sources
+        '(
+          ;; Obviously we need el-get itself, so we can run a self-update
+          ;; There is a recipe, but we want the master branch of it
+          (:name el-get :branch "master")
+          ;; Using a different source than the built-in recipe (why was this again?)
+          (:name zenburn-emacs          :type github :pkgname "bbatsov/zenburn-emacs")
+          ;; Version from elpa does not work for me (init problem?)
+          (:name cursor-chg             :type github :pkgname  "emacsmirror/cursor-chg"
+                 :features cursor-chg)
+          (:name newlua-mode            :type github :pkgname "immerrr/lua-mode"
+                 :features lua-mode)
+          (:name oauth                  :type github :pkgname "psanford/emacs-oauth")
+          (:name expand-region          :type github :pkgname "magnars/expand-region.el")
+          (:name mark-multiple          :type github :pkgname "magnars/mark-multiple.el")
+          (:name fixed-point-completion :type github :pkgname "smithzvk/fixed-point-completion")
+          (:name xlicense               :type github :pkgname "emacsmirror/xlicense")
+          (:name autosmiley             :type github :pkgname "emacsmirror/autosmiley")
+          (:name async                  :type github :pkgname "jwiegley/emacs-async")
+          (:name pcache                 :type github :pkgname "sigma/pcache")
+          (:name logito                 :type github :pkgname "sigma/logito")
+          (:name gh                     :type github :pkgname "sigma/gh.el"
+                 :depends (pcache logito))
+          (:name gisthub                :type github :pkgname  "defunkt/gist.el"
+                 :depends (gh))
+          (:name stripe-buffer          :type github :pkgname "sabof/stripe-buffer")
+          (:name git-auto-commit-mode   :type github :pkgname "ryuslash/git-auto-commit-mode")
+          (:name ujelly-theme           :type github :pkgname "marktran/color-theme-ujelly")
+          (:name erc-image              :type github :pkgname "mrvdb/erc-image.el")
+          (:name org-present            :type github :pkgname "rlister/org-present")
+          ;; Dependency? I dont use this directly
+          (:name dash                   :type github :pkgname "magnars/dash.el")
+          (:name gitmessenger           :type github :pkgname "syohex/emacs-git-messenger")
+          (:name metaweblog             :type github :pkgname "punchagan/metaweblog.el")
+          (:name org-agenda-property    :type github :pkgname "Bruce-Connor/org-agenda-property")
+          (:name pump.io                :type github :pkgname "cnngimenez/pumpio-el")
+          (:name elfeed                 :type github :pkgname "skeeto/elfeed")
+          ;;(:name mrb/ubiquitous       :type github :pkgname "DarwinAwardWinner/ido-ubiquitous")
+          (:name guide-key              :type github :pkgname "kbkbkbkb1/guide-key")
+          (:name org-screenshot         :type github :pkgname "dfeich/org-screenshot")
+          (:name erc-hl-nicks           :type github :pkgname "leathekd/erc-hl-nicks")
+          (:name json-rpc               :type github :pkgname "skeeto/elisp-json-rpc")
+          (:name btcticker              :type github :pkgname "niedbalski/emacs-btc-ticker"
+                 :depends request)
+          (:name ws-butler              :type github :pkgname "lewang/ws-butler")
+          (:name wrap-region            :type github :pkgname "rejeep/wrap-region.el")
+        )
+  )
+
+  (setq mrb/packages
+        (append
+         ;; list of packages we use from standard recipes
+         '(smex ace-jump-mode apache-mode gnuplot-mode sudo-save
+                edit-server magit markdown-mode rainbow-mode rainbow-delimiters scratch popwin
+                highlight-parentheses multiple-cursors git-modes cl-lib keywiz
+                smart-tab yaml-mode org-jekyll hideshow-org oauth flim haskell-mode ghc-mod s f
+                flycheck pkg-info perspective ido-vertical-mode jekyll-el org2blog
+                identica-mode php-mode company-mode xml-rpc csv-mode notmuch use-package git-timemachine)
+         ;; the sources we have configured above
+         (mapcar 'el-get-as-symbol (mapcar 'el-get-source-name el-get-sources))))
+
+  (el-get 'sync mrb/packages)
+  (require 'use-package)
+#+END_SRC
+
 * Personal information
 I'd like to arrange 3 things related to personal information:
 1. register the proper identification to use;
@@ -133,6 +257,7 @@ there is anything else that needs to be public at the moment.
 #+BEGIN_SRC emacs-lisp
   (setq user-full-name    "Marcel van der Boom")
   (setq user-mail-address "marcel@hsdev.com")
+  (setq user-domain "hsdev.com") ;; This one I made up.
 #+END_SRC
 
 
@@ -242,12 +367,20 @@ separate file for several reasons.
       (goto-address-mode 1)))
   (global-goto-address-mode t)
 #+END_SRC
+
+Make life easier if we have sudo, so we can just edit the files and be
+done with them if possible
+
+#+BEGIN_SRC emacs-lisp
+  (use-package sudo-save)
+
+#+END_SRC
 * Internationalisation and multi-language features
 If anything multi-language should work, UTF-8 encoding is a must, so
 let's make sure we try to use that everywhere
 
 #+BEGIN_SRC emacs-lisp
-  (prefer-coding-system 'utf-8)  
+  (prefer-coding-system 'utf-8)
 #+END_SRC
 
 For conveniently editting accented characters like 'é' and 'è' there
@@ -287,7 +420,7 @@ based on a copy of latin-ltx.el
    "MyTeX" "UTF-8" 'quail-use-package
    "\\" "Personalized TeX input method"
    "~/.emacs.d/mytex-inputmethod")
-   
+
   (defun mrb/set-input-method()
     (interactive)
     (setq default-input-method "MyTeX")
@@ -325,137 +458,25 @@ done with them.
      t
      (cons from (or to from))
      (font-spec :family (or family "FreeSerif"))))
+#+END_SRC
 
-  ;; Add a line like the following  for each char displaying improperly
-  (mrb/fix-fontset-font "Symbola" #x1F4A9) 
-  ;; PILE OF POO symbol 💩 \larr This should now show a pile of poo if all is well
+The problem with applying this function is that we need to be 'done'
+with our visual initialisation or otherwise they'll do nothing (at
+least that I can see). So, let's group our corrections in a function
+and call that when we are done with our visual (X) init.
+
+#+BEGIN_SRC emacs-lisp
+  (defun mrb/unicode-font-corrections()
+    ;; Add a line like the following  for each char displaying improperly
+    (mrb/fix-fontset-font "Symbola" #x1F4A9) ;; 💩  pile of poo is required
+    (mrb/fix-fontset-font "Symbola" #x1f44d) ;; 👍  thumbs up
+   )
 #+END_SRC
 
 So, when characters do not show properly, the steps to take now are:
 1. Find a font which has the char
 2. Map the character(-range) to that font
 3. Optional: define a convenient way to type the character
-
-* Package Management
-Package handling, do this early so emacs knows where to find things.
-
-This has gotten a bit of attention in the last years and there are now
-lots of options, of which package.el seems to be the choice if not
-anything else explicitly preferred. I have always used el-get instead
-of package.el, although I have no idea why I made that decision at
-that time, but I think it was because it allowed me to inlcude git
-recipes in an easy way. ([2014-03-03 ma] Not sure if this is stil the
-case now)
-
-There are several options:
-1. Just use plain package.el
-2. Use el-get
-3. Use use-package (piggybacks on package.el)
-4. Homebrew
-5. Others...?
-
-The *important* bit here is that this section manages *ALL* my packages,
-including the ones gotten from apt-get, git and elpa.
-The reason for this is that it provides one neat umbrella (in Emacs)
-to manage its packages.
-
-We manage everything with =el-get= so we start by loading that if we
-don't have it already.
-
-First of all, define the package archives I need; for now, just the
-default gnu augmented with the melpa repository. I use setq because I
-want *this* entry to be the definitive one, not adding to a list.
-#+BEGIN_SRC emacs-lisp
-  (setq package-archives
-        '(("melpa" . "http://melpa.milkbox.net/packages/")
-          ("gnu"   . "http://elpa.gnu.org/packages/")))
-  (package-initialize)
-#+END_SRC
-
-#+BEGIN_SRC emacs-lisp
-  (add-to-list 'load-path (concat emacs-directory "/el-get/el-get"))
-
-  (unless  (require 'el-get nil 'noerror)
-    (with-current-buffer
-        (url-retrieve-synchronously
-         "https://raw.github.com/dimitri/el-get/master/el-get-install.el")
-      (goto-char (point-max))
-      (eval-print-last-sexp)))
-#+END_SRC
-
-Now, =el-get= is either require’d, and thus available, or loaded by the
-el-get installer, in which case it is also available.
-
-The rest is basically a long list of sources for el-get where to get
-the packages from and how to install and update them.
-When installing a new package, add a recipe in this list, eval it,
-and run =el-get-install= with the package name.
-
-#+BEGIN_SRC emacs-lisp
-  ;; Personal or adapted recipes
-  (setq el-get-sources
-        '(
-          ;; Obviously we need el-get itself, so we can run a self-update
-          ;; There is a recipe, but we want the master branch of it
-          (:name el-get :branch "master")
-          ;; Using a different source than the built-in recipe (why was this again?)
-          (:name zenburn-emacs          :type github :pkgname "bbatsov/zenburn-emacs")
-          ;; Version from elpa does not work for me (init problem?)
-          (:name cursor-chg             :type github :pkgname  "emacsmirror/cursor-chg"
-                 :features cursor-chg)
-          (:name newlua-mode            :type github :pkgname "immerrr/lua-mode"
-                 :features lua-mode)
-          (:name oauth                  :type github :pkgname "psanford/emacs-oauth")
-          (:name expand-region          :type github :pkgname "magnars/expand-region.el")
-          (:name mark-multiple          :type github :pkgname "magnars/mark-multiple.el")
-          (:name fixed-point-completion :type github :pkgname "smithzvk/fixed-point-completion")
-          (:name xlicense               :type github :pkgname "emacsmirror/xlicense")
-          (:name autosmiley             :type github :pkgname "emacsmirror/autosmiley")
-          (:name async                  :type github :pkgname "jwiegley/emacs-async")
-          (:name pcache                 :type github :pkgname "sigma/pcache")
-          (:name logito                 :type github :pkgname "sigma/logito")
-          (:name gh                     :type github :pkgname "sigma/gh.el"
-                 :depends (pcache logito))
-          (:name gisthub                :type github :pkgname  "defunkt/gist.el"
-                 :depends (gh))
-          (:name stripe-buffer          :type github :pkgname "sabof/stripe-buffer")
-          (:name git-auto-commit-mode   :type github :pkgname "ryuslash/git-auto-commit-mode")
-          (:name ujelly-theme           :type github :pkgname "marktran/color-theme-ujelly")
-          (:name erc-tweet              :type github :pkgname "kidd/erc-tweet.el")
-          (:name erc-image              :type github :pkgname "mrvdb/erc-image.el")
-          (:name org-present            :type github :pkgname "rlister/org-present")
-          ;; Dependency? I dont use this directly
-          (:name dash                   :type github :pkgname "magnars/dash.el")
-          (:name gitmessenger           :type github :pkgname "syohex/emacs-git-messenger")
-          (:name metaweblog             :type github :pkgname "punchagan/metaweblog.el")
-          (:name org-agenda-property    :type github :pkgname "Bruce-Connor/org-agenda-property")
-          (:name pump.io                :type github :pkgname "cnngimenez/pumpio-el")
-          (:name elfeed                 :type github :pkgname "skeeto/elfeed")
-          ;;(:name mrb/ubiquitous       :type github :pkgname "DarwinAwardWinner/ido-ubiquitous")
-          (:name guide-key              :type github :pkgname "kbkbkbkb1/guide-key")
-          (:name org-screenshot         :type github :pkgname "dfeich/org-screenshot")
-          ;;(:name ethan-wspace :after (progn (global-ethan-wspace-mode 1)))
-          (:name erc-hl-nicks           :type elpa)
-          (:name json-rpc               :type github :pkgname "skeeto/elisp-json-rpc")
-          (:name btcticker              :type github :pkgname "niedbalski/emacs-btc-ticker"
-                 :depends request)
-        )
-  )
-
-  (setq mrb/packages
-        (append
-         ;; list of packages we use from standard recipes
-         '(smex ace-jump-mode apache-mode gnuplot-mode sudo-save
-                edit-server magit markdown-mode rainbow-mode rainbow-delimiters scratch popwin
-                highlight-parentheses multiple-cursors wrap-region git-modes cl-lib keywiz
-                smart-tab yaml-mode org-jekyll hideshow-org oauth flim haskell-mode ghc-mod s f
-                flycheck pkg-info perspective ido-vertical-mode jekyll-el org2blog
-                identica-mode php-mode company-mode xml-rpc csv-mode notmuch)
-         ;; the sources we have configured above
-         (mapcar 'el-get-as-symbol (mapcar 'el-get-source-name el-get-sources))))
-
-  (el-get 'sync mrb/packages)
-#+END_SRC
 
 * Visual
 Many settings have to do with how the screen looks and behaves in a
@@ -532,11 +553,13 @@ And enable the minor mode globally.
 
   ;; When I am not typing, the cursor should become more visible, so I
   ;; don't lose it.
-  (require 'cursor-chg)                   ; Load this library
-  (change-cursor-mode 0)                  ; On for overwrite/read-only/input mode
-  (toggle-cursor-type-when-idle 1)        ; On when idle
-  (setq curchg-default-cursor-color "white smoke")
-  (setq curchg-default-cursor-type (quote bar\ \.\ 1))
+  (use-package cursor-chg
+    :init
+    (progn
+      (change-cursor-mode 0)        ; On for overwrite/read-only/input mode
+      (toggle-cursor-type-when-idle 1)   ; On when idle
+      (setq curchg-default-cursor-color "white smoke")
+      (setq curchg-default-cursor-type (quote bar\ \.\ 1))))
 
   ;; Default frame properties frame position, color, etc
   (setq default-frame-alist
@@ -559,8 +582,6 @@ And enable the minor mode globally.
   ;; Defer fontification a little bit, so we could gain a bit in scroll speed
   (setq jit-lock-defer-time 0.02)
 
-
-
   ;; Make colorful balanced parentheses etc. in different modes
   (add-hook 'lisp-mode 'rainbow-delimiters-mode)
 #+END_SRC
@@ -573,42 +594,47 @@ Anyways, some settings need to be moved to the event when a client
 visits the server, so we can still apply these settings transparently.
 
 #+BEGIN_SRC emacs-lisp
-  (defun mrb/run-client-settings()
-    (interactive)
+    (defun mrb/run-client-settings()
+      (interactive)
 
-    (message "Running client settings which server may not have applied")
-    (tool-bar-mode -1)   ;; No tool-bar
-    (scroll-bar-mode -1) ;; No scroll-bar
-    (menu-bar-mode -1)   ;; No menu-bar
-    ;;(tooltip-mode -1)    ;; No tooltips
-    (setq fringe-mode 0) ;; No fringe
-    (set-fringe-mode fringe-mode)
+      (message "Running client settings which server may not have applied")
+      (tool-bar-mode -1)   ;; No tool-bar
+      (scroll-bar-mode -1) ;; No scroll-bar
+      (menu-bar-mode -1)   ;; No menu-bar
+      ;;(tooltip-mode -1)    ;; No tooltips
+      (setq fringe-mode 0) ;; No fringe
+      (set-fringe-mode fringe-mode)
 
-    ;; When making a selection of in case of highlighting a region
-    ;; automatically, keep all font-locking in the region instead of
-    ;; just overwriting the whole section. The trick here is to specify
-    ;; nil in the foreground attribute
+      ;; When making a selection or in case of highlighting a region
+      ;; automatically, keep all font-locking in the region instead of
+      ;; just overwriting the whole section. The trick here is to specify
+      ;; nil in the foreground attribute
 
-    (set-face-attribute 'show-paren-match nil
-                        :inherit nil :foreground nil
-                        :weight 'normal :background mrb-bg-paren-match)
+      (set-face-attribute 'show-paren-match nil
+                          :inherit nil :foreground nil
+                          :weight 'normal :background mrb-bg-paren-match)
 
 
-    ;; Set regions so we keep the normal font locking
-    (set-face-attribute 'region nil
-                        :inherit nil :foreground nil
-                        :weight 'normal :background mrb-bg-region)
+      ;; Set regions so we keep the normal font locking
+      (set-face-attribute 'region nil
+                          :inherit nil :foreground nil
+                          :weight 'normal :background mrb-bg-region)
 
-    ;; The above did not work for magit, let's try it after loading magit
-    (eval-after-load "magit"
-      '(set-face-attribute 'magit-item-highlight nil :inherit nil :foreground nil
-                           :background mrb-bg-paren-match))
-  )
+      ;; The above did not work for magit, let's try it after loading magit
+      (eval-after-load "magit"
+        '(set-face-attribute 'magit-item-highlight nil :inherit nil :foreground nil
+                             :background mrb-bg-paren-match))
 
-  ;; This seems to work if we start up emacs using filename on cli and
-  ;; server was not running yet. It does however not work if we just
-  ;; startup emacs (through my edit script) without a filename on the cli
-  (add-hook 'server-visit-hook 'mrb/run-client-settings)
+      (use-package ws-butler)
+
+      (mrb/unicode-font-corrections)
+      )
+
+
+    ;; This seems to work if we start up emacs using filename on cli and
+    ;; server was not running yet. It does however not work if we just
+    ;; startup emacs (through my edit script) without a filename on the cli
+    (add-hook 'server-visit-hook 'mrb/run-client-settings)
 
 #+END_SRC
 * Buffers and files
@@ -619,8 +645,9 @@ get confused:
 
 #+BEGIN_SRC emacs-lisp
   ;; nicer buffer names
-  (require 'uniquify)
-  (setq uniquify-buffer-name-style 'forward)
+  (use-package uniquify
+    :init
+    (setq uniquify-buffer-name-style 'forward))
 #+END_SRC
 
 #+BEGIN_SRC emacs-lisp
@@ -628,10 +655,9 @@ get confused:
   (setq minibuffer-prompt-properties (quote (read-only t point-entered minibuffer-avoid-prompt face minibuffer-prompt)))
 
   ;; Save places in buffers between sessions
-  (setq-default save-place t)
-  (require 'saveplace)
-
-  (provide 'buffers)
+  (use-package saveplace
+    :init
+    (setq-default save-place t))
 #+END_SRC
 * Modes
 Customisation setting for specific modes. Most of the modes I use have
@@ -688,7 +714,7 @@ any issues.
 
   ;; Open scratch buffer by default in the mode we are in at the moment
   ;; with C-u prefix a mode will be asked to use
-  (require 'scratch)
+  (use-package scratch)
 
   ;; Turn on eldoc for modes which support it
   (dolist
@@ -729,7 +755,7 @@ did that on the main initialisation to get org-babel started.
 
   (delete  "/usr/local/share/emacs/24.3/lisp/org" load-path)
   ;; CHECKME: is this still the proper installation method, it has changed a lot lately
-  (require 'org)                   ;; This is required, see installation docs
+  (use-package org)                   ;; This is required, see installation docs
   ;;(require 'org-clock)             ;; Should not be needed, but otherwise links don't work
   ;;(require 'org-mouse)             ;; Enable menu on right mouse button and other mouse functions
   ;; FIXME: for v8 this isn't working?
@@ -792,6 +818,20 @@ Here are the templates used for them.
            ("j" "Journal"
             entry (file+datetree (concat org-directory "journal.org"))
             "* ___________________________________________________________ *%U* ___\n\n%?\n")
+           ("w" "Weigh-In"
+            entry (file+headline (concat org-directory "diet.org") "Daily Logs")
+            "* CAL-IN Diet for day %t
+  %^{Weight}p
+  | Food / Exercise | Calories | Quantity | Total |
+  |-----------------+----------+----------+-------|
+  | %?              |          |          |       |
+  |-----------------+----------+----------+-------|
+  | Total           |          |          |       |
+  |-----------------+----------+----------+-------|
+  #+TBLFM: $4=$2*$3;%.0f::$LR4=vsum(@2$4..@-I$4)
+
+  "
+            :prepend t :empty-lines 1)
            )
           )
    )
@@ -879,7 +919,7 @@ enter tags, so I define a shortcut to define tags while capturing.
       (org-back-to-heading)
       (org-set-tags)))
 
-  (define-key org-capture-mode-map "\C-c\C-t" 'mrb/add-tags-in-capture)
+  (bind-key "C-c C-t" 'mrb/add-tags-in-capture org-capture-mode-map)
 #+END_SRC
 
 Capturing dents for status updates in statusnet are done the
@@ -915,10 +955,12 @@ Adapt the colors of the states I use a bit:
 
 #+BEGIN_SRC emacs-lisp
   (setq org-todo-keyword-faces '(
-    ("DONE"   .    (:foreground "#afd8af"     :weight bold))
+    ("DONE"      . (:foreground "#afd8af"     :weight bold))
     ("WAITING"   . (:foreground "dark salmon" :weight bold))
     ("CANCELLED" . (:foreground "dim gray"    :weight bold))
-    ("BUY      " . (:foreground "goldenrod"   :weight bold))
+    ("BUY"       . (:foreground "goldenrod"   :weight bold))
+    ("HOWTO"     . (:foreground "SkyBlue3"    :weight bold))
+    ("INFO"      . (:foreground "khaki1"      :weight bold))
   ))
 #+END_SRC
 
@@ -990,7 +1032,7 @@ keep the active file as clean as possible.
 
 Thus, the normal sequence would be:
 #+BEGIN_SRC emacs-lisp
-  (define-key org-mode-map [(super .)] 'org-todo)
+  (bind-key "s-." 'org-todo org-mode-map)
 
   (defun mrb/force-org-todo()
     (interactive)
@@ -1004,9 +1046,9 @@ Thus, the normal sequence would be:
     (let ((org-inhibit-blocking t))
       (org-agenda-todo)))
 
-  (define-key org-mode-map [(control super .)] 'mrb/force-org-todo)
-  (define-key org-agenda-mode-map [(control super .)] 'mrb/force-org-agenda-todo)
-  (define-key org-agenda-mode-map [(super .)] 'org-agenda-todo)
+  (bind-key "C-s-." 'mrb/force-org-todo org-mode-map)
+  (bind-key "C-s-." 'mrb/force-org-agenda-todo org-agenda-mode-map)
+  (bind-key "s-."   'org-agenda-todo org-agenda-mode-map)
 #+END_SRC
 
 *** Registering creation time of todo items
@@ -1063,6 +1105,29 @@ Now that function is used to insert the proprty when:
     (when (member (org-get-todo-state) org-todo-keywords-1)
       (mrb/insert-created-timestamp)))
   (ad-activate 'org-capture)
+#+END_SRC
+*** Scheduling items
+Orgmode has a number of provisions to schedule items, either
+explicitly by setting the SCHEDULE property, inferring a deadline by
+setting the DEADLINE property, thus scheduling the task in an interval
+before the deadline expires.
+
+A routine task I am performing, often at the beginning of the day, is
+to make a list of what I want to do that day. This is often ad-hoc and
+thus still on paper most of the time. Over time, I want this to be
+done in orgmode, but that requires the process to be a lot simpler
+than it is now and one of the things is to make it easier to model a
+thing like: "yeah, do this today"
+
+#+BEGIN_SRC emacs-lisp
+  (defun mrb/org-schedule-for-today()
+    "Schedule the current item for today"
+    (interactive)
+    (org-schedule nil
+                  (format-time-string "%Y-%m-%d")))
+
+  (bind-key "C-." 'mrb/org-schedule-for-today org-mode-map)
+
 #+END_SRC
 
 *** Visual settings
@@ -1185,6 +1250,7 @@ Settings which are just applicable for the org-mode agenda view.
 
 #+BEGIN_SRC emacs-lisp
   (require 'keywiz)
+  (require 'cl)
 
   ;; Helper function to build a set of functions and their
   (defun mrb/load-keybindings ()
@@ -1353,7 +1419,7 @@ and HTML as destination format
 
   ; Make sure we export in css mode, meaning no inline css crap
   (setq org-export-htmlize-output-type 'css)
-  (define-key org-mode-map "\C-c\C-e" 'mrb/org-export-body-as-html)
+  (bind-key "C-c C-e" 'mrb/org-export-body-as-html org-mode-map)
 
   (defun mrb/org-export-body-as-html-batch ()
     "Call `org-export-as-html', may be used in batch processing as
@@ -1539,23 +1605,23 @@ migrate this into more literal sections
 
 
   ; Keybindings which only make sense when having an orgmode file
-  (define-key org-mode-map "\C-ct" 'org-set-tags)
+  (bind-key "C-c t" 'org-set-tags org-mode-map)
 
   ;; After 7.9.4(?) the export menu is called by dispatch
   (if
       (version< "7.9.4" (org-version))
-      (define-key org-mode-map "\C-ce" 'org-export-dispatch)
-    (define-key org-mode-map "\C-ce" 'org-export)
+      (bind-key "C-c e" 'org-export-dispatch org-mode-map)
+    (bind-key "C-c e" 'org-export org-mode-map)
     )
 
 
 
   ; Map \cmd{}t to schedule in both task and agenda-view
-  (define-key org-mode-map [(super t)] 'org-schedule)
-  (define-key org-agenda-mode-map [(super t)] 'org-agenda-schedule)
-  (define-key org-mode-map [(meta p)] 'org-set-property)
-  (define-key org-agenda-mode-map [(meta p)] 'org-set-property)
-  (define-key org-mode-map [(control super s)] 'org-save-all-org-buffers)
+  (bind-key "s-t" 'org-schedule org-mode-map)
+  (bind-key "s-t" 'org-agenda-schedule org-agenda-mode-map)
+  (bind-key "M-p" 'org-set-property org-mode-map)
+  (bind-key "M-p" 'org-set-property org-agenda-mode-map)
+  (bind-key "C-s-s" 'org-save-all-org-buffers org-mode-map)
 
   ; Dynamic behaviour
   (defun mrb/gtd()
@@ -1781,7 +1847,7 @@ migrate this into more literal sections
   (defalias 'archive-done-tasks 'mrb/org-my-archive-done-tasks)
 
   ;; Map it to Ctrl-C S in orgmode (consider a global key assignment?
-  (define-key org-mode-map "\C-cs" 'mrb/shortenurl-replace-at-point)
+  (bind-key "C-c s" 'mrb/shortenurl-replace-at-point org-mode-map)
   ;; END shorten url functionality
 
   ;;(add-to-list 'load-path "~/dat/src/emacs/packages/org-bom/")
@@ -1945,10 +2011,10 @@ migrate this into more literal sections
         (mrb/mail-subtree-from-org)
       (mrb/make-mailcompose-frame)))
   ;; Bind it to \C-xm in org-mode only
-  (define-key org-mode-map "\C-xm" 'mrb/construct-mail)
-  (define-key org-agenda-mode-map "\C-xm" 'mrb/construct-mail)
+  (bind-key "C-x m" 'mrb/construct-mail org-mode-map)
+  (bind-key "C-x m" 'mrb/construct-mail org-agenda-mode-map)
   ;; But not for all others, because the org subtree will never be there
-  (global-set-key (kbd "\C-xm") 'mrb/make-mailcompose-frame)
+  (bind-key "C-x m" 'mrb/make-mailcompose-frame)
 
 
   (require 'stripe-buffer)
@@ -2022,10 +2088,13 @@ for part design for the 3D-print and for the lathe.
 
 #+BEGIN_SRC emacs-lisp
   ; OpenSCAD has git repository in my dev tree
-  (add-to-list 'load-path "~/dat/src/reprapping/openscad/contrib")
-  (load "scad-mode")
+  ;; Find a way to get this with el-get, say from github
+  ;; It is part of the openscad package and in the contrib folder
+  ;; there. Until that time, we're disabling
+  ;; (add-to-list 'load-path "~/dat/src/reprapping/openscad/contrib")
+  ;; (load "scad-mode")
 
-  (provide 'openscad)
+  ;;(provide 'openscad)
 
 #+END_SRC
 ** Python
@@ -2049,9 +2118,10 @@ source (*.hs files) and the ghc-mod package to help with completion
 and showing syntax errors.
 
 #+BEGIN_SRC emacs-lisp
-(autoload 'haskell-mode "haskell-mode" "Haskell support" t)
-(add-to-list 'auto-mode-alist '("\\.hs\\'" . haskell-mode))
-(add-hook 'haskell-mode-hook (lambda () (ghc-init) ))
+  ;(autoload 'haskell-mode "haskell-mode" "Haskell support" t)
+  (add-to-list 'auto-mode-alist '("\\.hs\\'" . haskell-mode))
+  ;;(add-hook 'haskell-mode-hook (lambda () (ghc-init) ))
+
 #+END_SRC
 * LDAP
 LDAP integration, mostly for address book lookups
@@ -2093,11 +2163,11 @@ LDAP integration, mostly for address book lookups
   ;; Adds some hooks
 
   (eval-after-load "message"
-    '(define-key message-mode-map (kbd "TAB") 'mrb/enz-eudc-expand-inline))
+    '(bind-key "TAB" 'mrb/enz-eudc-expand-inline message-mode-map))
   (eval-after-load "sendmail"
-    '(define-key mail-mode-map (kbd "TAB") 'mrb/enz-eudc-expand-inline))
+    '(bind-key "TAB" 'mrb/enz-eudc-expand-inline mail-mode-map))
   (eval-after-load "post"
-    '(define-key post-mode-map (kbd "TAB") 'mrb/enz-eudc-expand-inline))
+    '(bind-key "TAB" 'mrb/enz-eudc-expand-inline post-mode-map))
 
 #+END_SRC
 * Key and mouse bindings
@@ -2179,7 +2249,17 @@ the shortening of the timeout from 50ms to 35ms to make it work for
 me.
 
 ** Setting keys
-This is the remnant of my old configuration.
+Binding keys if fine and all, but remembering them later is rather
+hard, especially if they wander all over the configuration file. It
+seems that `bind-key' (now part of `use-package') solves this problem,
+so let's use that.
+
+#+BEGIN_SRC emacs-lisp
+(require 'bind-key)
+#+END_SRC
+
+Bind-key can define both global keys as map-based key settings and
+accepts all kinds of key specifications, including strings.
 
 #+BEGIN_SRC emacs-lisp
   ; Let marks be set when shift arrowing, everybody does this
@@ -2188,23 +2268,23 @@ This is the remnant of my old configuration.
   (delete-selection-mode 1)
 
   ; Font scaling, like in firefox
-  (global-set-key [(control +)] 'text-scale-increase)
-  (global-set-key [(control -)] 'text-scale-decrease)
+  (bind-key "C-+" 'text-scale-increase)
+  (bind-key "C--" 'text-scale-decrease)
 
   ;; Line handling functions
-  (global-set-key [(super \`)] 'toggle-truncate-lines)
+  (bind-key "s-`" 'toggle-truncate-lines)
 
   ;; Most of the time I want return to be newline and indent
   ;; Every mode can augment this at will obviously (org-mode does, for example)
-  (global-set-key (kbd "RET") 'newline-and-indent)
+  (bind-key "RET" 'newline-and-indent)
 
   ;; Comment code lines, command reacts based on the major mode.
-  (global-set-key [(super /)] 'comment-or-uncomment-region)
+  (bind-key "s-/" 'comment-or-uncomment-region)
 
-  (global-set-key [(super s)] 'save-buffer)
+  (bind-key "s-s" 'save-buffer)
 
   ;; Kill buffer, FIXME: asks for name, which I dont need
-  (global-set-key [(super k)] 'ido-kill-buffer)
+  (bind-key "s-k" 'ido-kill-buffer)
 
   ;; Resizing windows
   ;; Introduce a bit of intelligence so the shrink and enlarge know what window I'm in.
@@ -2255,19 +2335,19 @@ This is the remnant of my old configuration.
   ;; cut, copy and paste with cmd-key (like on osx).
   ;; this kinds sucks now, because the rest of the OS does not do this
   ;; SOLUTION: learn to work with standard emacs keybinding and adjust the OS  ?
-  (global-set-key [(super z)] 'undo)
-  (global-set-key [(super x)] 'clipboard-kill-region)
-  (global-set-key [(super c)] 'clipboard-kill-ring-save)
-  (global-set-key [(super v)] 'yank)
-  (global-set-key [(super a)] 'mark-whole-buffer)
+  (bind-key "s-z" 'undo)
+  (bind-key "s-x" 'clipboard-kill-region)
+  (bind-key "s-c" 'clipboard-kill-ring-save)
+  (bind-key "s-v" 'yank)
+  (bind-key "s-a" 'mark-whole-buffer)
 
   ;; Keypad delete
-  (global-set-key [(kp-delete)] 'delete-char)
+  (bind-key [(kp-delete)] 'delete-char)
 
   ;; Make `C-x C-m' and `C-x RET' be different (since I tend
   ;; to type the latter by accident sometimes.)
   ;; Should this not be an unset?
-  (global-set-key [(control x) return] nil)
+  (bind-key "C-x RET" nil)
 
   (defun mrb/new-empty-buffer ()
     "Opens a new empty buffer."
@@ -2284,7 +2364,7 @@ This is the remnant of my old configuration.
   ;; that wraps around kill-buffer, and check on the buffer modification
   ;; status to offer save
   ;; This custome kill buffer is close-current-buffer.
-  (global-set-key [(super n)] 'mrb/new-empty-buffer)
+  (bind-key "s-n" 'mrb/new-empty-buffer)
 
 #+END_SRC
 ** Key bindings
@@ -2297,7 +2377,7 @@ emacs is just easier. This saves me from having to kill the emacs
 daemon from the terminal.
 
 #+BEGIN_SRC emacs-lisp
-  (global-set-key [(control x) (control q)] 'save-buffers-kill-emacs)
+  (bind-key "C-x C-q" 'save-buffers-kill-emacs)
 #+END_SRC
 
 Probably the most important key is =M-x= (as set by default). That key
@@ -2313,16 +2393,15 @@ runs smex, but limits the commands to make sense for the current
 major mode only.
 
 #+BEGIN_SRC emacs-lisp
-  (global-set-key [(control c)(meta x)] 'execute-extended-command)
-  (global-set-key [(meta x)] 'smex)
-  (global-set-key [(meta X)] 'smex-major-mode-commands)
+  (bind-key "C-c M-x" 'execute-extended-command)
+  (bind-key "M-x" 'smex)
+  (bind-key "M-X" 'smex-major-mode-commands)
 #+END_SRC
 
 I want to be able to call up magit from anywhere
 
 #+BEGIN_SRC emacs-lisp
-  (global-set-key [(control c) m] 'magit-status) ;; Does not work for some reason
-  (global-set-key (kbd "C-c m") 'magit-status)
+  (bind-key "C-c m" 'magit-status)
 #+END_SRC
 **** COMMENT Special keys
 For some special keys I have defined some commands. Special keys are
@@ -2332,10 +2411,10 @@ the previous definition.
 
 #+BEGIN_SRC emacs-lisp
   ;; Menu key does M-x, if we have it.
-  ;;(global-set-key (kbd "<apps>") 'execute-extended-command)
-  (global-set-key [f1] 'help-command)
-  (global-set-key [f2] 'save-buffer)
-  (global-set-key [f3] 'find-file)
+  ;;(bind-key (kbd "<apps>") 'execute-extended-command)
+  (bind-key "<f1>" 'help-command)
+  (bind-key "<f2>" 'save-buffer)
+  (bind-key "<f4>" 'find-file)
 
   ;; Define the toggle-frame-fullscreen function in
   ;; the case that it is not already.
@@ -2352,11 +2431,11 @@ the previous definition.
   (defun mrb/switch-full-screen ()
     (interactive)
     (mrb/toggle-frame-fullscreen))
-  (global-set-key [f11] 'mrb/switch-full-screen)
+  (bind-key "<f11>" 'mrb/switch-full-screen)
 
   ;; Not sure what this is? It is not the menu key.
-  (global-set-key [XF86MenuKB] 'accelerate-menu)
-  (global-set-key [XF86Battery] 'display-battery-mode)
+  (bind-key [XF86MenuKB] 'accelerate-menu)
+  (bind-key [XF86Battery] 'display-battery-mode)
 #+END_SRC
 
 **** Resizing and switching windows and frames
@@ -2364,34 +2443,34 @@ the previous definition.
 #+BEGIN_SRC emacs-lisp
   ;; Moving back and forth in windows For now, I'm using the Fn Key +
   ;; Arrows, seems consistent with the other window movements
-  (global-set-key [XF86AudioNext] 'next-multiframe-window)
-  (global-set-key [XF86AudioPrev] 'previous-multiframe-window)
+  (bind-key [XF86AudioNext] 'next-multiframe-window)
+  (bind-key [XF86AudioPrev] 'previous-multiframe-window)
 
   ;; Alt-Cmd left-right arrows browse through buffers within the same frame
-  (global-set-key [(meta super left)] 'previous-buffer)
-  (global-set-key [(meta super right)] 'next-buffer)
-
-  ;; Ctrl Cmd moves buffers up and down in the tiling of emacs
-  (global-set-key [(control super up)]   'buf-move-up)
-  (global-set-key [(control super down)] 'buf-move-down)
+  (bind-key "<M-s-left>"  'previous-buffer)
+  (bind-key "<M-s-right>" 'next-buffer)
 
   ;; These would conflict with awesome bindings, perhaps we should change those bindings
-  ;; (global-set-key (kbd "<C-S-left>")   'buf-move-left)
-  ;; (global-set-key (kbd "<C-S-right>")  'buf-move-right)
+  ;; (bind-key "<C-S-left>"  'buf-move-left)
+  ;; (bind-key "<C-S-right>" 'buf-move-right)
 
-  ;; Use Super + Arrows to steer the borders
-  (global-set-key [(super up)] 'move-border-up)
-  (global-set-key [(super down)] 'move-border-down)
+  ;; Awesome uses Super+Arrows to move between its 'frames'
+  ;; Emacs   uses Shift-Super+Arrows to move between its windows
+  (bind-key "<S-s-right>" 'windmove-right)
+  (bind-key "<S-s-left>"  'windmove-left)
+  (bind-key "<S-s-up>"    'windmove-up)
+  (bind-key "<S-s-down>"  'windmove-down)
+
 #+END_SRC
 *** Org-mode
 Orgmode specific keybindings.
 
 #+BEGIN_SRC emacs-lisp
-  (global-set-key [(control c) (g)] 'mrb/gtd)
-  (global-set-key [(control c) (a)] 'org-agenda)
-  (global-set-key [(control c) (b)] 'org-iswitchb)
-  (global-set-key [(control c) (l)] 'org-store-link)
-  (global-set-key [(control c) (j)] 'mrb/make-journal-entry)
+  (bind-key "C-c g" 'mrb/gtd)
+  (bind-key "C-c a" 'org-agenda)
+  (bind-key "C-c b" 'org-iswitchb)
+  (bind-key "C-c l" 'org-store-link)
+  (bind-key "C-c j" 'mrb/make-journal-entry)
 #+END_SRC
 ** Other key and mouse related settings
 Emacs has, like for everything else, a peculiar idea on scrolling and
@@ -2504,7 +2583,7 @@ In the window manager (awesome-wm) 'Cmd Enter' launches a terminal,
 similarly within Emacs 'C-c Enter' launches Eshell:
 
 #+BEGIN_SRC emacs-lisp
-  (define-key global-map [(control c) return] 'eshell)
+  (bind-key "C-c RET" 'eshell)
 #+END_SRC
 
 First thing I missed in eshell was a the =clear= function, as in
@@ -2517,7 +2596,7 @@ registered as a command automatically.
   (interactive)
   ;; clear read-only of prompts
   (let ((inhibit-read-only t))
-	(delete-region (point-min) (point-max))))
+        (delete-region (point-min) (point-max))))
 #+END_SRC
 
 We want to be able to open files from within eshell in the same way as
@@ -2662,8 +2741,8 @@ This is probably incomplete or wrong even in some cases, but it's a start.
   (require 'company)
 
   ;; Remap normal indent-for-tab-command
-  (define-key company-mode-map [remap indent-for-tab-command]
-    'company-indent-for-tab-command)
+  (bind-key [remap indent-for-tab-command]
+    'company-indent-for-tab-command company-mode-map)
 
   ;; Save the normal completion functions temporarily
   (defvar completion-at-point-functions-saved nil)
@@ -2736,8 +2815,8 @@ and down is mapped to C-p and C-n, just like moving the cursor in
 normal text.
 
 #+BEGIN_SRC emacs-lisp
-(define-key company-active-map "\C-n" 'company-select-next)
-(define-key company-active-map "\C-p" 'company-select-previous)
+(bind-key  "C-n" 'company-select-next company-active-map)
+(bind-key  "C-p" 'company-select-previous company-active-map)
 #+END_SRC
 
 Having the completion pop up automatically is annoying in most cases,
@@ -2753,12 +2832,14 @@ the relevant exceptions for my configuration.
 #+BEGIN_SRC emacs-lisp
   (add-hook 'erc-mode-hook
             (lambda ()
-                    (define-key erc-mode-map
+                    (bind-key
                       [remap completion-at-point]
-                      'company-complete)))
+                      'company-complete erc-mode-map)))
 
   ;; This does not work for some reason?
-  ;;(define-key eshell-mode-map [tab] 'company-complete)
+  ;; (use-package eshell
+  ;;   :init
+  ;;   (bind-key "<tab>"  'company-complete  eshell-mode-map))
 
 #+END_SRC
 ** Ad 5. Open completion window predictably
@@ -2817,7 +2898,7 @@ I've found none applicable yet.
 
 #+BEGIN_SRC emacs-lisp
 
-(require 'wrap-region)
+(use-package wrap-region)
 (wrap-region-global-mode 1)
 ;; (add-to-list 'wrap-region-except-modes 'conflicting-mode)
 #+END_SRC
@@ -2837,18 +2918,18 @@ same. I don't think there is a risk of confusion as to which mechanism
 is in use, but we'll see.
 
 #+BEGIN_SRC emacs-lisp
-  (require 'ace-jump-mode)
+  (use-package ace-jump-mode
+    :config
+    (set-face-attribute
+     'ace-jump-face-foreground nil
+     :inherit isearch-lazy-highlight
+     :background "black"
+     :foreground "tomato")
 
-  (set-face-attribute
-   'ace-jump-face-foreground nil
-   :inherit isearch-lazy-highlight
-   :background "black"
-   :foreground "tomato")
-
-  (set-face-attribute
-   'ace-jump-face-background nil
-   :foreground nil
-   :background mrb-bg-paren-match)
+    (set-face-attribute
+     'ace-jump-face-background nil
+     :foreground nil
+     :background mrb-bg-paren-match))
 #+END_SRC
 
 The effectiveness is also dependent on a quick and easy keyboard
@@ -2868,8 +2949,8 @@ For now, we take the standard keybinding C-c SPC. This key needs to be
 undefined in org-mode (clear table cell). I never use this.
 
 #+BEGIN_SRC emacs-lisp
-  (define-key org-mode-map (kbd "C-c SPC") nil)
-  (define-key global-map (kbd "s-j") 'ace-jump-mode)
+  (bind-key "C-c SPC" nil org-mode-map)
+  (bind-key "s-j" 'ace-jump-mode)
   ;; Pop back to mark is special for ace-jump? C-x space is the key i think.
 #+END_SRC
 
@@ -2883,7 +2964,7 @@ advised configuration from the author at this point.
 #+BEGIN_SRC emacs-lisp
   (eval-after-load "ace-jump-mode"
     '(ace-jump-mode-enable-mark-sync))
-  (define-key global-map (kbd "C-x SPC") 'ace-jump-mode-pop-mark)
+  (bind-key "C-x SPC" 'ace-jump-mode-pop-mark)
 #+END_SRC
 
 * Remote editing
@@ -2919,9 +3000,8 @@ nicks and passwords and stuff.
 Start by configuring some basic settings
 
 #+BEGIN_SRC emacs-lisp
-    (require 'erc)
-    (require 'erc-tweet)
-    (require 'erc-image)
+    (use-package erc)
+    (use-package erc-image)
 
     (setq
      erc-modules
@@ -2931,7 +3011,7 @@ Start by configuring some basic settings
        match move-to-prompt netsplit
        networks noncommands notify notifications
        readonly replace ring services smiley stamp track unmorse
-         smiley tweet image truncate))
+         smiley image truncate))
      erc-image-inline-rescale 150)
 #+END_SRC
 
@@ -2939,7 +3019,7 @@ Configure erc to use services and automatically identify my Nicks to
 Nickserv.
 
 #+BEGIN_SRC emacs-lisp
-    (require 'erc-services)
+    (use-package erc-services)
     (setq erc-nick '("_MrB_" "_MrB__"))
 
     (setq erc-prompt-for-nickserv-password nil)
@@ -3052,9 +3132,9 @@ Mail configuration.
 
     ; Sending it
     smtpmail-default-smtp-server "localhost"
-    smtpmail-smtp-service 24
-    smtpmail-local-domain "hsdev.com"
-    smtpmail-sendto-domain "hsdev.com"
+    smtpmail-smtp-service 24 ;; I use anubis for pre-processing
+    smtpmail-local-domain user-domain
+    smtpmail-sendto-domain user-domain
     send-mail-function 'smtpmail-send-it                 ; This is for mail
     message-send-mail-function 'message-smtpmail-send-it ; This is for gnus
 
@@ -3090,7 +3170,7 @@ configuration for that as well.
      mu4e-update-interval nil
      mu4e-view-show-images t
      mu4e-view-image-max-width 800
-     mu4e-reply-to-address "marcel@hsdev.com")
+     mu4e-reply-to-address user-mail-address)
 #+END_SRC
 
 Composing mail is often an /out of band/ activity, like creating a dent
@@ -3203,6 +3283,30 @@ same as the mailto handler.
 edit -e '(mrb/make-mailcompose-frame)'
 #+END_SRC
 
+*** GNUS
+    GNUS warrants its own chapter for configuration, as it is somewhat
+    /different/ from other clients. This is my story of gnus.
+
+    It's probably going to be an iterative effort to get things
+    working the way I want them to, so I'm going to configure things
+    from a working situation to a new working situation where the
+    latte does not necessarily represent a wanted situation, but takes
+    me close to it.
+    
+    So, let's begin by enabling imap as the selection method.
+
+    #+BEGIN_SRC emacs-lisp
+    (setq gnus-select-method
+      '(nnimap "hsd"
+	       (nnimap-address "imap.hsdev.com")
+	       (nnimap-server-port 993)
+	       (nnimap-stream ssl)))    
+    #+END_SRC
+
+    This, in combination with a line in .authinfo.gpg which holds the
+    authentication info is enough to get things rolling. The initial
+    connect subscribes to all my mail folders and shows them in a
+    group window. 
 ** Statusnet
 Statusnet, or perhaps microblog in general settings
 
@@ -3229,10 +3333,10 @@ Statusnet, or perhaps microblog in general settings
   )
 
 
-  (global-set-key [(control c) (ip)] 'identica-update-status-interactive)
-  (global-set-key [(control c) (id)] 'identica-direct-message-interactive)
-  (global-set-key [(control c) (is)] 'identica-shortenurl-replace-at-point)
-  (global-set-key [(control c) (d)]  'mrb/make-dent-frame)
+  (bind-key "C-c ip" 'identica-update-status-interactive)
+  (bind-key "C-c id" 'identica-direct-message-interactive)
+  (bind-key "C-c is" 'identica-shortenurl-replace-at-point)
+  (bind-key "C-c d"  'mrb/make-dent-frame)
 
 
   ;; I'm using a floating frame in awesome WM for dents
@@ -3279,7 +3383,6 @@ The only pump.io elisp implementation does almost everything like I
 want it to be, including key bindings.
 
 #+BEGIN_SRC emacs-lisp
-  ;;(add-to-list 'load-path  "~/.emacs.d/el-get/pump.io/src")
   ;;(require 'pumpio-interface)
 
   ;; Configure for qua.name
@@ -3368,7 +3471,7 @@ XMPP related settings, including interfacing it to other systems
 
   ;; Some face adjustments
   (add-hook 'jabber-chat-mode-hook
-     (lambda () 
+     (lambda ()
          (set-face-attribute 'jabber-chat-prompt-system nil :foreground "dark gray" :weight 'bold)))
 
   (setq jabber-account-list (quote (("marcel@hsdev.com/Emacs" (:connection-type . starttls)))))
@@ -3395,7 +3498,7 @@ jabber, so lets re-call the definition here, so we are sure we get
 them.
 
 #+BEGIN_SRC emacs-lisp
- (define-key ctl-x-map "\C-j" jabber-global-keymap)
+ (bind-key "C-j" jabber-global-keymap ctl-x-map)
 #+END_SRC
 ** Twister
 Twister is a p2p microblogging application based on
@@ -3442,7 +3545,8 @@ consistent interface to rule them all.
     (twister-close-post))
 
   ;; Change the default keybinding to company mode completion
-  (define-key twister-post-mode-map "\C-i" 'company-complete)
+  ;; C-i is the same as TAB
+  (bind-key "C-i" 'company-complete twister-post-mode-map)
 #+END_SRC
 
 And, like the others, a commandline interface
@@ -3455,19 +3559,40 @@ The keybinding for the separate posting frame is configured with
 bindkeys on my system.
 ** Elfeed
 In an attempt to do even more in emacs, i've installed `elfeed' and
-imported my feeds from RSSyl 
+imported my feeds from RSSyl
 
 #+BEGIN_SRC emacs-lisp
-  (require 'elfeed)
+  (use-package elfeed
+    :init
+    (bind-key "C-c f" 'elfeed)
+    :config
+    (progn
+      (defun mrb/elfeed-search-toggle-tag(tag)
+        (let ((entries (elfeed-search-selected)))
+          (cl-loop for entry in entries do
+                   (if (elfeed-tagged-p tag entry)
+                       (elfeed-untag entry tag)
+                     (elfeed-tag entry tag)))
+          (mapc #'elfeed-search-update-entry entries)
+          (unless (use-region-p) (forward-line))))
 
-  ;; New entry hook allows meta information manipulation
-  ;; without directly having to change elfeed-feeds
-  (add-hook 'elfeed-new-entry-hook
-            (elfeed-make-tagger :feed-url "youtube\\.com"
-                                :add '(video youtube)))
-  (add-hook 'elfeed-new-entry-hook
-            (elfeed-make-tagger :feed-url "vimeo\\.com"
-                                :add '(video vimeo)))
+      (defun mrb/elfeed-show-toggle-tag(tag)
+        (interactive)
+        (if (elfeed-tagged-p tag elfeed-show-entry)
+            (elfeed-show-untag tag)
+          (elfeed-show-tag tag)))
+
+      (bind-key "w" '(lambda () (interactive) (mrb/elfeed-show-toggle-tag 'watchlater)) elfeed-show-mode-map)
+      (bind-key "w" '(lambda () (interactive) (mrb/elfeed-search-toggle-tag 'watchlater)) elfeed-search-mode-map)
+
+      ;; New entry hook allows meta information manipulation
+      ;; without directly having to change elfeed-feeds
+      (add-hook 'elfeed-new-entry-hook
+                (elfeed-make-tagger :feed-url "youtube\\.com"
+                                    :add '(video youtube)))
+      (add-hook 'elfeed-new-entry-hook
+                (elfeed-make-tagger :feed-url "vimeo\\.com"
+                                    :add '(video vimeo)))))
 
 #+END_SRC
 
@@ -3483,18 +3608,20 @@ clumsy, although very flexible.
   (makunbound 'feed-patterns)
   (defvar feed-patterns
     '((marktplaats "http://kopen.marktplaats.nl/opensearch.php?q=%s")
-      (youtube     "https://gdata/youtube.com/feeds/base/users/%s/uploads")))
+      (youtube     "https://gdata/youtube.com/feeds/base/users/%s/uploads")
+      (reddit      "https://reddit.com/r/%s/.rss")))
 
   ;; Bulk of the feed specification
   (makunbound 'elfeed-feeds-alist)
   (defvar elfeed-feeds-alist
         '(("http://gdata.youtube.com/feeds/base/users/mvanderboom/newsubscriptionvideos")
-          ("bridgeport" marktplaats)
-          ("abene" marktplaats)
-          ("plasmasnijder" marktplaats)
-          ("cazeneuve" marktplaats)
-          ("deckel" marktplaats)
-          ("lista" marktplaats)
+          ("bridgeport" marktplaats machining)
+          ("abene" marktplaats machining)
+          ("plasmasnijder" marktplaats machining)
+          ("cazeneuve" marktplaats machining)
+          ("deckel" marktplaats machining)
+          ("lista" marktplaats machining)
+          ("x200s" marktplaats computing)
           ("http://dvd.netflix.com/NewReleasesRSS" netflix )
           ("http://vimeo.com/mrvdb/subscriptions/videos/rss/41079679d642fcfa95b88a00aae8f7b9dd07dffc" video vimeo)
           ("http://mrblog.nl/feed" me blog )
@@ -3505,7 +3632,6 @@ clumsy, although very flexible.
           ("http://www.xkcd.com/rss.xml" humor comic)
           ("http://extechops.net/full-episode-feeds/daily-show.rss" video humor)
           ("http://www.nu.nl/feeds/rss/de-jager.rss" humor comic)
-          ("http://feeds.feedburner.com/failblog" humor)
           ("http://feeds.feedburner.com/oatmealfeed" humor comic)
           ("http://what-if.xkcd.com/feed.atom" humor comic science)
           ("https://kimmo.suominen.com/stuff/dilbert-daily.xml" humor comic)
@@ -3529,11 +3655,10 @@ clumsy, although very flexible.
           ("http://www.garagejournal.com/feed/")
           ("http://www.readynas.com/?feed=rss2")
           ("http://forums.segwaychat.com/external.php?type=RSS")
-          ("http://support.lenovo.com/en_US/rss/default.page?PROD=P014-S006-SS0066--")
+;;          ("http://support.lenovo.com/en_US/rss/default.page?PROD=P014-S006-SS0066--")
           ("http://feeds.feedburner.com/wyome" people)
           ("http://julien.danjou.info/blog/index.xml" people)
           ("http://torvalds-family.blogspot.com/feeds/posts/default" people)
-          ("http://jaskaleimi.blogspot.com/feeds/posts/default")
           ("http://feeds.feedburner.com/JuanReyero" people)
           ("http://www.garron.me/en/atom.xml" people emacs jekyll)
           ("http://technomancy.us/feed/atom.xml" people emacs)
@@ -3541,12 +3666,20 @@ clumsy, although very flexible.
           ("http://planet.jabber.org/rss20.xml")
           ("http://planet.claws-mail.org/rss20.xml")
           ("http://planet.emacsen.org/atom.xml" emacs)
-          ("http://www.veiligheidsblog.nl/feed/")
           ("http://nva-openerp.blogspot.com/feeds/posts/default" odoo)
           ("http://whattheemacsd.com/atom.xml" emacs)
           ("http://feeds.twit.tv/sn_video_large")
           ("http://blog.prosody.im/feed/atom.xml")
-          ("http://www.thetoolanddieguy.com/feed" machining)))
+          ("http://www.thetoolanddieguy.com/feed" machining)
+          ("thinkpad" reddit computing)
+          ("http://www.emacswiki.org/emacs/index.rss?action=rss" emacs software)
+          ("http://feeds.feedburner.com/hacknmod/qjUG")
+          ("https://blog.sleeplessbeastie.eu/atom.xml")
+          ("http://esr.ibiblio.org/?feed=atom" people )
+          ("http://esr.ibiblio.org/?feed=atom&tag=gpsd")
+          ("http://feeds2.feedburner.com/TheArtOfManliness")
+          ;; Add new feeds above this
+          ))
 
   ;; Expand what is in the feeds-alist, taking the patterns into account
   (defun feed-expand (tags url)
@@ -3579,6 +3712,8 @@ clumsy, although very flexible.
 
   ;; Automatically update the feeds every now and then
   (run-at-time 180 1800 (lambda () (unless elfeed-waiting (elfeed-update))))
+
+
 #+END_SRC
 
 * Development settings
@@ -3606,10 +3741,14 @@ trailing spaces clean and highlights 'dirty' ones in the hope that I
 notice and remove them. ws-trim.el can have different levels of
 intrusiveness. I'm installing ethan-space for now.
 
-[2014-05-20 di] worked with it for a while and it's pretty
+[2014-05-20 di] worked with ethan-wspace for a while and it's pretty
 annoying. 80% of the space it is displaying as being /wrong/ is
 harmless. I have uninstalled it for now, I may reconsider installing
 it only for /some/ modes and not globally.
+
+[2014-06-20 vr] Retrying ws-butler mode (see Visual
+#+BEGIN_SRC emacs-lisp
+  #+END_SRC
 * GIT integration
 This section is a temporary place to store some git related
 settings. I need to reorganize this document a bit so I have a section
@@ -3626,11 +3765,11 @@ This particular setting is for eshell git completion:
     (search-forward "available git commands in")
     (let (commands)
       (while (re-search-forward
-	      "^[[:blank:]]+\\([[:word:]-.]+\\)[[:blank:]]*\\([[:word:]-.]+\\)?"
-	      nil t)
-	(push (match-string 1) commands)
-	(when (match-string 2)
-	  (push (match-string 2) commands)))
+              "^[[:blank:]]+\\([[:word:]-.]+\\)[[:blank:]]*\\([[:word:]-.]+\\)?"
+              nil t)
+        (push (match-string 1) commands)
+        (when (match-string 2)
+          (push (match-string 2) commands)))
       (sort commands #'string<))))
 
 (defconst pcmpl-git-commands (pcmpl-git-commands)
@@ -3646,7 +3785,7 @@ This particular setting is for eshell git completion:
     (goto-char (point-min))
     (let (refs)
       (while (re-search-forward (concat "^refs/" type "/\\(.+\\)$") nil t)
-	(push (match-string 1) refs))
+        (push (match-string 1) refs))
       (nreverse refs))))
 
 (defun pcmpl-git-remotes ()
@@ -3665,7 +3804,7 @@ This particular setting is for eshell git completion:
    ;; provide branch completion for the command `checkout'.
    ((pcomplete-match "checkout" 1)
     (pcomplete-here* (append (pcmpl-git-get-refs "heads")
-			     (pcmpl-git-get-refs "tags"))))
+                             (pcmpl-git-get-refs "tags"))))
    (t
     (while (pcomplete-here (pcomplete-entries))))))
 #+END_SRC
@@ -3730,8 +3869,8 @@ When we are all done with this, provide it.
 #+END_SRC
 * Self configuration                                                                                 :exclude:
 I have the same config file for orgmode itself
-#+SETUPFILE: "~/dat/org/etc/org-config.org"
 
+#+COMMENTS: SETUPFILE moved to top of file so we can override some settings.
 If there is anything that needs to be configured specifically for this
 file, here is the place to do it. Other than those, nothing else
 should come below this point
