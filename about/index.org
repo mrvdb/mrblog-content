@@ -1,0 +1,52 @@
+---
+layout: page
+title: About this site
+---
+
+#+OPTIONS: todo:t
+
+The site /MrBlog.nl/ is my personal entry point to what I do on the
+web. It is mostly for myself to experiment with things while
+pretending to be a blog.
+
+To build the site I have borrowed a number of tools and resources from
+others. I try to keep a complete list of them complete with links back
+to them:
+
+- blog system is [[http://jekyllrb.com][jekyll]];
+- theme is a built with [[http://getbootstrap.com][bootstrap]] components;
+- all files are edited with the [[http://www.gnu.org/software/emacs/][Emacs]] editor;
+- Comment system: [[http://disqus.com][Disqus]];
+- I use [[http://git-scm.com][git]] to publish the blog to my server and to a repository on
+  [[https://github.com/mrvdb/mrblog][github]];
+- Content is mostly written in [[http://orgmode.org][orgmode]] or [[http://darinfireball.net/projects/markdown/][markdown]];
+- Some of the images are hosted on [[http://flickr.com][flickr]];
+- the [[http://entypo.com][Entypo]] icons are used;
+- Orgmode files are converted using [[https://github.com/bdewey/org-ruby][org-ruby]] with the help of a little
+  [[https://gist.github.com/abhiyerra/7377603][org-converter]];
+- [[https://github.com/judofyr/ruby-oembed][ruby-oembed]] is used for automatic embedding of media with the help
+  of an [[https://gist.github.com/vanto/1455726][oembed liquid tag]];
+- A locally generated json file is used to implement search;
+  functionality. A modified version of [[https://github.com/mathaywarduk/jekyll-search][jekyll-search]] is used;
+- Bootstrap is dependent on the [[http://jquery.com][jquery]] library, but I use it directly
+  too for the live statusnet feed and the search function;
+- the site is served with [[http://nginx.org][nginx]] on a machine running [[http://debian.org][Debian]] GNU/Linux;
+- for the git log listing (see below), I adapted the [[https://gist.github.com/alx/730347][gitactivity]] tag
+  plugin by Alexandre Girard.
+
+If you feel that credit for one of your programs should be in this
+list, let me know.
+***** TODO move comment system to something static, or at least something open.
+***** TODO Move media to media.mrblog.nl
+
+*** Some stats
+    - Total number of pages: {{ site.pages | size }}
+    - Total number of posts: {{ site.posts | size }}
+    - Total number of tags: {{ site.tags | size }}
+    - Last generated on: {{ site.time }}
+    - The canonical site url is {{ site.url }}
+
+*** Last {{ site.git.nrofcommits }} changes to the site
+    #+BEGIN_HTML
+    {% gitactivity %}
+    #+END_HTML
