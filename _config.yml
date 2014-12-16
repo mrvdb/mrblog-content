@@ -63,7 +63,7 @@ social:
 
 # Configuration for linking to mediagoblin
 gmg:
-  instance: 'http://media.mrblog.nl'
+  instance: 'https://media.mrblog.nl'
   presets:
     default:
       attr:
