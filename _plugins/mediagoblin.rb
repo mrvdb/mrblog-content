@@ -91,7 +91,7 @@ module Jekyll
         https = Net::HTTP.new(uri.host,443)
         https.use_ssl = true
         https.verify_mode = OpenSSL::SSL::VERIFY_NONE
-        req = Net::HTTP::Get.new(uri.path)
+        req = Net::HTTP::Get.new(uri.request_uri())
         resp = https.request(req)
         # Note: although we fetch one, it still is an array we get back!
         media_data = JSON.parse(resp.body)[0]
@@ -105,7 +105,7 @@ module Jekyll
       # html people can work with that.
       # TODO: what should we do here? return data only and let templates handle it?
       out  = <<END
-      <script type="application/json" id="gmg-media-#{gmg_media_id}">#{resp.body}</script>
+      <script type="application/json" id="gmg-media-#{gmg_media_id}">#{media_data}</script>
       <img src="#{gmg_src}" #{html_attr_string} />
 END
 
