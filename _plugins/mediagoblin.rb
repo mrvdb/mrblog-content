@@ -20,7 +20,7 @@ require 'fileutils'
 require 'pathname'
 require 'digest/md5'
 require 'logger'
-require 'net/http'
+require 'net/https'
 
 $log = Logger.new(STDOUT)
 $log.level = Logger::DEBUG
@@ -88,13 +88,18 @@ module Jekyll
       # http://gmg.com/api/entries?id= is the base url to get the metadata in json format
       uri = URI.join(gmg_site,'api/entries?id=' + markup[:media_id])
       begin
-        resp = Net::HTTP.get_response(uri)
+        https = Net::HTTP.new(uri.host,443)
+        https.use_ssl = true
+        https.verify_mode = OpenSSL::SSL::VERIFY_PEER
+        req = Net::HTTP::Get.new(uri.path)
+        resp = https.request(req)
+        #resp = Net::HTTP.get_response(uri)
         # Note: although we fetch one, it still is an array we get back!
         media_data = JSON.parse(resp.body)[0]
       rescue
-        raise "GMG. The request to: '" + uri + "' gave an error, it did not deliver the proper json data for media item: " + markup[:media_id]
+        raise "GMG. The request to: '" + uri.to_s + "' gave an error, it did not deliver the proper json data for media item: " + markup[:media_id]
       end
-      raise "GMD: Media item at: '" + uri + "' does not exist." unless media_data
+      raise "GMD: Media item at: '" + uri.to_s + "' does not exist." unless media_data
 
       # Construct our output with the json data
       gmg_src = media_data['media_files']['original']
