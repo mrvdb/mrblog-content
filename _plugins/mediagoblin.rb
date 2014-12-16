@@ -90,14 +90,11 @@ module Jekyll
       begin
         https = Net::HTTP.new(uri.host,443)
         https.use_ssl = true
-        https.verify_mode = OpenSSL::SSL::VERIFY_PEER
+        https.verify_mode = OpenSSL::SSL::VERIFY_NONE
         req = Net::HTTP::Get.new(uri.path)
         resp = https.request(req)
-        #resp = Net::HTTP.get_response(uri)
         # Note: although we fetch one, it still is an array we get back!
         media_data = JSON.parse(resp.body)[0]
-      rescue
-        raise "GMG. The request to: '" + uri.to_s + "' gave an error, it did not deliver the proper json data for media item: " + markup[:media_id]
       end
       raise "GMD: Media item at: '" + uri.to_s + "' does not exist." unless media_data
 

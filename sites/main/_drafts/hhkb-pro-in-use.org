@@ -4,5 +4,14 @@ title: Happy Hacking Keyboard in use
 ---
 
 * Points											    :noexport:
+A review of the HHKB Professional 2 Type S keyboard
+
+Points to deal with:
+- look for regular reviews elsewhere
+- getting used to the layout
+- spacebar has other sound than other keys
+- confusion about the USB hub, is the keyboard itself on the hub?
+- price vs value hard to argue when forgotten the purchase
+- 
 * Configuration
 #+SETUPFILE: "~/dat/org/etc/org-config.org"
