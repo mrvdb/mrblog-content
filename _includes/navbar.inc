@@ -26,7 +26,7 @@
       </li>
     </ul>
 
-    {% if {{include.search != 'disabled'}}  %}
+    {% if include.search != 'disabled'  %}
     <!-- Search form -->
     <form method="get" class="navbar-form navbar-right" role="search" action="/search" data-search-form >
       <div class="form-group">
