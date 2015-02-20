@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" href="{{site.url}}/assets/css/syntax.css"/>
 
 <!-- Custom CSS -->
+<link rel="stylesheet" type="text/css" href="{{site.url}}/assets/fonts/stylesheet.css"/>
 <link rel="stylesheet" type="text/css" href="{{site.url}}/assets/css/main.css"/>
 
 <!-- Feeds we expose -->
