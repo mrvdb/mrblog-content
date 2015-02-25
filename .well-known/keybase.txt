@@ -1,0 +1,81 @@
+### Keybase proof
+
+I hereby claim:
+
+  * I am mrvdb on github.
+  * I am mvanderboom (https://keybase.io/mvanderboom) on keybase.
+  * I have a public key whose fingerprint is 77DD A1B6 8D04 792A 8F85  D855 235E 5C8C F5E8 DFFB
+
+To claim this, I am signing this object:
+
+```json
+{
+    "body": {
+        "key": {
+            "fingerprint": "77dda1b68d04792a8f85d855235e5c8cf5e8dffb",
+            "host": "keybase.io",
+            "key_id": "235e5c8cf5e8dffb",
+            "kid": "0101ae528f2db12e3c0dd36bdaf962a29c4769cf7e6edd8a9a36bec90a4b646c6b170a",
+            "uid": "ace1e5272d9f14b6a4d71b4d27329119",
+            "username": "mvanderboom"
+        },
+        "service": {
+            "name": "github",
+            "username": "mrvdb"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1424876846,
+    "expire_in": 157680000,
+    "prev": "dc1bf30bd4b705208ce1314be3533d1dd18bb64e89bca59d4950bdb52bf830bc",
+    "seqno": 2,
+    "tag": "signature"
+}
+```
+
+with the key [77DD A1B6 8D04 792A 8F85  D855 235E 5C8C F5E8 DFFB](https://keybase.io/mvanderboom), yielding the signature:
+
+```
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFtkktIVFEYx2fGRyWGEVQYtfBKOuUk9/2YFmE2MIRQ0AMzYjrnnnPHy3TvjHfG
+8TG4CklTS42KHooLkWphL6WMCS2LSi1FcmuEadhrlcTkos4V20Rnczjf9/v/Of+P
+r319msPl3OtuTzkcao9z/KkXOo58m+cTFAyjOsqboEJ45dJ0M4itiKWbMcpLSRJC
+gIGijGheUlgga7KAZEFgOQELqqxqApaRpkHKQ1WGo7aC2EAQxcV6mNTII6AjUv0P
+H1pp0AzNACywssYiyLCYU2mEOBEioCkiC1hF5SVRUTUJixghGSiANLGq0ICHIi+q
+ImQkGhC76hU7oGKGuEksUjSGEIBHEgN5xEocqzCMYoNRbJnAwIQ24sBE2ILhsEE1
+eCjSiOsqtqewCgT1WGU1/EdkxRG08VhdxH7XYBhYVQagbiIyPyKIYyuqh03KyxBS
+jem2lOFZXpZEmRc9FK6N6BYO6DYhkBpNjoeKWDhOLJHKQI2jIeKhRAssLZNUHImD
+OYHjEIMQI0OSHssKVIGgIF4RCAwFFmoykamUnaXKDFNelnwTBIllVA+aIFZtYaoh
+q9m5Ld3hdDkyM1z2Cjiy1m34uxiPJtcsZzZ1/PR23jqd/+JQrHbYl3DLW+sHI/s+
+GpuPdjedOFjSMtbRbZZ/md2ee1m+MM2P3U9VBJUHv60a/90CK+9zWtZ+78DQSBGq
+H/U3jiS7Bq+/rEz2ti4UuvPWqr5LvXfOFmWeeruUQadm3LPHFkzkayzVF3d+v1rW
+XHgPbZxsf9Wy1L+lxdjV33fjdW5f6t3hkqklrf/4mejt3Q+nevd0NlSkn5sc0BXV
+eJPUEj6j5FlVTqju0/M26nH28MnBxdu554s7yzJ+NRszheOly6G80ifZae+tVv+O
+Tc7kzZ6cK1Pg4of8th+uEf/y2GhBV/lEJDA0MLH49drcfHx67sAf
+=4GMD
+-----END PGP MESSAGE-----
+
+```
+
+And finally, I am proving ownership of the github account by posting this as a gist.
+
+### My publicly-auditable identity:
+
+https://keybase.io/mvanderboom
+
+### From the command line:
+
+Consider the [keybase command line program](https://keybase.io/docs/command_line).
+
+```bash
+# look me up
+keybase id mvanderboom
+
+# encrypt a message to me
+keybase encrypt mvanderboom -m 'a secret message...'
+
+# ...and more...
+```
