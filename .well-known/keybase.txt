@@ -1,14 +1,15 @@
-### Keybase proof
+==================================================================
+https://keybase.io/mvanderboom
+--------------------------------------------------------------------
 
 I hereby claim:
 
-  * I am mrvdb on github.
+  * I am an admin of https://mrblog.nl
   * I am mvanderboom (https://keybase.io/mvanderboom) on keybase.
-  * I have a public key whose fingerprint is 77DD A1B6 8D04 792A 8F85  D855 235E 5C8C F5E8 DFFB
+  * I have a public key with fingerprint 77DD A1B6 8D04 792A 8F85  D855 235E 5C8C F5E8 DFFB
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
-```json
 {
     "body": {
         "key": {
@@ -19,63 +20,53 @@ To claim this, I am signing this object:
             "uid": "ace1e5272d9f14b6a4d71b4d27329119",
             "username": "mvanderboom"
         },
+        "revoke": {
+            "sig_ids": [
+                "42916e391970bca5b6238a030de6d04378338759dbe54d79450b151a3d590adf0f"
+            ]
+        },
         "service": {
-            "name": "github",
-            "username": "mrvdb"
+            "hostname": "mrblog.nl",
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1424876846,
+    "ctime": 1424881640,
     "expire_in": 157680000,
-    "prev": "dc1bf30bd4b705208ce1314be3533d1dd18bb64e89bca59d4950bdb52bf830bc",
-    "seqno": 2,
+    "prev": "3fd3cf01758a3d33c65ba966528d09cc4e9ec364b75a6b1a7ea84016ab9dbd50",
+    "seqno": 7,
     "tag": "signature"
 }
-```
 
-with the key [77DD A1B6 8D04 792A 8F85  D855 235E 5C8C F5E8 DFFB](https://keybase.io/mvanderboom), yielding the signature:
+which yields the signature:
 
-```
 -----BEGIN PGP MESSAGE-----
 Version: GnuPG v2
 
-owFtkktIVFEYx2fGRyWGEVQYtfBKOuUk9/2YFmE2MIRQ0AMzYjrnnnPHy3TvjHfG
-8TG4CklTS42KHooLkWphL6WMCS2LSi1FcmuEadhrlcTkos4V20Rnczjf9/v/Of+P
-r319msPl3OtuTzkcao9z/KkXOo58m+cTFAyjOsqboEJ45dJ0M4itiKWbMcpLSRJC
-gIGijGheUlgga7KAZEFgOQELqqxqApaRpkHKQ1WGo7aC2EAQxcV6mNTII6AjUv0P
-H1pp0AzNACywssYiyLCYU2mEOBEioCkiC1hF5SVRUTUJixghGSiANLGq0ICHIi+q
-ImQkGhC76hU7oGKGuEksUjSGEIBHEgN5xEocqzCMYoNRbJnAwIQ24sBE2ILhsEE1
-eCjSiOsqtqewCgT1WGU1/EdkxRG08VhdxH7XYBhYVQagbiIyPyKIYyuqh03KyxBS
-jem2lOFZXpZEmRc9FK6N6BYO6DYhkBpNjoeKWDhOLJHKQI2jIeKhRAssLZNUHImD
-OYHjEIMQI0OSHssKVIGgIF4RCAwFFmoykamUnaXKDFNelnwTBIllVA+aIFZtYaoh
-q9m5Ld3hdDkyM1z2Cjiy1m34uxiPJtcsZzZ1/PR23jqd/+JQrHbYl3DLW+sHI/s+
-GpuPdjedOFjSMtbRbZZ/md2ee1m+MM2P3U9VBJUHv60a/90CK+9zWtZ+78DQSBGq
-H/U3jiS7Bq+/rEz2ti4UuvPWqr5LvXfOFmWeeruUQadm3LPHFkzkayzVF3d+v1rW
-XHgPbZxsf9Wy1L+lxdjV33fjdW5f6t3hkqklrf/4mejt3Q+nevd0NlSkn5sc0BXV
-eJPUEj6j5FlVTqju0/M26nH28MnBxdu554s7yzJ+NRszheOly6G80ifZae+tVv+O
-Tc7kzZ6cK1Pg4of8th+uEf/y2GhBV/lEJDA0MLH49drcfHx67sAf
-=4GMD
+owFtkltoFUcYx/ckWmvA20NbL6notNoiUWd2dmZ2TjASG9qHFKkmscXiCXPbkzXJ
+7smek5NqFBRE25KGQKGUxgYftIpKfNBCH1rbgoitJSL0pQ14ffCGGonRKAjOBn1z
+X4b95v/9vv/8ZwZmVToVmbXvDzxxHHUgc/6WdJrvPh7rBTLW20C2F7SbqSUIo7xJ
+CkkYlUAWMKa1QJL6GnqMu8IPfKJ9QlxMDFG+CojxdRBIUAPa4mLaYTFSFM2qMLY1
++9Maalt9hb59agMiiIQhrh+4WiLXYAW1xlRqEXDqCpcrj1GuAmao0doXXNhNozgU
+nqQeVVQiBoXFdU/hhDLI0pireYCsQniaIelpl2GXI8RTYdEkkeg0Vt1ZFpE2iYzj
+TrCzBiSmHLebNIRimLe+iyD7OfBsHzWYI86gVIJI6mJfQAy1oTYUzHyMfUa4lobY
+YdwjUCKCBNbEmtQBDMAWy7ZDy6GagqdBvTSQyI44vyrqsL4KSVyKVdxhy22lUqGY
+TS2VthVSXY+RrS8IrTKMtL0j21E2STGMI5BFVqlKYYpEnuv5PqIerAHmi0KYmNYw
+VRBGfWi/dI4pWyTOBRqrACJGfGsWY0WJFJxSexcacqU8w43C1JOMCJuyYEb4HkRU
+SHtWTSBID9UVxSDLrE+Rt0wbWyRK3YkBO6u+ylRPczIVzmvTK9J35lTNnPvy8Q01
+zXhWHc658+/3+wbf3VNZP8m/nFgx1LD72NJLP3T9vGlu6b/+MwtvL/ukZeUHa+nK
+TVU3v17y+4dtOXC9hjd8t0Ttv7qnPz99cvHupz3rxs605y6enp17tPGPwUezZtyr
+O/pnxwIw7c79RrV36FzjidHPWqi7ZrPTUv96y8iO88cfji/trj10qiH4pb7SGf/2
+yJvPen4c+Kh/6/99401idOIs+7h2RaL+mug7+N7gRbZwuO9m9tTfhx9cG+7dgZev
+v/bTG09O6MbmuqYbOjc6OXbhwci+zW9/s2hDbfOFk/98ml09Z1HXyOX5D3nn+K9v
+zZx3b93p4cV7Q7Er8zis2/Lb9kM38tW1VyY27L/V9s5z
+=HfYw
 -----END PGP MESSAGE-----
 
-```
+And finally, I am proving ownership of this host by posting or
+appending to this document.
 
-And finally, I am proving ownership of the github account by posting this as a gist.
+View my publicly-auditable identity here: https://keybase.io/mvanderboom
 
-### My publicly-auditable identity:
-
-https://keybase.io/mvanderboom
-
-### From the command line:
-
-Consider the [keybase command line program](https://keybase.io/docs/command_line).
-
-```bash
-# look me up
-keybase id mvanderboom
-
-# encrypt a message to me
-keybase encrypt mvanderboom -m 'a secret message...'
-
-# ...and more...
-```
+==================================================================
