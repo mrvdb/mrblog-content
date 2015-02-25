@@ -23,6 +23,8 @@ twitter: mrvdb
 # If there is an .htaccess file, publish it
 include:
   - .htaccess
+  - .well-known
+
 exclude:
   - _data/wordpress.xml
 
