@@ -142,14 +142,14 @@
 				}
 				paramsString = paramsString.join("&");
 				if (settings.service.length > 0) {
-				    url = "http://" + settings.service + "/api/search.json?";
+				    url = "https://" + settings.service + "/api/search.json?";
 				} else {
 				    url = "http://search.twitter.com/search.json?";
 				}
 				url += paramsString + "&callback=?";
 			    } else if (twitter.mode === 'user_timeline' || twitter.mode === 'home_timeline' ) {
 				if (settings.service.length > 0) {
-				    url = "http://" + settings.service + "/api/statuses/" + twitter.mode + "/" + encodeURIComponent(this.query) + ".json?count=" + twitter.limit + "&callback=?";
+				    url = "https://" + settings.service + "/api/statuses/" + twitter.mode + "/" + encodeURIComponent(this.query) + ".json?count=" + twitter.limit + "&callback=?";
 				} else {
 				    url = "http://api.twitter.com/1/statuses/" + twitter.mode + "/" + encodeURIComponent(this.query) + ".json?count=" + twitter.limit + "&callback=?";
 				}
