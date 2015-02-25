@@ -144,19 +144,19 @@
 				if (settings.service.length > 0) {
 				    url = "https://" + settings.service + "/api/search.json?";
 				} else {
-				    url = "http://search.twitter.com/search.json?";
+				    url = "https://search.twitter.com/search.json?";
 				}
 				url += paramsString + "&callback=?";
 			    } else if (twitter.mode === 'user_timeline' || twitter.mode === 'home_timeline' ) {
 				if (settings.service.length > 0) {
 				    url = "https://" + settings.service + "/api/statuses/" + twitter.mode + "/" + encodeURIComponent(this.query) + ".json?count=" + twitter.limit + "&callback=?";
 				} else {
-				    url = "http://api.twitter.com/1/statuses/" + twitter.mode + "/" + encodeURIComponent(this.query) + ".json?count=" + twitter.limit + "&callback=?";
+				    url = "https://api.twitter.com/1/statuses/" + twitter.mode + "/" + encodeURIComponent(this.query) + ".json?count=" + twitter.limit + "&callback=?";
 				}
 			    } else if (twitter.mode === 'list') {
 				var username = encodeURIComponent(this.query.user);
 				var listname = encodeURIComponent(this.query.list);
-				url = "http://api.twitter.com/1/" + username + "/lists/" + listname + "/statuses.json?per_page=" + twitter.limit + "&callback=?";
+				url = "https://api.twitter.com/1/" + username + "/lists/" + listname + "/statuses.json?per_page=" + twitter.limit + "&callback=?";
 			    }
 			    $.getJSON(url, function (json) {
 				var results = null;
@@ -182,9 +182,9 @@
 					created_at_date = this.created_at.replace(/^(\w+)\s(\w+)\s(\d+)(.*)(\s\d+)$/, "$1, $3 $2$5$4");
 				    }
 				    if (settings.service.length > 0) {
-					tweet_url = 'http://' + settings.service + '/notice/' + this.id;
+					tweet_url = 'https://' + settings.service + '/notice/' + this.id;
 				    } else {
-					tweet_url = 'http://twitter.com/' + screen_name + '/statuses/' + this.id;
+					tweet_url = 'https://twitter.com/' + screen_name + '/statuses/' + this.id;
 				    }
 				    var userInfo = this.user;
 
@@ -197,20 +197,20 @@
 				    });
 				    if (settings.service.length > 0) {
 					linkified_text = linkified_text.replace(/@[A-Za-z0-9_]+/g, function (u) {
-					    return u.link('http://' + settings.service + '/' + u.replace(/^@/, ''));
+					    return u.link('https://' + settings.service + '/' + u.replace(/^@/, ''));
 					});
 				    } else {
 					linkified_text = linkified_text.replace(/@[A-Za-z0-9_]+/g, function (u) {
-					    return u.link('http://twitter.com/' + u.replace(/^@/, ''));
+					    return u.link('https://twitter.com/' + u.replace(/^@/, ''));
 					});
 				    }
 				    if (settings.service.length > 0) {
 					linkified_text = linkified_text.replace(/#[A-Za-z0-9_\-]+/g, function (u) {
-					    return u.link('http://http://' + settings.service + '/search/notice?q=' + u.replace(/^#/, '%23'));
+					    return u.link('https://' + settings.service + '/search/notice?q=' + u.replace(/^#/, '%23'));
 					});
 				    } else {
 					linkified_text = linkified_text.replace(/#[A-Za-z0-9_\-]+/g, function (u) {
-					    return u.link('http://search.twitter.com/search?q=' + u.replace(/^#/, '%23'));
+					    return u.link('https://search.twitter.com/search?q=' + u.replace(/^#/, '%23'));
 					});
 				    }
 
@@ -221,9 +221,9 @@
 					    if (twitter.settings.showAuthor) {
 						var profile_url = '';
 						if (settings.service.length > 0) {
-						    profile_url = 'http://' + settings.service + '/' + screen_name;
+						    profile_url = 'https://' + settings.service + '/' + screen_name;
 						} else {
-						    profile_url = 'http://twitter.com/' + screen_name;
+						    profile_url = 'https://twitter.com/' + screen_name;
 						}
 						tweetHTML +=
 						'<img width="' + settings.imageSize + '" height="' + settings.imageSize + '" src="' + profile_image_url + '" />' +
