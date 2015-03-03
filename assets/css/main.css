@@ -194,6 +194,9 @@ img.portrait{width: 200px;height: auto;}
   color: gray;
 }
 
+li {
+    margin-left: 2em;
+}
 
 
 .tweet > p { text-align: left; }
