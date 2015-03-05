@@ -1,0 +1,21 @@
+#+layout: post
+#+TITLE: Do I personally need a bank?
+#+categories: cat1 cat2
+#+tags: tag1 tag2
+
+Content starts here
+
+*** First header
+*** Second header
+
+
+* Notes                                                                                             :noexport:
+  Question to be answered: what happens if I stop using services of my
+  bank alltogether:
+  - work out some of the obvious cases like the types of accounts
+  - detail of some practical problems like paying suppliers and
+    receiving money from customers.
+  -
+* Configuration                                                                                     :noexport:
+#+SETUPFILE: "~/dat/org/etc/org-config.org"
+#+EXPORT_EXCLUDE_TAGS: noexport

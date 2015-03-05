@@ -1,0 +1,21 @@
+#+layout: post
+#+title: Asterisk and your ski-holiday
+#+tags: asterisk roaming
+
+Almost every year we go skiing for a week, either in the Alps or in
+the Dolomites. One of the things to take care of is to make sure we
+are able to call and use the internet with our mobile devices without
+costing it just as much as the rest of the holiday combined.
+
+#+BEGIN_SRC
+
+#+END_SRC
+
+*** First header
+*** Second header
+
+
+* Notes                                                                                             :noexport:
+* Configuration                                                                                     :noexport:
+#+SETUPFILE: "~/dat/org/etc/org-config.org"
+#+EXPORT_EXCLUDE_TAGS: noexport
