@@ -1,10 +1,7 @@
----
-layout: post
-title: Progress report
-tags:
-- coding
-- xaraya
----
+#+title: Progress report
+#+layout: post
+#+tags: coding xaraya
+
 
 Making xaraya react to the =mt_keywords= MT member was easy with the
 existing keywords module. The harder part (read: more time consuming)

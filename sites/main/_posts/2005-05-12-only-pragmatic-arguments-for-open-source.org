@@ -1,9 +1,7 @@
----
-layout: post
-title: Only pragmatic arguments for Open source?
-tags:
-- current affairs
----
+#+title: Only pragmatic arguments for Open source?
+#+layout: post
+#+tags: current-affairs
+
 [[http://www.computereconomics.com/article.cfm?id=1043][Computer Economics: research on strategic and financial management of
 information systems]] has results on a survey they held on why
 organisations choose an Open Source solution.

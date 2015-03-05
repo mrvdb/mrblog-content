@@ -1,14 +1,10 @@
----
-layout: post
-title: A day with rear hubs and water throwers
-tags:
-- cobra
-- donor parts
-- rear suspension
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: A day with rear hubs and water throwers
+#+tags: cobra donor-parts rear-suspension
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p style="text-align: left">Fitting the water throwers turned out to be more labour intensive than I thought. A little bit of research on <a href="http://www.jag-lovers.org/" title="Jaguar Enthusiast site">jag-lovers.org</a> gave me some experience tales of other people and some insight on what to expect. Heating the thrower and quickly fitting it around the machined edge on the hub seemed the way to go.</p>

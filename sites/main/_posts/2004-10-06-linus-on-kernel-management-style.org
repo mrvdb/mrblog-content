@@ -1,9 +1,7 @@
----
-layout: post
-title: Linus on kernel management style
-tags:
-- current affairs
----
+#+title: Linus on kernel management style
+#+layout: post
+#+tags: current-affairs
+
 
 [[http://lwn.net/Articles/105375][Linus on kernel management style]]
 

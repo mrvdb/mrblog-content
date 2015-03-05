@@ -1,10 +1,7 @@
----
-layout: post
-title: Eating my own dogfood
-tags:
-- revision control
-- xaraya
----
+#+title: Eating my own dogfood
+#+layout: post
+#+tags: revision-control xaraya
+
 
 We have been considering migrating Xaraya to the creole abstraction
 layer in the future. Creole is similar to the [[http://adodb.sourceforge.net][adodb]] library we use

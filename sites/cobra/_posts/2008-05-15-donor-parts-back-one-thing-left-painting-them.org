@@ -1,13 +1,10 @@
----
-layout: post
-title: ! 'Donor parts back, one thing left: painting them.'
-tags:
-- cobra
-- donor parts
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: ! 'Donor parts back, one thing left: painting them.'
+#+tags: cobra donor-parts
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>Got the donor parts back from <a href="http://www.galvin.nl" title="Electrolytic Galvanizing ">Galvin</a>, as you can see below, they look like new!</p>

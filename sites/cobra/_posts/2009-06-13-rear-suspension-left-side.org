@@ -1,13 +1,10 @@
----
-layout: post
-title: Rear suspension, left side
-tags:
-- cobra
-- rear suspension
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: rear-suspension, left side
+#+tags: cobra rear-suspension
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p style="text-align: left">The one completed hub begs to be assembled. There are a number of steps involved to correctly complete this job. First is to create a level working environment. This is somewhat easy for me, as the car hoist I have is adjustable at the four corners. I already had the chassis levelled out, so the only thing needed was to check and fine tune it.<br /></p>

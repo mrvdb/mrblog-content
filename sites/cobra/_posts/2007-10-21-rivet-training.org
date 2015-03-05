@@ -1,13 +1,10 @@
----
-layout: post
-title: Rivet training
-tags:
-- cobra
-- tools
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Rivet training
+#+tags: cobra tools
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>Ok, got a new tool which burned another hole in the wallet. Blind rivets are the things which come pre-installed for the chassis plate and the pre-drilled positions for the T-pieces in the brake-lines.</p>

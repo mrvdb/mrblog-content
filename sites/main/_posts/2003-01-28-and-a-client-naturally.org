@@ -1,9 +1,7 @@
----
-layout: post
-title: And a client naturally...
-tags:
-- xaraya
----
+#+title: And a client naturally...
+#+layout: post
+#+tags: xaraya
+
 
 And a client naturally...Once you have the blog server side set up,
 you obviously need something better than a webform to post the

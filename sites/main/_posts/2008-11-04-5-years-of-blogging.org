@@ -1,10 +1,8 @@
----
-layout: post
-title: 5 years of blogging?
-tags:
-- current affairs
-- xaraya
----
+#+title: 5 years of blogging?
+#+layout: post
+#+tags: current-affairs xaraya
+
+
 #+BEGIN_HTML
 
 <p>I just migrated the posts from this site from Xaraya to a Wordpress

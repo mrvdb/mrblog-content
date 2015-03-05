@@ -1,14 +1,10 @@
----
-layout: post
-title: Rear hub buildup start and grease
-tags:
-- cobra
-- donor parts
-- tools
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Rear hub buildup start and grease
+#+tags: cobra donor-parts tools
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>While waiting on the return of all the suspension components from the galvanizer, there is not much to do. One thing is to prepare the rear hubs for buildup.</p>

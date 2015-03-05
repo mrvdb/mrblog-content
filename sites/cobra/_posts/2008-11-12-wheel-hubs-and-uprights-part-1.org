@@ -1,16 +1,13 @@
----
-layout: post
-title: Wheel hubs and uprights part 1
-tags:
-- cobra
-- front suspension
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Wheel hubs and uprights part 1
+#+tags: cobra front-suspension
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
-<p>The missing Nord-Lock washers have arrived. This means I can, in theory, finish the complete buildup of the front suspension. First off was fixing the brake discs to the wheel hubs. As mentioned, instead of the normal spring washers I'm using the Nord-Lock washers where applicable. This is such a place.<a href="http://www.flickr.com/photos/96151162@N00/3024220865/"></a></p>
+<p>The missing Nord-Lock washers have arrived. This means I can, in theory, finish the complete buildup of the front-suspension. First off was fixing the brake discs to the wheel hubs. As mentioned, instead of the normal spring washers I'm using the Nord-Lock washers where applicable. This is such a place.<a href="http://www.flickr.com/photos/96151162@N00/3024220865/"></a></p>
 <p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3024220865/"><img src="http://farm4.static.flickr.com/3187/3024220865_bb39758ed7.jpg" class="flickr" alt="" /></a></p>
 <p style="text-align: left">When assembling with these washers it's somewhat important to watch the surface friction and make sure the pair of rings stay in their "compressed" state. I do this by sort of overlubricating the contact surface to make sure the surface friction is less than the friction between the rings. After that's it's just a matter of torque-ing all ten of them up and taking a picture.<br /></p>
 <p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3025050568/"><img src="http://farm4.static.flickr.com/3181/3025050568_6d90e93017.jpg" class="flickr" alt="" /></a><br /></p>

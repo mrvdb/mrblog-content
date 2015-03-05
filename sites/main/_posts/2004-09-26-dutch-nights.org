@@ -1,9 +1,7 @@
----
-layout: post
-title: Dutch nights
-tags:
-- current affairs
----
+#+title: Dutch nights
+#+layout: post
+#+tags: current-affairs
+
 From the back yard. Pity it is too cold to sit there with a beer.
 
 [[http://farm4.static.flickr.com/3457/3235033336_f8108d3bde.jpg]]

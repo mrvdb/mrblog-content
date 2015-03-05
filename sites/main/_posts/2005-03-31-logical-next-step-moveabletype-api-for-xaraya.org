@@ -1,10 +1,6 @@
----
-layout: post
-title: ! 'Logical next step: MoveableType API for Xaraya'
-tags:
-- coding
-- xaraya
----
+#+title: ! 'Logical next step: MoveableType API for Xaraya'
+#+layout: post
+#+tags: coding xaraya
 
 While I was at it, the Moveable Type API seemed quite close, so I
 created a little module to start implementing it.

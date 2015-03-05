@@ -1,14 +1,9 @@
----
-layout: post
-title: My brain is not a tree
-tags:
-- current affairs
-status: publish
-type: post
-published: true
-meta:
-  bitcointips_address: 13x7Lu63UZTGcBSso92feyArNAK6CDF1mZ
----
+#+title: My brain is not a tree
+#+layout: post
+#+tags: current-affairs
+#+status: publish
+#+type: post
+#+published: true
 
 Mind mapping seemed an attractive concept to bring some order into
 my chaotic thoughts, so i spend an afternoon looking for a program

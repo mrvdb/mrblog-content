@@ -1,13 +1,10 @@
----
-layout: post
-title: The need for domain separation
-tags:
-- xaraya
-status: publish
-type: post
-published: true
-meta: {}
----
+#+title: The need for domain separation
+#+layout: post
+#+tags: xaraya
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 <p>In general, the temptation to bring the templating language close to the programming domain is high. It creates a possibility to do all things which the programming language can do as well, often powerfull and most of the time dangerous.
 </p>

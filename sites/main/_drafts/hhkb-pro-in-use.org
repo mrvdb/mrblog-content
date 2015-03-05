@@ -1,7 +1,5 @@
----
-layout: post
-title: Happy Hacking Keyboard in use
----
+#+layout: post
+#+title: Happy Hacking Keyboard in use
 
 * Points											    :noexport:
 A review of the HHKB Professional 2 Type S keyboard

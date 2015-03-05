@@ -1,13 +1,10 @@
----
-layout: post
-title: Spot the differences
-tags:
-- cobra
-- garage
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Spot the differences
+#+tags: cobra garage
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 So, the garage has yet again a new floor. The top one of the images below is from the current situation, the one below it is from the first attempt (already 2 years ago!). Spot the differences&#8230;

@@ -1,9 +1,7 @@
----
-layout: post
-title: All blogs under one hood now
-tags:
-- integration
----
+#+title: All blogs under one hood now
+#+layout: post
+#+tags: integration
+
 Finally gotten around to integrating http://cobra.mrblog.nl and this
 site to the [[http://mu.wordpress.org][wordpress]] installation. This site already
 ran under wordpress—µ for while, but I wanted to wait for the

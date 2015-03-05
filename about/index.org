@@ -1,9 +1,7 @@
----
-layout: page
-title: About this site
----
-
+#+title: About this site
+#+layout: page
 #+OPTIONS: todo:t
+#+liquid: enabled
 
 The site /MrBlog.nl/ is my personal entry point to what I do on the
 web. It is mostly for myself to experiment with things while

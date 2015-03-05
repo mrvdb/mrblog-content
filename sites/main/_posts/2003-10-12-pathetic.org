@@ -1,14 +1,10 @@
----
-layout: post
-title: Pathetic
-tags:
-- integration
-status: publish
-type: post
-published: true
-meta:
-  bitcointips_address: 1LtwmmCbfdhXqnZsM6CR9qdgKwWh8ppxey
----
+#+title: Pathetic
+#+layout: post
+#+tags: integration
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 <p>Spent the most part of this day getting http links in thunderbird to open in firebird. Still not succeeding. This is pathetic, i'm pretty sure my local configuration is not broken. I'm NOT a linux newbie and can't get it to work.
 </p>

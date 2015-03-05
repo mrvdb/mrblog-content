@@ -1,14 +1,10 @@
----
-layout: post
-title: Rear hub buildup pt. 3
-tags:
-- cobra
-- donor parts
-- rear suspension
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Rear hub buildup pt. 3
+#+tags: cobra donor-parts rear-suspension
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p style="text-align: left">With all parts galvanized, a next step can be taken in building up the rear hubs. I can't complete the rear hubs completely because a spacer thickness needs to be determined to get the necessary endfloat in the hubs. Starting by putting the rear hub in a vice...</p>

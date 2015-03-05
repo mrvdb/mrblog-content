@@ -1,9 +1,7 @@
----
-layout: post
-title: Dutch treat?
-tags:
-- current affairs
----
+#+title: Dutch treat?
+#+layout: post
+#+tags: current-affairs
+
 
 #+BEGIN_HTML
 <p>Will the

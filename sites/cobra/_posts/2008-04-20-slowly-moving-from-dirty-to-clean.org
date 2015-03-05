@@ -1,14 +1,10 @@
----
-layout: post
-title: Slowly moving from dirty to clean
-tags:
-- cobra
-- donor parts
-- tools
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Slowly moving from dirty to clean
+#+tags: cobra donor-parts tools
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>The amount of dirty parts is shrinking considerably now. Especially after blasting the parts that are 'ready for painting' look amazing.</p>

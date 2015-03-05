@@ -1,13 +1,10 @@
----
-layout: post
-title: Taking a bath.
-tags:
-- cobra
-- donor parts
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Taking a bath.
+#+tags: cobra donor-parts
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>The donor parts reconditioning is typically the dirty phase of building a kit car (unless you buy the parts reconditioned, but where's the fun in that?). Removing all the crap from the rusty bits isn't the most enjoyable part if you do it 'the classic way'. Simon called it 'therapeutic' if i remember correctly. I'm gonna try another therapy; bubble watching.</p>

@@ -1,15 +1,10 @@
----
-layout: post
-title: Unit testing framework
-tags:
-- revision control
-- xaraya
-status: publish
-type: post
-published: true
-meta:
-  bitcointips_address: 1MNxvVVLb65ipsDfLwMvxgVbLe9e49ER4v
----
+#+title: Unit testing framework
+#+layout: post
+#+tags: revision-control xaraya
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 <p>Last week we started implementing a unit testing framework for Xaraya, which is highly integrated with the bitkeeper repository.
 </p>

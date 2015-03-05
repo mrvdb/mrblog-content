@@ -1,13 +1,10 @@
----
-layout: post
-title: GD track day
-tags:
-- cobra
-- chassis
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: GD track day
+#+tags: cobra chassis
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>We had a little trip to the UK last weekend. Flew into London Stansted and hurried to the GD factory. Indeed, my chassis was being manufactured at the time. It was almost complete, a couple of brackets were missing and its powder coating. Even without that I was seriously impressed.</p>

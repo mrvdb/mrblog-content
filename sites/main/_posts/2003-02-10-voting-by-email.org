@@ -1,9 +1,7 @@
----
-layout: post
-title: Voting by eMail
-tags:
-- xaraya
----
+#+title: Voting by eMail
+#+layout: post
+#+tags: xaraya
+
 #+BEGIN_HTML
 <p>eVote[
 <a href="http://www.deliberate.com/">link

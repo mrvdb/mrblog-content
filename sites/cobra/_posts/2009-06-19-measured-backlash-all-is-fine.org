@@ -1,13 +1,10 @@
----
-layout: post
-title: Measured backlash, all is fine
-tags:
-- cobra
-- rear suspension
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Measured backlash, all is fine
+#+tags: cobra rear-suspension
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 Did some research on the allowed backlash and the general consensus seems that a 2/3" to 1" backlash measured on the outer rim of the brake disc is acceptable. (which seems very large to me actually)

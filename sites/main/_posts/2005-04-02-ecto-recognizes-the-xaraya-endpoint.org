@@ -1,10 +1,7 @@
----
-layout: post
-title: Ecto recognizes the Xaraya endpoint
-tags:
-- integration
-- xaraya
----
+#+title: Ecto recognizes the Xaraya endpoint
+#+layout: post
+#+tags: integration xaraya
+
 
 I dropped a quick message to Adriaan Tijsseling, the developer of the
 amazing [[http://ecto.kung-foo.tv][Ecto blogging application]] package with a number of

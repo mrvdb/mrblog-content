@@ -1,13 +1,10 @@
----
-layout: post
-title: All time favourite cars
-tags:
-- cobra
-- info
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: All time favourite cars
+#+tags: cobra info
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 A friend and myself decided to exchange our ten all time favourite cars, just for fun.

@@ -1,7 +1,7 @@
----
-title: Testing jekyll posting
-published: false
----
+#+title: Testing jekyll posting
+#+published: false
+#+layout: post
+
 
 The intent of this file is to represent the way in which I would like
 a blog posting to be, i.e. a plain org file.

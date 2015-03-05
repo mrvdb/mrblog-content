@@ -1,13 +1,10 @@
----
-layout: post
-title: Request for what?
-tags:
-- xaraya
-status: publish
-type: post
-published: true
-meta: {}
----
+#+title: Request for what?
+#+layout: post
+#+tags: xaraya
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 <p>The documents in which these protocols are described are called RFC-s (Request For Comments) and they are subject to a complicated process of drafting, reviewing becoming a proposal and utlitmately hoping to be a standard.... The funny thing is we have a simple process of writing the RFC, discussing it on our mailing lists, adapting the RFCs, the PMC approves them and we use the RFC as a reference to determine whether an implementation is complete.... So, I implemented a very simple xml tool to write up RFCs which forced people to focus on the content, not on the layout.
 </p>

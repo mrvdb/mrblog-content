@@ -1,9 +1,7 @@
----
-layout: post
-title: Smoothly migrating your Xaraya installs to PHP 5
-tags:
-- xaraya
----
+#+title: Smoothly migrating your Xaraya installs to PHP 5
+#+layout: post
+#+tags: xaraya
+
 We run about 30 Xaraya installations for our clients on our
 servers. Some of those clients are eager to migrate to PHP 5 while
 others are more conventional and want to wait. For others, due to the

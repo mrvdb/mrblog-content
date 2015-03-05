@@ -1,6 +1,6 @@
----
-layout: orgmode
---- 
+#+title: Orgmode configuration
+#+layout: orgmode
+
 
 This page is a rendering of my Emacs configuration. I use =org-babel= to
 specify my configuration in an orgmode file that dynamically gets

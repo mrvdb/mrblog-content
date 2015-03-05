@@ -1,13 +1,10 @@
----
-layout: post
-title: Look what Santa brought me...
-tags:
-- cobra
-- engine
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Look what Santa brought me...
+#+tags: cobra engine
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p style="text-align: center"></p>

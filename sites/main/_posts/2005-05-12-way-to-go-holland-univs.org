@@ -1,9 +1,7 @@
----
-layout: post
-title: Way to go holland univs!
-tags:
-- current affairs
----
+#+title: Way to go holland univs!
+#+layout: post
+#+tags: current-affairs
+
 
 [[http://www.theregister.co.uk/2005/05/11/open_access_research][Dutch academics declare research free-for-all]]
 

@@ -1,9 +1,7 @@
----
-layout: post
-title: Microblogging workflow
-tags:
-- integration
----
+#+title: Microblogging workflow
+#+layout: post
+#+tags: integration
+
 
 The number of accounts I have on _useful_ networks, social or otherwise,
 has been on an increasing trend-line for a while. In the beginning,

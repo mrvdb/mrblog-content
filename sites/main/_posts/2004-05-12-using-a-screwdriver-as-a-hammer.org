@@ -1,14 +1,9 @@
----
-layout: post
-title: Using a screwdriver as a hammer
-tags:
-- integration
-status: publish
-type: post
-published: true
-meta:
-  bitcointips_address: 1DxDMikScsY2DdhkDjCoBWYafmn63VeJiR
----
+#+title: Using a screwdriver as a hammer
+#+layout: post
+#+tags: integration
+#+status: publish
+#+type: post
+#+published: true
 
 #+BEGIN_HTML
 <p>Interesting discussion last night on Xaraya's IRC channel. I installed

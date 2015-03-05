@@ -1,14 +1,10 @@
----
-layout: post
-title: Aiming for wheels
-tags:
-- cobra
-- front suspension
-- garage
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Aiming for wheels
+#+tags: cobra front-suspension garage
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 I am working towards a situation where i can fit wheels to the front temporarily, so the chassis can be positioned over the rear end, not unlike a wheelbarrow. After that I'll want to fit temporary wheels to the back as well because the garage needs to be cleared out by the 20th of July. After we created the new floor, some cracks started to appear and I made an arrangement with the contractor for repairs this summer.

@@ -1,13 +1,10 @@
----
-layout: post
-title: Garage door is in.
-tags:
-- cobra
-- garage
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Garage door is in.
+#+tags: cobra garage
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>Woke up Saturday morning early, two strange men in our garage. Turned out they were installing the door two days early. No objections.</p>

@@ -1,10 +1,7 @@
----
-layout: post
-tags:
-- linux
-- apple
-title: Buying apple hardware just to run linux?
----
+#+title: Buying apple hardware just to run linux?
+#+layout: post
+#+tags: linux apple
+
 
 As mentioned in my previous post, I moved back to using Linux as my
 desktop operating system, coming from OSX. I have a couple of notes on

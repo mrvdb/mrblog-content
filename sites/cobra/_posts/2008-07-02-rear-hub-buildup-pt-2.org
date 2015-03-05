@@ -1,13 +1,9 @@
----
-layout: post
-title: Rear hub buildup pt. 2
-tags:
-- cobra
-- donor parts
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Rear hub buildup pt. 2
+#+tags: cobra donor-parts
+#+status: publish
+#+type: post
+#+published: true
 #+BEGIN_HTML
 
 <p>With all the bearing cups in place in the rear hubs, the only thing which prevents me from completing the rebuild of the rear hubs, is to determine how many shims are needed inside the fulcrum. My info says the goal is to have a negative end float of 2 thou, which is kind of unusual. (Negative meaning you actually preload the bearings by assembling the hubs?)</p>

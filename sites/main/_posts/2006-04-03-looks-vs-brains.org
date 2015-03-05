@@ -1,10 +1,7 @@
----
-layout: post
-title: Looks vs Brains
-tags:
-- coding
-- integration
----
+#+title: Looks vs Brains
+#+layout: post
+#+tags: coding integration
+
 During their lives, people evolve, that's a given. For me, they start
 out as little ugly creatures, which most of us seem to like for some
 reason, and their brains don't seem to do very much either yet. (but

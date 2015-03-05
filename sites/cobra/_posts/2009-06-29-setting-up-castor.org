@@ -1,13 +1,10 @@
----
-layout: post
-title: Setting up castor
-tags:
-- cobra
-- front suspension
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Setting up castor
+#+tags: cobra front-suspension
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 While the final castor setting is determined by personal preference after a test ride, the initial castor setting target is between 3 to 5 degrees. The first step is to determine the amount of shims which will not push the two parts of the upper wishbone together and won't push them apart either.

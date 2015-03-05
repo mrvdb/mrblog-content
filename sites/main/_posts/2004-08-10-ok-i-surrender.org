@@ -1,9 +1,7 @@
----
-layout: post
-title: Ok, I surrender
-tags:
-- current affairs
----
+#+title: Ok, I surrender
+#+layout: post
+#+tags: current-affairs
+
 
 I decided to disable comments alltogether on this blog. The amount of
 time required to manage the ip banning and deleting the spam comments

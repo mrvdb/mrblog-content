@@ -1,14 +1,10 @@
----
-layout: post
-title: Front lower wishbones part deux...
-tags:
-- cobra
-- donor parts
-- front suspension
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Front lower wishbones part deux...
+#+tags: cobra donor-parts front-suspension
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>Last week I got the last two missing thrust washers for the front lower wishbones. Eager to do something I assembled the left side at the front. Should have been an easy job, but I had a hard time putting the inner thrust washers in, because the wishbone is a <em>'GD fit'</em>. Took me the best part of an hour which should have been a minute job.</p>

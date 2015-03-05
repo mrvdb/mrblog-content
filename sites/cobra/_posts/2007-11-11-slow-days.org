@@ -1,13 +1,10 @@
----
-layout: post
-title: Slow days
-tags:
-- cobra
-- donor parts
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Slow days
+#+tags: cobra donor-parts
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>Steadily working on the donor parts, but days are a bit slow lately. Finishing the details of the garage takes its time as well. After treating the first donor parts, I'm not completely satisfied with the finish that por15 plus the chassiscoat leaves. The por15 itself is very nice, glossy and very smooth, so that's nice, but the chassis coat ruins the bit by leaving stripes and not smoothing out. Have to think about how to go about that. The first thing is to add a bit of solvent to the chassis coat to make it smooth out a bit better.</p>

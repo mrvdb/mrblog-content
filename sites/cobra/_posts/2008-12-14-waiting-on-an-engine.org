@@ -1,14 +1,10 @@
----
-layout: post
-title: Waiting on an engine
-tags:
-- cobra
-- engine
-- tools
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Waiting on an engine
+#+tags: cobra engine tools
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>With the engine on the way, I went to <a href="http://buitelaar.nl">Buitelaar machinehandel</a> to pick up an engine stand and crane and some other things which had been on my shopping list for a while. Combined it was worth a trip. If you're a <em>"tool nerd"</em> that shop is definitely worth a visit. Don't forget the drool bib.</p>

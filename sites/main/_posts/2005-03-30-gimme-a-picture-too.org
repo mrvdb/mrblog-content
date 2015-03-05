@@ -1,9 +1,7 @@
----
-layout: post
-title: Gimme a picture too!
-tags:
-- xaraya
----
+#+title: Gimme a picture too!
+#+layout: post
+#+tags: xaraya
+
 
 Continuing the work on the metaweblog api implementation in Xaraya, I
 just finished an initial implementation of the newMediaObject method

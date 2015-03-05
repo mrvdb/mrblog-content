@@ -1,16 +1,10 @@
----
-layout: post
-title: Chassis ordered
-tags:
-- cobra
-- chassis
-- donor parts
-- engine
-- garage
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Chassis ordered
+#+tags: cobra chassis donor-parts engine garage
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>The chassis has been ordered, that is, Mischa is visiting <a href="http://www.gdcars.com">Gardner Douglas</a> on wednessday an will order on my behalf. We spoke on what type of engine I wanted for the car. (I managed to decide on the cubic inches, but not on carburated or injection yet, although i'm beginning to like the LS1 more and more) Apart from the fact that most decisions on differential, engine, gearbox etc. are all related and you can't really decide on one at a time, I'm also seeing the whole car as a <em>concept</em> which should be <em>balanced</em>. If I should choose for a classic 350 cui carburated engine, for me that has an effect on how the interior should look too. Likewise, if the choice is for the more modern LS1 or LS6 engine, that should influence the rest of the looks too. So, the two decisions were really just:</p>

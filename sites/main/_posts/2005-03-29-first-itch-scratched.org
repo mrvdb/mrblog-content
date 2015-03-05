@@ -1,10 +1,7 @@
----
-layout: post
-title: First itch scratched
-tags:
-- coding
-- xaraya
----
+#+title: First itch scratched
+#+layout: post
+#+tags: coding xaraya
+
 
 Brought back the metaweblog api module and activated it on this blog.
 

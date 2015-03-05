@@ -1,9 +1,7 @@
----
-layout: post
-title: Revisiting Emacs on OSX
-tags:
-- current affairs
----
+#+title: Revisiting Emacs on OSX
+#+layout: post
+#+tags: current-affairs
+
 
 Before I used an Apple machine with OSX, XEmacs was my editor of
 choice. Recently I saw Emacs 23 being released with native OSX support

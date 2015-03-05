@@ -1,9 +1,7 @@
----
-layout: post
-title: Moving over
-tags:
-- xaraya
----
+#+title: Moving over
+#+layout: post
+#+tags: xaraya
+
 I moved over my Moveable Type powered blog over to a Xaraya
 install. Long overdue, given that I am a developer on Xaraya, it is
 sort of obligatory to run the blog from that package.

@@ -1,21 +1,10 @@
----
-layout: post
-title: Misc.
-tags:
-- info
-status: publish
-type: post
-published: true
-meta:
-  _wpas_done_all: '1'
-  _stcr@_marcel@hsdev.com: '2013-06-23 16:03:41|Y'
-  status_net: 'yes'
-  blogger_blog: cobra.mrblog.nl
-  blogger_author: Marcel van der Boomhttp://www.blogger.com/profile/14504033381756826347marcel@hsdev.com
-  blogger_permalink: /2008/06/misc.html
-  _edit_last: '5'
-  bitcointips_address: 1CjizYeeU3nfKVPqEHhUhi2rGANETfTwyQ
----
+#+title: Misc.
+#+layout: post
+#+tags: info
+#+status: publish
+#+type: post
+#+published: true
+
 
 #+BEGIN_HTML
 <p>Couple of things which were annoying me fixed today. The reading list on the blog I have deleted. It made the whole thing slow.</p>

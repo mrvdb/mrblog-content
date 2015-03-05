@@ -1,14 +1,10 @@
----
-layout: post
-title: Off to GD next weekend
-tags:
-- cobra
-- chassis
-- garage
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Off to GD next weekend
+#+tags: cobra chassis garage
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p style="text-align: left"></p>

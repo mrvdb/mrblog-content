@@ -1,14 +1,10 @@
----
-layout: post
-title: Maintaining 'seen' info
-tags:
-- integration
-status: publish
-type: post
-published: true
-meta:
-  bitcointips_address: 1K3PP5X155YrhYiku2sfJpSA5FkmA3tYXM
----
+#+title: Maintaining 'seen' info
+#+layout: post
+#+tags: integration
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 <p>As I'm working on several different computers at different locations, with at least two different operating systems, it's sometimes hard to maintain the status of all the message types you need to follow these days.
 </p>

@@ -1,14 +1,10 @@
----
-layout: post
-title: Last bits of suspension to process
-tags:
-- cobra
-- donor parts
-- tools
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Last bits of suspension to process
+#+tags: cobra donor-parts tools
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>The rear hubs have been waiting for 2 parts to be galvanised; the water throwers. I bought these new as the originals were very pitted and dented.</p>

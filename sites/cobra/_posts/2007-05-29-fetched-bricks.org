@@ -1,13 +1,10 @@
----
-layout: post
-title: Fetched bricks
-tags:
-- cobra
-- garage
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Fetched bricks
+#+tags: cobra garage
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 Bought a set of classic bricks from <a href="http://marktplaats.nl">marktplaats.nl</a> and abused the horse trailer to fetch them. Interesting ride. :-)

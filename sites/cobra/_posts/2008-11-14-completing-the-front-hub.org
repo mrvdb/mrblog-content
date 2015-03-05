@@ -1,13 +1,10 @@
----
-layout: post
-title: Completing the front hub
-tags:
-- cobra
-- front suspension
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Completing the front hub
+#+tags: cobra front-suspension
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>Back to the front again, completing the wheel hubs. First, put in the greased up bearing and press in the soaked oil seal:</p>

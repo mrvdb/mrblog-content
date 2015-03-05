@@ -1,13 +1,10 @@
----
-layout: post
-title: Rear suspension, right side
-tags:
-- cobra
-- rear suspension
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: rear-suspension, right side
+#+tags: cobra rear-suspension
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 Got the other oil seal and the thicker spacer in the mail today. As this new spacer is only 0.002" thicker than the one I used to determine the endfloat and that one seemed to give an endfloat of something indistinguishable from zero, I carefully measured the endfloat with the new spacer (0.150" thick).

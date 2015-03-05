@@ -1,13 +1,10 @@
----
-layout: post
-title: Differential reconditioning part two
-tags:
-- cobra
-- donor parts
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Differential reconditioning part two
+#+tags: cobra donor-parts
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>I did not trust my efforts of replacing the pinion seal; it looks kinda funny with the rubber <strong>on</strong> the axis instead of behind it. Add to that the fact the procedure could not be finished properly because of the front nut being loose to start with, I decided to have <a href="http://www.jaguar-kolvenbach.com" title="Kolvenbach">Kolvenbach</a> take a look at it. Glad I did.</p>

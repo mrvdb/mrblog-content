@@ -1,35 +1,50 @@
----
-layout: post
-title: Front brake pipe routing
-tags:
-- cobra
-- brakes
-- front suspension
-status: publish
-type: post
-published: true
----
-#+BEGIN_HTML
+#+layout: post
+#+title: Front brake pipe routing
+#+tags: cobra brakes front-suspension
+#+status: publish
+#+type: post
+#+published: true
 
 Moving to the front...
 
-Apart from one bolt I'm missing for the front (the one I had got damaged somehow) I'm also going to need two pieces of brake pipe for connecting the flexible hose to the front calipers. Looking at most other GD builds and the pictures I have from GD, the routing often does not make sense to me, so I've experimented with some different configurations. Basically, there are 2 things to vary:
+Apart from one bolt I'm missing for the front (the one I had got
+damaged somehow) I'm also going to need two pieces of brake pipe for
+connecting the flexible hose to the front calipers. Looking at most
+other GD builds and the pictures I have from GD, the routing often
+does not make sense to me, so I've experimented with some different
+configurations. Basically, there are 2 things to vary:
 
  1. the positioning of the donor bracket (upside down / normal);
  2. routing of the flexible brake hose, what I've called 'north' and 'south'.
 
-Positioning the bracket seemed to quickly lead to the 'upside down' solution for me (see also <a href="http://str-427-cobra.blogspot.com/2007/04/brake-pipe-bracket-dilema-or-not.html">Simon's post</a>, although he reaches the opposite conclusion)
+Positioning the bracket seemed to quickly lead to the 'upside down'
+solution for me (see also <a
+href="http://str-427-cobra.blogspot.com/2007/04/brake-pipe-bracket-dilema-or-not.html">Simon's
+post</a>, although he reaches the opposite conclusion)
 
-Next, the routing of the flexible brake hose. The 'northbound' routing seemed to work best for me. It does not come anywhere near any suspension part, neither in full bump, full droop and at both extremes of the steering.
+Next, the routing of the flexible brake hose. The 'northbound' routing
+seemed to work best for me. It does not come anywhere near any
+suspension part, neither in full bump, full droop and at both extremes
+of the steering.
 
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3678070085" title="View 'Route south...' on Flickr.com"><img src="http://farm3.static.flickr.com/2455/3678070085_09055076ba.jpg" alt="" class="flickr" /></a></p>
+[[http://www.flickr.com/photos/96151162@N00/3678070085]]
 
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3678069077" title="View 'Route north...' on Flickr.com"><img src="http://farm3.static.flickr.com/2531/3678069077_e338c817ea.jpg" alt="" class="flickr" /></a></p>
+[[http://farm3.static.flickr.com/2455/3678070085_09055076ba.jpg]]
 
-I find that another advantage of the northbound route is that the routing of the fixed piping is greatly simplified, just needing a short piece with two bends, instead of routing it through the caliper openings.
 
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3678067871" title="View 'Simpler brake pipe on north route' on Flickr.com"><img src="http://farm3.static.flickr.com/2524/3678067871_3ec9bc4e80.jpg" alt="" class="flickr" /></a></p>
+[[http://www.flickr.com/photos/96151162@N00/3678069077]]
 
-It may of course be the case I'm missing something completely, as the setup with the upside down bracket and the northbound routing of the hose is basically different than everyone elses setup?
+[[http://farm3.static.flickr.com/2531/3678069077_e338c817ea.jpg]]
 
-#+END_HTML
+I find that another advantage of the northbound route is that the
+routing of the fixed piping is greatly simplified, just needing a
+short piece with two bends, instead of routing it through the caliper
+openings.
+
+[[http://www.flickr.com/photos/96151162@N00/3678067871]]
+
+[[http://farm3.static.flickr.com/2524/3678067871_3ec9bc4e80.jpg]]
+
+It may of course be the case I'm missing something completely, as the
+setup with the upside down bracket and the northbound routing of the
+hose is basically different than everyone elses setup?

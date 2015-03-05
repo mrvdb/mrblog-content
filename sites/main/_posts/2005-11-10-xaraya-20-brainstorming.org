@@ -1,11 +1,7 @@
----
-layout: post
-title: Xaraya 2.0 Brainstorming
-tags:
-- coding
-- ideas
-- xaraya
----
+#+title: Xaraya 2.0 Brainstorming
+#+layout: post
+#+tags: coding ideas xaraya
+
 
 Let's try to create a chain of documents like the one John did in
  [[http://wyome.com/index.php?module=articles&amp;func=display&amp;ptid=10&amp;aid=473][Xaraya 2.0 Brainstorming]]. After a while the common denominators

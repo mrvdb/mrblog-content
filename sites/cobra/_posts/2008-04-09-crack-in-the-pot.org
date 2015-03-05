@@ -1,14 +1,10 @@
----
-layout: post
-title: Crack in the pot...
-tags:
-- cobra
-- donor parts
-- oops
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Crack in the pot...
+#+tags: cobra donor-parts oops
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>When cleaning one of the rear hubs I noticed i crack in the housing, damn. So, that had to be exchanged.</p>

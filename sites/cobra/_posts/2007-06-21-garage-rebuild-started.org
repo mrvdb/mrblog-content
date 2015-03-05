@@ -1,13 +1,10 @@
----
-layout: post
-title: Garage rebuild started
-tags:
-- cobra
-- garage
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Garage rebuild started
+#+tags: cobra garage
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>Rebuild of the garage has started. Other than bringing in some supplies and getting some concrete out of the way, not much was done, really.<br /></p>

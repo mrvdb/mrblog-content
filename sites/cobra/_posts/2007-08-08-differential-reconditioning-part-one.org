@@ -1,13 +1,10 @@
----
-layout: post
-title: Differential reconditioning part one
-tags:
-- cobra
-- donor parts
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Differential reconditioning part one
+#+tags: cobra donor-parts
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>Reconditioning the diff is mostly cleaning, repainting it (not done that yet) and replacing the leaking pinion seal. Replacing the pinion seal is somewhat of a fuzzy defined procedure it seems, and not all the sources of documentation i found agree on it. The main thing is that inside the diff there is a collapsible spacer which gets its final shape on initial installment, 'pre-loaded' as they say.</p>

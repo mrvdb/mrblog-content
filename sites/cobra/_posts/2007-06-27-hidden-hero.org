@@ -1,13 +1,10 @@
----
-layout: post
-title: Hidden hero
-tags:
-- cobra
-- tools
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Hidden hero
+#+tags: cobra tools
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>Usually not visible, but I expect this tool will save the day more than once during the whole Cobra building process.</p>

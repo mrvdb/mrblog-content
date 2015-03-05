@@ -1,14 +1,10 @@
----
-layout: post
-title: Lowering the treshold
-tags:
-- integration
-status: publish
-type: post
-published: true
-meta:
-  bitcointips_address: 1AfXbY7mvbdB94kwGxRY4AgLS6GrDyrEEq
----
+#+title: Lowering the treshold
+#+layout: post
+#+tags: integration
+#+status: publish
+#+type: post
+#+publised true
+
 #+BEGIN_HTML
 <p>As mentioned earlier i like to treat weblogs as much as possible as a messaging activity. Not because i like messaging so much, but it has become the major activity in working the internet for me; communicating through news and mail. I find blogging interesting, but the threshold was always a bit high.
 <br />

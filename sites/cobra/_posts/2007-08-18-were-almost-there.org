@@ -1,13 +1,10 @@
----
-layout: post
-title: We're almost there...
-tags:
-- cobra
-- garage
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: We're almost there...
+#+tags: cobra garage
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <div style="text-align: left">

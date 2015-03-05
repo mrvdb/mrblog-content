@@ -1,13 +1,10 @@
----
-layout: post
-title: Engine bits nearly complete
-tags:
-- cobra
-- engine
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Engine bits nearly complete
+#+tags:  cobra engine
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>To complete the engine&mdash;gearbox mating I just need one part

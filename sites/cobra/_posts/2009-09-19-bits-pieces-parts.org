@@ -1,14 +1,10 @@
----
-layout: post
-title: Bits, pieces, parts
-tags:
-- cobra
-- engine
-- gearbox
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Bits, pieces, parts
+#+tags: cobra engine gearbox
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 Fetched about half the ordered parts from speedon on friday. The other half still wasn't there! Come on GD, I've been waiting forever now. Apart from unpacking and identifying what is what I went about on a trial fitting spree.

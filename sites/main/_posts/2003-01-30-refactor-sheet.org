@@ -1,14 +1,10 @@
----
-layout: post
-title: Refactor sheet
-tags:
-- coding
-status: publish
-type: post
-published: true
-meta:
-  bitcointips_address: 1BhGi98yvKuWJXV6oo75iYvQNhygc76tbM
----
+#+title: Refactor sheet
+#+layout: post
+#+tags: coding
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 <p>Sometimes you just don't want to make a change in the code like
 that. Some kind of procedure is needed to construct a list of checks,

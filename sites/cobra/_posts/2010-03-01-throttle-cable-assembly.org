@@ -1,12 +1,8 @@
----
-layout: post
-title: Throttle cable assembly
-categories:
-- cobra
-tags:
-- cobra
-- engine
----
+#+layout: post
+#+title: Throttle cable assembly
+#+categories: cobra
+#+tags: cobra engine
+
 #+BEGIN_HTML
 
  <p>The throttle setup, converted from the electronic standard one to

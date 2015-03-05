@@ -1,14 +1,10 @@
----
-layout: post
-title: Little bit of progress
-tags:
-- cobra
-- brakes
-- engine
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Little bit of progress
+#+tags: cobra brakes engine
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 Having a rolling chassis is nice, but having it rolling of the hoist is another thing (not that this has happened yet). So, a working handbrake seemed like a logical thing to do next. The original handbrake end-bracket was to small for the supplied handbrake cable. Adjusting it (by cutting a slot in it) did not seem a good idea, as it would create a very small contact area for the bit at the end of the cable.

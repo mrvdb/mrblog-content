@@ -1,9 +1,7 @@
----
-layout: post
-title: Kerberos transition started
-tags:
-- integration
----
+#+title: Kerberos transition started
+#+layout: post
+#+tags: integration
+
 
 As of last thursday, I've started to migrate everything in our
 network to use GSSAPI or Kerberos authentication. The amount of

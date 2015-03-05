@@ -1,12 +1,7 @@
----
-layout: post
-title: Xaraya commit history on video
-tags:
-- coding
-- integration
-- revision control
-- xaraya
----
+#+title: Xaraya commit history on video
+#+layout: post
+#+tags: coding integration revision control xaraya
+
 
 Played a little with the gource log visualizer today. It is typically
 used to visualize committed revisions in a revision control system,

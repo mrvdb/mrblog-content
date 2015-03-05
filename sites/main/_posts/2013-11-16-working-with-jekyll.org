@@ -1,11 +1,7 @@
----
-layout: post
-title: Working with Jekyll and Org-Mode
-tags:
-- jekyll
-- org-mode
-- ruby
----
+#+layout: post
+#+title: Working with Jekyll and Org-Mode
+#+tags: jekyll org-mode ruby
+
 
 Most of my notetaking and task management is in org-mode so it makes
 sense to use that as the basic format of my postings too. This is usually

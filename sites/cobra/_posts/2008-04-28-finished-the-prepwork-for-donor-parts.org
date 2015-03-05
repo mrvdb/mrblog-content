@@ -1,14 +1,10 @@
----
-layout: post
-title: Finished the prepwork for donor parts
-tags:
-- cobra
-- donor parts
-- tools
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Finished the prepwork for donor parts
+#+tags: cobra donor-parts tools
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>Spent the better parts of two days with my hands in the blasting cabinet, peeking through a window which doesn't reveal a whole lot of what is inside, due to the dust.</p>

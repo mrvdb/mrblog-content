@@ -1,10 +1,7 @@
----
-layout: post
-title: Shelving in revision control
-tags:
-- revision control
-- xaraya
----
+#+title: Shelving in revision control
+#+layout: post
+#+tags: revision-control xaraya
+
 
 [[http://blogs.msdn.com/crathjen/archive/2005/04/01/404707.aspx][Chris Rathjen : Team Foundation vs. Subversion: Shelving]]
 

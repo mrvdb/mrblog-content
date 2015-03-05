@@ -1,15 +1,10 @@
----
-layout: post
-title: Yay! and Oops!
-tags:
-- cobra
-- donor parts
-- oops
-- tools
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Yay! and Oops!
+#+tags: cobra donor-parts oops tools
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>Success on the pivot shaft:</p>

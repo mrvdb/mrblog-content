@@ -1,13 +1,10 @@
----
-layout: post
-title: Fetched chassis
-tags:
-- cobra
-- chassis
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Fetched chassis
+#+tags: cobra chassis
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>Went to <a href="http://www.speedon.nl" title="Speedon">speedon</a> yesterday to fetch the chassis and the assorted bits needed to help me construct a rolling chassis.</p>

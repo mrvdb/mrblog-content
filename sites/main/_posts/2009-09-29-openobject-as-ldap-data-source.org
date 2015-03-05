@@ -1,14 +1,10 @@
----
-layout: post
-title: OpenObject as LDAP data-source
-tags:
-- claws
-- integration
-- openobject
-status: publish
-type: post
-published: true
----
+#+title: OpenObject as LDAP data-source
+#+layout: post
+#+tags: claws integration openobject
+#+status: publish
+#+type: post
+#+published: true
+
 
 As a side-effect of [[http://mrblog.nl/2009/09/18/a-weeks-worth-of-claws-mail-on-osx.html][Migrating to Claws]] I lost my OSX
 addressbook usage, at least for mail. In my company we use

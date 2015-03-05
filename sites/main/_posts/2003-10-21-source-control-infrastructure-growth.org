@@ -1,17 +1,10 @@
----
-layout: post
-title: source control infrastructure growth
-tags:
-- revision control
-- xaraya
-status: publish
-type: post
-published: true
-meta:
-  status_net: 'yes'
-  _stcr@_marcel@hsdev.com: '2012-01-12 10:54:43|Y'
-  bitcointips_address: 15hZq9Ut7PuvaVukari48bkENxsPtXq8kR
----
+#+title: source control infrastructure growth
+#+layout: post
+#+tags: revision-control xaraya
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 <p>Using a script from Bryan O'Sullivans bitkeeper repository we integrated the bitkeeper repositories for Xaraya with our
 <a href="http://bugs.xaraya.com">bugzilla installation

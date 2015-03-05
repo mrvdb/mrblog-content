@@ -1,10 +1,7 @@
----
-layout: post
-title: ! 'Feature: No More Free BitKeeper'
-tags:
-- people
-- revision control
----
+#+title: ! 'Feature: No More Free BitKeeper'
+#+layout: post
+#+tags: people revision-control
+
 
 [[http://kerneltrap.org/node/4966][Feature: No More Free BitKeeper]]:
 

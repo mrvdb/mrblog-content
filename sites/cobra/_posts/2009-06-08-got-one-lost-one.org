@@ -1,15 +1,10 @@
----
-layout: post
-title: Got one, lost one…
-tags:
-- cobra
-- donor parts
-- oops
-- rear suspension
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Got one, lost one…
+#+tags: cobra donor-parts oops rear-suspension
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p style="text-align: left">Got one inner oil seal delivered today out of the two ordered, so decided to quickly press that in the rear hub waiting for it. Too quickly it turned out; I pressed it in while it was not lining up exactly with the opening apparently because it bent.</p>

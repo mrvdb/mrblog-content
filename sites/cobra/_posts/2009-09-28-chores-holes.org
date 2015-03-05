@@ -1,15 +1,10 @@
----
-layout: post
-title: Chores &amp; Holes
-tags:
-- cobra
-- brakes
-- chassis
-- rear suspension
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Chores &amp; Holes
+#+tags: cobra brakes chassis rear-suspension
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 Continuing with little jobs to finish the rear end backend. First up was the final assembly of the top bolts on the diff.  It's not exactly clear to what value these should be torqued, but I guess the value of the original Jaguar bolts will come close. The lock-wire went considerably smoother than earlier (on the diff bracket). I only needed 3 attempts this time!

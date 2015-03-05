@@ -1,10 +1,7 @@
----
-layout: post
-title: Filling up your schedule with Xaraya content
-tags:
-- integration
-- xaraya
----
+#+title: Filling up your schedule with Xaraya content
+#+layout: post
+#+tags: integration xaraya
+
 
 Creating content with Blocklayout in Xaraya is flexible and every
 once in a while i want to take it for a spin. In the past i've played

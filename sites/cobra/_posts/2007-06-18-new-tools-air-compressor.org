@@ -1,13 +1,10 @@
----
-layout: post
-title: ! 'New tools: air compressor'
-tags:
-- cobra
-- tools
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: ! 'New tools: air compressor'
+#+tags: cobra tools
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>As most of the other kit car builders i've met, i'm drooling over new tools too. I got myself an air compressor a while ago, but it didnt include an oil dispenser nor air filter kit. Today i fetched the parts for that and assembled them into a 'bar' which will end up on a wall-mounted plate in the new garage.</p>

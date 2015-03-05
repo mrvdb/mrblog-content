@@ -1,16 +1,13 @@
----
-layout: post
-title: ! 'Rear end: inner fulcrum assembly'
-tags:
-- cobra
-- rear suspension
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: ! 'Rear end: inner fulcrum assembly'
+#+tags: cobra rear-suspension
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
-<p style="text-align: left">To continue on the front suspension I'll have to wait till the oil seals have been soaked. So, back to the rear end then. I decided to tackle the mass-washer effort of the lower inner fulcrum. Every one of the four sides to do has a set of 4 rings and some to keep in place. Here's the set, layed out.<a href="http://www.flickr.com/photos/96151162@N00/3025432762/"></a></p>
+<p style="text-align: left">To continue on the front-suspension I'll have to wait till the oil seals have been soaked. So, back to the rear end then. I decided to tackle the mass-washer effort of the lower inner fulcrum. Every one of the four sides to do has a set of 4 rings and some to keep in place. Here's the set, layed out.<a href="http://www.flickr.com/photos/96151162@N00/3025432762/"></a></p>
 <p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3025432762/"><img src="http://farm4.static.flickr.com/3073/3025432762_d640a16c30.jpg" class="flickr" alt="" /></a></p>
 <p style="text-align: left">Everything but the nuts at the end also needs greasing. In the end it's just doing things in the proper sequence. Start off with one side, grease everything up which needs to go on there and press the shaft a little bit through.</p>
 <p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3025433308/"><img src="http://farm4.static.flickr.com/3208/3025433308_56edb9f33c.jpg" class="flickr" alt="" /></a><br /></p>

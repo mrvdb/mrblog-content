@@ -1,11 +1,8 @@
----
-layout: post
-title: Maintenance...
-tags:
-- integration
-- web
-status: publish
----
+#+title: Maintenance...
+#+layout: post
+#+tags: integration web
+#+status: publish
+
 Today, I have been <strike>fighting</strike> playing the html code in
 templates of Wordpress and the CSS of the site. I wanted to display
 the posts of the [[http://cobra.mrblog.nl][Cobra blog]] a bit more visible than an RSS feed, but

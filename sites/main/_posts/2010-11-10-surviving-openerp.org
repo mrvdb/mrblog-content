@@ -1,8 +1,8 @@
----
-tags: openerp
-title: Surviving OpenERP
-published: false
----
+#+title: Surviving OpenERP
+#+tags: openerp
+#+published: false
+#+layout: post
+
 
 * Discuss usecase for mailgate
 List of immediate apparent problems which make usage problematic:

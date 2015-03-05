@@ -1,6 +1,6 @@
 ---
-layout: page
 ---
+#+layout: page
 
 This page originates in an =org-mode= written document and has been
 written to create a reference of things that are (im-)possible using
@@ -285,19 +285,7 @@ The frontmatter is parsed by jekyll, obviously
    Jekyll uses a template langed called liquid. This section is to see
 
 
-   #+BEGIN_SRC
-   {% raw %}
-   Sitename taken from the variable site.name :: {{site.name}}
 
-   {{ 'this will be upcased by a filter' | upcase }}
-   {% endraw %}
-   #+END_SRC
-   will render as:
-   #+BEGIN_SRC
-   Sitename taken from the variable site.name :: {{site.name}}
-
-   {{ 'this will be upcased by a filter' | upcase }}
-   #+END_SRC
 **** TODO This is a to-do item
 :PROPERTIES:
 :CREATED:  [2013-11-19 di 23:30]

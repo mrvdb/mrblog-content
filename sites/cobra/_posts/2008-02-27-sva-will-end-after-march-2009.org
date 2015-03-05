@@ -1,13 +1,10 @@
----
-layout: post
-title: SVA will end after march 2009?
-tags:
-- cobra
-- info
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: SVA will end after march 2009?
+#+tags: cobra info
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>Reading it first in <a href="http://str-427-cobra.blogspot.com/2008/02/potential-big-trouble-ahead.html" title="Ptential Big Trouble Ahead">Simon's post</a>, there is a development in legislation going on which is rather worrying for all kitcar builders.</p>

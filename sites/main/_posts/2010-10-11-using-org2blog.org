@@ -1,12 +1,7 @@
----
-layout: post
-tags:
-- org-mode
-- emacs
-- wordpress
-excerpt: The excerpt of the blog post goes here. This particular blog-post is a meta-post about org2blog
-title: Using org2blog
----
+#+title: Using org2blog
+#+layout: post
+#+tags: org-mode emacs wordpress
+#+excerpt: The excerpt of the blog post goes here. This particular blog-post is a meta-post about org2blog
 
 Since moving from OSX to Linux, for reasons I will elaborate on in
 another post, the only real thing which I missed was the MarsEdit

@@ -1,14 +1,10 @@
----
-layout: post
-title: Engine thoughts
-tags:
-- cobra
-- engine
-- info
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Engine thoughts
+#+tags: cobra engine info
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 I want to take a number of preliminary decisions on the engine, so I can move forward in that area.

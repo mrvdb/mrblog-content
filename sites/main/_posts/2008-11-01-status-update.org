@@ -1,19 +1,10 @@
----
-layout: post
-title: Status update
-tags:
-- front suspension
-- garage
-- info
-status: publish
-type: post
-published: true
-meta:
-  _wpas_done_all: '1'
-  _stcr@_marcel@hsdev.com: '2013-06-23 16:04:33|Y'
-  status_net: 'yes'
-  bitcointips_address: 1AiX5ig6wFuJGtJqq9kKDSagsHM2ULonyd
----
+#+title: Status update
+#+layout: post
+#+tags: front suspension garage info
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <blockquote>

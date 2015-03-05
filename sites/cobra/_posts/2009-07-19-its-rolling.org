@@ -1,33 +1,43 @@
----
-layout: post
-title: It's rolling!
-tags:
-- cobra
-- chassis
-- garage
-status: publish
-type: post
-published: true
----
-#+BEGIN_HTML
+#+layout: post
+#+title: It's rolling!
+#+tags: cobra chassis garage
 
-As I need to clear the complete garage by monday, having the cobra on wheels and rolling was necessary. Although this is a (self imposed) deadline, when the thing was on wheels and actually rolling it did feel more a milestone than I had thought.
+As I need to clear the complete garage by monday, having the cobra on
+wheels and rolling was necessary. Although this is a (self imposed)
+deadline, when the thing was on wheels and actually rolling it did
+feel more a milestone than I had thought.
 
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3730052982" title="View 'Rolling chassis' on Flickr.com"><img src="http://farm3.static.flickr.com/2554/3730052982_fba73b8ef3.jpg" alt="" class="flickr"/></a></p><p style="text-align: center"></p>
+[[http://www.flickr.com/photos/96151162@N00/3730052982]]
 
-Again, I have to applaud Gardner Douglas for their 'fit'. The differential and the chassis get together by 8 bolts, 6 of which drop in pretty easily and the rear two need a little flexing of the diff cage; exactly as outlined in the build video.
+[[http://farm3.static.flickr.com/2554/3730052982_fba73b8ef3.jpg]]
 
-Today I rolled the chassis to the garage of a nearby friend. It will stay there for the next week while work is being done in the garage. My girlfriend <strong>did</strong> take some pictures of the <em>cobra's maiden voyage</em>. Alas, there was no card in the camera, so no pictures of that. (Not that it was that spectacular anyways.)
+Again, I have to applaud Gardner Douglas for their 'fit'. The
+differential and the chassis get together by 8 bolts, 6 of which drop
+in pretty easily and the rear two need a little flexing of the diff
+cage; exactly as outlined in the build video.
 
-The trip, however small, was useful though. You get all sorts of information you do not get by keeping the chassis static.  Here's what I learned in 300 meters rolling the car from one garage to the next:
+Today I rolled the chassis to the garage of a nearby friend. It will
+stay there for the next week while work is being done in the
+garage. My girlfriend *did* take some pictures of the
+/cobra's maiden voyage/. Alas, there was no card in the camera,
+so no pictures of that. (Not that it was that spectacular anyways.)
 
-  * the routing of the brakeline needs rethinking, on full steer it touches the tires; (I imagine it will be even worse with the wider wheels which will be fitted)
-  * there was a slight 'tick' at the rear left (hand-)brake caliper, could be the brake-pad;
-  * old tires, all different and a suspension not setup make for a crappy ride;
+The trip, however small, was useful though. You get all sorts of
+information you do not get by keeping the chassis static.  Here's what
+I learned in 300 meters rolling the car from one garage to the next:
+
+  * the routing of the brakeline needs rethinking, on full steer it
+    touches the tires; (I imagine it will be even worse with the wider
+    wheels which will be fitted)
+  * there was a slight 'tick' at the rear left (hand-)brake caliper,
+    could be the brake-pad;
+  * old tires, all different and a suspension not setup make for a
+    crappy ride;
   * it is very easy to lose nuts and bolts if they are not tightened;
   * inertia of moving mass is easily underestimated;
 
-So, not much to do for the next week but nag with my suppliers for delivery of the gearbox, which seems to be the bottleneck in the delivery. The gearbox fit also determines the precise length of the propshaft (so I've been told), so partial delivery also doesn't make sense either. Patience...<!--more-->
-<p></p>
-
-#+END_HTML
+So, not much to do for the next week but nag with my suppliers for
+delivery of the gearbox, which seems to be the bottleneck in the
+delivery. The gearbox fit also determines the precise length of the
+propshaft (so I've been told), so partial delivery also doesn't make
+sense either. Patience...

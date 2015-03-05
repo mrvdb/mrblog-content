@@ -1,12 +1,7 @@
----
-layout: post
-title: A weeks worth of claws-mail on OSX
-tags:
-- claws
-- coding
-- integration
-- osx
----
+#+title: A weeks worth of claws-mail on OSX
+#+layout: post
+#+tags: claws coding integration osx
+
 
 After installing Snow Leopard I was left with a page of programs and
 plugins that needed attention because of the upgrade. Most of these

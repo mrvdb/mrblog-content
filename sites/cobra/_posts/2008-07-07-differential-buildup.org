@@ -1,14 +1,10 @@
----
-layout: post
-title: Differential buildup
-tags:
-- cobra
-- brakes
-- rear suspension
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Differential buildup
+#+tags: cobra brakes rear-suspension
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p style="text-align: left">I've given the diff another spray, which makes it finished as a part, so today I positioned the differential on the auto-hoist for build up and (eventually) assembly to the chassis. I already determined the amount of shims needed between the inner bracket and the diff, so bolting them on was a 2 second job. The next hour I more or less practised lock-wiring, trying to get a feel for what works and what does not. The position of the lock-wire holes is kind of critical, so I found it easiest to torque the bolts up to their specified values,see how the bolts end up and then determine where the holes should go.</p>

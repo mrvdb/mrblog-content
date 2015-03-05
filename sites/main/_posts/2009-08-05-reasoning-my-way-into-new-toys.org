@@ -1,11 +1,7 @@
----
-layout: post
-title: Reasoning my way into new toys
-tags:
-- current affairs
-- segway
-- toys
----
+#+title: Reasoning my way into new toys
+#+layout: post
+#+tags: current-affairs segway toys
+
 Last Monday was my 40th birthday. I'm kind of used to having a quiet
 birthday; most of the people are always on holidays during this time
 of year. My girlfriend had organised a two day trip, she usually does

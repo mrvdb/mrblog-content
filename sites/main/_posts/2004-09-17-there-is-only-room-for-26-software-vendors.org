@@ -1,9 +1,7 @@
----
-layout: post
-title: There is only room for 26 software vendors
-tags:
-- integration
----
+#+title: There is only room for 26 software vendors
+#+layout: post
+#+tags: integration
+
 
 Those marketing guys must be rather clueless, lots of software
 vendors pick a couple of letters and prefix all their software titles

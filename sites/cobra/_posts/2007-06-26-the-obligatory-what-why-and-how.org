@@ -1,13 +1,10 @@
----
-layout: post
-title: The obligatory what, why and how...
-tags:
-- cobra
-- info
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: The obligatory what, why and how...
+#+tags: cobra info
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 <p>Building your own car has a certain lure to it. Not only the car enthusiast, but almost everyone without exception, when told about my plans, reacted with something similar to '<em>cool</em>!'<br />

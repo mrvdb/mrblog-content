@@ -1,13 +1,10 @@
----
-layout: post
-title: Prefitting exhaust
-tags:
-- cobra
-- exhaust
-status: publish
-type: post
-published: true
----
+#+layout: post
+#+title: Prefitting exhaust
+#+tags: cobra exhaust
+#+status: publish
+#+type: post
+#+published: true
+
 #+BEGIN_HTML
 
 Going from the engine to the back of the car I wanted to trial fit as best as possible the complete exhaust to see where it will attach to the chassis, how much clearance it gives etc.

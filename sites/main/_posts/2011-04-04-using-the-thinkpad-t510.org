@@ -1,12 +1,8 @@
----
-tags:
-- thinkpad
-- macbook
-- review
-- ubuntu
-published: false
-title: Using the Thinkpad T510
----
+#+title: Using the Thinkpad T510
+#+layout: post
+#+tags: thinkpad macbook review ubuntu
+#+published: false
+
 
 I've elaborated a bit in a previous post about my dislikes of the way
 Apple seems to be heading. One of the consequences I took from that

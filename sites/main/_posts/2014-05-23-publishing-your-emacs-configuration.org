@@ -1,12 +1,7 @@
----
-layout: post
-title: Publishing your Emacs configuration with Jekyll
-tags:
-- jekyll
-- org-mode
-- integration
-- emacs
----
+#+TITLE: Publishing your Emacs configuration with Jekyll
+#+LAYOUT: post
+#+TAGS: jekyll org-mode integration emacs
+#+liquid: enabled
 
 Many people in the Emacs community use orgmode. Quite a few of them
 use the =org-babel= system to write and maintain their emacs
