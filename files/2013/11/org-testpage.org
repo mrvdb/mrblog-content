@@ -1,6 +1,12 @@
+---
+layout: page
+---
+
 This page originates in an =org-mode= written document and has been
 written to create a reference of things that are (im-)possible using
-the direct org to html conversion.
+the direct org to html conversion. This text would be ignored by
+jekyll if the option =skip:t= was specified as an option. ( *CHECK* : is
+the content available as excerpt then? )
 
 The frontmatter is parsed by jekyll, obviously
 
@@ -213,9 +219,50 @@ The frontmatter is parsed by jekyll, obviously
    Image links are just normal links in orgmode, which just happen to
    link to an image.
 
-   [[/css/images/calendar.gif]]
+   [[/assets/css/images/calendar.gif]]
 
-   [[/css/image/calendar.gif][link is to image, this is the description]]
+   [[/assets/css/images/calendar.gif][link is to image, this is the description]]
+
+   Typically my images will be hosted at either a site like flickr or
+   at my own media-site running mediagoblin, so let's take an image
+   from there.
+
+   [[http://media.mrblog.nl/m/media_entries/168/IMG_20130823_105214.medium.jpg]]
+
+   Just linking to an image source will produce an image tag,
+   unstyled. Typically in blog posts a more or less standard set of
+   image types are needed:
+
+   1. Things that liven up the text, typically pull-left or pull-right
+      in my blog. Images will not be that large;
+   2. Photographs which are the subject or part of the subject of the
+      content. Typically larger and detailed, there may be a need to
+      be able to zoom into these pictures
+   3. Pictorial elements, part of the theme, perhaps a one-off
+      solution.
+
+   Strategies for getting images into a blog, given that we use
+   org-mode our options are rather limited. I'd want to stay away as
+   much as possible from using specific jekyll constructs, that is if
+   we want the blog posting to be useful outside of jekyll.
+
+   The price for that is that we then cannot use liquid tags, unless
+   wrapped in an html block and the only way we would make distinctly
+   different images would be using a =#+ATTR_HTML:= construct.
+
+
+   How I want it to look:
+
+   #+BEGIN_HTML
+   <div class="media">
+     <img
+       src="http://media.mrblog.nl/m/media_entries/168/IMG_20130823_105214.medium.jpg"
+       class="img-thumbnail" />
+       <div class="media-body">
+         <h5>Media heading</h5>
+       </div>
+   </div>
+   #+END_HTML
 
 ** Emphasis
   *single asterisks: bold*
@@ -234,3 +281,34 @@ The frontmatter is parsed by jekyll, obviously
 
 #+COMMENT: this should not be exported at all
 #+LINK: google    http://www.google.com/search?q=%s
+** Use of liquid tags
+   Jekyll uses a template langed called liquid. This section is to see
+
+
+   #+BEGIN_SRC
+   {% raw %}
+   Sitename taken from the variable site.name :: {{site.name}}
+
+   {{ 'this will be upcased by a filter' | upcase }}
+   {% endraw %}
+   #+END_SRC
+   will render as:
+   #+BEGIN_SRC
+   Sitename taken from the variable site.name :: {{site.name}}
+
+   {{ 'this will be upcased by a filter' | upcase }}
+   #+END_SRC
+**** TODO This is a to-do item
+:PROPERTIES:
+:CREATED:  [2013-11-19 di 23:30]
+:END:
+If nothing specific is configured, the TODO items is just treated as a
+header, and rendered without the TODO keyword. If a =todo:t= snippet
+is present in the #+OPTIONS than the TODO keyword will be shown. The
+keyword as such will be just part of the header, not rendered
+specially. There is however extra HTML generated, so the CSS can take
+care of the extra rendering if needed.
+** Config											    :noexport:
+#+SETUPFILE: "~/dat/org/etc/org-config.org"
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+OPTIONS: todo:t f:t
