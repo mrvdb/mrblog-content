@@ -1,5 +1,12 @@
 # Basic settings
 
+# gems that need to be installed:
+#  - git
+#  - ruby-embed
+#  - org-ruby
+#      \_ ruby-pants
+#  - rdiscount
+#
 # I define the destination as a hidden folder. The whole idea is to
 # abstract the site  away, so under normal circumstances we do not
 # need to see the site files. But, we want to be able to reach them.
