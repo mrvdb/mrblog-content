@@ -29,7 +29,8 @@ module Jekyll
     end
   end
 
-  # Consider an org header a yaml_header too
+  # Consider an org header to be a yaml_header too
+  # FIXME: kludge
   module Utils
     def has_yaml_header?(file)
       !!((File.open(file, 'rb') { |f| f.read(2) } =~ /^#\+/) or
@@ -69,7 +70,9 @@ module Jekyll
       if liquid_enabled
         self.content = org_text.to_html
         self.content = self.content.gsub("&#8216;","'")
-        self.content = self.content.gsub("&#8217;", "'")
+        self.content = self.content.gsub("&#8217;","'")
+        self.content = self.content.gsub("&#8220;",'"')
+        self.content = self.content.gsub("&#8221;",'"')
       else
         self.content = <<ORG
 {% raw %}
