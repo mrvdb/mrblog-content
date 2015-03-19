@@ -75,6 +75,7 @@ module Jekyll
       self.content = self.content.gsub("&#8217;","'")
       self.content = self.content.gsub("&#8220;",'"')
       self.content = self.content.gsub("&#8221;",'"')
+      self.content = self.content.gsub("&#39;","'")
 
       # Make sure post excerpts are pointing to the right content
       if self.type == "post"
