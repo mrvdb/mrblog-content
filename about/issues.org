@@ -1,0 +1,27 @@
+#+TITLE: Issue list for this site
+#+LAYOUT: page
+#+OPTIONS: todo:t
+
+Because everything is orgmode now, I might as well keep an issue list
+for the site and publish it. Managing todo items is pretty well
+covered in org-mode ;-)
+
+**** DONE Link to this issue page
+     :PROPERTIES:
+     :CREATED:  [2015-03-19 do 14:58]
+     :END:
+**** TODO Move comment system to something static
+     :PROPERTIES:
+     :CREATED:  [2015-03-19 do 14:58]
+     :END:
+     To keep with the spirit of a Jekyll site, comments should really be
+     static as well.
+**** TODO Move media to media.mrblog.nl
+     :PROPERTIES:
+     :CREATED:  [2015-03-19 do 14:59]
+     :END:
+     A mediagoblin installation. Be less dependent on flickr
+**** TODO Move TODO items to this file
+     :PROPERTIES:
+     :CREATED:  [2015-03-19 do 15:00]
+     :END:

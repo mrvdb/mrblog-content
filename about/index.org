@@ -1,7 +1,6 @@
 #+title: About this site
 #+layout: page
 #+OPTIONS: todo:t
-#+liquid: enabled
 
 The site /MrBlog.nl/ is my personal entry point to what I do on the
 web. It is mostly for myself to experiment with things while
@@ -34,9 +33,8 @@ to them:
 
 If you feel that credit for one of your programs should be in this
 list, let me know.
-***** TODO move comment system to something static, or at least something open.
-***** TODO Move media to media.mrblog.nl
 
+I keep an [[issues.html][issue list]] for this site on a separate page.
 *** Some stats
     - Total number of pages: {{ site.pages | size }}
     - Total number of posts: {{ site.posts | size }}
