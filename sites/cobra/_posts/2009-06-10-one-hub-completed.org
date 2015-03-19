@@ -1,14 +1,14 @@
 #+layout: post
 #+title: One hub completed
 #+tags: cobra donor-parts rear-suspension
-#+status: publish
 #+type: post
 #+published: true
 
-#+BEGIN_HTML
+With a new inner oil seal delivered, completing one of the rear hubs
+was indeed a quick job. Pressing in the oil seal, but now making sure
+it was straight!
 
-<p style="text-align: left">With a new inner oil seal delivered, completing one of the rear hubs was indeed a quick job. Pressing in the oil seal, but now making sure it was straight!</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3613488794/"><img src="http://farm4.static.flickr.com/3640/3613488794_c389be9c91.jpg" class="flickr" alt="" /></a></p>
-<p style="text-align: left">This completes one rear hub. To complete the other one I'm waiting on the (extra thick) spacer and another inner oil seal.</p>
+{%gmg shadowed 303 %}
 
-#+END_HTML
+This completes one rear hub. To complete the other one I'm waiting on
+the (extra thick) spacer and another inner oil seal.

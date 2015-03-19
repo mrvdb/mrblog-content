@@ -5,17 +5,47 @@
 #+type: post
 #+published: true
 
-#+BEGIN_HTML
+The one completed hub begs to be assembled. There are a number of
+steps involved to correctly complete this job. First is to create a
+level working environment. This is somewhat easy for me, as the car
+hoist I have is adjustable at the four corners. I already had the
+chassis levelled out, so the only thing needed was to check and fine
+tune it.
 
-<p style="text-align: left">The one completed hub begs to be assembled. There are a number of steps involved to correctly complete this job. First is to create a level working environment. This is somewhat easy for me, as the car hoist I have is adjustable at the four corners. I already had the chassis levelled out, so the only thing needed was to check and fine tune it.<br /></p>
-<p style="text-align: left">Next, I created a dummy shaft for the outer fulcrum, having a slightly smaller width as the hub. This simplifies assembling the hub to the wishbone considerably and makes sure the shims which are inside the fulcrum stay properly positioned.</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3621862299/"><img src="http://farm4.static.flickr.com/3371/3621862299_1e91b57f41.jpg" class="flickr" alt="" /></a><br /></p>
-<p style="text-align: left">The "hub—wishbone fit" was pretty much dead on. There are shims to make sure the hub is centred and to prevent bending the ends of the wishbone. I had bought a set of 8 or so but I could only fit (with considerable effort) one shim of 3 or 8 thou (cant remember). Not sure how critical this is.</p>
-<p style="text-align: left">Next up was setting up the lower wishbone having a 2" downward slope over its length; presumably emulating the normal ride-height like that. Fitting shims between the drive-shaft and the brake-disc makes it easy to adjust the camber. The one-tenth of a degree negative camber should do just fine for now. I bet I need to revisit this once the car is completed and the proper ride-height is determined.</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3621861245/"><img src="http://farm4.static.flickr.com/3327/3621861245_811d698d3f.jpg" class="flickr" alt="" /></a></p>
-<p style="text-align: left">The big nut on the drive shaft needs to be torqued up (only to 75Nm apparently, which seems small for such a big boy). Doing that is somewhat awkward on just the hub, on the complete assembly however it is basically just a matter of 'putting the thing on the handbrake' and torque up the nut. Also the <a href="http://cobra.mrblog.nl/2009/06/rear-hub-buildup-pt-3.html">previously determined endfloat</a> can be checked again now, which I will do tomorrow.</p>
-<p style="text-align: left">For the 4 inner lock nuts I've have fitted some temporary nuts for now; to be replaced with the metal-lock nuts once the whole assembly is attached to the chassis.</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3622679006/"><img src="http://farm4.static.flickr.com/3394/3622679006_b64b0588a0.jpg" class="flickr" alt="" /></a><br /></p>
-<p style="text-align: left">So, for the other side, I still need the inner oil seal and a set of shims to be able to complete it. They should arrive this week.</p>
+Next, I created a dummy shaft for the outer fulcrum, having a slightly
+smaller width as the hub. This simplifies assembling the hub to the
+wishbone considerably and makes sure the shims which are inside the
+fulcrum stay properly positioned.
 
-#+END_HTML
+{%gmg shadowed 300 %}
+
+The "hub—wishbone fit" was pretty much dead on. There are shims to
+make sure the hub is centred and to prevent bending the ends of the
+wishbone. I had bought a set of 8 or so but I could only fit (with
+considerable effort) one shim of 3 or 8 thou (cant remember). Not sure
+how critical this is.
+
+Next up was setting up the lower wishbone having a 2" downward slope
+over its length; presumably emulating the normal ride-height like
+that. Fitting shims between the drive-shaft and the brake-disc makes
+it easy to adjust the camber. The one-tenth of a degree negative
+camber should do just fine for now. I bet I need to revisit this once
+the car is completed and the proper ride-height is determined.
+
+{%gmg shadowed 301 %}
+
+The big nut on the drive shaft needs to be torqued up (only to 75Nm
+apparently, which seems small for such a big boy). Doing that is
+somewhat awkward on just the hub, on the complete assembly however it
+is basically just a matter of 'putting the thing on the handbrake' and
+torque up the nut. Also the [[http://cobra.mrblog.nl/2009/06/rear-hub-buildup-pt-3.html][previously determined endfloat]] can be
+checked again now, which I will do tomorrow.
+
+For the 4 inner lock nuts I've have fitted
+some temporary nuts for now; to be replaced with the metal-lock nuts
+once the whole assembly is attached to the chassis.
+
+{%gmg shadowed 302 %}
+
+So, for the other side, I still need the inner oil seal and a set of
+shims to be able to complete it. They should arrive this week.
