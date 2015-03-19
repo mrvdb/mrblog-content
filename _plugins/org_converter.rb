@@ -50,7 +50,7 @@ module Jekyll
       # Read in file and set defaults
       content = File.read(File.join(base, name), merged_file_read_opts(opts))
       self.data ||= {}
-      liquid_enabled = false;
+      liquid_enabled = true;
 
       # Read in all buffer settings in orgmode syntax and set them as value
       org_text = Orgmode::Parser.new(content, { markup_file: "html.tags.yml" })
@@ -59,27 +59,22 @@ module Jekyll
         org_text.in_buffer_settings.delete(key) if key =~ /title/i
         buffer_setting = key.downcase
 
-        if buffer_setting == 'liquid'
-          liquid_enabled = true
+        #TODO: what to do when it is false?
+        if buffer_setting == 'liquid' and value == 'false'
+          liquid_enabled = false
         end
 
         self.data[buffer_setting] = value
       end
 
-      # Disable Liquid tags from the output by default or enabled with liquid_enabled tag
-      if liquid_enabled
-        self.content = org_text.to_html
-        self.content = self.content.gsub("&#8216;","'")
-        self.content = self.content.gsub("&#8217;","'")
-        self.content = self.content.gsub("&#8220;",'"')
-        self.content = self.content.gsub("&#8221;",'"')
-      else
-        self.content = <<ORG
-{% raw %}
-#{org_text.to_html}
-{% endraw %}
-ORG
-      end
+      # Convert the orgmode format via org-ruby to html
+      self.content = org_text.to_html
+
+      # Correct some entities so further output matching keeps working
+      self.content = self.content.gsub("&#8216;","'")
+      self.content = self.content.gsub("&#8217;","'")
+      self.content = self.content.gsub("&#8220;",'"')
+      self.content = self.content.gsub("&#8221;",'"')
 
       # Make sure post excerpts are pointing to the right content
       if self.type == "post"
