@@ -1,6 +1,6 @@
 #+title: Surviving OpenERP
 #+tags: openerp
-#+published: false
+#+unpublished: true
 #+layout: post
 
 

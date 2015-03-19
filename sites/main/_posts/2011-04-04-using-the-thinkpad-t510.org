@@ -1,7 +1,7 @@
 #+title: Using the Thinkpad T510
 #+layout: post
 #+tags: thinkpad macbook review ubuntu
-#+published: false
+#+unpublished: true
 
 
 I've elaborated a bit in a previous post about my dislikes of the way
