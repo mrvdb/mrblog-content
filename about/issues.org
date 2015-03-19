@@ -10,6 +10,10 @@ covered in org-mode ;-)
      :PROPERTIES:
      :CREATED:  [2015-03-19 do 14:58]
      :END:
+**** DONE Move TODO items to this file
+     :PROPERTIES:
+     :CREATED:  [2015-03-19 do 15:00]
+     :END:
 **** TODO Move comment system to something static
      :PROPERTIES:
      :CREATED:  [2015-03-19 do 14:58]
@@ -21,7 +25,27 @@ covered in org-mode ;-)
      :CREATED:  [2015-03-19 do 14:59]
      :END:
      A mediagoblin installation. Be less dependent on flickr
-**** TODO Move TODO items to this file
+**** TODO Create a better way for handling images
      :PROPERTIES:
-     :CREATED:  [2015-03-19 do 15:00]
+     :CREATED:  [2015-03-19 do 15:23]
+     :END:
+     Similar to the gmg plugin, but more generic. Goal is to have a
+     quick way to insert a properly styled image, based on a class or keyword.
+**** TODO UTF-encoding is not working properly
+     :PROPERTIES:
+     :CREATED:  [2015-03-19 do 15:24]
+     :END:
+     See for example
+     [[https://mrblog.nl/2009/09/18/a-weeks-worth-of-claws-mail-on-osx.html]]
+
+     The odd thing is that locally it renders fine, so it's probably a
+     nginx setting?
+**** TODO Make pages searchable
+     :PROPERTIES:
+     :CREATED:  [2015-03-19 do 15:27]
+     :END:
+     I think only posts are now handled by the search plugin
+**** TODO Make collections searchable
+     :PROPERTIES:
+     :CREATED:  [2015-03-19 do 15:28]
      :END:
