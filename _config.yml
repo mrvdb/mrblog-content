@@ -86,4 +86,6 @@ git:
 collections:
   emacs:
     output: true
-    
+
+
+gems: [jekyll-paginate, jekyll-gist]
