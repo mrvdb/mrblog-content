@@ -323,11 +323,6 @@ div.markdown_generated {
     clear: left;
 }
 
-.gmg-media {
-    max-width: 100%;
-    height: auto;
-    padding: 20px;
-}
 
 
 ol.git-log {
@@ -347,4 +342,26 @@ ol.git-log {
 .TODO:before {
     content: "* ";
     color: black;
+}
+
+/* GMG plugin preset styles */
+
+/* gmg-media is the default */
+.gmg-media {
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+/* centered-400px-shadow (cobra site) */
+figure.shadowed { text-align: center; }
+img.shadowed {
+    width: 400px;
+    height: auto;
+    /* Do shadow in webkit and gecko rendering engines */
+    -webkit-box-shadow: #888 10px 10px 5px; -moz-box-shadow: #888 10px 10px 5px;
+
+    /* Position properly vertically */
+    margin-top: 10px; margin-bottom: 15px;
+
 }

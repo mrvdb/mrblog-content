@@ -252,14 +252,35 @@ The frontmatter is parsed by jekyll, obviously
    How I want it to look:
 
    #+BEGIN_HTML
-   <div class="flickr">
+   <div class="container shadow">
      <img src="http://media.mrblog.nl/m/media_entries/168/IMG_20130823_105214.medium.jpg"
-          class="img-thumbnail" />
+          class="img-thumbnail shadow" />
      <div class="media-body">
-       <h5>Media heading</h5>
+       <h5>Caption goes here</h5>
      </div>
    </div>
    #+END_HTML
+
+   Doing the same image in an /orgmode/ way is cumbersome, so I'm using
+   a plugin to do this. The goal is to have all media on
+   media.mrblog.nl, which is probably too strict a limitation, but it
+   allows to have very concise image definitions with a short liquid
+   tag.
+
+   Here's how the tag looks:
+   #+BEGIN_SRC
+   {%raw%}
+   {% gmg shadowed 168 %}
+   {%endraw%}
+   #+END_SRC
+
+   The plugin does a request (on building) to the media site  and
+   retrieves some json data which we could use. (For the caption for
+   example)
+
+   Result:
+
+   {% gmg shadowed 168 %}
 
 ** Emphasis
   *single asterisks: bold*
