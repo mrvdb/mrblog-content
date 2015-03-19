@@ -252,13 +252,10 @@ The frontmatter is parsed by jekyll, obviously
    How I want it to look:
 
    #+BEGIN_HTML
-   <div class="container shadow">
-     <img src="http://media.mrblog.nl/m/media_entries/168/IMG_20130823_105214.medium.jpg"
-          class="img-thumbnail shadow" />
-     <div class="media-body">
-       <h5>Caption goes here</h5>
-     </div>
-   </div>
+   <figure class="shadowed">
+     <img src="http://media.mrblog.nl/m/media_entries/168/IMG_20130823_105214.medium.jpg" class="img-thumbnail"/>
+     <figcaption>Caption goes here</figcaption>
+   </figure>
    #+END_HTML
 
    Doing the same image in an /orgmode/ way is cumbersome, so I'm using

@@ -355,13 +355,15 @@ ol.git-log {
 
 /* centered-400px-shadow (cobra site) */
 figure.shadowed { text-align: center; }
-img.shadowed {
+figure.shadowed img {
     width: 400px;
     height: auto;
     /* Do shadow in webkit and gecko rendering engines */
-    -webkit-box-shadow: #888 10px 10px 5px; -moz-box-shadow: #888 10px 10px 5px;
+    -webkit-box-shadow: #888 10px 10px 5px;
+    -moz-box-shadow: #888 10px 10px 5px;
+    box-shadow: #888 10px 10px 5px;
 
     /* Position properly vertically */
     margin-top: 10px; margin-bottom: 15px;
-
 }
+

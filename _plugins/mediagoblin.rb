@@ -107,7 +107,7 @@ module Jekyll
       # html people can work with that.
       # TODO: what should we do here? return data only and let templates handle it?
       out  = <<END
-      <figure class="container #{chosenpreset}">
+      <figure class="#{chosenpreset}">
       <script type="application/json" id="gmg-media-#{gmg_media_id}">#{media_data}</script>
       <img src="#{gmg_src}" #{html_attr_string} />
       <figcaption>#{gmg_caption}</figcaption>

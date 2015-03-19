@@ -76,7 +76,7 @@ gmg:
         class: 'gmg-media'
     shadowed:
       attr:
-        class: 'img-thumbnail shadowed'
+        class: 'img-thumbnail'
 
 # TODO: the dir should be determined automatically.
 git:
