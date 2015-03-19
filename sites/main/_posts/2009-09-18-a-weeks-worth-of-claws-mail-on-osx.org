@@ -63,8 +63,7 @@ the excercise for real on OSX.
 
 Here's the configure step I used:
 
-#+BEGIN_HTML
-{% highlight bash %}
+#+BEGIN_SRC bash
     export CPPFLAGS=-I/opt/local/include
     export LDFLAGS=-L/opt/local/lib
 
@@ -74,8 +73,7 @@ Here's the configure step I used:
       --enable-ipv6 \
       --disable-dillo-viewer-plugin \
       --enable-crash-dialog
-{% endhighlight %}
-#+END_HTML
+#+END_SRC
 
 The first two are perhaps redundant, but I wanted to make sure
 everything came from the ports collection and not from libraries
