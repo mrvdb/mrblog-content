@@ -5,6 +5,7 @@
 # need to see the site files. But, we want to be able to reach them.
 # The default is _site, so it makes sense to name it '.site'
 destination: .site
+unpublished: false
 
 name: Marcel van der Boom
 
