@@ -1,5 +1,5 @@
 #+layout: post
-#+title: ! 'Donor parts back, one thing left: painting them.'
+#+title: Donor parts back, one thing left: painting them.
 #+tags: cobra donor-parts
 #+status: publish
 #+type: post

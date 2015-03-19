@@ -1,4 +1,4 @@
-#+title: ! 'Feature: No More Free BitKeeper'
+#+title: Feature: No More Free BitKeeper
 #+layout: post
 #+tags: people revision-control
 

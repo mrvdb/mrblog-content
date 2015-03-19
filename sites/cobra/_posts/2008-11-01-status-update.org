@@ -5,12 +5,20 @@
 #+type: post
 #+published: true
 
-#+BEGIN_HTML
 
-<blockquote>
-  <p><em>"It's been 117 days since my last confession</em>..."</p>
-</blockquote>
-<p>So, perhaps a little status update is in order. Although I <a href="http://cobra.mrblog.nl/2007/12/declaring-garage-finished.html" title="Garage finished">declared the garaged finished earlier</a>, there's always something that needs to be finished/improved. So, this summer we place 2 new windows in the south wall.</p>
+#+BEGIN_QUOTE
+It's been 117 days since my last confession...
+#+END_QUOTE
+
+So, perhaps a little status update is in order. Although I
+
+[[/2007/12/declaring-garage-finished.html][declared the garaged
+finished earlier]]
+
+there's always something that needs to be finished/improved. So, this
+summer we placed 2 new windows in the south wall.
+
+#+BEGIN_HTML
 <div style="text-align: center">
   <a href="http://www.flickr.com/photos/96151162@N00/2992151608/"><img src="http://farm4.static.flickr.com/3213/2992151608_0dd5c0ed0a.jpg" class="flickr" alt="DSC_6631.jpg" /></a><br />
 </div>

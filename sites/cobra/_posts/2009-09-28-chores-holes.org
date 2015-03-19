@@ -1,5 +1,5 @@
 #+layout: post
-#+title: Chores &amp; Holes
+#+title: Chores & Holes
 #+tags: cobra brakes chassis rear-suspension
 #+status: publish
 #+type: post

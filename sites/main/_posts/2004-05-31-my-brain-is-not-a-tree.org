@@ -1,7 +1,6 @@
 #+title: My brain is not a tree
 #+layout: post
 #+tags: current-affairs
-#+status: publish
 #+type: post
 #+published: true
 
@@ -34,13 +33,14 @@ from the UI too)
 
 *There must be something wrong with my brain.*
 
-If i understand all the involved techniques right, /i need a very graphically oriented and very fast RDF editor with lots of attention
-to keyboard shortcuts and screen organization/, which hides the
+If i understand all the involved techniques right, I need a very
+graphically oriented and very fast RDF editor with lots of attention
+to keyboard shortcuts and screen organization, which hides the
 horrendous details of RDF graphs and how they are specified. There are
 some RDF editors out there, mostly java based, but they are exactly
-that: <strong>RDF editors </strong>, nothing more, nothing less. Not
-very imaginative about making RDF being a storage format for
-semantical relationships and abstracting the interface around it.
+that: *RDF editors*, nothing more, nothing less. Not very imaginative
+about making RDF being a storage format for semantical relationships
+and abstracting the interface around it.
 
 
 *I must have misunderstood the semantics.*

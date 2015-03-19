@@ -1,66 +1,85 @@
 #+title: PHP-GTK an alternative to Java?
 #+layout: post
 #+tags: coding ideas
-#+status: publish
 #+type: post
 #+published: true
 
-#+BEGIN_HTML
-<p>I experimented a little with PHP-GTK yesterday. I have massive amounts of PHP-libraries lying around and didn't want to switch to another language for using those libraries in other applications than pure web.
-</p>
-<p>The combo of PHP and GTK makes up for a reasonable alternative (for java for example) for platform independent applications. Especially if combined with libglade. Glade is a tool which is used to build graphical interfaces and store this in a XML format. PHP-GTK is able to read those XML-files and dynamically build the interface. This way, the interface is separated nicely from the code and can be changed without changing the code. :-))
-</p>
-<p>Example:
-</p>
-<pre>
-&lt;?xml version="1.0"?&gt;
-&lt;GTK-Interface&gt;
-&lt;widget&gt;
-&lt;class&gt;GtkWindow&lt;/class&gt;
-&lt;name&gt;windowMain&lt;/name&gt;
-<br />&lt;width&gt;150&lt;/width&gt;
-<br />&lt;height&gt;80&lt;/height&gt;
-<br />&lt;title&gt;PHP-GTK-Glade for world domination&lt;/title&gt;
-<br />&lt;type&gt;GTK_WINDOW_TOPLEVEL&lt;/type&gt;
-<br />&lt;position&gt;GTK_WIN_POS_NONE&lt;/position&gt;
-<br />&lt;modal&gt;False&lt;/modal&gt;
-<br />&lt;allow_shrink&gt;False&lt;/allow_shrink&gt;
-<br />&lt;allow_grow&gt;True&lt;/allow_grow&gt;
-<br />&lt;auto_shrink&gt;False&lt;/auto_shrink&gt;
-<br />&lt;widget&gt;
-<br />&lt;class&gt;GtkButton&lt;/class&gt;
-<br />&lt;name&gt;button&lt;/name&gt;
-<br />&lt;can_focus&gt;True&lt;/can_focus&gt;
-<br />&lt;signal&gt;
-<br />&lt;name&gt;clicked&lt;/name&gt;
-<br />&lt;handler&gt;
-<strong>on_button_clicked
-</strong>&lt;/handler&gt;
-<br />&lt;/signal&gt;
-<br />&lt;label&gt;Exit&lt;/label&gt;
-<br />&lt;relief&gt;GTK_RELIEF_NORMAL&lt;/relief&gt;
-<br />&lt;/widget&gt;&lt;/widget&gt;&lt;/GTK-Interface&gt;
-</pre>
-<p>And the code:
-</p>
-<pre>
-function on_button_clicked() {
-echo "Clickedn";
-}$gx = &amp;new GladeXML('interface.glade');
-$gx-&gt;signal_autoconnect();
-</pre>
-<p>This creates a window with a button on it and connects the
-<em>clicked
-</em> signal to the function
-<em>on_button_clicked
-</em>. With minimal effort this application can be deployed on any platform which supports PHP and GTK. (someone else may figure out how many, but lots).
-</p>
-<p>Because the glade interface is in XML this can be deployed locally or remotely at will. For PHP we know that it can run both locally and on the server. This combined opens up some interesting possibilities. We now can deploy interface and code both locally and remotely.
-</p>
-<p>The usual goodies which relate to XML are of course applicable to glade, like for example XSLT transformations on the interface file (for example filtering out interface elements which have no usefull meaning due to privilege restrictions).
-</p>
-<p>The combo opens up interesting options for bringing desktop applications and web applications closer together. The whole suite reminds one of techniques used in XUL applications and of Java deployment strategies. I gather if we could hook up this combo to an object broker service like Corba and a PHP compiler we'd have a very powerfull platform.
-</p>
-<p>It certainly warrants further investigation.
-</p>
-#+END_HTML
+I experimented a little with PHP-GTK yesterday. I have massive amounts
+of PHP-libraries lying around and didn't want to switch to another
+language for using those libraries in other applications than pure
+web.
+
+The combo of PHP and GTK makes up for a reasonable alternative (for
+java for example) for platform independent applications. Especially if
+combined with libglade. Glade is a tool which is used to build
+graphical interfaces and store this in a XML format. PHP-GTK is able
+to read those XML-files and dynamically build the interface. This way,
+the interface is separated nicely from the code and can be changed
+without changing the code. :-))
+
+Example:
+
+#+BEGIN_SRC xml
+  <?xml version="1.0"?>
+  <GTK-Interface>
+    <widget>
+      <class>GtkWindow</class>
+      <name>windowMain</name>
+      <width>150</width>
+      <height>80</height>
+      <title>PHP-GTK-Glade for world domination</title>
+      <type>GTK_WINDOW_TOPLEVEL</type>
+      <position>GTK_WIN_POS_NONE</position>
+      <modal>False</modal>
+      <allow_shrink>False</allow_shrink>
+      <allow_grow>True</allow_grow>
+      <auto_shrink>False</auto_shrink>
+      <widget>
+        <class>GtkButton</class>
+        <name>button</name>
+        <can_focus>True</can_focus>
+        <signal>
+          <name>clicked</name>
+          <handler>on_button_clicked</handler>
+        </signal>
+        <label>Exit</label>
+        <relief>GTK_RELIEF_NORMAL</relief>
+      </widget>
+    </widget>
+  </GTK-Interface>
+#+END_SRC
+
+And the code
+
+#+BEGIN_SRC js
+  function on_button_clicked() {
+      echo "Clickedn";
+  }
+
+  $gx = &new GladeXML('interface.glade');
+  $gx->signal_autoconnect();
+#+END_SRC
+
+This creates a window with a button on it and connects the clicked
+signal to the function on_button_clicked . With minimal effort this
+application can be deployed on any platform which supports PHP and
+GTK. (someone else may figure out how many, but lots).
+
+Because the glade interface is in XML this can be deployed locally or
+remotely at will. For PHP we know that it can run both locally and on
+the server. This combined opens up some interesting possibilities. We
+now can deploy interface and code both locally and remotely.
+
+The usual goodies which relate to XML are of course applicable to
+glade, like for example XSLT transformations on the interface file
+(for example filtering out interface elements which have no usefull
+meaning due to privilege restrictions).
+
+The combo opens up interesting options for bringing desktop
+applications and web applications closer together. The whole suite
+reminds one of techniques used in XUL applications and of Java
+deployment strategies. I gather if we could hook up this combo to an
+object broker service like Corba and a PHP compiler we'd have a very
+powerfull platform.
+
+It certainly warrants further investigation.

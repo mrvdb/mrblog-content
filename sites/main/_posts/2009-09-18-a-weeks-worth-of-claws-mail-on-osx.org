@@ -124,8 +124,7 @@ preference for default Email program:
 
 The second file needed in the XCode project is URLHandler.scriptSuite:
 
-#+BEGIN_HTML
-{% highlight  properties %}
+#+BEGIN_SRC properties
     {
         Name = URLHandler;
         AppleEventCode = "UrHD";
@@ -138,8 +137,7 @@ The second file needed in the XCode project is URLHandler.scriptSuite:
             };
         };
     }
-{% endhighlight %}
-#+END_HTML
+#+END_SRC
 
 which registers =URLHandlerCommand= as the handler for
 Events of type GURL (get an URL).
@@ -147,8 +145,7 @@ Events of type GURL (get an URL).
 And finally, the third file, =URLHanderlerCommand.m= which
 implements that handler:
 
-#+BEGIN_HTML
-{% highlight objective-c %}
+#+BEGIN_SRC objective-c
     @implementation URLHandlerCommand
 
     - (id)performDefaultImplementation {
@@ -186,8 +183,7 @@ implements that handler:
         return nil;
     }
     @end
-{% endhighlight %}
-#+END_HTML
+#+END_SRC
 
 In words: It takes the URL that the user clicked on
 "mailto:something@something.org", turns it into an URL object and

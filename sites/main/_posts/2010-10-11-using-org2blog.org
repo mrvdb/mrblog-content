@@ -103,8 +103,8 @@ will be done prior to publishing, so the image does not even need to
 be linked explicitly, but can be an implicit result of code evaluation
 like in the example below:
 
-#+begin_example
-\#+begin\_src ditaa :file filename.png :cmdline -r
+#+begin_src org
+,#+begin_src ditaa :file filename.png :cmdline -r
 +---------+
 | cBLU    |
 |         |
@@ -112,8 +112,8 @@ like in the example below:
 |    |cPNK|
 |    |    |
 +----+----+
-\#+end\_src
-#+end_example
+,#+end_src
+#+end_src
 
 #+begin_src ditaa :file blue2.png :cmdline -r
 +---------+
@@ -124,6 +124,9 @@ like in the example below:
 |    |    |
 +----+----+
 #+end_src
+
+#+RESULTS:
+[[file:blue2.png]]
 
 In this example the ditaa code evaluated delivered a file blue2.png
 which was subsequently uploaded to the blog. (the problem here is that

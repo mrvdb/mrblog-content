@@ -1,5 +1,5 @@
 #+layout: post
-#+title: ! 'New tools: air compressor'
+#+title: New tools: air compressor
 #+tags: cobra tools
 #+status: publish
 #+type: post

@@ -1,4 +1,4 @@
-#+title: ! 'Logical next step: MoveableType API for Xaraya'
+#+title: Logical next step: MoveableType API for Xaraya
 #+layout: post
 #+tags: coding xaraya
 
