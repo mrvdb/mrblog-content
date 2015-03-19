@@ -1,23 +1,26 @@
 #+layout: post
 #+title: Little bit of progress
 #+tags: cobra brakes engine
-#+status: publish
 #+type: post
 #+published: true
 
-#+BEGIN_HTML
+Having a rolling chassis is nice, but having it rolling of the hoist
+is another thing (not that this has happened yet). So, a working
+handbrake seemed like a logical thing to do next. The original
+handbrake end-bracket was to small for the supplied handbrake
+cable. Adjusting it (by cutting a slot in it) did not seem a good
+idea, as it would create a very small contact area for the bit at the
+end of the cable.
 
-Having a rolling chassis is nice, but having it rolling of the hoist is another thing (not that this has happened yet). So, a working handbrake seemed like a logical thing to do next. The original handbrake end-bracket was to small for the supplied handbrake cable. Adjusting it (by cutting a slot in it) did not seem a good idea, as it would create a very small contact area for the bit at the end of the cable.
+{% gmg shadowed 279 %}
 
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3865222992" title="View 'Original handbrake end bracket' on Flickr.com"><img src="http://farm4.static.flickr.com/3532/3865222992_0e71d2906c.jpg" class="flickr" alt="Original handbrake end bracket" /></a></p>
+In one of the drawers at [speedon](http://speedon.nl) Mischa found
+something that could fit, and with a bit of effort, it indeed did.
 
-In one of the drawers at [speedon](http://speedon.nl) Mischa found something that could fit, and with a bit of effort, it indeed did.
+{% gmg shadowed 280 %}
 
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3865222322" title="View 'Adapted handbrake end bracket' on Flickr.com"><img src="http://farm4.static.flickr.com/3486/3865222322_89c7beec05.jpg" class="flickr" alt="Adapted handbrake end bracket" /></a></p>
-(apologies for the blurry picture) With a bit of sanding on both parts, i.e. the cable and and the bracket, made it fit.
+The ECU has arrived too with a nice semi-assembled harness. Now I need
+a handful of connectors and I should then be able to construct a
+complete harnes and finish that part.
 
-The ECU has arrived too with a nice semi-assembled harness. Now I need a handful of connectors and I should then be able to construct a complete harnes and finish that part.
-
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3865230576" title="View 'Omex710 ECU plus colorful semi harness' on Flickr.com"><img src="http://farm3.static.flickr.com/2458/3865230576_e8fb9a550a.jpg" class="flickr" alt="Omex710 ECU plus colorful semi harness" /></a></p>
-
-#+END_HTML
+{% gmg shadowed 281 %}
