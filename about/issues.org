@@ -49,3 +49,11 @@ covered in org-mode ;-)
      :PROPERTIES:
      :CREATED:  [2015-03-19 do 15:28]
      :END:
+**** TODO Adapt gmg preset to fetch small image and load large with lytebox
+     :PROPERTIES:
+     :CREATED:  [2015-03-20 vr 16:12]
+     :END:
+**** TODO Find some sort of automated link checker
+     :PROPERTIES:
+     :CREATED:  [2015-03-20 vr 16:13]
+     :END:
