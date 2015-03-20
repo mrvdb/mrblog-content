@@ -5,12 +5,23 @@
 #+type: post
 #+published: true
 
-#+BEGIN_HTML
+Assembling the rear driveshafts with the universal joints is an easy
+job ( [[/2007/07/first-day-first-problems.html][unlike the disassembly]] of them). Especially using my press,
+getting in the Universal Joints is very easy to do and the first was
+completed in no time.
 
-<p style="text-align: left">Assembling the rear driveshafts with the universal joints is an easy job (<a href="http://cobra.mrblog.nl/2007/07/first-day-first-problems.html">unlike the disassembly</a> of them). Especially using my press, getting in the Universal Joints is very easy to do and the first was completed in no time.</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3038412313/"><img src="http://farm4.static.flickr.com/3188/3038412313_22680f5889.jpg" class="flickr portrait" alt="" /></a></p>
-<p style="text-align: left">The second however, disaster! The first joint went in smoothly but when I pressed in the second the complete "top lid" of one of the caps broke off!!! Aargh. No idea how this happened. I did not subject the joints to excessive force, although using a press sort of hides these forces.</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3039250394/"><img src="http://farm4.static.flickr.com/3056/3039250394_8aefc8080a.jpg" class="flickr" alt="" /></a><br /></p>
-<p style="text-align: left">So, after a minute or two of swearing I pressed out the one joint which, thankfully, did not damage the shaft and came out pretty easily. It should just be a matter of purchasing a new UJ now and pressing that in. All in all, the job took me 4 hours where it should have been like 10 minutes.</p>
+{%gmg shadowed 324 %}
 
-#+END_HTML
+The second however, disaster! The first joint went in smoothly but
+when I pressed in the second the complete "top lid" of one of the caps
+broke off!!! Aargh. No idea how this happened. I did not subject the
+joints to excessive force, although using a press sort of hides these
+forces.
+
+{%gmg shadowed 325 %}
+
+So, after a minute or two of swearing I pressed out the one joint
+which, thankfully, did not damage the shaft and came out pretty
+easily. It should just be a matter of purchasing a new UJ now and
+pressing that in. All in all, the job took me 4 hours where it should
+have been like 10 minutes.

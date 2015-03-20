@@ -5,16 +5,39 @@
 #+type: post
 #+published: true
 
-#+BEGIN_HTML
+Got the donor parts back from [[http://www.galvin.nl][Galvin]], as you
+can see below, they look like new!
 
-<p>Got the donor parts back from <a href="http://www.galvin.nl" title="Electrolytic Galvanizing ">Galvin</a>, as you can see below, they look like new!</p>
-<p style="text-align: center"><br /></p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2668437865/"><img src="http://farm4.static.flickr.com/3219/2668437865_9941dc7fda.jpg" class="flickr" alt="" /></a><br /></p>
-<p>Had a chat with the guy on painting the parts with chassis coat. Particularly on the surface preparation, "Do I use metal ready or not?" His statement was that the paint would adhere fine to the passivation layer and that any acid-like fluid would ruin it, significantly reducing the corrosion resistance of the part.</p>
-<p>Interestingly, asking exactly the same question to a POR15 employee (in the US, not in the NL) he stated roughly the opposite. Metal-ready won't hurt the passivation layer because it is in so short contact with it. His advice was to use the normal preparation procedure.</p>
-<p>That left me with nothing else than to try it out. Took two parts, prepared one by just degreasing it and brushed chassis coat black on it. I prepared the other part by dipping it in metal-ready for like 5-10 minutes or so.</p>
-<p>The first thing i noticed is that the passivation layer is gone in 3 seconds; that is the yellowish colour is gone from which i deduce the passivation layer must be gone too, leaving a zinc coloured surface.</p>
-<p>I'm writing this on Monday, so the parts have been curing for a couple of days now. Everyday since I painted the parts, I did a little scratch test to see if there was a difference. There is not, as far as i can see. Both parts look the same and the chassis coat adheres well to both. It's not excellent though, chassis coat is clearly a top coat and not as much a protective coat as POR15, the real thing.</p>
-<p>So, this leaves me with one preparation step: painting them. I'm planning to spray them all in one session, so the next days, I'll be probably busy masking them appropriately and building a spray booth somewhere in the workshop to spray them in.</p>
+{%gmg shadowed 370 %}
 
-#+END_HTML
+Had a chat with the guy on painting the parts with chassis
+coat. Particularly on the surface preparation, "Do I use metal ready
+or not?" His statement was that the paint would adhere fine to the
+passivation layer and that any acid-like fluid would ruin it,
+significantly reducing the corrosion resistance of the part.
+
+Interestingly, asking exactly the same question to a POR15 employee
+(in the US, not in the NL) he stated roughly the opposite. Metal-ready
+won't hurt the passivation layer because it is in so short contact
+with it. His advice was to use the normal preparation procedure.  That
+left me with nothing else than to try it out. Took two parts, prepared
+one by just degreasing it and brushed chassis coat black on it. I
+prepared the other part by dipping it in metal-ready for like 5-10
+minutes or so.
+
+The first thing i noticed is that the passivation layer is gone in
+3 seconds; that is the yellowish colour is gone from which i deduce
+the passivation layer must be gone too, leaving a zinc coloured
+surface.
+
+I'm writing this on Monday, so the parts have been curing for a couple
+of days now. Everyday since I painted the parts, I did a little
+scratch test to see if there was a difference. There is not, as far as
+i can see. Both parts look the same and the chassis coat adheres well
+to both. It's not excellent though, chassis coat is clearly a top coat
+and not as much a protective coat as POR15, the real thing.
+
+So, this leaves me with one preparation step: painting them. I'm
+planning to spray them all in one session, so the next days, I'll be
+probably busy masking them appropriately and building a spray booth
+somewhere in the workshop to spray them in.

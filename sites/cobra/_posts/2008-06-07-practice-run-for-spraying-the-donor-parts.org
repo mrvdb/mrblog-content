@@ -1,21 +1,33 @@
 #+layout: post
 #+title: Practice run for spraying the donor parts
 #+tags: cobra donor-parts garage
-#+status: publish
 #+type: post
 #+published: true
 
-#+BEGIN_HTML
 
-<p>Given the amount of time already spent on preparing the donor parts, I am a bit hesitant to just start spraying the POR15 onto them without a bit of experience. As my motorbike needed new exhausts and as such had to be disassembled anyway, I prepared a couple of parts of the bike for spraying.</p>
-<p>First, with the help of an <em>el cheapo</em> gazebo, I created an improvised spray booth.</p>
-<p style="text-align: center"><br /></p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2668447843/"><img src="http://farm4.static.flickr.com/3110/2668447843_4822a481ea.jpg" class="flickr" alt="" /></a><br /></p>
-<p style="text-align: left">This worked much better than expected. After a bit of testing to get the viscosity of the chassis coat right and the spray gun adjusted, spraying the two bike parts was a quick job. The goal was to record the settings for the gun, the amount of solvent to use and, obviously, look at the end result.</p>
-<p style="text-align: center"><br /></p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2669277420/"><img src="http://farm4.static.flickr.com/3189/2669277420_08b62a8d78.jpg" class="flickr portrait" alt="" /></a></p>
-<p style="text-align: center"><br /></p>
-<p style="text-align: left">The chassis coat, when sprayed, gives a unique finish, more matte than brushed. The breather is no luxury, this stuff is nasty.</p>
-<p style="text-align: left">The rest of the day was spent masking the jag parts. I'll probably spent tomorrow completing the masking and re-assembling the bike, so I can get it out of the way (you can just see it behind the tent on the left)</p>
+Given the amount of time already spent on preparing the donor
+parts, I am a bit hesitant to just start spraying the POR15 onto them
+without a bit of experience. As my motorbike needed new exhausts and
+as such had to be disassembled anyway, I prepared a couple of parts of
+the bike for spraying.
 
-#+END_HTML
+First, with the help of an /el cheapo/ gazebo, I created an
+improvised spray booth.
+
+{%gmg shadowed 367 %}
+
+This worked much better than expected. After a bit of testing to get
+the viscosity of the chassis coat right and the spray gun adjusted,
+spraying the two bike parts was a quick job. The goal was to record
+the settings for the gun, the amount of solvent to use and, obviously,
+look at the end result.
+
+{%gmg shadowed 368 %}
+
+The chassis coat, when sprayed, gives a unique finish, more matte than
+brushed. The breather is no luxury, this stuff is nasty.
+
+The rest of the day was spent masking the jag parts. I'll probably
+spent tomorrow completing the masking and re-assembling the bike, so I
+can get it out of the way (you can just see it behind the tent on the
+left)

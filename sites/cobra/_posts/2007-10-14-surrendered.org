@@ -1,19 +1,37 @@
 #+layout: post
 #+title: Surrendered
 #+tags: cobra brakes chassis garage
-#+status: publish
 #+type: post
 #+published: true
 
-#+BEGIN_HTML
+Unable to set a good time-slot apart for the treatment of the donor
+parts, it needs like a 6 hours slot for all the painting and cleaning,
+but eager to do something, i started to do some chores on the chassis.
 
-<p>Unable to set a good time-slot apart for the treatment of the donor parts, it needs like a 6 hours slot for all the painting and cleaning, but eager to do something, i started to do some chores on the chassis.</p>
-<p>I started with putting all nuts and bolts from the chassis kit loosely in place. This is to see if i got them all, but also thinking that their destination is probably the best place to keep them instead of in a drawer somewhere.</p>
-<p>Next up was getting some (more?) wax into the inside of the chassis. Finding a small enough applicator which would also fit the venturi attached to the compressor turned out impossible, so one throwaway aerosol it is then. An easy 15 minute job with nothing to show for. I needed some more...</p>
-<p>Still somewhat hindered by the thought of not doing things in order for the build I instead created a storage place for the bottom plates of the car-lift.</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2670819512/"><img src="http://farm4.static.flickr.com/3168/2670819512_d01bcb7d28.jpg" class="flickr portrait" alt="" /></a><br /></p>
-<p>While a useful end result, I realised I was just making up excuses and needed a 'real job', so, I decided to do the front-brake-pipe run. Here's the end result:<br /></p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2670759932/"><img src="http://farm4.static.flickr.com/3242/2670759932_f814d75ec6.jpg" class="flickr" alt="" /></a><br /></p>
-<p>Gave me good pair of sore thumbs. I can't attach the p-clips to the chassis yet, as i want to use the same rivets as GD has been using, but I do not have such a rivet gun yet. I feel another tool purchase coming up next week :-)<br /></p>
+I started with putting all nuts and bolts from the chassis kit loosely
+in place. This is to see if i got them all, but also thinking that
+their destination is probably the best place to keep them instead of
+in a drawer somewhere.
 
-#+END_HTML
+Next up was getting some (more?) wax into the inside of the
+chassis. Finding a small enough applicator which would also fit the
+venturi attached to the compressor turned out impossible, so one
+throwaway aerosol it is then. An easy 15 minute job with nothing to
+show for. I needed some more...
+
+Still somewhat hindered by the thought of not doing things in order
+for the build I instead created a storage place for the bottom plates
+of the car-lift
+
+{%gmg shadowed 403 %}
+
+While a useful end result, I realised I was just making up excuses
+and needed a 'real job', so, I decided to do the front-brake-pipe
+run. Here's the end result:
+
+{%gmg shadowed 404 %}
+
+Gave me good pair of sore thumbs. I can't attach the p-clips to the
+chassis yet, as i want to use the same rivets as GD has been using,
+but I do not have such a rivet gun yet. I feel another tool purchase
+coming up next week :-)

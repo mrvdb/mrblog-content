@@ -1,22 +1,37 @@
 #+layout: post
 #+title: Taking a bath.
 #+tags: cobra donor-parts
-#+status: publish
 #+type: post
 #+published: true
 
-#+BEGIN_HTML
+The donor parts reconditioning is typically the dirty phase of
+building a kit car (unless you buy the parts reconditioned, but
+where's the fun in that?). Removing all the crap from the rusty bits
+isn't the most enjoyable part if you do it 'the classic way'. Simon
+called it 'therapeutic' if i remember correctly. I'm gonna try another
+therapy; bubble watching.
 
-<p>The donor parts reconditioning is typically the dirty phase of building a kit car (unless you buy the parts reconditioned, but where's the fun in that?). Removing all the crap from the rusty bits isn't the most enjoyable part if you do it 'the classic way'. Simon called it 'therapeutic' if i remember correctly. I'm gonna try another therapy; bubble watching.</p>
-<p>Someone pointed <a href="http://en.wikipedia.org/wiki/Electrolysis">electrolysis</a> out to me recently as an alternative and that brought back some memories from school chemistry class. So, I quickly constructed a test electrolysis bath from some old steel pins donated to me by the <a href="http://www.bouwbedrijfvdzande.nl">contractor doing the garage</a>, some rings to hold these pins attached to the bath, an old ATX power supply, water and a bag of washing soda. It looks something like this:<br /></p>
-<div style="text-align: center">
-  <a href="http://www.flickr.com/photos/96151162@N00/2668322455/"><img src="http://farm4.static.flickr.com/3265/2668322455_a2a858baaa.jpg" class="flickr" alt="" /></a><br />
-</div>(If you are wondering about the CD player: it acts as a shunt so the power supply actually keeps running, instead of stopping after 2 seconds, thinking there is nothing attached to it; i'll probably replace this with a battery charger if i can find an old one.)
+Someone pointed out [[http://en.wikipedia.org/wiki/Electrolysis][electrolysis]] to me recently as an alternative and
+that brought back some memories from school chemistry class. So, I
+quickly constructed a test electrolysis bath from some old steel pins
+donated to me by the [[http://www.bouwbedrijfvdzande.nl][contractor]] doing the garage, some rings to hold
+these pins attached to the bath, an old ATX power supply, water and a
+bag of washing soda. It looks something like this:
 
-<p>Fill up the tub with water, put in the soda, attach the +12V lead to the steel pins at the outside and the other end to the bit we're trying to de-rust. Then, flip the switch, sit back and wait.</p>
-<p>Here's the before picture of my testpiece as removed from the front axle:</p>
-<div style="text-align: center">
-  <a href="http://www.flickr.com/photos/96151162@N00/2668317757/"><img src="http://farm4.static.flickr.com/3061/2668317757_9dfec5f79f.jpg" class="flickr" alt="" /></a><br />
-</div>I'm gonna leave this for the night and see what we have in the morning.
+{%gmg shadowed 421 %}
 
-#+END_HTML
+(If you are wondering about the CD player: it acts as a shunt so
+the power supply actually keeps running, instead of stopping after 2
+seconds, thinking there is nothing attached to it; i'll probably
+replace this with a battery charger if i can find an old one.)
+
+Fill up the tub with water, put in the soda, attach the +12V lead
+to the steel pins at the outside and the other end to the bit we're
+trying to de-rust. Then, flip the switch, sit back and wait.
+
+Here's the before picture of my testpiece as removed from the front
+axle:
+
+{%gmg shadowed 422 %}
+
+I'm gonna leave this for the night and see what we have in the morning.

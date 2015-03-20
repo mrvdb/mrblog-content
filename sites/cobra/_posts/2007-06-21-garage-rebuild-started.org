@@ -1,17 +1,16 @@
 #+layout: post
 #+title: Garage rebuild started
 #+tags: cobra garage
-#+status: publish
 #+type: post
 #+published: true
 
-#+BEGIN_HTML
+Rebuild of the garage has started. Other than bringing in some
+supplies and getting some concrete out of the way, not much was done,
+really.
 
-<p>Rebuild of the garage has started. Other than bringing in some supplies and getting some concrete out of the way, not much was done, really.<br /></p>
-<div style="text-align: center">
-  <a href="http://www.flickr.com/photos/96151162@N00/2669982679/"><img src="http://farm4.static.flickr.com/3090/2669982679_85b3b66a2f.jpg" class="flickr" alt="" /></a><br />
-</div>
-<p>At the end of the second day however, first beginnings of the new inner wall are there! We're getting a real door too. :-)</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2669981891/"><img src="http://farm4.static.flickr.com/3264/2669981891_039e3a896e.jpg" class="flickr" alt="" /></a><br /></p>
+{%gmg shadowed 434 %}
 
-#+END_HTML
+At the end of the second day however, first beginnings of the new
+inner wall are there! We're getting a real door too. :-)
+
+{%gmg shadowed 435 %}

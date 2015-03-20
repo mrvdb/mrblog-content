@@ -1,16 +1,27 @@
 #+layout: post
 #+title: Unstucking things
 #+tags: cobra donor-parts
-#+status: publish
 #+type: post
 #+published: true
 
-#+BEGIN_HTML
+Almost done with disassembling all the donorparts, one wishbone still
+to be removed, the rest is all done and waiting in line to be
+/electrolysed/.
 
-<p>Almost done with disassembling all the donorparts, one wishbone still to be removed, the rest is all done and waiting in line to be <em>electrolysed</em>.</p>
-<p>Along the way most time is consumed by things which are stuck, but need to be loosened. Yesterday i spent a whole day grinding a wishbone from its subframe because <em>tapping-it-out</em> was undoable. Here's another example, as of yet unsolved, of something which is stuck. Suggestions are welcome. I'm thinking of putting it into the oven or use a mini flame thrower on it.</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2669153586/"><img src="http://farm4.static.flickr.com/3064/2669153586_c1da2646ea.jpg" class="flickr" alt="" /></a><br /></p>
-<p>Also had a quick look at the differential. Although it was said to be 100% in order, i'm hesitant not to check and recondition it. There's at least the pinion seal which is leaking and the paint isn't covering the whole diff. So, this will need some work.</p>
-<p>The differential also seems to be the most logical place to start the actual build with, that is, the first part to prepare and finish before assembly starts.</p>
+Along the way most time is consumed by things which are stuck, but
+need to be loosened. Yesterday i spent a whole day grinding a wishbone
+from its subframe because /tapping-it-out/ was undoable. Here's
+another example, as of yet unsolved, of something which is
+stuck. Suggestions are welcome. I'm thinking of putting it into the
+oven or use a mini flame thrower on it.
 
-#+END_HTML
+{%gmg shadowed 419 %}
+
+Also had a quick look at the differential. Although it was said to
+be 100% in order, i'm hesitant not to check and recondition
+it. There's at least the pinion seal which is leaking and the paint
+isn't covering the whole diff. So, this will need some work.
+
+The differential also seems to be the most logical place to start
+the actual build with, that is, the first part to prepare and finish
+before assembly starts.

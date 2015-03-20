@@ -5,12 +5,30 @@
 #+type: post
 #+published: true
 
-#+BEGIN_HTML
+Searching for a [[/2008/11/18/it-should-have-been-easier.html][replacement]] Universal Joint for the one rear axle, I
+have discovered that they have their own parallel universe!! There's a
+large set of manufacturers which may, or may not, produce the proper
+Universal Joint. They may, or may not, have a web presence on which
+they may, or may not, mention the specifications of their products.
 
-<p>Searching for a <a href="http://cobra.mrblog.nl/2008/11/it-should-have-been-easier.html">replacement</a> Universal Joint for the one rear axle, I have discovered that they have their own parallel universe!! There's a large set of manufacturers which may, or may not, produce the proper Universal Joint. They may, or may not, have a web presence on which they may, or may not, mention the specifications of their products.</p>
-<p>Once talking to a representative of one of these companies, he may, or may not know what he is talking about. He will gladly tell you that the product you are looking for may, or may not be in stock and may, or may not fit the application you want to use it for.</p>
-<p>When you finally find 2 or 3 models, which may fit the application, their price difference of around € 50 euro's a piece may, or may not be explained by their specifications. The most expensive one may, or may not last longer than the cheaper model. There may even, or may not be a story behind them which sounds plausible, but can not be checked.</p>
-<p>At the point where you have made up your own mind on what UJ you will purchase, the supplier may, or may not sell it directly to you and may, or may not tell you to call a local dealer. Calling this dealer may, or may not put you into contact with a person asking you what the price of the item was the distributor may or may not have promised you.</p>
-<p>Once the UJ has been ordered it may or may not arrive tomorrow morning.</p>
+Once talking to a representative of one of these companies, he may,
+or may not know what he is talking about. He will gladly tell you that
+the product you are looking for may, or may not be in stock and may,
+or may not fit the application you want to use it for.
 
-#+END_HTML
+When you finally find 2 or 3 models, which may fit the application,
+their price difference of around € 50 euro's a piece may, or may not
+be explained by their specifications. The most expensive one may, or
+may not last longer than the cheaper model. There may even, or may not
+be a story behind them which sounds plausible, but can not be
+checked.
+
+At the point where you have made up your own mind on what UJ you
+will purchase, the supplier may, or may not sell it directly to you
+and may, or may not tell you to call a local dealer. Calling this
+dealer may, or may not put you into contact with a person asking you
+what the price of the item was the distributor may or may not have
+promised you.
+
+Once the UJ has been ordered it may or may not arrive tomorrow
+morning.

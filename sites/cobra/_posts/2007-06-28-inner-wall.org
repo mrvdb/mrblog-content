@@ -1,14 +1,12 @@
 #+layout: post
 #+title: Inner wall
 #+tags: cobra garage
-#+status: publish
 #+type: post
 #+published: true
 
-#+BEGIN_HTML
+The inner wall is basically done, meaning it has all the bricks it
+needs and supports the roof.
 
-<p>The inner wall is basically done, meaning it has all the bricks it needs and supports the roof.</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2670807214/"><img src="http://farm4.static.flickr.com/3062/2670807214_5a595ebcdf.jpg" class="flickr" alt="" /></a><br /></p>
-<p>Next up is the outer wall.</p>
+{% gmg shadowed 431 %}
 
-#+END_HTML
+Next up is the outer wall.

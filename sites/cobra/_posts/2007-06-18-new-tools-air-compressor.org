@@ -1,14 +1,22 @@
 #+layout: post
 #+title: New tools: air compressor
 #+tags: cobra tools
-#+status: publish
 #+type: post
 #+published: true
 
-#+BEGIN_HTML
+As most of the other kit car builders i've met, i'm drooling over
+new tools too. I got myself an air compressor a while ago, but it
+didnt include an oil dispenser nor air filter kit. Today i fetched the
+parts for that and assembled them into a 'bar' which will end up on a
+wall-mounted plate in the new garage.
 
-<p>As most of the other kit car builders i've met, i'm drooling over new tools too. I got myself an air compressor a while ago, but it didnt include an oil dispenser nor air filter kit. Today i fetched the parts for that and assembled them into a 'bar' which will end up on a wall-mounted plate in the new garage.</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2670778622/"><img src="http://farm4.static.flickr.com/3229/2670778622_04afe235ee.jpg" class="flickr" alt="" /></a><br /></p>
-<p>The part on the left is the air filter / reducer, right is the oil dispenser. I created two outlets, one after just the air filter and one after the oil dispenser. That way i can use compressed air with oil (for rotating tools etc. which need lubrication) by hooking up at the end. By connecting in the middle it will just be clean air without the oil; I gathered that for spraying paint oil is the last thing you want in the air flow, but i have not much experience with these tools.</p>
+{%gmg shadowed 436 %}
 
-#+END_HTML
+The part on the left is the air filter / reducer, right is the oil
+dispenser. I created two outlets, one after just the air filter and
+one after the oil dispenser. That way i can use compressed air with
+oil (for rotating tools etc. which need lubrication) by hooking up at
+the end. By connecting in the middle it will just be clean air without
+the oil; I gathered that for spraying paint oil is the last thing you
+want in the air flow, but i have not much experience with these
+tools.

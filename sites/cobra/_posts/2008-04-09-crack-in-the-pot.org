@@ -1,18 +1,15 @@
 #+layout: post
 #+title: Crack in the pot...
 #+tags: cobra donor-parts oops
-#+status: publish
 #+type: post
 #+published: true
 
-#+BEGIN_HTML
+When cleaning one of the rear hubs I noticed i crack in the
+housing, damn. So, that had to be exchanged.
 
-<p>When cleaning one of the rear hubs I noticed i crack in the housing, damn. So, that had to be exchanged.</p>
-<p style="text-align: center"><br /></p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2669193534/"><img src="http://farm4.static.flickr.com/3161/2669193534_1f868edd3e.jpg" class="flickr" alt="" /></a><br /></p>
-<p>Upside is, trying to give a optimistic swing to it, I now have one less hub to clean.</p>
-<p style="text-align: center"><br /></p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2942080431/"><img src="http://farm4.static.flickr.com/3290/2942080431_83cc6a6e0d.jpg" class="flickr" alt="DSC_6399.jpg" /></a><br /></p>
-<p style="text-align: center"><br /></p>
+{%gmg shadowed 387 %}
 
-#+END_HTML
+Upside is, trying to give a optimistic swing to it, I now have one
+less hub to clean.
+
+{%gmg shadowed 388 %}
