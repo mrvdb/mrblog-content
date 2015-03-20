@@ -134,14 +134,25 @@ mentioning the filename translates it into the url on the server, the
 basename of the file is the local filename).
 
 Using images which are already somewhere else on the web (I tend to
-use flickr.com for these) inserting a link to their location should
+use flickr.com for these[fn:1]) inserting a link to their location should
 suffice to get the image in the web page.
 
 Example:
 
 #+CAPTION: This text is the image caption.
 #+ATTR_HTML: class="flickr" alt="external image example" title="Workbench"
-[[http://farm5.static.flickr.com/4066/4645566650_839553e399.jpg]]
+[[/assets/img/4645566650_839553e399.jpg]]
 
 So, with this basic knowledge I should be able to start publishing
 again.
+* Configuration                                                                              :ATTACH:noexport:
+:PROPERTIES:
+:ATTACH_DIR: /media/data/blogs/mrblog/assets/img/
+:Attachments: 4645566650_839553e399.jpg
+:END:
+#+SETUPFILE: "~/dat/org/etc/org-config.org"
+#+EXPORT_EXCLUDE_TAGS: noexport
+* Footnotes
+
+[fn:1] Not anymore, I've migrated most, if not all, image to a
+self-hosted instance of mediagoblin.

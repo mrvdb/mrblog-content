@@ -12,4 +12,12 @@ Xaraya directly from the blogging client program.
 
 Like this:
 
-[[http://farm4.static.flickr.com/3100/3234224329_edf5a31895.jpg]]
+[[/assets/img/3234224329_edf5a31895.jpg]]
+
+* Configuration                                                                              :ATTACH:noexport:
+:PROPERTIES:
+:ATTACH_DIR: /media/data/blogs/mrblog/assets/img/
+:Attachments: 3234224329_edf5a31895.jpg
+:END:
+#+SETUPFILE: "~/dat/org/etc/org-config.org"
+#+EXPORT_EXCLUDE_TAGS: noexport

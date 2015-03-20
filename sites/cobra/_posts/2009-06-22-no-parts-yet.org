@@ -40,9 +40,7 @@ thingies.
 - straight thermostat outlet
   The thermostat on the LS2 is normally at an angle, which does not
   fit in the GD chassis, so a straight version needs to be
-  mounted. (if you look at
-  [[http://www.flickr.com/photos/96151162@N00/3118097122][thispicture at flickr]] you'll see the notes about the thermostat
-  etc. I'm hoping to get those notes working on this blog directly someday.)
+  mounted.
 - SS header tank
 - several hoses and wiring
   Hoses in black, wiring semi-assembled, courtesy of the omex guys.
