@@ -57,3 +57,14 @@ covered in org-mode ;-)
      :PROPERTIES:
      :CREATED:  [2015-03-20 vr 16:13]
      :END:
+**** TODO Search result page should have title and an excerpt, but not more
+     :PROPERTIES:
+     :CREATED:  [2015-03-20 vr 17:32]
+     :END:
+**** DONE Pagination older/newer is reverse from post older/newer
+     :PROPERTIES:
+     :CREATED:  [2015-03-20 vr 16:15]
+     :END:
+     It should be:
+     - on the right is the 'older' stuff
+     - on the left is the newer stuff
