@@ -24,8 +24,8 @@ mail were both severely crippled now.
 
 Not looking forward to spending two days to recompile and reconfigure
 everything and nothing new to show for I decided that a long time wish
-could be sneaked in. Leaving Mail.app behind and switching to
-[[http://claws-mail.org][Claws]] as a mail client.
+could be sneaked in. Leaving Mail.app behind and switching to [[http://claws-mail.org][Claws]] as
+a mail client.
 
 Specifically, these are the main gripes I have with Mail.app:
 
@@ -63,7 +63,7 @@ the excercise for real on OSX.
 
 Here's the configure step I used:
 
-#+BEGIN_SRC bash
+#+BEGIN_SRC sh
     export CPPFLAGS=-I/opt/local/include
     export LDFLAGS=-L/opt/local/lib
 
@@ -83,7 +83,7 @@ bunch of gtk2 stuff to give me a bit of theme-ing options. I used
 Platypus to create a Claws.app; the OSX application bundle so I can
 have an icon in the Dock:
 
-[[http://mrblog.nl/files/2009/09/screen_006.png]]
+[[/files/2009/09/screen_006.png]]
 
 Apart from the icon, that does not give you much really. The app runs
 as a child below X11.app so it still misbehaves in many ways, but
@@ -106,7 +106,7 @@ following:
 
 The plist has to look something like this:
 
-[[http://mrblog.nl/files/2009/09/screen_007.png]]
+[[/files/2009/09/screen_007.png]]
 
 There are 2 things in there which make this interesting. First, the
 highlighted line marks this application as an 'Agent' which just means
@@ -119,7 +119,7 @@ being capable of handling these types of URLs. This is used, for
 example by the Mail.app application for listing clients in its
 preference for default Email program:
 
-[[http://mrblog.nl/files/2009/09/screen_009.png]]
+[[/files/2009/09/screen_009.png]]
 
 
 The second file needed in the XCode project is URLHandler.scriptSuite:
@@ -194,19 +194,15 @@ For a 'feed' URL the app would call the file =feed_handler=
 and likewise for the other protocols. The =mailto_handler= file is
 just a shell script containing:
 
-#+BEGIN_HTML
-{% highlight bash %}
+#+BEGIN_SRC sh
     /usr/local/bin/claws-mail --compose $1
-{% endhighlight %}
-#+END_HTML
+#+END_SRC
 
 and my =~/bin/feed_handler= contains:
 
-#+BEGIN_HTML
-{% highlight bash %}
+#+BEGIN_SRC sh
     /usr/local/bin/claws-mail --subscribe $1
-{% endhighlight %}
-#+END_HTML
+#+END_SRC
 
 If you would like a copy of the source of this program, go here:
 [/files/2009/09/URLHandler.zip](/files/2009/09/URLHandler.zip)
@@ -219,7 +215,7 @@ obvious to me for gpg-agent solved that.
 
 Here's a picture of the end result (click on it for large version):
 
-[[http://mrblog.nl/files/2009/09/screen_0101.png]]
+[[/files/2009/09/screen_0101.png]]
 
 So, is this install perfect? Is it even better than Mail.app? I'd say,
 not yet. But the big difference is that I have control now and there's
@@ -288,9 +284,8 @@ claws is licensed under the GPL v3
 but worse, it has a non-documented API for plugins, which is an insult to developers.<br />
 i'm not sure the claws API for plugins is documented (i havent looked) but being open source, there's enough to work with.
 </p>
+#+END_HTML
 
 I'd say that is a pretty good score! If it feels like that in the real
 world? Talk to me in 3 months :D I'm also pretty sure there will be a
 whole set of new gripes waiting for me around the corner.
-
-#+END_HTML

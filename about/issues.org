@@ -20,7 +20,7 @@ covered in org-mode ;-)
      :END:
      To keep with the spirit of a Jekyll site, comments should really be
      static as well.
-**** TODO Move media to media.mrblog.nl
+**** DONE Move media to media.mrblog.nl
      :PROPERTIES:
      :CREATED:  [2015-03-19 do 14:59]
      :END:

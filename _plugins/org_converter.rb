@@ -16,11 +16,11 @@ module Jekyll
 
     def convert(content)
       content
-    end
+    end    
   end
 
-  # Like other converters, add a filter to convert orgmode string to
-  # html using the orgmode converter above
+  # Like other converters, add a filter to convert orgmode strings to
+  # html using the orgmode converter above using a liquid construction
   module Filters
     def orgify(input)
       site = @context.registers[:site]
@@ -29,20 +29,25 @@ module Jekyll
     end
   end
 
-  # Consider an org header to be a yaml_header too
-  # FIXME: kludge
+  # Consider an org header to be a yaml_header too FIXME: Convenient,
+  # but this should be changed upstream to be an array to which we can
+  # add regular expressions.
   module Utils
     def has_yaml_header?(file)
       !!((File.open(file, 'rb') { |f| f.read(2) } =~ /^#\+/) or
-         (File.open(file, 'rb') { |f| f.read(5) } =~ /\A---\r?\n/))
+         (File.open(file, 'rb') { |f| f.read(5) } =~ /\A---\r?\n/)) 
     end
   end
 
   # This overrides having to use YAML in the posts and pages
-  module Convertible 
+  module Convertible
+    
+    # Make sure we can still reach our parent
     alias :_orig_read_yaml :read_yaml
+
+    # Override it for org files
     def read_yaml(base, name, opts = {})
-      # We only process org files
+      # We only process org files, call parent for others
       if name !~ /[.]org$/
         return _orig_read_yaml(base, name)
       end
@@ -87,6 +92,7 @@ module Jekyll
     end
   end
 
+  # Document is somehow not a Convertible, so we have to do the whole thing again.
   class Document
     alias :_orig_read :read
     
