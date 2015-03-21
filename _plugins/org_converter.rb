@@ -1,7 +1,6 @@
 require 'org-ruby'
 
 module Jekyll
-
   # Define an orgmode converter
   class OrgConverter < Converter
     safe true
@@ -21,6 +20,7 @@ module Jekyll
 
   # Like other converters, add a filter to convert orgmode strings to
   # html using the orgmode converter above using a liquid construction
+  # NOTE: I have a hard time envisioning how this would be used.
   module Filters
     def orgify(input)
       site = @context.registers[:site]
@@ -29,23 +29,44 @@ module Jekyll
     end
   end
 
-  # Consider an org header to be a yaml_header too FIXME: Convenient,
-  # but this should be changed upstream to be an array to which we can
-  # add regular expressions.
+  # Consider an org header to be a yaml_header too, so the files get processed by Jekyll
+  # FIXME: This should be changed upstream to
+  #        be a list or regexps to which we can add things.
   module Utils
     def has_yaml_header?(file)
       !!((File.open(file, 'rb') { |f| f.read(2) } =~ /^#\+/) or
          (File.open(file, 'rb') { |f| f.read(5) } =~ /\A---\r?\n/)) 
     end
   end
+  
+  # Handle included org files
+  module Tags
+    class IncludeTag
+      alias :_orig_read_file :read_file
+      
+      def read_file(file, context)
+        if file !~ /[.]org$/
+          return _orig_read_file(file, context)
+        end
 
-  # This overrides having to use YAML in the posts and pages
+        # Take content of included file and convert        
+        content = File.read(file, file_read_opts(context))
+
+        # Read in all buffer settings in orgmode syntax and set them as value
+        org_text = Orgmode::Parser.new(content, { markup_file: "html.tags.yml" })
+
+        # FIXME: Do we want/need to process the buffer settings?
+        # FIXME: enable/disable liquid?
+        # Convert the orgmode format via org-ruby to html
+        org_text.to_html
+      end
+    end
+  end
+
+  # Handle Convertibles: Posts and Pages
   module Convertible
-    
-    # Make sure we can still reach our parent
+    # Override the read_yaml method to take org buffer settings instead
     alias :_orig_read_yaml :read_yaml
-
-    # Override it for org files
     def read_yaml(base, name, opts = {})
       # We only process org files, call parent for others
       if name !~ /[.]org$/
@@ -55,7 +76,7 @@ module Jekyll
       # Read in file and set defaults
       content = File.read(File.join(base, name), merged_file_read_opts(opts))
       self.data ||= {}
-      liquid_enabled = true;
+      liquid_enabled = true
 
       # Read in all buffer settings in orgmode syntax and set them as value
       org_text = Orgmode::Parser.new(content, { markup_file: "html.tags.yml" })
@@ -76,6 +97,7 @@ module Jekyll
       self.content = org_text.to_html
 
       # Correct some entities so further output matching keeps working
+      # FIXME: move this to a place where we can share
       self.content = self.content.gsub("&#8216;","'")
       self.content = self.content.gsub("&#8217;","'")
       self.content = self.content.gsub("&#8220;",'"')
@@ -83,7 +105,9 @@ module Jekyll
       self.content = self.content.gsub("&#39;","'")
 
       # Make sure post excerpts are pointing to the right content
-      if self.type == "post"
+      # FIXME: this doesn't seem to work properly
+      if self.type == "posts"
+        puts self.extract_excerpt
         self.extracted_excerpt = self.extract_excerpt
       end
        
@@ -99,7 +123,7 @@ module Jekyll
     def read(opts = {})
       # We only process org files
       if path !~ /[.]org$/
-        return _orig_read_yaml(base, name)
+        return _orig_read(base, name)
       end
       
       begin
@@ -108,37 +132,36 @@ module Jekyll
           @data = defaults
         end
         content = File.read(path, merged_file_read_opts(opts))
-        liquid_enabled = false
+        liquid_enabled = true
+        
         org_text = Orgmode::Parser.new(content, { markup_file: "html.tags.yml" })
         org_text.in_buffer_settings.each_pair do |key, value|
           # Remove #+TITLE from the buffer settings to avoid double exporting
           org_text.in_buffer_settings.delete(key) if key =~ /title/i
           buffer_setting = key.downcase
 
-          if buffer_setting == 'liquid'
-            liquid_enabled = true
+          if buffer_setting == 'liquid' and value == 'false'
+            liquid_enabled = false
           end
 
           self.data[buffer_setting] = value
         end
-        # Disable Liquid tags from the output by default or enabled with liquid_enabled tag
-      if liquid_enabled
+
+        # Convert the orgmode format via org-ruby to html
         self.content = org_text.to_html
+        
+        # Correct some entities so further output matching keeps working
         self.content = self.content.gsub("&#8216;","'")
         self.content = self.content.gsub("&#8217;", "'")
-      else
-        self.content = <<ORG
-{% raw %}
-#{org_text.to_html}
-{% endraw %}
-ORG
+        self.content = self.content.gsub("&#8220;",'"')
+        self.content = self.content.gsub("&#8221;",'"')
+        self.content = self.content.gsub("&#39;","'")
       end
         
-      rescue SyntaxError => e
-        puts "YAML Exception reading #{path}: #{e.message}"
-      rescue Exception => e
-        puts "Error reading file #{path}: #{e.message}"
-      end
+    rescue SyntaxError => e
+      puts "YAML Exception reading #{path}: #{e.message}"
+    rescue Exception => e
+      puts "Error reading file #{path}: #{e.message}"
     end
   end
 end
