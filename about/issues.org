@@ -68,3 +68,11 @@ covered in org-mode ;-)
      It should be:
      - on the right is the 'older' stuff
      - on the left is the newer stuff
+**** DONE Fix include tag orgmode format
+     :PROPERTIES:
+     :CREATED:  [2015-03-21 za 12:24]
+     :END:
+**** TODO Improve rendering of TODO list
+     :PROPERTIES:
+     :CREATED:  [2015-03-21 za 12:25]
+     :END:
