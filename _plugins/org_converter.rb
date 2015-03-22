@@ -1,5 +1,16 @@
 require 'org-ruby'
 
+
+# Augment String with a to_b method : converts sensibly to boolean
+class String
+  def to_b
+    return true if self =~ (/^(true|t|yes|y|1)$/i)
+    return false if self.empty? || self =~ (/^(false|f|no|n|0)$/i)
+
+    raise ArgumentError.new "invalid value: #{self}"
+  end
+end
+
 module Jekyll
   # Define an orgmode converter
   class OrgConverter < Converter
@@ -23,6 +34,19 @@ module Jekyll
       content = content.gsub("&#8220;",'"') #&ldquo;
       content = content.gsub("&#8221;",'"') #&rdquo;
       content = content.gsub("&#39;"  ,"'") #&apos;
+    end
+
+    def self.process_options(org_text, data)
+      org_text.in_buffer_settings.each_pair do |key, value|
+        # Remove #+TITLE from the buffer settings to avoid double rendering
+        org_text.in_buffer_settings.delete(key) if key =~ /title/i
+        # We need true/false as booleans, not string. 
+        if key.downcase == 'published' #(any others?)
+          value = value.to_b
+        end
+        data[key.downcase] = value
+      end
+      data
     end
   end
 
@@ -63,7 +87,6 @@ module Jekyll
         org_text = Orgmode::Parser.new(content, { markup_file: "html.tags.yml" })
 
         # FIXME: Do we want/need to process the buffer settings?
-        # FIXME: enable/disable liquid?
         # Convert the orgmode format via org-ruby to html
         OrgConverter::quote_replace(org_text.to_html)
       end
@@ -84,23 +107,11 @@ module Jekyll
       # Read in file and set defaults
       content = File.read(File.join(base, name), merged_file_read_opts(opts))
       self.data ||= {}
-      liquid_enabled = true
 
       # Read in all buffer settings in orgmode syntax and set them as value
       org_text = Orgmode::Parser.new(content, { markup_file: "html.tags.yml" })
-      org_text.in_buffer_settings.each_pair do |key, value|
-        # Remove #+TITLE from the buffer settings to avoid double exporting
-        org_text.in_buffer_settings.delete(key) if key =~ /title/i
-        buffer_setting = key.downcase
-
-        #TODO: what to do when it is false?
-        if buffer_setting == 'liquid' and value == 'false'
-          liquid_enabled = false
-        end
-
-        self.data[buffer_setting] = value
-      end
-
+      self.data = OrgConverter::process_options(org_text, self.data)
+    
       # Convert the orgmode format via org-ruby to html
       self.content = OrgConverter::quote_replace(org_text.to_html)
 
@@ -117,6 +128,7 @@ module Jekyll
   end
 
   # Document is somehow not a Convertible, so we have to do the whole thing again.
+  # The class is a bit different though
   class Document
     alias :_orig_read :read
     
@@ -132,24 +144,12 @@ module Jekyll
           @data = defaults
         end
         content = File.read(path, merged_file_read_opts(opts))
-        liquid_enabled = true
         
         org_text = Orgmode::Parser.new(content, { markup_file: "html.tags.yml" })
-        org_text.in_buffer_settings.each_pair do |key, value|
-          # Remove #+TITLE from the buffer settings to avoid double exporting
-          org_text.in_buffer_settings.delete(key) if key =~ /title/i
-          buffer_setting = key.downcase
-
-          if buffer_setting == 'liquid' and value == 'false'
-            liquid_enabled = false
-          end
-
-          self.data[buffer_setting] = value
-        end
-
+        @data = OrgConverter::process_options(org_text, @data)
+        
         # Convert the orgmode format via org-ruby to html
         self.content = OrgConverter::quote_replace(org_text.to_html)
-
       end
         
     rescue SyntaxError => e
