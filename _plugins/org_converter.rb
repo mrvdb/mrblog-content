@@ -38,8 +38,7 @@ module Jekyll
   end
 
   # Consider an org header to be a yaml_header too, so the files get processed by Jekyll
-  # FIXME: This should be changed upstream to
-  #        be a list or regexps to which we can add things.
+  # FIXME: This should be changed upstream to be a list or regexps to which we can add things.
   module Utils
     def has_yaml_header?(file)
       !!((File.open(file, 'rb') { |f| f.read(2) } =~ /^#\+/) or
@@ -57,10 +56,10 @@ module Jekyll
           return _orig_read_file(file, context)
         end
 
-        # Take content of included file and convert        
+        # Read contents of the included file        
         content = File.read(file, file_read_opts(context))
 
-        # Read in all buffer settings in orgmode syntax and set them as value
+        # Parse it
         org_text = Orgmode::Parser.new(content, { markup_file: "html.tags.yml" })
 
         # FIXME: Do we want/need to process the buffer settings?
@@ -75,6 +74,7 @@ module Jekyll
   module Convertible
     # Override the read_yaml method to take org buffer settings instead
     alias :_orig_read_yaml :read_yaml
+
     def read_yaml(base, name, opts = {})
       # We only process org files, call parent for others
       if name !~ /[.]org$/
