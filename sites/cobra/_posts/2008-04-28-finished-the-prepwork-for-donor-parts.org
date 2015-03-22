@@ -1,18 +1,28 @@
 #+layout: post
 #+title: Finished the prepwork for donor parts
 #+tags: cobra donor-parts tools
-#+status: publish
-#+type: post
 #+published: true
 
+Spent the better parts of two days with my hands in the blasting
+cabinet, peeking through a window which doesn't reveal a whole lot of
+what is inside, due to the dust.
+
+
 #+BEGIN_HTML
-
-<p>Spent the better parts of two days with my hands in the blasting cabinet, peeking through a window which doesn't reveal a whole lot of what is inside, due to the dust.</p>
-<p style="text-align: center"><br />
-<a href="http://www.flickr.com/photos/96151162@N00/2942876090/"><img src="http://farm4.static.flickr.com/3222/2942876090_bded1bef3f.jpg" class="flickr" alt="DSC_6423.jpg" /></a></p>
-<p>After a while I fabricated a suction device from an old vacuum cleaner. That helped a lot, until the vacuum cleaner decided to short out and smoke a bit.</p>
-<p style="text-align: center"><br /></p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2669225670/"><img src="http://farm4.static.flickr.com/3255/2669225670_2dca6a4a40.jpg" class="flickr" alt="" /></a></p>
-<p>This morning I gathered all the parts and delivered them to <a href="http://www.galvin.nl" title="Electrolytic Galvanizing ">Galvin</a> where I had the hand brake parts treated too. This time the parts will be yellow-passivated, because that will provide a better profile for coatings than the blue passivation. Got some compliments of the guy at the factory, he said the parts he usually got to treat looked <em>a bit different</em>.</p>
-
+{%gmg shadowed 378 %}
 #+END_HTML
+
+After a while I fabricated a suction device from an old vacuum
+cleaner. That helped a lot, until the vacuum cleaner decided to short
+out and smoke a bit.
+
+#+BEGIN_HTML
+{%gmg shadowed 379 %}
+#+END_HTML
+
+This morning I gathered all the parts and delivered them to
+[[http://www.galvin.nl][Galvin]] where I had the hand brake parts treated too. This time
+the parts will be yellow-passivated, because that will provide a
+better profile for coatings than the blue passivation. Got some
+compliments of the guy at the factory, he said the parts he usually
+got to treat looked /a bit different/

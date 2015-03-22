@@ -45,13 +45,13 @@ module Jekyll
 
       # Get the preset, if any
       begin
+        chosenpreset='default'
         if markup[:preset]
-          # If tag has preset, use that
-          preset = settings['presets'][markup[:preset]]
-        else
-          # Tag has no preset, use the default from config.yml
-          preset = settings['presets']['default']
+          # If tag has preset, override
+          chosenpreset = markup[:preset]
         end
+        
+        preset = settings['presets'][chosenpreset]
       rescue
         # Nothing specified in tag, what do we need/want?
         preset = {'attr' => {'class' => "gmg-media"}}
@@ -100,13 +100,18 @@ module Jekyll
 
       # Construct our output with the json data
       gmg_src = media_data['media_files']['original']
-
+      # Use description for caption (or title, if empty?)
+      gmg_caption = media_data['description']
+      
       # Return the markup and, just for fun, the json data we got from GMG, so
       # html people can work with that.
       # TODO: what should we do here? return data only and let templates handle it?
       out  = <<END
+      <figure class="#{chosenpreset}">
       <script type="application/json" id="gmg-media-#{gmg_media_id}">#{media_data}</script>
       <img src="#{gmg_src}" #{html_attr_string} />
+      <figcaption>#{gmg_caption}</figcaption>
+      </figure>
 END
 
       return out

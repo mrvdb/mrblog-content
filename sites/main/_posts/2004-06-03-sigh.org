@@ -2,8 +2,8 @@
 #+layout: post
 #+tags: current-affairs
 
-
 [[http://maccentral.macworld.com/news/2004/06/03/microsoft/?lsrc=mcrss-0604][Microsoft granted patent on button click timing]]
+
 
 Microsoft Corp. has been granted a patent relating to the use of
 buttons on hardware devices that form part of a user

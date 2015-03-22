@@ -2,10 +2,12 @@
 #+layout: post
 #+tags: integration
 
-
 Those marketing guys must be rather clueless, lots of software
 vendors pick a couple of letters and prefix all their software titles
-with it. I can only gues this is due to lack of inspiration or to
+with it.
+
+
+I can only gues this is due to lack of inspiration or to
 create at least the impression that the software is like a suite of
 packages which work together (which it does not in most cases) It's
 not only the professional marketing departments who lack inspiration,

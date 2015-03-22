@@ -1,22 +1,41 @@
 #+layout: post
 #+title: Handbrake caliper reconditioning
 #+tags: cobra brakes donor-parts
-#+status: publish
 #+type: post
 #+published: true
 
+Got my parts back from galvanising today. What a difference a
+little shine makes! Most of the items were from the donor handbrake
+calipers, which were in pretty bad shape when i got them.
+
+
 #+BEGIN_HTML
-
-<p>Got my parts back from galvanising today. What a difference a little shine makes! Most of the items were from the donor handbrake calipers, which were in pretty bad shape when i got them.</p>
-<p style="text-align: center"><br /></p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2669200878/"><img src="http://farm4.static.flickr.com/3040/2669200878_f58059a412.jpg" class="flickr" alt="" /></a><br /></p>
-<p>Using the rivnut tool i bought a while ago, the little covers were repaired with a new rivnut and although i still am missing a bolt and some locking thingies, assembling the caliper was pretty rewarding.</p>
-<p style="text-align: center"><br /></p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2668385909/"><img src="http://farm4.static.flickr.com/3268/2668385909_30c8105c36.jpg" class="flickr" alt="" /></a><br /></p>
-<p>I'm not sure about the inside, the clip i have seems different than what i can find in my manuals. Also the spring on the right seems to be in the middle of the path were the missing bolt should go to hold the covers.</p>
-<p style="text-align: center"><br /></p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2669206814/"><img src="http://farm3.static.flickr.com/2332/2669206814_8eae483bbf.jpg" class="flickr" alt="" /></a><br /></p>
-<p>The other caliper should not be a problem.</p>
-<p>The galvanising was sort of an experiment; i found a company nearby which asks a flat rate for any 'box full of metal parts'. They galvanise with blue and yellow finish (<em>blue-ish</em> and <em>yellow-ish</em> i guess). I asked what the limit was for the parts, but they didn't give me one, so perhaps i should bring the whole set of suspension parts too?</p>
-
+{%gmg shadowed 389 %}
 #+END_HTML
+
+Using the rivnut tool i bought a while ago, the little covers were
+repaired with a new rivnut and although i still am missing a bolt and
+some locking thingies, assembling the caliper was pretty
+rewarding.
+
+#+BEGIN_HTML
+{%gmg shadowed 390 %}
+#+END_HTML
+
+I'm not sure about the inside, the clip i have seems different than
+what i can find in my manuals. Also the spring on the right seems to
+be in the middle of the path were the missing bolt should go to hold
+the covers.
+
+#+BEGIN_HTML
+{%gmg shadowed 391 %}
+#+END_HTML
+
+The other caliper should not be a problem.
+
+The galvanising was sort of an experiment; i found a company nearby
+which asks a flat rate for any 'box full of metal parts'. They
+galvanise with blue and yellow finish (/blue-ish/ and
+/yellow-ish/ i guess). I asked what the limit was for the
+parts, but they didn't give me one, so perhaps i should bring the
+whole set of suspension parts too?

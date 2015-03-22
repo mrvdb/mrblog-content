@@ -5,10 +5,17 @@
 #+type: post
 #+published: true
 
-#+BEGIN_HTML
+After some more phoning and mailing back and forth, I parted with the
+money for a new LS2 crate engine. Now the waiting game
+begins. Hopefully sometime soon I should be able to collect it.
 
-<p>After some more phoning and mailing back and forth, I parted with the money for a new LS2 crate engine. Now the waiting game begins. Hopefully sometime soon I should be able to collect it.</p>
-<p>In the end I went for the complete engine package instead of building from bare or short-block. The deals you can get on crate engines these days are so good that building one from scratch is, at least money-wise, absolutely not interesting. I would have liked building one though. Oh well, it's not as if there are no other jobs to complete.<br /></p>
-<p>There is no way this engine goes into the cold and damp garage for now, so the view from behind my desk should considerably improve when the engine arrives. :D</p>
+In the end I went for the complete engine package instead of
+building from bare or short-block. The deals you can get on crate
+engines these days are so good that building one from scratch is, at
+least money-wise, absolutely not interesting. I would have liked
+building one though. Oh well, it's not as if there are no other jobs
+to complete.
 
-#+END_HTML
+There is no way this engine goes into the cold and damp garage for
+now, so the view from behind my desk should considerably improve when
+the engine arrives. :D

@@ -1,16 +1,28 @@
 #+layout: post
 #+title: Running out of air
 #+tags: cobra oops tools
-#+status: publish
 #+type: post
 #+published: true
 
+I am not sure what happened exactly but last week the power went
+out and I could not get it back on. The earth leakage circuit breaker
+activated and kept doing that when reset. It turned out the compressor
+was the cause. Unplugging it allowed the power to come back on. This
+weekend I had the time to figure out what had happened. Opening up the
+case and looking inside did not give much hope:
+
+
 #+BEGIN_HTML
-
-<p>I am not sure what happened exactly but last week the power went out and I could not get it back on. The earth leakage circuit breaker activated and kept doing that when reset. It turned out the compressor was the cause. Unplugging it allowed the power to come back on. This weekend I had the time to figure out what had happened. Opening up the case and looking inside did not give much hope:</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2670785770/"><img src="http://farm4.static.flickr.com/3201/2670785770_8180016b0b.jpg" class="flickr" alt="" /></a><br /></p>
-<p>While the cracked housing is bad, that didn't explain the earth leakage. Opening up the motor itself did though:</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2670786210/"><img src="http://farm4.static.flickr.com/3059/2670786210_c452064e46.jpg" class="flickr" alt="" /></a><br /></p>
-<p>That's fried! I'm hesitant to just put another motor back in. I'm thinking of turning the whole compressor in and getting one back with a little more grunt and running on 3 phase current</p>
-
+{%gmg shadowed 393 %}
 #+END_HTML
+
+While the cracked housing is bad, that didn't explain the earth
+leakage. Opening up the motor itself did though:
+
+#+BEGIN_HTML
+{%gmg shadowed 394 %}
+#+END_HTML
+
+That's fried! I'm hesitant to just put another motor back in. I'm
+thinking of turning the whole compressor in and getting one back with
+a little more grunt and running on 3 phase current

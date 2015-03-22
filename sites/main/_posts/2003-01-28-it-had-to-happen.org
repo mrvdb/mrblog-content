@@ -1,11 +1,13 @@
 #+title: It had to happen
 #+layout: post
 #+tags: current-affairs
-#+status: publish
-#+type: post
 #+published: true
 
-#+BEGIN_HTML
-<p>Always hated blogs, weblogs or whatever those things are called. So I decided to install one ;-) . No deeper thought behind it, just wanted to try MT out, it might even help Xaraya become a better weblog tool. I was however looking for a diary kinda thing and this might help to get things organzed and published at the same time. We'll see.
-</p>
-#+END_HTML
+Always hated blogs, weblogs or whatever those things are called. So
+I decided to install one ;-)
+
+
+No deeper thought behind it, just wanted to try MT out, it might even
+help Xaraya become a better weblog tool. I was however looking for a
+diary kinda thing and this might help to get things organzed and
+published at the same time. We'll see.

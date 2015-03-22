@@ -1,15 +1,32 @@
 #+layout: post
 #+title: SVA will end after march 2009?
 #+tags: cobra info
-#+status: publish
-#+type: post
 #+published: true
 
-#+BEGIN_HTML
 
-<p>Reading it first in <a href="http://str-427-cobra.blogspot.com/2008/02/potential-big-trouble-ahead.html" title="Ptential Big Trouble Ahead">Simon's post</a>, there is a development in legislation going on which is rather worrying for all kitcar builders.</p>
-<p>The UK has a system to allow people to build their cars <strong>and</strong> drive them on the public road. The Single Vehicle Approval is key to this system and issues the approval to the owner to legally use the self built car on the roads. The <a href="http://www.the-ace.org.uk" title="Association of Car Enthusiasts">Association of Car Enthusiasts</a> has been tracking the legislation related to modified cars and kitcars since 2004. Their latest news is about the '<a href="http://www.the-ace.org.uk/loss-of-the-sva-test.html" title="Loss of the SVA test">Loss of the SVA test</a>`. The SVA is an important, if not the most important, component in this legislation and the prospect of it changing affects everyone modifying a car or building one.</p>
-<p>The only 'fact' i can distil at this moment is that the SVA will be replaced by the IVA (where 'I' is for Individual). What this IVA is exactly and what the differences are with the current SVA is, as of yet, unclear to me.</p>
-<p>Needless to say this potentially has a major impact on kitcar builders. The cars are usually a major expense for people and often worked on for many years before they are allowed on the road. The prospect of not being able to put the Cobra on the road after having worked on it for a long time is sickening.</p>
+Reading it first in [[http://str-427-cobra.blogspot.com/2008/02/potential-big-trouble-ahead.html][Big Trouble Ahead]], there is a
+development in legislation going on which is rather worrying for all
+kitcar builders.
 
-#+END_HTML
+
+The UK has a system to allow people to build their cars
+<strong>and</strong> drive them on the public road. The Single Vehicle
+Approval is key to this system and issues the approval to the owner to
+legally use the self built car on the roads. The [[http://www.the-ace.org.uk][Association of Car
+Enthusiasts]] has been tracking the
+legislation related to modified cars and kitcars since 2004. Their
+latest news is about the '[[http://www.the-ace.org.uk/loss-of-the-sva-test.html][Loss of the SVA test]]'. The SVA is an important,
+if not the most important, component in this legislation and the
+prospect of it changing affects everyone modifying a car or building
+one.
+
+The only 'fact' i can distil at this moment is that the SVA will be
+replaced by the IVA (where 'I' is for Individual). What this IVA is
+exactly and what the differences are with the current SVA is, as of
+yet, unclear to me.
+
+Needless to say this potentially has a major impact on kitcar
+builders. The cars are usually a major expense for people and often
+worked on for many years before they are allowed on the road. The
+prospect of not being able to put the Cobra on the road after having
+worked on it for a long time is sickening.

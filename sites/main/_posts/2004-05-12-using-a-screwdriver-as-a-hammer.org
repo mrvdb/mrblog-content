@@ -1,31 +1,34 @@
 #+title: Using a screwdriver as a hammer
 #+layout: post
 #+tags: integration
-#+status: publish
-#+type: post
 #+published: true
 
-#+BEGIN_HTML
-<p>Interesting discussion last night on Xaraya's IRC channel. I installed
-<a href="http://colloquy.info">An amazingly good looking IRC client for OSX
-</a>. This client has a feature called a
-<em>buddy list
-</em> which shows you the online status of people on IRC servers they are on regularly, much like the IM clients show an online status for people.
-</p>
-<p>The feature saves me visiting tens of irc servers just to find out that the person i need is not there.
-</p>
-<p>To be able to maintain this online status, colloquy sends /whois commands to the registered servers and channels to get the online status of the people in the buddy list. Obviously the sending of
-<em>some
-</em> command is necessary for this information.
-</p>
-<p>When i started adding people to the buddy list, one of the serverops asked me why i was sending him /whois commands every 30 seconds. At that time, i didnt know what was happening. A little investigating showed that it was the buddy list feature.
-</p>
-<p>In short, the discussion went fairly quickly into "user experience" versus "irc is not designed for this and stop doing this please". This is interesting for me, because usually i am on the side telling people the
-<em>the system is not designed to do this
-</em> while at this time i was in the
-<em>end users chair
-</em>
-</p>
-<p>There's no escape from this argument, the feature saves a lot of time, but is using a technique not intended for that particular goal. Who should give in? I dont know.
-</p>
-#+END_HTML
+Interesting discussion last night on Xaraya's IRC channel. I installed
+[[http://colloquy.info][An amazingly good looking IRC client for OSX]] This client has a feature
+called a /buddy list/ which shows you the online status of people on IRC
+servers they are on regularly, much like the IM clients show an online
+status for people.
+
+
+The feature saves me visiting tens of irc servers just to find out
+that the person i need is not there.
+
+To be able to maintain this online status, colloquy sends /whois
+commands to the registered servers and channels to get the online
+status of the people in the buddy list. Obviously the sending of /some/
+command is necessary for this information.
+
+When i started adding people to the buddy list, one of the serverops
+asked me why i was sending him /whois commands every 30 seconds. At
+that time, i didnt know what was happening. A little investigating
+showed that it was the buddy list feature.
+
+In short, the discussion went fairly quickly into "user experience"
+versus "irc is not designed for this and stop doing this please". This
+is interesting for me, because usually i am on the side telling people
+the /the system is not designed to do this/ while at this time
+i was in the /end users chair/
+
+There's no escape from this argument, the feature saves a lot of
+time, but is using a technique not intended for that particular
+goal. Who should give in? I dont know.

@@ -1,13 +1,11 @@
 #+layout: post
 #+title: Stresstest...
 #+tags: cobra garage tools
-#+status: publish
-#+type: post
 #+published: true
 
 #+BEGIN_HTML
-
-<p style="text-align: center"><span style="color: #0000EE"><a href="http://www.flickr.com/photos/96151162@N00/2669991047/"><img src="http://farm4.static.flickr.com/3245/2669991047_f46ce116ed.jpg" class="flickr" alt="" /></a><br /></span></p>
-<p>Enough said...</p>
-
+{%gmg shadowed 406 %}
 #+END_HTML
+
+
+Enough said...

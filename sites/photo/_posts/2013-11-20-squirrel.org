@@ -4,4 +4,6 @@
 #+tags: animals holiday usa
 #+liquid: enabled
 
+#+BEGIN_HTML
 {% gmg 186 %}
+#+END_HTML

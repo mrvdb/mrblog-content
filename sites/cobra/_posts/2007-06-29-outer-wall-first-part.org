@@ -1,15 +1,17 @@
 #+layout: post
 #+title: Outer wall, first part
 #+tags: cobra garage
-#+status: publish
 #+type: post
 #+published: true
 
+Beginnings of the outer wall.
+
 #+BEGIN_HTML
-
-<p>Beginnings of the outer wall.</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2669983165/"><img src="http://farm4.static.flickr.com/3292/2669983165_7c5e7d9106.jpg" class="flickr" alt="" /></a><br /></p>
-<p>Not much to do but wait until it's done.</p>
-<p>I'm going for a visit to <a href="http://speedon.nl" title="Kitcar specialists">Speedon</a> tomorrow; visit their new location and hopefully get a step further in planning out the project.</p>
-
+{%gmg shadowed 430 %}
 #+END_HTML
+
+
+Not much to do but wait until it's done.
+
+I'm going for a visit to [[http://speedon.nl][Speedon]] tomorrow; visit their new location
+and hopefully get a step further in planning out the project.

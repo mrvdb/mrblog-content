@@ -12,6 +12,7 @@
 # need to see the site files. But, we want to be able to reach them.
 # The default is _site, so it makes sense to name it '.site'
 destination: .site
+unpublished: false
 
 name: Marcel van der Boom
 
@@ -65,6 +66,9 @@ markdown: rdiscount
 # Use UTF-8 everywhere, why isn't this the default by now
 encoding: UTF-8
 
+# Use 3x \n for excerpt separation
+excerpt_separator: "\n\n\n"
+
 # Setting for the home timeline in the sidebar
 # (cfr. livetwitter from somewhere )
 social:
@@ -80,6 +84,9 @@ gmg:
     default:
       attr:
         class: 'gmg-media'
+    shadowed:
+      attr:
+        class: 'img-thumbnail'
 
 # TODO: the dir should be determined automatically.
 git:
@@ -92,4 +99,6 @@ git:
 collections:
   emacs:
     output: true
-    
+
+
+gems: [jekyll-paginate, jekyll-gist]

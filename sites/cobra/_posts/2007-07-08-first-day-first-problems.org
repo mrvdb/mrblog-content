@@ -1,23 +1,41 @@
 #+layout: post
 #+title: First day, first problems...
 #+tags: cobra donor-parts oops
-#+status: publish
 #+type: post
 #+published: true
 
+Spent the whole Sunday covered in grease; disassembling the rear
+axle. The start was pretty much ok, got the lower wishbones loose
+pretty easily. The only somewhat interesting part was getting the
+bearings out. Two sockets of appropriate size and a vice:
+
+
 #+BEGIN_HTML
-
-<p>Spent the whole Sunday covered in grease; disassembling the rear axle. The start was pretty much ok, got the lower wishbones loose pretty easily. The only somewhat interesting part was getting the bearings out. Two sockets of appropriate size and a vice:</p>
-<div style="text-align: center">
-  <a href="http://www.flickr.com/photos/96151162@N00/2668300013/"><img src="http://farm4.static.flickr.com/3212/2668300013_47fd6f7889.jpg" class="flickr" alt="" /></a><br />
-</div>and out they come in no time:
-
-<div style="text-align: center">
-  <a href="http://www.flickr.com/photos/96151162@N00/2669121862/"><img src="http://farm4.static.flickr.com/3034/2669121862_def20547c0.jpg" class="flickr" alt="" /></a><br />
-</div>I wish i could say the same for getting the universal joints out of the drive shafts. I already had them soaked with WD40 since the day before. They were all so tight that the vice handle had to be lengthened with a meter of steel pipe and my full weight applied to that (which is a good 10 kilo's more than it used to be since i stopped smoking). When the day was over, i managed to get 2 universal joints removed. The first was relatively easy (took me only 2 ½ hours). The second was worse and its removal damaged one of the shafts:
-
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2669126730/"><img src="http://farm4.static.flickr.com/3018/2669126730_13b64d3506.jpg" class="flickr" alt="" /></a><br /></p>
-<p>Apparently the thing was so tight it scraped some of the metal into a rim. Obviously, that has to be removed again later on, hmm will that be a problem on reassembly?<br />
-I'm still suppressing thoughts on the remaining two joints....</p>
-
+{%gmg shadowed 425 %}
 #+END_HTML
+
+and out they come in no time:
+
+#+BEGIN_HTML
+{%gmg shadowed 426 %}
+#+END_HTML
+
+I wish i could say the same for getting the universal joints out
+of the drive shafts. I already had them soaked with WD40 since the day
+before. They were all so tight that the vice handle had to be
+lengthened with a meter of steel pipe and my full weight applied to
+that (which is a good 10 kilo's more than it used to be since i
+stopped smoking). When the day was over, i managed to get 2 universal
+joints removed. The first was relatively easy (took me only 2 ½
+hours). The second was worse and its removal damaged one of the
+shafts:
+
+#+BEGIN_HTML
+{%gmg shadowed 427 %}
+#+END_HTML
+
+Apparently the thing was so tight it scraped some of the metal into
+a rim. Obviously, that has to be removed again later on, hmm will that
+be a problem on reassembly?<br />
+
+I'm still suppressing thoughts on the remaining two joints....

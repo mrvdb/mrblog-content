@@ -2,11 +2,11 @@
 #+layout: post
 #+tags: integration
 
-
 As of last thursday, I've started to migrate everything in our
 network to use GSSAPI or Kerberos authentication. The amount of
 passwords and accounts grew over our heads and the inevitable "I'll
 use the same everywhere" started to be apparent.
+
 
 The actual preparation for this already started more than a year
 ago. We are in a mixed environment of several Windows varieties, Linux

@@ -5,16 +5,34 @@
 #+type: post
 #+published: true
 
+Fitting the GD lower wishbone bracket to the wishbone seemed like a
+nice quick job. I layed out everything needed, took the obligatory
+picture ...
+
+
 #+BEGIN_HTML
+{%gmg shadowed 357 %}
+#+END_HTML
 
-<p>Fitting the GD lower wishbone bracket to the wishbone seemed like a nice quick job. I layed out everything needed, took the obligatory picture ...</p>
-<p style="text-align: center"><br /></p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2668502656/"><img src="http://farm4.static.flickr.com/3274/2668502656_599ab0bc28.jpg" alt="lower wishbone parts" class="flickr" /></a></p>
-<p style="text-align: left"><span>and did a trial fit, only to find out the bracket would not fit. (both of them in fact). In the end I had to put the wishbones under the press and squeeze it a bit to be able to get the bolts in. Let's call it an '<em>engineering fit</em>'.</span></p>And the finished article:
+and did a trial fit, only to find out the bracket would not fit. (both
+of them in fact). In the end I had to put the wishbones under the
+press and squeeze it a bit to be able to get the bolts in. Let's call
+it an '/engineering fit/'.
 
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2668503102/"><img src="http://farm4.static.flickr.com/3296/2668503102_3b12501029.jpg" class="flickr" alt="lower wishbone" /></a><br /></p>
-<p>I probably should have painted the other holes which are not used; I did not realise it at the time.</p>
-<p>Here's also a detail of the Nord-Lock washers I'm using. As a rule of thumb I'm adding around 20% to the specified torque numbers in the jaguar manual. With the nordlock-washers that should lead to about the same bolt tension.</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2668503414/"><img src="http://farm4.static.flickr.com/3086/2668503414_2caa3e80ca.jpg" class="flickr" alt="lower wishbone detail" /></a><br /></p>
+And the finished article:
 
+#+BEGIN_HTML
+{%gmg shadowed 358 %}
+#+END_HTML
+
+I probably should have painted the other holes which are not used; I
+did not realise it at the time.
+
+Here's also a detail of the Nord-Lock washers I'm using. As a rule
+of thumb I'm adding around 20% to the specified torque numbers in the
+jaguar manual. With the nordlock-washers that should lead to about the
+same bolt tension.
+
+#+BEGIN_HTML
+{%gmg shadowed 359 %}
 #+END_HTML

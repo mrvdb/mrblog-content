@@ -2,6 +2,8 @@
 #+title: Old chassis in Hungarian museum
 #+date: 2013-08-30
 #+tags: cars holiday hungary
-#+liquid: enabled
 
+
+#+BEGIN_HTML
 {% gmg 169 %}
+#+END_HTML

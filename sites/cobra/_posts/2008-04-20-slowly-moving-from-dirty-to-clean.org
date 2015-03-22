@@ -1,20 +1,35 @@
 #+layout: post
 #+title: Slowly moving from dirty to clean
 #+tags: cobra donor-parts tools
-#+status: publish
-#+type: post
 #+published: true
 
+The amount of dirty parts is shrinking considerably now. Especially
+after blasting the parts that are 'ready for painting' look amazing.
+
+
 #+BEGIN_HTML
-
-<p>The amount of dirty parts is shrinking considerably now. Especially after blasting the parts that are 'ready for painting' look amazing.</p>
-<p style="text-align: center"><br /></p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2669211152/"><img src="http://farm4.static.flickr.com/3104/2669211152_6f9477eac3.jpg" class="flickr" alt="" /></a><br /></p>
-<p>It makes the parts almost look like there is a paint finish on them.</p>
-<p style="text-align: center"><br /></p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2669212810/"><img src="http://farm4.static.flickr.com/3131/2669212810_4e3441b0b9.jpg" class="flickr" alt="" /></a><br /></p>
-<p>I also got my hands on a broken bench drill. It's a new machine but the motor does not start well. Bit of a gamble, but it sounds like the startup capacitor is either the wrong size or broken. It's too big for my multimeter so i can not be sure if it is Ok or not.</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2669964195/"><img src="http://farm4.static.flickr.com/3263/2669964195_5d254f59c5.jpg" class="flickr portrait" alt="" /></a><br /></p>
-<p>Opening up the motor itself revealed a loose wire?!? Seconds before the motor ran smooth, so i must have torn it loose on opening up the motor. Other than that, the motor looked fine. I also noticed the motor got quite hot when trying to get it to run, but i'm hoping that is the abnormal load on the secondary coil during the testing. If I can get this fixed by a capacitor replacement, i got a really good deal! If not, i got a lousy one.</p>
-
+{%gmg shadowed 380 %}
 #+END_HTML
+
+It makes the parts almost look like there is a paint finish on them.
+
+#+BEGIN_HTML
+{% gmg shadowed 381 %}
+#+END_HTML
+
+I also got my hands on a broken bench drill. It's a new machine but
+the motor does not start well. Bit of a gamble, but it sounds like the
+startup capacitor is either the wrong size or broken. It's too big for
+my multimeter so i can not be sure if it is Ok or not.
+
+#+BEGIN_HTML
+{%gmg shadowed 382 %}
+#+END_HTML
+
+Opening up the motor itself revealed a loose wire?!? Seconds before
+the motor ran smooth, so i must have torn it loose on opening up the
+motor. Other than that, the motor looked fine. I also noticed the
+motor got quite hot when trying to get it to run, but i'm hoping that
+is the abnormal load on the secondary coil during the testing. If I
+can get this fixed by a capacitor replacement, i got a really good
+deal! If not, i got a lousy one.

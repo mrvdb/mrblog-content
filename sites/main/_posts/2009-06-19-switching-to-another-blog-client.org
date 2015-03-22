@@ -12,6 +12,7 @@ needs polishing; in other words: maintenance. After filing a couple of
 bugs and generally getting minimal or no response to them, time has
 probably come to expand my options.
 
+
 With the set-up I have (wordpress-µ self hosted, off-line editing,
 flickr for images) switching between ecto and MarsEdit is hardly any
 work at all. Key in the account details in the new client and you're

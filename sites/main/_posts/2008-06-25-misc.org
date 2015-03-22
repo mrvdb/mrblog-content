@@ -1,17 +1,36 @@
 #+title: Misc.
 #+layout: post
 #+tags: info
-#+status: publish
 #+type: post
 #+published: true
 
+Couple of things which were annoying me fixed today. The reading
+list on the blog I have deleted. It made the whole thing slow.
+
+While I was at it, I replaced blogger's commenting system with the
+[[http://intensedebate.com][Intense debate pluggable commenting system]]. This allows commenting
+without popping up a new window or reloading the whole thing, plus it
+allows me to respond to those who take the effort to comment,
+something which was kinda not possible from within blogger. Let me
+know what you think!
+
+
+To make this post also about the cobra
+build, here's a picture of a [[http://www.nordlock.com/][Nord-Lock]] locking washer:
 
 #+BEGIN_HTML
-<p>Couple of things which were annoying me fixed today. The reading list on the blog I have deleted. It made the whole thing slow.</p>
-<p>While I was at it, I replaced blogger's commenting system with the <a href="http://intensedebate.com" title="Intense debate pluggable commenting system">intense debate</a> commenting system. This allows commenting without popping up a new window or reloading the whole thing, plus it allows me to respond to those who take the effort to comment, something which was kinda not possible from within blogger. Let me know what you think!</p>
-<p>To make this post also about the cobra build, here's a picture of a <a href="http://www.nordlock.com/" title="Nord lock locking washers">Nord-Lock</a> locking washer:<br /></p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2942376418/"><img src="http://farm4.static.flickr.com/3017/2942376418_06e1bd921d.jpg" class="flickr" alt="Nordlock rings" /></a><br /></p>
-<p style="text-align: left">In relevant places, like the brake callipers, I'll use these washers in addition to the lock wire. I'm not a big fan of loctite. Lock-wire, as such, looks nice but I'm not convinced it is really up to the job of locking bolts. I do appreciate the beauty of it and its usefulness in keeping parts from flying around <strong>if</strong> something breaks (or should that be: '<strong>when</strong> something breaks'?) Nordlock has a <a href="http://www.nord-lock.com/products/wedge-locking/" title="Explanation of nordlock washer locking function">convincing explanation</a> on how the washers work on their website. One of their customers is <a href="http://www.donkervoort.nl">Donkervoort</a> and I like their cars a lot!</p>
-<p style="text-align: left">The new bearing cups arrived today too, pressing them in was a quick job. I got them for free, so good service on the part of <a href="http://www.jaguar-kolvenbach.com/">Kolvenbach Jaguar</a> there.</p>
-<p style="text-align: left"><br /></p>
+{%gmg shadowed 362 %}
 #+END_HTML
+
+In relevant places, like the brake callipers, I'll use these washers
+in addition to the lock wire. I'm not a big fan of loctite. Lock-wire,
+as such, looks nice but I'm not convinced it is really up to the job
+of locking bolts. I do appreciate the beauty of it and its usefulness
+in keeping parts from flying around *if* something breaks (or should
+that be: '*when* something breaks'?) Nordlock has a [[http://www.nord-lock.com/products/wedge-locking/][convincing
+explanation]] on how the washers work on their website. One of their
+customers is [[http://www.donkervoort.nl][Donkervoort]] and I like their cars a lot!
+
+The new bearing cups arrived today too, pressing them in was a quick
+job. I got them for free, so good service on the part of [[http://www.jaguar-kolvenbach.com/][Kolvenbach
+Jaguar]] there.

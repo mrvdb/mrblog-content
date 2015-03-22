@@ -4,4 +4,12 @@
 
 From the back yard. Pity it is too cold to sit there with a beer.
 
-[[http://farm4.static.flickr.com/3457/3235033336_f8108d3bde.jpg]]
+[[/assets/img/3235033336_f8108d3bde.jpg]]
+
+* Configuration                                                                              :ATTACH:noexport:
+:PROPERTIES:
+:ATTACH_DIR: /media/data/blogs/mrblog/assets/img/
+:Attachments: 3235033336_f8108d3bde.jpg
+:END:
+#+SETUPFILE: "~/dat/org/etc/org-config.org"
+#+EXPORT_EXCLUDE_TAGS: noexport

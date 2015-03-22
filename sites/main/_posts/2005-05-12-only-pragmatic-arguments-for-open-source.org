@@ -6,11 +6,14 @@
 information systems]] has results on a survey they held on why
 organisations choose an Open Source solution.
 
-#+BEGIN_HTML
-<blockquote>
-  "Computer Economics recently conducted a survey of visitors to its website regarding the perceived advantages in the use of open source software. Although not a scientific sample, the results are nevertheless startling"
-</blockquote>
-#+END_HTML
+
+#+BEGIN_QUOTE
+Computer Economics recently conducted a survey of visitors to its
+website regarding the perceived advantages in the use of open source
+software. Although not a scientific sample, the results are
+nevertheless startling
+#+END_QUOTE
+
 
 [[http://mrblog.nl/files/2008/11/opensource-reasons.gif]]
 

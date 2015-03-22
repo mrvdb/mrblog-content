@@ -1,16 +1,29 @@
 #+layout: post
 #+title: Rivet training
 #+tags: cobra tools
-#+status: publish
 #+type: post
 #+published: true
 
+Ok, got a new tool which burned another hole in the wallet. Blind
+rivets are the things which come pre-installed for the chassis plate
+and the pre-drilled positions for the T-pieces in the brake-lines.
+
+
 #+BEGIN_HTML
-
-<p>Ok, got a new tool which burned another hole in the wallet. Blind rivets are the things which come pre-installed for the chassis plate and the pre-drilled positions for the T-pieces in the brake-lines.</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2670784814/"><img src="http://farm4.static.flickr.com/3026/2670784814_28cb763efb.jpg" class="flickr" alt="" /></a><br /></p>
-<p>It's not trivial to make a good rivet I found out. The first thing you have to get right is the amount of shrinkage you want to introduce in the rivet. Too little and the rivet is loose, too much and it deforms too much.</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2670785326/"><img src="http://farm4.static.flickr.com/3253/2670785326_37fd682a8b.jpg" class="flickr" alt="" /></a><br /></p>
-<p>The next thing to be aware of (at least in the aluminium rivets I bought for practice) is the speed at which you 'rivet'. Slow is the thing, apparently. If you go to fast the threads will be ruined. I'm waiting for delivery of the steel rivets to be used for attaching the brake-lines to the chassis.<br /></p>
-
+{%gmg shadowed 401 %}
 #+END_HTML
+
+It's not trivial to make a good rivet I found out. The first thing you
+have to get right is the amount of shrinkage you want to introduce in
+the rivet. Too little and the rivet is loose, too much and it deforms
+too much.
+
+#+BEGIN_HTML
+{%gmg shadowed 402 %}
+#+END_HTML
+
+The next thing to be aware of (at least in the aluminium rivets I
+bought for practice) is the speed at which you 'rivet'. Slow is the
+thing, apparently. If you go to fast the threads will be ruined. I'm
+waiting for delivery of the steel rivets to be used for attaching the
+brake-lines to the chassis.

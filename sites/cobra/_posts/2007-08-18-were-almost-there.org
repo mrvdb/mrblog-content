@@ -1,20 +1,19 @@
 #+layout: post
 #+title: We're almost there...
 #+tags: cobra garage
-#+status: publish
 #+type: post
 #+published: true
 
+That is, finishing up the garage. Next monday the new cement floor
+will be 'poured in'.
+
+
 #+BEGIN_HTML
-
-<div style="text-align: left">
-  <p>That is, finishing up the garage. Next monday the new cement floor will be 'poured in'.</p>
-
-  <p><a href="http://www.flickr.com/photos/96151162@N00/2943299739/"><img src="http://farm4.static.flickr.com/3219/2943299739_e4734d5378.jpg" class="flickr" alt="DSC_5904.jpg" /></a><br /></p>
-
-  <div style="text-align: left">
-    <p>So, we had to clear out everything and prepare the old floor for receiving the new topcoat. There's a nice echo in the garage now ;-) I hope the weather stays reasonable because most of the stuff is outside only protected by a tent made up of the car lift with a large piece of plastic over it.</p>
-  </div>
-</div>
-
+{%gmg shadowed 412 %}
 #+END_HTML
+
+So, we had to clear out everything and prepare the old floor for
+receiving the new topcoat. There's a nice echo in the garage now ;-) I
+hope the weather stays reasonable because most of the stuff is outside
+only protected by a tent made up of the car lift with a large piece of
+plastic over it.

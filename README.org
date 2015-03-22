@@ -1,5 +1,3 @@
-#+COMMENT -*- mode:org -*-
-
 This directory contains the files needed for the program jekyll to
 produce a website, in this case my personal blog at http://mrblog.nl
 The content of the site is taken from the '_posts' and '_pages' folders.

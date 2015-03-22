@@ -2,7 +2,6 @@
 #+layout: post
 #+tags: statusnet
 
-
 I'm probably not the typical user of social networks. I join them not
 for social reasons, i.e. interact with /friends/, but because i'm
 interested in the phenomena and the techniques involved. Many of [[http://o.mrblog.nl/mrb][my
@@ -13,6 +12,7 @@ have at times considered splitting my (online) personality into '/ich
 geek/' and '/ich normal/' (cfr. Schachnovelle, Stefan Zweig) and have the
 people I know follow the one or the other, but to date I haven't found
 a good way to deal with that.
+
 
 *** Register at them all?
 Let's assume for the moment that I *am* interested in following my

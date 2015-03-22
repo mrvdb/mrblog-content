@@ -1,5 +1,4 @@
----
----
+#+TITLE: Orgmode format render test
 #+layout: page
 
 This page originates in an =org-mode= written document and has been
@@ -68,14 +67,13 @@ The frontmatter is parsed by jekyll, obviously
 	  without having to hunt for content which uses a special
 	  construct
 
-
-** Blockquotes
+* Blockquotes
 
    #+BEGIN_QUOTE
    This paragraph was started with a begin_quote construct
    #+END_QUOTE
 
-** Pull quotes
+* Pull quotes
    Pull quotes are provided by a plugins and thus require a liquid
    template construct. This only works when you surround the complete
    paragraph in an begin_html  / end_html construct.
@@ -86,7 +84,7 @@ The frontmatter is parsed by jekyll, obviously
    the text you want to pull,  surround it like this "} and that's all there is to it.
    {% endpullquote %}
    #+END_HTML
-** Footnotes
+* Footnotes
    The documentation of =org-ruby= mentions support of footnotes, but
    the one[fn:named] I created here does not render very nicely I think. I
    would have expected there to be a link.
@@ -94,7 +92,7 @@ The frontmatter is parsed by jekyll, obviously
    Orgmode can do inline footnotes [fn:: Like this]
 
 [fn:named] This is a footnote
-** Lists
+* Lists
    - Level 1
      - Level 2
        - Level 3
@@ -107,7 +105,7 @@ The frontmatter is parsed by jekyll, obviously
    - term1 :: defined;
    - term2 :: defined;
    - term3 :: defined with [[http://example.com]] link
-** Code blocks
+* Code blocks
    Code blocks can be produced in the usual way with #+BEGIN_SRC
    blocks in org-mode. Highlighting is automatic when a pygments lexer
    is available.
@@ -142,7 +140,7 @@ The frontmatter is parsed by jekyll, obviously
    {% gist 5555251 result.md %}
    #+END_HTML
 
-** Rules
+* Rules
    In orgmode a line on its own with nothing else but at least 5
    dashes is considered a rule.
 
@@ -151,7 +149,7 @@ The frontmatter is parsed by jekyll, obviously
    So, when we use 4 we should just get 4 dashes:
    ----
 
-** Verse
+* Verse
    Orgmode has a verse construct, but that does not give output (at
    the time of writing):
 
@@ -162,19 +160,19 @@ The frontmatter is parsed by jekyll, obviously
 
           -- AlexSchroeder
      #+END_VERSE
-** Centered
+* Centered
    The center construct gets a text-align:center attribute, so this
    should work, given correct CSS.
    #+BEGIN_CENTER
      Everything should be made as simple as possible, \\
      but not any simpler
    #+END_CENTER
-** Examples
+* Examples
    The example block format from orgmode
    #+BEGIN_EXAMPLE
      Some example from a text file.
    #+END_EXAMPLE
-** LaTeX
+* LaTeX
    Orgmode has extensive support for LaTeX fragments, but this doesn't
    transfer well with the exporter in use.
 
@@ -193,12 +191,12 @@ The frontmatter is parsed by jekyll, obviously
      If $a^2=b$ and \( b=2 \), then the solution must be
      either $$ a=+\sqrt{2} $$ or \[ a=-\sqrt{2} \].
     #+END_LATEX
-** Test
+* Test
    #+BEGIN_TEST
    In orgmode export this would be in a div with class test
    #+END_TEST
 
-** Links
+* Links
 
    [[link][description]]
 
@@ -215,7 +213,7 @@ The frontmatter is parsed by jekyll, obviously
    file
    [[google:test][linkword 'google' used]]
 
-** Images
+* Images
    Image links are just normal links in orgmode, which just happen to
    link to an image.
 
@@ -254,14 +252,32 @@ The frontmatter is parsed by jekyll, obviously
    How I want it to look:
 
    #+BEGIN_HTML
-   <div class="media">
-     <img
-       src="http://media.mrblog.nl/m/media_entries/168/IMG_20130823_105214.medium.jpg"
-       class="img-thumbnail" />
-       <div class="media-body">
-         <h5>Media heading</h5>
-       </div>
-   </div>
+   <figure class="shadowed">
+     <img src="http://media.mrblog.nl/m/media_entries/168/IMG_20130823_105214.medium.jpg" class="img-thumbnail"/>
+     <figcaption>Caption goes here</figcaption>
+   </figure>
+   #+END_HTML
+
+   Doing the same image in an /orgmode/ way is cumbersome, so I'm using
+   a plugin to do this. The goal is to have all media on
+   media.mrblog.nl, which is probably too strict a limitation, but it
+   allows to have very concise image definitions with a short liquid
+   tag.
+
+   Here's how the tag looks:
+   #+BEGIN_SRC
+   {%raw%}
+   {% gmg shadowed 168 %}
+   {%endraw%}
+   #+END_SRC
+
+   The plugin does a request (on building) to the media site  and
+   retrieves some json data which we could use. (For the caption for
+   example)
+
+   Result:
+   #+BEGIN_HTML
+      {% gmg shadowed 168 %}
    #+END_HTML
 
 ** Emphasis
@@ -282,8 +298,23 @@ The frontmatter is parsed by jekyll, obviously
 #+COMMENT: this should not be exported at all
 #+LINK: google    http://www.google.com/search?q=%s
 ** Use of liquid tags
-   Jekyll uses a template langed called liquid. This section is to see
+Jekyll uses a template langed called liquid. This section is to see
+examples of tags and use of other liquid constructs
 
+#+BEGIN_SRC
+{% raw %}
+Sitename taken from the variable site.name :: {{site.name}}
+{{'this will be upcased by a filter' | upcase }}
+{% endraw %}
+#+END_SRC
+
+will render as:
+
+#+BEGIN_SRC
+Sitename taken from the variable site.name :: {{site.name}}
+
+{{'this will be upcased by a filter' | upcase }}
+#+END_SRC
 
 
 **** TODO This is a to-do item

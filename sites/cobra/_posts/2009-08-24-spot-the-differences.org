@@ -1,23 +1,31 @@
 #+layout: post
 #+title: Spot the differences
 #+tags: cobra garage
-#+status: publish
 #+type: post
 #+published: true
 
+So, the garage has yet again a new floor. The top one of the images
+below is from the current situation, the one below it is from the
+first attempt (already 2 years ago!). Spot the differences&#8230;
+
+
 #+BEGIN_HTML
-
-So, the garage has yet again a new floor. The top one of the images below is from the current situation, the one below it is from the first attempt (already 2 years ago!). Spot the differences&#8230;
-
-<p style="text-align: center">
-<a href="http://www.flickr.com/photos/96151162@N00/3851582623" title="View '' on Flickr.com"><img src="http://farm4.static.flickr.com/3541/3851582623_68c483dae9.jpg" class="flickr" alt="" /></a></p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/2670809592" title="View '' on Flickr.com"><img src="http://farm4.static.flickr.com/3294/2670809592_55fb3aaa0c.jpg" class="flickr" alt="" /></a>
-</p>
-
-Let's hope this time the cracks will not appear. Having to clear out the garage, store everything somewhere and put everything back is definitely not my idea of a good time.
-
-On the <em>cobra-building front</em> it's a bit quiet due to lack of parts, though I could do a few jobs on the chassis and suspension I guess, but for many of them I want to be able to take measurements of the engine, gearbox and other stuff before I do them.
-
-I have been assured that the parts will be available for collection next week, so it should not be that long before I can get cracking at a slightly higher pace.
-
+{% gmg shadowed 282 %}
 #+END_HTML
+
+#+BEGIN_HTML
+{% gmg shadowed 283 %}
+#+END_HTML
+
+Let's hope this time the cracks will not appear. Having to clear out
+the garage, store everything somewhere and put everything back is
+definitely not my idea of a good time.
+
+On the /cobra-building front/ it's a bit quiet due to lack of
+parts, though I could do a few jobs on the chassis and suspension I
+guess, but for many of them I want to be able to take measurements of
+the engine, gearbox and other stuff before I do them.
+
+I have been assured that the parts will be available for collection
+next week, so it should not be that long before I can get cracking at
+a slightly higher pace.

@@ -3,12 +3,13 @@
 #+tags: integration web
 #+status: publish
 
-Today, I have been <strike>fighting</strike> playing the html code in
+Today, I have been +fighting+ playing the html code in
 templates of Wordpress and the CSS of the site. I wanted to display
 the posts of the [[http://cobra.mrblog.nl][Cobra blog]] a bit more visible than an RSS feed, but
 not (like it was) importing every entry into this blog, so I came up
 with a block on the homepage which is fairly visible so it will
 attract most, but not that disturbing for others.
+
 
 How a little addition to CSS can make a big difference in how a page
 looks. CSS3 has a `box-shadow` property, which puts a nice drop-shadow

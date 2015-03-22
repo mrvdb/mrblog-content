@@ -5,15 +5,40 @@
 #+type: post
 #+published: true
 
+The missing Nord-Lock washers have arrived. This means I can, in
+theory, finish the complete buildup of the front-suspension. First off
+was fixing the brake discs to the wheel hubs. As mentioned, instead of
+the normal spring washers I'm using the Nord-Lock washers where
+applicable. This is such a place.
+
+
+
 #+BEGIN_HTML
+{%gmg shadowed 338 %}
+#+END_HTML
 
-<p>The missing Nord-Lock washers have arrived. This means I can, in theory, finish the complete buildup of the front-suspension. First off was fixing the brake discs to the wheel hubs. As mentioned, instead of the normal spring washers I'm using the Nord-Lock washers where applicable. This is such a place.<a href="http://www.flickr.com/photos/96151162@N00/3024220865/"></a></p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3024220865/"><img src="http://farm4.static.flickr.com/3187/3024220865_bb39758ed7.jpg" class="flickr" alt="" /></a></p>
-<p style="text-align: left">When assembling with these washers it's somewhat important to watch the surface friction and make sure the pair of rings stay in their "compressed" state. I do this by sort of overlubricating the contact surface to make sure the surface friction is less than the friction between the rings. After that's it's just a matter of torque-ing all ten of them up and taking a picture.<br /></p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3025050568/"><img src="http://farm4.static.flickr.com/3181/3025050568_6d90e93017.jpg" class="flickr" alt="" /></a><br /></p>
-<p style="text-align: left">Next step would be to bring the uprights and the hubs together, at which point I realised there were 2 oil seals involved needing a 12 hour soak before assembling. So, that more or less stopped the assembly on this part for today.</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3025050974/"><img src="http://farm4.static.flickr.com/3251/3025050974_846a14e903.jpg" class="flickr" alt="" /></a><br /></p>
-<p style="text-align: left">And I had them all layed out so neatly.....</p>
-<p style="text-align: center"><a href="http://www.flickr.com/photos/96151162@N00/3025051230/"><img src="http://farm4.static.flickr.com/3204/3025051230_0551859eb6.jpg" class="flickr portrait" alt="" /></a><br /></p>
+When assembling with these washers it's somewhat important to watch
+the surface friction and make sure the pair of rings stay in their
+"compressed" state. I do this by sort of overlubricating the contact
+surface to make sure the surface friction is less than the friction
+between the rings. After that's it's just a matter of torque-ing all
+ten of them up and taking a picture.
 
+#+BEGIN_HTML
+{%gmg shadowed 339 %}
+#+END_HTML
+
+Next step would be to bring the uprights and the hubs together, at
+which point I realised there were 2 oil seals involved needing a 12
+hour soak before assembling. So, that more or less stopped the
+assembly on this part for today.
+
+#+BEGIN_HTML
+{%gmg shadowed 340 %}
+#+END_HTML
+
+And I had them all layed out so neatly.....
+
+#+BEGIN_HTML
+{%gmg shadowed 341 %}
 #+END_HTML

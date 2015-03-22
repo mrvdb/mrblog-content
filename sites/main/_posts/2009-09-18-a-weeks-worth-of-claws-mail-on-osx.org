@@ -2,12 +2,12 @@
 #+layout: post
 #+tags: claws coding integration osx
 
-
 After installing Snow Leopard I was left with a page of programs and
 plugins that needed attention because of the upgrade. Most of these
 were little nuisances and just needed a little reconfiguration. There
 were a couple of things where Apple decided to rename an app or hide
 it otherwise from view (Kerberos Ticket manager for example).
+
 
 There were two things on the list which stopped me in my daily
 work. The first was was the need to recompile the complete macports
@@ -24,8 +24,8 @@ mail were both severely crippled now.
 
 Not looking forward to spending two days to recompile and reconfigure
 everything and nothing new to show for I decided that a long time wish
-could be sneaked in. Leaving Mail.app behind and switching to
-[[http://claws-mail.org][Claws]] as a mail client.
+could be sneaked in. Leaving Mail.app behind and switching to [[http://claws-mail.org][Claws]] as
+a mail client.
 
 Specifically, these are the main gripes I have with Mail.app:
 
@@ -63,8 +63,7 @@ the excercise for real on OSX.
 
 Here's the configure step I used:
 
-#+BEGIN_HTML
-{% highlight bash %}
+#+BEGIN_SRC sh
     export CPPFLAGS=-I/opt/local/include
     export LDFLAGS=-L/opt/local/lib
 
@@ -74,8 +73,7 @@ Here's the configure step I used:
       --enable-ipv6 \
       --disable-dillo-viewer-plugin \
       --enable-crash-dialog
-{% endhighlight %}
-#+END_HTML
+#+END_SRC
 
 The first two are perhaps redundant, but I wanted to make sure
 everything came from the ports collection and not from libraries
@@ -85,7 +83,7 @@ bunch of gtk2 stuff to give me a bit of theme-ing options. I used
 Platypus to create a Claws.app; the OSX application bundle so I can
 have an icon in the Dock:
 
-[[http://mrblog.nl/files/2009/09/screen_006.png]]
+[[/files/2009/09/screen_006.png]]
 
 Apart from the icon, that does not give you much really. The app runs
 as a child below X11.app so it still misbehaves in many ways, but
@@ -108,7 +106,7 @@ following:
 
 The plist has to look something like this:
 
-[[http://mrblog.nl/files/2009/09/screen_007.png]]
+[[/files/2009/09/screen_007.png]]
 
 There are 2 things in there which make this interesting. First, the
 highlighted line marks this application as an 'Agent' which just means
@@ -121,13 +119,12 @@ being capable of handling these types of URLs. This is used, for
 example by the Mail.app application for listing clients in its
 preference for default Email program:
 
-[[http://mrblog.nl/files/2009/09/screen_009.png]]
+[[/files/2009/09/screen_009.png]]
 
 
 The second file needed in the XCode project is URLHandler.scriptSuite:
 
-#+BEGIN_HTML
-{% highlight  properties %}
+#+BEGIN_SRC properties
     {
         Name = URLHandler;
         AppleEventCode = "UrHD";
@@ -140,8 +137,7 @@ The second file needed in the XCode project is URLHandler.scriptSuite:
             };
         };
     }
-{% endhighlight %}
-#+END_HTML
+#+END_SRC
 
 which registers =URLHandlerCommand= as the handler for
 Events of type GURL (get an URL).
@@ -149,8 +145,7 @@ Events of type GURL (get an URL).
 And finally, the third file, =URLHanderlerCommand.m= which
 implements that handler:
 
-#+BEGIN_HTML
-{% highlight objective-c %}
+#+BEGIN_SRC objective-c
     @implementation URLHandlerCommand
 
     - (id)performDefaultImplementation {
@@ -188,8 +183,7 @@ implements that handler:
         return nil;
     }
     @end
-{% endhighlight %}
-#+END_HTML
+#+END_SRC
 
 In words: It takes the URL that the user clicked on
 "mailto:something@something.org", turns it into an URL object and
@@ -200,19 +194,15 @@ For a 'feed' URL the app would call the file =feed_handler=
 and likewise for the other protocols. The =mailto_handler= file is
 just a shell script containing:
 
-#+BEGIN_HTML
-{% highlight bash %}
+#+BEGIN_SRC sh
     /usr/local/bin/claws-mail --compose $1
-{% endhighlight %}
-#+END_HTML
+#+END_SRC
 
 and my =~/bin/feed_handler= contains:
 
-#+BEGIN_HTML
-{% highlight bash %}
+#+BEGIN_SRC sh
     /usr/local/bin/claws-mail --subscribe $1
-{% endhighlight %}
-#+END_HTML
+#+END_SRC
 
 If you would like a copy of the source of this program, go here:
 [/files/2009/09/URLHandler.zip](/files/2009/09/URLHandler.zip)
@@ -225,7 +215,7 @@ obvious to me for gpg-agent solved that.
 
 Here's a picture of the end result (click on it for large version):
 
-[[http://mrblog.nl/files/2009/09/screen_0101.png]]
+[[/files/2009/09/screen_0101.png]]
 
 So, is this install perfect? Is it even better than Mail.app? I'd say,
 not yet. But the big difference is that I have control now and there's
@@ -294,9 +284,8 @@ claws is licensed under the GPL v3
 but worse, it has a non-documented API for plugins, which is an insult to developers.<br />
 i'm not sure the claws API for plugins is documented (i havent looked) but being open source, there's enough to work with.
 </p>
+#+END_HTML
 
 I'd say that is a pretty good score! If it feels like that in the real
 world? Talk to me in 3 months :D I'm also pretty sure there will be a
 whole set of new gripes waiting for me around the corner.
-
-#+END_HTML

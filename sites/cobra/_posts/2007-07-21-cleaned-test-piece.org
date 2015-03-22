@@ -1,17 +1,32 @@
 #+layout: post
 #+title: Cleaned test piece
 #+tags: cobra donor-parts
-#+status: publish
 #+type: post
 #+published: true
 
+So, turns out that electrolysis is an art to be mastered. The first
+attempt did not do very much, very little bubbles and it would take
+days to clean the part.
+
+
+Measuring the current showed something in the neighbourhood of 500mA;
+where I was aiming for someting like 3 to 4 amps. A battery charger
+didnt make any difference, other than being easier to clamp on. More
+soda then? Fetched a bag of 5kg and added some. Negligible
+effect. Perhaps the contacts on all the rusty bits were putting too
+much resitance into the circuit? Cleaned them up a bit and measure the
+resistance. This helped a bit, but not a lot.
+
+Next thing to try was to get more contact surface on the
+electrode. Demolished an old trowel and replaced one of the bars with
+it. Now, that did the trick! Lots of bubbles and I was actually afraid
+to put my hand into the bath. It went so well, the battery charger
+died after 3 hours or so: overheated. Putting the old PC power supply
+back into place (including the CD player) and left it for the
+night.
+
+Good morning:
+
 #+BEGIN_HTML
-
-<p>So, turns out that electrolysis is an art to be mastered. The first attempt did not do very much, very little bubbles and it would take days to clean the part. Measuring the current showed something in the neighbourhood of 500mA; where I was aiming for someting like 3 to 4 amps. A battery charger didnt make any difference, other than being easier to clamp on. More soda then? Fetched a bag of 5kg and added some. Negligible effect. Perhaps the contacts on all the rusty bits were putting too much resitance into the circuit? Cleaned them up a bit and measure the resistance. This helped a bit, but not a lot.</p>
-<p>Next thing to try was to get more contact surface on the electrode. Demolished an old trowel and replaced one of the bars with it. Now, that did the trick! Lots of bubbles and I was actually afraid to put my hand into the bath. It went so well, the battery charger died after 3 hours or so: overheated. Putting the old PC power supply back into place (including the CD player) and left it for the night.</p>
-<p>Good morning:<br /></p>
-<div style="text-align: center">
-  <a href="http://www.flickr.com/photos/96151162@N00/2668326973/"><img src="http://farm4.static.flickr.com/3238/2668326973_e281c4e3f7.jpg" class="flickr" alt="" /></a><br />
-</div>
-
+{%gmg shadowed 420 %}
 #+END_HTML

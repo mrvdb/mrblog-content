@@ -2,11 +2,11 @@
 #+layout: post
 #+tags: coding integration revision control xaraya
 
-
 Played a little with the gource log visualizer today. It is typically
 used to visualize committed revisions in a revision control system,
 although any system that logs events of some kind could be made to
 work with it I suppose.
+
 
 I happen to have a repository of xaraya going back to 2002 in git, so
 I thought I'd give it a shot.
