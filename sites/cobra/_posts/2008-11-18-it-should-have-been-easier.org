@@ -10,6 +10,7 @@ job ( [[/2007/07/first-day-first-problems.html][unlike the disassembly]] of them
 getting in the Universal Joints is very easy to do and the first was
 completed in no time.
 
+
 #+BEGIN_HTML
 {%gmg shadowed 324 %}
 #+END_HTML

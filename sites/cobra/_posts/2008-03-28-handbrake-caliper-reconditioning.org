@@ -8,6 +8,7 @@ Got my parts back from galvanising today. What a difference a
 little shine makes! Most of the items were from the donor handbrake
 calipers, which were in pretty bad shape when i got them.
 
+
 #+BEGIN_HTML
 {%gmg shadowed 389 %}
 #+END_HTML

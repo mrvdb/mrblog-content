@@ -1,7 +1,6 @@
 #+layout: post
 #+title: Differential reconditioning part one
 #+tags: cobra donor-parts
-#+type: post
 #+published: true
 
 Reconditioning the diff is mostly cleaning, repainting it (not done
@@ -10,6 +9,7 @@ seal is somewhat of a fuzzy defined procedure it seems, and not all
 the sources of documentation i found agree on it. The main thing is
 that inside the diff there is a collapsible spacer which gets its
 final shape on initial installment, 'pre-loaded' as they say.</p>
+
 
 Now, on replacing the seal, you don't want to collapse that spacer
 any further or you'll need to rework the whole diff, which is
@@ -27,7 +27,8 @@ of the nut.
 #+END_HTML
 
 All these procedures were of little help to me because:
-1. the seal i have differs from the one coming out; not sure how it affects the procedures, but it seems less 'thick'
+1. the seal i have differs from the one coming out; not sure how it
+   affects the procedures, but it seems less 'thick'
 2. the original nut was erm... completely loose, as in, I could
    manually undo it from the pinion, so returning it to the exact same
    position was not possible. I tried fastening the original nut and

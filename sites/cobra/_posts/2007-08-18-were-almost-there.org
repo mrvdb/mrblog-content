@@ -7,6 +7,7 @@
 That is, finishing up the garage. Next monday the new cement floor
 will be 'poured in'.
 
+
 #+BEGIN_HTML
 {%gmg shadowed 412 %}
 #+END_HTML

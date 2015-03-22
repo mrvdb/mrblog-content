@@ -59,6 +59,9 @@ markdown: rdiscount
 # Use UTF-8 everywhere, why isn't this the default by now
 encoding: UTF-8
 
+# Use 3x \n for excerpt separation
+excerpt_separator: "\n\n\n"
+
 # Setting for the home timeline in the sidebar
 # (cfr. livetwitter from somewhere )
 social:

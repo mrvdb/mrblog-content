@@ -1,12 +1,12 @@
 #+title: My brain is not a tree
 #+layout: post
 #+tags: current-affairs
-#+type: post
 #+published: true
 
 Mind mapping seemed an attractive concept to bring some order into
 my chaotic thoughts, so i spend an afternoon looking for a program
 running on OSX to give it a spin.
+
 
 The first thing I noticed all these programs assumed (with the
 exception of [[http://thebrain.com][PersonalBrain]] which is not available on OS X) that my

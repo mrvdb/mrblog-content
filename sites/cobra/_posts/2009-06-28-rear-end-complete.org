@@ -4,11 +4,11 @@
 #+type: post
 #+published: true
 
-
 Having the rear-end in 'concept' I started the final assembly using
 all new nuts and using the appropriate torque required. Where
 applicable I'm using the nord-lock washers instead of, or in addition
 to normal washers.
+
 
 #+BEGIN_HTML
 {% gmg shadowed 295 %}

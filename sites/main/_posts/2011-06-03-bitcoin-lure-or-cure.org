@@ -2,10 +2,10 @@
 #+title: Bitcoin, lure or cure
 #+tags: bitcoin finance foss current-affairs
 
-
 Many people got attracted to bitcoin the last couple of months. This
 explosion of interest probably caused the monetary value of bitcoins
 to show the same shape as the google trend-line chart pictured below.
+
 
 In this article I will ignore the exponential increase in monetary
 value since its inception and focus on some intrinsic properties of

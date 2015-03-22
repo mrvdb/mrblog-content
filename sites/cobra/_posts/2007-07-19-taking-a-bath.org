@@ -1,7 +1,6 @@
 #+layout: post
 #+title: Taking a bath.
 #+tags: cobra donor-parts
-#+type: post
 #+published: true
 
 The donor parts reconditioning is typically the dirty phase of
@@ -10,6 +9,7 @@ where's the fun in that?). Removing all the crap from the rusty bits
 isn't the most enjoyable part if you do it 'the classic way'. Simon
 called it 'therapeutic' if i remember correctly. I'm gonna try another
 therapy; bubble watching.
+
 
 Someone pointed out [[http://en.wikipedia.org/wiki/Electrolysis][electrolysis]] to me recently as an alternative and
 that brought back some memories from school chemistry class. So, I

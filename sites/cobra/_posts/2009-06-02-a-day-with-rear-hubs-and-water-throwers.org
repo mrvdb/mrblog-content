@@ -1,8 +1,6 @@
 #+layout: post
 #+title: A day with rear hubs and water throwers
 #+tags: cobra donor-parts rear-suspension
-#+status: publish
-#+type: post
 #+published: true
 
 Fitting the water throwers turned out to be more labour intensive than
@@ -10,6 +8,7 @@ I thought. A little bit of research on [[http://www.jag-lovers.org/][Jaguar Enth
 some experience tales of other people and some insight on what to
 expect. Heating the thrower and quickly fitting it around the machined
 edge on the hub seemed the way to go.
+
 
 There are a couple of hurdles to overcome. First, when the thing gets
 hot gloves are mandatory which makes handling the piece more

@@ -8,6 +8,7 @@ Ok, got a new tool which burned another hole in the wallet. Blind
 rivets are the things which come pre-installed for the chassis plate
 and the pre-drilled positions for the T-pieces in the brake-lines.
 
+
 #+BEGIN_HTML
 {%gmg shadowed 401 %}
 #+END_HTML

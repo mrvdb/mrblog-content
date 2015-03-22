@@ -11,6 +11,7 @@ than once during the whole Cobra building process.
 {%gmg shadowed 432 %}
 #+END_HTML
 
+
 That is, taking a picture of some stupid mistake I made to explain it
 to someone who actually knows what he is doing and help me out. Also,
 good excuse to fiddle with mirrors taking a picture *of* the camera *with*

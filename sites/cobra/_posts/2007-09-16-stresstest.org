@@ -1,12 +1,11 @@
 #+layout: post
 #+title: Stresstest...
 #+tags: cobra garage tools
-#+type: post
 #+published: true
-
 
 #+BEGIN_HTML
 {%gmg shadowed 406 %}
 #+END_HTML
+
 
 Enough said...

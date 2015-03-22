@@ -2,11 +2,11 @@
 #+layout: post
 #+tags: current-affairs
 
-
 Before I used an Apple machine with OSX, XEmacs was my editor of
 choice. Recently I saw Emacs 23 being released with native OSX support
 in the main repository (well, NextStep support formally, but with Cocoa
 bindings, which makes it OSX native I guess).
+
 
 That alone was enough to revisit the old friend. With caution, because I
 still feel the pain somewhat of switching to TextMate **from**

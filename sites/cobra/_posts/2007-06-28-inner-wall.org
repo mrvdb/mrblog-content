@@ -11,4 +11,5 @@ needs and supports the roof.
 {% gmg shadowed 431 %}
 #+END_HTML
 
+
 Next up is the outer wall.

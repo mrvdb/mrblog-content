@@ -4,12 +4,12 @@
 #+type: post
 #+published: true
 
-
 Given the amount of time already spent on preparing the donor
 parts, I am a bit hesitant to just start spraying the POR15 onto them
 without a bit of experience. As my motorbike needed new exhausts and
 as such had to be disassembled anyway, I prepared a couple of parts of
 the bike for spraying.
+
 
 First, with the help of an /el cheapo/ gazebo, I created an
 improvised spray booth.

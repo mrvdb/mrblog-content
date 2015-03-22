@@ -13,6 +13,7 @@ other GD builds and the pictures I have from GD, the routing often
 does not make sense to me, so I've experimented with some different
 configurations. Basically, there are 2 things to vary:
 
+
  1. the positioning of the donor bracket (upside down / normal);
  2. routing of the flexible brake hose, what I've called 'north' and 'south'.
 

@@ -1,12 +1,12 @@
 #+title: I just passed a 1000 csets in Xaraya
 #+layout: post
 #+tags: revision-control xaraya
-#+status: publish
-#+type: post
 #+published: true
 
-Some hours ago my changeset number 1000 went into the xaraya repository.
+Some hours ago my changeset number 1000 went into the xaraya
+repository.
 
-As you can see in the comments, it's not a good one, basically cleaning up some mess i made earlier that day.
+As you can see in the comments, it's not a good one, basically
+cleaning up some mess i made earlier that day.
 
 Nevertheless, it's there

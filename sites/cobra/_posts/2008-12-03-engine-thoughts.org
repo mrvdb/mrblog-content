@@ -12,6 +12,7 @@ all the different models of LS engines and their architecture in
 general. A while ago I bought a book on LS engines because frankly, I
 dont know much about the LS engines.
 
+
 [[/files/2008/12/517r26w3kbl-ss500.jpg]]
 
 Since I bought that book there have been some new LS engines, notably

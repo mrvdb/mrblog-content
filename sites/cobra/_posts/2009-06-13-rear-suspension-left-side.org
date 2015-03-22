@@ -12,6 +12,7 @@ hoist I have is adjustable at the four corners. I already had the
 chassis levelled out, so the only thing needed was to check and fine
 tune it.
 
+
 Next, I created a dummy shaft for the outer fulcrum, having a slightly
 smaller width as the hub. This simplifies assembling the hub to the
 wishbone considerably and makes sure the shims which are inside the

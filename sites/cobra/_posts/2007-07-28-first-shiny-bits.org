@@ -9,6 +9,7 @@ reconditioned ones. I dont actually need them right away, as there is
 no part finished yet to which i can attach a caliper, but it replaces
 4 rusty parts for 4 shiny parts, which feels like progress.
 
+
 #+BEGIN_HTML
 {%gmg shadowed 417 %}
 #+END_HTML

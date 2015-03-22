@@ -2,11 +2,11 @@
 #+layout: post
 #+tags: integration
 
-
 The number of accounts I have on _useful_ networks, social or otherwise,
 has been on an increasing trend-line for a while. In the beginning,
 things were simple, but it gets messy pretty quick. One feature which
 these networks share in some form or another are /status notices/
+
 
 Starting with the 'chat status' in the Instant Messaging world (like:
 *I'm busy* or *Away from computer* etc.) to the slightly more verbose

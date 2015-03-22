@@ -1,10 +1,7 @@
 #+title: Status update
 #+layout: post
 #+tags: front suspension garage info
-#+status: publish
-#+type: post
 #+published: true
-
 
 #+BEGIN_QUOTE
 It's been 117 days since my last confession...
@@ -14,6 +11,7 @@ So, perhaps a little status update is in order. Although I [[/2007/12/declaring-
 the garaged finished earlier]] there's always something that needs to be
 finished/improved. So, this summer we placed 2 new windows in the
 south wall.
+
 
 #+BEGIN_HTML
 {%gmg shadowed 350 %}

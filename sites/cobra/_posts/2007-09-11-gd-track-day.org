@@ -10,6 +10,7 @@ manufactured at the time. It was almost complete, a couple of brackets
 were missing and its powder coating. Even without that I was seriously
 impressed.
 
+
 #+BEGIN_HTML
 {%gmg shadowed 407 %}
 #+END_HTML

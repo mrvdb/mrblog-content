@@ -5,12 +5,11 @@
 #+type: post
 #+published: true
 
+As a side-effect of [[http://mrblog.nl/2009/09/18/a-weeks-worth-of-claws-mail-on-osx.html][Migrating to Claws]] I lost my OSX addressbook
+usage, at least for mail. In my company we use [[http://openerp.com][OpenERP]] for CRM,
+invoicing and other business needs. This means that the majority, if
+not all the email-addresses I need are in our OpenERP database.
 
-As a side-effect of [[http://mrblog.nl/2009/09/18/a-weeks-worth-of-claws-mail-on-osx.html][Migrating to Claws]] I lost my OSX
-addressbook usage, at least for mail. In my company we use
-[[http://openerp.com][OpenERP]] for CRM, invoicing and other business needs. This
-means that the majority, if not all the email-addresses I need are in
-our OpenERP database.
 
 So, it made sense to finish an effort I started earlier, which is to
 link OpenERP to our LDAP server and thus be able to query information

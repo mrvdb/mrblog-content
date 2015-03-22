@@ -10,6 +10,7 @@ cable operated setup, touched slightly on the block.
 {% gmg shadowed 259 %}
 #+END_HTML
 
+
 A careful couple of minutes of filing made sure it ran freely. On the
 outrun to the back of the engine of the cable I mounted two rubber
 P-clips to guide the cable across.

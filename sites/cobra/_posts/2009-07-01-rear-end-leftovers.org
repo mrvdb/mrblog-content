@@ -10,6 +10,7 @@ straight grease nipples with 45&deg; variants, but getting them
 properly positioned to the inside turned out to be quite a
 challenge. I'll leave it on the backburner for now.
 
+
 I double checked the torque on the drive shaft nu and got a helpful
 email from [[http://www.cobraclub.com/forum/members/mac-stowt.html][Terry]] about it too. Torqued it to 136Nm and put in the
 cotter pin.

@@ -10,6 +10,7 @@ Success on the pivot shaft:
 {%gmg shadowed 414 %}
 #+END_HTML
 
+
 Some careful sawing and using a vice to hold the puller slowly
 released the last bits from the pivot shaft.
 

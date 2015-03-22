@@ -2,12 +2,12 @@
 #+layout: post
 #+tags: claws coding integration osx
 
-
 After installing Snow Leopard I was left with a page of programs and
 plugins that needed attention because of the upgrade. Most of these
 were little nuisances and just needed a little reconfiguration. There
 were a couple of things where Apple decided to rename an app or hide
 it otherwise from view (Kerberos Ticket manager for example).
+
 
 There were two things on the list which stopped me in my daily
 work. The first was was the need to recompile the complete macports

@@ -2,8 +2,8 @@
 #+layout: post
 #+tags: revision-control xaraya
 
-
 [[http://blogs.msdn.com/crathjen/archive/2005/04/01/404707.aspx][Chris Rathjen : Team Foundation vs. Subversion: Shelving]]
+
 
 Chris compares the two different mechanisms used for a concept
 introduced in Team Foundation (TFS) known as Shelving. It is a concept

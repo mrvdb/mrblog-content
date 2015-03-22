@@ -9,6 +9,7 @@ which has not always been that way to my great frustration), becomes
 more cross platform (e.g. [[http://www.xchat.org][xchat]], [[http://www.sodipodi.com][sodipodi]], [[http://gaim.sourceforge.net][gaim]], [[http://www.openoffice.org][openoffice]] ), i found
 myself needing an apt-get equivalent on windows.
 
+
 Usually windows versions of OSS are either file archives to be dumped
 into their install directory, or wrapped in a (big) windows
 installer. I [[http://www.google.nl/search?q=apt-get+win32][searched]] for a windows version for apt-get, but got not

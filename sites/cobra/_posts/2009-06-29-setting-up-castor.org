@@ -4,12 +4,12 @@
 #+type: post
 #+published: true
 
-
 While the final castor setting is determined by personal preference
 after a test ride, the initial castor setting target is between 3 to 5
 degrees. The first step is to determine the amount of shims which will
 not push the two parts of the upper wishbone together and won't push
 them apart either.
+
 
 Starting with the original 5 shims (although I think the original
 shims were of different thickness) turned out to be ok. I also started

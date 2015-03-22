@@ -1,14 +1,13 @@
 #+layout: post
 #+title: Quick satisfaction
 #+tags: cobra brakes donor-parts
-#+type: post
 #+published: true
-
 
 The hand brake of an XJS convertible I found on eBay arrived. Man,
 it does pay off to buy things in the US these days! For $45,-
 including transport to the Netherlands, which translates into roughly
 € 30,- for a used hand brake.
+
 
 #+BEGIN_HTML
 {% gmg shadowed 369 %}

@@ -1,12 +1,11 @@
 #+layout: post
 #+title: Donor parts back, one thing left: painting them.
 #+tags: cobra donor-parts
-#+status: publish
-#+type: post
 #+published: true
 
 Got the donor parts back from [[http://www.galvin.nl][Galvin]], as you
 can see below, they look like new!
+
 
 #+BEGIN_HTML
 {%gmg shadowed 370 %}

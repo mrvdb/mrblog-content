@@ -1,10 +1,7 @@
 #+layout: post
 #+title: Gearbox thoughts
 #+tags: cobra engine gearbox info
-#+status: publish
-#+type: post
 #+published: true
-
 
 It's about time I made up my mind about a gearbox to put behind the
 LS2. When I started to focus on a gearbox I had not a very good idea
@@ -13,6 +10,7 @@ deliberately ignore (but not completely) the obvious choices in the
 different forums; not because they are bad or anything, but I wanted
 to reason my way into a gearbox choice based on technical criteria and
 personal preferences.
+
 
 So, the first thing I did was read up on how the thing actually works.
 

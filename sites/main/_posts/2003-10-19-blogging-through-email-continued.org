@@ -1,14 +1,13 @@
 #+title: blogging through email, continued
 #+layout: post
 #+tags: integration
-#+status: publish
-#+type: post
 #+published: true
 
 Worked a bit on the blog by email stuff. Sanitized the script a
 bit. The posting should now be a bit more clean as the backend now
 only includes stuff between the body tags of the received
 html. Nowhere near rock-solid, but useable nevertheless.
+
 
 Just for the technically inclined, this is the regexp used to extract
 the blog entry from the html:

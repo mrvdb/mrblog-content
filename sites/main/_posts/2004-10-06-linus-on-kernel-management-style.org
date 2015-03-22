@@ -2,8 +2,8 @@
 #+layout: post
 #+tags: current-affairs
 
-
 [[http://lwn.net/Articles/105375][Linus on kernel management style]]
+
 
 #+BEGIN_QUOTE
 While it turns out that most people are idiots, the corollary to that

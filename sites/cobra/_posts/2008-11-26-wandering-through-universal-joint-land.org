@@ -1,8 +1,6 @@
 #+layout: post
 #+title: Wandering through universal joint land
 #+tags: cobra rear-suspension
-#+status: publish
-#+type: post
 #+published: true
 
 Searching for a [[/2008/11/18/it-should-have-been-easier.html][replacement]] Universal Joint for the one rear axle, I
@@ -10,6 +8,7 @@ have discovered that they have their own parallel universe!! There's a
 large set of manufacturers which may, or may not, produce the proper
 Universal Joint. They may, or may not, have a web presence on which
 they may, or may not, mention the specifications of their products.
+
 
 Once talking to a representative of one of these companies, he may,
 or may not know what he is talking about. He will gladly tell you that

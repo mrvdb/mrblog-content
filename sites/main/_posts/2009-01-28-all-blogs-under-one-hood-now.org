@@ -8,6 +8,7 @@ ran under wordpress—µ for while, but I wanted to wait for the
 integration part until most of the 2.7 features appeared in the
 subversion repository.
 
+
 Creating this site (toplevel mrblog.nl) in the =wordpress—µ= application was easy,
 content-wise. Adjusting the installation so I could register both
 independent toplevel blogs (domains) and sites below that took a bit

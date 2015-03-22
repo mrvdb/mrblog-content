@@ -10,6 +10,7 @@ Beginnings of the outer wall.
 {%gmg shadowed 430 %}
 #+END_HTML
 
+
 Not much to do but wait until it's done.
 
 I'm going for a visit to [[http://speedon.nl][Speedon]] tomorrow; visit their new location

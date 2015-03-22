@@ -2,11 +2,11 @@
 #+layout: post
 #+tags: current-affairs
 
-
 I decided to disable comments alltogether on this blog. The amount of
 time required to manage the ip banning and deleting the spam comments
 is getting too much in comparison with the small scale blogging i do
 over here.
+
 
 I just dont have the time to go to war on this and keep securing the
 blog, while giving others the opportunity to comment on the

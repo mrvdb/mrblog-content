@@ -8,6 +8,7 @@ Almost done with disassembling all the donorparts, one wishbone still
 to be removed, the rest is all done and waiting in line to be
 /electrolysed/.
 
+
 Along the way most time is consumed by things which are stuck, but
 need to be loosened. Yesterday i spent a whole day grinding a wishbone
 from its subframe because /tapping-it-out/ was undoable. Here's

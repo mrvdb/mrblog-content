@@ -8,6 +8,7 @@ After the trial run, which went well, I painted the components of
 the rear axle today. Planning to do the front axle tomorrow. The self
 fabricated rack of some wood and old heating pipe worked well.
 
+
 #+BEGIN_HTML
 {%gmg shadowed 363 %}
 #+END_HTML

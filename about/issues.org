@@ -6,13 +6,21 @@ Because everything is orgmode now, I might as well keep an issue list
 for the site and publish it. Managing todo items is pretty well
 covered in org-mode ;-)
 
+**** DONE Published property is not working
+     :PROPERTIES:
+     :CREATED:  [2015-03-22 zo 12:38]
+     :END:
+**** DONE The automatic excerpt is not working
+     :PROPERTIES:
+     :CREATED:  [2015-03-22 zo 17:22]
+     :END:
 **** TODO Move comment system to something static
      :PROPERTIES:
      :CREATED:  [2015-03-19 do 14:58]
      :END:
      To keep with the spirit of a Jekyll site, comments should really be
      static as well.
-**** TODO Create a better way for handling images
+**** TODO Create a better way for handling remote images
      :PROPERTIES:
      :CREATED:  [2015-03-19 do 15:23]
      :END:
@@ -51,8 +59,4 @@ covered in org-mode ;-)
 **** TODO Improve rendering of TODO list
      :PROPERTIES:
      :CREATED:  [2015-03-21 za 12:25]
-     :END:
-**** DONE Published property is not working
-     :PROPERTIES:
-     :CREATED:  [2015-03-22 zo 12:38]
      :END:

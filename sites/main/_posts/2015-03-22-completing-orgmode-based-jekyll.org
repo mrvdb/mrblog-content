@@ -5,6 +5,7 @@
 In [[/2013/11/16/working-with-jekyll.html][Working with Jekyll and Org-Mode]] a simple solution was given to use
 org-mode format files as posts.
 
+
 That solution had quite a few limitations:
 1. the files still needed the '=---=' /yaml header/ to be present on the
    first lines, making it invalid org-mode documents

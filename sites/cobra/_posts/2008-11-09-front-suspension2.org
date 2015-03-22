@@ -10,6 +10,7 @@ right lower wishbone needed some help, so the two arms were pulled
 outwards a bit with a pulley and a piece of wood placed to keep them
 like that. After that fitting wasn't that hard.
 
+
 #+BEGIN_HTML
 {%gmg shadowed 346 %}
 #+END_HTML

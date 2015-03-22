@@ -9,6 +9,7 @@ axle. The start was pretty much ok, got the lower wishbones loose
 pretty easily. The only somewhat interesting part was getting the
 bearings out. Two sockets of appropriate size and a vice:
 
+
 #+BEGIN_HTML
 {%gmg shadowed 425 %}
 #+END_HTML

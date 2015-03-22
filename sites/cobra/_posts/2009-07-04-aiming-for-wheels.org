@@ -13,6 +13,7 @@ the back as well because the garage needs to be cleared out by the
 appear and I made an arrangement with the contractor for repairs this
 summer.
 
+
 #+BEGIN_HTML
 {% gmg shadowed 285 %}
 #+END_HTML

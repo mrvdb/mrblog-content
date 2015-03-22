@@ -2,7 +2,6 @@
 #+layout: post
 #+tags: revision-control xaraya
 
-
 We have been considering migrating Xaraya to the creole abstraction
 layer in the future. Creole is similar to the [[http://adodb.sourceforge.net][adodb]] library we use
 now. Originally the support for Creole was created to be able to
@@ -10,6 +9,7 @@ implement a MS-SQL proof of concept quickly. After using the library
 for a bit I found it much easier to work with than adodb. Creole's API
 is much cleaner and it is PHP5 only, which gives us a head start for
 future Xaraya versions.
+
 
 The [[http://monotone.ca][Monotone]] setup we use allows us to test all this without
 disturbing main line development. Organizing these bigger changes into

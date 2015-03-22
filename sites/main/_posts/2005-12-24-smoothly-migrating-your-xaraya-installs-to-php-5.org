@@ -8,6 +8,7 @@ others are more conventional and want to wait. For others, due to the
 specific requirements, moving to PHP 5 is not possible yet. How to
 cater for both of these customers?
 
+
 Assuming it's common knowledge that if you want to run both php
 versions on the same server you'll have to run two different instances
 of your webserver, usually on two different ports. In our case, when

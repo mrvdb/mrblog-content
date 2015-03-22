@@ -4,10 +4,10 @@
 #+type: post
 #+published: true
 
-
 Having ordered a boat-load of engine-related parts, I started to
 prepare the engine for it. This consists mostly of removing parts from
 it and cleaning it up.
+
 
 #+BEGIN_HTML
 {%gmg shadowed 315 %}

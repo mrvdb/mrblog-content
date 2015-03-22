@@ -1,16 +1,14 @@
 #+layout: post
 #+title: Rear end: inner fulcrum assembly
 #+tags: cobra rear-suspension
-#+status: publish
-#+type: post
 #+published: true
-
 
 To continue on the front-suspension I'll
 have to wait till the oil seals have been soaked. So, back to the rear
 end then. I decided to tackle the mass-washer effort of the lower
 inner fulcrum. Every one of the four sides to do has a set of 4 rings
 and some to keep in place. Here's the set, layed out.
+
 
 #+BEGIN_HTML
 {%gmg shadowed 342 %}

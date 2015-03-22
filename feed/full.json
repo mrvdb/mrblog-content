@@ -3,7 +3,7 @@
 [{% for post in site.posts %}{% if post.title != null and post.title != empty and post.search_omit != true %}{% if forloop.index > 1 %},{%endif%}{
     "title"  : {{post.title | json }},
     "content": {{post.content | strip_html | json }},
-    "excerpt": {{post.excerpt | json }},
+    "excerpt": {{post.excerpt | strip_html | json }},
     "link"   : "{{ site.url }}{{ post.url }}",
     "date"   : {{ post.date | json }}
 }{%endif%}{% endfor %}

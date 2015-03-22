@@ -4,7 +4,6 @@
 #+status: publish
 #+type: post
 
-
 So, no parts this week yet. Might as well tell a bit about what I'm waiting for.
 
 Here's a rundown of the list of stuff I'm waiting for:
@@ -13,6 +12,7 @@ Here's a rundown of the list of stuff I'm waiting for:
 - Tremex TKO 600 gearbox
 - propshaft
 - complete ss exhaust + headers
+
 
 The position of the exhaust will be a bit different at the
 back. Instead of the two exhaust pipes in the centre as is common for

@@ -1,27 +1,26 @@
 #+title: Module API loading
 #+layout: post
 #+tags: xaraya
-#+status: publish
-#+type: post
 #+published: true
 
-#+BEGIN_HTML
-<p>In calling an API function for a module you had to make sure that the API of that module was loaded in your module. The core had already provisions that if the API was already loaded, it wouldn't load it again. This can be automated. On calliing an API function (assuming that call is necessary of course) the core can check whether the API is loaded and if not, load the API.
-</p>
-<p>This has the following advantages:
-</p>
-<ul>
-<li>guaranteed loading of API
-</li>
+In calling an API function for a module you had to make sure that
+the API of that module was loaded in your module. The core had already
+provisions that if the API was already loaded, it wouldn't load it
+again. This can be automated. On calliing an API function (assuming
+that call is necessary of course) the core can check whether the API
+is loaded and if not, load the API.
 
-<li>smaller code size
-</li>
 
-<li>simplification for module developers
-</li>
-</ul>
-<p>This changeset makes it a lot easier for module developers. They can just use xarModAPIFunc in their modules, without calling xarModAPILoad each time. Basically this lil change does the same as the developer did. Check whether the module API was already loaded, if not load the module API.
-</p>
-<p>All diffs for ChangeSet 1.498
-</p>
-#+END_HTML
+This has the following advantages:
+- guaranteed loading of API
+- smaller code size
+- simplification for module developers
+
+This changeset makes it a lot easier for module developers. They
+can just use xarModAPIFunc in their modules, without calling
+xarModAPILoad each time. Basically this lil change does the same as
+the developer did. Check whether the module API was already loaded, if
+not load the module API.
+
+
+All diffs for ChangeSet 1.498

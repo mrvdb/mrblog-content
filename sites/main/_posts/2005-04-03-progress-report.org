@@ -2,11 +2,11 @@
 #+layout: post
 #+tags: coding xaraya
 
-
 Making xaraya react to the =mt_keywords= MT member was easy with the
 existing keywords module. The harder part (read: more time consuming)
 was to make the visual presentation of them in the site somewhat
 acceptable.
+
 
 If you view this article by itself (what we call the
 *display* view in Xaraya), you'll notice an extra part

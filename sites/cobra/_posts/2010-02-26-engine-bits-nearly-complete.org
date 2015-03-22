@@ -4,12 +4,13 @@
 #+type: post
 #+published: true
 
-To complete the engine&mdash;gearbox mating I just need one part now,
+To complete the engine—gearbox mating I just need one part now,
 which is the pilot bearing for the front of the gearbox. I ordered the
 original GM-part earlier, not realising my Tremec gearbox is of the
 Ford variety, which has slightly different dimensions. So, I still can
 not complete the mating, but there's lots of other (little) stuff I
 can complete, such as installing the fuel rail adapter.Click! Done.
+
 
 #+BEGIN_HTML
 {%gmg shadowed 262 %}

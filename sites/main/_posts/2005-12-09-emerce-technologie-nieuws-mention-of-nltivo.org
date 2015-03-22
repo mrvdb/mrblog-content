@@ -4,6 +4,7 @@
 
 [[http://www.emerce.nl/nieuws.jsp?id=972005][Emerce - Technologie nieuws]]: TiVo maakt downloaden naar iPod mogelijk:
 
+
 #+BEGIN_QUOTE
 De Tivo-dienst is officieel alleen beschikbaar in de
 Verenigde Staten en het Verenigd Koninkrijk. In Nederland bestaan ook

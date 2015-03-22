@@ -5,6 +5,7 @@
 While I was at it, the Moveable Type API seemed quite close, so I
 created a little module to start implementing it.
 
+
 The more advanced features of the MT API I havent implemented (yet),
 but one thing is supported from the beginning, which is the Extended
 Entry.

@@ -9,6 +9,7 @@ Fitting the GD lower wishbone bracket to the wishbone seemed like a
 nice quick job. I layed out everything needed, took the obligatory
 picture ...
 
+
 #+BEGIN_HTML
 {%gmg shadowed 357 %}
 #+END_HTML

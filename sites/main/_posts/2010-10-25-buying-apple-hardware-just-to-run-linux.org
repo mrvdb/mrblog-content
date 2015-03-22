@@ -2,10 +2,10 @@
 #+layout: post
 #+tags: linux apple
 
-
 As mentioned in my previous post, I moved back to using Linux as my
 desktop operating system, coming from OSX. I have a couple of notes on
 the why and some observations about it which may be of interest.
+
 
 My main machine has been a macbook pro 17 inch (or powerbook when they
 still had a ppc in them) for a couple of years now and I was pretty
