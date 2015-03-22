@@ -15,7 +15,15 @@ module Jekyll
 
     def convert(content)
       content
-    end    
+    end
+
+    def self.quote_replace(content)
+      content = content.gsub("&#8216;","'") #&lsquo;
+      content = content.gsub("&#8217;","'") #&rsquo;
+      content = content.gsub("&#8220;",'"') #&ldquo;
+      content = content.gsub("&#8221;",'"') #&rdquo;
+      content = content.gsub("&#39;"  ,"'") #&apos;
+    end
   end
 
   # Like other converters, add a filter to convert orgmode strings to
@@ -58,7 +66,7 @@ module Jekyll
         # FIXME: Do we want/need to process the buffer settings?
         # FIXME: enable/disable liquid?
         # Convert the orgmode format via org-ruby to html
-        org_text.to_html
+        OrgConverter::quote_replace(org_text.to_html)
       end
     end
   end
@@ -94,15 +102,7 @@ module Jekyll
       end
 
       # Convert the orgmode format via org-ruby to html
-      self.content = org_text.to_html
-
-      # Correct some entities so further output matching keeps working
-      # FIXME: move this to a place where we can share
-      self.content = self.content.gsub("&#8216;","'")
-      self.content = self.content.gsub("&#8217;","'")
-      self.content = self.content.gsub("&#8220;",'"')
-      self.content = self.content.gsub("&#8221;",'"')
-      self.content = self.content.gsub("&#39;","'")
+      self.content = OrgConverter::quote_replace(org_text.to_html)
 
       # Make sure post excerpts are pointing to the right content
       # FIXME: this doesn't seem to work properly
@@ -148,14 +148,8 @@ module Jekyll
         end
 
         # Convert the orgmode format via org-ruby to html
-        self.content = org_text.to_html
-        
-        # Correct some entities so further output matching keeps working
-        self.content = self.content.gsub("&#8216;","'")
-        self.content = self.content.gsub("&#8217;", "'")
-        self.content = self.content.gsub("&#8220;",'"')
-        self.content = self.content.gsub("&#8221;",'"')
-        self.content = self.content.gsub("&#39;","'")
+        self.content = OrgConverter::quote_replace(org_text.to_html)
+
       end
         
     rescue SyntaxError => e
