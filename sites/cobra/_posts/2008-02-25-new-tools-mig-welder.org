@@ -10,7 +10,9 @@ while. Initially i had my mind set on a TIG machine, or one which
 could do both MIG and TIG. The lure of the very nice TIG welds got to
 me i guess.
 
+#+BEGIN_HTML
 {%gmg shadowed 392 %}
+#+END_HTML
 
 A short talk with the guy at the excellent [[http://www.rustbuster.nl][Rustbuster]] shop quickly
 convinced me that MIG was the better option for my skill level;

@@ -6,7 +6,9 @@
 
 Beginnings of the outer wall.
 
+#+BEGIN_HTML
 {%gmg shadowed 430 %}
+#+END_HTML
 
 Not much to do but wait until it's done.
 

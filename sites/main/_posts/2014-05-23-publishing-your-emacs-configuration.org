@@ -15,6 +15,7 @@ The system borrows from /literate programming/ concepts where you write
 code and documentation in one document and let tools /tangle/ the code
 and documentation into separate documents.
 
+#+BEGIN_HTML
 {%pullquote right %}
 The default way to publish an Emacs configuration with that system
 would be to let org-mode export the configuration document to html and
@@ -24,7 +25,7 @@ be that jekyll fetches the authoritative version of my emacs
 configuration in org-mode syntax"} and treats that as /normal/ content
 and publish it.
 {% endpullquote %}
-
+#+END_HTML
 
 I started off by defining a collection, a new feature of jekyll, which
 gave me a chance to use it. The collection is defined in the

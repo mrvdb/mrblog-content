@@ -10,16 +10,24 @@ there is always room for improvement, the major work is complete.
 
 >Here's roughly how it looked before we started:
 
+#+BEGIN_HTML
 {%gmg shadowed 395 %}
+#+END_HTML
 
 Here's the best comparison I could find for the outside
 view. Apparently we did not take a picture once everything was done,
 odd.
 
+#+BEGIN_HTML
 {%gmg shadowed 397 %}
+#+END_HTML
 
 
 This shows much better what it was all about:
 
+#+BEGIN_HTML
 {%gmg shadowed 397 %}
+#+END_HTML
+#+BEGIN_HTML
 {%gmg shadowed 398 %}
+#+END_HTML

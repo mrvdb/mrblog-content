@@ -9,13 +9,17 @@ reconditioned ones. I dont actually need them right away, as there is
 no part finished yet to which i can attach a caliper, but it replaces
 4 rusty parts for 4 shiny parts, which feels like progress.
 
+#+BEGIN_HTML
 {%gmg shadowed 417 %}
+#+END_HTML
 
 For any part to be ready for anything, the postman brought in the
 nasty stuff this morning, representing the 4 phases most of the parts
 will need to go through.
 
+#+BEGIN_HTML
 {%gmg shadowed 418 %}
+#+END_HTML
 
 1. Marine Clean; get rid of dirt and grease (i doubt there is any left
    after the soda-soak they all got, but i'm following instructions here)

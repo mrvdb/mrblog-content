@@ -15,7 +15,9 @@ I found it easiest to torque the bolts up to their specified
 values,see how the bolts end up and then determine where the holes
 should go.
 
+#+BEGIN_HTML
 {%gmg shadowed 354 %}
+#+END_HTML
 
 Using the bench drill and a 1.5 mm cobalt drill, creating the holes is
 quite easy. Next was turning the differential on its feet and
@@ -24,7 +26,9 @@ the centre of the calliper. An easy job, though in the end I came up
 short one shim, which meant I could only finish one side of the
 differential build up.
 
+#+BEGIN_HTML
 {%gmg shadowed 355 %}
+#+END_HTML
 
 The hardest part of assembling the calliper to the diff is fastening
 the calliper bolts. They are hard to reach as is, but my torque wrench
@@ -34,7 +38,9 @@ a bit over the top for just these four bolts. After fastening the two
 you alse get to lock wire them, which went suprisingly well,
 considering the location.
 
+#+BEGIN_HTML
 {% gmg shadowed 356 %}
+#+END_HTML
 
 So, one side done, once the missing shim arrives, the other side
 should be pretty quick.

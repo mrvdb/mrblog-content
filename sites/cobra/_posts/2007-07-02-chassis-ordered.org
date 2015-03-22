@@ -23,4 +23,6 @@ too. So, the two decisions were really just:
 Those two are enough to get me working on the donor parts and the
 rolling chassis. Oh, the outer wall is a bit higher today too...
 
+#+BEGIN_HTML
 {% gmg shadowed 429 %}
+#+END_HTML

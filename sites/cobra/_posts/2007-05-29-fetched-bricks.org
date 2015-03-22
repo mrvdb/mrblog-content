@@ -8,6 +8,10 @@ Bought a set of classic bricks from
 [[http://marktplaats.nl][marktplaats.nl]] and abused the horse trailer
 to fetch them. Interesting ride. :-)
 
+#+BEGIN_HTML
 {%gmg shadowed 437 %}
+#+END_HTML
 
+#+BEGIN_HTML
 {%gmg shadowed 438 %}
+#+END_HTML

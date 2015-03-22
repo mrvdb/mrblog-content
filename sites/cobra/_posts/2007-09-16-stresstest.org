@@ -5,6 +5,8 @@
 #+published: true
 
 
+#+BEGIN_HTML
 {%gmg shadowed 406 %}
+#+END_HTML
 
 Enough said...

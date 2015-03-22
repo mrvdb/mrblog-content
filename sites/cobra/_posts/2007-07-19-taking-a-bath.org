@@ -18,7 +18,9 @@ donated to me by the [[http://www.bouwbedrijfvdzande.nl][contractor]] doing the 
 these pins attached to the bath, an old ATX power supply, water and a
 bag of washing soda. It looks something like this:
 
+#+BEGIN_HTML
 {%gmg shadowed 421 %}
+#+END_HTML
 
 (If you are wondering about the CD player: it acts as a shunt so
 the power supply actually keeps running, instead of stopping after 2
@@ -32,6 +34,8 @@ trying to de-rust. Then, flip the switch, sit back and wait.
 Here's the before picture of my testpiece as removed from the front
 axle:
 
+#+BEGIN_HTML
 {%gmg shadowed 422 %}
+#+END_HTML
 
 I'm gonna leave this for the night and see what we have in the morning.

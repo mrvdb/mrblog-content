@@ -7,9 +7,13 @@
 When cleaning one of the rear hubs I noticed i crack in the
 housing, damn. So, that had to be exchanged.
 
+#+BEGIN_HTML
 {%gmg shadowed 387 %}
+#+END_HTML
 
 Upside is, trying to give a optimistic swing to it, I now have one
 less hub to clean.
 
+#+BEGIN_HTML
 {%gmg shadowed 388 %}
+#+END_HTML

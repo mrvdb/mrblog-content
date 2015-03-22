@@ -4,9 +4,13 @@
 #+type: post
 #+published: true
 
+#+BEGIN_HTML
 {%gmg shadowed 320 %}
+#+END_HTML
 
+#+BEGIN_HTML
 {%gmg shadowed 321 %}
+#+END_HTML
 
 No words needed. At the moment I can't do much to the engine yet,
 other than drool over it. (Well, I could go mad on polishing I guess)

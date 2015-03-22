@@ -15,7 +15,9 @@ frontmost on the left, are a bit to close to the header for my
 taste. It's nearly touching the header on the left side and completely
 touching it on the right side.
 
+#+BEGIN_HTML
 {% gmg shadowed 269 %}
+#+END_HTML
 
 The other three are positioned much better in between the
 headers. Perhaps the alu heat shields can be made a bit shorter?
@@ -24,17 +26,23 @@ At the back of the chassis the exhaust is fitted with what looks like
 a piece of old tire. I drilled three holes in the rubber, bolted it
 onto the bracket and cut a bit of the rubber to make it look neater.
 
+#+BEGIN_HTML
 {% gmg shadowed 270 %}
+#+END_HTML
 
 The U-brackets go through and together they hold the middle piece of the exhaust pipes.
 
+#+BEGIN_HTML
 {% gmg shadowed 271 %}
+#+END_HTML
 
 Here's an overview picture of the complete underslung exhaust
 line. It's quite different from the more traditional (in GD terms)
 exhaust where the pipes are together in the center.
 
+#+BEGIN_HTML
 {% gmg shadowed 272 %}
+#+END_HTML
 
 I had hoped the ends were a bit closer together, but there's not much
 more room to bring them closer, given the current size dampers.

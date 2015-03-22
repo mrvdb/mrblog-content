@@ -11,7 +11,9 @@ behind it. Add to that the fact the procedure could not be finished
 properly because of the front nut being loose to start with, I decided
 to have [[http://www.jaguar-kolvenbach.com][Kolvenbach]] take a look at it. Glad I did.
 
+#+BEGIN_HTML
 {%gmg shadowed 383 %}
+#+END_HTML
 
 Not only was the pinion seal not installed properly, it was completely
 the wrong seal! On top of that the output shaft seals were also the
@@ -21,15 +23,21 @@ problem as me.
 Anyways, all seals replaced now by people who know what they are
 doing. The new pinion seal properly sits behind the flange now.
 
+#+BEGIN_HTML
 {%gmg shadowed 384 %}
+#+END_HTML
 
 While they had the diff in parts I figured they could just as easily
 give it a spray. I rounded it off by installing the backplate with new
 stainless bolts and a diff we have!
 
+#+BEGIN_HTML
 {%gmg shadowed 385 %}
+#+END_HTML
 
+#+BEGIN_HTML
 {%gmg shadowed 386 %}
+#+END_HTML
 
 I might give the base housing another spray, or use some POR
 chassis coat on it.

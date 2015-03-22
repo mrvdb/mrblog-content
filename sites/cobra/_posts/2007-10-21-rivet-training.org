@@ -8,14 +8,18 @@ Ok, got a new tool which burned another hole in the wallet. Blind
 rivets are the things which come pre-installed for the chassis plate
 and the pre-drilled positions for the T-pieces in the brake-lines.
 
+#+BEGIN_HTML
 {%gmg shadowed 401 %}
+#+END_HTML
 
 It's not trivial to make a good rivet I found out. The first thing you
 have to get right is the amount of shrinkage you want to introduce in
 the rivet. Too little and the rivet is loose, too much and it deforms
 too much.
 
+#+BEGIN_HTML
 {%gmg shadowed 402 %}
+#+END_HTML
 
 The next thing to be aware of (at least in the aluminium rivets I
 bought for practice) is the speed at which you 'rivet'. Slow is the

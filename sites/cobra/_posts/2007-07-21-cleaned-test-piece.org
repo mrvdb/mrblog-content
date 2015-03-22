@@ -24,4 +24,6 @@ night.
 
 Good morning:
 
+#+BEGIN_HTML
 {%gmg shadowed 420 %}
+#+END_HTML

@@ -23,13 +23,17 @@ Still somewhat hindered by the thought of not doing things in order
 for the build I instead created a storage place for the bottom plates
 of the car-lift
 
+#+BEGIN_HTML
 {%gmg shadowed 403 %}
+#+END_HTML
 
 While a useful end result, I realised I was just making up excuses
 and needed a 'real job', so, I decided to do the front-brake-pipe
 run. Here's the end result:
 
+#+BEGIN_HTML
 {%gmg shadowed 404 %}
+#+END_HTML
 
 Gave me good pair of sore thumbs. I can't attach the p-clips to the
 chassis yet, as i want to use the same rivets as GD has been using,

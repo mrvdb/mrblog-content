@@ -10,7 +10,9 @@ it does pay off to buy things in the US these days! For $45,-
 including transport to the Netherlands, which translates into roughly
 € 30,- for a used hand brake.
 
+#+BEGIN_HTML
 {% gmg shadowed 369 %}
+#+END_HTML
 
 For reference, when you buy this thing at a Jaguar Parts supplier
 it'll cost you something like € 130,- (not sure if that would be a new

@@ -7,6 +7,8 @@
 The inner wall is basically done, meaning it has all the bricks it
 needs and supports the roof.
 
+#+BEGIN_HTML
 {% gmg shadowed 431 %}
+#+END_HTML
 
 Next up is the outer wall.

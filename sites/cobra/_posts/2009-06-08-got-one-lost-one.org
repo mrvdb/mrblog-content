@@ -10,4 +10,6 @@ decided to quickly press that in the rear hub waiting for it. Too
 quickly it turned out; I pressed it in while it was not lining up
 exactly with the opening apparently because it bent.
 
+#+BEGIN_HTML
 {%gmg shadowed 304 %}
+#+END_HTML

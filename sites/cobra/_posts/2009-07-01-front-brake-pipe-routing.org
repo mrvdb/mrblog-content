@@ -25,16 +25,22 @@ seemed to work best for me. It does not come anywhere near any
 suspension part, neither in full bump, full droop and at both extremes
 of the steering.
 
+#+BEGIN_HTML
 {%gmg shadowed 289 %}
+#+END_HTML
 
+#+BEGIN_HTML
 {%gmg shadowed 290 %}
+#+END_HTML
 
 I find that another advantage of the northbound route is that the
 routing of the fixed piping is greatly simplified, just needing a
 short piece with two bends, instead of routing it through the caliper
 openings.
 
+#+BEGIN_HTML
 {%gmg shadowed 291 %}
+#+END_HTML
 
 It may of course be the case I'm missing something completely, as the
 setup with the upside down bracket and the northbound routing of the

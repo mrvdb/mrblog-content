@@ -7,7 +7,9 @@
 Usually not visible, but I expect this tool will save the day more
 than once during the whole Cobra building process.
 
+#+BEGIN_HTML
 {%gmg shadowed 432 %}
+#+END_HTML
 
 That is, taking a picture of some stupid mistake I made to explain it
 to someone who actually knows what he is doing and help me out. Also,

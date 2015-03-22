@@ -12,13 +12,17 @@ which is hard to reach.
 The n/s handbrake retraction fork seems a bit too long? Might just be
 the trial assembly, i'll figure that out later.
 
+#+BEGIN_HTML
 {%gmg shadowed 374 %}
+#+END_HTML
 
 One brake pad location was a bit smaller, making it necessary to shave
 a tiny bit of the pad. Scraping of the greenish paint turned out to be
 enough.
 
+#+BEGIN_HTML
 {%gmg shadowed 375 %}
+#+END_HTML
 
 Having all the parts in place i tried to determine the necessary
 shimming to get the brake discs into the midlle of the caliper. It's
@@ -32,7 +36,9 @@ thou' and one of '20 thou', o/s and n/s respectively. I'll just order
 a bunch and see if on finaly assembly these numbers are still the
 same.
 
+#+BEGIN_HTML
 {%gmg shadowed 376 %}
+#+END_HTML
 
 The ring top-leftish in the picture is a placeholder for the one
 part missing here, a hinge pin for the handbrake. I think it got

@@ -8,13 +8,17 @@ Spent the better parts of two days with my hands in the blasting
 cabinet, peeking through a window which doesn't reveal a whole lot of
 what is inside, due to the dust.
 
+#+BEGIN_HTML
 {%gmg shadowed 378 %}
+#+END_HTML
 
 After a while I fabricated a suction device from an old vacuum
 cleaner. That helped a lot, until the vacuum cleaner decided to short
 out and smoke a bit.
 
+#+BEGIN_HTML
 {%gmg shadowed 379 %}
+#+END_HTML
 
 This morning I gathered all the parts and delivered them to
 [[http://www.galvin.nl][Galvin]] where I had the hand brake parts treated too. This time

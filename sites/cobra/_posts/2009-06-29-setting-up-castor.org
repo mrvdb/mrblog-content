@@ -17,14 +17,20 @@ with the original setup of 3 shims to the front and 2 shims at the
 back.  This gave me a 4.4° on the left side and 5.0° on the
 right side of the car.
 
+#+BEGIN_HTML
 {% gmg shadowed 292 %}
+#+END_HTML
 
+#+BEGIN_HTML
 {% gmg shadowed 294 %}
+#+END_HTML
 
 Leaving the left side of the car alone, I moved all 3 shims to the
 back and that gave me 4.5° on the right side.
 
+#+BEGIN_HTML
 {% gmg shadowed 293 %}
+#+END_HTML
 
 Should be close enough for now. The measurement is sort of 'an
 estimate of what it should be' at the moment. It does not really

@@ -11,12 +11,16 @@ was the cause. Unplugging it allowed the power to come back on. This
 weekend I had the time to figure out what had happened. Opening up the
 case and looking inside did not give much hope:
 
+#+BEGIN_HTML
 {%gmg shadowed 393 %}
+#+END_HTML
 
 While the cracked housing is bad, that didn't explain the earth
 leakage. Opening up the motor itself did though:
 
+#+BEGIN_HTML
 {%gmg shadowed 394 %}
+#+END_HTML
 
 That's fried! I'm hesitant to just put another motor back in. I'm
 thinking of turning the whole compressor in and getting one back with

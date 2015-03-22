@@ -8,18 +8,24 @@
 The amount of dirty parts is shrinking considerably now. Especially
 after blasting the parts that are 'ready for painting' look amazing.
 
+#+BEGIN_HTML
 {%gmg shadowed 380 %}
+#+END_HTML
 
 It makes the parts almost look like there is a paint finish on them.
 
+#+BEGIN_HTML
 {% gmg shadowed 381 %}
+#+END_HTML
 
 I also got my hands on a broken bench drill. It's a new machine but
 the motor does not start well. Bit of a gamble, but it sounds like the
 startup capacitor is either the wrong size or broken. It's too big for
 my multimeter so i can not be sure if it is Ok or not.
 
+#+BEGIN_HTML
 {%gmg shadowed 382 %}
+#+END_HTML
 
 Opening up the motor itself revealed a loose wire?!? Seconds before
 the motor ran smooth, so i must have torn it loose on opening up the

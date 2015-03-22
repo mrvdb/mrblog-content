@@ -7,7 +7,9 @@ wheels and rolling was necessary. Although this is a (self imposed)
 deadline, when the thing was on wheels and actually rolling it did
 feel more a milestone than I had thought.
 
+#+BEGIN_HTML
 {% gmg shadowed 284 %}
+#+END_HTML
 
 Again, I have to applaud Gardner Douglas for their 'fit'. The
 differential and the chassis get together by 8 bolts, 6 of which drop

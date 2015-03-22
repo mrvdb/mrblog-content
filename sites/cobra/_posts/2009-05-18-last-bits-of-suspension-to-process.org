@@ -8,7 +8,9 @@ The rear hubs have been waiting for 2 parts to be galvanised; the
 water throwers. I bought these new as the originals were very pitted
 and dented.</p>
 
+#+BEGIN_HTML
 {%gmg shadowed 312 %}
+#+END_HTML
 
 It costs something like € 70,- to galvanise a box of parts. It does
 not matter if that box has 2 bits or is cramped full. So, I've been
@@ -17,7 +19,9 @@ reasonably filled box. As I do want to finish the rear end of the
 suspension soonish, the box was delivered to [[http://www.galvin.nl][Galvin]] to process. It
 should be back here within 2 or 3 weeks or so.
 
+#+BEGIN_HTML
 {%gmg shadowed 313 %}
+#+END_HTML
 
 Not sure how I am going to fit the throwers onto the hub
 though. There is a small edge on the hubs over which the throwers
@@ -27,6 +31,8 @@ circumference or heat it up so it sort of drops over it
 automatically. The edge seems to be smaller at the bottom than at the
 top, so heating it seems a plausible way to go.
 
+#+BEGIN_HTML
 {%gmg shadowed 314 %}
+#+END_HTML
 
 Once I get them back, I'll give that a try first.

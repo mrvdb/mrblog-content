@@ -15,14 +15,18 @@ the garaged finished earlier]] there's always something that needs to be
 finished/improved. So, this summer we placed 2 new windows in the
 south wall.
 
+#+BEGIN_HTML
 {%gmg shadowed 350 %}
+#+END_HTML
 
 
 With the help of [[http://www.rousse.nl][Peter Rousse]] new isolation was placed, and the wall
 was plated with Keralit panels.
 
 
+#+BEGIN_HTML
 {%gmg shadowed 351 %}
+#+END_HTML
 
 Although not a very big job, it always takes more time than originally
 planned. And yet again, I forgot to take a picture of the finished
@@ -53,10 +57,14 @@ the above. All donor parts are basically done and waiting for me to
 put them on to the chassis. For the front-end I assemble the uprights,
 at first a bit baffled why the ball joints did not fit.
 
+#+BEGIN_HTML
 {%gmg shadowed 352 %}
+#+END_HTML
 
 Took me a bit to realise there was still a part of the old ball joint
 attached to the upright which I apparently thought it was part of the
 upright. Other than that, quick job.
 
+#+BEGIN_HTML
 {%gmg shadowed 353 %}
+#+END_HTML

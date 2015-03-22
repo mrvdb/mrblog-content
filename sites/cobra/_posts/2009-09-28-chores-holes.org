@@ -12,7 +12,9 @@ the original Jaguar bolts will come close. The lock-wire went
 considerably smoother than earlier (on the diff bracket). I only
 needed 3 attempts this time!
 
+#+BEGIN_HTML
 {% gmg shadowed 265 %}
+#+END_HTML
 
 On to the front, there are six bolts on the suspension which need
 their head drilled for the lock-wire. Mostly a patience job, making
@@ -26,7 +28,9 @@ choice, I ordered a new one.
 Having the bench drill now is essential, a hole like below just would
 not be possible by hand. (1.5mm hole, 2.5mm finish)
 
+#+BEGIN_HTML
 {% gmg shadowed 268 %}
+#+END_HTML
 
 Back to the back again. The handbrake mechanism comes with two extra
 helper springs which somehow need to be attached to the chassis. There
@@ -34,10 +38,14 @@ are two or three locations which would be suitable, but only one of
 them was reachable with the rivet tool I have. It remains scary to
 drill holes in the chassis.
 
+#+BEGIN_HTML
 {%gmg shadowed 266 %}
+#+END_HTML
 
 At the right bottom you can see the black dot of a more preferable
 location (it pulls on the spring straight instead of in a slight
 angle), but unreachable for my tool.
 
+#+BEGIN_HTML
 {% gmg shadowed 267 %}
+#+END_HTML

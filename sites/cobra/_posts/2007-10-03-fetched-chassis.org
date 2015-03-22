@@ -8,7 +8,9 @@ Went to <a href="http://www.speedon.nl" title="Speedon">speedon</a>
 yesterday to fetch the chassis and the assorted bits needed to help me
 construct a rolling chassis.
 
+#+BEGIN_HTML
 {%gmg shadowed 405 %}
+#+END_HTML
 
 I should probably stick to the proper order and first finish
 revising all the jaguar bits, but it's very tempting to start putting

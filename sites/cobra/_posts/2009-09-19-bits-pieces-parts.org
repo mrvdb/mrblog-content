@@ -16,15 +16,21 @@ flywheel and clutch assembly, so the only thing I can can do with it
 is temporarily mount it on the adapterplate and bell-housing and put
 it away for a while until the other bits arrive.
 
+#+BEGIN_HTML
 {% gmg shadowed 273 %}
+#+END_HTML
 
 The throttle valve was converted to a cable operated one, but on
 assembly to the engine it touches some little pipe behind it. (what is
 that, anyway?) So, some adjusting to be done there.
 
+#+BEGIN_HTML
 {% gmg shadowed 274 %}
+#+END_HTML
 
+#+BEGIN_HTML
 {% gmg shadowed 275 %}
+#+END_HTML
 
 The engine mounts go together with an adapter plate. As assembly they
 are mounted onto the engine in two steps, easy peasy. I noticed the
@@ -32,9 +38,13 @@ mount does not mount flat onto the adapter plate, should there be a
 rubber between them or is is just forced onto it? On final assembly
 I'll get back to that.
 
+#+BEGIN_HTML
 {% gmg shadowed 276 %}
+#+END_HTML
 
+#+BEGIN_HTML
 {% gmg shadowed 277 %}
+#+END_HTML
 
 And finally, the modified thermostat outlet. I'm going to polish that
 a bit later on to smooth out the welds a bit.  Also, there are
@@ -43,4 +53,6 @@ outlet is most 'outwards'. If the outlet is turned 180 degrees it
 moves a bit inwards. When the engine goes in the chassis I'll have to
 revisit this too, judging what's best at that time.
 
+#+BEGIN_HTML
 {% gmg shadowed 278  %}
+#+END_HTML

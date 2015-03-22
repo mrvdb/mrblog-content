@@ -19,6 +19,7 @@ that [[http://github.com]] has the ability to render org-mode documents
 directly and perhaps that library could be used to turn it into a
 jekyll plugin so I could use the org-mode format directly.
 
+#+BEGIN_HTML
 {% pullquote left %}
 Turns out there was a recent commit which mentioned an org-mode
 converter plugin; long story short: installed it and never looked
@@ -26,6 +27,7 @@ back. {" Having jekyll convert org-mode files directly saves the whole
 publishing configuration step in Emacs "} which would otherwise be needed
 from within org-mode.
 {% endpullquote %}
+#+END_HTML
 
 The converter is simple; it uses an [[https://github.com/bdewey/org-ruby][org-ruby]] call to convert the org-file
 to html and that's it really:

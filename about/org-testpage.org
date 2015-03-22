@@ -276,8 +276,9 @@ The frontmatter is parsed by jekyll, obviously
    example)
 
    Result:
-
-   {% gmg shadowed 168 %}
+   #+BEGIN_HTML
+      {% gmg shadowed 168 %}
+   #+END_HTML
 
 ** Emphasis
   *single asterisks: bold*

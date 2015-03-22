@@ -10,7 +10,9 @@ didnt include an oil dispenser nor air filter kit. Today i fetched the
 parts for that and assembled them into a 'bar' which will end up on a
 wall-mounted plate in the new garage.
 
+#+BEGIN_HTML
 {%gmg shadowed 436 %}
+#+END_HTML
 
 The part on the left is the air filter / reducer, right is the oil
 dispenser. I created two outlets, one after just the air filter and

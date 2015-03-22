@@ -14,13 +14,17 @@ I double checked the torque on the drive shaft nu and got a helpful
 email from [[http://www.cobraclub.com/forum/members/mac-stowt.html][Terry]] about it too. Torqued it to 136Nm and put in the
 cotter pin.
 
+#+BEGIN_HTML
 {% gmg shadowed 287 %}
+#+END_HTML
 
 The overview Terry sent me had torque numbers for the diff cover nuts
 as well, so out came the nord-lock washers again and the torque
 wrench. Probably not that important, but alas, looks nice at least.
 
+#+BEGIN_HTML
 {% gmg shadowed 288 %}
+#+END_HTML
 
 Last job was deciding wether to fit the flimsy covers for the drive
 shafts. General consensus on the fora was a big no-no, so that made

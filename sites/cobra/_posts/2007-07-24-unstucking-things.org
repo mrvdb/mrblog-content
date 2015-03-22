@@ -15,7 +15,9 @@ another example, as of yet unsolved, of something which is
 stuck. Suggestions are welcome. I'm thinking of putting it into the
 oven or use a mini flame thrower on it.
 
+#+BEGIN_HTML
 {%gmg shadowed 419 %}
+#+END_HTML
 
 Also had a quick look at the differential. Although it was said to
 be 100% in order, i'm hesitant not to check and recondition

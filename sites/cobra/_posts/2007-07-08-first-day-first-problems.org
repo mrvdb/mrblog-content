@@ -9,11 +9,15 @@ axle. The start was pretty much ok, got the lower wishbones loose
 pretty easily. The only somewhat interesting part was getting the
 bearings out. Two sockets of appropriate size and a vice:
 
+#+BEGIN_HTML
 {%gmg shadowed 425 %}
+#+END_HTML
 
 and out they come in no time:
 
+#+BEGIN_HTML
 {%gmg shadowed 426 %}
+#+END_HTML
 
 I wish i could say the same for getting the universal joints out
 of the drive shafts. I already had them soaked with WD40 since the day
@@ -25,7 +29,9 @@ joints removed. The first was relatively easy (took me only 2 ½
 hours). The second was worse and its removal damaged one of the
 shafts:
 
+#+BEGIN_HTML
 {%gmg shadowed 427 %}
+#+END_HTML
 
 Apparently the thing was so tight it scraped some of the metal into
 a rim. Obviously, that has to be removed again later on, hmm will that
