@@ -41,7 +41,7 @@ me, for now.
 
 **** Dealing with the yaml header settings
 Getting rid of the '=---='–marker is one thing, but between those
-markers are settings which are relant for the document. At least
+markers are settings which are relevant for the document. At least
 title, tags and layout are usually present in the header. With the
 yaml-header gone we need a way to register those variables in some
 org-mode syntax.
