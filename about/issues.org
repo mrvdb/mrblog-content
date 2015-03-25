@@ -14,19 +14,19 @@ covered in org-mode ;-)
      :PROPERTIES:
      :CREATED:  [2015-03-22 zo 17:22]
      :END:
-**** TODO Move comment system to something static
+**** TODO Move comment system to something static						       :build:
      :PROPERTIES:
      :CREATED:  [2015-03-19 do 14:58]
      :END:
      To keep with the spirit of a Jekyll site, comments should really be
      static as well.
-**** TODO Create a better way for handling remote images
+**** TODO Create a better way for handling remote images					       :build:
      :PROPERTIES:
      :CREATED:  [2015-03-19 do 15:23]
      :END:
      Similar to the gmg plugin, but more generic. Goal is to have a
      quick way to insert a properly styled image, based on a class or keyword.
-**** TODO UTF-encoding is not working properly
+**** DONE UTF-encoding is not working properly								 :fix:
      :PROPERTIES:
      :CREATED:  [2015-03-19 do 15:24]
      :END:
@@ -35,32 +35,43 @@ covered in org-mode ;-)
 
      The odd thing is that locally it renders fine, so it's probably a
      nginx setting?
-**** TODO Make pages searchable
+**** TODO Make pages searchable										 :fix:
      :PROPERTIES:
      :CREATED:  [2015-03-19 do 15:27]
      :END:
      I think only posts are now handled by the search plugin
-**** TODO Make collections searchable
+**** TODO Make collections searchable									 :fix:
      :PROPERTIES:
      :CREATED:  [2015-03-19 do 15:28]
      :END:
-**** TODO Adapt gmg preset to fetch small image and load large with lytebox
+**** TODO Adapt gmg preset to fetch small image and load large with lytebox			     :improve:
      :PROPERTIES:
      :CREATED:  [2015-03-20 vr 16:12]
      :END:
-**** TODO Find some sort of automated link checker
+**** TODO Find some sort of automated link checker						       :build:
      :PROPERTIES:
      :CREATED:  [2015-03-20 vr 16:13]
      :END:
-**** TODO Search result page should have title and an excerpt, but not more
-     :PROPERTIES:
-     :CREATED:  [2015-03-20 vr 17:32]
-     :END:
-**** TODO Improve rendering of TODO list
+**** TODO Improve rendering of TODO list							     :improve:
      :PROPERTIES:
      :CREATED:  [2015-03-21 za 12:25]
      :END:
-**** TODO Look at jekyll-staging gem
+**** TODO Look at jekyll-staging gem								       :check:
      :PROPERTIES:
      :CREATED:  [2015-03-22 zo 19:13]
      :END:
+**** TODO Configure multiple formats for mrblog.nl blog postings				       :build:
+     :PROPERTIES:
+     :CREATED:  [2015-03-18 wo 09:58]
+     :END:
+     Now all source is valid org-mode we have a plethora of nice options:
+     - deliver original source format (org-mode)
+     - pdf format        (for printing)
+     - openoffice format (for additional editing)
+     - plain text format (for email)
+
+In the jekyll spirit, this should really all be generated statically
+and published in the same way as org->html For the latter we use
+org-ruby.
+
+See also: https://github.com/fauno/jekyll-pandoc-multiple-formats
