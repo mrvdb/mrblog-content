@@ -1,5 +1,5 @@
-#+layout: post
 #+title: Happy Hacking Keyboard in use
+#+tags: hardware keyboard
 
 * Points											    :noexport:
 A review of the HHKB Professional 2 Type S keyboard

@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Jekyll support in emacs
 #+categories: cat1 cat2
 #+tags: tag1 tag2

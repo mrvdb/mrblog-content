@@ -1,4 +1,3 @@
-#+layout: post
 #+TITLE: Do I personally need a bank?
 #+categories: cat1 cat2
 #+tags: tag1 tag2

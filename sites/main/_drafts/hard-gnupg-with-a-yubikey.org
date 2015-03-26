@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Hard GNUpg with a yubikey
 #+tags: hardware gnupg crypto
 
