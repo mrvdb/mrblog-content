@@ -1,4 +1,3 @@
-#+layout: post
 #+title: A day with rear hubs and water throwers
 #+tags: cobra donor-parts rear-suspension
 #+published: true

@@ -1,5 +1,4 @@
 #+title: RelaxNG versus W3 XSD
-#+layout: post
 #+tags: ideas
 #+published: true
 

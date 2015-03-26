@@ -1,5 +1,4 @@
 #+title: A weeks worth of claws-mail on OSX
-#+layout: post
 #+tags: claws coding integration osx
 
 After installing Snow Leopard I was left with a page of programs and

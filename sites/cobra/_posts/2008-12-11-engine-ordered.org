@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Engine ordered!
 #+tags: cobra engine
 #+status: publish

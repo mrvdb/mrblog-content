@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Slowly moving from dirty to clean
 #+tags: cobra donor-parts tools
 #+published: true

@@ -1,4 +1,3 @@
-#+layout: post
 #+title: It should have been easier
 #+tags: cobra oops rear-suspension
 #+status: publish

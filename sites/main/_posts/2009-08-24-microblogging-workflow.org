@@ -1,5 +1,4 @@
 #+title: Microblogging workflow
-#+layout: post
 #+tags: integration
 
 The number of accounts I have on _useful_ networks, social or otherwise,

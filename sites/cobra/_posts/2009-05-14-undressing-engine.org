@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Undressing engine
 #+tags: cobra engine
 #+type: post

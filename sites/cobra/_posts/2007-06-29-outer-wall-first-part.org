@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Outer wall, first part
 #+tags: cobra garage
 #+type: post

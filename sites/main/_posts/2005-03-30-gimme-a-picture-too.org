@@ -1,5 +1,4 @@
 #+title: Gimme a picture too!
-#+layout: post
 #+tags: xaraya
 
 Continuing the work on the metaweblog api implementation in Xaraya, I

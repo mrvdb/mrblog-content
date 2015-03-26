@@ -1,5 +1,4 @@
 #+title: Getting used to a new OS
-#+layout: post
 #+tags: current-affairs
 #+published: true
 

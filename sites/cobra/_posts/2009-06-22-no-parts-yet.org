@@ -1,4 +1,3 @@
-#+layout: post
 #+title: No parts yet…
 #+tags: cobra engine gearbox
 #+status: publish

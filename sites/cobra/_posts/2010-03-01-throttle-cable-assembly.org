@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Throttle cable assembly
 #+categories: cobra
 #+tags: cobra engine

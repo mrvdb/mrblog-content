@@ -1,5 +1,4 @@
 #+title: Switching to another blog client
-#+layout: post
 #+tags: current-affairs
 
 After quite a long period of using ecto, I have switched to using

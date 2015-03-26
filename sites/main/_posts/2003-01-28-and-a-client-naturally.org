@@ -1,5 +1,4 @@
 #+title: And a client naturally...
-#+layout: post
 #+tags: xaraya
 
 And a client naturally...Once you have the blog server side set up,

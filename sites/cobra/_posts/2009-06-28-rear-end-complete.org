@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Rear-end complete?
 #+tags: cobra front-suspension rear-suspension
 #+type: post

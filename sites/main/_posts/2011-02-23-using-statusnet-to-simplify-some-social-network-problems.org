@@ -1,5 +1,4 @@
 #+title: Using StatusNet to simplify some social network problems
-#+layout: post
 #+tags: statusnet
 
 I'm probably not the typical user of social networks. I join them not

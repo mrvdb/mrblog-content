@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Rear hub buildup pt. 2
 #+tags: cobra donor-parts
 #+published: true

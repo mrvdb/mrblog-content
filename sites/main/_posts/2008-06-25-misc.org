@@ -1,5 +1,4 @@
 #+title: Misc.
-#+layout: post
 #+tags: info
 #+type: post
 #+published: true

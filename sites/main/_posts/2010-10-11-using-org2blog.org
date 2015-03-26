@@ -1,5 +1,4 @@
 #+title: Using org2blog
-#+layout: post
 #+tags: org-mode emacs wordpress
 #+excerpt: The excerpt of the blog post goes here. This particular blog-post is a meta-post about org2blog
 

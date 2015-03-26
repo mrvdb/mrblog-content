@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Garage door is in.
 #+tags: cobra garage
 #+type: post

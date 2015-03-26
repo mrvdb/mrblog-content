@@ -1,5 +1,4 @@
 #+title: Pathetic
-#+layout: post
 #+tags: integration
 #+published: true
 

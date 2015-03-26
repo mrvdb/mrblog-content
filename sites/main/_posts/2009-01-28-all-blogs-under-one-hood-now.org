@@ -1,5 +1,4 @@
 #+title: All blogs under one hood now
-#+layout: post
 #+tags: integration
 
 Finally gotten around to integrating http://cobra.mrblog.nl and this

@@ -1,5 +1,4 @@
 #+title: Ecto recognizes the Xaraya endpoint
-#+layout: post
 #+tags: integration xaraya
 
 I dropped a quick message to Adriaan Tijsseling, the developer of the

@@ -1,5 +1,4 @@
 #+title: 5 years of blogging?
-#+layout: post
 #+tags: current-affairs xaraya
 
 I just migrated the posts from this site from Xaraya to a Wordpress

@@ -1,4 +1,3 @@
-#+layout: post
 #+title: New tools: air compressor
 #+tags: cobra tools
 #+type: post

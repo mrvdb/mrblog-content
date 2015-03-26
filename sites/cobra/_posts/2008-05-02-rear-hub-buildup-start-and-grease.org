@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Rear hub buildup start and grease
 #+tags: cobra donor-parts tools
 #+type: post

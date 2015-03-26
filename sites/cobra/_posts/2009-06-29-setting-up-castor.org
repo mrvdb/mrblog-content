@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Setting up castor
 #+tags: cobra front-suspension
 #+type: post

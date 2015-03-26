@@ -1,5 +1,4 @@
 #+title: I thought nobody did that anymore
-#+layout: post
 #+tags: people
 #+published: true
 

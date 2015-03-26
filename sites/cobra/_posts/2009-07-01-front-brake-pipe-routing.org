@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Front brake pipe routing
 #+tags: cobra brakes front-suspension
 #+type: post

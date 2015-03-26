@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Got one, lost one…
 #+tags: cobra donor-parts oops rear-suspension
 #+status: publish

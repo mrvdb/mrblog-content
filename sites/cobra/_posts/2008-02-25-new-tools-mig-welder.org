@@ -1,4 +1,3 @@
-#+layout: post
 #+title: New tools: MIG welder
 #+tags: cobra tools
 #+published: true

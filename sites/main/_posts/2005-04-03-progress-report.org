@@ -1,5 +1,4 @@
 #+title: Progress report
-#+layout: post
 #+tags: coding xaraya
 
 Making xaraya react to the =mt_keywords= MT member was easy with the

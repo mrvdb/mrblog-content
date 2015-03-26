@@ -1,5 +1,4 @@
 #+title: Maintaining 'seen' info
-#+layout: post
 #+tags: integration
 #+published: true
 

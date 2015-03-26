@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Crack in the pot...
 #+tags: cobra donor-parts oops
 #+published: true

@@ -1,5 +1,4 @@
 #+title: Moving over
-#+layout: post
 #+tags: xaraya
 
 I moved over my Moveable Type powered blog over to a Xaraya

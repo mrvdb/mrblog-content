@@ -1,5 +1,4 @@
 #+title: Voting by eMail
-#+layout: post
 #+tags: xaraya
 
 eVote [[http://www.deliberate.com/][link]]

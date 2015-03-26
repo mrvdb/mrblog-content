@@ -1,4 +1,3 @@
-#+layout: post
 #+title: rear-suspension, left side
 #+tags: cobra rear-suspension
 #+status: publish

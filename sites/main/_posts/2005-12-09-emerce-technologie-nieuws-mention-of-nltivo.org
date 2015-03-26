@@ -1,5 +1,4 @@
 #+title: Emerce - Technologie nieuws: Mention of NLTivo
-#+layout: post
 #+tags: current-affairs people
 
 [[http://www.emerce.nl/nieuws.jsp?id=972005][Emerce - Technologie nieuws]]: TiVo maakt downloaden naar iPod mogelijk:

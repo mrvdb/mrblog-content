@@ -1,4 +1,3 @@
-#+layout: post
 #+title: The obligatory what, why and how...
 #+tags: cobra info
 #+published: true

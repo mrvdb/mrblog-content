@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Working with Jekyll and Org-Mode
 #+tags: jekyll org-mode ruby
 #+liquid: enable

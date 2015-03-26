@@ -1,6 +1,5 @@
 #+title: Testing in public is always nice
 #+published: false
-#+layout: post
 
 
 This is a testing post to see whether this post gets nicely inserted

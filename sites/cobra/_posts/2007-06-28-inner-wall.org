@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Inner wall
 #+tags: cobra garage
 #+type: post

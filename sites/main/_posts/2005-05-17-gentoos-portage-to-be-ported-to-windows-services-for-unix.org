@@ -1,5 +1,4 @@
 #+title: Gentoo's Portage to be ported to Windows Services for UNIX
-#+layout: post
 #+tags: ideas integration
 #+published: true
 

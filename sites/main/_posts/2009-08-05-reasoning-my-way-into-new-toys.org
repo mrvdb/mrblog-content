@@ -1,5 +1,4 @@
 #+title: Reasoning my way into new toys
-#+layout: post
 #+tags: current-affairs segway toys
 
 Last Monday was my 40th birthday. I'm kind of used to having a quiet

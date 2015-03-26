@@ -1,5 +1,4 @@
 #+title: Lowering the treshold
-#+layout: post
 #+tags: integration
 #+published: true
 

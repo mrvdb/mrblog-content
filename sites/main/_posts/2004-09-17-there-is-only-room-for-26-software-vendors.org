@@ -1,5 +1,4 @@
 #+title: There is only room for 26 software vendors
-#+layout: post
 #+tags: integration
 
 Those marketing guys must be rather clueless, lots of software

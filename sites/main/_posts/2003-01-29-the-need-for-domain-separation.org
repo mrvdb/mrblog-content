@@ -1,5 +1,4 @@
 #+title: The need for domain separation
-#+layout: post
 #+tags: xaraya
 #+published: true
 

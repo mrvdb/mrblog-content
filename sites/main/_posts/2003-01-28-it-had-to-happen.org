@@ -1,5 +1,4 @@
 #+title: It had to happen
-#+layout: post
 #+tags: current-affairs
 #+published: true
 

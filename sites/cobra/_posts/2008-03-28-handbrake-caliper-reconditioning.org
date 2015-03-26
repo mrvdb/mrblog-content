@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Handbrake caliper reconditioning
 #+tags: cobra brakes donor-parts
 #+type: post

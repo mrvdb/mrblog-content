@@ -1,5 +1,4 @@
 #+title: Unit testing framework
-#+layout: post
 #+tags: revision-control xaraya
 #+published: true
 

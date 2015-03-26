@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Garage rebuild started
 #+tags: cobra garage
 #+type: post

@@ -1,6 +1,5 @@
 #+title: Testing jekyll posting
 #+published: false
-#+layout: post
 
 
 The intent of this file is to represent the way in which I would like

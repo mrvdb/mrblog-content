@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Differential buildup
 #+tags: cobra brakes rear-suspension
 #+type: post

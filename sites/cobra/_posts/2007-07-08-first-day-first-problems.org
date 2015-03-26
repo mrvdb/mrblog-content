@@ -1,4 +1,3 @@
-#+layout: post
 #+title: First day, first problems...
 #+tags: cobra donor-parts oops
 #+type: post

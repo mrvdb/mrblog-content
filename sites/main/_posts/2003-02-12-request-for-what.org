@@ -1,5 +1,4 @@
 #+title: Request for what?
-#+layout: post
 #+tags: xaraya
 #+published: true
 

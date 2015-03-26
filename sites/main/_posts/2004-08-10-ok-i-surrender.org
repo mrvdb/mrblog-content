@@ -1,5 +1,4 @@
 #+title: Ok, I surrender
-#+layout: post
 #+tags: current-affairs
 
 I decided to disable comments alltogether on this blog. The amount of

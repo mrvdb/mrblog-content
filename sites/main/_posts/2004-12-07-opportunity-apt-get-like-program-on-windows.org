@@ -1,5 +1,4 @@
 #+title: Opportunity: apt-get like program on windows
-#+layout: post
 #+tags: ideas
 #+type: post
 #+published: true

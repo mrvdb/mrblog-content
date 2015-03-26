@@ -1,7 +1,6 @@
 #+title: Surviving OpenERP
 #+tags: openerp
 #+published: false
-#+layout: post
 
 
 * Discuss usecase for mailgate

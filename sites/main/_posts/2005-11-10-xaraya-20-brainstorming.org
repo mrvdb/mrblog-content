@@ -1,5 +1,4 @@
 #+title: Xaraya 2.0 Brainstorming
-#+layout: post
 #+tags: coding ideas xaraya
 
 Let's try to create a chain of documents like the one John did in

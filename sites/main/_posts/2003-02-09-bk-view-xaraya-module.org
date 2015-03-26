@@ -1,5 +1,4 @@
 #+title: BK-view Xaraya module
-#+layout: post
 #+tags: revision-control
 #+published: true
 

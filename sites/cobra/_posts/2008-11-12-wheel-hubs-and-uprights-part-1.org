@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Wheel hubs and uprights part 1
 #+tags: cobra front-suspension
 #+status: publish

@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Look what Santa brought me...
 #+tags: cobra engine
 #+type: post

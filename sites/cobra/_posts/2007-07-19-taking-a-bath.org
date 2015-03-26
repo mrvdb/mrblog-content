@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Taking a bath.
 #+tags: cobra donor-parts
 #+published: true

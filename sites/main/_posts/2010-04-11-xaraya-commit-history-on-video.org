@@ -1,5 +1,4 @@
 #+title: Xaraya commit history on video
-#+layout: post
 #+tags: coding integration revision control xaraya
 
 Played a little with the gource log visualizer today. It is typically

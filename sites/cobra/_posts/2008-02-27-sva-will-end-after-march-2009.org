@@ -1,4 +1,3 @@
-#+layout: post
 #+title: SVA will end after march 2009?
 #+tags: cobra info
 #+published: true

@@ -1,5 +1,4 @@
 #+title: Maintenance...
-#+layout: post
 #+tags: integration web
 #+status: publish
 

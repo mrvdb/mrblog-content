@@ -1,5 +1,4 @@
 #+title: source control infrastructure growth
-#+layout: post
 #+tags: revision-control xaraya
 #+published: true
 

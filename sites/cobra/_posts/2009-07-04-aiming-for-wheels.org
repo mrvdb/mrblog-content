@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Aiming for wheels
 #+tags: cobra front-suspension garage
 #+status: publish

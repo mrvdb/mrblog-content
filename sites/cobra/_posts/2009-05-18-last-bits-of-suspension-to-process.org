@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Last bits of suspension to process
 #+tags: cobra donor-parts tools
 #+type: post

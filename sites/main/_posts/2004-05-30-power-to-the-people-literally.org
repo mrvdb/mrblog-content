@@ -1,5 +1,4 @@
 #+title: Power to the people, literally
-#+layout: post
 #+tags: ideas
 #+published: true
 

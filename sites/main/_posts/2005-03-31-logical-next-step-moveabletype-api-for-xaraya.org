@@ -1,5 +1,4 @@
 #+title: Logical next step: MoveableType API for Xaraya
-#+layout: post
 #+tags: coding xaraya
 
 While I was at it, the Moveable Type API seemed quite close, so I

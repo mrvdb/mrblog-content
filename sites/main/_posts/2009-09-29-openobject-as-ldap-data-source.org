@@ -1,5 +1,4 @@
 #+title: OpenObject as LDAP data-source
-#+layout: post
 #+tags: claws integration openobject
 #+status: publish
 #+type: post

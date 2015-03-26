@@ -1,5 +1,4 @@
 #+title: Revisiting Emacs on OSX
-#+layout: post
 #+tags: current-affairs
 
 Before I used an Apple machine with OSX, XEmacs was my editor of

@@ -1,5 +1,4 @@
 #+TITLE: Publishing your Emacs configuration with Jekyll
-#+LAYOUT: post
 #+TAGS: jekyll org-mode integration emacs
 #+liquid: enabled
 

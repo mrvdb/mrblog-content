@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Measured backlash, all is fine
 #+tags: cobra rear-suspension
 #+type: post

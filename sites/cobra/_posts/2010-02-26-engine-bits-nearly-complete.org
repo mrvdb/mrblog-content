@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Engine bits nearly complete
 #+tags:  cobra engine
 #+type: post

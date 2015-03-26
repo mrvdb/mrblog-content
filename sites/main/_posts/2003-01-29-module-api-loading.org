@@ -1,5 +1,4 @@
 #+title: Module API loading
-#+layout: post
 #+tags: xaraya
 #+published: true
 

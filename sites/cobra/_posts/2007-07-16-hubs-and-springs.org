@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Hubs and springs...
 #+tags: cobra donor-parts
 #+published: true

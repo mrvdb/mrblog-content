@@ -1,5 +1,4 @@
 #+title: Smoothly migrating your Xaraya installs to PHP 5
-#+layout: post
 #+tags: xaraya
 
 We run about 30 Xaraya installations for our clients on our

@@ -1,5 +1,4 @@
 #+title: A year has passed
-#+layout: post
 #+tags: current-affairs
 #+status: publish
 #+type: post

@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Spot the differences
 #+tags: cobra garage
 #+type: post

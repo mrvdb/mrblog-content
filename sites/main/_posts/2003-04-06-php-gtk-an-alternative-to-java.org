@@ -1,5 +1,4 @@
 #+title: PHP-GTK an alternative to Java?
-#+layout: post
 #+tags: coding ideas
 #+published: true
 

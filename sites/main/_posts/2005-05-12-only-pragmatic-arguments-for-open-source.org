@@ -1,5 +1,4 @@
 #+title: Only pragmatic arguments for Open source?
-#+layout: post
 #+tags: current-affairs
 
 [[http://www.computereconomics.com/article.cfm?id=1043][Computer Economics: research on strategic and financial management of

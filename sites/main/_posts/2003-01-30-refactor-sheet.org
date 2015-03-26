@@ -1,5 +1,4 @@
 #+title: Refactor sheet
-#+layout: post
 #+tags: coding
 #+published: true
 

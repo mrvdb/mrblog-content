@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Yay! and Oops!
 #+tags: cobra donor-parts oops tools
 #+type: post

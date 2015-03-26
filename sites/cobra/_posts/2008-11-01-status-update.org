@@ -1,5 +1,4 @@
 #+title: Status update
-#+layout: post
 #+tags: front suspension garage info
 #+published: true
 

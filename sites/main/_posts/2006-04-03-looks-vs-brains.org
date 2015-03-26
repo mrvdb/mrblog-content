@@ -1,5 +1,4 @@
 #+title: Looks vs Brains
-#+layout: post
 #+tags: coding integration
 
 During their lives, people evolve, that's a given. For me, they start

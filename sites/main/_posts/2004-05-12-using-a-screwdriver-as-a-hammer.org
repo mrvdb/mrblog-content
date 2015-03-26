@@ -1,5 +1,4 @@
 #+title: Using a screwdriver as a hammer
-#+layout: post
 #+tags: integration
 #+published: true
 

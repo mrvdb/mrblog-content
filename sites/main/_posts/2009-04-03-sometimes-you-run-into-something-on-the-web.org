@@ -1,5 +1,4 @@
 #+title: Sometimes you run into something on the web...
-#+layout: post
 #+tags: current-affairs
 
 While looking for a solution to a LaTeX path search problem i ran into this:

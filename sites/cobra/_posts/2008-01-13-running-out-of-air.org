@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Running out of air
 #+tags: cobra oops tools
 #+type: post

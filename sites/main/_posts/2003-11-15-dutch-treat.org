@@ -1,5 +1,4 @@
 #+title: Dutch treat?
-#+layout: post
 #+tags: current-affairs
 
 Will the [[http://www.ebaygeeks.com/desktopmodules/ebaygeeks/ebay2rss.aspx][Ebay2RSS Feed]] help me to get the best prices on the expensive electronics i

@@ -1,5 +1,4 @@
 #+title: Sigh
-#+layout: post
 #+tags: current-affairs
 
 [[http://maccentral.macworld.com/news/2004/06/03/microsoft/?lsrc=mcrss-0604][Microsoft granted patent on button click timing]]

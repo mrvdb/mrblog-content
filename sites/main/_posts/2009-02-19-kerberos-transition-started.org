@@ -1,5 +1,4 @@
 #+title: Kerberos transition started
-#+layout: post
 #+tags: integration
 
 As of last thursday, I've started to migrate everything in our

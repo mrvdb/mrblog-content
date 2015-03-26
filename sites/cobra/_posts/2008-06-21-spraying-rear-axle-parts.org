@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Spraying rear axle parts
 #+tags: cobra donor-parts
 #+type: post

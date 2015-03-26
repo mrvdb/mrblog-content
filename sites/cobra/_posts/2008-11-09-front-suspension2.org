@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Further work on front-suspension
 #+tags: cobra front-suspension
 #+status: publish

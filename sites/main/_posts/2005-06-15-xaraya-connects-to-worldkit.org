@@ -1,5 +1,4 @@
 #+title: Xaraya connects to worldkit
-#+layout: post
 #+tags: integration xaraya
 
 For play, i constructed a couple of templates on the [[http://xaraya.com][Xaraya]] site to

@@ -1,4 +1,3 @@
-#+layout: post
 #+title: Chassis ordered
 #+tags: cobra chassis donor-parts engine garage
 #+type: post

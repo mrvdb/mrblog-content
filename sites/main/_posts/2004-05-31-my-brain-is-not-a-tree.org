@@ -1,5 +1,4 @@
 #+title: My brain is not a tree
-#+layout: post
 #+tags: current-affairs
 #+published: true
 

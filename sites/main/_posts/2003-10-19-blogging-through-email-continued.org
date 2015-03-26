@@ -1,5 +1,4 @@
 #+title: blogging through email, continued
-#+layout: post
 #+tags: integration
 #+published: true
 
