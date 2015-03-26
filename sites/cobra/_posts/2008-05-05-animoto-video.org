@@ -1,8 +1,5 @@
 #+title: Animoto video
 #+tags: cobra donor-parts
-#+status: publish
-#+type: post
-#+published: true
 
 Was looking at animoto this morning and uploaded the donor parts
 picasa album. It automagically creates a short video from a set of

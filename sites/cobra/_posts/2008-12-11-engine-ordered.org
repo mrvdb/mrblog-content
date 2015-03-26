@@ -1,8 +1,5 @@
 #+title: Engine ordered!
 #+tags: cobra engine
-#+status: publish
-#+type: post
-#+published: true
 
 After some more phoning and mailing back and forth, I parted with the
 money for a new LS2 crate engine. Now the waiting game

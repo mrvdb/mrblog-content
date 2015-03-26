@@ -1,6 +1,5 @@
 #+title: SVA will end after march 2009?
 #+tags: cobra info
-#+published: true
 
 
 Reading it first in [[http://str-427-cobra.blogspot.com/2008/02/potential-big-trouble-ahead.html][Big Trouble Ahead]], there is a

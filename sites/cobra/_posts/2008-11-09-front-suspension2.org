@@ -1,8 +1,5 @@
 #+title: Further work on front-suspension
 #+tags: cobra front-suspension
-#+status: publish
-#+type: post
-#+published: true
 
 Continued with the front-suspension today. As mentioned yesterday, the
 right lower wishbone needed some help, so the two arms were pulled

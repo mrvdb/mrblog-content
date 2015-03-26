@@ -1,6 +1,5 @@
 #+title: Differential reconditioning part one
 #+tags: cobra donor-parts
-#+published: true
 
 Reconditioning the diff is mostly cleaning, repainting it (not done
 that yet) and replacing the leaking pinion seal. Replacing the pinion

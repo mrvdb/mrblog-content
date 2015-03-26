@@ -1,6 +1,5 @@
 #+title: My brain is not a tree
 #+tags: current-affairs
-#+published: true
 
 Mind mapping seemed an attractive concept to bring some order into
 my chaotic thoughts, so i spend an afternoon looking for a program

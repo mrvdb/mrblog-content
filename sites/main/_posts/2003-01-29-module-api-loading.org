@@ -1,6 +1,5 @@
 #+title: Module API loading
 #+tags: xaraya
-#+published: true
 
 In calling an API function for a module you had to make sure that
 the API of that module was loaded in your module. The core had already

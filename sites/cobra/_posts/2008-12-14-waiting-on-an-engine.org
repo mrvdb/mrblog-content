@@ -1,7 +1,5 @@
 #+title: Waiting on an engine
 #+tags: cobra engine tools
-#+type: post
-#+published: true
 
 
 With the engine on the way, I went to [[http://buitelaar.nl][Buitelaar machinehandel]] to pick up an

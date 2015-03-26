@@ -1,7 +1,5 @@
 #+title: We're almost there...
 #+tags: cobra garage
-#+type: post
-#+published: true
 
 That is, finishing up the garage. Next monday the new cement floor
 will be 'poured in'.

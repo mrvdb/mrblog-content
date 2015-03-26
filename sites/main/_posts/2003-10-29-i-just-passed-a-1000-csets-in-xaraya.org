@@ -1,6 +1,5 @@
 #+title: I just passed a 1000 csets in Xaraya
 #+tags: revision-control xaraya
-#+published: true
 
 Some hours ago my changeset number 1000 went into the xaraya
 repository.

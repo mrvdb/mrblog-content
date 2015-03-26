@@ -1,6 +1,5 @@
 #+title: Unit testing framework
 #+tags: revision-control xaraya
-#+published: true
 
 Last week we started implementing a unit testing framework for
 Xaraya, which is highly integrated with the bitkeeper repository.

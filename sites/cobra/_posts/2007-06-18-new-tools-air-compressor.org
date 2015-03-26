@@ -1,7 +1,5 @@
 #+title: New tools: air compressor
 #+tags: cobra tools
-#+type: post
-#+published: true
 
 As most of the other kit car builders i've met, i'm drooling over
 new tools too. I got myself an air compressor a while ago, but it

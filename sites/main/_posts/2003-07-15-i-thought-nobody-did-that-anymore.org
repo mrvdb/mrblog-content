@@ -1,6 +1,5 @@
 #+title: I thought nobody did that anymore
 #+tags: people
-#+published: true
 
 [[http://greg.abstrakt.ch/archives/2003/07/quines_mutating][quines, mutating code and virtual life]] :: Imagination is key to your
 dreams coming true: quines, mutating code and virtual life

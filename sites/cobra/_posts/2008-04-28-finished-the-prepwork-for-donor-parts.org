@@ -1,6 +1,5 @@
 #+title: Finished the prepwork for donor parts
 #+tags: cobra donor-parts tools
-#+published: true
 
 Spent the better parts of two days with my hands in the blasting
 cabinet, peeking through a window which doesn't reveal a whole lot of

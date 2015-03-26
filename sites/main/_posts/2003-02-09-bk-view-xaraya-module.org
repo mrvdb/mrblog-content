@@ -1,6 +1,5 @@
 #+title: BK-view Xaraya module
 #+tags: revision-control
-#+published: true
 
 Today the BK-view module I wrote for Xaraya went into a live site
 which can actually be used for something usefull.

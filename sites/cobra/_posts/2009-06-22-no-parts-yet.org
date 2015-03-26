@@ -1,7 +1,5 @@
 #+title: No parts yet…
 #+tags: cobra engine gearbox
-#+status: publish
-#+type: post
 
 So, no parts this week yet. Might as well tell a bit about what I'm waiting for.
 

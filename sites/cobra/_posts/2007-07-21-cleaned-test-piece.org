@@ -1,7 +1,5 @@
 #+title: Cleaned test piece
 #+tags: cobra donor-parts
-#+type: post
-#+published: true
 
 So, turns out that electrolysis is an art to be mastered. The first
 attempt did not do very much, very little bubbles and it would take

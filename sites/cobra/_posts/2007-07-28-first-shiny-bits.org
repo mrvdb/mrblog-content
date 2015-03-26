@@ -1,7 +1,5 @@
 #+title: First shiny bits
 #+tags: cobra donor-parts
-#+type: post
-#+published: true
 
 Went to [[http://www.daxbenelux.com][DAX Benelux]] today to exchange the disassembled calipers for
 reconditioned ones. I dont actually need them right away, as there is

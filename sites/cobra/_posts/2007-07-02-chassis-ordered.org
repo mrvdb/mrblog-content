@@ -1,7 +1,5 @@
 #+title: Chassis ordered
 #+tags: cobra chassis donor-parts engine garage
-#+type: post
-#+published: true
 
 The chassis has been ordered, that is, Mischa is visiting
 [[http://www.gdcars.com][Gardner Douglas]] on wednessday an will order on my behalf. We spoke on

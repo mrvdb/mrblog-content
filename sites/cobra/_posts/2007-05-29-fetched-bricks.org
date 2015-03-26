@@ -1,7 +1,5 @@
 #+title: Fetched bricks
 #+tags: cobra garage
-#+type: post
-#+published: true
 
 Bought a set of classic bricks from
 [[http://marktplaats.nl][marktplaats.nl]] and abused the horse trailer

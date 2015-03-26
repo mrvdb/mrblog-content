@@ -1,7 +1,5 @@
 #+title: Completing the front hub
 #+tags: cobra front-suspension
-#+type: post
-#+published: true
 
 
 Back to the front again, completing the wheel hubs. First, put in the

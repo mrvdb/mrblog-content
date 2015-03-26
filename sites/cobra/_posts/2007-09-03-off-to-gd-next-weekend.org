@@ -1,7 +1,5 @@
 #+title: Off to GD next weekend
 #+tags: cobra chassis garage
-#+type: post
-#+published: true
 
 [[http://gdcars.com][GD]] is having an Open Day next weekend. As my chassis is probably in
 the jig right now i thought it would be nice to visit them. Combined

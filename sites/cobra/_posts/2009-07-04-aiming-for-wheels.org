@@ -1,8 +1,5 @@
 #+title: Aiming for wheels
 #+tags: cobra front-suspension garage
-#+status: publish
-#+type: post
-#+published: true
 
 I am working towards a situation where i can fit wheels to the front
 temporarily, so the chassis can be positioned over the rear end, not

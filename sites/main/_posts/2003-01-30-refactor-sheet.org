@@ -1,6 +1,5 @@
 #+title: Refactor sheet
 #+tags: coding
-#+published: true
 
 Sometimes you just don't want to make a change in the code like
 that. Some kind of procedure is needed to construct a list of checks,

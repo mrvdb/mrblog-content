@@ -1,7 +1,5 @@
 #+title: Outer wall, first part
 #+tags: cobra garage
-#+type: post
-#+published: true
 
 Beginnings of the outer wall.
 

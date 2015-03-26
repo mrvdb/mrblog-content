@@ -1,7 +1,5 @@
 #+title: Look what Santa brought me...
 #+tags: cobra engine
-#+type: post
-#+published: true
 
 #+BEGIN_HTML
 {%gmg shadowed 320 %}

@@ -1,7 +1,5 @@
 #+title: rear-suspension, right side
 #+tags: cobra rear-suspension
-#+type: post
-#+published: true
 
 Got the other oil seal and the thicker spacer in the mail today. As
 this new spacer is only 0.002" thicker than the one I used to

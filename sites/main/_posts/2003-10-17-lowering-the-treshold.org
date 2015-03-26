@@ -1,6 +1,5 @@
 #+title: Lowering the treshold
 #+tags: integration
-#+published: true
 
 As mentioned earlier i like to treat weblogs as much as possible as a
 messaging activity. Not because i like messaging so much, but it has

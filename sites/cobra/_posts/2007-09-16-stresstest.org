@@ -1,6 +1,5 @@
 #+title: Stresstest...
 #+tags: cobra garage tools
-#+published: true
 
 #+BEGIN_HTML
 {%gmg shadowed 406 %}

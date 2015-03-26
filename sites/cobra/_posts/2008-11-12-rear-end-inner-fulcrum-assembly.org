@@ -1,6 +1,5 @@
 #+title: Rear end: inner fulcrum assembly
 #+tags: cobra rear-suspension
-#+published: true
 
 To continue on the front-suspension I'll
 have to wait till the oil seals have been soaked. So, back to the rear

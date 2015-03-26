@@ -1,6 +1,5 @@
 #+title: Getting used to a new OS
 #+tags: current-affairs
-#+published: true
 
 Last week i got myself a 17" Apple Powerbook. I've been wanting to
 check both hardware and OS X out for a long time. The combo of a Free

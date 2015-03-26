@@ -1,7 +1,5 @@
 #+title: Setting up castor
 #+tags: cobra front-suspension
-#+type: post
-#+published: true
 
 While the final castor setting is determined by personal preference
 after a test ride, the initial castor setting target is between 3 to 5

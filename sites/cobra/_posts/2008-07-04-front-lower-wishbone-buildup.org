@@ -1,8 +1,5 @@
 #+title: Front lower wishbone buildup
 #+tags: cobra front-suspension
-#+status: publish
-#+type: post
-#+published: true
 
 Fitting the GD lower wishbone bracket to the wishbone seemed like a
 nice quick job. I layed out everything needed, took the obligatory

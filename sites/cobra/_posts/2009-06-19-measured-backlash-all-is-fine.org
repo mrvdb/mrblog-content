@@ -1,7 +1,5 @@
 #+title: Measured backlash, all is fine
 #+tags: cobra rear-suspension
-#+type: post
-#+published: true
 
 Did some research on the allowed backlash and the general consensus
 seems that a 2/3" to 1" backlash measured on the outer rim of the

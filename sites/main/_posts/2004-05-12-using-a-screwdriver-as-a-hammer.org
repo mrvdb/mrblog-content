@@ -1,6 +1,5 @@
 #+title: Using a screwdriver as a hammer
 #+tags: integration
-#+published: true
 
 Interesting discussion last night on Xaraya's IRC channel. I installed
 [[http://colloquy.info][An amazingly good looking IRC client for OSX]] This client has a feature

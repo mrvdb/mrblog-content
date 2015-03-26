@@ -1,7 +1,5 @@
 #+title: GD track day
 #+tags: cobra chassis
-#+type: post
-#+published: true
 
 We had a little trip to the UK last weekend. Flew into London
 Stansted and hurried to the GD factory. Indeed, my chassis was being

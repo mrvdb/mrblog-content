@@ -1,6 +1,5 @@
 #+title: Hubs and springs...
 #+tags: cobra donor-parts
-#+published: true
 
 Eager to do something with the front axle (the rear stuff was
 waiting for me to get a puller) i decided to do some destruction work

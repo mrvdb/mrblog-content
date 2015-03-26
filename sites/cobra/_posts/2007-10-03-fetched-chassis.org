@@ -1,7 +1,5 @@
 #+title: Fetched chassis
 #+tags: cobra chassis
-#+type: post
-#+published: true
 
 Went to [[http://www.speedon.nl][speedon]] yesterday to fetch the chassis and the assorted bits
 needed to help me construct a rolling chassis.

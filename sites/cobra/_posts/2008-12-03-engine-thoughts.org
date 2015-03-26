@@ -1,7 +1,5 @@
 #+title: Engine thoughts
 #+tags: cobra engine info
-#+type: post
-#+published: true
 
 I want to take a number of preliminary decisions on the engine, so I
 can move forward in that area.

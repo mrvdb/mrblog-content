@@ -1,7 +1,5 @@
 #+title: Spot the differences
 #+tags: cobra garage
-#+type: post
-#+published: true
 
 So, the garage has yet again a new floor. The top one of the images
 below is from the current situation, the one below it is from the

@@ -1,8 +1,5 @@
 #+title: Rear end leftovers
 #+tags: cobra rear-suspension
-#+status: publish
-#+type: post
-#+published: true
 
 Looking at the last jobs for the rear end I tried replacing the
 straight grease nipples with 45&deg; variants, but getting them

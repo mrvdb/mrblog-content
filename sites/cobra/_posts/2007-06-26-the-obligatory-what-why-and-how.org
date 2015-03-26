@@ -1,6 +1,5 @@
 #+title: The obligatory what, why and how...
 #+tags: cobra info
-#+published: true
 
 Building your own car has a certain lure to it. Not only the car
 enthusiast, but almost everyone without exception, when told about my

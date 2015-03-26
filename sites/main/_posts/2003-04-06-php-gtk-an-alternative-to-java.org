@@ -1,6 +1,5 @@
 #+title: PHP-GTK an alternative to Java?
 #+tags: coding ideas
-#+published: true
 
 I experimented a little with PHP-GTK yesterday. I have massive amounts
 of PHP-libraries lying around and didn't want to switch to another

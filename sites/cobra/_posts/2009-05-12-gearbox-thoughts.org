@@ -1,6 +1,5 @@
 #+title: Gearbox thoughts
 #+tags: cobra engine gearbox info
-#+published: true
 
 It's about time I made up my mind about a gearbox to put behind the
 LS2. When I started to focus on a gearbox I had not a very good idea

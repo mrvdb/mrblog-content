@@ -1,7 +1,5 @@
 #+title: Chores & Holes
 #+tags: cobra brakes chassis rear-suspension
-#+type: post
-#+published: true
 
 Continuing with little jobs to finish the rear end backend. First up
 was the final assembly of the top bolts on the diff.  It's not exactly

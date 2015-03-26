@@ -1,6 +1,5 @@
 #+title: blogging through email, continued
 #+tags: integration
-#+published: true
 
 Worked a bit on the blog by email stuff. Sanitized the script a
 bit. The posting should now be a bit more clean as the backend now

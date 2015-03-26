@@ -1,7 +1,5 @@
 #+title: Handbrake caliper reconditioning
 #+tags: cobra brakes donor-parts
-#+type: post
-#+published: true
 
 Got my parts back from galvanising today. What a difference a
 little shine makes! Most of the items were from the donor handbrake

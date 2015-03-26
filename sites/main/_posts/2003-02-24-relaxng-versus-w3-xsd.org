@@ -1,6 +1,5 @@
 #+title: RelaxNG versus W3 XSD
 #+tags: ideas
-#+published: true
 
 xmlhack: Expressing mixed content in RELAX NG versus WXS
 [[http://xmlhack.com/read.php?item=1880]]

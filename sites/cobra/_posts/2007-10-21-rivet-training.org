@@ -1,7 +1,5 @@
 #+title: Rivet training
 #+tags: cobra tools
-#+type: post
-#+published: true
 
 Ok, got a new tool which burned another hole in the wallet. Blind
 rivets are the things which come pre-installed for the chassis plate

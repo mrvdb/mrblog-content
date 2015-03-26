@@ -1,7 +1,5 @@
 #+title: Unstucking things
 #+tags: cobra donor-parts
-#+type: post
-#+published: true
 
 Almost done with disassembling all the donorparts, one wishbone still
 to be removed, the rest is all done and waiting in line to be

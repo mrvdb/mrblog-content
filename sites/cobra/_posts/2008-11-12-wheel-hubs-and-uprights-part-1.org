@@ -1,8 +1,5 @@
 #+title: Wheel hubs and uprights part 1
 #+tags: cobra front-suspension
-#+status: publish
-#+type: post
-#+published: true
 
 The missing Nord-Lock washers have arrived. This means I can, in
 theory, finish the complete buildup of the front-suspension. First off

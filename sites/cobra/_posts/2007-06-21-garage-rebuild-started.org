@@ -1,7 +1,5 @@
 #+title: Garage rebuild started
 #+tags: cobra garage
-#+type: post
-#+published: true
 
 Rebuild of the garage has started. Other than bringing in some
 supplies and getting some concrete out of the way, not much was done,

@@ -1,7 +1,5 @@
 #+title: Misc.
 #+tags: info
-#+type: post
-#+published: true
 
 Couple of things which were annoying me fixed today. The reading
 list on the blog I have deleted. It made the whole thing slow.

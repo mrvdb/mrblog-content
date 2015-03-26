@@ -1,6 +1,5 @@
 #+title: Request for what?
 #+tags: xaraya
-#+published: true
 
 The documents in which these protocols are described are called
 RFC-s (Request For Comments) and they are subject to a complicated

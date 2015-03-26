@@ -1,6 +1,5 @@
 #+title: Status update
 #+tags: front suspension garage info
-#+published: true
 
 #+BEGIN_QUOTE
 It's been 117 days since my last confession...

@@ -1,6 +1,5 @@
 #+title: Declaring garage finished
 #+tags: cobra garage
-#+published: true
 
 I'm declaring the garage finished! While this is never the case, as
 there is always room for improvement, the major work is complete.

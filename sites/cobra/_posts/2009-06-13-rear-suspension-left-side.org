@@ -1,8 +1,5 @@
 #+title: rear-suspension, left side
 #+tags: cobra rear-suspension
-#+status: publish
-#+type: post
-#+published: true
 
 The one completed hub begs to be assembled. There are a number of
 steps involved to correctly complete this job. First is to create a

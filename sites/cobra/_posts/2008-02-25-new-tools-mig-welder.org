@@ -1,6 +1,5 @@
 #+title: New tools: MIG welder
 #+tags: cobra tools
-#+published: true
 
 I have been looking to buy a new welding machine for a
 while. Initially i had my mind set on a TIG machine, or one which

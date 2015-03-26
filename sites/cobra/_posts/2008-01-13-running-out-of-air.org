@@ -1,7 +1,5 @@
 #+title: Running out of air
 #+tags: cobra oops tools
-#+type: post
-#+published: true
 
 I am not sure what happened exactly but last week the power went
 out and I could not get it back on. The earth leakage circuit breaker

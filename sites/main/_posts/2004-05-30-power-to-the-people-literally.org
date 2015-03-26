@@ -1,6 +1,5 @@
 #+title: Power to the people, literally
 #+tags: ideas
-#+published: true
 
 Distributed and peer 2 peer systems&amp;nbsp; seem to have found it's
 way into several applications:

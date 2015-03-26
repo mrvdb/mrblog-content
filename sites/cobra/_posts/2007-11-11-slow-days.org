@@ -1,6 +1,5 @@
 #+title: Slow days
 #+tags: cobra donor-parts
-#+published: true
 
 Steadily working on the donor parts, but days are a bit slow
 lately. Finishing the details of the garage takes its time as

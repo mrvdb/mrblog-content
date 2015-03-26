@@ -1,6 +1,5 @@
 #+title: Pathetic
 #+tags: integration
-#+published: true
 
 Spent the most part of this day getting http links in thunderbird to
 open in firebird. Still not succeeding. This is pathetic, i'm pretty

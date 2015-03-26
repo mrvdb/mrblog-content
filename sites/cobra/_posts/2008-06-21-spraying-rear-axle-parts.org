@@ -1,7 +1,5 @@
 #+title: Spraying rear axle parts
 #+tags: cobra donor-parts
-#+type: post
-#+published: true
 
 After the trial run, which went well, I painted the components of
 the rear axle today. Planning to do the front axle tomorrow. The self

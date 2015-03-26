@@ -1,8 +1,5 @@
 #+title: A year has passed
 #+tags: current-affairs
-#+status: publish
-#+type: post
-#+published: true
 
 More than a year even, time i come back here again. Most of my
 publishing has been done at http://cobra.mrblog.nl lately.

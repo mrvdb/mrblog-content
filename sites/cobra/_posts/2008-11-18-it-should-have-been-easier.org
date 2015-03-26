@@ -1,8 +1,5 @@
 #+title: It should have been easier
 #+tags: cobra oops rear-suspension
-#+status: publish
-#+type: post
-#+published: true
 
 Assembling the rear driveshafts with the universal joints is an easy
 job ( [[/2007/07/first-day-first-problems.html][unlike the disassembly]] of them). Especially using my press,

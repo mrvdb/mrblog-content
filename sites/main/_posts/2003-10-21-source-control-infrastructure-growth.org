@@ -1,6 +1,5 @@
 #+title: source control infrastructure growth
 #+tags: revision-control xaraya
-#+published: true
 
 Using a script from Bryan O'Sullivans bitkeeper repository we
 integrated the bitkeeper repositories for Xaraya with our [[http://bugs.xaraya.com][bugzilla

@@ -1,7 +1,5 @@
 #+title: Garage door is in.
 #+tags: cobra garage
-#+type: post
-#+published: true
 
 Woke up Saturday morning early, two strange men in our garage. Turned
 out they were installing the door two days early. No objections.

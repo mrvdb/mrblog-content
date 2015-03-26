@@ -1,7 +1,5 @@
 #+title: Hidden hero
 #+tags: cobra tools
-#+type: post
-#+published: true
 
 Usually not visible, but I expect this tool will save the day more
 than once during the whole Cobra building process.

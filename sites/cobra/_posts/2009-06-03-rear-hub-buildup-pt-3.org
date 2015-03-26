@@ -1,8 +1,5 @@
 #+title: Rear hub buildup pt. 3
 #+tags: cobra donor-parts rear-suspension
-#+status: publish
-#+type: post
-#+published: true
 
 With all parts galvanized, a next step can be taken in building up the
 rear hubs. I can't complete the rear hubs completely because a spacer

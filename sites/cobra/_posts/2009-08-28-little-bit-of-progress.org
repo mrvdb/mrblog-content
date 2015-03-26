@@ -1,7 +1,5 @@
 #+title: Little bit of progress
 #+tags: cobra brakes engine
-#+type: post
-#+published: true
 
 Having a rolling chassis is nice, but having it rolling of the hoist
 is another thing (not that this has happened yet). So, a working

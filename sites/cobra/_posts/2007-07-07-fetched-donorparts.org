@@ -1,7 +1,5 @@
 #+title: Fetched donorparts
 #+tags: cobra donor-parts
-#+type: post
-#+published: true
 
 Drove up to John Kox from [[http://www.daxbenelux.com][Dax Benelux]] today to fetch two jaguar axles
 and a differential. The diff looked pretty good as is, as it has been

@@ -1,6 +1,5 @@
 #+title: Differential reconditioning part two
 #+tags: cobra donor-parts
-#+published: true
 
 I did not trust my efforts of replacing the pinion seal; it looks
 kinda funny with the rubber <strong>on</strong> the axis instead of

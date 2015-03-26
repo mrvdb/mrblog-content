@@ -1,7 +1,5 @@
 #+title: Surrendered
 #+tags: cobra brakes chassis garage
-#+type: post
-#+published: true
 
 Unable to set a good time-slot apart for the treatment of the donor
 parts, it needs like a 6 hours slot for all the painting and cleaning,

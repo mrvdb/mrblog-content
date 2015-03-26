@@ -1,7 +1,5 @@
 #+title: Engine bits nearly complete
 #+tags:  cobra engine
-#+type: post
-#+published: true
 
 To complete the engine—gearbox mating I just need one part now,
 which is the pilot bearing for the front of the gearbox. I ordered the

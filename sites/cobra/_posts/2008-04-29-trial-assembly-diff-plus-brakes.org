@@ -1,7 +1,5 @@
 #+title: Trial assembly diff plus brakes
 #+tags: cobra brakes donor-parts
-#+type: post
-#+published: true
 
 Having all the parts but one, i did a trial assembly of the
 differential, brake discs and handbrake calipers. This is relatively

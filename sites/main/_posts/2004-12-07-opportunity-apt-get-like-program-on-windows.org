@@ -1,7 +1,5 @@
 #+title: Opportunity: apt-get like program on windows
 #+tags: ideas
-#+type: post
-#+published: true
 
 As more and more open source software runs well on windows (something
 which has not always been that way to my great frustration), becomes

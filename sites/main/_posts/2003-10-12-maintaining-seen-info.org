@@ -1,6 +1,5 @@
 #+title: Maintaining 'seen' info
 #+tags: integration
-#+published: true
 
 As I'm working on several different computers at different
 locations, with at least two different operating systems, it's

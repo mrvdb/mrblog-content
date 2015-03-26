@@ -1,7 +1,5 @@
 #+title: Rear-end complete?
 #+tags: cobra front-suspension rear-suspension
-#+type: post
-#+published: true
 
 Having the rear-end in 'concept' I started the final assembly using
 all new nuts and using the appropriate torque required. Where

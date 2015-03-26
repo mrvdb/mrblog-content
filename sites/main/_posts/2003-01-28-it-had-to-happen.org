@@ -1,6 +1,5 @@
 #+title: It had to happen
 #+tags: current-affairs
-#+published: true
 
 Always hated blogs, weblogs or whatever those things are called. So
 I decided to install one ;-)

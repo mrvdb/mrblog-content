@@ -1,7 +1,5 @@
 #+title: Differential buildup
 #+tags: cobra brakes rear-suspension
-#+type: post
-#+published: true
 
 I've given the diff another spray, which makes it finished as a part,
 so today I positioned the differential on the auto-hoist for build up
