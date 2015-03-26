@@ -75,3 +75,7 @@ and published in the same way as org->html For the latter we use
 org-ruby.
 
 See also: https://github.com/fauno/jekyll-pandoc-multiple-formats
+**** TODO Convert everything to html5
+     :PROPERTIES:
+     :CREATED:  [2015-03-26 do 18:51]
+     :END:
