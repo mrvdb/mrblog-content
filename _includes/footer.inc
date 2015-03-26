@@ -2,7 +2,7 @@
      role="navigation">
 
   <span class="navbar-text">
-    &copy; 2003&ndash;2013 {{site.author}}
+    &copy; 2003&ndash;{{ site.time | date: "%Y" }} {{site.author}}
   </span>
   <!-- Other menu items -->
   <ul class="nav navbar-nav navbar-right">
