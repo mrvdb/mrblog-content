@@ -1,4 +1,4 @@
-# Basic settings
+# Settings for mrblog.nl
 
 # gems that need to be installed:
 #  - git
@@ -7,26 +7,40 @@
 #      \_ ruby-pants
 #  - rdiscount
 #
+gems: [jekyll-paginate, jekyll-gist]
+
 # I define the destination as a hidden folder. The whole idea is to
 # abstract the site  away, so under normal circumstances we do not
 # need to see the site files. But, we want to be able to reach them.
 # The default is _site, so it makes sense to name it '.site'
 destination: .site
-unpublished: false
 
-name: Marcel van der Boom
-
-# Used in feed
-author: Marcel van der Boom
-email: marcel@hsdev.com
+# Meta information
+name    : Marcel van der Boom
+github  : mrvdb
+twitter : mrvdb
+author  : Marcel van der Boom
+email   : marcel@hsdev.com
 timezone: Europe/Amsterdam
+encoding: UTF-8
 
-# We generated absolute permalinks, this will become the default of
-# jekyll v2.0 and up.
-relative_permalinks: false
-
-github: mrvdb
-twitter: mrvdb
+# Content collections
+collections:
+  emacs:
+    output: true
+      
+# Content defaults
+defaults:
+  -
+    scope:
+      path: "" # empty path means match everything
+    values:
+      layout: "post"
+      
+# By default we do not generated content that is unpublished
+unpublished: false
+# Future posting is just silly
+future: false
 
 # If there is an .htaccess file, publish it
 include:
@@ -39,15 +53,12 @@ exclude:
 # Used in tag generation plugin, must be quoted
 tag_title_prefix: "Posts tagged with:&nbsp;&ldquo;"
 tag_title_suffix: "&rdquo;"
+# Use 3x \n for excerpt separation
+excerpt_separator: "\n\n\n"
 
 # Make sure the sitemap.xml URL's are always absolute
-# FIXME: this conflicts with my plan for subdomains
-# TODO: for deployment this is machine local, can we split it into a separate file and git ignore it?
-#url: http://mrblog.nl
-#url: http://localhost:4000
-
-# Future posting is just silly
-future: false
+# FIXME: revisit when we go multi
+sitemap_url: https://mrblog.nl
 
 # Enable pagination
 paginate: 5
@@ -63,19 +74,14 @@ permalink: /:year/:month/:day/:title.html
 markdown: rdiscount
 #lsi: true
 
-# Use UTF-8 everywhere, why isn't this the default by now
-encoding: UTF-8
-
-# Use 3x \n for excerpt separation
-excerpt_separator: "\n\n\n"
 
 # Setting for the home timeline in the sidebar
 # (cfr. livetwitter from somewhere )
 social:
   service : 'o.mrblog.nl'
-  user: 'mrb'
-  mode: 'home_timeline'
-  limit: 8
+  user    : 'mrb'
+  mode    : 'home_timeline'
+  limit   : 8
 
 # Configuration for linking to mediagoblin
 gmg:
@@ -90,15 +96,12 @@ gmg:
 
 # TODO: the dir should be determined automatically.
 git:
-  dir: '.'
-  baseurl: 'https://github.com/mrvdb/mrblog/commit/'
-  nrofcommits: 25
-  dateformat: "%Y-%m-%d"
+  dir         : '.'
+  baseurl     : 'https://github.com/mrvdb/mrblog/commit/'
+  nrofcommits : 25
+  dateformat  : "%Y-%m-%d"
 
 
-collections:
-  emacs:
-    output: true
 
 
-gems: [jekyll-paginate, jekyll-gist]
+
