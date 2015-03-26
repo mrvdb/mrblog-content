@@ -14,14 +14,20 @@
 # The only thing needed in _config.yml is:
 # gmg:
 #   instance: 'http://yourgmg.com'
+#
+# Notes:
+# - I have a patch in my mediagoblin installation to get the
+#   information from on ID
+#
 
 
 require 'fileutils'
 require 'pathname'
 require 'digest/md5'
-require 'logger'
 require 'net/https'
 
+# Some logging
+require 'logger'
 $log = Logger.new(STDOUT)
 $log.level = Logger::DEBUG
 
@@ -99,13 +105,12 @@ module Jekyll
       raise "GMD: Media item at: '" + uri.to_s + "' does not exist." unless media_data
 
       # Construct our output with the json data
-      gmg_src = media_data['media_files']['original']
+      gmg_src = media_data['media_files']['medium']
       # Use description for caption (or title, if empty?)
       gmg_caption = media_data['description']
       
       # Return the markup and, just for fun, the json data we got from GMG, so
       # html people can work with that.
-      # TODO: what should we do here? return data only and let templates handle it?
       out  = <<END
       <figure class="#{chosenpreset}">
       <script type="application/json" id="gmg-media-#{gmg_media_id}">#{media_data}</script>
