@@ -1,7 +1,5 @@
----
-layout: page
-title: Page not found
----
+#+layout: page
+#+title: Page not found
 
 The url requested does not have a page. The url could be wrong or
 there could be something wrong on my side.

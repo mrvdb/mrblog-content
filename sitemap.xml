@@ -4,14 +4,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {% for post in site.posts %}
     <url>
-        <loc>{{site.url}}{{ post.url | remove: 'index.html' | uri_escape }}</loc>
+        <loc>{{site.sitemap_url}}{{ post.url | remove: 'index.html' | uri_escape }}</loc>
 	<lastmod>{{post.date | date_to_xmlschema }}</lastmod>
     </url>
     {% endfor %}
 
     {% for page in site.pages %}{% if page.layout != nil %}{% if page.layout != 'feed' %}
     <url>
-        <loc>{{site.url}}{{ page.url | remove: 'index.html' | uri_escape}}</loc>
+        <loc>{{site.sitemap_url}}{{ page.url | remove: 'index.html' | uri_escape}}</loc>
     </url>
     {% endif %}{% endif %}{% endfor %}
 </urlset>

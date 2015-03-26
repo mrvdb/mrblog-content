@@ -99,7 +99,7 @@ module Jekyll
         https.verify_mode = OpenSSL::SSL::VERIFY_NONE
         req = Net::HTTP::Get.new(uri.request_uri())
         resp = https.request(req)
-        # Note: although we fetch one, it still is an array we get back!
+        # Note: although we only fetch one, it still is an array we get back!
         media_data = JSON.parse(resp.body)[0]
       end
       raise "GMD: Media item at: '" + uri.to_s + "' does not exist." unless media_data

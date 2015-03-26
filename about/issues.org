@@ -14,6 +14,15 @@ covered in org-mode ;-)
      :PROPERTIES:
      :CREATED:  [2015-03-22 zo 17:22]
      :END:
+**** DONE UTF-encoding is not working properly								 :fix:
+     :PROPERTIES:
+     :CREATED:  [2015-03-19 do 15:24]
+     :END:
+     See for example
+     [[https://mrblog.nl/2009/09/18/a-weeks-worth-of-claws-mail-on-osx.html]]
+
+     The odd thing is that locally it renders fine, so it's probably a
+     nginx setting?
 **** TODO Move comment system to something static						       :build:
      :PROPERTIES:
      :CREATED:  [2015-03-19 do 14:58]
@@ -26,15 +35,6 @@ covered in org-mode ;-)
      :END:
      Similar to the gmg plugin, but more generic. Goal is to have a
      quick way to insert a properly styled image, based on a class or keyword.
-**** DONE UTF-encoding is not working properly								 :fix:
-     :PROPERTIES:
-     :CREATED:  [2015-03-19 do 15:24]
-     :END:
-     See for example
-     [[https://mrblog.nl/2009/09/18/a-weeks-worth-of-claws-mail-on-osx.html]]
-
-     The odd thing is that locally it renders fine, so it's probably a
-     nginx setting?
 **** TODO Make pages searchable										 :fix:
      :PROPERTIES:
      :CREATED:  [2015-03-19 do 15:27]

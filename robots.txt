@@ -1,4 +1,4 @@
-Sitemap: http://mrblog.nl/sitemap.xml
+Sitemap: https://mrblog.nl/sitemap.xml
 
 User-agent: *
 Disallow: /feed/
