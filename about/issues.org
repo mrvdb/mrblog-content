@@ -6,23 +6,6 @@ Because everything is orgmode now, I might as well keep an issue list
 for the site and publish it. Managing todo items is pretty well
 covered in org-mode ;-)
 
-**** DONE Published property is not working
-     :PROPERTIES:
-     :CREATED:  [2015-03-22 zo 12:38]
-     :END:
-**** DONE The automatic excerpt is not working
-     :PROPERTIES:
-     :CREATED:  [2015-03-22 zo 17:22]
-     :END:
-**** DONE UTF-encoding is not working properly								 :fix:
-     :PROPERTIES:
-     :CREATED:  [2015-03-19 do 15:24]
-     :END:
-     See for example
-     [[https://mrblog.nl/2009/09/18/a-weeks-worth-of-claws-mail-on-osx.html]]
-
-     The odd thing is that locally it renders fine, so it's probably a
-     nginx setting?
 **** DONE Implement caching for the GMG plugin
      :PROPERTIES:
      :CREATED:  [2015-03-27 vr 11:41]
@@ -37,6 +20,7 @@ covered in org-mode ;-)
      :PROPERTIES:
      :CREATED:  [2015-03-19 do 15:23]
      :END:
+
      Similar to the gmg plugin, but more generic. Goal is to have a
      quick way to insert a properly styled image, based on a class or keyword.
 **** TODO Make pages searchable										 :fix:
@@ -68,17 +52,18 @@ covered in org-mode ;-)
      :PROPERTIES:
      :CREATED:  [2015-03-18 wo 09:58]
      :END:
+
      Now all source is valid org-mode we have a plethora of nice options:
      - deliver original source format (org-mode)
      - pdf format        (for printing)
      - openoffice format (for additional editing)
      - plain text format (for email)
 
-In the jekyll spirit, this should really all be generated statically
-and published in the same way as org->html For the latter we use
-org-ruby.
+     In the jekyll spirit, this should really all be generated statically
+     and published in the same way as org->html For the latter we use
+     org-ruby.
 
-See also: https://github.com/fauno/jekyll-pandoc-multiple-formats
+     See also: https://github.com/fauno/jekyll-pandoc-multiple-formats
 **** TODO Convert everything to html5
      :PROPERTIES:
      :CREATED:  [2015-03-26 do 18:51]

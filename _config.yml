@@ -50,6 +50,7 @@ include:
 
 exclude:
   - _data/wordpress.xml
+  - html.tags.yml
 
 # Used in tag generation plugin, must be quoted
 tag_title_prefix: "Posts tagged with:&nbsp;&ldquo;"
