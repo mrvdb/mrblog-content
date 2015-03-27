@@ -19,8 +19,6 @@
 # - I have a patch in my mediagoblin installation to get the
 #   information from on ID
 #
-
-
 require 'fileutils'
 require 'pathname'
 require 'digest/md5'
@@ -32,14 +30,72 @@ $log = Logger.new(STDOUT)
 $log.level = Logger::DEBUG
 
 module Jekyll
+  # Use a simple cache to use during generation
+  class FileCache
+    def initialize(path)
+      @cache_folder   = File.expand_path path
+      FileUtils.mkdir_p @cache_folder
+    end
 
+    def read(key)
+      file = cache_file(cache_filename(key))
+      File.read(file) if File.exist?(file)
+    end
+
+    def write(key, data)
+      file = cache_file(cache_filename(key))
+
+      File.open(file, 'w') do |f|
+        f.write(data)
+      end
+    end
+
+    private
+
+    def cache_file(filename)
+      File.join(@cache_folder, filename)
+    end
+
+    def cache_filename(key)
+      "#{key}.cache"
+    end
+  end
+
+  # Model a mediagoblin tag
   class MediaGoblinTag < Liquid::Tag
 
     def initialize(tag_name, markup, tokens)
       @markup = markup
+      @cache = FileCache.new('./.gmg-cache')
       super
     end
 
+    def live(gmg_site, id)
+      uri = URI.join(gmg_site,'api/entries?id=' + id)
+      begin
+        # FIXME: do not hardco
+        https = Net::HTTP.new(uri.host,443)
+        https.use_ssl = true
+        https.verify_mode = OpenSSL::SSL::VERIFY_NONE
+        req = Net::HTTP::Get.new(uri.request_uri())
+        response = https.request(req).body
+        raise "GMG: Media item at: '" + uri.to_s + "' does not exist." unless response
+
+        puts "GMG: Creating cache entry for #{id}"
+        @cache.write("#{uri.host}-#{id}", response)
+        
+        # Note: although we only fetch one, it still is an array we get back!
+        JSON.parse(response)[0]
+      end
+    end
+
+    def cached(gmg_site, id)
+      uri = URI(gmg_site)
+      response = @cache.read("#{uri.host}-#{id}")
+
+      JSON.parse(response)[0] if response
+    end
+    
     def render(context)
       # Render any liquid variables in tag arguments and unescape template code
       render_markup = Liquid::Template.parse(@markup).render(context).gsub(/\\\{\\\{|\\\{\\%/, '\{\{' => '{{', '\{\%' => '{%')
@@ -92,18 +148,8 @@ module Jekyll
       }
 
       # http://gmg.com/api/entries?id= is the base url to get the metadata in json format
-      uri = URI.join(gmg_site,'api/entries?id=' + markup[:media_id])
-      begin
-        https = Net::HTTP.new(uri.host,443)
-        https.use_ssl = true
-        https.verify_mode = OpenSSL::SSL::VERIFY_NONE
-        req = Net::HTTP::Get.new(uri.request_uri())
-        resp = https.request(req)
-        # Note: although we only fetch one, it still is an array we get back!
-        media_data = JSON.parse(resp.body)[0]
-      end
-      raise "GMD: Media item at: '" + uri.to_s + "' does not exist." unless media_data
-
+      media_data = cached(gmg_site,gmg_media_id) || live(gmg_site, gmg_media_id)
+      
       # Construct our output with the json data
       gmg_src = media_data['media_files']['medium']
       # Use description for caption (or title, if empty?)
