@@ -23,6 +23,10 @@ covered in org-mode ;-)
 
      The odd thing is that locally it renders fine, so it's probably a
      nginx setting?
+**** DONE Implement caching for the GMG plugin
+     :PROPERTIES:
+     :CREATED:  [2015-03-27 vr 11:41]
+     :END:
 **** TODO Move comment system to something static						       :build:
      :PROPERTIES:
      :CREATED:  [2015-03-19 do 14:58]
