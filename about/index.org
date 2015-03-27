@@ -34,11 +34,31 @@ to them:
 If you feel that credit for one of your programs should be in this
 list, let me know.
 
+{% assign sorted_tags = site.tags | sort %}
+{% assign tagstring = '' %}
+
 I keep an [[issues.html][issue list]] for this site on a separate page.
 *** Some stats
     - Total number of pages: {{ site.pages | size }}
     - Total number of posts: {{ site.posts | size }}
-    - Total number of tags: {{ site.tags | size }}
+    - Total number of tags:  {{ sorted_tags| size }}
+      {% for tag in sorted_tags %}
+        {% capture onetag %}[[/tag/{{tag[0]}}][{{tag[0]}}]]{%endcapture%}
+        {% assign tagstring = tagstring | append: onetag %}
+        {% unless forloop.last%}
+          {% assign tagstring = tagstring | append: ', ' %}
+        {%endunless%}
+      {%endfor%}
+      - {{ tagstring }}
+    - Total number of documents: {{ site.documents | size }}
+    - Total number of categories : {{ site.categories | size }}
+      {% for cat in site.categories %}
+      - {{ cat[0] }}
+      {% endfor %}
+    - Total number of collections : {{ site.collections | size }}
+      {% for col in site.collections %}
+      - {{ col[0] }}
+      {% endfor %}
     - Last generated on: {{ site.time }}
     - The canonical site url is {{ site.url }}
 
