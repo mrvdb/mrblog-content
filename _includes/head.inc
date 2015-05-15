@@ -4,14 +4,14 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 
 <!-- Bootstrap -->
-<link rel="stylesheet" type="text/css" href="{{site.url}}/assets/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />
 
 <!-- syntax highlighting CSS -->
-<link rel="stylesheet" type="text/css" href="{{site.url}}/assets/css/syntax.css"/>
+<link rel="stylesheet" type="text/css" href="/assets/css/syntax.css"/>
 
 <!-- Custom CSS -->
-<link rel="stylesheet" type="text/css" href="{{site.url}}/assets/fonts/stylesheet.css"/>
-<link rel="stylesheet" type="text/css" href="{{site.url}}/assets/css/main.css"/>
+<link rel="stylesheet" type="text/css" href="/assets/fonts/stylesheet.css"/>
+<link rel="stylesheet" type="text/css" href="/assets/css/main.css"/>
 
 <!-- Feeds we expose -->
-<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="{{site.url}}/feed/atom.xml" />
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="/feed/atom.xml" />

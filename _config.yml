@@ -60,6 +60,7 @@ excerpt_separator: "\n\n\n"
 
 # Make sure the sitemap.xml URL's are always absolute
 # FIXME: revisit when we go multi
+url: https://mrblog.nl
 sitemap_url: https://mrblog.nl
 
 # Enable pagination
