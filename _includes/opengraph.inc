@@ -2,6 +2,7 @@
 <meta property="og:site_name" content="{{ site.name }}"/>
 <meta property="og.title" content="{{ page.title }}"/>
 <meta property="og:url" content="{{site.url}}{{page.url}}"/>
+<meta property="og:image" content="https://en.gravatar.com/userimage/5609963/02a82098dc7a91d3a540075c64a4ddca.jpeg"/>
 
 <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
 
