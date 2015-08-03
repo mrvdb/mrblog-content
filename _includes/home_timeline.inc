@@ -1,6 +1,6 @@
 <div class="panel panel-primary">
   <div class="panel-heading">
-    <h3 class="panel-title">Social timeline&hellip;</h3>
+    <h3 class="panel-title"><a href="https://o.mrblog.nl/mrb/all">Social timeline&hellip;</a></h3>
   </div>
   <div class="panel-body">
     <div id="timeline"></div>

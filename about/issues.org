@@ -64,7 +64,7 @@ covered in org-mode ;-)
      org-ruby.
 
      See also: https://github.com/fauno/jekyll-pandoc-multiple-formats
-**** TODO Convert everything to html5
+**** TODO Convert everything to html5								       :build:
      :PROPERTIES:
      :CREATED:  [2015-03-26 do 18:51]
      :END:
