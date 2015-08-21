@@ -76,7 +76,7 @@ permalink: /:year/:month/:day/:title.html
 # Why was this again?
 markdown: rdiscount
 #lsi: true
-
+highlighter: rouge
 
 # Setting for the home timeline in the sidebar
 # (cfr. livetwitter from somewhere )
