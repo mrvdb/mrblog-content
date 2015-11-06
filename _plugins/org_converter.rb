@@ -1,5 +1,5 @@
 require 'org-ruby'
-
+require 'pp'
 # Augment String class with a to_b method : converts sensibly to boolean
 class String
   def to_b
@@ -29,7 +29,7 @@ module Jekyll
       org_text.to_html
     end
 
-    def self.process_options(content, data)
+    def self.process_options(content, data={})
       org_text = Orgmode::Parser.new(content, {markup_file: "html.tags.yml" })
       
       org_text.in_buffer_settings.each_pair do |key, value|
@@ -87,27 +87,31 @@ module Jekyll
 
   # Document is somehow not a Convertible, so we have to do the whole thing again.
   class Document
-    alias :_orig_read :read
+     alias :_orig_read :read
     
-    def read(opts = {})
-      # We only process org files
-      if path !~ /[.]org$/
-        return _orig_read(base, name)
-      end
-      
-      begin
-        defaults = @site.frontmatter_defaults.all(url, collection.label.to_sym)
-        unless defaults.empty?
-          @data = defaults
-        end
-        self.content = File.read(path, merged_file_read_opts(opts))
-        @data = OrgConverter::process_options(content, @data)
-      end
-        
-    rescue SyntaxError => e
-      puts "YAML Exception reading #{path}: #{e.message}"
-    rescue Exception => e
-      puts "Error reading file #{path}: #{e.message}"
-    end
+     def read(opts = {})
+       @to_liquid= nil
+       # We only process org files
+       if path !~ /[.]org$/
+         puts "Using original read for #{path}"
+         return _orig_read(opts)
+       end
+
+       # Seems we need to process it
+       begin
+         defaults = @site.frontmatter_defaults.all(url, collection.label.to_sym)
+         merge_data!(defaults) unless defaults.empty?
+
+         self.content = File.read(path, merged_file_read_opts(opts))
+         lopts =  OrgConverter::process_options(self.content)
+         merge_data!(lopts) unless lopts.empty?
+       end
+
+       post_read
+     rescue SyntaxError => e
+       puts "YAML Exception reading #{path}: #{e.message}"
+     rescue Exception => e
+       puts "Error reading file #{path}: #{e.message}"
+     end
   end
 end

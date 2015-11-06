@@ -7,7 +7,9 @@
 #      \_ ruby-pants
 #  - rdiscount
 #
-gems: [jekyll-paginate, jekyll-gist]
+gems:
+  - jekyll-paginate
+  - jekyll-gist
 
 # I define the destination as a hidden folder. The whole idea is to
 # abstract the site  away, so under normal circumstances we do not

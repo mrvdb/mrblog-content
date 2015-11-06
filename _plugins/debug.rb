@@ -10,9 +10,9 @@ module Jekyll
   # uses < > to encapsulate the psuedo post/page objects in which case
   # the output is taken for HTML tags and hidden from view.
   #
-  class Post
+  class Document
     def inspect
-      "#Jekyll:Post @id=#{self.id.inspect}"
+      "#Jekyll:Document @id=#{self.id.inspect}"
     end
   end
 
