@@ -6,10 +6,6 @@ Because everything is orgmode now, I might as well keep an issue list
 for the site and publish it. Managing todo items is pretty well
 covered in org-mode ;-)
 
-**** DONE Implement caching for the GMG plugin
-     :PROPERTIES:
-     :CREATED:  [2015-03-27 vr 11:41]
-     :END:
 **** TODO Move comment system to something static						       :build:
      :PROPERTIES:
      :CREATED:  [2015-03-19 do 14:58]
