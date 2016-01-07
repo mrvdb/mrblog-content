@@ -1,44 +1,11 @@
----
-layout: default
-title: MrBlog
----
-
 <!-- Cutout with a stream of statuses -->
 <div class="sidebar pull-right">
   <!-- Include a timeline of 10 dents/tweets/pumps -->
-  {% include home_timeline.inc %}
+  $partial("_includes/home_timeline.inc")$
 </div>
 
 
 <!-- Show the last 3 posts completely, rest only the excerpt -->
 <!-- Pagination is automatic -->
-{% for post in paginator.posts %}
-<div class="post">
-  <!-- Calendar -->
-  {% include calendar.inc date=post.date %}
+$partial("_layouts/paged.html")$
 
-  <div class="title">
-    <h2><a href="{{ post.url }}" >{{post.title}}</a></h2>
-    <div class="postdata">
-      <!-- Tag list -->
-      {% include object_tags.inc object=post %}
-
-      <!-- Link to comments -->
-      {% include commentlink.inc object=post %}
-
-    </div>
-  </div>
-  <div class="clearing"><!-- close clearing --></div>
-  <div class="entry">
-
-    {% if forloop.index > 3 or paginator.page > 1 %}
-    {{ post.excerpt }}
-    {% else %}
-    {{ post.content }}
-    {% endif %}
-  </div>
-</div>
-{% endfor %}
-
-<!-- Include pagination block for next/prev page -->
-{% include pagination.inc %}

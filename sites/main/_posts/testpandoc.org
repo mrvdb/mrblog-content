@@ -1,0 +1,5 @@
+* Export this
+* But not this											    :noexport:
+<h1 id="export-this">Export this</h1>
+<h1 id="but-not-this">But not this<span class="tag" data-tag-name="noexport"></span></h1><h1 id="export-this">Export this</h1>
+<h1 id="but-not-this">But not this<span class="tag" data-tag-name="noexport"></span></h1>

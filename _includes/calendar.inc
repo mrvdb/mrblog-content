@@ -1,4 +1,4 @@
 <div class="date">
-  <span class="month">{{ include.date | date: "%b" }}</span>
-  <span class="day">{{ include.date | date: "%d" }}</span>
+  <span class="month">01</span>
+  <span class="day">01</span>
 </div>

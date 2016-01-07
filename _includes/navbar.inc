@@ -13,7 +13,7 @@
     <a class="navbar-brand" href="/">
       <span class="glyphicon glyphicon-home"></span>
     </a>
-    <a class="navbar-brand" href="/">{{ site.name }}</a>
+    <a class="navbar-brand" href="/">$site.name$</a>
 
   </div>
 
@@ -26,7 +26,7 @@
       </li>
     </ul>
 
-    {% if include.search != 'disabled'  %}
+    <!-- % if include.search != 'disabled'  %} -->
     <!-- Search form -->
     <form method="get" class="navbar-form navbar-right" role="search" action="/search" data-search-form >
       <div class="form-group">
@@ -34,7 +34,7 @@
       </div>
       <button type="submit" class="btn-sm btn-primary">Search</button>
     </form>
-    {% endif %}
+    <!-- {% endif %} -->
 
     <!-- Other menu items -->
     <!-- <ul class="nav navbar-nav navbar-right"> -->

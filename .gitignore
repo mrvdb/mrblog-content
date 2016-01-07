@@ -1,3 +1,7 @@
 .site
 /_plugins/mediagoblin.rb
 /.jekyll-metadata
+.cabal-sandbox
+_cache
+_site
+dist

@@ -2,20 +2,20 @@
 <html lang="en">
 
     <head>
-      {% include head.inc %}
-      {% include opengraph.inc %}
+      $partial("_includes/head.inc")$
+      $partial("_includes/opengraph.inc")$
     </head>
     <body>
       <!-- Navigation bar -->
-      {% include navbar.inc %}
+      $partial("_includes/navbar.inc")$
 
 
       <div id="content">
-        {{ content }}
+        $body$
       </div>
 
       <!-- Footer -->
-      {% include footer.inc %}
+      $partial("_includes/footer.inc")$
 
 
       <!-- Make comment COUNTS available -->
@@ -30,7 +30,7 @@
       </script>
 
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="{{site.url}}/assets/js/jquery.min.js"></script>
-      <script src="{{site.url}}/assets/js/bootstrap.min.js"></script>
+      <script src="$site.url$/assets/js/jquery.min.js"></script>
+      <script src="$site.url$/assets/js/bootstrap.min.js"></script>
     </body>
 </html>

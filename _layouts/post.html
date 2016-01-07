@@ -1,28 +1,19 @@
----
-layout: default
----
 <!-- Template for post type posting -->
 <div class="post">
-  {% include calendar.inc date=page.date %}
+  $partial("_includes/calendar.inc")$
 
   <div class="title">
-    <h2><a href="{{ page.url }}">{{ page.title | xml_escape }}</a></h2>
+    <h2><a href="$url$">$title$</a></h2>
     <div class="postdata">
       <!-- Tag list -->
-      {% include object_tags.inc object=page %}
-
+      $partial("_includes/object_tags.inc")$
+      
       <!-- Link to comments -->
-      {% include commentlink.inc object=page %}
+      $partial("_includes/commentlink.inc")$
 
     </div>
   </div>
   <div class="clearing"><!-- close clearing --></div>
   <div class="entry">
-    {{ content }}
+    $body$
   </div>
-
-  <!-- Include navigation block for next/prev post -->
-  {% include prevnextpost.inc %}
-
-  <!-- Comments section -->
-  {% include disqus.inc %}

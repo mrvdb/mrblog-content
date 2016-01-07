@@ -8,7 +8,7 @@
     <script src="/assets/js/jquery.livetwitter.js"
 	    type="text/javascript"></script>
     <script type="text/javascript">
-      $('#timeline').liveTwitter(
+      $$('#timeline').liveTwitter(
         '{{site.social.user}}', {
 	  limit: {{site.social.limit}},
 	  mode:  '{{site.social.mode}}',

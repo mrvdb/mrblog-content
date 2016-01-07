@@ -10,13 +10,13 @@ To build the site I have borrowed a number of tools and resources from
 others. I try to keep a complete list of them complete with links back
 to them:
 
-- blog system is [[http://jekyllrb.com][jekyll]];
+- blog system is +[[http://jekyllrb.com][jekyll]]+[[http://jaspervdj.be/hakyll/][hakyll]];
 - theme is a built with [[http://getbootstrap.com][bootstrap]] components;
 - all files are edited with the [[http://www.gnu.org/software/emacs/][Emacs]] editor;
 - Comment system: [[http://disqus.com][Disqus]];
 - I use [[http://git-scm.com][git]] to publish the blog to my server and to a repository on
   [[https://github.com/mrvdb/mrblog][github]];
-- Content is mostly written in [[http://orgmode.org][orgmode]] or [[http://darinfireball.net/projects/markdown/][markdown]];
+- Content is mostly written in [[http://orgmode.org][orgmode]] or [[http://daringfireball.net/projects/markdown/][markdown]];
 - Some of the images are hosted on [[http://flickr.com][flickr]];
 - the [[http://entypo.com][Entypo]] icons are used;
 - Orgmode files are converted using [[https://github.com/bdewey/org-ruby][org-ruby]] with the help of a little
