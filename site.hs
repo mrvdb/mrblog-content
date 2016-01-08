@@ -149,9 +149,9 @@ feedConfiguration = FeedConfiguration
 postCtx :: Context String
 postCtx =
     -- Stuff that came from jekyll, trying to use the same names
-    constField  "site.url" "https://mrblog.nl" <>
-    constField  "site.name" "Marcel van der Boom" <>
-    constField  "site.author" "Marcel van der Boom" <>
+    constField "site.url" "https://mrblog.nl" <>
+    constField "site.name" "Marcel van der Boom" <>
+    constField "site.author" "Marcel van der Boom" <>
     constField "date" "DATE" <>
     -- End of jekyll stuff
     dateField "date" "%B %e, %Y" <>

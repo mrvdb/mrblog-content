@@ -9,11 +9,11 @@
 	    type="text/javascript"></script>
     <script type="text/javascript">
       $$('#timeline').liveTwitter(
-        '{{site.social.user}}', {
-	  limit: {{site.social.limit}},
-	  mode:  '{{site.social.mode}}',
+        'mrb', {
+	  limit: 8,
+	  mode:  'home_timeline',
 	  showAuthor: true,
-	  service: '{{site.social.service}}'
+	  service: 'o.mrblog.nl'
 	});
     </script>
   </div>
