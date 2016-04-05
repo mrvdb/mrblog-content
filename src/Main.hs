@@ -1,28 +1,14 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
+
+module Main (main) where
+
 import           Control.Monad (liftM)
 import           Data.Monoid   ((<>))
 import           Hakyll
 
-sitename = "This is the name of the site, which should come from a yaml file really"
+import Config
 
---------------------------------------------------------------------------------
--- We need an exception to the normal ignoreFile function as
--- there are files that begin with a dot (.) that I do not want to ignore
-ignoreFiles :: FilePath -> Bool
-ignoreFiles ".well-known" = False
-ignoreFiles path = ignoreFile defaultConfiguration path
-
--- Make the Hakyll configuration explicit and specify overrides
-config :: Configuration
-config = defaultConfiguration 
-  { inMemoryCache        = True           -- faster, but more memory (during build only, obviously)
-  , deployCommand        = "echo TODO: implement deploy command here"
-  , ignoreFile           = ignoreFiles
-  , destinationDirectory = ".site"
-  , storeDirectory       = ".cache"
-  , tmpDirectory         = ".cache/tmp"
-  }
 
 -- Make it easier to copy loads of static stuff
 static :: Pattern -> Rules ()
@@ -41,7 +27,6 @@ main = hakyllWith config $ do
     mapM_ (dir static) ["assets","files",".well-known"]
 
     -- Try tag processing
-    --
     tags <- buildTags "sites/main/_posts/2*.org" (fromCapture "tag/*.html")
     
     -- Posts
@@ -116,11 +101,11 @@ main = hakyllWith config $ do
             let indexCtx =
                     listField "posts" postCtx (return posts) <>
                     constField "title" "Home"                <>
-                    -- TODO: these do not belong here!
-                    constField  "site.name" "Marcel van der Boom" <>
-                    constField  "site.url" "https://mrblog.nl" <>
+                    -- FIXME: these do not belong here!
+                    constField  "site.name" author <>
+                    constField  "site.url" siteurl <>
                     constField "date" "DATE" <>
-                    constField  "site.author" "Marcel van der Boom" <>
+                    constField  "site.author" author <>
                     defaultContext
 
             getResourceBody
@@ -146,19 +131,19 @@ grouper = liftM (paginateEvery 5) . sortRecentFirst
 -- Configure feed
 feedConfiguration :: FeedConfiguration
 feedConfiguration = FeedConfiguration
-  { feedTitle = "Marcel van der Boom"
-  , feedDescription = "Personal blog of MrB"
-  , feedAuthorName = "Marcel van der Boom"
-  , feedAuthorEmail = "marcel@hsdev.com"
-  , feedRoot = "https://mrblog.nl"
+  { feedTitle = author
+  , feedDescription = sitename
+  , feedAuthorName = author
+  , feedAuthorEmail = authoremail
+  , feedRoot = siteurl
   }
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
     -- Stuff that came from jekyll, trying to use the same names
-    constField "site.url" "https://mrblog.nl" <>
-    constField "site.name" "Marcel van der Boom" <>
-    constField "site.author" "Marcel van der Boom" <>
+    constField "site.url" siteurl <>
+    constField "site.name" sitename <>
+    constField "site.author" author <>
     constField "date" "DATE" <>
     -- End of jekyll stuff
     dateField "date" "%B %e, %Y" <>
