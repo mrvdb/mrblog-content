@@ -3,8 +3,9 @@ version:            0.1.0.0
 build-type:         Simple
 cabal-version:      >= 1.10
 
-executable site
-  main-is:          site.hs
+executable mrblog
+  hs-source-dirs:   src
+  main-is:          main.hs
   build-depends:    base == 4.*
                   , hakyll == 4.7.*
                   , pandoc >= 1.16

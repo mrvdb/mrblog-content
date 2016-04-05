@@ -5,3 +5,6 @@
 _cache
 _site
 dist
+.cache
+.gmg-cache
+.stack-work

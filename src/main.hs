@@ -16,9 +16,12 @@ ignoreFiles path = ignoreFile defaultConfiguration path
 -- Make the Hakyll configuration explicit and specify overrides
 config :: Configuration
 config = defaultConfiguration 
-  { inMemoryCache = True           -- faster, but more memory (during build only, obviously)
-  , deployCommand = "echo TODO: implement deploy command here"
-  , ignoreFile    = ignoreFiles
+  { inMemoryCache        = True           -- faster, but more memory (during build only, obviously)
+  , deployCommand        = "echo TODO: implement deploy command here"
+  , ignoreFile           = ignoreFiles
+  , destinationDirectory = ".site"
+  , storeDirectory       = ".cache"
+  , tmpDirectory         = ".cache/tmp"
   }
 
 -- Make it easier to copy loads of static stuff
@@ -37,6 +40,10 @@ main = hakyllWith config $ do
     mapM_ static ["robots.txt"]
     mapM_ (dir static) ["assets","files",".well-known"]
 
+    -- Try tag processing
+    --
+    tags <- buildTags "sites/main/_posts/2*.org" (fromCapture "tag/*.html")
+    
     -- Posts
     -- Take file in orgmode format
     -- Figure out the publish date
@@ -49,10 +56,10 @@ main = hakyllWith config $ do
           gsubRoute "_posts/" (const "")
           
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "_layouts/post.html"    postCtx
-            >>= saveSnapshot "content"
-            >>= loadAndApplyTemplate "_layouts/default.html" postCtx
-            >>= relativizeUrls
+          >>= loadAndApplyTemplate "_layouts/post.html"    (postCtxWithTags tags)
+          >>= saveSnapshot "content"
+          >>= loadAndApplyTemplate "_layouts/default.html" (postCtxWithTags tags)
+          >>= relativizeUrls
 
     -- About page
     match "about/*" $ do
@@ -156,3 +163,6 @@ postCtx =
     -- End of jekyll stuff
     dateField "date" "%B %e, %Y" <>
     defaultContext
+
+postCtxWithTags :: Tags -> Context String
+postCtxWithTags tags = tagsField "tags" tags `mappend` postCtx
