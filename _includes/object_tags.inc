@@ -1,7 +1,7 @@
 <!-- Tag list -->
 <span class="glyphicon glyphicon-tags the_tags">
   <a  href="/tag/TODO" rel="tag">
-	<span class="label label-default">Tags: $tags$ TODO</span>
+	<span class="label label-default">Tags: $if(tags) $tags$ $endif$TODO</span>
   </a>
 </span>
 
