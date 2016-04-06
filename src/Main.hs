@@ -32,12 +32,12 @@ main = hakyllWith config $ do
     -- Process post rules
     postR tags
     
-    -- About page
+    -- About pages
     match "about/*" $ do
        route $ setExtension "html"
        compile $ orgCompiler
-         >>= loadAndApplyTemplate "_layouts/page.html"    (postCtx tags)
-         >>= loadAndApplyTemplate "_layouts/default.html" (postCtx tags)
+         >>= loadAndApplyTemplate "_layouts/page.html"    aboutCtx
+         >>= loadAndApplyTemplate "_layouts/default.html" aboutCtx
          >>= relativizeUrls
 
     -- Process feed rules
@@ -54,9 +54,7 @@ main = hakyllWith config $ do
                     listField  "posts"      (postCtx tags) (return posts) <>
                     constField "title"      "Home" <>
                     constField "year"        copyrightYear <>
-                    constField "site.name"   author <>
-                    constField "site.url"    siteurl <>
-                    constField "site.author" author <>
+                    jekyllContext <>
                     defaultContext
 
             getResourceBody
@@ -106,11 +104,8 @@ dateFolders =
 postCtx :: Tags -> Context String
 postCtx tags =
     -- Stuff that came from jekyll, trying to use the same names
-    constField "site.url" siteurl <>
-    constField "site.name" sitename <>
-    constField "site.author" author <>
-        -- End of jekyll stuff
-
+    jekyllContext <>
+    
     -- Construct the date components:
     -- 1. If there is a 'published' metadata, use that
     -- 2. If a date can be constructed from the filename, do that
@@ -121,13 +116,25 @@ postCtx tags =
     dateField "date" "%Y-%m-%d" <>
 
     tagsField "thetags" tags <>
-    field "rtags" (\_ -> renderTagList tags) <>
     
     -- $body$, $url$, $path$ and all $foo$ from metadata are delivered
     -- by the default context
     defaultContext
 
-                       
+-- About pages
+aboutCtx :: Context String
+aboutCtx =
+  constField "year" copyrightYear <>
+  jekyllContext <>
+  defaultContext
+
+-- Jekyll variables, probably can go after a bit.
+jekyllContext :: Context String
+jekyllContext =
+  constField "site.name"   sitename <>
+  constField "site.url"    siteurl <>
+  constField "site.author" author
+  
 -- Feed Rules
 feedR :: Rules ()
 feedR =
