@@ -7,8 +7,14 @@ executable mrblog
   hs-source-dirs:   src
   main-is:          Main.hs
   build-depends:    base == 4.*
+                  , basic-prelude
                   , hakyll == 4.7.*
                   , pandoc >= 1.16
+                  , pandoc-types
+                  , parsec
+                  , containers
   other-modules:    Config
+                  , Compiler.Org
+                  , Compiler.Pandoc
   ghc-options:      -threaded
   default-language: Haskell2010

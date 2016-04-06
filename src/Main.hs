@@ -3,11 +3,16 @@
 
 module Main (main) where
 
+-- System imports
 import           Control.Monad (liftM)
 import           Data.Monoid   ((<>))
+
+-- Hakyll imports
 import           Hakyll
 
+-- Our own imports
 import Config
+import Compiler.Org
 
 
 -- Make it easier to copy loads of static stuff

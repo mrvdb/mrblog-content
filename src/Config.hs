@@ -27,3 +27,11 @@ config = defaultConfiguration
 ignoreFiles :: FilePath -> Bool
 ignoreFiles ".well-known" = False
 ignoreFiles path = ignoreFile defaultConfiguration path -- Point to the original, not our config!!
+
+--
+-- Settings needed for Org compiler
+postsPath :: String
+postsPath = "posts"
+
+imagesPath :: String
+imagesPath = "images"
