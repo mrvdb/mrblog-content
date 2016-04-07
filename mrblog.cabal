@@ -13,6 +13,7 @@ executable mrblog
                   , pandoc-types
                   , parsec
                   , containers
+                  , filepath
   other-modules:    Config
                   , Compiler.Org
                   , Compiler.Pandoc

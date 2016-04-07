@@ -6,7 +6,9 @@ module Main (main) where
 -- System imports
 import           Control.Monad (liftM)
 import           Data.Monoid   ((<>))
-
+import           Data.List (groupBy)
+import           Data.Function (on)
+import           System.FilePath (takeBaseName)
 -- Hakyll imports
 import           Hakyll
 
@@ -24,8 +26,28 @@ main = hakyllWith config $ do
     postR     -- Process posts
     feedR     -- Process atom feed
     homeR     -- Homepage
-    
 
+    tags <- buildTags "sites/main/_posts/2*.org" (fromCapture "tag/*/index.html")
+    tagsRules tags $ \tag pattern -> do
+      let title = "Posts tagged \"" ++ tag ++ "\""
+      
+      route idRoute
+      compile $ do
+        posts <- fmap groupByYear $ recentFirst =<< loadAll pattern
+        let ctx =
+              constField "title" title <>
+              listField "years"
+              (
+                field "year" (return . fst . itemBody) <>
+                listFieldWith "posts" postCtx (return . snd . itemBody)
+              )
+              (sequence $ fmap (\(y, is) -> makeItem (show y, is)) posts) <>
+              baseContext
+        makeItem ""
+          >>= loadAndApplyTemplate "_layouts/tag.html" ctx
+          >>= loadAndApplyTemplate "_layouts/default.html" ctx
+          >>= relativizeUrls
+        
 -- Homepage rules
 homeR :: Rules ()
 homeR = 
@@ -38,14 +60,14 @@ homeR =
      let indexCtx =
            listField  "posts"      postCtx (return posts) <>
            constField "title"      "Home" <>
-           constField "year"        copyrightYear <>
-           jekyllContext <>
-           defaultContext
+           baseContext 
            
      getResourceBody
        >>= applyAsTemplate indexCtx
        >>= loadAndApplyTemplate "_layouts/default.html" indexCtx
        >>= relativizeUrls
+
+-- Tag pages
 
 -- Template rules
 templateR :: Rules ()
@@ -82,17 +104,10 @@ aboutR =
     route $ setExtension "html"
 
     compile $ orgCompiler
-      >>= loadAndApplyTemplate "_layouts/page.html"    aboutCtx
-      >>= loadAndApplyTemplate "_layouts/default.html" aboutCtx
+      >>= loadAndApplyTemplate "_layouts/page.html"    baseContext
+      >>= loadAndApplyTemplate "_layouts/default.html" baseContext
       >>= relativizeUrls
 
-  where
-    aboutCtx :: Context String
-    aboutCtx =
-      constField "year" copyrightYear <>
-      jekyllContext <>
-      defaultContext
-    
 -- Post Rules
 -- ✓ Take file in orgmode format
 -- ✓ Figure out the publish date
@@ -126,13 +141,6 @@ postR =
 
 postCtx :: Context String
 postCtx =
-    -- $body$, $url$, $path$ and all $foo$ from metadata are delivered
-    -- by the default context
-    defaultContext <>
-    
-    -- Stuff that came from jekyll, trying to use the same names
-    jekyllContext <>
-    
     -- Construct the date components:
     -- 1. If there is a 'published' metadata, use that
     -- 2. If a date can be constructed from the filename, do that
@@ -141,8 +149,12 @@ postCtx =
     dateField "month" "%b" <>
     dateField "day" "%d" <>
     dateField "date" "%Y-%m-%d" <>
+    dateField "pubdate" "%Y-%m-%dT%X%z" <>
 
-    listFieldWith "taglist" tagCtx getTagItems
+    listFieldWith "taglist" tagCtx getTagItems <>
+
+    baseContext <>
+    defaultContext
   where
       -- Construct the 'tag' inside the list field (do we need url here too?)
       tagCtx :: Context String
@@ -168,8 +180,8 @@ feedR =
    where
      feedCtx :: Context String
      feedCtx =
-       defaultContext <>
-       bodyField "description"
+       bodyField "description" <>
+       baseContext 
 
      feedConfiguration :: FeedConfiguration
      feedConfiguration = FeedConfiguration
@@ -182,11 +194,16 @@ feedR =
 
 
 -- Jekyll variables, probably can go after a bit.
-jekyllContext :: Context String
-jekyllContext =
+baseContext :: Context String
+baseContext =
   constField "site.name"   sitename <>
   constField "site.url"    siteurl <>
-  constField "site.author" author
+  constField "site.author" author <>
+  constField "year"        copyrightYear <>
+
+  -- $body$, $url$, $path$ and all $foo$ from metadata are delivered
+  -- by the default context
+  defaultContext
   
 -- Create a location for a paginated page ("/pageN/index.html")
 makeId :: PageNumber -> Identifier
@@ -196,3 +213,9 @@ makeId pageNum = fromFilePath $ "page" ++ show pageNum ++ "/index.html"
 grouper :: MonadMetadata m => [Identifier] -> m [[Identifier]]
 grouper = liftM (paginateEvery 5) . sortRecentFirst
 
+-- Group by year, depending on filename, so FIXME later
+groupByYear :: [Item a] -> [(Int, [Item a])]
+groupByYear = map (\pg -> ( year (head pg), pg) ) .
+              groupBy ((==) `on` year)
+   where year :: Item a -> Int
+         year = read . take 4 . takeBaseName . toFilePath . itemIdentifier

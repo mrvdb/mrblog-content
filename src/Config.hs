@@ -8,7 +8,7 @@ import Hakyll.Core.Configuration
 
 author   = "Marcel van der Boom"
 authoremail = "marcel@hsdev.com"
-sitename = "Personal blog of Marcel van der Boom"
+sitename = "Marcel van der Boom"
 siteurl  = "https://mrblog.nl"
 copyrightYear = "2016"
 

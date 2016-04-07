@@ -1,0 +1,22 @@
+<div class="post">
+  <div class="page-header">
+    <h1>$title$</h1>
+    <div id="blog-archives">
+      $for(years)$
+      <h2>$year$</h2>
+      $for(posts)$
+      <article>
+	<h3><a href="$url$">$title$</a></h3>
+  	$partial("_includes/object_tags.inc")$
+
+	<time datetime="$pubdate$" pubdate>
+	  <span class='month'>$month$</span>
+	  <span class='day'>$day$</span>
+	  <span class='year'>$year$</span>
+	</time>
+      </article>
+      $endfor$
+      $endfor$
+    </div>
+  </div>
+</div>  
