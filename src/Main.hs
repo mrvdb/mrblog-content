@@ -22,27 +22,16 @@ main = hakyllWith config $ do
     templateR
     
     -- Copy static files
-    mapM_ static ["robots.txt"]
-    -- Copy statid directories
-    mapM_ (dir static) ["assets","files",".well-known"]
-
-    -- Generate tags
-    tags <- buildTags "sites/main/_posts/2*.org" (fromCapture "tag/*.html")
-    
-    -- Process post rules
-    postR tags
+    staticR
     
     -- About pages
-    match "about/*" $ do
-       route $ setExtension "html"
-       compile $ orgCompiler
-         >>= loadAndApplyTemplate "_layouts/page.html"    aboutCtx
-         >>= loadAndApplyTemplate "_layouts/default.html" aboutCtx
-         >>= relativizeUrls
-
+    aboutR
+    
+    -- Process post rules
+    postR
+    
     -- Process feed rules
     feedR
-
 
     -- Homepage    
     match "index.html" $ do
@@ -51,7 +40,7 @@ main = hakyllWith config $ do
             posts <- fmap (take 5) . recentFirst
                     =<< loadAllSnapshots "sites/main/_posts/2*.org" "content"
             let indexCtx =
-                    listField  "posts"      (postCtx tags) (return posts) <>
+                    listField  "posts"      postCtx (return posts) <>
                     constField "title"      "Home" <>
                     constField "year"        copyrightYear <>
                     jekyllContext <>
@@ -70,16 +59,50 @@ templateR = do
   match "_includes/*" $ compile templateCompiler
 
 
+-- Static files which can just be copied
+staticR :: Rules ()
+staticR = do
+  mapM_ static ["robots.txt"]
+  mapM_ (dir static) ["assets","files",".well-known"]
+  where
+    -- Make it easier to copy loads of static stuff
+    static :: Pattern -> Rules ()
+    static f = match f $ do
+      route idRoute
+      compile copyFileCompiler
+
+    -- Treat whole directories
+    dir :: (Pattern -> Rules a) -> String -> Rules a
+    dir act f = act $ fromGlob $ f ++ "/**"
+
+-- About page rules
+aboutR :: Rules ()
+aboutR = 
+  match "about/*" $ do
+    route $ setExtension "html"
+
+    compile $ orgCompiler
+      >>= loadAndApplyTemplate "_layouts/page.html"    aboutCtx
+      >>= loadAndApplyTemplate "_layouts/default.html" aboutCtx
+      >>= relativizeUrls
+
+  where
+    aboutCtx :: Context String
+    aboutCtx =
+      constField "year" copyrightYear <>
+      jekyllContext <>
+      defaultContext
+    
 -- Post Rules
 -- ✓ Take file in orgmode format
 -- ✓ Figure out the publish date
 -- ✓ Figure out the title
 -- ✓ copy to yyyy/mm/dd/title.html
---   Process tags properly
+-- ✓ Process tags properly
 --   Skip 'published: false' posts
 --   Previous/Next links?
-postR :: Tags -> Rules ()
-postR tags =
+postR :: Rules ()
+postR =
   match "sites/main/_posts/2*.org" $ do
     
     -- Route should be: /yyyy/mm/dd/filename-without-date.html
@@ -91,18 +114,22 @@ postR tags =
 
     -- Compile posts with the orgmode compiler
     compile $ orgCompiler 
-      >>= loadAndApplyTemplate "_layouts/post.html"    (postCtx tags)
+      >>= loadAndApplyTemplate "_layouts/post.html"    postCtx
       >>= saveSnapshot "content"
-      >>= loadAndApplyTemplate "_layouts/default.html" (postCtx tags)
+      >>= loadAndApplyTemplate "_layouts/default.html" postCtx
       >>= relativizeUrls
+  where
+    -- yyyy-mm-dd => yyyy/mm/dd
+    dateFolders :: Routes
+    dateFolders =
+      gsubRoute "/[0-9]{4}-[0-9]{2}-[0-9]{2}-" $ replaceAll "-" (const "/")
 
--- yyyy-mm-dd => yyyy/mm/dd
-dateFolders :: Routes
-dateFolders =
-    gsubRoute "/[0-9]{4}-[0-9]{2}-[0-9]{2}-" $ replaceAll "-" (const "/")
-
-postCtx :: Tags -> Context String
-postCtx tags =
+postCtx :: Context String
+postCtx =
+    -- $body$, $url$, $path$ and all $foo$ from metadata are delivered
+    -- by the default context
+    defaultContext <>
+    
     -- Stuff that came from jekyll, trying to use the same names
     jekyllContext <>
     
@@ -115,18 +142,44 @@ postCtx tags =
     dateField "day" "%d" <>
     dateField "date" "%Y-%m-%d" <>
 
-    tagsField "thetags" tags <>
-    
-    -- $body$, $url$, $path$ and all $foo$ from metadata are delivered
-    -- by the default context
-    defaultContext
+    listFieldWith "taglist" tagCtx getTagItems
+  where
+      -- Construct the 'tag' inside the list field (do we need url here too?)
+      tagCtx :: Context String
+      tagCtx = field "tag" $ \tagItem -> return (itemBody tagItem) 
 
--- About pages
-aboutCtx :: Context String
-aboutCtx =
-  constField "year" copyrightYear <>
-  jekyllContext <>
-  defaultContext
+      -- Generate the tags for this item
+      getTagItems :: Item String -> Compiler [Item String]
+      getTagItems postItem = do
+        tags <- getTags (itemIdentifier postItem)
+        mapM makeItem tags
+        
+-- Feed Rules
+-- FIXME: My own feed templates were nicer, because they could
+-- render better instead of dumping raw xml on a user with a browser.
+feedR :: Rules ()
+feedR =
+  create ["feed/atom.xml"] $ do
+    route idRoute
+    compile $ do
+      posts <- fmap (take 10) . recentFirst
+              =<< loadAllSnapshots "sites/main/_posts/2*.org" "content"
+      renderAtom feedConfiguration feedCtx posts
+   where
+     feedCtx :: Context String
+     feedCtx =
+       defaultContext <>
+       bodyField "description"
+
+     feedConfiguration :: FeedConfiguration
+     feedConfiguration = FeedConfiguration
+       { feedTitle       = author
+       , feedDescription = sitename
+       , feedAuthorName  = author
+       , feedAuthorEmail = authoremail
+       , feedRoot        = siteurl
+       }
+
 
 -- Jekyll variables, probably can go after a bit.
 jekyllContext :: Context String
@@ -135,30 +188,6 @@ jekyllContext =
   constField "site.url"    siteurl <>
   constField "site.author" author
   
--- Feed Rules
-feedR :: Rules ()
-feedR =
-  create ["feed/atom.xml"] $ do
-    route idRoute
-    compile $ do
-      let feedCtx = defaultContext <>
-                    bodyField "description"
-
-      posts <- fmap (take 10) . recentFirst
-              =<< loadAllSnapshots "sites/main/_posts/2*.org" "content"
-      renderAtom feedConfiguration feedCtx posts
-
-feedConfiguration :: FeedConfiguration
-feedConfiguration = FeedConfiguration
-  { feedTitle       = author
-  , feedDescription = sitename
-  , feedAuthorName  = author
-  , feedAuthorEmail = authoremail
-  , feedRoot        = siteurl
-  }
-
-  
-
 -- Create a location for a paginated page ("/pageN/index.html")
 makeId :: PageNumber -> Identifier
 makeId pageNum = fromFilePath $ "page" ++ show pageNum ++ "/index.html"
@@ -166,17 +195,4 @@ makeId pageNum = fromFilePath $ "page" ++ show pageNum ++ "/index.html"
 -- Create groups of ids based on dates
 grouper :: MonadMetadata m => [Identifier] -> m [[Identifier]]
 grouper = liftM (paginateEvery 5) . sortRecentFirst
-
--- Make it easier to copy loads of static stuff
-static :: Pattern -> Rules ()
-static f = match f $ do
-  route idRoute
-  compile copyFileCompiler
-
--- Treat whole directories
-dir :: (Pattern -> Rules a) -> String -> Rules a
-dir act f = act $ fromGlob $ f ++ "/**"
-
-
---------------------------------------------------------------------------------
 

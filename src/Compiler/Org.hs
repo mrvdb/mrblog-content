@@ -4,9 +4,9 @@
 
 module Compiler.Org (orgCompiler) where
 
-import           Config
 import           BasicPrelude
 import           Compiler.Pandoc
+import           Config
 import           Control.Monad ()
 import           Data.Map.Lazy (mapWithKey)
 import           Hakyll
@@ -20,7 +20,7 @@ import           Text.Read (readEither)
 
 orgCompiler :: Compiler (Item String)
 orgCompiler = pandocMetadataCompilerWith transform
-  where transform = tFixLinks . tImages . tDateMeta . tTableOfContents . tHeaderIds
+  where transform = tFixLinks . tImages . tTags . tDateMeta . tTableOfContents . tHeaderIds
 
 --------------------------------------------------------------------------------
 -- Meta transformer
@@ -43,6 +43,23 @@ stripLeft a b = if a `isPrefixOf` b then drop (length a) b else b
 -- TODO: move to helpers
 stripRight :: String -> String -> String
 stripRight a b = if a `isSuffixOf` b then take (length b - length a) b else b
+
+--------------------------------------------------------------------------------
+-- Tags transformer
+--------------------------------------------------------------------------------
+
+tTags :: Pandoc -> Pandoc
+tTags (Pandoc meta body) = Pandoc (walk modMetaTags meta) body
+  where modMetaTags = Meta . mapWithKey convertTags . unMeta
+        convertTags k r@(MetaInlines tags) =
+          if k == "tags"
+            then MetaInlines . toList . str . intercalate ", " . map toStr . filter isStr $ tags
+            else r
+        convertTags _ v = v
+        isStr (Str _) = True
+        isStr _       = False
+        toStr (Str s) = s
+        toStr _       = undefined
 
 --------------------------------------------------------------------------------
 -- Table of Contents transformer
