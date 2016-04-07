@@ -18,38 +18,34 @@ import Compiler.Org
 -- Main entry point
 main :: IO ()
 main = hakyllWith config $ do
-    -- Make sure that our templates are compiled
-    templateR
+    templateR -- Make sure that our templates are compiled
+    staticR   -- Copy static files
+    aboutR    -- About pages
+    postR     -- Process posts
+    feedR     -- Process atom feed
+    homeR     -- Homepage
     
-    -- Copy static files
-    staticR
-    
-    -- About pages
-    aboutR
-    
-    -- Process post rules
-    postR
-    
-    -- Process feed rules
-    feedR
 
-    -- Homepage    
-    match "index.html" $ do
-        route idRoute
-        compile $ do
-            posts <- fmap (take 5) . recentFirst
-                    =<< loadAllSnapshots "sites/main/_posts/2*.org" "content"
-            let indexCtx =
-                    listField  "posts"      postCtx (return posts) <>
-                    constField "title"      "Home" <>
-                    constField "year"        copyrightYear <>
-                    jekyllContext <>
-                    defaultContext
+-- Homepage rules
+homeR :: Rules ()
+homeR = 
+ match "index.html" $ do
+   route idRoute
 
-            getResourceBody
-                >>= applyAsTemplate indexCtx
-                >>= loadAndApplyTemplate "_layouts/default.html" indexCtx
-                >>= relativizeUrls
+   compile $ do
+     posts <- fmap (take 5) . recentFirst
+             =<< loadAllSnapshots "sites/main/_posts/2*.org" "content"
+     let indexCtx =
+           listField  "posts"      postCtx (return posts) <>
+           constField "title"      "Home" <>
+           constField "year"        copyrightYear <>
+           jekyllContext <>
+           defaultContext
+           
+     getResourceBody
+       >>= applyAsTemplate indexCtx
+       >>= loadAndApplyTemplate "_layouts/default.html" indexCtx
+       >>= relativizeUrls
 
 -- Template rules
 templateR :: Rules ()
@@ -62,8 +58,12 @@ templateR = do
 -- Static files which can just be copied
 staticR :: Rules ()
 staticR = do
+  -- Single files that need to be copied
   mapM_ static ["robots.txt"]
+  
+  -- Whole directories that need to be copied
   mapM_ (dir static) ["assets","files",".well-known"]
+
   where
     -- Make it easier to copy loads of static stuff
     static :: Pattern -> Rules ()
