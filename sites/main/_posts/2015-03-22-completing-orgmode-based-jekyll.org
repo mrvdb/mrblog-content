@@ -1,5 +1,7 @@
 #+title: Further work on jekyll org-mode support
-#+tags: jekyll org-mode integration emacs
+#+published: 2015-03-22
+#+testmeta: random3
+#+tags: jekyll, org-mode, integration, emacs
 
 In [[/2013/11/16/working-with-jekyll.html][Working with Jekyll and Org-Mode]] a simple solution was given to use
 org-mode format files as posts.

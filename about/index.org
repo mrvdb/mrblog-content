@@ -10,7 +10,7 @@ To build the site I have borrowed a number of tools and resources from
 others. I try to keep a complete list of them complete with links back
 to them:
 
-- blog system is +[[http://jekyllrb.com][jekyll]]+[[http://jaspervdj.be/hakyll/][hakyll]];
+- blog system is +[[http://jekyllrb.com][jekyll]]+ [[http://jaspervdj.be/hakyll/][hakyll]];
 - theme is a built with [[http://getbootstrap.com][bootstrap]] components;
 - all files are edited with the [[http://www.gnu.org/software/emacs/][Emacs]] editor;
 - Comment system: [[http://disqus.com][Disqus]];
@@ -19,8 +19,10 @@ to them:
 - Content is mostly written in [[http://orgmode.org][orgmode]] or [[http://daringfireball.net/projects/markdown/][markdown]];
 - Some of the images are hosted on [[http://flickr.com][flickr]];
 - the [[http://entypo.com][Entypo]] icons are used;
-- Orgmode files are converted using [[https://github.com/bdewey/org-ruby][org-ruby]] with the help of a little
-  [[https://gist.github.com/abhiyerra/7377603][org-converter]];
+- Orgmode files are converted using
+  +[[https://github.com/bdewey/org-ruby][org-ruby]] with the help of a little
+  [[https://gist.github.com/abhiyerra/7377603][org-converter]]+
+  [[http://pandoc.org][pandoc]] which is integrated into [[http://jaspervdj.be/hakyll][hakyll]];
 - [[https://github.com/judofyr/ruby-oembed][ruby-oembed]] is used for automatic embedding of media with the help
   of an [[https://gist.github.com/vanto/1455726][oembed liquid tag]];
 - A locally generated json file is used to implement search;
@@ -60,9 +62,9 @@ I keep an [[issues.html][issue list]] for this site on a separate page.
       - {{ col[0] }}
       {% endfor %}
     - Last generated on: {{ site.time }}
-    - The canonical site url is {{ site.url }}
+    - The canonical site url is $site.url$
 
 *** Last {{ site.git.nrofcommits }} changes to the site
     #+BEGIN_HTML
-    {% gitactivity %}
+    {% gitactivity %} $url$
     #+END_HTML
