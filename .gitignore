@@ -8,3 +8,4 @@ dist
 .cache
 .gmg-cache
 .stack-work
+/src/Main_flymake.hs

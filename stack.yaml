@@ -1,0 +1,8 @@
+flags: {}
+packages:
+- '.'
+- location:
+    git: https://github.com/d12frosted/hakyll
+    commit: 01b691d77488439761f19cd60fa1fef0bd79ffb1
+extra-deps: []
+resolver: lts-5.11
