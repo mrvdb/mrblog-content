@@ -9,6 +9,7 @@ import           Data.Monoid   ((<>))
 import           Data.List (groupBy)
 import           Data.Function (on)
 import           System.FilePath (takeBaseName)
+
 -- Hakyll imports
 import           Hakyll
 
@@ -33,8 +34,25 @@ main = hakyllWith config $ do
     tagsR tags -- List of posts tagged with certain tags
 
     archiveR   -- Grouped list of all posts
+    sitemapR
 ------------------------------------------------------------------------------------
 
+sitemapR :: Rules ()
+sitemapR =
+  match "sitemap.xml" $ do
+    route idRoute
+
+    compile $ do
+     posts <- recentFirst
+             =<< loadAllSnapshots sourcePosts "content"
+     let ctx =
+           listField  "posts"      postCtx (return posts) <>
+           baseContext 
+           
+     getResourceBody
+       >>= applyAsTemplate ctx
+       
+-- Grouped view of tag filter post
 tagsR :: Tags -> Rules ()
 tagsR tags = 
   tagsRules tags $ \tag pattern -> do
@@ -143,14 +161,14 @@ aboutR =
 --   Previous/Next links?
 postR :: Rules ()
 postR =
-  match "sites/main/_posts/2*.org" $ do
+  match sourcePosts $ do
     
     -- Route should be: /yyyy/mm/dd/filename-without-date.html
     route $
       setExtension "html" `composeRoutes`
       dateFolders `composeRoutes`
-      gsubRoute "sites/main/" (const "") `composeRoutes`
-      gsubRoute "_posts/" (const "")
+      -- FIXME: this does not belong here
+      gsubRoute "sites/main/_posts/" (const "") 
 
     -- Compile posts with the orgmode compiler
     compile $ orgCompiler 
