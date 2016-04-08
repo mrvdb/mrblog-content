@@ -237,14 +237,6 @@ baseContext =
   -- by the default context
   defaultContext
   
--- Create a location for a paginated page ("/pageN/index.html")
-makeId :: PageNumber -> Identifier
-makeId pageNum = fromFilePath $ "page" ++ show pageNum ++ "/index.html"
-
--- Create groups of ids based on dates
-grouper :: MonadMetadata m => [Identifier] -> m [[Identifier]]
-grouper = liftM (paginateEvery 5) . sortRecentFirst
-
 -- Group by year, depending on filename, so FIXME later
 groupByYear :: [Item a] -> [(Int, [Item a])]
 groupByYear = map (\pg -> ( year (head pg), pg) ) .
