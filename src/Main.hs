@@ -16,38 +16,63 @@ import           Hakyll
 import Config
 import Compiler.Org
 
+sourcePosts :: Pattern
+sourcePosts = "sites/main/_posts/2*.org"
 
 -- Main entry point
 main :: IO ()
 main = hakyllWith config $ do
-    templateR -- Make sure that our templates are compiled
-    staticR   -- Copy static files
-    aboutR    -- About pages
-    postR     -- Process posts
-    feedR     -- Process atom feed
-    homeR     -- Homepage
+    templateR  -- Make sure that our templates are compiled
+    staticR    -- Copy static files
+    aboutR     -- About pages
+    postR      -- Process posts
+    feedR      -- Process atom feed
+    homeR      -- Homepage
 
-    tags <- buildTags "sites/main/_posts/2*.org" (fromCapture "tag/*/index.html")
-    tagsRules tags $ \tag pattern -> do
-      let title = "Posts tagged \"" ++ tag ++ "\""
+    tags <- buildTags sourcePosts (fromCapture "tag/*/index.html")
+    tagsR tags -- List of posts tagged with certain tags
+
+    archiveR   -- Grouped list of all posts
+------------------------------------------------------------------------------------
+
+tagsR :: Tags -> Rules ()
+tagsR tags = 
+  tagsRules tags $ \tag pattern -> do
+    let title = "Posts tagged \"" ++ tag ++ "\""
       
-      route idRoute
-      compile $ do
-        posts <- fmap groupByYear $ recentFirst =<< loadAll pattern
-        let ctx =
-              constField "title" title <>
-              listField "years"
-              (
-                field "year" (return . fst . itemBody) <>
-                listFieldWith "posts" postCtx (return . snd . itemBody)
-              )
-              (sequence $ fmap (\(y, is) -> makeItem (show y, is)) posts) <>
-              baseContext
-        makeItem ""
-          >>= loadAndApplyTemplate "_layouts/tag.html" ctx
-          >>= loadAndApplyTemplate "_layouts/default.html" ctx
-          >>= relativizeUrls
-        
+    route idRoute
+    compile $ groupedPostList title pattern
+    
+-- Archives are the same as the tag page, just more postings and
+-- a different title
+archiveR :: Rules ()
+archiveR =
+  create ["archive/index.html"] $ do
+    let title = "Archives"
+    route idRoute
+    
+    compile $ groupedPostList title sourcePosts
+
+-- Common part of tag/<tag>/index.html pages and archive/index.html page
+groupedPostList :: String -> Pattern -> Compiler (Item String)
+groupedPostList title pattern = do
+  posts <- fmap groupByYear $
+    recentFirst
+    =<< loadAllSnapshots pattern "content"
+  let ctx =
+        constField "title" title <>
+        listField "years"
+        (
+          field "year" (return . fst . itemBody) <>
+          listFieldWith "posts" postCtx (return . snd . itemBody)
+        )
+        (sequence $ fmap (\(y, is) -> makeItem (show y, is)) posts) <>
+        baseContext
+  makeItem ""
+    >>= loadAndApplyTemplate "_layouts/grouped.html" ctx
+    >>= loadAndApplyTemplate "_layouts/default.html" ctx
+    >>= relativizeUrls
+
 -- Homepage rules
 homeR :: Rules ()
 homeR = 
@@ -56,7 +81,7 @@ homeR =
 
    compile $ do
      posts <- fmap (take 5) . recentFirst
-             =<< loadAllSnapshots "sites/main/_posts/2*.org" "content"
+             =<< loadAllSnapshots sourcePosts "content"
      let indexCtx =
            listField  "posts"      postCtx (return posts) <>
            constField "title"      "Home" <>
@@ -67,7 +92,6 @@ homeR =
        >>= loadAndApplyTemplate "_layouts/default.html" indexCtx
        >>= relativizeUrls
 
--- Tag pages
 
 -- Template rules
 templateR :: Rules ()
@@ -100,14 +124,15 @@ staticR = do
 -- About page rules
 aboutR :: Rules ()
 aboutR = 
-  match "about/*" $ do
+  match "about/*.org" $ do
     route $ setExtension "html"
 
-    compile $ orgCompiler
+    compile $ orgCompiler              -- This makes the metadata work
+      >>= applyAsTemplate baseContext  -- This resolves template variables in HTML sections of org
       >>= loadAndApplyTemplate "_layouts/page.html"    baseContext
       >>= loadAndApplyTemplate "_layouts/default.html" baseContext
       >>= relativizeUrls
-
+        
 -- Post Rules
 -- ✓ Take file in orgmode format
 -- ✓ Figure out the publish date
@@ -153,8 +178,7 @@ postCtx =
 
     listFieldWith "taglist" tagCtx getTagItems <>
 
-    baseContext <>
-    defaultContext
+    baseContext
   where
       -- Construct the 'tag' inside the list field (do we need url here too?)
       tagCtx :: Context String
@@ -175,7 +199,7 @@ feedR =
     route idRoute
     compile $ do
       posts <- fmap (take 10) . recentFirst
-              =<< loadAllSnapshots "sites/main/_posts/2*.org" "content"
+              =<< loadAllSnapshots sourcePosts "content"
       renderAtom feedConfiguration feedCtx posts
    where
      feedCtx :: Context String
