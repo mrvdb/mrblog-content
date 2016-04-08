@@ -225,16 +225,6 @@ feedR =
        bodyField "description" <>
        baseContext 
 
-     feedConfiguration :: FeedConfiguration
-     feedConfiguration = FeedConfiguration
-       { feedTitle       = author
-       , feedDescription = sitename
-       , feedAuthorName  = author
-       , feedAuthorEmail = authoremail
-       , feedRoot        = siteurl
-       }
-
-
 -- Jekyll variables, probably can go after a bit.
 baseContext :: Context String
 baseContext =

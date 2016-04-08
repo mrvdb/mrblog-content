@@ -5,12 +5,20 @@
 module Config where
 
 import Hakyll.Core.Configuration
+import Hakyll.Web.Feed
 
-author   = "Marcel van der Boom"
+author :: String
+author = "Marcel van der Boom"
+authoremail :: String
 authoremail = "marcel@hsdev.com"
+sitename :: String
 sitename = "Marcel van der Boom"
-siteurl  = "https://mrblog.nl"
+siteurl :: String
+siteurl = "https://mrblog.nl"
+copyrightYear :: String
 copyrightYear = "2016"
+
+
 
 -- Make the Hakyll configuration explicit and specify overrides
 config :: Configuration
@@ -23,6 +31,15 @@ config = defaultConfiguration
   , tmpDirectory         = ".cache/tmp"
   }
 
+-- Feed configuration
+feedConfiguration :: FeedConfiguration
+feedConfiguration = FeedConfiguration
+  { feedTitle       = author
+  , feedDescription = sitename
+  , feedAuthorName  = author
+  , feedAuthorEmail = authoremail
+  , feedRoot        = siteurl
+  }
 -- We need an exception to the normal ignoreFile function as
 -- there are files that begin with a dot (.) that I do not want to ignore
 ignoreFiles :: FilePath -> Bool
