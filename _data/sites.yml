@@ -1,0 +1,9 @@
+- name: Main blog
+  url: https://mrblog.nl/
+
+- name: Photoblog
+  url: https://photo.mrblog.nl/
+
+- name: Cobra build
+  url: https://cobra.mrblog.nl/
+
