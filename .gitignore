@@ -9,3 +9,5 @@ dist
 .gmg-cache
 .stack-work
 /src/Main_flymake.hs
+/test.org
+test
