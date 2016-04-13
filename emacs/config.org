@@ -1,3 +1,20 @@
+#+title: Orgmode configuration
+#+layout: orgmode
+
+
+This page is a rendering of my Emacs configuration. I use =org-babel= to
+specify my configuration in an orgmode file that dynamically gets
+converted, or tangled as it is called, to an =elisp= file loaded during
+emacs startup.
+
+As my =jekyll= setup is capable of rendering =org-mode= syntax files
+directly I have put this original config file in place and have jekyll
+produce a rendering of it. The original of this file lives on github
+at the following location:
+
+[[https://raw.githubusercontent.com/mrvdb/emacs-config/master/mrb.org]]
+
+
 #+SETUPFILE: "~/dat/org/etc/org-config.org"
 #+TITLE: Emacs configuration
 #+DESCRIPTION: An org-babel based emacs configuration
@@ -84,62 +101,62 @@ And edit the file obviously.
   #
 
   # Save how we are called
-  WEARE=$(basename $0)
+  WEARE=$$(basename $$0)
 
   # Base invocation of emacsclient
   EMACS_SOCKET=/tmp/emacs`id -u`/server
 
   # Check how we are called and adapt
   # This is for things like commit messages
-  XARGS="--quiet --socket-name=$EMACS_SOCKET"
-  if [ $WEARE == "edit" ]; then
-      XARGS=$XARGS' --no-wait'
+  XARGS="--quiet --socket-name=$$EMACS_SOCKET"
+  if [ $$WEARE == "edit" ]; then
+      XARGS=$$XARGS' --no-wait'
   fi
-  EMACSCLIENT="`which emacsclient` $XARGS"
+  EMACSCLIENT="`which emacsclient` $$XARGS"
 
   # Number of current visible frames,
   # Emacs daemon always has a visible frame called F1 which is erm, not visible.
   visible_frames() {
-      $EMACSCLIENT --alternate-editor="" --eval '(length (visible-frame-list))' 2>/dev/null
+      $$EMACSCLIENT --alternate-editor="" --eval '(length (visible-frame-list))' 2>/dev/null
   }
 
   # Change the focus to emacs
   change_focus() {
-      $EMACSCLIENT --eval "(select-frame-set-input-focus (selected-frame))" > /dev/null
+      $$EMACSCLIENT --eval "(select-frame-set-input-focus (selected-frame))" > /dev/null
   }
 
   # Editting stdin, part 1: save the input to a file
   save_stdin() {
-      TMPSTDIN="$(mktemp /tmp/emacsstdinXXX)";
-      cat >"$TMPSTDIN";
+      TMPSTDIN="$$(mktemp /tmp/emacsstdinXXX)";
+      cat >"$$TMPSTDIN";
   }
 
   # if the file argument is '-', treat this as stdin
-  # TODO: pass $@ further down?
-  if [ "X$1" == "X-" ]; then
+  # TODO: pass $$@ further down?
+  if [ "X$$1" == "X-" ]; then
       save_stdin
       # Recursive call!
-      edit $TMPSTDIN;
-      rm $TMPSTDIN;
+      edit $$TMPSTDIN;
+      rm $$TMPSTDIN;
       exit 0;
   fi
 
   # try switching to the frame incase it is just minimized
   # This will start a server if not running
-  test "$(visible_frames)" -eq "1" && change_focus
+  test "$$(visible_frames)" -eq "1" && change_focus
 
-  XARGS=$@
-  if [ "X$XARGS" == "X" ]; then
+  XARGS=$$@
+  if [ "X$$XARGS" == "X" ]; then
       XARGS='~/untitled'
   fi
-  if [ "$(visible_frames)" -lt  "2" ]; then
+  if [ "$$(visible_frames)" -lt  "2" ]; then
       # need to create a frame
-      # -c $@ with no args just opens the scratch buffer
-      $EMACSCLIENT --create-frame "$XARGS" && change_focus
+      # -c $$@ with no args just opens the scratch buffer
+      $$EMACSCLIENT --create-frame "$$XARGS" && change_focus
   else
       # there is already a visible frame besides the daemon, change focus
-      # -n $@ errors if there are no args
-      test  "$#" -ne "0" && $EMACSCLIENT "$XARGS"
+      # -n $$@ errors if there are no args
+      test  "$$#" -ne "0" && $$EMACSCLIENT "$$XARGS"
   fi
 #+END_SRC
 
@@ -284,7 +301,7 @@ other places too.
 #+BEGIN_SRC emacs-lisp
   (setq user-full-name    "Marcel van der Boom")
   (setq user-mail-address "marcel@hsdev.com")
-  (setq user-domain "hsdev.com") 
+  (setq user-domain "hsdev.com")
   (setq user-organisation "HS-Development BV")
   (setq user-xmpp-account (concat user-mail-address "/" system-name))
   (setq user-gpg-encrypt-key "FEAA7ADD")
@@ -345,7 +362,7 @@ separate file for several reasons.
 
 #+BEGIN_SRC emacs-lisp
   (setq
-   
+
    ; disable backup files (foo~)
    backup-inhibited t
 
@@ -893,7 +910,7 @@ Here are the templates used for them.
   |-----------------+----------+----------+-------|
   | Total           |          |          |       |
   |-----------------+----------+----------+-------|
-  #+TBLFM: $4=$2*$3;%.0f::$LR4=vsum(@2$4..@-I$4)
+  #+TBLFM: $$4=$$2*$$3;%.0f::$$LR4=vsum(@2$$4..@-I$$4)
 
   "
             :prepend t :empty-lines 1)
@@ -1512,7 +1529,7 @@ and HTML as destination format
   (defun mrb/org-export-body-as-html-batch ()
     "Call `org-export-as-html', may be used in batch processing as
   emacs   --batch
-          --load=$HOME/lib/emacs/org.el
+          --load=$$HOME/lib/emacs/org.el
           --eval \"(setq org-export-headline-levels 2)\"
           --visit=MyFile --funcall org-export-body as-html-batch"
     (interactive)
@@ -1697,7 +1714,7 @@ migrate this into more literal sections
   ; Keybindings which only make sense when having an orgmode file
   (bind-key "C-c t" 'org-set-tags org-mode-map)
   (bind-key "C-c e" 'org-export-dispatch org-mode-map)
-  
+
   ; Map \cmd{}t to schedule in both task and agenda-view
   (bind-key "s-t" 'org-schedule org-mode-map)
   (bind-key "s-t" 'org-agenda-schedule org-agenda-mode-map)
@@ -2676,8 +2693,8 @@ registered as a command automatically.
 We want to be able to open files from within eshell in the same way as
 we do from the command line shell in the os. For this I have define an
 alias which just uses find-file-other-window.
-To be able to open multiple files (so we can use $* as argument
-instead of just $1) we need to advice find-file-other-window to support this.
+To be able to open multiple files (so we can use $$* as argument
+instead of just $$1) we need to advice find-file-other-window to support this.
 
 #+BEGIN_SRC emacs-lisp
   (defadvice find-file-other-window (around find-files activate)
@@ -3213,16 +3230,16 @@ set as the default mail handler.
 #+BEGIN_SRC sh :exports code :tangle ~/bin/mailto-handler :shebang #!/bin/sh
 # Emacs mailto URI handler
 
-mailto=$1
-mailto="mailto:${mailto#mailto:}"
+mailto=$$1
+mailto="mailto:$${mailto#mailto:}"
 
-mailto=$(printf '%s\n' "$mailto" | sed -e 's/[\"]/\\&/g')
+mailto=$$(printf '%s\n' "$$mailto" | sed -e 's/[\"]/\\&/g')
 
 # Call the elisp function handling our mailto URI
-elisp_expr="(mrb/make-mailcompose-frame \"$mailto\")"
+elisp_expr="(mrb/make-mailcompose-frame \"$$mailto\")"
 
 # Go
-edit --eval "$elisp_expr"
+edit --eval "$$elisp_expr"
 
 #+END_SRC
 
@@ -3426,7 +3443,7 @@ XMPP related settings, including interfacing it to other systems
     ;; Make sure the user-xmpp-account gets evaluated
     (setq jabber-account-list
           `((,user-xmpp-account (:connection-type . starttls))))
-    
+
     :config
     (progn
       ;; Show some info in the modeline
@@ -3470,14 +3487,14 @@ XMPP related settings, including interfacing it to other systems
        jabber-muc-nick-saturation 0.35 ;; empirical value, suitable for my theme
        jabber-muc-nick-value 0.75
 
-       ;; Make the MUCs 
+       ;; Make the MUCs
        jabber-muc-show-affiliation-changes nil
        jabber-muc-show-enter-presence nil
        jabber-muc-show-leave-messages nil
        jabber-muc-show-role-changes nil
        )
 
-      
+
       ;; C-j is the prefix for all jabber command in the C-x map (so, C-x C-j precede all commands for jabber)
       ;; The default C-x map for emacs has a C-j entry which binds it to
       ;; dired-jump. This gets in the way of all the keyboard shortcuts for
@@ -3776,7 +3793,7 @@ This particular setting is for eshell git completion:
     (insert (shell-command-to-string pcmpl-git-ref-list-cmd))
     (goto-char (point-min))
     (let (refs)
-      (while (re-search-forward (concat "^refs/" type "/\\(.+\\)$") nil t)
+      (while (re-search-forward (concat "^refs/" type "/\\(.+\\)$$") nil t)
         (push (match-string 1) refs))
       (nreverse refs))))
 

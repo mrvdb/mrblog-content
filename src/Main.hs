@@ -25,6 +25,7 @@ orgPages :: Pattern
 orgPages =
   "about/*.org"
   .||. "error/*.org"
+  .||. "emacs/config.org"
   
 -- Main entry point
 main :: IO ()
