@@ -39,35 +39,25 @@ main = hakyllWith config $ do
     tagsR tags -- List of posts tagged with certain tags
 
     archiveR   -- Grouped list of all posts
-    sitemapR   -- Generate sitemap.xml
 
-    jsonR
+    match "sitemap.xml"    plainApply  -- Generate sitemap.xml
+    match "feed/full.json" plainApply  -- Generate a json database which we can query client side
+    
     searchR    -- Search functionality
 ------------------------------------------------------------------------------------
-jsonR :: Rules ()
-jsonR =
-  match "feed/full.json" $ do
-    route idRoute
 
-    compile $ do
-      posts <- recentFirst =<< loadAllSnapshots postsPattern "content"
-      let ctx =
-            listField "posts" postCtx (return posts) <>
-            baseContext
-            
-      getResourceBody
-        >>= applyAsTemplate ctx
-
--- functionField :: String -> ([String] -> Item a -> Compiler String) -> Context a
--- functionField "json" (\args _ -> error $ show args) <> ctx
-json :: [String] -> Item String -> Compiler String
-json args _ = 
-  case args of
-    [k]  -> return (renderToJSON k)
-    _    -> fail "Template error: json function only takes a single argument"
-
-
-  
+-- Copy after applying template substition, not much more
+-- Typically used for non-human json/xml etc.
+plainApply :: Rules ()
+plainApply = do
+  route idRoute
+  compile $ do
+    posts <- recentFirst =<< loadAllSnapshots postsPattern "content"
+    let ctx =
+          listField "posts" postCtx (return posts) <>
+          baseContext
+    getResourceBody >>= applyAsTemplate ctx
+          
 searchR :: Rules ()
 searchR =
   match "search/index.html" $ do
@@ -81,21 +71,6 @@ searchR =
         >>= relativizeUrls
         
     
-sitemapR :: Rules ()
-sitemapR =
-  match "sitemap.xml" $ do
-    route idRoute
-
-    compile $ do
-     posts <- recentFirst
-             =<< loadAllSnapshots postsPattern "content"
-     let ctx =
-           listField  "posts"      postCtx (return posts) <>
-           baseContext 
-           
-     getResourceBody
-       >>= applyAsTemplate ctx
-       
 -- Grouped view of tag filter post
 tagsR :: Tags -> Rules ()
 tagsR tags = 
@@ -304,6 +279,7 @@ groupByYear = map (\pg -> ( year (head pg), pg) ) .
          year = read . take 4 . takeBaseName . toFilePath . itemIdentifier
 
 -- For later inspection
+-- This give the 
 commitField :: Context String 
 commitField = field "commit" $ \item -> do 
   let fp = toFilePath $ itemIdentifier item 
