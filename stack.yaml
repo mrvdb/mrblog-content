@@ -1,6 +1,14 @@
 flags: {}
 packages:
 - '.'
+# patched version of pandoc needed for my blog
+# - link conversion slightly differents
+- location:
+    git: https://github.com/mrvdb/pandoc
+    commit: dfcd00fcf3eeecf09c3f41253e55ca9541c0da03
+# patched version of hakyll
+# - orgmode compiler
+# - tag support in orgmode for hakyll
 - location:
     git: https://github.com/d12frosted/hakyll
     commit: 01b691d77488439761f19cd60fa1fef0bd79ffb1

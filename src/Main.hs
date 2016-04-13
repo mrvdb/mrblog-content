@@ -1,4 +1,3 @@
---------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
 
 module Main (main) where
@@ -22,6 +21,11 @@ postsPattern =
   "sites/main/_posts/2*.org" 
 --  .&&. complement "sites/main/_posts/_*.org"
 
+orgPages :: Pattern
+orgPages =
+  "about/*.org"
+  .||. "error/*.org"
+  
 -- Main entry point
 main :: IO ()
 main = hakyllWith config $ do
@@ -171,7 +175,7 @@ aboutR' =
 -- About page rules
 aboutR :: Rules ()
 aboutR =
-  match "about/*.org" $ do
+  match orgPages $ do
     route $ setExtension "html"
 
     compile $ orgCompiler              -- This makes the metadata work Compiler (Item String)
