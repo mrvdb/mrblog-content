@@ -1,6 +1,3 @@
----
-title: blog posts
----
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="/feed/atom2html.xsl"
   media="screen"?>
@@ -16,10 +13,10 @@ title: blog posts
     from the beginning.
 -->
 <feed xmlns="http://www.w3.org/2005/Atom">
-  {% include atomheader.inc %}
+  $partial("_includes/atomheader.inc")$
 
 
-  {% for post in site.posts limit: 20 %}
-    {% include atom-entry.inc %}
-  {% endfor %}
+  $for(posts)$
+  $partial("_includes/atom-entry.inc"$
+  $endfor$
 </feed>

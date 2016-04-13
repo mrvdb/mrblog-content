@@ -14,8 +14,13 @@ executable mrblog
                   , parsec
                   , containers
                   , filepath
+                  , time
+                  , old-locale
+                  , aeson
+                  , utf8-string
   other-modules:    Config
                   , Compiler.Org
                   , Compiler.Pandoc
+                  , JSON
   ghc-options:      -threaded
   default-language: Haskell2010

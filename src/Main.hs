@@ -4,7 +4,6 @@
 module Main (main) where
 
 -- System imports
-import           Control.Monad (liftM)
 import           Data.Monoid   ((<>))
 import           Data.List (groupBy)
 import           Data.Function (on)
@@ -16,27 +15,72 @@ import           Hakyll
 -- Our own imports
 import Config
 import Compiler.Org
+import JSON
 
-sourcePosts :: Pattern
-sourcePosts = "sites/main/_posts/2*.org"
+postsPattern :: Pattern
+postsPattern =
+  "sites/main/_posts/2*.org" 
+--  .&&. complement "sites/main/_posts/_*.org"
 
 -- Main entry point
 main :: IO ()
 main = hakyllWith config $ do
     templateR  -- Make sure that our templates are compiled
     staticR    -- Copy static files
+
+    aboutR'
     aboutR     -- About pages
+    
     postR      -- Process posts
     feedR      -- Process atom feed
     homeR      -- Homepage
 
-    tags <- buildTags sourcePosts (fromCapture "tag/*/index.html")
+    tags <- buildTags postsPattern (fromCapture "tag/*/index.html")
     tagsR tags -- List of posts tagged with certain tags
 
     archiveR   -- Grouped list of all posts
-    sitemapR
-------------------------------------------------------------------------------------
+    sitemapR   -- Generate sitemap.xml
 
+    jsonR
+    searchR    -- Search functionality
+------------------------------------------------------------------------------------
+jsonR :: Rules ()
+jsonR =
+  match "feed/full.json" $ do
+    route idRoute
+
+    compile $ do
+      posts <- recentFirst =<< loadAllSnapshots postsPattern "content"
+      let ctx =
+            listField "posts" postCtx (return posts) <>
+            baseContext
+            
+      getResourceBody
+        >>= applyAsTemplate ctx
+
+-- functionField :: String -> ([String] -> Item a -> Compiler String) -> Context a
+-- functionField "json" (\args _ -> error $ show args) <> ctx
+json :: [String] -> Item String -> Compiler String
+json args _ = 
+  case args of
+    [k]  -> return (renderToJSON k)
+    _    -> fail "Template error: json function only takes a single argument"
+
+
+  
+searchR :: Rules ()
+searchR =
+  match "search/index.html" $ do
+    route idRoute
+
+    compile $ 
+      getResourceBody
+        >>= applyAsTemplate baseContext
+        >>= loadAndApplyTemplate "_layouts/page.html" baseContext
+        >>= loadAndApplyTemplate "_layouts/default.html" baseContext
+        >>= relativizeUrls
+        
+    
 sitemapR :: Rules ()
 sitemapR =
   match "sitemap.xml" $ do
@@ -44,7 +88,7 @@ sitemapR =
 
     compile $ do
      posts <- recentFirst
-             =<< loadAllSnapshots sourcePosts "content"
+             =<< loadAllSnapshots postsPattern "content"
      let ctx =
            listField  "posts"      postCtx (return posts) <>
            baseContext 
@@ -69,7 +113,7 @@ archiveR =
     let title = "Archives"
     route idRoute
     
-    compile $ groupedPostList title sourcePosts
+    compile $ groupedPostList title postsPattern
 
 -- Common part of tag/<tag>/index.html pages and archive/index.html page
 groupedPostList :: String -> Pattern -> Compiler (Item String)
@@ -99,7 +143,7 @@ homeR =
 
    compile $ do
      posts <- fmap (take 5) . recentFirst
-             =<< loadAllSnapshots sourcePosts "content"
+             =<< loadAllSnapshots postsPattern "content"
      let indexCtx =
            listField  "posts"      postCtx (return posts) <>
            constField "title"      "Home" <>
@@ -139,17 +183,28 @@ staticR = do
     dir :: (Pattern -> Rules a) -> String -> Rules a
     dir act f = act $ fromGlob $ f ++ "/**"
 
+-- Generate source files, but resolve template constructs
+-- These should also be the source for their html equivalents
+aboutR' :: Rules ()
+aboutR' = 
+  match "about/*.org" $ version "source" $ do
+    route idRoute
+    compile $ getResourceString
+        >>= applyAsTemplate baseContext
+        >>= saveSnapshot "source"
+    
 -- About page rules
 aboutR :: Rules ()
-aboutR = 
+aboutR =
   match "about/*.org" $ do
     route $ setExtension "html"
 
-    compile $ orgCompiler              -- This makes the metadata work
-      >>= applyAsTemplate baseContext  -- This resolves template variables in HTML sections of org
-      >>= loadAndApplyTemplate "_layouts/page.html"    baseContext
-      >>= loadAndApplyTemplate "_layouts/default.html" baseContext
-      >>= relativizeUrls
+    compile $ orgCompiler              -- This makes the metadata work Compiler (Item String)
+        -- >>= applyAsTemplate baseContext  -- This resolves template variables in HTML sections of org
+        >>= loadAndApplyTemplate "_layouts/page.html"    baseContext
+        >>= loadAndApplyTemplate "_layouts/default.html" baseContext
+        >>= relativizeUrls
+
         
 -- Post Rules
 -- ✓ Take file in orgmode format
@@ -161,7 +216,7 @@ aboutR =
 --   Previous/Next links?
 postR :: Rules ()
 postR =
-  match sourcePosts $ do
+  match postsPattern $ do
     
     -- Route should be: /yyyy/mm/dd/filename-without-date.html
     route $
@@ -196,6 +251,10 @@ postCtx =
 
     listFieldWith "taglist" tagCtx getTagItems <>
 
+    constField "excerpt" "" <>
+
+    -- Expose a way to get json data out of stuff
+    functionField "json" json <>
     baseContext
   where
       -- Construct the 'tag' inside the list field (do we need url here too?)
@@ -216,8 +275,8 @@ feedR =
   create ["feed/atom.xml"] $ do
     route idRoute
     compile $ do
-      posts <- fmap (take 10) . recentFirst
-              =<< loadAllSnapshots sourcePosts "content"
+      posts <- fmap (take 20) . recentFirst
+              =<< loadAllSnapshots postsPattern "content"
       renderAtom feedConfiguration feedCtx posts
    where
      feedCtx :: Context String
@@ -243,3 +302,9 @@ groupByYear = map (\pg -> ( year (head pg), pg) ) .
               groupBy ((==) `on` year)
    where year :: Item a -> Int
          year = read . take 4 . takeBaseName . toFilePath . itemIdentifier
+
+-- For later inspection
+commitField :: Context String 
+commitField = field "commit" $ \item -> do 
+  let fp = toFilePath $ itemIdentifier item 
+  unixFilter "git" ["log", "-1", "--oneline", fp] "" 

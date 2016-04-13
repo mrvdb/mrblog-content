@@ -1,15 +1,15 @@
 <title>
-  {% if page.title != null %}
-    {{ page.title }}
-  {% else %}
-    {{site.name }}
-  {%endif  %}
+  $if(title)$
+    $title$
+  $else$
+    $site.name$
+  $endif$
 </title>
-<link href="{{site.url}}{{page.url}}" rel="self"/>
-<link href="{{site.url}}/"/>
-<updated>{{ site.time | date_to_xmlschema }}</updated>
-<id>{{site.url}}/</id>
+<link href="$site.url$$url$" rel="self"/>
+<link href="$site.url$/"/>
+<updated>$pubdate$</updated> 
+<id>$site.url$/</id>
 <author>
-  <name><![CDATA[{{ site.author }}]]></name>
-  {% if site.email %}<email><![CDATA[{{ site.email }}]]></email>{% endif %}
+  <name><![CDATA[ $site.author$ ]]></name>
+  $if(site.email)$<email><![CDATA[ $site.email$ ]]></email>$endif$
 </author>
