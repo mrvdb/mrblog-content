@@ -162,8 +162,6 @@ staticR = do
     dir :: (Pattern -> Rules a) -> String -> Rules a
     dir act f = act $ fromGlob $ f ++ "/**"
 
--- Generate source files, but resolve template constructs
--- The result of this should be the input for the org compiler
     
 -- About page rules
 aboutR :: Rules ()
@@ -178,19 +176,21 @@ aboutR = do
   -- Generate html rendering based on source
   match orgPages $ version "html" $ do
     route $ setExtension "html"
-
-    let src = do
-          id' <- setVersion (Just "source") `fmap` getUnderlying
-          body <- loadSnapshotBody id' "source"
-          makeItem body
    
     -- Compile with the src item above
-    compile $ orgCompilerWith src 
+    compile $ orgCompilerWith (itemFromVersion "source")
         >>= loadAndApplyTemplate "_layouts/page.html"    baseContext
         >>= loadAndApplyTemplate "_layouts/default.html" baseContext
         >>= relativizeUrls
 
-       
+-- Get a previously compiled item
+itemFromVersion :: String -> Compiler (Item String)
+itemFromVersion v = do
+  id' <- setVersion (Just v) `fmap` getUnderlying
+  -- FIXME: this is not a version, it's a snapshot name
+  body <- loadSnapshotBody id' v 
+  makeItem body
+  
 -- Post Rules
 -- ✓ Take file in orgmode format
 -- ✓ Figure out the publish date
@@ -208,22 +208,16 @@ postR = do
       >>= saveSnapshot "source"
       
   match postsPattern $ version "html" $ do
-    
-    -- Route should be: /yyyy/mm/dd/filename-without-date.html
     route $ postsRoute "html"
 
-    let src = do
-          id' <- setVersion (Just "source") `fmap` getUnderlying
-          body <- loadSnapshotBody id' "source"
-          makeItem body
-          
     -- Compile posts with the orgmode compiler
-    compile $ orgCompilerWith src
+    compile $ orgCompilerWith (itemFromVersion "source")
       >>= loadAndApplyTemplate "_layouts/post.html"    postCtx
       >>= saveSnapshot "content"
       >>= loadAndApplyTemplate "_layouts/default.html" postCtx
       >>= relativizeUrls
 
+-- Route should be: /yyyy/mm/dd/filename-without-date.html
 postsRoute :: String -> Routes
 postsRoute ext =
   setExtension ext `composeRoutes`
