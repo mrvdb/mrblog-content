@@ -33,7 +33,6 @@ main = hakyllWith config $ do
     templateR  -- Make sure that our templates are compiled
     staticR    -- Copy static files
 
-    aboutR'
     aboutR     -- About pages
     
     postR      -- Process posts
@@ -165,34 +164,33 @@ staticR = do
 
 -- Generate source files, but resolve template constructs
 -- The result of this should be the input for the org compiler
-aboutR' :: Rules ()
-aboutR' = 
+    
+-- About page rules
+aboutR :: Rules ()
+aboutR = do
+  -- Generate resolved source format
   match orgPages $ version "source" $ do
     route idRoute
     compile $ getResourceString
         >>= applyAsTemplate baseContext
         >>= saveSnapshot "source"
-    
--- About page rules
-aboutR :: Rules ()
-aboutR =
+
+  -- Generate html rendering based on source
   match orgPages $ version "html" $ do
     route $ setExtension "html"
 
-    -- Get the body from the compiled source above
     let src = do
-          id <- setVersion (Just "source") `fmap` getUnderlying
-          body <- loadBody id
+          id' <- setVersion (Just "source") `fmap` getUnderlying
+          body <- loadSnapshotBody id' "source"
           makeItem body
    
     -- Compile with the src item above
-    compile $ orgCompilerWith src              -- This makes the metadata work Compiler (Item String)
-        -- >>= applyAsTemplate baseContext  -- This resolves template variables in HTML sections of org
+    compile $ orgCompilerWith src 
         >>= loadAndApplyTemplate "_layouts/page.html"    baseContext
         >>= loadAndApplyTemplate "_layouts/default.html" baseContext
         >>= relativizeUrls
 
-        
+       
 -- Post Rules
 -- ✓ Take file in orgmode format
 -- ✓ Figure out the publish date
@@ -202,28 +200,29 @@ aboutR =
 --   Skip 'published: false' posts
 --   Previous/Next links?
 postR :: Rules ()
-postR =
-  match postsPattern $ do
+postR = 
+  match postsPattern $ version "html" $ do
     
     -- Route should be: /yyyy/mm/dd/filename-without-date.html
-    route $
-      setExtension "html" `composeRoutes`
-      dateFolders `composeRoutes`
-      -- FIXME: this does not belong here
-      gsubRoute "sites/main/_posts/" (const "") 
-
+    route $ postsRoute "html"
+    
     -- Compile posts with the orgmode compiler
     compile $ orgCompiler 
       >>= loadAndApplyTemplate "_layouts/post.html"    postCtx
       >>= saveSnapshot "content"
       >>= loadAndApplyTemplate "_layouts/default.html" postCtx
       >>= relativizeUrls
+
+postsRoute :: String -> Routes
+postsRoute ext =
+  setExtension ext `composeRoutes`
+  dateFolders `composeRoutes`
+  gsubRoute "sites/main/_posts/" (const "")
   where
-    -- yyyy-mm-dd => yyyy/mm/dd
     dateFolders :: Routes
     dateFolders =
       gsubRoute "/[0-9]{4}-[0-9]{2}-[0-9]{2}-" $ replaceAll "-" (const "/")
-
+      
 postCtx :: Context String
 postCtx =
     -- Construct the date components:
