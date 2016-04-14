@@ -21,6 +21,6 @@ executable mrblog
   other-modules:    Config
                   , Compiler.Org
                   , Compiler.Pandoc
-                  , JSON
+                  , Template.Functions
   ghc-options:      -threaded
   default-language: Haskell2010

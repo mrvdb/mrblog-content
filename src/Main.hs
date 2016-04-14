@@ -14,7 +14,7 @@ import           Hakyll
 -- Our own imports
 import Config
 import Compiler.Org
-import JSON
+import Template.Functions
 
 postsPattern :: Pattern
 postsPattern =
@@ -183,7 +183,7 @@ aboutR = do
         >>= loadAndApplyTemplate "_layouts/default.html" baseContext
         >>= relativizeUrls
 
--- Get a previously compiled item
+-- Get a previously compiled item from a version
 itemFromVersion :: String -> Compiler (Item String)
 itemFromVersion v = do
   id' <- setVersion (Just v) `fmap` getUnderlying
@@ -244,8 +244,9 @@ postCtx =
 
     constField "excerpt" "" <>
 
-    -- Expose a way to get json data out of stuff
-    functionField "json" json <>
+    -- Expose somet functions to the templates
+    functionField "json"      json      <>
+    functionField "striptags" striptags <>
     baseContext
   where
       -- Construct the 'tag' inside the list field (do we need url here too?)
