@@ -2,7 +2,7 @@
 {-# LANGUAGE NoImplicitPrelude #-}
 {-# LANGUAGE LambdaCase #-}
 
-module Compiler.Org (orgCompiler) where
+module Compiler.Org (orgCompiler, orgCompilerWith) where
 
 import           BasicPrelude
 import           Compiler.Pandoc
@@ -20,6 +20,10 @@ import           Text.Read (readEither)
 
 orgCompiler :: Compiler (Item String)
 orgCompiler = pandocMetadataCompilerWith transform
+  where transform = tFixLinks . tImages . tTags . tDateMeta . tTableOfContents . tHeaderIds
+
+orgCompilerWith :: Compiler (Item String) -> Compiler (Item String)
+orgCompilerWith = pandocMetadataCompilerWith' transform
   where transform = tFixLinks . tImages . tTags . tDateMeta . tTableOfContents . tHeaderIds
 
 --------------------------------------------------------------------------------

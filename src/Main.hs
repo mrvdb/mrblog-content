@@ -164,10 +164,10 @@ staticR = do
     dir act f = act $ fromGlob $ f ++ "/**"
 
 -- Generate source files, but resolve template constructs
--- These should also be the source for their html equivalents
+-- The result of this should be the input for the org compiler
 aboutR' :: Rules ()
 aboutR' = 
-  match "about/*.org" $ version "source" $ do
+  match orgPages $ version "source" $ do
     route idRoute
     compile $ getResourceString
         >>= applyAsTemplate baseContext
@@ -176,10 +176,17 @@ aboutR' =
 -- About page rules
 aboutR :: Rules ()
 aboutR =
-  match orgPages $ do
+  match orgPages $ version "html" $ do
     route $ setExtension "html"
 
-    compile $ orgCompiler              -- This makes the metadata work Compiler (Item String)
+    -- Get the body from the compiled source above
+    let src = do
+          id <- setVersion (Just "source") `fmap` getUnderlying
+          body <- loadBody id
+          makeItem body
+   
+    -- Compile with the src item above
+    compile $ orgCompilerWith src              -- This makes the metadata work Compiler (Item String)
         -- >>= applyAsTemplate baseContext  -- This resolves template variables in HTML sections of org
         >>= loadAndApplyTemplate "_layouts/page.html"    baseContext
         >>= loadAndApplyTemplate "_layouts/default.html" baseContext
@@ -284,7 +291,7 @@ groupByYear = map (\pg -> ( year (head pg), pg) ) .
          year = read . take 4 . takeBaseName . toFilePath . itemIdentifier
 
 -- For later inspection
--- This give the 
+-- This give the latest commit for a file
 commitField :: Context String 
 commitField = field "commit" $ \item -> do 
   let fp = toFilePath $ itemIdentifier item 

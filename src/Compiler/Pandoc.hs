@@ -1,7 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE NoImplicitPrelude #-}
 
-module Compiler.Pandoc (pandocMetadataCompilerWith) where
+module Compiler.Pandoc (pandocMetadataCompilerWith,pandocMetadataCompilerWith') where
 
 import BasicPrelude
 import Data.Map.Lazy (foldMapWithKey)
@@ -10,13 +10,16 @@ import Text.Pandoc (Pandoc(..), unMeta, MetaValue(..))
 import Text.Pandoc.Builder (doc, plain, str)
 import Text.Pandoc.Shared (stringify)
 
-pandocMetadataCompilerWith :: (Pandoc -> Pandoc) -> Compiler (Item String)
-pandocMetadataCompilerWith t =
-  do itemPandoc <- return . fmap t =<< readPandocWith ropt =<< getResourceString
+pandocMetadataCompilerWith' :: (Pandoc -> Pandoc) -> Compiler (Item String) -> Compiler (Item String)
+pandocMetadataCompilerWith' t s =
+  do itemPandoc <- return . fmap t =<< readPandocWith ropt =<< s
      _ <- reloadMetadata . writePandocWith wopt . fmap transformPandoc $ itemPandoc
      return . writePandocWith wopt $ itemPandoc
   where ropt = defaultHakyllReaderOptions
         wopt = defaultHakyllWriterOptions
+        
+pandocMetadataCompilerWith :: (Pandoc -> Pandoc) -> Compiler (Item String)
+pandocMetadataCompilerWith t = pandocMetadataCompilerWith' t getResourceString
 
 transformPandoc :: Pandoc -> Pandoc
 transformPandoc p = meta <> p
