@@ -41,7 +41,7 @@ module Jekyll
     end
 
     def matches(ext)
-      ext =~ /org$/i
+      ext =~ /org$$/i
     end
 
     def output_ext(ext)

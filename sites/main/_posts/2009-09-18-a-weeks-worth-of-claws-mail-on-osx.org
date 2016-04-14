@@ -194,13 +194,13 @@ and likewise for the other protocols. The =mailto_handler= file is
 just a shell script containing:
 
 #+BEGIN_SRC sh
-    /usr/local/bin/claws-mail --compose $1
+    /usr/local/bin/claws-mail --compose $$1
 #+END_SRC
 
 and my =~/bin/feed_handler= contains:
 
 #+BEGIN_SRC sh
-    /usr/local/bin/claws-mail --subscribe $1
+    /usr/local/bin/claws-mail --subscribe $$1
 #+END_SRC
 
 If you would like a copy of the source of this program, go here:

@@ -54,8 +54,8 @@ And the code
       echo "Clickedn";
   }
 
-  $gx = &new GladeXML('interface.glade');
-  $gx->signal_autoconnect();
+  $$gx = &new GladeXML('interface.glade');
+  $$gx->signal_autoconnect();
 #+END_SRC
 
 This creates a window with a button on it and connects the clicked
