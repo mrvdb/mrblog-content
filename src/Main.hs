@@ -56,7 +56,7 @@ plainApply :: Rules ()
 plainApply = do
   route idRoute
   compile $ do
-    posts <- recentFirst =<< loadAllSnapshots postsPattern "content"
+    posts <- recentFirst =<< loadAllSnapshots (postsPattern .&&. hasVersion "html") "content"
     let ctx =
           listField "posts" postCtx (return posts) <>
           baseContext
@@ -99,7 +99,7 @@ groupedPostList :: String -> Pattern -> Compiler (Item String)
 groupedPostList title pattern = do
   posts <- fmap groupByYear $
     recentFirst
-    =<< loadAllSnapshots pattern "content"
+    =<< loadAllSnapshots (pattern .&&. hasVersion "html") "content"
   let ctx =
         constField "title" title <>
         listField "years"
@@ -122,7 +122,7 @@ homeR =
 
    compile $ do
      posts <- fmap (take 5) . recentFirst
-             =<< loadAllSnapshots postsPattern "content"
+             =<< loadAllSnapshots (postsPattern .&&. hasVersion "html") "content"
      let indexCtx =
            listField  "posts"      postCtx (return posts) <>
            constField "title"      "Home" <>
@@ -200,14 +200,25 @@ aboutR = do
 --   Skip 'published: false' posts
 --   Previous/Next links?
 postR :: Rules ()
-postR = 
+postR = do
+  match postsPattern $ version "source" $ do
+    route $ postsRoute "org"
+    compile $ getResourceString
+      >>= applyAsTemplate postCtx
+      >>= saveSnapshot "source"
+      
   match postsPattern $ version "html" $ do
     
     -- Route should be: /yyyy/mm/dd/filename-without-date.html
     route $ postsRoute "html"
-    
+
+    let src = do
+          id' <- setVersion (Just "source") `fmap` getUnderlying
+          body <- loadSnapshotBody id' "source"
+          makeItem body
+          
     -- Compile posts with the orgmode compiler
-    compile $ orgCompiler 
+    compile $ orgCompilerWith src
       >>= loadAndApplyTemplate "_layouts/post.html"    postCtx
       >>= saveSnapshot "content"
       >>= loadAndApplyTemplate "_layouts/default.html" postCtx
@@ -262,7 +273,7 @@ feedR =
     route idRoute
     compile $ do
       posts <- fmap (take 20) . recentFirst
-              =<< loadAllSnapshots postsPattern "content"
+              =<< loadAllSnapshots (postsPattern .&&. hasVersion "html") "content"
       renderAtom feedConfiguration feedCtx posts
    where
      feedCtx :: Context String
