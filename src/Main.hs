@@ -30,8 +30,10 @@ import Control.Monad (liftM, filterM)
 -- Patterns which match blog postings
 postsPattern :: Pattern
 postsPattern =
-  "sites/main/_posts/2*.org" 
---  .&&. complement "sites/main/_posts/_*.org"
+  "sites/main/_posts/*.org" 
+  .&&. complement "sites/main/_posts/_*.org"
+  .&&. complement "sites/main/_posts/testpandoc.org"
+  .&&. complement "sites/main/_posts/containertest.org"
 
 -- A few ad-hoc orgmode documents which should be published as pages
 orgPages :: Pattern
