@@ -36,10 +36,8 @@ postsPattern =
   .&&. complement "sites/main/_posts/_*.org"
   .&&. complement "sites/main/_posts/testpandoc.org"
   .&&. complement "sites/main/_posts/containertest.org")
-  .||.
-  ("sites/cobra/_posts/*.org")
-  .||.
-  ("sites/photo/_posts/*.org")
+  .||. "sites/cobra/_posts/*.org"
+  .||. "sites/photo/_posts/*.org"
 
 -- A few ad-hoc orgmode documents which should be published as pages
 orgPages :: Pattern
@@ -266,7 +264,9 @@ postsRoute :: String -> Routes
 postsRoute ext =
   setExtension ext `composeRoutes`
   dateFolders `composeRoutes`
-  gsubRoute "sites/main/_posts/" (const "")
+  gsubRoute "sites/main/_posts/"  (const "") `composeRoutes`
+  gsubRoute "sites/photo/_posts/" (const "") `composeRoutes`
+  gsubRoute "sites/cobra/_posts/" (const "")
   where
     dateFolders :: Routes
     dateFolders =
@@ -358,9 +358,7 @@ commitField = field "commit" $ \item -> do
 postCount :: MonadMetadata m => Pattern -> m Int
 postCount p =  length <$> getMatches p
 
--- getpostCount :: Pattern -> String 
--- getpostCount p = (postCount p)
-  
+
 
 -- Helpers for previous and next url
 getPostUrl :: ([Identifier] -> Identifier -> Maybe Identifier) -> Item String -> Compiler String
