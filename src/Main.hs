@@ -38,6 +38,8 @@ postsPattern =
   .&&. complement "sites/main/_posts/containertest.org")
   .||.
   ("sites/cobra/_posts/*.org")
+  .||.
+  ("sites/photo/_posts/*.org")
 
 -- A few ad-hoc orgmode documents which should be published as pages
 orgPages :: Pattern
