@@ -3,7 +3,8 @@
     $for(posts)$
     <url>
         <loc>$site.url$$url$</loc>
-	<lastmod>$pubdate$</lastmod>
+	$if(pubdate)$<lastmod>$pubdate$</lastmod>$endif$
+	<priority>0.8</priority>
     </url>
     $endfor$
 </urlset>
