@@ -279,8 +279,8 @@ postCtx =
     listFieldWith "taglist" tagCtx getTagItems <>
 
     -- Our templates use reverse terminolog
-    field "prevPost" nextPostUrl <>
-    field "nextPost" previousPostUrl <>
+    field "prevPost" (getPostUrl itemAfter) <>
+    field "nextPost" (getPostUrl itemBefore) <>
 
     baseContext
   where
@@ -351,33 +351,21 @@ postCount p =  length <$> getMatches p
 -- getpostCount :: Pattern -> String 
 -- getpostCount p = (postCount p)
   
-  
-previousPostUrl :: Item String -> Compiler String
-previousPostUrl post = do
+
+-- Helpers for previous and next url
+getPostUrl :: ([Identifier] -> Identifier -> Maybe Identifier) -> Item String -> Compiler String
+getPostUrl beforeOrAfter post = do
     posts <- getMatches (postsPattern .&&. hasVersion "html")
     let ident = itemIdentifier post
         sortedPosts = sortIdentifiersByDate posts
-        ident' = itemBefore sortedPosts ident
+        ident' = beforeOrAfter sortedPosts ident
     case ident' of
         Just i -> (fmap (maybe empty toUrl) . getRoute) i
         Nothing -> empty
-
-
-nextPostUrl :: Item String -> Compiler String
-nextPostUrl post = do
-    posts <- getMatches (postsPattern .&&. hasVersion "html")
-    let ident = itemIdentifier post
-        sortedPosts = sortIdentifiersByDate posts
-        ident' = itemAfter sortedPosts ident
-    case ident' of
-        Just i -> (fmap (maybe empty toUrl) . getRoute) i
-        Nothing -> empty
-
 
 itemAfter :: Eq a => [a] -> a -> Maybe a
 itemAfter xs x =
     lookup x $ zip xs (tail xs)
-
 
 itemBefore :: Eq a => [a] -> a -> Maybe a
 itemBefore xs x =
