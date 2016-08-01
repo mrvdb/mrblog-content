@@ -7,15 +7,11 @@ thickness needs to be determined to get the necessary endfloat in the
 hubs. Starting by putting the rear hub in a vice...
 
 
-#+BEGIN_HTML
-{%gmg shadowed 305 %}
-#+END_HTML
+[[/assets/img/gmg-305.jpg]]
 
 …and greasing up the bearing.
 
-#+BEGIN_HTML
-{%gmg shadowed 306 %}
-#+END_HTML
+[[/assets/img/gmg-306.jpg]]
 
 After placing the housing on top of the bearing and filling the cavity
 with lots of grease, the inner bearing can be driven in, but not
@@ -27,17 +23,13 @@ little bit of room a (large) endfloat can be measured and from there
 the necessary spacer thickness can be calculated. Not having this tool
 I ordered the thickest spacer (0.148") for an alternative procedure.
 
-#+BEGIN_HTML
-{%gmg shadowed 307 %}
-#+END_HTML
+[[/assets/img/gmg-307.jpg]]
 
 With this spacer on top of the inner bearing the whole hub was put
 under the press to drive in the bearing. When the spacer is flat with
 the bearing the endfloat can be measured.
 
-#+BEGIN_HTML
-{%gmg shadowed 308 %}
-#+END_HTML
+[[/assets/img/gmg-308.jpg]]
 
 In my case the endfloat was 0.016" The target endfloat is between
 0.002" and 0.006", aiming at the average 0.004". So, instead of the

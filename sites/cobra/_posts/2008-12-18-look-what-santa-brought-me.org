@@ -1,13 +1,9 @@
 #+title: Look what Santa brought me...
 #+tags: cobra engine
 
-#+BEGIN_HTML
-{%gmg shadowed 320 %}
-#+END_HTML
+[[/assets/img/gmg-320.jpg]]
 
-#+BEGIN_HTML
-{%gmg shadowed 321 %}
-#+END_HTML
+[[/assets/img/gmg-321.jpg]]
 
 No words needed. At the moment I can't do much to the engine yet,
 other than drool over it. (Well, I could go mad on polishing I guess)

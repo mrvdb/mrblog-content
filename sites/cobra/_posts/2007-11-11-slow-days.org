@@ -13,17 +13,13 @@ smoothing out. Have to think about how to go about that. The first
 thing is to add a bit of solvent to the chassis coat to make it smooth
 out a bit better.
 
-#+BEGIN_HTML
-{%gmg shadowed 399 %}
-#+END_HTML
+[[/assets/img/gmg-399.jpg]]
 
 Next to that, inspecting the donor parts in detail reveals some
 things which need some attention. The parts are mostly in good
 condition, but obviously show their age and use.
 
-#+BEGIN_HTML
-{%gmg shadowed 400 %}
-#+END_HTML
+[[/assets/img/gmg-400.jpg]]
 
 One of the parts showed a worn (broken ?) inner wall. The other shaft
 [[/2007/07/first-day-first-problems.html][had problems too]] but those I managed to repair to satisfaction. This

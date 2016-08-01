@@ -1,5 +1,5 @@
 * { margin: 0; padding: 0;}
-img, fieldset { border: none;}
+img, fieldset { border: none; max-width: 600px;}
 
 /* defaults mostly go in body */
 body {

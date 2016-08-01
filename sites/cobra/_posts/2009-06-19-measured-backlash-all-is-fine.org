@@ -5,9 +5,7 @@ Did some research on the allowed backlash and the general consensus
 seems that a 2/3" to 1" backlash measured on the outer rim of the
 brake disc is acceptable. (which seems very large to me actually)
 
-#+BEGIN_HTML
-{%gmg shadowed 299 %}
-#+END_HTML
+[[/assets/img/gmg-299.jpg]]
 
 I should have photographed a measuring tape next to the marks, but
 it's way less than an inch, so I guess I'm in the clear.

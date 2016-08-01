@@ -6,21 +6,15 @@ the rear axle today. Planning to do the front axle tomorrow. The self
 fabricated rack of some wood and old heating pipe worked well.
 
 
-#+BEGIN_HTML
-{%gmg shadowed 363 %}
-#+END_HTML
+[[/assets/img/gmg-363.jpg]]
 
 I'm still wondering about that por15 stuff. I've never seen
 anything like it. It's hard to capture the finish in pictures, but
 perhaps these two give an idea.
 
-#+BEGIN_HTML
-{%gmg shadowed 364 %}
-#+END_HTML
+[[/assets/img/gmg-364.jpg]]
 
-#+BEGIN_HTML
-{%gmg shadowed 365 %}
-#+END_HTML
+[[/assets/img/gmg-365.jpg]]
 
 Especially in the second picture, the finish almost looks
 'metal-ish' The spots are the original welding spots. Quite happy with
@@ -34,9 +28,7 @@ which has an outer diameter which is about 0.7mm smaller. The inner
 size of the two is the same, so the roller from the LM258 kit can be
 used.
 
-#+BEGIN_HTML
-{%gmg shadowed 366 %}
-#+END_HTML
+[[/assets/img/gmg-366.jpg]]
 
 Looking at several sources on the internet, I'm not sure what to
 make of this. I am not 100% sure of the precise year/model of donor I

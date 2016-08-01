@@ -13,13 +13,9 @@ look forward too also.
 The Garage is more or less 'done', just planning for some [[http://racedeck.com][racedeck]]
 stuff on the floor a bit later
 
-#+BEGIN_HTML
-{% gmg shadowed 283 %}
-#+END_HTML
+[[/assets/img/gmg-283.jpg]]
 
-#+BEGIN_HTML
-{% gmg shadowed 395 %}
-#+END_HTML
+[[/assets/img/gmg-395.jpg]]
 
 Oh, this is not how it actually looks at the moment (it's full of
 stuff again), but for rembering how it looks empty and clean and

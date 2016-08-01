@@ -14,9 +14,7 @@ smaller width as the hub. This simplifies assembling the hub to the
 wishbone considerably and makes sure the shims which are inside the
 fulcrum stay properly positioned.
 
-#+BEGIN_HTML
-{%gmg shadowed 300 %}
-#+END_HTML
+[[/assets/img/gmg-300.jpg]]
 
 The "hub—wishbone fit" was pretty much dead on. There are shims to
 make sure the hub is centred and to prevent bending the ends of the
@@ -31,9 +29,7 @@ it easy to adjust the camber. The one-tenth of a degree negative
 camber should do just fine for now. I bet I need to revisit this once
 the car is completed and the proper ride-height is determined.
 
-#+BEGIN_HTML
-{%gmg shadowed 301 %}
-#+END_HTML
+[[/assets/img/gmg-301.jpg]]
 
 The big nut on the drive shaft needs to be torqued up (only to 75Nm
 apparently, which seems small for such a big boy). Doing that is
@@ -46,9 +42,7 @@ For the 4 inner lock nuts I've have fitted
 some temporary nuts for now; to be replaced with the metal-lock nuts
 once the whole assembly is attached to the chassis.
 
-#+BEGIN_HTML
-{%gmg shadowed 302 %}
-#+END_HTML
+[[/assets/img/gmg-302.jpg]]
 
 So, for the other side, I still need the inner oil seal and a set of
 shims to be able to complete it. They should arrive this week.

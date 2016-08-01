@@ -7,9 +7,7 @@ outwards a bit with a pulley and a piece of wood placed to keep them
 like that. After that fitting wasn't that hard.
 
 
-#+BEGIN_HTML
-{%gmg shadowed 346 %}
-#+END_HTML
+[[/assets/img/gmg-346.jpg]]
 
 After assembly, I noticed that the right side fulcrum shaft was a
 about a centimeter shorter than the shaft used on the left side
@@ -22,9 +20,7 @@ The upper wishbone fitting also did not go as planned. While the right
 side one fits nicely, the left uppper wishbone does not clear the
 chassis as can be seen in the picture below.
 
-#+BEGIN_HTML
-{%gmg shadowed 347 %}
-#+END_HTML
+[[/assets/img/gmg-347.jpg]]
 
 Now, before I start cutting into the chassis, I'm going to chat to
 some other people on this. It's not much of a difference and I

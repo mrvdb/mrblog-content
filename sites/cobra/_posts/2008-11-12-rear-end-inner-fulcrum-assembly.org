@@ -8,18 +8,14 @@ inner fulcrum. Every one of the four sides to do has a set of 4 rings
 and some to keep in place. Here's the set, layed out.
 
 
-#+BEGIN_HTML
-{%gmg shadowed 342 %}
-#+END_HTML
+[[/assets/img/gmg-342.jpg]]
 
 Everything but the nuts at the end also needs greasing. In the end
 it's just doing things in the proper sequence. Start off with one
 side, grease everything up which needs to go on there and press the
 shaft a little bit through.
 
-#+BEGIN_HTML
-{%gmg shadowed 343 %}
-#+END_HTML
+[[/assets/img/gmg-343.jpg]]
 
 With the help of a dummy shaft, I made
 sure the fulcrum was aligned properly, so I could gently tap it
@@ -29,9 +25,7 @@ grease and there's not much room. With some patience it's doable
 though. Repeat on the other side and make sure the shaft has an equal
 protrusion on either side.
 
-#+BEGIN_HTML
-{%gmg shadowed 344 %}
-#+END_HTML
+[[/assets/img/gmg-344.jpg]]
 
 The last step is to put the GD brackets
 on. I was a bit nervous about this step, the holes in these brackets
@@ -41,6 +35,4 @@ over again (and go through all the washer hell too). However, the fit
 was perfect! Yay! Keeping my fingers crossed this translates into the
 proper toe-in too later on!
 
-#+BEGIN_HTML
-{% gmg shadowed 345 %}
-#+END_HTML
+[[/assets/img/gmg-345.jpg]]

@@ -4,6 +4,4 @@
 #+tags: cars holiday hungary
 
 
-#+BEGIN_HTML
-{% gmg 169 %}
-#+END_HTML
+[[/assets/img/gmg-169.jpg]]

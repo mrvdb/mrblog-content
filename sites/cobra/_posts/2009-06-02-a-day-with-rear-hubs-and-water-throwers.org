@@ -38,24 +38,18 @@ enlarge it a little, fitting the piece regularly.
 After quite some sanding and trial fitting and two 'hot sessions' it
 dropped on!
 
-#+BEGIN_HTML
-{%gmg shadowed 309 %}
-#+END_HTML
+[[/assets/img/gmg-309.jpg]]
 
 You can see the reference mark and some
 burn traces in the bottom part of the picture. I'm not sure if you can
 make it out on the picture below, but the hard work paid off. Nice fit
 I think.
 
-#+BEGIN_HTML
-{%gmg shadowed 310 %}
-#+END_HTML
+[[/assets/img/gmg-310.jpg]]
 
 Fitting the seating ring and bearing is easy with a press. There is a
 little bit of room between the bearing and the seating ring. I'm not
 sure if that is supposed to be there, but I do not want to push too
 hard with the press on the bearing.
 
-#+BEGIN_HTML
-{%gmg shadowed 311 %}
-#+END_HTML
+[[/assets/img/gmg-311.jpg]]

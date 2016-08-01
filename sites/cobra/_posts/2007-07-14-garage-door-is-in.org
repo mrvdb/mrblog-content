@@ -4,6 +4,4 @@
 Woke up Saturday morning early, two strange men in our garage. Turned
 out they were installing the door two days early. No objections.
 
-#+BEGIN_HTML
-{%gmg shadowed 396 %}
-#+END_HTML
+[[/assets/img/gmg-396.jpg]]

@@ -20,9 +20,7 @@ pinion and flange to be able to return the nut into the exact same
 position, also by counting the number of threads sticking out the end
 of the nut.
 
-#+BEGIN_HTML
-{% gmg shadowed 413 %}
-#+END_HTML
+[[/assets/img/gmg-413.jpg]]
 
 All these procedures were of little help to me because:
 1. the seal i have differs from the one coming out; not sure how it
@@ -33,9 +31,7 @@ All these procedures were of little help to me because:
    gave the count of threads a go, fully realizing it was next to
    useless.
 
-#+BEGIN_HTML
-{% gmg shadowed 383 %}
-#+END_HTML
+[[/assets/img/gmg-383.jpg]]
 
 Fitting the seal as such posed no problem apart from getting a
 confirmation that I put it in the right way. Not wanting to fasten it

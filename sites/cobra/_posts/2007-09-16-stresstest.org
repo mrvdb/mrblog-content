@@ -1,9 +1,7 @@
 #+title: Stresstest...
 #+tags: cobra garage tools
 
-#+BEGIN_HTML
-{%gmg shadowed 406 %}
-#+END_HTML
+[[/assets/img/gmg-406.jpg]]
 
 
 Enough said...

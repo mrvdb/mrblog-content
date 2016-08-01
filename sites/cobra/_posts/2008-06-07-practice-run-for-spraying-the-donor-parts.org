@@ -11,9 +11,7 @@ the bike for spraying.
 First, with the help of an /el cheapo/ gazebo, I created an
 improvised spray booth.
 
-#+BEGIN_HTML
-{%gmg shadowed 367 %}
-#+END_HTML
+[[/assets/img/gmg-367.jpg]]
 
 This worked much better than expected. After a bit of testing to get
 the viscosity of the chassis coat right and the spray gun adjusted,
@@ -21,9 +19,7 @@ spraying the two bike parts was a quick job. The goal was to record
 the settings for the gun, the amount of solvent to use and, obviously,
 look at the end result.
 
-#+BEGIN_HTML
-{%gmg shadowed 368 %}
-#+END_HTML
+[[/assets/img/gmg-368.jpg]]
 
 The chassis coat, when sprayed, gives a unique finish, more matte than
 brushed. The breather is no luxury, this stuff is nasty.

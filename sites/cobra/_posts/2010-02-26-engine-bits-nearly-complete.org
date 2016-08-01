@@ -9,9 +9,7 @@ not complete the mating, but there's lots of other (little) stuff I
 can complete, such as installing the fuel rail adapter.Click! Done.
 
 
-#+BEGIN_HTML
-{%gmg shadowed 262 %}
-#+END_HTML
+[[/assets/img/gmg-262.jpg]]
 
 In the batch of parts I collected last week, I got the correct length
 drive-belt. Installing this is also a job of two seconds. The coverage
@@ -19,15 +17,11 @@ on the pulley isn't that big, but the belt only has to drive the
 alternator, so it shouldbe ok.
 
 
-#+BEGIN_HTML
-{% gmg shadowed 263 %}
-#+END_HTML
+[[/assets/img/gmg-263.jpg]]
 
 Startmotor can be bolted on now I have the correct length of the
 bolts. It's pretty close to the exhaust, I could not even get it
 assembled without removing the header, so the starter will probably
 need some heat shielding.&nbsp;
 
-#+BEGIN_HTML
-{% gmg shadowed 264 %}
-#+END_HTML
+[[/assets/img/gmg-264.jpg]]

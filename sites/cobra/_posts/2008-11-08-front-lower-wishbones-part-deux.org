@@ -8,9 +8,7 @@ the inner thrust washers in, because the wishbone is a '/GD-fit/'. Took
 me the best part of an hour which should have been a minute job.
 
 
-#+BEGIN_HTML
-{%gmg shadowed 348 %}
-#+END_HTML
+[[/assets/img/gmg-348.jpg]]
 
 The other wishbone is even worse, something which I [[/2008/07/04/front-lower-wishbone-buildup.html][already noticed]]
 when fitting the GD brackets to them. I think I'll have to construct
@@ -20,9 +18,7 @@ be able to fit the right side.
 On the other hand, pressing the water deflectors on to the uprights
 *was* an easy job, using the press.
 
-#+BEGIN_HTML
-{%gmg shadowed 349 %}
-#+END_HTML
+[[/assets/img/gmg-349.jpg]]
 
 I'm running out of nordlock washers, so I'll order a few next
 week. Once I have them I can finish the whole front-end I guess. I had

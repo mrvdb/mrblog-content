@@ -7,9 +7,7 @@ getting in the Universal Joints is very easy to do and the first was
 completed in no time.
 
 
-#+BEGIN_HTML
-{%gmg shadowed 324 %}
-#+END_HTML
+[[/assets/img/gmg-324.jpg]]
 
 The second however, disaster! The first joint went in smoothly but
 when I pressed in the second the complete "top lid" of one of the caps
@@ -17,9 +15,7 @@ broke off!!! Aargh. No idea how this happened. I did not subject the
 joints to excessive force, although using a press sort of hides these
 forces.
 
-#+BEGIN_HTML
-{%gmg shadowed 325 %}
-#+END_HTML
+[[/assets/img/gmg-325.jpg]]
 
 So, after a minute or two of swearing I pressed out the one joint
 which, thankfully, did not damage the shaft and came out pretty

@@ -28,12 +28,16 @@ import Data.Time.Clock (UTCTime)
 import Control.Monad (liftM, filterM)
 
 -- Patterns which match blog postings
+-- TODO: read source patterns from a file
+--
 postsPattern :: Pattern
 postsPattern =
-  "sites/main/_posts/*.org" 
+  ("sites/main/_posts/*.org"
   .&&. complement "sites/main/_posts/_*.org"
   .&&. complement "sites/main/_posts/testpandoc.org"
-  .&&. complement "sites/main/_posts/containertest.org"
+  .&&. complement "sites/main/_posts/containertest.org")
+  .||.
+  ("sites/cobra/_posts/*.org")
 
 -- A few ad-hoc orgmode documents which should be published as pages
 orgPages :: Pattern

@@ -6,13 +6,9 @@ supplies and getting some concrete out of the way, not much was done,
 really.
 
 
-#+BEGIN_HTML
-{%gmg shadowed 434 %}
-#+END_HTML
+[[/assets/img/gmg-434.jpg]]
 
 At the end of the second day however, first beginnings of the new
 inner wall are there! We're getting a real door too. :-)
 
-#+BEGIN_HTML
-{%gmg shadowed 435 %}
-#+END_HTML
+[[/assets/img/gmg-435.jpg]]

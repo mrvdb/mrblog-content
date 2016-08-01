@@ -42,7 +42,9 @@ minutes the framerate was increased until the total time fell just
 below 10 minutes.﻿
 
 #+BEGIN_HTML
-{% oembed http://www.youtube.com/watch?v=fIeDCeh3uL8 %}
+<div class="embed video YouTube">
+<iframe width="459" height="344" src="https://www.youtube.com/embed/fIeDCeh3uL8?feature=oembed" frameborder="0" allowfullscreen="">
+</iframe></div>
 #+END_HTML
 
 I specifically wanted **the whole** history to be in one video of 10

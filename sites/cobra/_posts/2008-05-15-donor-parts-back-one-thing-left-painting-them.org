@@ -5,9 +5,7 @@ Got the donor parts back from [[http://www.galvin.nl][Galvin]], as you
 can see below, they look like new!
 
 
-#+BEGIN_HTML
-{%gmg shadowed 370 %}
-#+END_HTML
+[[/assets/img/gmg-370.jpg]]
 
 Had a chat with the guy on painting the parts with chassis
 coat. Particularly on the surface preparation, "Do I use metal ready

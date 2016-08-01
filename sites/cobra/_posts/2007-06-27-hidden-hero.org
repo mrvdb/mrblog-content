@@ -4,9 +4,7 @@
 Usually not visible, but I expect this tool will save the day more
 than once during the whole Cobra building process.
 
-#+BEGIN_HTML
-{%gmg shadowed 432 %}
-#+END_HTML
+[[/assets/img/gmg-432.jpg]]
 
 
 That is, taking a picture of some stupid mistake I made to explain it

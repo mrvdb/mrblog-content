@@ -3,26 +3,20 @@
 
 Success on the pivot shaft:
 
-#+BEGIN_HTML
-{%gmg shadowed 414 %}
-#+END_HTML
+[[/assets/img/gmg-414.jpg]]
 
 
 Some careful sawing and using a vice to hold the puller slowly
 released the last bits from the pivot shaft.
 
-#+BEGIN_HTML
-{%gmg shadowed 415 %}
-#+END_HTML
+[[/assets/img/gmg-415.jpg]]
 
 Yay!
 
 On the other hand, trying to pull the stub axle from its carrier broke
 my puller:
 
-#+BEGIN_HTML
-{%gmg shadowed 416 %}
-#+END_HTML
+[[/assets/img/gmg-416.jpg]]
 
 Oops! I then took the carrier to the local garage where their press
 quickly persuaded the stub axle to come out. I must get me one of

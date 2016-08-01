@@ -8,39 +8,29 @@ were missing and its powder coating. Even without that I was seriously
 impressed.
 
 
-#+BEGIN_HTML
-{%gmg shadowed 407 %}
-#+END_HTML
+[[/assets/img/gmg-407.jpg]]
 
 Saturday was mostly spent at the [[http://www.bruntingthorpe.com/][Bruntingthorpe Proving Ground]] where a
 little circuit was available for the GD car owners to race their cars
 on and for people like myself to take a ride-along. Lots of goodies,
 like a very nicely done T70:
 
-#+BEGIN_HTML
-{%gmg shadowed 408 %}
-#+END_HTML
+[[/assets/img/gmg-408.jpg]]
 
 The [[http://www.arielatom.com][Arial atom]] exoskeleton cars which the event organiser, [[http://www.bigthunder.co.uk][Big Thunder]]
 was using:
 
-#+BEGIN_HTML
-{%gmg shadowed 409 %}
-#+END_HTML
+[[/assets/img/gmg-409.jpg]]
 
 And obviously, quite a few GD427's
 
-#+BEGIN_HTML
-{%gmg shadowed 410 %}
-#+END_HTML
+[[/assets/img/gmg-410.jpg]]
 
 I had a ride along in both a GD427 (thanks
 Hein!) and Andy drove me around the circuit in their T70
 demonstrator:
 
-#+BEGIN_HTML
-{%gmg shadowed 411 %}
-#+END_HTML
+[[/assets/img/gmg-411.jpg]]
 
 Sunday, we spent a day in Cambridge. Also nice, but erm.. different
 ;-)

@@ -24,6 +24,4 @@ night.
 
 Good morning:
 
-#+BEGIN_HTML
-{%gmg shadowed 420 %}
-#+END_HTML
+[[/assets/img/gmg-420.jpg]]

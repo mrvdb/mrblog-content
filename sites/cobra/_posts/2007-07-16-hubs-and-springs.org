@@ -9,9 +9,7 @@ dont have a fancy torch to do this, the grinding disc was the tool of
 choice. I briefly tried sawing through the spring, no go!
 
 
-#+BEGIN_HTML
-{%gmg shadowed 423 %}
-#+END_HTML
+[[/assets/img/gmg-423.jpg]]
 
 After going through one, the tension is still not off, but it
 managed to damage the grinding disc allright.
@@ -19,6 +17,4 @@ managed to damage the grinding disc allright.
 The local garage, [[http://www.bartelen.nl/][Autobedrijf Bartelen]], was kind enough to lend me a
 puller for the stubborn rear hub:
 
-#+BEGIN_HTML
-{%gmg shadowed 424 %}
-#+END_HTML
+[[/assets/img/gmg-424.jpg]]

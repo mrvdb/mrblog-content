@@ -10,8 +10,6 @@ so it needs reconditioning anyways.
 The axles are horrid as usual, but i trust they will clean up
 nicely when i'm done with them.
 
-#+BEGIN_HTML
-{%gmg shadowed 428 %}
-#+END_HTML
+[[/assets/img/gmg-428.jpg]]
 
 Man, these things are heavy.

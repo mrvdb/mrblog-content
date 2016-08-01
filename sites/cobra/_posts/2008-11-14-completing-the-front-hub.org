@@ -5,43 +5,27 @@
 Back to the front again, completing the wheel hubs. First, put in the
 greased up bearing and press in the soaked oil seal:
 
-#+BEGIN_HTML
-{%gmg shadowed 326 %}
-#+END_HTML
+[[/assets/img/gmg-326.jpg]]
 
 
-#+BEGIN_HTML
-{%gmg shadowed 327 %}
-#+END_HTML
+[[/assets/img/gmg-327.jpg]]
 
 Then, put the disc and stub onto the stub axle.
 
-#+BEGIN_HTML
-{%gmg shadowed 328 %}
-#+END_HTML
-#+BEGIN_HTML
-{%gmg shadowed 329 %}
-#+END_HTML
+[[/assets/img/gmg-328.jpg]]
+[[/assets/img/gmg-329.jpg]]
 
 Grease up the other bearing and press this one in by hand. Put some
 more grease on top of the bearing.
 
-#+BEGIN_HTML
-{%gmg shadowed 330 %}
-#+END_HTML
-#+BEGIN_HTML
-{%gmg shadowed 331 %}
-#+END_HTML
+[[/assets/img/gmg-330.jpg]]
+[[/assets/img/gmg-331.jpg]]
 
 Put the D-washer on top and hand-tighten the nut while turning the
 disc.
 
-#+BEGIN_HTML
-{%gmg shadowed 332 %}
-#+END_HTML
-#+BEGIN_HTML
-{%gmg shadowed 333 %}
-#+END_HTML
+[[/assets/img/gmg-332.jpg]]
+[[/assets/img/gmg-333.jpg]]
 
 While turning the disc, torque up the nut up to 25ftlbs; the disc
 should still be able to turn albeit with some resistance. Loosen the
@@ -50,12 +34,8 @@ this procedure found at:
 [[http://www.bernardembden.com/xjs/hub/index.htm]] after trying to
 actually measure the endfloat.
 
-#+BEGIN_HTML
-{%gmg shadowed 334 %}
-#+END_HTML
-#+BEGIN_HTML
-{%gmg shadowed 335 %}
-#+END_HTML
+[[/assets/img/gmg-334.jpg]]
+[[/assets/img/gmg-335.jpg]]
 
 After that, I filled up the cavity with grease, which takes quite a
 bit of it! The new black caps dont come with a hole, so I drilled one
@@ -63,9 +43,5 @@ in to be able to let the air out and being able to see when to stop
 putting grease in! Once it comes out, you're actually too late
 already, because it will keep coming out for 5 minutes more.
 
-#+BEGIN_HTML
-{%gmg shadowed 336 %}
-#+END_HTML
-#+BEGIN_HTML
-{%gmg shadowed 337 %}
-#+END_HTML
+[[/assets/img/gmg-336.jpg]]
+[[/assets/img/gmg-337.jpg]]

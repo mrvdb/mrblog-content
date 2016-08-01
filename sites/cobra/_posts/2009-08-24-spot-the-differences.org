@@ -6,13 +6,9 @@ below is from the current situation, the one below it is from the
 first attempt (already 2 years ago!). Spot the differences&#8230;
 
 
-#+BEGIN_HTML
-{% gmg shadowed 282 %}
-#+END_HTML
+[[/assets/img/gmg-282.jpg]]
 
-#+BEGIN_HTML
-{% gmg shadowed 283 %}
-#+END_HTML
+[[/assets/img/gmg-283.jpg]]
 
 Let's hope this time the cracks will not appear. Having to clear out
 the garage, store everything somewhere and put everything back is

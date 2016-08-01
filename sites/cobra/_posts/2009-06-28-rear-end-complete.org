@@ -7,9 +7,7 @@ applicable I'm using the nord-lock washers instead of, or in addition
 to normal washers.
 
 
-#+BEGIN_HTML
-{% gmg shadowed 295 %}
-#+END_HTML
+[[/assets/img/gmg-295.jpg]]
 
 I've got a bit of a routine by now for the final assembly of a part of
 the car. Roughly it goes like:
@@ -23,9 +21,7 @@ the car. Roughly it goes like:
  7. torque em-up;
  8. mark with nail-polish that it's done.
 
-#+BEGIN_HTML
-{%gmg shadowed 296 %}
-#+END_HTML
+[[/assets/img/gmg-296.jpg]]
 
 (and take some pictures in between all that)
 
@@ -48,9 +44,7 @@ Having both the hubs completed, I wanted to do a quick measurement of
 rear toe-in (or, let's hope not, toe-out). So, clamped the laser to
 both hubs and marked the two projections on the garage-door.
 
-#+BEGIN_HTML
-{%gmg shadowed 297 %}
-#+END_HTML
+[[/assets/img/gmg-297.jpg]]
 
 Result: a bit more than 5mm overall toe-in over 4 meters. It's on the
 good side of the scale at least! (If it had not been I would not have
@@ -63,6 +57,4 @@ and a couple of minor jobs, one of which was to paint the upper ball
 joints as they started to show some rust. We can't have that,
 obviously!
 
-#+BEGIN_HTML
-{%gmg shadowed 298 %}
-#+END_HTML
+[[/assets/img/gmg-298.jpg]]

@@ -37,13 +37,9 @@ rpm vs (ideal) road-speed and a 'shift behaviour' graph, which shows
 the drops in rpm given a shiftpoint. Here's what that looks like,
 given a Tremec TKO600 gearbox and 275/40-18 rear wheels.</p
 
-#+BEGIN_HTML
-{%gmg shadowed 318 %}
-#+END_HTML
+[[/assets/img/gmg-318.jpg]]
 
-#+BEGIN_HTML
-{%gmg shadowed 319 %}
-#+END_HTML
+[[/assets/img/gmg-319.jpg]]
 
 Obviously this is all theoretical. The speeds will be lower in
 practice as drag increases with speed and how the 'dry numbers' will

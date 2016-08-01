@@ -5,9 +5,7 @@ That is, finishing up the garage. Next monday the new cement floor
 will be 'poured in'.
 
 
-#+BEGIN_HTML
-{%gmg shadowed 412 %}
-#+END_HTML
+[[/assets/img/gmg-412.jpg]]
 
 So, we had to clear out everything and prepare the old floor for
 receiving the new topcoat. There's a nice echo in the garage now ;-) I

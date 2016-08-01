@@ -5,9 +5,7 @@ Went to [[http://www.speedon.nl][speedon]] yesterday to fetch the chassis and th
 needed to help me construct a rolling chassis.
 
 
-#+BEGIN_HTML
-{%gmg shadowed 405 %}
-#+END_HTML
+[[/assets/img/gmg-405.jpg]]
 
 I should probably stick to the proper order and first finish
 revising all the jaguar bits, but it's very tempting to start putting

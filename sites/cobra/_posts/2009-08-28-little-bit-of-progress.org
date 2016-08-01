@@ -10,21 +10,15 @@ idea, as it would create a very small contact area for the bit at the
 end of the cable.
 
 
-#+BEGIN_HTML
-{% gmg shadowed 279 %}
-#+END_HTML
+[[/assets/img/gmg-279.jpg]]
 
 In one of the drawers at [speedon](http://speedon.nl) Mischa found
 something that could fit, and with a bit of effort, it indeed did.
 
-#+BEGIN_HTML
-{% gmg shadowed 280 %}
-#+END_HTML
+[[/assets/img/gmg-280.jpg]]
 
 The ECU has arrived too with a nice semi-assembled harness. Now I need
 a handful of connectors and I should then be able to construct a
 complete harnes and finish that part.
 
-#+BEGIN_HTML
-{% gmg shadowed 281 %}
-#+END_HTML
+[[/assets/img/gmg-281.jpg]]

@@ -6,27 +6,21 @@ little shine makes! Most of the items were from the donor handbrake
 calipers, which were in pretty bad shape when i got them.
 
 
-#+BEGIN_HTML
-{%gmg shadowed 389 %}
-#+END_HTML
+[[/assets/img/gmg-389.jpg]]
 
 Using the rivnut tool i bought a while ago, the little covers were
 repaired with a new rivnut and although i still am missing a bolt and
 some locking thingies, assembling the caliper was pretty
 rewarding.
 
-#+BEGIN_HTML
-{%gmg shadowed 390 %}
-#+END_HTML
+[[/assets/img/gmg-390.jpg]]
 
 I'm not sure about the inside, the clip i have seems different than
 what i can find in my manuals. Also the spring on the right seems to
 be in the middle of the path were the missing bolt should go to hold
 the covers.
 
-#+BEGIN_HTML
-{%gmg shadowed 391 %}
-#+END_HTML
+[[/assets/img/gmg-391.jpg]]
 
 The other caliper should not be a problem.
 

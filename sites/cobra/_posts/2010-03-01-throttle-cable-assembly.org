@@ -5,28 +5,21 @@
 The throttle setup, converted from the electronic standard one to a
 cable operated setup, touched slightly on the block.
 
-#+BEGIN_HTML
-{% gmg shadowed 259 %}
-#+END_HTML
-
+[[/assets/img/gmg-259.jpg]]
 
 A careful couple of minutes of filing made sure it ran freely. On the
 outrun to the back of the engine of the cable I mounted two rubber
 P-clips to guide the cable across.
 
 
-#+BEGIN_HTML
-{% gmg shadowed 260 %}
-#+END_HTML
+[[/assets/img/gmg-260.jpg]]
 
 
 I think I’ll put some shields on top of the valve covers later on,
 which can then neatly hide the cable from sight.
 
 
-#+BEGIN_HTML
-{% gmg shadowed 261 %}
-#+END_HTML
+[[/assets/img/gmg-261.jpg]]
 
 
 As said earlier, I would rather have the electronic throttle

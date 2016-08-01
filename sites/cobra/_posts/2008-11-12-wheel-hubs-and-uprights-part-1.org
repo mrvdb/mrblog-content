@@ -9,9 +9,7 @@ applicable. This is such a place.
 
 
 
-#+BEGIN_HTML
-{%gmg shadowed 338 %}
-#+END_HTML
+[[/assets/img/gmg-338.jpg]]
 
 When assembling with these washers it's somewhat important to watch
 the surface friction and make sure the pair of rings stay in their
@@ -20,21 +18,15 @@ surface to make sure the surface friction is less than the friction
 between the rings. After that's it's just a matter of torque-ing all
 ten of them up and taking a picture.
 
-#+BEGIN_HTML
-{%gmg shadowed 339 %}
-#+END_HTML
+[[/assets/img/gmg-339.jpg]]
 
 Next step would be to bring the uprights and the hubs together, at
 which point I realised there were 2 oil seals involved needing a 12
 hour soak before assembling. So, that more or less stopped the
 assembly on this part for today.
 
-#+BEGIN_HTML
-{%gmg shadowed 340 %}
-#+END_HTML
+[[/assets/img/gmg-340.jpg]]
 
 And I had them all layed out so neatly.....
 
-#+BEGIN_HTML
-{%gmg shadowed 341 %}
-#+END_HTML
+[[/assets/img/gmg-341.jpg]]

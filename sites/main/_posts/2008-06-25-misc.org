@@ -15,9 +15,7 @@ know what you think!
 To make this post also about the cobra
 build, here's a picture of a [[http://www.nordlock.com/][Nord-Lock]] locking washer:
 
-#+BEGIN_HTML
-{%gmg shadowed 362 %}
-#+END_HTML
+[[/assets/img/gmg-362.jpg]]
 
 In relevant places, like the brake callipers, I'll use these washers
 in addition to the lock wire. I'm not a big fan of loctite. Lock-wire,

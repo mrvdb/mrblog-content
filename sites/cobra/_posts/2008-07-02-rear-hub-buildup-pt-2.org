@@ -22,9 +22,7 @@ the same on either side of the tube, I put a known amount of shimming
 to a positive endfloat. I just used the original shims plus a
 couple.
 
-#+BEGIN_HTML
-{%gmg shadowed 360 %}
-#+END_HTML
+[[/assets/img/gmg-360.jpg]]
 
 Placing everything on the shaft and filling the end up with some
 spacers and fastening gives a hub with a measurable endfloat which
@@ -32,9 +30,7 @@ will be positive. Because I knew how many shims I had put in and I
 know what it should be, I can calculate what the actual number of
 shims needs to be.
 
-#+BEGIN_HTML
-{%gmg shadowed 361 %}
-#+END_HTML
+[[/assets/img/gmg-361.jpg]]
 
 I'm not sure how accurate this all should be as most of the fellow
 cobra builders tend to send their hubs to [[http://www.ward-engineering.co.uk/][Ward Engineering]] or

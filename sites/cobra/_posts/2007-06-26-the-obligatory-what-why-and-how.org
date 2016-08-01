@@ -10,9 +10,7 @@ plans, reacted with something similar to '/cool/!'
 
 So, what are these plans? In short, building me one of these:
 
-#+BEGIN_HTML
-{%gmg 433 %}
-#+END_HTML
+[[/assets/img/gmg-433.jpg]]
 
 What you see there is an /AC Cobra Replica/, [[http://www.gdcars.com][Gardner Douglas]] style. This
 car is a replica of a 60's sports car originally manufactured by the

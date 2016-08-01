@@ -6,19 +6,13 @@ prepare the engine for it. This consists mostly of removing parts from
 it and cleaning it up.
 
 
-#+BEGIN_HTML
-{%gmg shadowed 315 %}
-#+END_HTML
+[[/assets/img/gmg-315.jpg]]
 
-#+BEGIN_HTML
-{%gmg shadowed 316 %}
-#+END_HTML
+[[/assets/img/gmg-316.jpg]]
 
 The exhaust headers, thermostat outlet and the flexplate all need
 to be replaced by specific parts, either specifically made to fit the
 GD (like the exhaust headers) or modified to fit into the engine
 bay.
 
-#+BEGIN_HTML
-{%gmg shadowed 317 %}
-#+END_HTML
+[[/assets/img/gmg-317.jpg]]
