@@ -116,6 +116,7 @@ archiveR =
 
 
 -- Homepage rules
+-- TODO: take the '5' to the config
 homeR :: Rules ()
 homeR = 
  match "index.html" $ do
@@ -250,6 +251,7 @@ postR = do
     compile $ orgCompilerWith (itemFromVersion "source")
       >>= loadAndApplyTemplate "_layouts/post.html"    postCtx
       >>= saveSnapshot "html"
+      >>= loadAndApplyTemplate "_layouts/nav_comments.html" postCtx
       >>= loadAndApplyTemplate "_layouts/default.html" postCtx
       >>= relativizeUrls
 
@@ -296,6 +298,8 @@ postCtx =
         
 -- Feed Rules
 -- FIXME: My own feed templates were nicer, because they could
+-- TODO: bring into own file and import here
+-- TODO: bring '20' into the config
 -- render better instead of dumping raw xml on a user with a browser.
 feedR :: Rules ()
 feedR =
