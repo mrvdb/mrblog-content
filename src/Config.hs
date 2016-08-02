@@ -24,7 +24,8 @@ copyrightYear = "2016"
 config :: Configuration
 config = defaultConfiguration 
   { inMemoryCache        = True           -- faster, but more memory (during build only, obviously)
-  , deployCommand        = "echo TODO: implement deploy command here"
+    -- TODO: move this to external file, so we don't have it in the program
+  , deployCommand        = "rsync -avc --delete .site/ shout:/srv/http/mrblog.nl/"
   , ignoreFile           = ignoreFiles
   , destinationDirectory = ".site"
   , storeDirectory       = ".cache"
