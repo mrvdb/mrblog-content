@@ -22,7 +22,7 @@ people involved; all of us.
 
 #+BEGIN_HTML
 <img style="width: 400px; margin: 15px; float: left;" alt="Google search trend" title="Google search trend"
-     src="http://mrblog.nl/files/2011/06/wpid-btc-trend.png"/>
+     src="/files/2011/06/wpid-btc-trend.png"/>
 #+END_HTML
 
 
@@ -63,7 +63,7 @@ effect on people. It may not be visible for a while, but broken trust
 
 #+BEGIN_HTML
   <img style="float:right; width:300px;" alt="Broken trust" title="Broken trust?"
-       src="http://mrblog.nl/files/2011/06/wpid-trust.jpg"/>
+       src="/files/2011/06/wpid-trust.jpg"/>
 #+END_HTML
 
 Bitcoin tries to address some of the trust issues people have; I think
@@ -189,7 +189,7 @@ exchanging value.
 #+BEGIN_HTML
   <img style="width: 320px; margin: 15px; float:left;" alt="Verdict form"
        title="Verdict form"
-  src="http://mrblog.nl/files/2011/06/wpid-verdict.jpg" />
+  src="/files/2011/06/wpid-verdict.jpg" />
 #+END_HTML
 
 Many 'digital cash' systems have been presented before bitcoin, but
