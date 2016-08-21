@@ -10,21 +10,19 @@ To build the site I have borrowed a number of tools and resources from
 others. I try to keep a complete list of them complete with links back
 to them:
 
-- blog system is +[[http://jekyllrb.com][jekyll]]+ [[http://jaspervdj.be/hakyll/][hakyll]];
+- blog system is [[http://jaspervdj.be/hakyll/][hakyll]];
 - theme is a built with [[http://getbootstrap.com][bootstrap]] components;
 - all files are edited with the [[http://www.gnu.org/software/emacs/][Emacs]] editor;
 - Comment system: [[http://disqus.com][Disqus]];
 - I use [[http://git-scm.com][git]] to publish the blog to my server and to a repository on
   [[https://github.com/mrvdb/mrblog][github]];
 - Content is mostly written in [[http://orgmode.org][orgmode]] or [[http://daringfireball.net/projects/markdown/][markdown]];
-- Some of the images are hosted on [[http://flickr.com][flickr]];
+- Some of the images are hosted on [[http://flickr.com][flickr]], and
+  some of them are on [[https://media.mrblog.nl][my own mediagoblin]] instance;
 - the [[http://entypo.com][Entypo]] icons are used;
-- Orgmode files are converted using
-  +[[https://github.com/bdewey/org-ruby][org-ruby]] with the help of a little
-  [[https://gist.github.com/abhiyerra/7377603][org-converter]]+
-  [[http://pandoc.org][pandoc]] which is integrated into [[http://jaspervdj.be/hakyll][hakyll]];
-- [[https://github.com/judofyr/ruby-oembed][ruby-oembed]] is used for automatic embedding of media with the help
-  of an [[https://gist.github.com/vanto/1455726][oembed liquid tag]];
+- Orgmode files are converted using  [[http://pandoc.org][pandoc]] which is integrated into [[http://jaspervdj.be/hakyll][hakyll]];
+- +[[https://github.com/judofyr/ruby-oembed][ruby-oembed]] is used for automatic embedding of media with the help
+  of an [[https://gist.github.com/vanto/1455726][oembed liquid tag]];+
 - A locally generated json file is used to implement search;
   functionality. A modified version of [[https://github.com/mathaywarduk/jekyll-search][jekyll-search]] is used;
 - Bootstrap is dependent on the [[http://jquery.com][jquery]] library, but I use it directly
@@ -39,7 +37,7 @@ list, let me know.
 {% assign sorted_tags = site.tags | sort %}
 {% assign tagstring = '' %}
 
-I keep an [[issues.html][issue list]] for this site on a separate page.
+I keep an [[/about/issues.html][issue list]] for this site on a separate page.
 *** Some stats
     - Total number of pages: {{ site.pages | size }}
     - Total number of posts: {{ site.posts | size }}

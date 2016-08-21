@@ -155,7 +155,8 @@ staticR = do
   mapM_ static ["robots.txt"]
   
   -- Whole directories that need to be copied
-  mapM_ (dir static) ["assets","files",".well-known"]
+  -- TODO: move this to a config file
+  mapM_ (dir static) ["assets","files",".well-known","tests"]
 
   where
     -- Make it easier to copy loads of static stuff

@@ -40,10 +40,6 @@ covered in org-mode ;-)
      :PROPERTIES:
      :CREATED:  [2015-03-21 za 12:25]
      :END:
-**** TODO Look at jekyll-staging gem								       :check:
-     :PROPERTIES:
-     :CREATED:  [2015-03-22 zo 19:13]
-     :END:
 **** TODO Configure multiple formats for mrblog.nl blog postings				       :build:
      :PROPERTIES:
      :CREATED:  [2015-03-18 wo 09:58]
@@ -64,3 +60,8 @@ covered in org-mode ;-)
      :PROPERTIES:
      :CREATED:  [2015-03-26 do 18:51]
      :END:
+**** DONE Set mimetype at server for orgmode files
+     :PROPERTIES:
+     :CREATED:  [2016-08-02 di 18:04]
+     :END:
+     What should that be?

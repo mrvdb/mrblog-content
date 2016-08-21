@@ -1,3 +1,4 @@
+#+published: 2016-01-01
 * Export this
 * But not this											    :noexport:
 <h1 id="export-this">Export this</h1>

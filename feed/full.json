@@ -1,7 +1,7 @@
 [$for(posts)$$if(search_omit)$$else${
     "title"  : $json(title)$,
-    "content": $json(body)$,
-    "excerpt": $json(excerpt)$,
+    "content": "",
+    "excerpt": $if(excerpt)$$json(excerpt)$$else$""$endif$,
     "link"   : $json(url)$,
     "date"   : $json(pubdate)$
 },$endif$$endfor$

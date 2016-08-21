@@ -1,3 +1,4 @@
+#+published: 2016-01-01
 
 * mrblog
 ** Title of the post
