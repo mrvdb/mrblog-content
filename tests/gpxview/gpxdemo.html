@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>leaflet-gpx demo</title>
+    <link rel="stylesheet" href="leaflet.css" />
+    <script src="leaflet.js"></script>
+    <script src="gpx.js"></script>
+    <style type="text/css">
+
+      /* Container */
+      .gpx { border: 5px #aaa solid; border-radius: 5px;
+        box-shadow: 0 0 3px 3px #ccc;
+        width: 80%; margin: 1em auto; }
+
+      /* Map itself */
+      .gpx .map { border: 1px #888 solid; border-left: none; border-right: none;
+         height: 800px; margin: 0; }
+      
+    </style>
+  </head>
+  <body>
+    <article id="demo" class="gpx" gpx-src="demo.gpx" map-target="demo-map">
+      <div class="map" id="demo-map"/>
+    </article>
+       
+    <script type="application/javascript">
+      function display_gpx(elt) {
+        if (!elt) return;
+
+        // Match these up with the id's of the elements
+        var url = elt.getAttribute('gpx-src');
+        var mapid = elt.getAttribute('map-target');
+        if (!url || !mapid) return;
+
+        var map = L.map(mapid);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+        new L.GPX(url, { async: true}).on('loaded', function(e) {
+          map.fitBounds(e.target.getBounds());
+        }).addTo(map);
+      }
+
+      // Display map and details inside element with id 'demo'
+      display_gpx(document.getElementById('demo'));
+    </script>
+  </body>
+</html>
