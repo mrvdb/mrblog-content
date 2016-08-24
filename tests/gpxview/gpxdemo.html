@@ -5,43 +5,55 @@
     <link rel="stylesheet" href="leaflet.css" />
     <script src="leaflet.js"></script>
     <script src="gpx.js"></script>
+
+    <!-- Map styling -->
     <style type="text/css">
-
-      /* Container */
-      .gpx { border: 5px #aaa solid; border-radius: 5px;
+    .map {
+	border: 5px #aaa solid; border-radius: 5px;
         box-shadow: 0 0 3px 3px #ccc;
-        width: 80%; margin: 1em auto; }
-
-      /* Map itself */
-      .gpx .map { border: 1px #888 solid; border-left: none; border-right: none;
-         height: 800px; margin: 0; }
-      
+        width: 80%; height: 800px; margin: 1em auto;
+    }
     </style>
   </head>
   <body>
-    <article id="demo" class="gpx" gpx-src="demo.gpx" map-target="demo-map">
-      <div class="map" id="demo-map"/>
-    </article>
+    <div id="gpx-demo" gpx-src="demo.gpx" class="map" />
+    
        
     <script type="application/javascript">
-      function display_gpx(elt) {
-        if (!elt) return;
+    function display_gpx(elt) {
+	if (!elt) return;
 
         // Match these up with the id's of the elements
         var url = elt.getAttribute('gpx-src');
-        var mapid = elt.getAttribute('map-target');
-        if (!url || !mapid) return;
+        if (!url) return;
 
-        var map = L.map(mapid);
+        var map = L.map(elt);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-        new L.GPX(url, { async: true}).on('loaded', function(e) {
-          map.fitBounds(e.target.getBounds());
-        }).addTo(map);
-      }
+	// Include these from a separate file
+	// Perhaps use a logic to search for symkey.png automatically?
+	var customIconUrls = {
+	    'Campground'	: 'images/campground.png',
+	    'Hotel'		: 'images/hotel.png',
+	    'Restaurant'	: 'images/restaurant.png',
+	    'Bed and Breakfast'	: 'images/bed_breakfast.png',
+	    'Parking Area'	: 'images/parking.png',
+	    'Bus Stop'		: 'images/busstop.png',
+	    'Sign Post'         : 'images/signpost.png'
+	}
+	
+	new L.GPX(url, {
+	    async: true,
+	    marker_options : {
+		wptIconUrls: customIconUrls
+	    }
+	}).on('loaded', function(e) {
+	    map.fitBounds(e.target.getBounds());
+	}).addTo(map);
+    }
 
       // Display map and details inside element with id 'demo'
-      display_gpx(document.getElementById('demo'));
+      display_gpx(document.getElementById('gpx-demo'));
     </script>
   </body>
 </html>
