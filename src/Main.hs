@@ -153,7 +153,7 @@ templateR = do
 staticR :: Rules ()
 staticR = do
   -- Single files that need to be copied
-  mapM_ static ["robots.txt"]
+  mapM_ static ["robots.txt", "favicon.ico"]
   
   -- Whole directories that need to be copied
   -- TODO: move this to a config file
