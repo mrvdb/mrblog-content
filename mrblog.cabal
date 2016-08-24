@@ -18,8 +18,12 @@ executable mrblog
                   , old-locale
                   , aeson
                   , utf8-string
+                  , hjsmin 
+                  , bytestring
+                  , text
   other-modules:    Config
                   , Compiler.Org
+                  , Compiler.Javascript
                   , Compiler.Pandoc
                   , Template.Functions
   ghc-options:      -threaded

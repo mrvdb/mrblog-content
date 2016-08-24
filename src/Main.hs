@@ -17,6 +17,7 @@ import           Hakyll
 -- Our own imports
 import Config
 import Compiler.Org
+import Compiler.Javascript
 import Template.Functions (json, striptags)
 
 -- Stuff for the testing area
@@ -156,8 +157,19 @@ staticR = do
   
   -- Whole directories that need to be copied
   -- TODO: move this to a config file
-  mapM_ (dir static) ["assets","files",".well-known","tests"]
+  mapM_ (dir static) ["assets/img", "assets/css/images", "assets/fonts",
+                      "files",".well-known","tests"]
 
+  -- Compress js files
+  match "assets/js/*.js" $ do
+    route $ setExtension "min.js"
+    compile compressJsCompiler
+
+  -- Compress css files
+  match "assets/css/*.css" $ do
+    route $ setExtension "min.css"
+    compile compressCssCompiler
+    
   where
     -- Make it easier to copy loads of static stuff
     static :: Pattern -> Rules ()
@@ -169,7 +181,8 @@ staticR = do
     dir :: (Pattern -> Rules a) -> String -> Rules a
     dir act f = act $ fromGlob $ f ++ "/**"
 
-    
+  
+  
 -- About page rules
 aboutR :: Rules ()
 aboutR = do

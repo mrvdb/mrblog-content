@@ -5,7 +5,7 @@
   <div class="panel-body">
     <div id="timeline"></div>
     <script src="/assets/js/jquery.min.js" type="text/javascript" ></script>
-    <script src="/assets/js/jquery.livetwitter.js"
+    <script src="/assets/js/jquery.livetwitter.min.js"
 	    type="text/javascript"></script>
     <script type="text/javascript">
       $$('#timeline').liveTwitter(

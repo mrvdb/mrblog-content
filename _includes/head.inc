@@ -7,11 +7,11 @@
 <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />
 
 <!-- syntax highlighting CSS -->
-<link rel="stylesheet" type="text/css" href="/assets/css/syntax.css"/>
+<link rel="stylesheet" type="text/css" href="/assets/css/syntax.min.css"/>
 
 <!-- Custom CSS -->
 <link rel="stylesheet" type="text/css" href="/assets/fonts/stylesheet.css"/>
-<link rel="stylesheet" type="text/css" href="/assets/css/main.css"/>
+<link rel="stylesheet" type="text/css" href="/assets/css/main.min.css"/>
 
 <!-- Feeds we expose -->
 <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="/feed/atom.xml" />
