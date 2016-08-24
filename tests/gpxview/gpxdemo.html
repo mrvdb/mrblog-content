@@ -10,20 +10,21 @@
     <style type="text/css">
     .map {
 	border: 5px #aaa solid; border-radius: 5px;
-        box-shadow: 0 0 3px 3px #ccc;
+        box-shadow: 0 0 3px 3px #bbb;
         width: 80%; height: 800px; margin: 1em auto;
     }
     </style>
   </head>
-  <body>
-    <div id="gpx-demo" gpx-src="demo.gpx" class="map" />
+    <body>
+    <!-- Having a one-elem solution is convenient for us, but not necessarily the best -->
+    <div id="gpx-demo" gpx-src="https://mrblog.nl/tests/gpxview/demo.gpx" class="map" />
     
-       
+   
     <script type="application/javascript">
     function display_gpx(elt) {
 	if (!elt) return;
 
-        // Match these up with the id's of the elements
+        // Get source URI of gpx file
         var url = elt.getAttribute('gpx-src');
         if (!url) return;
 
@@ -52,8 +53,8 @@
 	}).addTo(map);
     }
 
-      // Display map and details inside element with id 'demo'
-      display_gpx(document.getElementById('gpx-demo'));
+    // Display map and details inside element with specified id
+    display_gpx(document.getElementById('gpx-demo'));
     </script>
   </body>
 </html>
