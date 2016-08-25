@@ -157,8 +157,10 @@ staticR = do
   
   -- Whole directories that need to be copied
   -- TODO: move this to a config file
-  mapM_ (dir static) ["assets/img", "assets/css/images", "assets/fonts",
-                      "files",".well-known","tests"]
+  mapM_ (dir static) ["assets/img/**",                         -- | Generic images
+                      "assets/css/images", "assets/js/images", -- | Images referred to from js or css
+                      "assets/fonts",                          -- | Font resources
+                      "files",".well-known","tests"]           -- | Legacy files and tests (transient I hope)
 
   -- Compress js files
   match "assets/js/*.js" $ do
