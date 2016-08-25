@@ -1,9 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<gpx version="1.1" creator="GPSBabel - http://www.gpsbabel.org" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtrkx="http://www.garmin.com/xmlschemas/TrackStatsExtension/v1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v2" xmlns:locus="http://www.locusmap.eu">
+<?xml version="1.0" encoding="utf-8"?>
+<gpx version="1.1" creator="GPSBabel - http://www.gpsbabel.org"
+xmlns="http://www.topografix.com/GPX/1/1"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:gpx_style="http://www.topografix.com/GPX/gpx_style/0/2"
+xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3"
+xmlns:gpxtrkx="http://www.garmin.com/xmlschemas/TrackStatsExtension/v1"
+xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v2"
+xmlns:locus="http://www.locusmap.eu">
   <metadata>
     <desc>File with points/tracks from Locus Map/3.18.6</desc>
     <time>2016-08-24T09:32:02.240Z</time>
-    <bounds minlat="51.355840000" minlon="4.242590000" maxlat="51.590840000" maxlon="4.413250000"/>
+    <bounds minlat="51.355840000" minlon="4.242590000"
+    maxlat="51.590840000" maxlon="4.413250000" />
   </metadata>
   <wpt lat="51.542707000" lon="4.284543000">
     <ele>3.200000</ele>
@@ -16,12 +24,13 @@
   <wpt lat="51.535590000" lon="4.282841000">
     <ele>10.290000</ele>
     <time>2016-08-08T12:52:43Z</time>
-    <name>Bushalte Molenplein,  Halsteren</name>
+    <name>Bushalte Molenplein, Halsteren</name>
     <cmt>Lijn 310 richting bergen op zoom</cmt>
     <desc>Lijn 310 richting bergen op zoom</desc>
     <sym>Bus Stop</sym>
     <extensions>
       <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+
         <gpxx:Address>
           <gpxx:StreetAddress>Steenbergseweg 2</gpxx:StreetAddress>
           <gpxx:City>Halsteren</gpxx:City>
@@ -34,12 +43,13 @@
   <wpt lat="51.498380000" lon="4.282338000">
     <ele>13.220000</ele>
     <time>2016-08-08T12:55:15Z</time>
-    <name>Bushalte Burg.  Stulemeijerlaan,  Bergen op Zoom</name>
-    <cmt>Bushalte Burg.  Stulemeijerlaan,  Bergen op Zoom</cmt>
-    <desc>Bushalte Burg.  Stulemeijerlaan,  Bergen op Zoom</desc>
+    <name>Bushalte Burg. Stulemeijerlaan, Bergen op Zoom</name>
+    <cmt>Bushalte Burg. Stulemeijerlaan, Bergen op Zoom</cmt>
+    <desc>Bushalte Burg. Stulemeijerlaan, Bergen op Zoom</desc>
     <sym>Bus Stop</sym>
     <extensions>
       <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+
         <gpxx:Address>
           <gpxx:StreetAddress>Rijtuigweg 6</gpxx:StreetAddress>
           <gpxx:City>Bergen op Zoom</gpxx:City>
@@ -52,14 +62,16 @@
   <wpt lat="51.542175000" lon="4.341796000">
     <ele>2.280000</ele>
     <time>2016-08-08T15:07:56Z</time>
-    <name>Bushalte moerstraatseweg (kerk),  Moerstraten</name>
-    <cmt>Bushalte moerstraatseweg (kerk),  Moerstraten</cmt>
-    <desc>Bushalte moerstraatseweg (kerk),  Moerstraten</desc>
+    <name>Bushalte moerstraatseweg (kerk), Moerstraten</name>
+    <cmt>Bushalte moerstraatseweg (kerk), Moerstraten</cmt>
+    <desc>Bushalte moerstraatseweg (kerk), Moerstraten</desc>
     <sym>Bus Stop</sym>
     <extensions>
       <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+
         <gpxx:Address>
-          <gpxx:StreetAddress>Moerstraatseweg 95</gpxx:StreetAddress>
+          <gpxx:StreetAddress>Moerstraatseweg
+          95</gpxx:StreetAddress>
           <gpxx:City>Moerstraten</gpxx:City>
           <gpxx:Country>Netherlands</gpxx:Country>
           <gpxx:PostalCode>4727 SL</gpxx:PostalCode>
@@ -70,12 +82,13 @@
   <wpt lat="51.482684000" lon="4.389809000">
     <ele>14.730000</ele>
     <time>2016-08-08T15:14:07Z</time>
-    <name>Bushalte Plantagebaan,  Wouwse plantage</name>
-    <cmt>Bushalte Plantagebaan,  Wouwse plantage</cmt>
-    <desc>Bushalte Plantagebaan,  Wouwse plantage</desc>
+    <name>Bushalte Plantagebaan, Wouwse plantage</name>
+    <cmt>Bushalte Plantagebaan, Wouwse plantage</cmt>
+    <desc>Bushalte Plantagebaan, Wouwse plantage</desc>
     <sym>Bus Stop</sym>
     <extensions>
       <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+
         <gpxx:Address>
           <gpxx:StreetAddress>Plantagebaan 216</gpxx:StreetAddress>
           <gpxx:City>Wouwse Plantage</gpxx:City>
@@ -94,6 +107,7 @@
     <sym>Campground</sym>
     <extensions>
       <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+
         <gpxx:Address>
           <gpxx:StreetAddress>Halstersebaan 15</gpxx:StreetAddress>
           <gpxx:City>Moerstraten</gpxx:City>
@@ -113,6 +127,7 @@
     <sym>Campground</sym>
     <extensions>
       <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+
         <gpxx:Address>
           <gpxx:StreetAddress>Bosbesstraat 65</gpxx:StreetAddress>
           <gpxx:City>Wouwse Plantage</gpxx:City>
@@ -132,6 +147,7 @@
     <sym>Campground</sym>
     <extensions>
       <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+
         <gpxx:Address>
           <gpxx:StreetAddress>Putsebaan 30</gpxx:StreetAddress>
           <gpxx:City>Huijbergen</gpxx:City>
@@ -151,8 +167,10 @@
     <sym>Campground</sym>
     <extensions>
       <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+
         <gpxx:Address>
-          <gpxx:StreetAddress>1e Verdelingsweg 6</gpxx:StreetAddress>
+          <gpxx:StreetAddress>1e Verdelingsweg
+          6</gpxx:StreetAddress>
           <gpxx:City>Putte</gpxx:City>
           <gpxx:Country>Netherlands</gpxx:Country>
           <gpxx:PostalCode>4645 RT</gpxx:PostalCode>
@@ -170,6 +188,7 @@
     <sym>Campground</sym>
     <extensions>
       <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+
         <gpxx:Address>
           <gpxx:StreetAddress>Dorpsstraat 51</gpxx:StreetAddress>
           <gpxx:City>Woensdrecht</gpxx:City>
@@ -189,6 +208,7 @@
     <sym>Campground</sym>
     <extensions>
       <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+
         <gpxx:Address>
           <gpxx:StreetAddress>Laagstraat 4</gpxx:StreetAddress>
           <gpxx:City>Ossendrecht</gpxx:City>
@@ -214,8 +234,10 @@
     <sym>Bed and Breakfast</sym>
     <extensions>
       <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+
         <gpxx:Address>
-          <gpxx:StreetAddress>Kannewielseweg 16B</gpxx:StreetAddress>
+          <gpxx:StreetAddress>Kannewielseweg
+          16B</gpxx:StreetAddress>
           <gpxx:State>Halsteren</gpxx:State>
           <gpxx:Country>Netherlands</gpxx:Country>
           <gpxx:PostalCode>4661 RR</gpxx:PostalCode>
@@ -239,6 +261,7 @@
     <sym>Hotel</sym>
     <extensions>
       <gpxx:WaypointExtension xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3">
+
         <gpxx:Address>
           <gpxx:StreetAddress>Steenbergseweg 1</gpxx:StreetAddress>
           <gpxx:City>Noord-Brabant</gpxx:City>
@@ -262,8 +285,10 @@
     <ele>2.000000</ele>
     <time>2016-07-23T12:07:29Z</time>
     <name>Bergse Plaat</name>
-    <cmt>Voormalige zandplaat waarop in de afgelopen 20 jaar een wijk met 3000 woningen is gebouwd.</cmt>
-    <desc>Voormalige zandplaat waarop in de afgelopen 20 jaar een wijk met 3000 woningen is gebouwd.</desc>
+    <cmt>Voormalige zandplaat waarop in de afgelopen 20 jaar een
+    wijk met 3000 woningen is gebouwd.</cmt>
+    <desc>Voormalige zandplaat waarop in de afgelopen 20 jaar een
+    wijk met 3000 woningen is gebouwd.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.482549000" lon="4.279122000">
@@ -287,123 +312,241 @@
     <time>2016-07-23T12:07:29Z</time>
     <name>Fletcher Hotel-Restaurant Stadspark</name>
     <cmt>Maak nu voordelig kennis met onze WANDELNET ARRANGEMENTEN
-Maak nu voordelig kennis met één van onze schitterende wandelhotels gelegen in een natuurrijke omgeving. In samenwerking met Wandelnet hebben wij speciaal voor u een 2-daags Wandelnet Arrangement samengesteld:
-•1 x overnachting
-•1 x uitgebreid ontbijtbuffet
-•1 x 3-gangen diner op dag van aankomst
-•Informatiepakket van de omgeving inclusief wandel- en fietsroutes</cmt>
+    Maak nu voordelig kennis met één van onze schitterende
+    wandelhotels gelegen in een natuurrijke omgeving. In
+    samenwerking met Wandelnet hebben wij speciaal voor u een
+    2-daags Wandelnet Arrangement samengesteld: •1 x overnachting
+    •1 x uitgebreid ontbijtbuffet •1 x 3-gangen diner op dag van
+    aankomst •Informatiepakket van de omgeving inclusief wandel- en
+    fietsroutes</cmt>
     <desc>Maak nu voordelig kennis met onze WANDELNET ARRANGEMENTEN
-Maak nu voordelig kennis met één van onze schitterende wandelhotels gelegen in een natuurrijke omgeving. In samenwerking met Wandelnet hebben wij speciaal voor u een 2-daags Wandelnet Arrangement samengesteld:
-•1 x overnachting
-•1 x uitgebreid ontbijtbuffet
-•1 x 3-gangen diner op dag van aankomst
-•Informatiepakket van de omgeving inclusief wandel- en fietsroutes</desc>
+    Maak nu voordelig kennis met één van onze schitterende
+    wandelhotels gelegen in een natuurrijke omgeving. In
+    samenwerking met Wandelnet hebben wij speciaal voor u een
+    2-daags Wandelnet Arrangement samengesteld: •1 x overnachting
+    •1 x uitgebreid ontbijtbuffet •1 x 3-gangen diner op dag van
+    aankomst •Informatiepakket van de omgeving inclusief wandel- en
+    fietsroutes</desc>
     <sym>Restaurant</sym>
   </wpt>
   <wpt lat="51.493516000" lon="4.286555000">
     <ele>14.000000</ele>
     <time>2016-07-23T12:07:29Z</time>
     <name>Grensstad</name>
-    <cmt>In veel opzichten is Bergen op Zoom een “grensstad”: het lage zeekleilandschap gaat hier over naar de hoger gelegen zandgronden en ook de grens tussen de provincies Zeeland en Noord-Brabant vallen samen in Bergen op Zoom. Bovendien ligt de stad nabij de zuidelijke landsgrens met België. Bergen op Zoom is dan ook herhaaldelijk belegerd, ingenomen en heroverd. De stad markeert ook de godsdienstgrens tussen het protestante Zeeland en het roomskatholieke Brabant. Deze godsdienstgrens is echter breder: ze markeert tevens het verschil in leefstijl, dialect, manier van wonen en bouwen, eten, drinken en feesten.</cmt>
-    <desc>In veel opzichten is Bergen op Zoom een “grensstad”: het lage zeekleilandschap gaat hier over naar de hoger gelegen zandgronden en ook de grens tussen de provincies Zeeland en Noord-Brabant vallen samen in Bergen op Zoom. Bovendien ligt de stad nabij de zuidelijke landsgrens met België. Bergen op Zoom is dan ook herhaaldelijk belegerd, ingenomen en heroverd. De stad markeert ook de godsdienstgrens tussen het protestante Zeeland en het roomskatholieke Brabant. Deze godsdienstgrens is echter breder: ze markeert tevens het verschil in leefstijl, dialect, manier van wonen en bouwen, eten, drinken en feesten.</desc>
+    <cmt>In veel opzichten is Bergen op Zoom een “grensstad”: het
+    lage zeekleilandschap gaat hier over naar de hoger gelegen
+    zandgronden en ook de grens tussen de provincies Zeeland en
+    Noord-Brabant vallen samen in Bergen op Zoom. Bovendien ligt de
+    stad nabij de zuidelijke landsgrens met België. Bergen op Zoom
+    is dan ook herhaaldelijk belegerd, ingenomen en heroverd. De
+    stad markeert ook de godsdienstgrens tussen het protestante
+    Zeeland en het roomskatholieke Brabant. Deze godsdienstgrens is
+    echter breder: ze markeert tevens het verschil in leefstijl,
+    dialect, manier van wonenen bouwen, eten, drinken en
+    feesten.</cmt>
+    <desc>In veel opzichten is Bergen op Zoom een “grensstad”: het
+    lage zeekleilandschap gaat hier over naar de hoger gelegen
+    zandgronden en ook de grens tussen de provincies Zeeland en
+    Noord-Brabant vallen samen in Bergen op Zoom. Bovendien ligt de
+    stad nabij de zuidelijke landsgrens met België. Bergen op Zoom
+    is dan ook herhaaldelijk belegerd, ingenomen en heroverd. De
+    stad markeert ook de godsdienstgrens tussen het protestante
+    Zeeland en het roomskatholieke Brabant. Deze godsdienstgrens is
+    echter breder: ze markeert tevens het verschil in leefstijl,
+    dialect, manier van wonenen bouwen, eten, drinken en
+    feesten.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.529086000" lon="4.267462000">
     <ele>7.000000</ele>
     <time>2016-07-23T12:07:29Z</time>
     <name>Halsteren</name>
-    <cmt>In 1994 werd de gemeente Halsteren bij Bergen op Zoom gevoegd, ondanks heftige protesten van de 'Spinolen'.  Op het Burg. Mastboomplein staat het carnavalsbeeld van de Spinool, maar ook een beeld dat refereert aan de eeuwenoude animositeit tussen beide plaatsen. Blikvangers in de Dorpsstraat van Halsteren zijn de enorme St. Quirinuskerk (RK, 1913, J. Cuypers) en aan de rand van de Brabantse Wal het oude Raadhuis (1633) en de St. Martinuskerk (NH, 1457).</cmt>
-    <desc>In 1994 werd de gemeente Halsteren bij Bergen op Zoom gevoegd, ondanks heftige protesten van de 'Spinolen'.  Op het Burg. Mastboomplein staat het carnavalsbeeld van de Spinool, maar ook een beeld dat refereert aan de eeuwenoude animositeit tussen beide plaatsen. Blikvangers in de Dorpsstraat van Halsteren zijn de enorme St. Quirinuskerk (RK, 1913, J. Cuypers) en aan de rand van de Brabantse Wal het oude Raadhuis (1633) en de St. Martinuskerk (NH, 1457).</desc>
+    <cmt>In 1994 werd de gemeente Halsteren bij Bergen op Zoom
+    gevoegd, ondanks heftige protesten van de 'Spinolen'. Op het
+    Burg. Mastboomplein staat het carnavalsbeeld van de Spinool,
+    maar ook een beeld dat refereert aan de eeuwenoude animositeit
+    tussen beide plaatsen. Blikvangers in de Dorpsstraat van
+    Halsteren zijn de enorme St. Quirinuskerk (RK, 1913, J.
+    Cuypers) en aan de rand van de Brabantse Wal het oude Raadhuis
+    (1633) en de St. Martinuskerk (NH, 1457).</cmt>
+    <desc>In 1994 werd de gemeente Halsteren bij Bergen op Zoom
+    gevoegd, ondanks heftige protesten van de 'Spinolen'. Op het
+    Burg. Mastboomplein staat het carnavalsbeeld van de Spinool,
+    maar ook een beeld dat refereert aan de eeuwenoude animositeit
+    tussen beide plaatsen. Blikvangers in de Dorpsstraat van
+    Halsteren zijn de enorme St. Quirinuskerk (RK, 1913, J.
+    Cuypers) en aan de rand van de Brabantse Wal het oude Raadhuis
+    (1633) en de St. Martinuskerk (NH, 1457).</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.494838000" lon="4.285032000">
     <ele>12.000000</ele>
     <time>2016-07-23T12:07:29Z</time>
     <name>Markiezenhof</name>
-    <cmt>De GR5 loopt dwars door het Markiezenhof: het voormalige woonpaleis van de heren en markiezen van Bergen op Zoom, gebouwd tussen 1485 en 1525. Het staat op naam van de Mechelse bouwmeester Anthonis Keldermans. De laatgotische gebouwen zijn ruim gegroepeerd rond drie binnenplaatsen. In de 18de eeuw is de tuinvleugel van het woongedeelte verbouwd in Franse bouwstijl. 
-In 1987 is het paleis gerestaureerd en tegenwoordig is er een historisch museum gevestigd. Bezoekers mogen dwalen door de zalen, kamers, galerijen, binnenplaatsen en tuinen en krijgen zo een beeld hoe de bewoners hier vroeger leefden. Er worden schilderijen, gebruiksvoorwerpen en meubilair uit de 15de tot en 19de eeuw tentoongesteld. Er is ook een kermisexpositie; Bergen op Zoom is namelijk lange tijd de thuishaven geweest voor veel kermisfamilies. Steenbergsestraat 8, geopend di t/m zo 11-17 uur, ma gesloten, www.markiezenhof.nl.</cmt>
-    <desc>De GR5 loopt dwars door het Markiezenhof: het voormalige woonpaleis van de heren en markiezen van Bergen op Zoom, gebouwd tussen 1485 en 1525. Het staat op naam van de Mechelse bouwmeester Anthonis Keldermans. De laatgotische gebouwen zijn ruim gegroepeerd rond drie binnenplaatsen. In de 18de eeuw is de tuinvleugel van het woongedeelte verbouwd in Franse bouwstijl. 
-In 1987 is het paleis gerestaureerd en tegenwoordig is er een historisch museum gevestigd. Bezoekers mogen dwalen door de zalen, kamers, galerijen, binnenplaatsen en tuinen en krijgen zo een beeld hoe de bewoners hier vroeger leefden. Er worden schilderijen, gebruiksvoorwerpen en meubilair uit de 15de tot en 19de eeuw tentoongesteld. Er is ook een kermisexpositie; Bergen op Zoom is namelijk lange tijd de thuishaven geweest voor veel kermisfamilies. Steenbergsestraat 8, geopend di t/m zo 11-17 uur, ma gesloten, www.markiezenhof.nl.</desc>
+    <cmt>De GR5 loopt dwars door het Markiezenhof: het voormalige
+    woonpaleis van de heren en markiezen van Bergen op Zoom,
+    gebouwd tussen 1485 en 1525. Het staat op naam van de Mechelse
+    bouwmeester Anthonis Keldermans. De laatgotische gebouwen zijn
+    ruim gegroepeerd rond drie binnenplaatsen. In de 18de eeuw is
+    de tuinvleugel van het woongedeelte verbouwd in Franse
+    bouwstijl. In 1987 is het paleis gerestaureerd en tegenwoordig
+    is er een historisch museum gevestigd. Bezoekers mogen dwalen
+    door de zalen, kamers, galerijen, binnenplaatsen en tuinen en
+    krijgen zo een beeld hoe de bewoners hier vroeger leefden. Er
+    worden schilderijen, gebruiksvoorwerpen en meubilair uit de
+    15de tot en 19de eeuw tentoongesteld. Er is ook een
+    kermisexpositie; Bergen op Zoom is namelijk lange tijd de
+    thuishaven geweest voor veel kermisfamilies. Steenbergsestraat
+    8, geopend di t/m zo 11-17 uur, ma gesloten,
+    www.markiezenhof.nl.</cmt>
+    <desc>De GR5 loopt dwars door het Markiezenhof: het voormalige
+    woonpaleis van de heren en markiezen van Bergen op Zoom,
+    gebouwd tussen 1485 en 1525. Het staat op naam van de Mechelse
+    bouwmeester Anthonis Keldermans. De laatgotische gebouwen zijn
+    ruim gegroepeerd rond drie binnenplaatsen. In de 18de eeuw is
+    de tuinvleugel van het woongedeelte verbouwd in Franse
+    bouwstijl. In 1987 is het paleis gerestaureerd en tegenwoordig
+    is er een historisch museum gevestigd. Bezoekers mogen dwalen
+    door de zalen, kamers, galerijen, binnenplaatsen en tuinen en
+    krijgen zo een beeld hoe de bewoners hier vroeger leefden. Er
+    worden schilderijen, gebruiksvoorwerpen en meubilair uit de
+    15de tot en 19de eeuw tentoongesteld. Er is ook een
+    kermisexpositie; Bergen op Zoom is namelijk lange tijd de
+    thuishaven geweest voor veel kermisfamilies. Steenbergsestraat
+    8, geopend di t/m zo 11-17 uur, ma gesloten,
+    www.markiezenhof.nl.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.490776000" lon="4.243726000">
     <ele>3.000000</ele>
     <time>2016-07-23T12:07:29Z</time>
     <name>Molenplaat</name>
-    <cmt>Voormalige zandplaat, opgehoogd met slib uit Schelde-Rijnkanaal, dat nu wordt ontwikkeld  als natuurgebied. Net als Markiezaatsmeer  in beheer bij Brabants Landschap.</cmt>
-    <desc>Voormalige zandplaat, opgehoogd met slib uit Schelde-Rijnkanaal, dat nu wordt ontwikkeld  als natuurgebied. Net als Markiezaatsmeer  in beheer bij Brabants Landschap.</desc>
+    <cmt>Voormalige zandplaat, opgehoogd met slib uit
+    Schelde-Rijnkanaal, dat nu wordt ontwikkeld als natuurgebied.
+    Net als Markiezaatsmeer in beheer bij Brabants Landschap.</cmt>
+    <desc>Voormalige zandplaat, opgehoogd met slib uit
+    Schelde-Rijnkanaal, dat nu wordt ontwikkeld als natuurgebied.
+    Net als Markiezaatsmeer in beheer bij Brabants
+    Landschap.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.535064000" lon="4.261197000">
     <ele>-2.000000</ele>
     <time>2016-07-23T12:07:29Z</time>
     <name>Oude Beijmoerpolder</name>
-    <cmt>Reeds in 1319 ingedijkte polder tussen Halsteren en de Bremberg met overgang naar een oud smeltwaterdal met hoge natuurwaarden. Mooi uitzicht op Halsteren en de Brabantse Wal.</cmt>
-    <desc>Reeds in 1319 ingedijkte polder tussen Halsteren en de Bremberg met overgang naar een oud smeltwaterdal met hoge natuurwaarden. Mooi uitzicht op Halsteren en de Brabantse Wal.</desc>
+    <cmt>Reeds in 1319 ingedijkte polder tussen Halsteren en de
+    Bremberg met overgang naar een oud smeltwaterdal met hoge
+    natuurwaarden. Mooi uitzicht op Halsteren en de Brabantse
+    Wal.</cmt>
+    <desc>Reeds in 1319 ingedijkte polder tussen Halsteren en de
+    Bremberg met overgang naar een oud smeltwaterdal met hoge
+    natuurwaarden. Mooi uitzicht op Halsteren en de Brabantse
+    Wal.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.505970000" lon="4.253046000">
     <ele>1.000000</ele>
     <time>2016-07-23T12:07:29Z</time>
     <name>Peterssluis</name>
-    <cmt>De sluis en de nieuwe Theodorushaven zijn in de jaren 1960 aangelegd in de Theodoruspolder en het voormalige slikkengebied van de Schelde. Daarna kon de oude havenmond worden afgedamd. Naast de haven ontwikkelde zich een nieuw industriegebied.  Het  grootste bedrijf is Sabic, waar hoogwaardige plastics worden gemaakt.</cmt>
-    <desc>De sluis en de nieuwe Theodorushaven zijn in de jaren 1960 aangelegd in de Theodoruspolder en het voormalige slikkengebied van de Schelde. Daarna kon de oude havenmond worden afgedamd. Naast de haven ontwikkelde zich een nieuw industriegebied.  Het  grootste bedrijf is Sabic, waar hoogwaardige plastics worden gemaakt.</desc>
+    <cmt>De sluis en de nieuwe Theodorushaven zijn in de jaren 1960
+    aangelegd in de Theodoruspolder en het voormalige slikkengebied
+    van de Schelde. Daarna kon de oude havenmond worden afgedamd.
+    Naast de haven ontwikkelde zich een nieuw industriegebied. Het
+    grootste bedrijf is Sabic, waar hoogwaardige plastics worden
+    gemaakt.</cmt>
+    <desc>De sluis en de nieuwe Theodorushaven zijn in de jaren
+    1960 aangelegd in de Theodoruspolder en het voormalige
+    slikkengebied van de Schelde. Daarna kon de oude havenmond
+    worden afgedamd. Naast de haven ontwikkelde zich een nieuw
+    industriegebied. Het grootste bedrijf is Sabic, waar
+    hoogwaardige plastics worden gemaakt.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.513422000" lon="4.267327000">
     <ele>11.000000</ele>
     <time>2016-07-23T12:07:29Z</time>
     <name>Spinolaberg</name>
-    <cmt>Bij de belegering van Bergen op Zoom in 1622 kreeg de gevreesde  Italiaanse veldheer in Spaanse dienst, Ambrogio Spinola, de steun van de katholieke inwoners van Halsteren en sloeg hij hier zijn kamp op.  Dit tot groot ongenoegen van de Bergenaren, die de inwoners van Halsteren sindsdien Spinolen noemen.  Spinola werd uiteindelijk verjaagd door het Staatse leger van Maurits.</cmt>
-    <desc>Bij de belegering van Bergen op Zoom in 1622 kreeg de gevreesde  Italiaanse veldheer in Spaanse dienst, Ambrogio Spinola, de steun van de katholieke inwoners van Halsteren en sloeg hij hier zijn kamp op.  Dit tot groot ongenoegen van de Bergenaren, die de inwoners van Halsteren sindsdien Spinolen noemen.  Spinola werd uiteindelijk verjaagd door het Staatse leger van Maurits.</desc>
+    <cmt>Bij de belegering van Bergen op Zoom in 1622 kreeg de
+    gevreesde Italiaanse veldheer in Spaanse dienst, Ambrogio
+    Spinola, de steun van de katholieke inwoners van Halsteren en
+    sloeg hij hier zijn kamp op. Dit tot groot ongenoegen van de
+    Bergenaren, die de inwoners van Halsteren sindsdien Spinolen
+    noemen. Spinola werd uiteindelijk verjaagd door het Staatse
+    leger van Maurits.</cmt>
+    <desc>Bij de belegering van Bergen op Zoom in 1622 kreeg de
+    gevreesde Italiaanse veldheer in Spaanse dienst, Ambrogio
+    Spinola, de steun van de katholieke inwoners van Halsteren en
+    sloeg hij hier zijn kamp op. Dit tot groot ongenoegen van de
+    Bergenaren, die de inwoners van Halsteren sindsdien Spinolen
+    noemen. Spinola werd uiteindelijk verjaagd door het Staatse
+    leger van Maurits.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.502180000" lon="4.244793000">
     <ele>-1.000000</ele>
     <time>2016-07-23T12:07:29Z</time>
     <name>Waterschans</name>
-    <cmt>De stervormige dijk is een restant van de Waterschans, die in de 16e eeuw werd aangelegd ter bewaking van de havenmond van Bergen. De schans lag aan de zuidzijde van de buitenhaven - nu gereduceerd tot een smal water aan de voet van de verkeersweg.  Op dit punt  voeren de schepen de open Schelde op!</cmt>
-    <desc>De stervormige dijk is een restant van de Waterschans, die in de 16e eeuw werd aangelegd ter bewaking van de havenmond van Bergen. De schans lag aan de zuidzijde van de buitenhaven - nu gereduceerd tot een smal water aan de voet van de verkeersweg.  Op dit punt  voeren de schepen de open Schelde op!</desc>
+    <cmt>De stervormige dijk is een restant van de Waterschans, die
+    in de 16e eeuw werd aangelegd ter bewaking van de havenmond van
+    Bergen. De schans lag aan de zuidzijde van de buitenhaven - nu
+    gereduceerd tot een smal water aan de voet van de verkeersweg.
+    Op dit punt voeren de schepen deopen Schelde op!</cmt>
+    <desc>De stervormige dijk is een restant van de Waterschans,
+    die in de 16e eeuw werd aangelegd ter bewaking van de havenmond
+    van Bergen. De schans lag aan de zuidzijde van de buitenhaven -
+    nu gereduceerd tot een smal water aan de voet van de
+    verkeersweg. Op dit punt voeren de schepen deopen Schelde
+    op!</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.506288000" lon="4.273750000">
     <ele>1.000000</ele>
     <time>2016-07-23T12:07:29Z</time>
     <name>burgerhout</name>
-    <cmt>Bushalte burgerhout
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte burgerhout
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte burgerhout Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte burgerhout Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.527575000" lon="4.269564000">
     <ele>10.000000</ele>
     <time>2016-07-23T12:07:29Z</time>
     <name>gemeentehuis</name>
-    <cmt>Bushalte gemeentehuis
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte gemeentehuis
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte gemeentehuis Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte gemeentehuis Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.497972000" lon="4.284462000">
     <ele>14.000000</ele>
     <time>2016-07-23T12:07:29Z</time>
     <name>noordsingel</name>
-    <cmt>Bushalte noordsingel
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte noordsingel
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte noordsingel Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte noordsingel Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.538366000" lon="4.271316000">
     <ele>4.000000</ele>
     <time>2016-07-23T12:07:29Z</time>
     <name>von suppestraat</name>
-    <cmt>Bushalte von suppestraat
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte von suppestraat
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte von suppestraat Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte von suppestraat Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.585906000" lon="4.314587000">
@@ -458,192 +601,328 @@ Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www
     <ele>-2.970000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>Groene Dijk</name>
-    <cmt>De Welbergse en Groene Dijk steken duidelijk boven de omgeving uit.  Ze omvatten de laaggelegen polders Oud-Cromwiel (1357) en Nieuw-Kromwiel (1444), die vroeger deel uitmaakten van het krekengebied.</cmt>
-    <desc>De Welbergse en Groene Dijk steken duidelijk boven de omgeving uit.  Ze omvatten de laaggelegen polders Oud-Cromwiel (1357) en Nieuw-Kromwiel (1444), die vroeger deel uitmaakten van het krekengebied.</desc>
+    <cmt>De Welbergse en Groene Dijk steken duidelijk boven de
+    omgeving uit. Ze omvatten de laaggelegen polders Oud-Cromwiel
+    (1357) en Nieuw-Kromwiel (1444), die vroeger deel uitmaakten
+    van het krekengebied.</cmt>
+    <desc>De Welbergse en Groene Dijk steken duidelijk boven de
+    omgeving uit. Ze omvatten de laaggelegen polders Oud-Cromwiel
+    (1357) en Nieuw-Kromwiel (1444), die vroeger deel uitmaakten
+    van het krekengebied.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.586358000" lon="4.314538000">
     <ele>2.510000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>Haven</name>
-    <cmt>Nabij de haven van Steenbergen (de Kaai) stond de Kaaipoort, die toegang gaf tot de Kaaistraat, de hoofdstraat van Steenbergen.  De in 1985 gesloopte suikerfabriek had een eigen haven, die nu als jachthaven is ingericht.</cmt>
-    <desc>Nabij de haven van Steenbergen (de Kaai) stond de Kaaipoort, die toegang gaf tot de Kaaistraat, de hoofdstraat van Steenbergen.  De in 1985 gesloopte suikerfabriek had een eigen haven, die nu als jachthaven is ingericht.</desc>
+    <cmt>Nabij de haven van Steenbergen (de Kaai) stond de
+    Kaaipoort, die toegang gaf tot de Kaaistraat, de hoofdstraat
+    van Steenbergen. De in 1985 gesloopte suikerfabriek had een
+    eigen haven, die nu als jachthaven is ingericht.</cmt>
+    <desc>Nabij de haven van Steenbergen (de Kaai) stond de
+    Kaaipoort, die toegang gaf tot de Kaaistraat, de hoofdstraat
+    van Steenbergen. De in 1985 gesloopte suikerfabriek had een
+    eigen haven, die nu als jachthaven is ingericht.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.561488000" lon="4.298876000">
     <ele>-3.110000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>Kassen</name>
-    <cmt>Tussen de mais- en aspergevelden zijn de laatste jaren rond Steenbergen enorme kassencomplexen verrezen, waar paprika's, aubergines en trostomaten worden geteeld. De bedrijven zijn onder meer afkomstig uit het Westland, waar nauwelijks uitbreidingsmogelijkheden zijn.</cmt>
-    <desc>Tussen de mais- en aspergevelden zijn de laatste jaren rond Steenbergen enorme kassencomplexen verrezen, waar paprika's, aubergines en trostomaten worden geteeld. De bedrijven zijn onder meer afkomstig uit het Westland, waar nauwelijks uitbreidingsmogelijkheden zijn.</desc>
+    <cmt>Tussen de mais- en aspergevelden zijn de laatste jaren
+    rond Steenbergen enorme kassencomplexen verrezen, waar
+    paprika's, aubergines en trostomaten worden geteeld. De
+    bedrijven zijn onder meer afkomstig uit het Westland, waar
+    nauwelijks uitbreidingsmogelijkheden zijn.</cmt>
+    <desc>Tussen de mais- en aspergevelden zijn de laatste jaren
+    rond Steenbergen enorme kassencomplexen verrezen, waar
+    paprika's, aubergines en trostomaten worden geteeld. De
+    bedrijven zijn onder meer afkomstig uit het Westland, waar
+    nauwelijks uitbreidingsmogelijkheden zijn.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.553424000" lon="4.296093000">
     <ele>7.270000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>Klutsdorp</name>
-    <cmt>Buurtschap aan de Steenbergseweg met onder andere een aantal 'baancafé's', zoals De Handwijzer (inmiddels gesloten) en De Vossenjacht. Bij Klutsdorp zal de nieuwe A4  'de baan' gaan kruisen en veel verkeer van de Steenbergseweg  gaan afromen.</cmt>
-    <desc>Buurtschap aan de Steenbergseweg met onder andere een aantal 'baancafé's', zoals De Handwijzer (inmiddels gesloten) en De Vossenjacht. Bij Klutsdorp zal de nieuwe A4  'de baan' gaan kruisen en veel verkeer van de Steenbergseweg  gaan afromen.</desc>
+    <cmt>Buurtschap aan de Steenbergseweg met onder andere een
+    aantal 'baancafé's', zoals De Handwijzer (inmiddels gesloten)
+    en De Vossenjacht. Bij Klutsdorp zal de nieuwe A4 'de baan'
+    gaan kruisen en veel verkeer van de Steenbergseweg gaan
+    afromen.</cmt>
+    <desc>Buurtschap aan de Steenbergseweg met onder andere een
+    aantal 'baancafé's', zoals De Handwijzer (inmiddels gesloten)
+    en De Vossenjacht. Bij Klutsdorp zal de nieuwe A4 'de baan'
+    gaan kruisen en veel verkeer van de Steenbergseweg gaan
+    afromen.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.548742000" lon="4.278809000">
     <ele>5.540000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>Lepelstraat</name>
-    <cmt>De naam komt vermoedelijk van het lepelvormige tracé van de straat waaraan een  agrarische nederzetting ontstond. Kerk en toren zijn in 1944 door de Duitsers opgeblazen. Na de oorlog werd een nieuwe kerk in basilicastijl gebouwd, zonder toren.</cmt>
-    <desc>De naam komt vermoedelijk van het lepelvormige tracé van de straat waaraan een  agrarische nederzetting ontstond. Kerk en toren zijn in 1944 door de Duitsers opgeblazen. Na de oorlog werd een nieuwe kerk in basilicastijl gebouwd, zonder toren.</desc>
+    <cmt>De naam komt vermoedelijk van het lepelvormige tracé van
+    de straat waaraan een agrarische nederzetting ontstond. Kerk en
+    toren zijn in 1944 door de Duitsers opgeblazen. Na de oorlog
+    werd een nieuwe kerk in basilicastijl gebouwd, zonder
+    toren.</cmt>
+    <desc>De naam komt vermoedelijk van het lepelvormige tracé van
+    de straat waaraan een agrarische nederzetting ontstond. Kerk en
+    toren zijn in 1944 door de Duitsers opgeblazen. Na de oorlog
+    werd een nieuwe kerk in basilicastijl gebouwd, zonder
+    toren.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.581254000" lon="4.301381000">
     <ele>-1.660000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>Lignedijk, Doornedijkje</name>
-    <cmt>Inundatiedijkjes langs het vergraven riviertje de Ligne, dat eerst turfvaart en daarna inundatiekanaal was als onderdeel van de West Brabantse Waterlinie. Aan de oostkant van de dijk liggen de polders Westland en Verdronken Aanwas, die onder water gezet konden worden.  Het verschil in waterpeil is goed te zien bij gemaal Westland.</cmt>
-    <desc>Inundatiedijkjes langs het vergraven riviertje de Ligne, dat eerst turfvaart en daarna inundatiekanaal was als onderdeel van de West Brabantse Waterlinie. Aan de oostkant van de dijk liggen de polders Westland en Verdronken Aanwas, die onder water gezet konden worden.  Het verschil in waterpeil is goed te zien bij gemaal Westland.</desc>
+    <cmt>Inundatiedijkjes langs het vergraven riviertje de Ligne,
+    dat eerst turfvaart en daarna inundatiekanaal was als onderdeel
+    van de West Brabantse Waterlinie. Aan de oostkant van de dijk
+    liggen de polders Westland en Verdronken Aanwas, die onder
+    water gezet konden worden. Het verschil in waterpeil is goed te
+    zien bij gemaal Westland.</cmt>
+    <desc>Inundatiedijkjes langs het vergraven riviertje de Ligne,
+    dat eerst turfvaart en daarna inundatiekanaal was als onderdeel
+    van de West Brabantse Waterlinie. Aan de oostkant van de dijk
+    liggen de polders Westland en Verdronken Aanwas, die onder
+    water gezet konden worden. Het verschil in waterpeil is goed te
+    zien bij gemaal Westland.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.540207000" lon="4.341381000">
     <ele>3.390000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>Moerstraten</name>
-    <cmt>Ontstaan als buurtschap in een veenontginning.  Werd pas in 1927 een volwaardig dorp met de opening van een eigen kerk (St. Theresiakerk) en school. Opvallend is dat de huizen niet pal aan de weg staan, maar allemaal een voorerf hebben.</cmt>
-    <desc>Ontstaan als buurtschap in een veenontginning.  Werd pas in 1927 een volwaardig dorp met de opening van een eigen kerk (St. Theresiakerk) en school. Opvallend is dat de huizen niet pal aan de weg staan, maar allemaal een voorerf hebben.</desc>
+    <cmt>Ontstaan als buurtschap in een veenontginning. Werd pas in
+    1927 een volwaardig dorp met de opening van een eigen kerk (St.
+    Theresiakerk) en school. Opvallend is dat de huizen niet pal
+    aan de weg staan, maar allemaal een voorerf hebben.</cmt>
+    <desc>Ontstaan als buurtschap in een veenontginning. Werd pas
+    in 1927 een volwaardig dorp met de opening van een eigen kerk
+    (St. Theresiakerk) en school. Opvallend is dat de huizen niet
+    pal aan de weg staan, maar allemaal een voorerf hebben.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.590406000" lon="4.317728000">
     <ele>1.570000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>Noordelijke vestingwerken</name>
-    <cmt>Het pad volgt de voormalige vestinggracht en rondt onder meer het oude Wijngaardenbolwerk, dat net als de meeste bolwerken van Steenbergen is bebouwd met woningen. Aan de overzijde van de gracht zijn resten van de noordelijke aardwerken te zien.</cmt>
-    <desc>Het pad volgt de voormalige vestinggracht en rondt onder meer het oude Wijngaardenbolwerk, dat net als de meeste bolwerken van Steenbergen is bebouwd met woningen. Aan de overzijde van de gracht zijn resten van de noordelijke aardwerken te zien.</desc>
+    <cmt>Het pad volgt de voormalige vestinggracht en rondt onder
+    meer het oude Wijngaardenbolwerk, dat net als de meeste
+    bolwerken van Steenbergen is bebouwd met woningen. Aan de
+    overzijde van de gracht zijn resten van de noordelijke
+    aardwerken te zien.</cmt>
+    <desc>Het pad volgt de voormalige vestinggracht en rondt onder
+    meer het oude Wijngaardenbolwerk, dat net als de meeste
+    bolwerken van Steenbergen is bebouwd met woningen. Aan de
+    overzijde van de gracht zijn resten van de noordelijke
+    aardwerken te zien.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.587830000" lon="4.312348000">
     <ele>-1.130000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>Steenbergen</name>
-    <cmt>Oude Tonge - Benedensas - Steenbergen
-Voor meer informatie over veerpont en vaartijden verwijzen wij u naar de website van Vrienden van de Voetveren: &lt;a href= 'http://www.voetveren.nl/21-overzicht.php' target='_blank'&gt;http://www.voetveren.nl/21-overzicht.php&lt;/a&gt;</cmt>
-    <desc>Oude Tonge - Benedensas - Steenbergen
-Voor meer informatie over veerpont en vaartijden verwijzen wij u naar de website van Vrienden van de Voetveren: &lt;a href= 'http://www.voetveren.nl/21-overzicht.php' target='_blank'&gt;http://www.voetveren.nl/21-overzicht.php&lt;/a&gt;</desc>
+    <cmt>Oude Tonge - Benedensas - Steenbergen Voor meer informatie
+    over veerpont en vaartijden verwijzen wij u naar de website van
+    Vrienden van de Voetveren: &lt;a href=
+    'http://www.voetveren.nl/21-overzicht.php'
+    target='_blank'&gt;http://www.voetveren.nl/21-overzicht.php&lt;/a&gt;</cmt>
+    <desc>Oude Tonge - Benedensas - Steenbergen Voor meer
+    informatie over veerpont en vaartijden verwijzen wij u naar de
+    website van Vrienden van de Voetveren: &lt;a href=
+    'http://www.voetveren.nl/21-overzicht.php'
+    target='_blank'&gt;http://www.voetveren.nl/21-overzicht.php&lt;/a&gt;</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.588710000" lon="4.319737000">
     <ele>1.080000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>Steenbergen</name>
-    <cmt>Het grondgebied van de gemeente Steenbergen was aanvankelijk vrij klein. Het besloeg niet meer dan een hogere landtong, die zich vanaf Wouw en Halsteren naar het noorden uitstrekte. De kern werd gevormd door het Oudland. Omdat de stad via de Steenbergse Vliet verbonden was met het Volkerak, maakte Steenbergen van de 14de tot halverwegen de 15de eeuw een bloeiperiode door. In deze jaren werd gehandeld in regionaal gewonnen zout, later nam de stad deel aan de handel op 
-Engeland, Vlaanderen en Frankrijk. Men kreeg tolvrijheid en andere faciliteiten op de Schelde, in Holland en in Zeeland. 
- 
-Tijdens de Tachtigjarige Oorlog is Steenbergen diverse keren in andere handen overgegaan, omdat de stad een zwakke plek was in het Brabantse vestingstelsel. In de periode 1581-1590 werd de vesting beurtelings bezet door de Spanjaarden en de Staatsen. Vooral bekend is het jaar 1583, waarin slag werd geleverd onder de stadswallen tussen de Spaanse veldheer Parma en Biron, een Franse Maarschalk in Staatse dienst. In 1590 bracht prins Maurits de vesting weer onder de hoede van Nassau en de Verenigde Nederlanden.</cmt>
-    <desc>Het grondgebied van de gemeente Steenbergen was aanvankelijk vrij klein. Het besloeg niet meer dan een hogere landtong, die zich vanaf Wouw en Halsteren naar het noorden uitstrekte. De kern werd gevormd door het Oudland. Omdat de stad via de Steenbergse Vliet verbonden was met het Volkerak, maakte Steenbergen van de 14de tot halverwegen de 15de eeuw een bloeiperiode door. In deze jaren werd gehandeld in regionaal gewonnen zout, later nam de stad deel aan de handel op 
-Engeland, Vlaanderen en Frankrijk. Men kreeg tolvrijheid en andere faciliteiten op de Schelde, in Holland en in Zeeland. 
- 
-Tijdens de Tachtigjarige Oorlog is Steenbergen diverse keren in andere handen overgegaan, omdat de stad een zwakke plek was in het Brabantse vestingstelsel. In de periode 1581-1590 werd de vesting beurtelings bezet door de Spanjaarden en de Staatsen. Vooral bekend is het jaar 1583, waarin slag werd geleverd onder de stadswallen tussen de Spaanse veldheer Parma en Biron, een Franse Maarschalk in Staatse dienst. In 1590 bracht prins Maurits de vesting weer onder de hoede van Nassau en de Verenigde Nederlanden.</desc>
+    <cmt>Het grondgebied van de gemeente Steenbergen was
+    aanvankelijk vrij klein. Het besloeg niet meer dan een hogere
+    landtong, die zich vanaf Wouw en Halsteren naar het noorden
+    uitstrekte. De kern werd gevormd door het Oudland. Omdat de
+    stad via de Steenbergse Vliet verbonden was met het Volkerak,
+    maakte Steenbergen van de 14de tot halverwegen de 15de eeuw een
+    bloeiperiode door. In deze jaren werd gehandeld in regionaal
+    gewonnen zout, later nam de stad deel aan de handel op
+    Engeland, Vlaanderen en Frankrijk. Men kreeg tolvrijheid en
+    andere faciliteiten op de Schelde, in Holland en in Zeeland.
+    Tijdens de Tachtigjarige Oorlog is Steenbergen diverse keren in
+    andere handen overgegaan, omdat de stad een zwakke plek was in
+    het Brabantse vestingstelsel. In de periode 1581-1590 werd de
+    vesting beurtelings bezet door de Spanjaarden en de Staatsen.
+    Vooral bekend is het jaar 1583, waarin slag werd geleverd onder
+    de stadswallen tussen de Spaanse veldheer Parma en Biron, een
+    Franse Maarschalk in Staatse dienst. In 1590 bracht prins
+    Maurits de vesting weer onder de hoede van Nassau en de
+    Verenigde Nederlanden.</cmt>
+    <desc>Het grondgebied van de gemeente Steenbergen was
+    aanvankelijk vrij klein. Het besloeg niet meer dan een hogere
+    landtong, die zich vanaf Wouw en Halsteren naar het noorden
+    uitstrekte. De kern werd gevormd door het Oudland. Omdat de
+    stad via de Steenbergse Vliet verbonden was met het Volkerak,
+    maakte Steenbergen van de 14de tot halverwegen de 15de eeuw een
+    bloeiperiode door. In deze jaren werd gehandeld in regionaal
+    gewonnen zout, later nam de stad deel aan de handel op
+    Engeland, Vlaanderen en Frankrijk. Men kreeg tolvrijheid en
+    andere faciliteiten op de Schelde, in Holland en in Zeeland.
+    Tijdens de Tachtigjarige Oorlog is Steenbergen diverse keren in
+    andere handen overgegaan, omdat de stad een zwakke plek was in
+    het Brabantse vestingstelsel. In de periode 1581-1590 werd de
+    vesting beurtelings bezet door de Spanjaarden en de Staatsen.
+    Vooral bekend is het jaar 1583, waarin slag werd geleverd onder
+    de stadswallen tussen de Spaanse veldheer Parma en Biron, een
+    Franse Maarschalk in Staatse dienst. In 1590 bracht prins
+    Maurits de vesting weer onder de hoede van Nassau en de
+    Verenigde Nederlanden.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.588972000" lon="4.329941000">
     <ele>-0.690000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>Watertoren</name>
-    <cmt>De watertoren met dienstwoning is in 1950 gebouwd, nadat de Duitsers de oude watertoren in november 1944 hadden opgeblazen.</cmt>
-    <desc>De watertoren met dienstwoning is in 1950 gebouwd, nadat de Duitsers de oude watertoren in november 1944 hadden opgeblazen.</desc>
+    <cmt>De watertoren met dienstwoning is in 1950 gebouwd, nadat
+    de Duitsers de oude watertoren in november 1944 hadden
+    opgeblazen.</cmt>
+    <desc>De watertoren met dienstwoning is in 1950 gebouwd, nadat
+    de Duitsers de oude watertoren in november 1944 hadden
+    opgeblazen.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.577148000" lon="4.329636000">
     <ele>3.160000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>Welberg</name>
-    <cmt>Als lintdorp ontstaan langs de Welbergsedijk.  Waar deze op de Boomvaart uitkomt staat sinds 1928 de  H. Corneliuskerk.</cmt>
-    <desc>Als lintdorp ontstaan langs de Welbergsedijk.  Waar deze op de Boomvaart uitkomt staat sinds 1928 de  H. Corneliuskerk.</desc>
+    <cmt>Als lintdorp ontstaan langs de Welbergsedijk. Waar deze op
+    de Boomvaart uitkomt staat sinds 1928 de H.
+    Corneliuskerk.</cmt>
+    <desc>Als lintdorp ontstaan langs de Welbergsedijk. Waar deze
+    op de Boomvaart uitkomt staat sinds 1928 de H.
+    Corneliuskerk.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.557944000" lon="4.351353000">
     <ele>-2.720000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>Wielen Boomdijk</name>
-    <cmt>De Boomdijk en de Boomvaart zijn al in de 13e eeuw aangelegd.  Het grillige tracé wordt veroorzaakt door 'wielen': ronde plassen die ooit ontstonden bij dijkdoorbraken.</cmt>
-    <desc>De Boomdijk en de Boomvaart zijn al in de 13e eeuw aangelegd.  Het grillige tracé wordt veroorzaakt door 'wielen': ronde plassen die ooit ontstonden bij dijkdoorbraken.</desc>
+    <cmt>De Boomdijk en de Boomvaart zijn al in de 13e eeuw
+    aangelegd. Het grillige tracé wordt veroorzaakt door 'wielen':
+    ronde plassen die ooit ontstonden bij dijkdoorbraken.</cmt>
+    <desc>De Boomdijk en de Boomvaart zijn al in de 13e eeuw
+    aangelegd. Het grillige tracé wordt veroorzaakt door 'wielen':
+    ronde plassen die ooit ontstonden bij dijkdoorbraken.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.574805000" lon="4.330760000">
     <ele>1.900000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>kap. kockstraat</name>
-    <cmt>Bushalte kap. kockstraat
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte kap. kockstraat
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte kap. kockstraat Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte kap. kockstraat Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.551815000" lon="4.294289000">
     <ele>2.300000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>klutsdorpseweg</name>
-    <cmt>Bushalte klutsdorpseweg
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte klutsdorpseweg
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte klutsdorpseweg Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte klutsdorpseweg Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.539285000" lon="4.342869000">
     <ele>0.790000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>moerstraatseweg (kerk)</name>
-    <cmt>Bushalte moerstraatseweg (kerk)
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte moerstraatseweg (kerk)
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte moerstraatseweg (kerk) Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte moerstraatseweg (kerk) Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.587619000" lon="4.332348000">
     <ele>0.060000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>rondweg</name>
-    <cmt>Bushalte rondweg
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte rondweg
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte rondweg Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte rondweg Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.584909000" lon="4.316197000">
     <ele>0.820000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>steenbergen busstation</name>
-    <cmt>Bushalte steenbergen busstation
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte steenbergen busstation
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte steenbergen busstation Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte steenbergen busstation Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.538366000" lon="4.271316000">
     <ele>3.380000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>von suppestraat</name>
-    <cmt>Bushalte von suppestraat
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte von suppestraat
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte von suppestraat Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte von suppestraat Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.548184000" lon="4.274305000">
     <ele>3.960000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>vossepad</name>
-    <cmt>Bushalte vossepad
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte vossepad
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte vossepad Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte vossepad Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.564900000" lon="4.303765000">
     <ele>-0.740000</ele>
     <time>2016-07-23T14:15:51Z</time>
     <name>witte ruiterweg</name>
-    <cmt>Bushalte witte ruiterweg
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte witte ruiterweg
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte witte ruiterweg Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte witte ruiterweg Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.481674000" lon="4.388677000">
@@ -698,136 +977,260 @@ Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www
     <ele>2.000000</ele>
     <time>2016-07-23T15:00:17Z</time>
     <name>Café de Maai</name>
-    <cmt>Dit typische plattelandscafé aan de Herelse Baan werd in 2008 gesloten, toen de 94-jarige eigenaresse er mee ophield.  In het gebouw herkennen we de voor de streek typische langgevelboerderij. Het café was ingericht in het woongedeelte.</cmt>
-    <desc>Dit typische plattelandscafé aan de Herelse Baan werd in 2008 gesloten, toen de 94-jarige eigenaresse er mee ophield.  In het gebouw herkennen we de voor de streek typische langgevelboerderij. Het café was ingericht in het woongedeelte.</desc>
+    <cmt>Dit typische plattelandscafé aan de Herelse Baan werd in
+    2008 gesloten, toen de 94-jarige eigenaresse er mee ophield. In
+    het gebouw herkennen we de voor de streek typische
+    langgevelboerderij. Het café was ingericht in het
+    woongedeelte.</cmt>
+    <desc>Dit typische plattelandscafé aan de Herelse Baan werd in
+    2008 gesloten, toen de 94-jarige eigenaresse er mee ophield. In
+    het gebouw herkennen we de voor de streek typische
+    langgevelboerderij. Het café was ingericht in het
+    woongedeelte.</desc>
     <sym>Restaurant</sym>
   </wpt>
   <wpt lat="51.480943000" lon="4.392255000">
     <ele>12.000000</ele>
     <time>2016-07-23T15:00:17Z</time>
     <name>De Zoom</name>
-    <cmt>Het kanaaltje De Zoom werd al gegraven in de 14e eeuw en tot in de 16e eeuw gebruikt om de turf – die in de veengebieden ten noorden en ten zuiden van de huidige rijksgrens gestoken werd – af te voeren naar de stad Bergen op Zoom. Tevens diende De Zoom om helder water voor de laken- en wolnijverheid en voor de middeleeuwse wasserijen te onttrekken aan de vennen. In oorlogstijd werd het kanaaltje gebruikt om het lage land rond de stad onder water te zetten. In een droge periode kan het kanaaltje droog staan.</cmt>
-    <desc>Het kanaaltje De Zoom werd al gegraven in de 14e eeuw en tot in de 16e eeuw gebruikt om de turf – die in de veengebieden ten noorden en ten zuiden van de huidige rijksgrens gestoken werd – af te voeren naar de stad Bergen op Zoom. Tevens diende De Zoom om helder water voor de laken- en wolnijverheid en voor de middeleeuwse wasserijen te onttrekken aan de vennen. In oorlogstijd werd het kanaaltje gebruikt om het lage land rond de stad onder water te zetten. In een droge periode kan het kanaaltje droog staan.</desc>
+    <cmt>Het kanaaltje De Zoom werd al gegraven in de 14e eeuw en
+    tot in de 16e eeuw gebruikt om de turf – die in de veengebieden
+    ten noorden en ten zuiden van de huidige rijksgrens gestoken
+    werd – af te voeren naar de stad Bergen op Zoom. Tevens diende
+    De Zoom om helder water voor de laken- en wolnijverheid en voor
+    de middeleeuwse wasserijen te onttrekken aan de vennen. In
+    oorlogstijd werd het kanaaltje gebruikt om het lage land rond
+    de stad onder water te zetten. In een droge periode kan het
+    kanaaltje droog staan.</cmt>
+    <desc>Het kanaaltje De Zoom werd al gegraven in de 14e eeuw en
+    tot in de 16e eeuw gebruikt om de turf – die in de veengebieden
+    ten noorden en ten zuiden van de huidige rijksgrens gestoken
+    werd – af te voeren naar de stad Bergen op Zoom. Tevens diende
+    De Zoom om helder water voor de laken- en wolnijverheid en voor
+    de middeleeuwse wasserijen te onttrekken aan de vennen. In
+    oorlogstijd werd het kanaaltje gebruikt om het lage land rond
+    de stad onder water te zetten. In een droge periode kan het
+    kanaaltje droog staan.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.531002000" lon="4.387465000">
     <ele>3.000000</ele>
     <time>2016-07-23T15:00:17Z</time>
     <name>Donken en beekdal Het Loopje</name>
-    <cmt>Het gebied 'De Donken' is een bolle akker gelegen tussen het dal van Het Loopje en de Smalle Beek, die hier vrij diepe insnijdingen hebben.  Hoge aardkundige waarde.</cmt>
-    <desc>Het gebied 'De Donken' is een bolle akker gelegen tussen het dal van Het Loopje en de Smalle Beek, die hier vrij diepe insnijdingen hebben.  Hoge aardkundige waarde.</desc>
+    <cmt>Het gebied 'De Donken' is een bolle akker gelegen tussen
+    het dal van Het Loopje en de Smalle Beek, die hier vrij diepe
+    insnijdingen hebben. Hoge aardkundige waarde.</cmt>
+    <desc>Het gebied 'De Donken' is een bolle akker gelegen tussen
+    het dal van Het Loopje en de Smalle Beek, die hier vrij diepe
+    insnijdingen hebben. Hoge aardkundige waarde.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.518866000" lon="4.362440000">
     <ele>8.000000</ele>
     <time>2016-07-23T15:00:17Z</time>
     <name>Heerle</name>
-    <cmt>Streekdorp waarvan de gelovigen lange tijd op Wouw waren aangewezen. Het oude kerkpad naar Wouw maakt nu deel uit van onze (onverharde) route. In 1861 werd op de plaats van een voorganger de huidige St. Gertrudiskerk gebouwd.</cmt>
-    <desc>Streekdorp waarvan de gelovigen lange tijd op Wouw waren aangewezen. Het oude kerkpad naar Wouw maakt nu deel uit van onze (onverharde) route. In 1861 werd op de plaats van een voorganger de huidige St. Gertrudiskerk gebouwd.</desc>
+    <cmt>Streekdorp waarvan de gelovigen lange tijd op Wouw waren
+    aangewezen. Het oude kerkpad naar Wouw maakt nu deel uit van
+    onze (onverharde) route. In 1861 werd op de plaats van een
+    voorganger de huidige St. Gertrudiskerk gebouwd.</cmt>
+    <desc>Streekdorp waarvan de gelovigen lange tijd op Wouw waren
+    aangewezen. Het oude kerkpad naar Wouw maakt nu deel uit van
+    onze (onverharde) route. In 1861 werd op de plaats van een
+    voorganger de huidige St. Gertrudiskerk gebouwd.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.527072000" lon="4.378239000">
     <ele>2.000000</ele>
     <time>2016-07-23T15:00:17Z</time>
     <name>Kasteel Wouw</name>
-    <cmt>Ongeveer een kilometer ten noordwesten van Wouw liggen de fundamenten van het kasteel van Wouw, de voormalige residentie van de Heren en Markiezen van Bergen op Zoom. Raakte in de 18e eeuw in verval en was een eeuw later al nagenoeg verdwenen. In 1934 werd  de plaats een archeologisch monument. Sinds 1996 toegankelijk gemaakt voor publiek.</cmt>
-    <desc>Ongeveer een kilometer ten noordwesten van Wouw liggen de fundamenten van het kasteel van Wouw, de voormalige residentie van de Heren en Markiezen van Bergen op Zoom. Raakte in de 18e eeuw in verval en was een eeuw later al nagenoeg verdwenen. In 1934 werd  de plaats een archeologisch monument. Sinds 1996 toegankelijk gemaakt voor publiek.</desc>
+    <cmt>Ongeveer een kilometer ten noordwesten van Wouw liggen de
+    fundamenten van het kasteel van Wouw, de voormalige residentie
+    van de Heren en Markiezen van Bergen op Zoom. Raakte in de 18e
+    eeuw in verval en was een eeuw later al nagenoeg verdwenen. In
+    1934 werd de plaats een archeologisch monument. Sinds 1996
+    toegankelijk gemaakt voor publiek.</cmt>
+    <desc>Ongeveer een kilometer ten noordwesten van Wouw liggen de
+    fundamenten van het kasteel van Wouw, de voormalige residentie
+    van de Heren en Markiezen van Bergen op Zoom. Raakte in de 18e
+    eeuw in verval en was een eeuw later al nagenoeg verdwenen. In
+    1934 werd de plaats een archeologisch monument. Sinds 1996
+    toegankelijk gemaakt voor publiek.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.540207000" lon="4.341381000">
     <ele>3.000000</ele>
     <time>2016-07-23T15:00:17Z</time>
     <name>Moerstraten</name>
-    <cmt>Ontstaan als buurtschap in een veenontginning.  Werd pas in 1927 een volwaardig dorp met de opening van een eigen kerk (St. Theresiakerk) en school. Opvallend is dat de huizen niet pal aan de weg staan, maar allemaal een voorerf hebben.</cmt>
-    <desc>Ontstaan als buurtschap in een veenontginning.  Werd pas in 1927 een volwaardig dorp met de opening van een eigen kerk (St. Theresiakerk) en school. Opvallend is dat de huizen niet pal aan de weg staan, maar allemaal een voorerf hebben.</desc>
+    <cmt>Ontstaan als buurtschap in een veenontginning. Werd pas in
+    1927 een volwaardig dorp met de opening van een eigen kerk (St.
+    Theresiakerk) en school. Opvallend is dat de huizen niet pal
+    aan de weg staan, maar allemaal een voorerf hebben.</cmt>
+    <desc>Ontstaan als buurtschap in een veenontginning. Werd pas
+    in 1927 een volwaardig dorp met de opening van een eigen kerk
+    (St. Theresiakerk) en school. Opvallend is dat de huizen niet
+    pal aan de weg staan, maar allemaal een voorerf hebben.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.481800000" lon="4.389316000">
     <ele>13.000000</ele>
     <time>2016-07-23T15:00:17Z</time>
     <name>Moervaart en school</name>
-    <cmt>Het pandje met de ronde vensters, naast de brug over de Moervaart of Zoom, is einde 19e eeuw gebouwd als schooltje in typische 'Plantagestijl'. Daarvoor een beeldje in de serie oude Wouwse beroepen:  de Houthakker.</cmt>
-    <desc>Het pandje met de ronde vensters, naast de brug over de Moervaart of Zoom, is einde 19e eeuw gebouwd als schooltje in typische 'Plantagestijl'. Daarvoor een beeldje in de serie oude Wouwse beroepen:  de Houthakker.</desc>
+    <cmt>Het pandje met de ronde vensters, naast de brug over de
+    Moervaart of Zoom, is einde 19e eeuw gebouwd als schooltje in
+    typische 'Plantagestijl'. Daarvoor een beeldje in de serie oude
+    Wouwse beroepen: de Houthakker.</cmt>
+    <desc>Het pandje met de ronde vensters, naast de brug over de
+    Moervaart of Zoom, is einde 19e eeuw gebouwd als schooltje in
+    typische 'Plantagestijl'. Daarvoor een beeldje in de serie oude
+    Wouwse beroepen: de Houthakker.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.538559000" lon="4.390904000">
     <ele>3.000000</ele>
     <time>2016-07-23T15:00:17Z</time>
     <name>Rust-Hoeve Spellestraat</name>
-    <cmt>Terwijl het traditionele plattelandscafé verdwijnt, zien we nieuwe horeca verschijnen, zoals dit café-restaurant met 'wellness'- faciliteiten.  Een van de oudste boerderijen van de streek: een langgevelboerderij met bakhuisje uit 1698. Het café is ingericht in het originele stalgedeelte.</cmt>
-    <desc>Terwijl het traditionele plattelandscafé verdwijnt, zien we nieuwe horeca verschijnen, zoals dit café-restaurant met 'wellness'- faciliteiten.  Een van de oudste boerderijen van de streek: een langgevelboerderij met bakhuisje uit 1698. Het café is ingericht in het originele stalgedeelte.</desc>
+    <cmt>Terwijl het traditionele plattelandscafé verdwijnt, zien
+    we nieuwe horeca verschijnen, zoals dit café-restaurant met
+    'wellness'- faciliteiten. Een van de oudste boerderijen van de
+    streek: een langgevelboerderij met bakhuisje uit 1698. Het café
+    is ingericht in het originele stalgedeelte.</cmt>
+    <desc>Terwijl het traditionele plattelandscafé verdwijnt, zien
+    we nieuwe horeca verschijnen, zoals dit café-restaurant met
+    'wellness'- faciliteiten. Een van de oudste boerderijen van de
+    streek: een langgevelboerderij met bakhuisje uit 1698. Het café
+    is ingericht in het originele stalgedeelte.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.480339000" lon="4.387825000">
     <ele>12.000000</ele>
     <time>2016-07-23T15:00:17Z</time>
     <name>Steenfabriek Zoomvliet</name>
-    <cmt>Op deze plaats stond vanaf 1869 een steenfabriek. De leemrijke bodem zorgde voor de grondstof. De oude ringoven uit 1904 is in het huidige gebouw opgenomen. In de 'voortuin' staat smalspoormaterieel opgesteld, dat werd gebruikt voor transport van klei. De fabriek had een smalspoorverbinding met het station van Wouw. De fabriek staakte rond 1980 de productie.</cmt>
-    <desc>Op deze plaats stond vanaf 1869 een steenfabriek. De leemrijke bodem zorgde voor de grondstof. De oude ringoven uit 1904 is in het huidige gebouw opgenomen. In de 'voortuin' staat smalspoormaterieel opgesteld, dat werd gebruikt voor transport van klei. De fabriek had een smalspoorverbinding met het station van Wouw. De fabriek staakte rond 1980 de productie.</desc>
+    <cmt>Op deze plaats stond vanaf 1869 een steenfabriek. De
+    leemrijke bodem zorgde voor de grondstof. De oude ringoven uit
+    1904 is in het huidige gebouw opgenomen. In de 'voortuin' staat
+    smalspoormaterieel opgesteld, dat werd gebruikt voor transport
+    van klei. De fabriek had een smalspoorverbinding met het
+    station van Wouw. De fabriek staakte rond 1980 de
+    productie.</cmt>
+    <desc>Op deze plaats stond vanaf 1869 een steenfabriek. De
+    leemrijke bodem zorgde voor de grondstof. De oude ringoven uit
+    1904 is in het huidige gebouw opgenomen. In de 'voortuin' staat
+    smalspoormaterieel opgesteld, dat werd gebruikt voor transport
+    van klei. De fabriek had een smalspoorverbinding met het
+    station van Wouw. De fabriek staakte rond 1980 de
+    productie.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.521083000" lon="4.378738000">
     <ele>4.000000</ele>
     <time>2016-07-23T15:00:17Z</time>
     <name>Veldkapel</name>
-    <cmt>De Mariaverering is in Brabant nog springlevend, getuige deze Mariakapel, die in 1994 op particulier initiatief is opgetrokken op de plaats van een eerdere kapel.</cmt>
-    <desc>De Mariaverering is in Brabant nog springlevend, getuige deze Mariakapel, die in 1994 op particulier initiatief is opgetrokken op de plaats van een eerdere kapel.</desc>
+    <cmt>De Mariaverering is in Brabant nog springlevend, getuige
+    deze Mariakapel, die in 1994 op particulier initiatief is
+    opgetrokken op de plaats van een eerdere kapel.</cmt>
+    <desc>De Mariaverering is in Brabant nog springlevend, getuige
+    deze Mariakapel, die in 1994 op particulier initiatief is
+    opgetrokken op de plaats van een eerdere kapel.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.484107000" lon="4.387445000">
     <ele>10.000000</ele>
     <time>2016-07-23T15:00:17Z</time>
     <name>Wouwse Plantage</name>
-    <cmt>In 1504 werden hier in opdracht van de heer van Bergen op Zoom op de woeste gronden bossen aangeplant en in 1540 verder uitgebreid. Tijdens de 80-Jarige oorlog richtten in het grensgebied rondtrekkende legers grote schade aan. De bossen werden in de 18e eeuw weer hersteld en verder uitgebreid. Omstreeks 1800, in de Franse Tijd, kwam het gebied in handen van de Staat. Toen de Staat als gevolg van de Belgische Opstand in 1839 grote schulden had opgelopen werden de bossen verkocht aan een Belgische baron, die de bossen omtoverde in een landgoed, compleet met jachthuis, houtzagerij en andere gebouwen, in Zwitserse chaletstijl. Vanuit dit centrum (niet toegankelijk)  lopen rechte monumentale lanen in alle richtingen het bos in.</cmt>
-    <desc>In 1504 werden hier in opdracht van de heer van Bergen op Zoom op de woeste gronden bossen aangeplant en in 1540 verder uitgebreid. Tijdens de 80-Jarige oorlog richtten in het grensgebied rondtrekkende legers grote schade aan. De bossen werden in de 18e eeuw weer hersteld en verder uitgebreid. Omstreeks 1800, in de Franse Tijd, kwam het gebied in handen van de Staat. Toen de Staat als gevolg van de Belgische Opstand in 1839 grote schulden had opgelopen werden de bossen verkocht aan een Belgische baron, die de bossen omtoverde in een landgoed, compleet met jachthuis, houtzagerij en andere gebouwen, in Zwitserse chaletstijl. Vanuit dit centrum (niet toegankelijk)  lopen rechte monumentale lanen in alle richtingen het bos in.</desc>
+    <cmt>In 1504 werden hier in opdracht van de heer van Bergen op
+    Zoom op de woeste gronden bossen aangeplant en in 1540 verder
+    uitgebreid. Tijdens de 80-Jarige oorlog richtten in het
+    grensgebied rondtrekkende legers grote schade aan. De bossen
+    werden in de 18e eeuw weer hersteld en verder uitgebreid.
+    Omstreeks 1800, in de Franse Tijd, kwam het gebied in handen
+    van de Staat. Toen de Staat als gevolg van de Belgische Opstand
+    in 1839 grote schulden had opgelopen werden de bossen verkocht
+    aan een Belgische baron, die de bossen omtoverde in een
+    landgoed, compleet met jachthuis, houtzagerij en andere
+    gebouwen, in Zwitserse chaletstijl. Vanuit dit centrum (niet
+    toegankelijk) lopen rechte monumentale lanen in alle richtingen
+    het bos in.</cmt>
+    <desc>In 1504 werden hier in opdracht van de heer van Bergen op
+    Zoom op de woeste gronden bossen aangeplant en in 1540 verder
+    uitgebreid. Tijdens de 80-Jarige oorlog richtten in het
+    grensgebied rondtrekkende legers grote schade aan. De bossen
+    werden in de 18e eeuw weer hersteld en verder uitgebreid.
+    Omstreeks 1800, in de Franse Tijd, kwam het gebied in handen
+    van de Staat. Toen de Staat als gevolg van de Belgische Opstand
+    in 1839 grote schulden had opgelopen werden de bossen verkocht
+    aan een Belgische baron, die de bossen omtoverde in een
+    landgoed, compleet met jachthuis, houtzagerij en andere
+    gebouwen, in Zwitserse chaletstijl. Vanuit dit centrum (niet
+    toegankelijk) lopen rechte monumentale lanen in alle richtingen
+    het bos in.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.483484000" lon="4.388865000">
     <ele>11.000000</ele>
     <time>2016-07-23T15:00:17Z</time>
     <name>Wouwse Plantage/ Pindorp</name>
-    <cmt>De brede Plantagebaan geeft het 19e-eeuwse dorp een rustiek karakter. In 1878 werd het een zelfstandige parochie. Uit dat jaar dateert ook de pastorie. De kerk is uit 1891, maar de toren werd in 1944 opgeblazen en na de oorlog opnieuw opgebouwd.</cmt>
-    <desc>De brede Plantagebaan geeft het 19e-eeuwse dorp een rustiek karakter. In 1878 werd het een zelfstandige parochie. Uit dat jaar dateert ook de pastorie. De kerk is uit 1891, maar de toren werd in 1944 opgeblazen en na de oorlog opnieuw opgebouwd.</desc>
+    <cmt>De brede Plantagebaan geeft het 19e-eeuwse dorp een
+    rustiek karakter. In 1878 werd het een zelfstandige parochie.
+    Uit dat jaar dateert ook de pastorie. De kerk is uit 1891, maar
+    de toren werd in 1944 opgeblazen en na de oorlog opnieuw
+    opgebouwd.</cmt>
+    <desc>De brede Plantagebaan geeft het 19e-eeuwse dorp een
+    rustiek karakter. In 1878 werd het een zelfstandige parochie.
+    Uit dat jaar dateert ook de pastorie. De kerk is uit 1891, maar
+    de toren werd in 1944 opgeblazen en na de oorlog opnieuw
+    opgebouwd.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.539285000" lon="4.342869000">
     <ele>2.000000</ele>
     <time>2016-07-23T15:00:17Z</time>
     <name>moerstraatseweg (kerk)</name>
-    <cmt>Bushalte moerstraatseweg (kerk)
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte moerstraatseweg (kerk)
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte moerstraatseweg (kerk) Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte moerstraatseweg (kerk) Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.520276000" lon="4.387184000">
     <ele>8.000000</ele>
     <time>2016-07-23T15:00:17Z</time>
     <name>molensingel</name>
-    <cmt>Bushalte molensingel
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte molensingel
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte molensingel Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte molensingel Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.520393000" lon="4.363492000">
     <ele>7.000000</ele>
     <time>2016-07-23T15:00:17Z</time>
     <name>torenbaan</name>
-    <cmt>Bushalte torenbaan
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte torenbaan
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte torenbaan Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte torenbaan Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.482291000" lon="4.390398000">
     <ele>14.000000</ele>
     <time>2016-07-23T15:00:17Z</time>
     <name>wouwse plantage</name>
-    <cmt>Bushalte wouwse plantage
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte wouwse plantage
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte wouwse plantage Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte wouwse plantage Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.481674000" lon="4.388677000">
@@ -842,8 +1245,12 @@ Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www
     <ele>13.860000</ele>
     <time>2016-07-23T15:00:36Z</time>
     <name>Aardbeien</name>
-    <cmt>Rond Huijbergen zien we veel aardbeienteelt. Met Asperges en Ansjovis vormen de Aardbeien 'de drie A's': de kenmerkende streekproducten van de Brabantse Wal.</cmt>
-    <desc>Rond Huijbergen zien we veel aardbeienteelt. Met Asperges en Ansjovis vormen de Aardbeien 'de drie A's': de kenmerkende streekproducten van de Brabantse Wal.</desc>
+    <cmt>Rond Huijbergen zien we veel aardbeienteelt. Met Asperges
+    en Ansjovis vormen de Aardbeien 'de drie A's': de kenmerkende
+    streekproducten van de Brabantse Wal.</cmt>
+    <desc>Rond Huijbergen zien we veel aardbeienteelt. Met Asperges
+    en Ansjovis vormen de Aardbeien 'de drie A's': de kenmerkende
+    streekproducten van de Brabantse Wal.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.483164000" lon="4.387375000">
@@ -882,126 +1289,271 @@ Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www
     <ele>11.240000</ele>
     <time>2016-07-23T15:00:36Z</time>
     <name>Grensstraat</name>
-    <cmt>De huizen aan de noordzijde staan in Nederland (Woensdrechts Putte) en aan de zuidzijde in Belgie ( Putte Kapellen). De grens loopt precies over het midden van de straat. Op de noordwesthoek van het kruispunt met de Antwerpsestraat, pal naast het café-terras, staat grenspaal 257. Op oude prenten staat de paal ook op de noordoosthoek. In feite hoort de paal midden op het kruispunt te staan, maar de huidige plek is praktischer.</cmt>
-    <desc>De huizen aan de noordzijde staan in Nederland (Woensdrechts Putte) en aan de zuidzijde in Belgie ( Putte Kapellen). De grens loopt precies over het midden van de straat. Op de noordwesthoek van het kruispunt met de Antwerpsestraat, pal naast het café-terras, staat grenspaal 257. Op oude prenten staat de paal ook op de noordoosthoek. In feite hoort de paal midden op het kruispunt te staan, maar de huidige plek is praktischer.</desc>
+    <cmt>De huizen aan de noordzijde staan in Nederland
+    (Woensdrechts Putte) en aan de zuidzijde in Belgie ( Putte
+    Kapellen). De grens loopt precies over het midden van de
+    straat. Op de noordwesthoek van het kruispunt met de
+    Antwerpsestraat, pal naast het café-terras, staat grenspaal
+    257. Op oude prenten staat de paal ook op de noordoosthoek. In
+    feite hoort de paal midden op het kruispunt te staan, maar de
+    huidige plek is praktischer.</cmt>
+    <desc>De huizen aan de noordzijde staan in Nederland
+    (Woensdrechts Putte) en aan de zuidzijde in Belgie ( Putte
+    Kapellen). De grens loopt precies over het midden van de
+    straat. Op de noordwesthoek van het kruispunt met de
+    Antwerpsestraat, pal naast het café-terras, staat grenspaal
+    257. Op oude prenten staat de paal ook op de noordoosthoek. In
+    feite hoort de paal midden op het kruispunt te staan, maar de
+    huidige plek is praktischer.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.392996000" lon="4.408839000">
     <ele>24.580000</ele>
     <time>2016-07-23T15:00:36Z</time>
     <name>Grenswal</name>
-    <cmt>De grens wordt hier gevormd door een diepe gracht en een wal; het pad daarnaast was voor de grensbewaking. Tot in de jaren 1950 was smokkel een winstgevende business. Men kan zich hier goed voorstellen dat de grensbewaking in dit gebied moeilijk was.</cmt>
-    <desc>De grens wordt hier gevormd door een diepe gracht en een wal; het pad daarnaast was voor de grensbewaking. Tot in de jaren 1950 was smokkel een winstgevende business. Men kan zich hier goed voorstellen dat de grensbewaking in dit gebied moeilijk was.</desc>
+    <cmt>De grens wordt hier gevormd door een diepe gracht en een
+    wal; het pad daarnaast was voor de grensbewaking. Tot in de
+    jaren 1950 was smokkel een winstgevende business. Men kan zich
+    hier goed voorstellen dat de grensbewaking in dit gebied
+    moeilijk was.</cmt>
+    <desc>De grens wordt hier gevormd door een diepe gracht en een
+    wal; het pad daarnaast was voor de grensbewaking. Tot in de
+    jaren 1950 was smokkel een winstgevende business. Men kan zich
+    hier goed voorstellen dat de grensbewaking in dit gebied
+    moeilijk was.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.393974000" lon="4.401451000">
     <ele>23.390000</ele>
     <time>2016-07-23T15:00:36Z</time>
     <name>Kriekelareduinen</name>
-    <cmt>Sinds 2006 zijn hier in het kader van het project 'heideherstel op landduinen' vele hectaren bos gekapt, is de humusrijke bodem afgeplagd en zijn maatregelen genomen tegen verdroging. Hier is goed te zien hoe aan weerszijden van de grens (Ossendrechtse en Kalmthoutse Heide) het oorspronkelijke duin- heide- en vennenlandschap wordt hersteld. Aan Belgische zijde ligt het Kriekelaarsven. De heide wordt begraasd door geherderde schapen.</cmt>
-    <desc>Sinds 2006 zijn hier in het kader van het project 'heideherstel op landduinen' vele hectaren bos gekapt, is de humusrijke bodem afgeplagd en zijn maatregelen genomen tegen verdroging. Hier is goed te zien hoe aan weerszijden van de grens (Ossendrechtse en Kalmthoutse Heide) het oorspronkelijke duin- heide- en vennenlandschap wordt hersteld. Aan Belgische zijde ligt het Kriekelaarsven. De heide wordt begraasd door geherderde schapen.</desc>
+    <cmt>Sinds 2006 zijn hier in het kader van het project
+    'heideherstel op landduinen' vele hectaren bos gekapt, is de
+    humusrijke bodem afgeplagd en zijn maatregelen genomen tegen
+    verdroging. Hier is goed te zien hoe aan weerszijden van de
+    grens (Ossendrechtse en Kalmthoutse Heide) het oorspronkelijke
+    duin- heide- en vennenlandschap wordt hersteld. Aan Belgische
+    zijde ligt het Kriekelaarsven. De heide wordt begraasddoor
+    geherderde schapen.</cmt>
+    <desc>Sinds 2006 zijn hier in het kader van het project
+    'heideherstel op landduinen' vele hectaren bos gekapt, is de
+    humusrijke bodem afgeplagd en zijn maatregelen genomen tegen
+    verdroging. Hier is goed te zien hoe aan weerszijden van de
+    grens (Ossendrechtse en Kalmthoutse Heide) het oorspronkelijke
+    duin- heide- en vennenlandschap wordt hersteld. Aan Belgische
+    zijde ligt het Kriekelaarsven. De heide wordt begraasddoor
+    geherderde schapen.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.481800000" lon="4.389316000">
     <ele>15.180000</ele>
     <time>2016-07-23T15:00:36Z</time>
     <name>Moervaart en school</name>
-    <cmt>Het pandje met de ronde vensters, naast de brug over de Moervaart of Zoom, is einde 19e eeuw gebouwd als schooltje in typische 'Plantagestijl'. Daarvoor een beeldje in de serie oude Wouwse beroepen:  de Houthakker.</cmt>
-    <desc>Het pandje met de ronde vensters, naast de brug over de Moervaart of Zoom, is einde 19e eeuw gebouwd als schooltje in typische 'Plantagestijl'. Daarvoor een beeldje in de serie oude Wouwse beroepen:  de Houthakker.</desc>
+    <cmt>Het pandje met de ronde vensters, naast de brug over de
+    Moervaart of Zoom, is einde 19e eeuw gebouwd als schooltje in
+    typische 'Plantagestijl'. Daarvoor een beeldje in de serie oude
+    Wouwse beroepen: de Houthakker.</cmt>
+    <desc>Het pandje met de ronde vensters, naast de brug over de
+    Moervaart of Zoom, is einde 19e eeuw gebouwd als schooltje in
+    typische 'Plantagestijl'. Daarvoor een beeldje in de serie oude
+    Wouwse beroepen: de Houthakker.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.433152000" lon="4.385540000">
     <ele>26.200000</ele>
     <time>2016-07-23T15:00:36Z</time>
     <name>Pilberg</name>
-    <cmt>Huijbergen wordt aan de oostzijde omsloten door een sikkelvormige krans van stuifduinen, waarvan de Pilberg met ruim 22 meter de hoogste is. De duinen maken deel uit van de oostrand van de Brabantse Wal. Ze moeten ooit twee keer zo hoog zijn geweest, maar regen- en winderosie hebben hun werk gedaan.</cmt>
-    <desc>Huijbergen wordt aan de oostzijde omsloten door een sikkelvormige krans van stuifduinen, waarvan de Pilberg met ruim 22 meter de hoogste is. De duinen maken deel uit van de oostrand van de Brabantse Wal. Ze moeten ooit twee keer zo hoog zijn geweest, maar regen- en winderosie hebben hun werk gedaan.</desc>
+    <cmt>Huijbergen wordt aan de oostzijde omsloten door een
+    sikkelvormige krans van stuifduinen, waarvan de Pilberg met
+    ruim 22 meter de hoogste is. De duinen maken deel uit van de
+    oostrand van de Brabantse Wal. Ze moeten ooit twee keer zo hoog
+    zijn geweest, maar regen- en winderosie hebbenhun werk
+    gedaan.</cmt>
+    <desc>Huijbergen wordt aan de oostzijde omsloten door een
+    sikkelvormige krans van stuifduinen, waarvan de Pilberg met
+    ruim 22 meter de hoogste is. De duinen maken deel uit van de
+    oostrand van de Brabantse Wal. Ze moeten ooit twee keer zo hoog
+    zijn geweest, maar regen- en winderosie hebbenhun werk
+    gedaan.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.429365000" lon="4.386719000">
     <ele>21.300000</ele>
     <time>2016-07-23T15:00:36Z</time>
     <name>Poortgebouw Wilhelmieten</name>
-    <cmt>Een 17e-eeuwse abdijhoeve (verderop aan de Staartsestraat 45) en dit poortgebouw (1674) zijn de enige overgebleven bouwwerken van het oorspronkelijke Wilhelmietenklooster . In het poortgebouw is nu het Wilhelmietenmuseum ingericht.</cmt>
-    <desc>Een 17e-eeuwse abdijhoeve (verderop aan de Staartsestraat 45) en dit poortgebouw (1674) zijn de enige overgebleven bouwwerken van het oorspronkelijke Wilhelmietenklooster . In het poortgebouw is nu het Wilhelmietenmuseum ingericht.</desc>
+    <cmt>Een 17e-eeuwse abdijhoeve (verderop aan de Staartsestraat
+    45) en dit poortgebouw (1674) zijn de enige overgebleven
+    bouwwerken van het oorspronkelijke Wilhelmietenklooster . In
+    het poortgebouw is nu het Wilhelmietenmuseum ingericht.</cmt>
+    <desc>Een 17e-eeuwse abdijhoeve (verderop aan de Staartsestraat
+    45) en dit poortgebouw (1674) zijn de enige overgebleven
+    bouwwerken van het oorspronkelijke Wilhelmietenklooster . In
+    het poortgebouw is nu het Wilhelmietenmuseum ingericht.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.360849000" lon="4.397733000">
     <ele>12.240000</ele>
     <time>2016-07-23T15:00:36Z</time>
     <name>Putte</name>
-    <cmt>Ontstaan als een heideontginning op een relatief droog stuk in de heidemoerassen.  Na de afscheiding van België (1839) werd de grens - op grond van historische aanspraken - dwars door het dorp getrokken.  De grens was vanaf dat moment de belangrijkste bron van inkomsten voor de lokale bevolki ng (bewaking, smokkel, winkelnering, etc.).</cmt>
-    <desc>Ontstaan als een heideontginning op een relatief droog stuk in de heidemoerassen.  Na de afscheiding van België (1839) werd de grens - op grond van historische aanspraken - dwars door het dorp getrokken.  De grens was vanaf dat moment de belangrijkste bron van inkomsten voor de lokale bevolki ng (bewaking, smokkel, winkelnering, etc.).</desc>
+    <cmt>Ontstaan als een heideontginning op een relatief droog
+    stuk in de heidemoerassen. Na de afscheiding van België (1839)
+    werd de grens - op grond van historische aanspraken - dwars
+    door het dorp getrokken. De grens was vanaf dat moment de
+    belangrijkste bron van inkomsten voor de lokale bevolki ng
+    (bewaking, smokkel, winkelnering, etc.).</cmt>
+    <desc>Ontstaan als een heideontginning op een relatief droog
+    stuk in de heidemoerassen. Na de afscheiding van België (1839)
+    werd de grens - op grond van historische aanspraken - dwars
+    door het dorp getrokken. De grens was vanaf dat moment de
+    belangrijkste bron van inkomsten voor de lokale bevolki ng
+    (bewaking, smokkel, winkelnering, etc.).</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.357030000" lon="4.393844000">
     <ele>12.780000</ele>
     <time>2016-07-23T15:00:36Z</time>
     <name>Putte, Dionysuskerk</name>
-    <cmt>De neogotische Dionysuskerk uit 1866 werd tijdens gevechten in 1940 zwaar beschadigd. De toren kon na de oorlog worden gered. In 1953 kwam de nieuwe kerk in neoromaanse basilicastijl gereed. Deze werd bewust los van de oude toren gebouwd. Tegenover de toren staat het monument ter herinnering aan de Vlaamse  kunstschilder Jacob Jordaens. Deze werd in 1678 in Putte begraven, omdat hij als calvinist niet in Vlaanderen begraven kon worden. Een typisch 'grensgeval' dus.  Het monument werd in 1878, 200 jaar na zijn sterfdag, geplaatst.</cmt>
-    <desc>De neogotische Dionysuskerk uit 1866 werd tijdens gevechten in 1940 zwaar beschadigd. De toren kon na de oorlog worden gered. In 1953 kwam de nieuwe kerk in neoromaanse basilicastijl gereed. Deze werd bewust los van de oude toren gebouwd. Tegenover de toren staat het monument ter herinnering aan de Vlaamse  kunstschilder Jacob Jordaens. Deze werd in 1678 in Putte begraven, omdat hij als calvinist niet in Vlaanderen begraven kon worden. Een typisch 'grensgeval' dus.  Het monument werd in 1878, 200 jaar na zijn sterfdag, geplaatst.</desc>
+    <cmt>De neogotische Dionysuskerk uit 1866 werd tijdens
+    gevechten in 1940 zwaar beschadigd. De toren kon na de oorlog
+    worden gered. In 1953 kwam de nieuwe kerk in neoromaanse
+    basilicastijl gereed. Deze werd bewust los van de oude toren
+    gebouwd. Tegenover de toren staat het monument ter herinnering
+    aan de Vlaamse kunstschilder Jacob Jordaens. Deze werd in 1678
+    in Putte begraven, omdat hij als calvinist niet in Vlaanderen
+    begraven kon worden. Een typisch 'grensgeval' dus. Het monument
+    werd in 1878, 200 jaar na zijn sterfdag, geplaatst.</cmt>
+    <desc>De neogotische Dionysuskerk uit 1866 werd tijdens
+    gevechten in 1940 zwaar beschadigd. De toren kon na de oorlog
+    worden gered. In 1953 kwam de nieuwe kerk in neoromaanse
+    basilicastijl gereed. Deze werd bewust los van de oude toren
+    gebouwd. Tegenover de toren staat het monument ter herinnering
+    aan de Vlaamse kunstschilder Jacob Jordaens. Deze werd in 1678
+    in Putte begraven, omdat hij als calvinist niet in Vlaanderen
+    begraven kon worden. Een typisch 'grensgeval' dus. Het monument
+    werd in 1878, 200 jaar na zijn sterfdag, geplaatst.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.480339000" lon="4.387825000">
     <ele>10.600000</ele>
     <time>2016-07-23T15:00:36Z</time>
     <name>Steenfabriek Zoomvliet</name>
-    <cmt>Op deze plaats stond vanaf 1869 een steenfabriek. De leemrijke bodem zorgde voor de grondstof. De oude ringoven uit 1904 is in het huidige gebouw opgenomen. In de 'voortuin' staat smalspoormaterieel opgesteld, dat werd gebruikt voor transport van klei. De fabriek had een smalspoorverbinding met het station van Wouw. De fabriek staakte rond 1980 de productie.</cmt>
-    <desc>Op deze plaats stond vanaf 1869 een steenfabriek. De leemrijke bodem zorgde voor de grondstof. De oude ringoven uit 1904 is in het huidige gebouw opgenomen. In de 'voortuin' staat smalspoormaterieel opgesteld, dat werd gebruikt voor transport van klei. De fabriek had een smalspoorverbinding met het station van Wouw. De fabriek staakte rond 1980 de productie.</desc>
+    <cmt>Op deze plaats stond vanaf 1869 een steenfabriek. De
+    leemrijke bodem zorgde voor de grondstof. De oude ringoven uit
+    1904 is in het huidige gebouw opgenomen. In de 'voortuin' staat
+    smalspoormaterieel opgesteld, dat werd gebruikt voor transport
+    van klei. De fabriek had een smalspoorverbinding met het
+    station van Wouw. De fabriek staakte rond 1980 de
+    productie.</cmt>
+    <desc>Op deze plaats stond vanaf 1869 een steenfabriek. De
+    leemrijke bodem zorgde voor de grondstof. De oude ringoven uit
+    1904 is in het huidige gebouw opgenomen. In de 'voortuin' staat
+    smalspoormaterieel opgesteld, dat werd gebruikt voor transport
+    van klei. De fabriek had een smalspoorverbinding met het
+    station van Wouw. De fabriek staakte rond 1980 de
+    productie.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.425916000" lon="4.377812000">
     <ele>27.140000</ele>
     <time>2016-07-23T15:00:36Z</time>
     <name>Teresiabeeld en kloosterbos</name>
-    <cmt>Het Teresiabeeld staat bij de ingang van het gelijknamige bos, dat deel uitmaakte van het Broedercomplex.  Kenmerkend voor het kloosterbos zijn de wandelpaden met 'devotieplaatsen', waaronder een romantische boskapel.</cmt>
-    <desc>Het Teresiabeeld staat bij de ingang van het gelijknamige bos, dat deel uitmaakte van het Broedercomplex.  Kenmerkend voor het kloosterbos zijn de wandelpaden met 'devotieplaatsen', waaronder een romantische boskapel.</desc>
+    <cmt>Het Teresiabeeld staat bij de ingang van het gelijknamige
+    bos, dat deel uitmaakte van het Broedercomplex. Kenmerkend voor
+    het kloosterbos zijn de wandelpaden met 'devotieplaatsen',
+    waaronder een romantische boskapel.</cmt>
+    <desc>Het Teresiabeeld staat bij de ingang van het gelijknamige
+    bos, dat deel uitmaakte van het Broedercomplex. Kenmerkend voor
+    het kloosterbos zijn de wandelpaden met 'devotieplaatsen',
+    waaronder een romantische boskapel.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.484107000" lon="4.387445000">
     <ele>10.110000</ele>
     <time>2016-07-23T15:00:36Z</time>
     <name>Wouwse Plantage</name>
-    <cmt>In 1504 werden hier in opdracht van de heer van Bergen op Zoom op de woeste gronden bossen aangeplant en in 1540 verder uitgebreid. Tijdens de 80-Jarige oorlog richtten in het grensgebied rondtrekkende legers grote schade aan. De bossen werden in de 18e eeuw weer hersteld en verder uitgebreid. Omstreeks 1800, in de Franse Tijd, kwam het gebied in handen van de Staat. Toen de Staat als gevolg van de Belgische Opstand in 1839 grote schulden had opgelopen werden de bossen verkocht aan een Belgische baron, die de bossen omtoverde in een landgoed, compleet met jachthuis, houtzagerij en andere gebouwen, in Zwitserse chaletstijl. Vanuit dit centrum (niet toegankelijk)  lopen rechte monumentale lanen in alle richtingen het bos in.</cmt>
-    <desc>In 1504 werden hier in opdracht van de heer van Bergen op Zoom op de woeste gronden bossen aangeplant en in 1540 verder uitgebreid. Tijdens de 80-Jarige oorlog richtten in het grensgebied rondtrekkende legers grote schade aan. De bossen werden in de 18e eeuw weer hersteld en verder uitgebreid. Omstreeks 1800, in de Franse Tijd, kwam het gebied in handen van de Staat. Toen de Staat als gevolg van de Belgische Opstand in 1839 grote schulden had opgelopen werden de bossen verkocht aan een Belgische baron, die de bossen omtoverde in een landgoed, compleet met jachthuis, houtzagerij en andere gebouwen, in Zwitserse chaletstijl. Vanuit dit centrum (niet toegankelijk)  lopen rechte monumentale lanen in alle richtingen het bos in.</desc>
+    <cmt>In 1504 werden hier in opdracht van de heer van Bergen op
+    Zoom op de woeste gronden bossen aangeplant en in 1540 verder
+    uitgebreid. Tijdens de 80-Jarige oorlog richtten in het
+    grensgebied rondtrekkende legers grote schade aan. De bossen
+    werden in de 18e eeuw weer hersteld en verder uitgebreid.
+    Omstreeks 1800, in de Franse Tijd, kwam het gebied in handen
+    van de Staat. Toen de Staat als gevolg van de Belgische Opstand
+    in 1839 grote schulden had opgelopen werden de bossen verkocht
+    aan een Belgische baron, die de bossen omtoverde in een
+    landgoed, compleet met jachthuis, houtzagerij en andere
+    gebouwen, in Zwitserse chaletstijl. Vanuit dit centrum (niet
+    toegankelijk) lopen rechte monumentale lanen in alle richtingen
+    het bos in.</cmt>
+    <desc>In 1504 werden hier in opdracht van de heer van Bergen op
+    Zoom op de woeste gronden bossen aangeplant en in 1540 verder
+    uitgebreid. Tijdens de 80-Jarige oorlog richtten in het
+    grensgebied rondtrekkende legers grote schade aan. De bossen
+    werden in de 18e eeuw weer hersteld en verder uitgebreid.
+    Omstreeks 1800, in de Franse Tijd, kwam het gebied in handen
+    van de Staat. Toen de Staat als gevolg van de Belgische Opstand
+    in 1839 grote schulden had opgelopen werden de bossen verkocht
+    aan een Belgische baron, die de bossen omtoverde in een
+    landgoed, compleet met jachthuis, houtzagerij en andere
+    gebouwen, in Zwitserse chaletstijl. Vanuit dit centrum (niet
+    toegankelijk) lopen rechte monumentale lanen in alle richtingen
+    het bos in.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.483484000" lon="4.388865000">
     <ele>11.200000</ele>
     <time>2016-07-23T15:00:36Z</time>
     <name>Wouwse Plantage/ Pindorp</name>
-    <cmt>De brede Plantagebaan geeft het 19e-eeuwse dorp een rustiek karakter. In 1878 werd het een zelfstandige parochie. Uit dat jaar dateert ook de pastorie. De kerk is uit 1891, maar de toren werd in 1944 opgeblazen en na de oorlog opnieuw opgebouwd.</cmt>
-    <desc>De brede Plantagebaan geeft het 19e-eeuwse dorp een rustiek karakter. In 1878 werd het een zelfstandige parochie. Uit dat jaar dateert ook de pastorie. De kerk is uit 1891, maar de toren werd in 1944 opgeblazen en na de oorlog opnieuw opgebouwd.</desc>
+    <cmt>De brede Plantagebaan geeft het 19e-eeuwse dorp een
+    rustiek karakter. In 1878 werd het een zelfstandige parochie.
+    Uit dat jaar dateert ook de pastorie. De kerk is uit 1891, maar
+    de toren werd in 1944 opgeblazen en na de oorlog opnieuw
+    opgebouwd.</cmt>
+    <desc>De brede Plantagebaan geeft het 19e-eeuwse dorp een
+    rustiek karakter. In 1878 werd het een zelfstandige parochie.
+    Uit dat jaar dateert ook de pastorie. De kerk is uit 1891, maar
+    de toren werd in 1944 opgeblazen en na de oorlog opnieuw
+    opgebouwd.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.357532000" lon="4.392830000">
     <ele>13.020000</ele>
     <time>2016-07-23T15:00:36Z</time>
     <name>julianastraat</name>
-    <cmt>Bushalte julianastraat
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte julianastraat
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte julianastraat Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte julianastraat Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.454653000" lon="4.383294000">
     <ele>17.200000</ele>
     <time>2016-07-23T15:00:36Z</time>
     <name>moerkantsebaan</name>
-    <cmt>Bushalte moerkantsebaan
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte moerkantsebaan
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte moerkantsebaan Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte moerkantsebaan Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.482291000" lon="4.390398000">
     <ele>15.560000</ele>
     <time>2016-07-23T15:00:36Z</time>
     <name>wouwse plantage</name>
-    <cmt>Bushalte wouwse plantage
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte wouwse plantage
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte wouwse plantage Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte wouwse plantage Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.401788000" lon="4.319506000">
@@ -1048,104 +1600,177 @@ Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www
     <ele>20.560000</ele>
     <time>2016-07-23T15:01:02Z</time>
     <name>Hoogerheide</name>
-    <cmt>Oorspronkelijk agrarische nederzetting op de rand van de Brabantse Wal - op de hoge heide.  De neogotische olv hemelvaartkerk is uit 1882/1910.</cmt>
-    <desc>Oorspronkelijk agrarische nederzetting op de rand van de Brabantse Wal - op de hoge heide.  De neogotische olv hemelvaartkerk is uit 1882/1910.</desc>
+    <cmt>Oorspronkelijk agrarische nederzetting op de rand van de
+    Brabantse Wal - op de hoge heide. De neogotische olv
+    hemelvaartkerk is uit 1882/1910.</cmt>
+    <desc>Oorspronkelijk agrarische nederzetting op de rand van de
+    Brabantse Wal - op de hoge heide. De neogotische olv
+    hemelvaartkerk is uit 1882/1910.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.384624000" lon="4.346385000">
     <ele>8.570000</ele>
     <time>2016-07-23T15:01:02Z</time>
     <name>Laagstraat</name>
-    <cmt>Oud smeltwaterdal  vormt  glooiende overgang tussen Brabantse Wal en de Ossendrechtse Zuidpolder; fraaie akkerwegen.</cmt>
-    <desc>Oud smeltwaterdal  vormt  glooiende overgang tussen Brabantse Wal en de Ossendrechtse Zuidpolder; fraaie akkerwegen.</desc>
+    <cmt>Oud smeltwaterdal vormt glooiende overgang tussen
+    Brabantse Wal en de Ossendrechtse Zuidpolder; fraaie
+    akkerwegen.</cmt>
+    <desc>Oud smeltwaterdal vormt glooiende overgang tussen
+    Brabantse Wal en de Ossendrechtse Zuidpolder; fraaie
+    akkerwegen.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.395074000" lon="4.327355000">
     <ele>9.920000</ele>
     <time>2016-07-23T15:01:02Z</time>
     <name>Ossendrecht</name>
-    <cmt>Oorspronkelijk agrarisch dorp op de kop van een uitloper van de Brabantse Wal. Aan het Adolphineplein stond het geboortehuis van Kaatje Dierkx, ofwel zuster  Marie Adolphine, die in 1900 in China de marteldood stierf. Precies honderd jaar later werd zij door de paus heilig verklaard. De kapel staat op de plaats van het geboortehuis. Zie informatieborden.</cmt>
-    <desc>Oorspronkelijk agrarisch dorp op de kop van een uitloper van de Brabantse Wal. Aan het Adolphineplein stond het geboortehuis van Kaatje Dierkx, ofwel zuster  Marie Adolphine, die in 1900 in China de marteldood stierf. Precies honderd jaar later werd zij door de paus heilig verklaard. De kapel staat op de plaats van het geboortehuis. Zie informatieborden.</desc>
+    <cmt>Oorspronkelijk agrarisch dorp op de kop van een uitloper
+    van de Brabantse Wal. Aan het Adolphineplein stond het
+    geboortehuis van Kaatje Dierkx, ofwel zuster Marie Adolphine,
+    die in 1900 in China de marteldood stierf. Precies honderd jaar
+    later werd zij door de paus heilig verklaard. De kapel staat op
+    de plaats van het geboortehuis. Zie informatieborden.</cmt>
+    <desc>Oorspronkelijk agrarisch dorp op de kop van een uitloper
+    van de Brabantse Wal. Aan het Adolphineplein stond het
+    geboortehuis van Kaatje Dierkx, ofwel zuster Marie Adolphine,
+    die in 1900 in China de marteldood stierf. Precies honderd jaar
+    later werd zij door de paus heilig verklaard. De kapel staat op
+    de plaats van het geboortehuis. Zie informatieborden.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.357030000" lon="4.393844000">
     <ele>12.780000</ele>
     <time>2016-07-23T15:01:02Z</time>
     <name>Putte, Dionysuskerk</name>
-    <cmt>De neogotische Dionysuskerk uit 1866 werd tijdens gevechten in 1940 zwaar beschadigd. De toren kon na de oorlog worden gered. In 1953 kwam de nieuwe kerk in neoromaanse basilicastijl gereed. Deze werd bewust los van de oude toren gebouwd. Tegenover de toren staat het monument ter herinnering aan de Vlaamse  kunstschilder Jacob Jordaens. Deze werd in 1678 in Putte begraven, omdat hij als calvinist niet in Vlaanderen begraven kon worden. Een typisch 'grensgeval' dus.  Het monument werd in 1878, 200 jaar na zijn sterfdag, geplaatst.</cmt>
-    <desc>De neogotische Dionysuskerk uit 1866 werd tijdens gevechten in 1940 zwaar beschadigd. De toren kon na de oorlog worden gered. In 1953 kwam de nieuwe kerk in neoromaanse basilicastijl gereed. Deze werd bewust los van de oude toren gebouwd. Tegenover de toren staat het monument ter herinnering aan de Vlaamse  kunstschilder Jacob Jordaens. Deze werd in 1678 in Putte begraven, omdat hij als calvinist niet in Vlaanderen begraven kon worden. Een typisch 'grensgeval' dus.  Het monument werd in 1878, 200 jaar na zijn sterfdag, geplaatst.</desc>
+    <cmt>De neogotische Dionysuskerk uit 1866 werd tijdens
+    gevechten in 1940 zwaar beschadigd. De toren kon na de oorlog
+    worden gered. In 1953 kwam de nieuwe kerk in neoromaanse
+    basilicastijl gereed. Deze werd bewust los van de oude toren
+    gebouwd. Tegenover de toren staat het monument ter herinnering
+    aan de Vlaamse kunstschilder Jacob Jordaens. Deze werd in 1678
+    in Putte begraven, omdat hij als calvinist niet in Vlaanderen
+    begraven kon worden. Een typisch 'grensgeval' dus. Het monument
+    werd in 1878, 200 jaar na zijn sterfdag, geplaatst.</cmt>
+    <desc>De neogotische Dionysuskerk uit 1866 werd tijdens
+    gevechten in 1940 zwaar beschadigd. De toren kon na de oorlog
+    worden gered. In 1953 kwam de nieuwe kerk in neoromaanse
+    basilicastijl gereed. Deze werd bewust los van de oude toren
+    gebouwd. Tegenover de toren staat het monument ter herinnering
+    aan de Vlaamse kunstschilder Jacob Jordaens. Deze werd in 1678
+    in Putte begraven, omdat hij als calvinist niet in Vlaanderen
+    begraven kon worden. Een typisch 'grensgeval' dus. Het monument
+    werd in 1878, 200 jaar na zijn sterfdag, geplaatst.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.365609000" lon="4.368201000">
     <ele>15.440000</ele>
     <time>2016-07-23T15:01:02Z</time>
     <name>Reeberg</name>
-    <cmt>Landgoed bestaande uit naaldbos op stuifzand; Koude Heide is een landbouwenclave (kampontginning) ontsloten door  fraaie oude eikenlaan (Zoekweg of Kerkstraat).</cmt>
-    <desc>Landgoed bestaande uit naaldbos op stuifzand; Koude Heide is een landbouwenclave (kampontginning) ontsloten door  fraaie oude eikenlaan (Zoekweg of Kerkstraat).</desc>
+    <cmt>Landgoed bestaande uit naaldbos op stuifzand; Koude Heide
+    is een landbouwenclave (kampontginning) ontsloten door fraaie
+    oude eikenlaan (Zoekweg of Kerkstraat).</cmt>
+    <desc>Landgoed bestaande uit naaldbos op stuifzand; Koude Heide
+    is een landbouwenclave (kampontginning) ontsloten door fraaie
+    oude eikenlaan (Zoekweg of Kerkstraat).</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.406449000" lon="4.296809000">
     <ele>0.050000</ele>
     <time>2016-07-23T15:01:02Z</time>
     <name>Schenkeldijk</name>
-    <cmt>Zeedijk uit 1651/1684 tussen de Noordpolder (oost) en de Hinkelenoordpolder (west). Door de polders lopen oude vloedgeulen als de Calfvensche Kreek (oost) en de Agger (west).  De Agger was ooit een belangrijke verbinding tussen Antwerpen en Bergen op Zoom.  Fraai uitzicht op Brabantse Wal.</cmt>
-    <desc>Zeedijk uit 1651/1684 tussen de Noordpolder (oost) en de Hinkelenoordpolder (west). Door de polders lopen oude vloedgeulen als de Calfvensche Kreek (oost) en de Agger (west).  De Agger was ooit een belangrijke verbinding tussen Antwerpen en Bergen op Zoom.  Fraai uitzicht op Brabantse Wal.</desc>
+    <cmt>Zeedijk uit 1651/1684 tussen de Noordpolder (oost) en de
+    Hinkelenoordpolder (west). Door de polders lopen oude
+    vloedgeulen als de Calfvensche Kreek (oost) en de Agger (west).
+    De Agger was ooit een belangrijke verbinding tussen Antwerpen
+    en Bergen op Zoom. Fraai uitzicht op Brabantse Wal.</cmt>
+    <desc>Zeedijk uit 1651/1684 tussen de Noordpolder (oost) en de
+    Hinkelenoordpolder (west). Door de polders lopen oude
+    vloedgeulen als de Calfvensche Kreek (oost) en de Agger (west).
+    De Agger was ooit een belangrijke verbinding tussen Antwerpen
+    en Bergen op Zoom. Fraai uitzicht op Brabantse Wal.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.370709000" lon="4.343055000">
     <ele>16.460000</ele>
     <time>2016-07-23T15:01:02Z</time>
     <name>Stoppelbergen</name>
-    <cmt>Landgoed met aangeplant naaldbos op stuifzand op uitloper van de Brabantse Wal.</cmt>
-    <desc>Landgoed met aangeplant naaldbos op stuifzand op uitloper van de Brabantse Wal.</desc>
+    <cmt>Landgoed met aangeplant naaldbos op stuifzand op uitloper
+    van de BrabantseWal.</cmt>
+    <desc>Landgoed met aangeplant naaldbos op stuifzand op uitloper
+    van de BrabantseWal.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.401554000" lon="4.319467000">
     <ele>10.490000</ele>
     <time>2016-07-23T15:01:02Z</time>
     <name>Trambaan en Geuzenkei</name>
-    <cmt>Op de hoek van de Vierwindenlaan en de Trambaan ligt de Geuzenkei. Het is een oude grenssteen, die de zeggenschap over de gemene heide tussen Ossendrecht en Calfven markeerde. Mooi uitzicht over het westelijke poldergebied. De Trambaan - nu een zandweg - maakte tot 1934 deel uit van de tramverbinding Antwerpen - Bergen op Zoom - Tholen. De tram was vooral van belang voor het suikerbietenvervoer.</cmt>
-    <desc>Op de hoek van de Vierwindenlaan en de Trambaan ligt de Geuzenkei. Het is een oude grenssteen, die de zeggenschap over de gemene heide tussen Ossendrecht en Calfven markeerde. Mooi uitzicht over het westelijke poldergebied. De Trambaan - nu een zandweg - maakte tot 1934 deel uit van de tramverbinding Antwerpen - Bergen op Zoom - Tholen. De tram was vooral van belang voor het suikerbietenvervoer.</desc>
+    <cmt>Op de hoek van de Vierwindenlaan en de Trambaan ligt de
+    Geuzenkei. Het is een oude grenssteen, die de zeggenschap over
+    de gemene heide tussen Ossendrecht en Calfven markeerde. Mooi
+    uitzicht over het westelijke poldergebied. De Trambaan - nu een
+    zandweg - maakte tot 1934 deel uit van de tramverbinding
+    Antwerpen - Bergen op Zoom - Tholen. De tram was vooral van
+    belang voor het suikerbietenvervoer.</cmt>
+    <desc>Op de hoek van de Vierwindenlaan en de Trambaan ligt de
+    Geuzenkei. Het is een oude grenssteen, die de zeggenschap over
+    de gemene heide tussen Ossendrecht en Calfven markeerde. Mooi
+    uitzicht over het westelijke poldergebied. De Trambaan - nu een
+    zandweg - maakte tot 1934 deel uit van de tramverbinding
+    Antwerpen - Bergen op Zoom - Tholen. De tram was vooral van
+    belang voor het suikerbietenvervoer.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.357532000" lon="4.392830000">
     <ele>13.020000</ele>
     <time>2016-07-23T15:01:02Z</time>
     <name>julianastraat</name>
-    <cmt>Bushalte julianastraat
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte julianastraat
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte julianastraat Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte julianastraat Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.391492000" lon="4.350656000">
     <ele>18.740000</ele>
     <time>2016-07-23T15:01:02Z</time>
     <name>moleneind</name>
-    <cmt>Bushalte moleneind
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte moleneind
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte moleneind Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte moleneind Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.420796000" lon="4.321338000">
     <ele>20.420000</ele>
     <time>2016-07-23T15:01:02Z</time>
     <name>ossendrechtseweg</name>
-    <cmt>Bushalte ossendrechtseweg
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte ossendrechtseweg
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte ossendrechtseweg Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte ossendrechtseweg Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.401615000" lon="4.315706000">
     <ele>-0.130000</ele>
     <time>2016-07-23T15:01:02Z</time>
     <name>vierwindenlaan</name>
-    <cmt>Bushalte vierwindenlaan
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte vierwindenlaan
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte vierwindenlaan Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte vierwindenlaan Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.453397000" lon="4.312499000">
@@ -1170,24 +1795,34 @@ Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www
     <ele>2.520000</ele>
     <time>2016-07-23T15:01:18Z</time>
     <name>Bergse Plaat</name>
-    <cmt>Voormalige zandplaat waarop in de afgelopen 20 jaar een wijk met 3000 woningen is gebouwd.</cmt>
-    <desc>Voormalige zandplaat waarop in de afgelopen 20 jaar een wijk met 3000 woningen is gebouwd.</desc>
+    <cmt>Voormalige zandplaat waarop in de afgelopen 20 jaar een
+    wijk met 3000 woningen is gebouwd.</cmt>
+    <desc>Voormalige zandplaat waarop in de afgelopen 20 jaar een
+    wijk met 3000 woningen is gebouwd.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.458610000" lon="4.309439000">
     <ele>7.820000</ele>
     <time>2016-07-23T15:01:18Z</time>
     <name>Blaffert</name>
-    <cmt>Een van de natuurlijke afwateringen van de Brabantse Wal; het beekdal is ingepast in de aanleg van het landgoed Mattemburgh.</cmt>
-    <desc>Een van de natuurlijke afwateringen van de Brabantse Wal; het beekdal is ingepast in de aanleg van het landgoed Mattemburgh.</desc>
+    <cmt>Een van de natuurlijke afwateringen van de Brabantse Wal;
+    het beekdal is ingepast in de aanleg van het landgoed
+    Mattemburgh.</cmt>
+    <desc>Een van de natuurlijke afwateringen van de Brabantse Wal;
+    het beekdal is ingepast in de aanleg van het landgoed
+    Mattemburgh.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.446415000" lon="4.301051000">
     <ele>-0.920000</ele>
     <time>2016-07-23T15:01:18Z</time>
     <name>Brabantse Wal</name>
-    <cmt>Hier is duidelijk de landschappelijke overgang van lage zeekleipolders naar de hoger gelegen Brabantse Wal te zien.</cmt>
-    <desc>Hier is duidelijk de landschappelijke overgang van lage zeekleipolders naar de hoger gelegen Brabantse Wal te zien.</desc>
+    <cmt>Hier is duidelijk de landschappelijke overgang van lage
+    zeekleipolders naar de hoger gelegen Brabantse Wal te
+    zien.</cmt>
+    <desc>Hier is duidelijk de landschappelijke overgang van lage
+    zeekleipolders naar de hoger gelegen Brabantse Wal te
+    zien.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.423905000" lon="4.323556000">
@@ -1243,124 +1878,255 @@ Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www
     <time>2016-07-23T15:01:18Z</time>
     <name>Fletcher Hotel-Restaurant Stadspark</name>
     <cmt>Maak nu voordelig kennis met onze WANDELNET ARRANGEMENTEN
-Maak nu voordelig kennis met één van onze schitterende wandelhotels gelegen in een natuurrijke omgeving. In samenwerking met Wandelnet hebben wij speciaal voor u een 2-daags Wandelnet Arrangement samengesteld:
-•1 x overnachting
-•1 x uitgebreid ontbijtbuffet
-•1 x 3-gangen diner op dag van aankomst
-•Informatiepakket van de omgeving inclusief wandel- en fietsroutes</cmt>
+    Maak nu voordelig kennis met één van onze schitterende
+    wandelhotels gelegen in een natuurrijke omgeving. In
+    samenwerking met Wandelnet hebben wij speciaal voor u een
+    2-daags Wandelnet Arrangement samengesteld: •1 x overnachting
+    •1 x uitgebreid ontbijtbuffet •1 x 3-gangen diner op dag van
+    aankomst •Informatiepakket van de omgeving inclusief wandel- en
+    fietsroutes</cmt>
     <desc>Maak nu voordelig kennis met onze WANDELNET ARRANGEMENTEN
-Maak nu voordelig kennis met één van onze schitterende wandelhotels gelegen in een natuurrijke omgeving. In samenwerking met Wandelnet hebben wij speciaal voor u een 2-daags Wandelnet Arrangement samengesteld:
-•1 x overnachting
-•1 x uitgebreid ontbijtbuffet
-•1 x 3-gangen diner op dag van aankomst
-•Informatiepakket van de omgeving inclusief wandel- en fietsroutes</desc>
+    Maak nu voordelig kennis met één van onze schitterende
+    wandelhotels gelegen in een natuurrijke omgeving. In
+    samenwerking met Wandelnet hebben wij speciaal voor u een
+    2-daags Wandelnet Arrangement samengesteld: •1 x overnachting
+    •1 x uitgebreid ontbijtbuffet •1 x 3-gangen diner op dag van
+    aankomst •Informatiepakket van de omgeving inclusief wandel- en
+    fietsroutes</desc>
     <sym>Restaurant</sym>
   </wpt>
   <wpt lat="51.493516000" lon="4.286555000">
     <ele>15.160000</ele>
     <time>2016-07-23T15:01:18Z</time>
     <name>Grensstad</name>
-    <cmt>In veel opzichten is Bergen op Zoom een “grensstad”: het lage zeekleilandschap gaat hier over naar de hoger gelegen zandgronden en ook de grens tussen de provincies Zeeland en Noord-Brabant vallen samen in Bergen op Zoom. Bovendien ligt de stad nabij de zuidelijke landsgrens met België. Bergen op Zoom is dan ook herhaaldelijk belegerd, ingenomen en heroverd. De stad markeert ook de godsdienstgrens tussen het protestante Zeeland en het roomskatholieke Brabant. Deze godsdienstgrens is echter breder: ze markeert tevens het verschil in leefstijl, dialect, manier van wonen en bouwen, eten, drinken en feesten.</cmt>
-    <desc>In veel opzichten is Bergen op Zoom een “grensstad”: het lage zeekleilandschap gaat hier over naar de hoger gelegen zandgronden en ook de grens tussen de provincies Zeeland en Noord-Brabant vallen samen in Bergen op Zoom. Bovendien ligt de stad nabij de zuidelijke landsgrens met België. Bergen op Zoom is dan ook herhaaldelijk belegerd, ingenomen en heroverd. De stad markeert ook de godsdienstgrens tussen het protestante Zeeland en het roomskatholieke Brabant. Deze godsdienstgrens is echter breder: ze markeert tevens het verschil in leefstijl, dialect, manier van wonen en bouwen, eten, drinken en feesten.</desc>
+    <cmt>In veel opzichten is Bergen op Zoom een “grensstad”: het
+    lage zeekleilandschap gaat hier over naar de hoger gelegen
+    zandgronden en ook de grens tussen de provincies Zeeland en
+    Noord-Brabant vallen samen in Bergen op Zoom. Bovendien ligt de
+    stad nabij de zuidelijke landsgrens met België. Bergen op Zoom
+    is dan ook herhaaldelijk belegerd, ingenomen en heroverd. De
+    stad markeert ook de godsdienstgrens tussen het protestante
+    Zeeland en het roomskatholieke Brabant. Deze godsdienstgrens is
+    echter breder: ze markeert tevens het verschil in leefstijl,
+    dialect, manier van wonenen bouwen, eten, drinken en
+    feesten.</cmt>
+    <desc>In veel opzichten is Bergen op Zoom een “grensstad”: het
+    lage zeekleilandschap gaat hier over naar de hoger gelegen
+    zandgronden en ook de grens tussen de provincies Zeeland en
+    Noord-Brabant vallen samen in Bergen op Zoom. Bovendien ligt de
+    stad nabij de zuidelijke landsgrens met België. Bergen op Zoom
+    is dan ook herhaaldelijk belegerd, ingenomen en heroverd. De
+    stad markeert ook de godsdienstgrens tussen het protestante
+    Zeeland en het roomskatholieke Brabant. Deze godsdienstgrens is
+    echter breder: ze markeert tevens het verschil in leefstijl,
+    dialect, manier van wonenen bouwen, eten, drinken en
+    feesten.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.463493000" lon="4.295961000">
     <ele>9.050000</ele>
     <time>2016-07-23T15:01:18Z</time>
     <name>Hildernisse</name>
-    <cmt>Deze hoeve is genoemd naar een dorp dat verdronk in de Oosterschelde in 1570. De resten ervan liggen nu onder het slik. Tot de afsluiting van de Oosterschelde was Hoeve Hildernisse de enige buitendijkse boerderij van Nederland.</cmt>
-    <desc>Deze hoeve is genoemd naar een dorp dat verdronk in de Oosterschelde in 1570. De resten ervan liggen nu onder het slik. Tot de afsluiting van de Oosterschelde was Hoeve Hildernisse de enige buitendijkse boerderij van Nederland.</desc>
+    <cmt>Deze hoeve is genoemd naar een dorp dat verdronk in de
+    Oosterschelde in 1570. De resten ervan liggen nu onder het
+    slik. Tot de afsluiting van de Oosterschelde was Hoeve
+    Hildernisse de enige buitendijkse boerderij van
+    Nederland.</cmt>
+    <desc>Deze hoeve is genoemd naar een dorp dat verdronk in de
+    Oosterschelde in 1570. De resten ervan liggen nu onder het
+    slik. Tot de afsluiting van de Oosterschelde was Hoeve
+    Hildernisse de enige buitendijkse boerderij van
+    Nederland.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.422859000" lon="4.322683000">
     <ele>20.560000</ele>
     <time>2016-07-23T15:01:18Z</time>
     <name>Hoogerheide</name>
-    <cmt>Oorspronkelijk agrarische nederzetting op de rand van de Brabantse Wal - op de hoge heide.  De neogotische olv hemelvaartkerk is uit 1882/1910.</cmt>
-    <desc>Oorspronkelijk agrarische nederzetting op de rand van de Brabantse Wal - op de hoge heide.  De neogotische olv hemelvaartkerk is uit 1882/1910.</desc>
+    <cmt>Oorspronkelijk agrarische nederzetting op de rand van de
+    Brabantse Wal - op de hoge heide. De neogotische olv
+    hemelvaartkerk is uit 1882/1910.</cmt>
+    <desc>Oorspronkelijk agrarische nederzetting op de rand van de
+    Brabantse Wal - op de hoge heide. De neogotische olv
+    hemelvaartkerk is uit 1882/1910.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.467888000" lon="4.292886000">
     <ele>8.570000</ele>
     <time>2016-07-23T15:01:18Z</time>
     <name>Infocentrum Kraaienberg</name>
-    <cmt>Het centrum is geopend op woensdag- en zondagmiddag van 12.00 uur tot 16.00 uur. Vlak bij het centrum staat een 13 meter hoge uitkijktoren die altijd te beklimmen is voor een schitterend uitzicht over het Markiezaatsmeer.</cmt>
-    <desc>Het centrum is geopend op woensdag- en zondagmiddag van 12.00 uur tot 16.00 uur. Vlak bij het centrum staat een 13 meter hoge uitkijktoren die altijd te beklimmen is voor een schitterend uitzicht over het Markiezaatsmeer.</desc>
+    <cmt>Het centrum is geopend op woensdag- en zondagmiddag van
+    12.00 uur tot 16.00 uur. Vlak bij het centrum staat een 13
+    meter hoge uitkijktoren die altijd te beklimmen is voor een
+    schitterend uitzicht over het Markiezaatsmeer.</cmt>
+    <desc>Het centrum is geopend op woensdag- en zondagmiddag van
+    12.00 uur tot 16.00 uur. Vlak bij het centrum staat een 13
+    meter hoge uitkijktoren die altijd te beklimmen is voor een
+    schitterend uitzicht over het Markiezaatsmeer.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.430011000" lon="4.310951000">
     <ele>18.470000</ele>
     <time>2016-07-23T15:01:18Z</time>
     <name>Koepelbos</name>
-    <cmt>Uitloper van Brabantse Wal - waarop vroeger een uitzichtkoepel stond - met onder meer eiken- en beukenbos en fraai zicht op de hooilanden in de Noordpolder. Eens in het jaar vindt hier de Grote Prijs Adrie van der Poel plaats, een veldrit (wielrennen).  Wielrennen is buitengewoon populair in deze streek, die veel olympische en wereldkampioenen heeft geleverd.</cmt>
-    <desc>Uitloper van Brabantse Wal - waarop vroeger een uitzichtkoepel stond - met onder meer eiken- en beukenbos en fraai zicht op de hooilanden in de Noordpolder. Eens in het jaar vindt hier de Grote Prijs Adrie van der Poel plaats, een veldrit (wielrennen).  Wielrennen is buitengewoon populair in deze streek, die veel olympische en wereldkampioenen heeft geleverd.</desc>
+    <cmt>Uitloper van Brabantse Wal - waarop vroeger een
+    uitzichtkoepel stond - met onder meer eiken- en beukenbos en
+    fraai zicht op de hooilanden in de Noordpolder. Eens in het
+    jaar vindt hier de Grote Prijs Adrie van der Poel plaats, een
+    veldrit (wielrennen). Wielrennen is buitengewoon populair in
+    deze streek, die veel olympische en wereldkampioenen heeft
+    geleverd.</cmt>
+    <desc>Uitloper van Brabantse Wal - waarop vroeger een
+    uitzichtkoepel stond - met onder meer eiken- en beukenbos en
+    fraai zicht op de hooilanden in de Noordpolder. Eens in het
+    jaar vindt hier de Grote Prijs Adrie van der Poel plaats, een
+    veldrit (wielrennen). Wielrennen is buitengewoon populair in
+    deze streek, die veel olympische en wereldkampioenen heeft
+    geleverd.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.462202000" lon="4.293409000">
     <ele>2.810000</ele>
     <time>2016-07-23T15:01:18Z</time>
     <name>Kraayenberg</name>
-    <cmt>Uitloper van Brabantse Wal, doorsneden door de spoorlijn, met uitzicht over het Markiezaatsmeer. Aan de voet van de hoogte herinnert de monumentale  hoeve Hildernisse [18e eeuw] nog aan het gelijknamige dorp, dat in de 16e eeuw in de stormvloeden  ten onder is gegaan.</cmt>
-    <desc>Uitloper van Brabantse Wal, doorsneden door de spoorlijn, met uitzicht over het Markiezaatsmeer. Aan de voet van de hoogte herinnert de monumentale  hoeve Hildernisse [18e eeuw] nog aan het gelijknamige dorp, dat in de 16e eeuw in de stormvloeden  ten onder is gegaan.</desc>
+    <cmt>Uitloper van Brabantse Wal, doorsneden door de spoorlijn,
+    met uitzicht over het Markiezaatsmeer. Aan de voet van de
+    hoogte herinnert de monumentale hoeve Hildernisse [18e eeuw]
+    nog aan het gelijknamige dorp, dat in de 16e eeuw in de
+    stormvloeden ten onder is gegaan.</cmt>
+    <desc>Uitloper van Brabantse Wal, doorsneden door de spoorlijn,
+    met uitzicht over het Markiezaatsmeer. Aan de voet van de
+    hoogte herinnert de monumentale hoeve Hildernisse [18e eeuw]
+    nog aan het gelijknamige dorp, dat in de 16e eeuw in de
+    stormvloeden ten onder is gegaan.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.494838000" lon="4.285032000">
     <ele>12.010000</ele>
     <time>2016-07-23T15:01:18Z</time>
     <name>Markiezenhof</name>
-    <cmt>De GR5 loopt dwars door het Markiezenhof: het voormalige woonpaleis van de heren en markiezen van Bergen op Zoom, gebouwd tussen 1485 en 1525. Het staat op naam van de Mechelse bouwmeester Anthonis Keldermans. De laatgotische gebouwen zijn ruim gegroepeerd rond drie binnenplaatsen. In de 18de eeuw is de tuinvleugel van het woongedeelte verbouwd in Franse bouwstijl. 
-In 1987 is het paleis gerestaureerd en tegenwoordig is er een historisch museum gevestigd. Bezoekers mogen dwalen door de zalen, kamers, galerijen, binnenplaatsen en tuinen en krijgen zo een beeld hoe de bewoners hier vroeger leefden. Er worden schilderijen, gebruiksvoorwerpen en meubilair uit de 15de tot en 19de eeuw tentoongesteld. Er is ook een kermisexpositie; Bergen op Zoom is namelijk lange tijd de thuishaven geweest voor veel kermisfamilies. Steenbergsestraat 8, geopend di t/m zo 11-17 uur, ma gesloten, www.markiezenhof.nl.</cmt>
-    <desc>De GR5 loopt dwars door het Markiezenhof: het voormalige woonpaleis van de heren en markiezen van Bergen op Zoom, gebouwd tussen 1485 en 1525. Het staat op naam van de Mechelse bouwmeester Anthonis Keldermans. De laatgotische gebouwen zijn ruim gegroepeerd rond drie binnenplaatsen. In de 18de eeuw is de tuinvleugel van het woongedeelte verbouwd in Franse bouwstijl. 
-In 1987 is het paleis gerestaureerd en tegenwoordig is er een historisch museum gevestigd. Bezoekers mogen dwalen door de zalen, kamers, galerijen, binnenplaatsen en tuinen en krijgen zo een beeld hoe de bewoners hier vroeger leefden. Er worden schilderijen, gebruiksvoorwerpen en meubilair uit de 15de tot en 19de eeuw tentoongesteld. Er is ook een kermisexpositie; Bergen op Zoom is namelijk lange tijd de thuishaven geweest voor veel kermisfamilies. Steenbergsestraat 8, geopend di t/m zo 11-17 uur, ma gesloten, www.markiezenhof.nl.</desc>
+    <cmt>De GR5 loopt dwars door het Markiezenhof: het voormalige
+    woonpaleis van de heren en markiezen van Bergen op Zoom,
+    gebouwd tussen 1485 en 1525. Het staat op naam van de Mechelse
+    bouwmeester Anthonis Keldermans. De laatgotische gebouwen zijn
+    ruim gegroepeerd rond drie binnenplaatsen. In de 18de eeuw is
+    de tuinvleugel van het woongedeelte verbouwd in Franse
+    bouwstijl. In 1987 is het paleis gerestaureerd en tegenwoordig
+    is er een historisch museum gevestigd. Bezoekers mogen dwalen
+    door de zalen, kamers, galerijen, binnenplaatsen en tuinen en
+    krijgen zo een beeld hoe de bewoners hier vroeger leefden. Er
+    worden schilderijen, gebruiksvoorwerpen en meubilair uit de
+    15de tot en 19de eeuw tentoongesteld. Er is ook een
+    kermisexpositie; Bergen op Zoom is namelijk lange tijd de
+    thuishaven geweest voor veel kermisfamilies. Steenbergsestraat
+    8, geopend di t/m zo 11-17 uur, ma gesloten,
+    www.markiezenhof.nl.</cmt>
+    <desc>De GR5 loopt dwars door het Markiezenhof: het voormalige
+    woonpaleis van de heren en markiezen van Bergen op Zoom,
+    gebouwd tussen 1485 en 1525. Het staat op naam van de Mechelse
+    bouwmeester Anthonis Keldermans. De laatgotische gebouwen zijn
+    ruim gegroepeerd rond drie binnenplaatsen. In de 18de eeuw is
+    de tuinvleugel van het woongedeelte verbouwd in Franse
+    bouwstijl. In 1987 is het paleis gerestaureerd en tegenwoordig
+    is er een historisch museum gevestigd. Bezoekers mogen dwalen
+    door de zalen, kamers, galerijen, binnenplaatsen en tuinen en
+    krijgen zo een beeld hoe de bewoners hier vroeger leefden. Er
+    worden schilderijen, gebruiksvoorwerpen en meubilair uit de
+    15de tot en 19de eeuw tentoongesteld. Er is ook een
+    kermisexpositie; Bergen op Zoom is namelijk lange tijd de
+    thuishaven geweest voor veel kermisfamilies. Steenbergsestraat
+    8, geopend di t/m zo 11-17 uur, ma gesloten,
+    www.markiezenhof.nl.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.453885000" lon="4.306355000">
     <ele>16.970000</ele>
     <time>2016-07-23T15:01:18Z</time>
     <name>Mattemburg</name>
-    <cmt>Een klein ommetje over het fraaie landgoed naar De Mattemburg is de moeite waard. Plaats. Rond het landhuis ligt een park, waarin twee tuinstijlen zijn vertegenwoordigd: de ‘speelse’ Engelse Landschapsstijl en de ‘strenge’ Franse of Formele Stijl.</cmt>
-    <desc>Een klein ommetje over het fraaie landgoed naar De Mattemburg is de moeite waard. Plaats. Rond het landhuis ligt een park, waarin twee tuinstijlen zijn vertegenwoordigd: de ‘speelse’ Engelse Landschapsstijl en de ‘strenge’ Franse of Formele Stijl.</desc>
+    <cmt>Een klein ommetje over het fraaie landgoed naar De
+    Mattemburg is de moeite waard. Plaats. Rond het landhuis ligt
+    een park, waarin twee tuinstijlen zijn vertegenwoordigd: de
+    ‘speelse’ Engelse Landschapsstijl en de ‘strenge’ Franse of
+    Formele Stijl.</cmt>
+    <desc>Een klein ommetje over het fraaie landgoed naar De
+    Mattemburg is de moeite waard. Plaats. Rond het landhuis ligt
+    een park, waarin twee tuinstijlen zijn vertegenwoordigd: de
+    ‘speelse’ Engelse Landschapsstijl en de ‘strenge’ Franse of
+    Formele Stijl.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.456052000" lon="4.310527000">
     <ele>12.820000</ele>
     <time>2016-07-23T15:01:18Z</time>
     <name>Mattemburgh</name>
-    <cmt>Particulier bewoonde buitenplaats met tuinmanswoning en oranjerie, tuinen in Franse geometrische en Engelse landschapstijl, en naaldbos met beukenlanen. De grote villa is uit 1851-1854. Tijdens WO-II geconfisqueerd als Duits hoofdkwartier.</cmt>
-    <desc>Particulier bewoonde buitenplaats met tuinmanswoning en oranjerie, tuinen in Franse geometrische en Engelse landschapstijl, en naaldbos met beukenlanen. De grote villa is uit 1851-1854. Tijdens WO-II geconfisqueerd als Duits hoofdkwartier.</desc>
+    <cmt>Particulier bewoonde buitenplaats met tuinmanswoning en
+    oranjerie, tuinen in Franse geometrische en Engelse
+    landschapstijl, en naaldbos met beukenlanen. De grote villa is
+    uit 1851-1854. Tijdens WO-II geconfisqueerd als Duits
+    hoofdkwartier.</cmt>
+    <desc>Particulier bewoonde buitenplaats met tuinmanswoning en
+    oranjerie, tuinen in Franse geometrische en Engelse
+    landschapstijl, en naaldbos met beukenlanen. De grote villa is
+    uit 1851-1854. Tijdens WO-II geconfisqueerd als Duits
+    hoofdkwartier.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.431976000" lon="4.302228000">
     <ele>15.680000</ele>
     <time>2016-07-23T15:01:18Z</time>
     <name>Woensdrecht</name>
-    <cmt>Nederzetting  rond verdwenen kasteel op de kop van een uitloper van de Brabantse Wal.  Ooit profiteerde de plaats van de handel, toen de Agger nog een belangrijk vaarwater was.  Tot aanleg van de Deltawerken had Woensdrecht nog een haventje voor suikerbietenoverslag, bereikbaar via een smalle vloedgeul.  Vanaf de Rijzende Weg prachtig uitzicht over de polders.</cmt>
-    <desc>Nederzetting  rond verdwenen kasteel op de kop van een uitloper van de Brabantse Wal.  Ooit profiteerde de plaats van de handel, toen de Agger nog een belangrijk vaarwater was.  Tot aanleg van de Deltawerken had Woensdrecht nog een haventje voor suikerbietenoverslag, bereikbaar via een smalle vloedgeul.  Vanaf de Rijzende Weg prachtig uitzicht over de polders.</desc>
+    <cmt>Nederzetting rond verdwenen kasteel op de kop van een
+    uitloper van de Brabantse Wal. Ooit profiteerde de plaats van
+    de handel, toen de Agger nog een belangrijk vaarwater was. Tot
+    aanleg van de Deltawerken had Woensdrecht nog een haventje voor
+    suikerbietenoverslag, bereikbaar via een smalle vloedgeul.
+    Vanaf de Rijzende Weg prachtig uitzicht over de polders.</cmt>
+    <desc>Nederzetting rond verdwenen kasteel op de kop van een
+    uitloper van de Brabantse Wal. Ooit profiteerde de plaats van
+    de handel, toen de Agger nog een belangrijk vaarwater was. Tot
+    aanleg van de Deltawerken had Woensdrecht nog een haventje voor
+    suikerbietenoverslag, bereikbaar via een smalle vloedgeul.
+    Vanaf de Rijzende Weg prachtig uitzicht over de polders.</desc>
     <sym>z-ico01</sym>
   </wpt>
   <wpt lat="51.497972000" lon="4.284462000">
     <ele>13.780000</ele>
     <time>2016-07-23T15:01:18Z</time>
     <name>noordsingel</name>
-    <cmt>Bushalte noordsingel
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte noordsingel
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte noordsingel Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte noordsingel Voor meer informatie en haltetijden
+    verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <wpt lat="51.420796000" lon="4.321338000">
     <ele>20.420000</ele>
     <time>2016-07-23T15:01:18Z</time>
     <name>ossendrechtseweg</name>
-    <cmt>Bushalte ossendrechtseweg
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
-    <desc>Bushalte ossendrechtseweg
-Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www.9292ov.nl' target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
+    <cmt>Bushalte ossendrechtseweg Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</cmt>
+    <desc>Bushalte ossendrechtseweg Voor meer informatie en
+    haltetijden verwijzen wij u naar &lt;a href=
+    'http://www.9292ov.nl'
+    target='_blank'&gt;www.9292ov.nl&lt;/a&gt;</desc>
     <sym>Bus Stop</sym>
   </wpt>
   <trk>
-    <name>SP 17 (01) Bergen op Zoom, Markiezenhof - Halsteren</name>
-    <desc>Markiezenstad, Kermisstad, Krabbengat, De Maagd, het zijn enkele van de bijnamen van Bergen op Zoom, het onbetwiste centrum van De Brabantse Wal. In de sfeervolle binnenstad getuigen pleinen en gevels nog van het rijke verleden, en de vele winkels, restaurantjes en café's van het welvarende heden. Op de grens van het katholieke Brabant en het protestante Zeeland is dit het laatste Bourgondische bolwerk, met als middelpunt de Grote Markt, zonder meer een van de fraaiste stadspleinen van Nederland.</desc>
+    <name>SP 17 (01) Bergen op Zoom, Markiezenhof -
+    Halsteren</name>
+    <desc>Markiezenstad, Kermisstad, Krabbengat, De Maagd, het zijn
+    enkele van de bijnamen van Bergen op Zoom, het onbetwiste
+    centrum van De Brabantse Wal. In de sfeervolle binnenstad
+    getuigen pleinen en gevels nog van het rijke verleden, en de
+    vele winkels, restaurantjes en café's van het welvarende heden.
+    Op de grens van het katholieke Brabant en het protestante
+    Zeeland is dit het laatste Bourgondische bolwerk, met als
+    middelpunt de Grote Markt, zonder meer een van de fraaiste
+    stadspleinen van Nederland.</desc>
     <extensions>
       <gpx_style:line>
         <gpx_style:color>#960000FF</gpx_style:color>
@@ -5491,8 +6257,8 @@ Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www
       <trkpt lat="51.539670000" lon="4.345510000">
         <ele>1.000000</ele>
       </trkpt>
-      <trkpt lat="51.539600000" lon="4.345950000"/>
-      <trkpt lat="51.539580000" lon="4.346040000"/>
+      <trkpt lat="51.539600000" lon="4.345950000" />
+      <trkpt lat="51.539580000" lon="4.346040000" />
       <trkpt lat="51.539530000" lon="4.346400000">
         <ele>1.000000</ele>
       </trkpt>
@@ -5514,13 +6280,13 @@ Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www
       <trkpt lat="51.538850000" lon="4.350580000">
         <ele>1.000000</ele>
       </trkpt>
-      <trkpt lat="51.538800000" lon="4.350830000"/>
-      <trkpt lat="51.538630000" lon="4.351720000"/>
-      <trkpt lat="51.538490000" lon="4.352530000"/>
-      <trkpt lat="51.538470000" lon="4.352600000"/>
-      <trkpt lat="51.538330000" lon="4.353390000"/>
-      <trkpt lat="51.538310000" lon="4.353490000"/>
-      <trkpt lat="51.538180000" lon="4.354380000"/>
+      <trkpt lat="51.538800000" lon="4.350830000" />
+      <trkpt lat="51.538630000" lon="4.351720000" />
+      <trkpt lat="51.538490000" lon="4.352530000" />
+      <trkpt lat="51.538470000" lon="4.352600000" />
+      <trkpt lat="51.538330000" lon="4.353390000" />
+      <trkpt lat="51.538310000" lon="4.353490000" />
+      <trkpt lat="51.538180000" lon="4.354380000" />
       <trkpt lat="51.538050000" lon="4.355270000">
         <ele>1.000000</ele>
       </trkpt>
@@ -5710,12 +6476,12 @@ Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www
       <trkpt lat="51.543700000" lon="4.374940000">
         <ele>1.000000</ele>
       </trkpt>
-      <trkpt lat="51.543880000" lon="4.375010000"/>
-      <trkpt lat="51.544000000" lon="4.375040000"/>
-      <trkpt lat="51.544410000" lon="4.375030000"/>
-      <trkpt lat="51.544490000" lon="4.375020000"/>
-      <trkpt lat="51.544570000" lon="4.375010000"/>
-      <trkpt lat="51.544580000" lon="4.375730000"/>
+      <trkpt lat="51.543880000" lon="4.375010000" />
+      <trkpt lat="51.544000000" lon="4.375040000" />
+      <trkpt lat="51.544410000" lon="4.375030000" />
+      <trkpt lat="51.544490000" lon="4.375020000" />
+      <trkpt lat="51.544570000" lon="4.375010000" />
+      <trkpt lat="51.544580000" lon="4.375730000" />
       <trkpt lat="51.544590000" lon="4.376630000">
         <ele>-1.000000</ele>
       </trkpt>
@@ -5746,22 +6512,22 @@ Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www
       <trkpt lat="51.544910000" lon="4.379810000">
         <ele>-1.000000</ele>
       </trkpt>
-      <trkpt lat="51.545260000" lon="4.379960000"/>
-      <trkpt lat="51.546080000" lon="4.380330000"/>
-      <trkpt lat="51.546180000" lon="4.380370000"/>
-      <trkpt lat="51.546280000" lon="4.380360000"/>
-      <trkpt lat="51.546390000" lon="4.380310000"/>
-      <trkpt lat="51.546840000" lon="4.379940000"/>
-      <trkpt lat="51.546890000" lon="4.379910000"/>
+      <trkpt lat="51.545260000" lon="4.379960000" />
+      <trkpt lat="51.546080000" lon="4.380330000" />
+      <trkpt lat="51.546180000" lon="4.380370000" />
+      <trkpt lat="51.546280000" lon="4.380360000" />
+      <trkpt lat="51.546390000" lon="4.380310000" />
+      <trkpt lat="51.546840000" lon="4.379940000" />
+      <trkpt lat="51.546890000" lon="4.379910000" />
       <trkpt lat="51.546980000" lon="4.379850000">
         <ele>-1.000000</ele>
       </trkpt>
       <trkpt lat="51.547070000" lon="4.379800000">
         <ele>-1.000000</ele>
       </trkpt>
-      <trkpt lat="51.547130000" lon="4.380040000"/>
-      <trkpt lat="51.547160000" lon="4.380270000"/>
-      <trkpt lat="51.547180000" lon="4.380420000"/>
+      <trkpt lat="51.547130000" lon="4.380040000" />
+      <trkpt lat="51.547160000" lon="4.380270000" />
+      <trkpt lat="51.547180000" lon="4.380420000" />
       <trkpt lat="51.547300000" lon="4.381310000">
         <ele>1.000000</ele>
       </trkpt>
@@ -5954,8 +6720,8 @@ Voor meer informatie en haltetijden verwijzen wij u naar &lt;a href= 'http://www
       <trkpt lat="51.535430000" lon="4.389910000">
         <ele>1.000000</ele>
       </trkpt>
-      <trkpt lat="51.535300000" lon="4.389430000"/>
-      <trkpt lat="51.535260000" lon="4.389260000"/>
+      <trkpt lat="51.535300000" lon="4.389430000" />
+      <trkpt lat="51.535260000" lon="4.389260000" />
       <trkpt lat="51.535210000" lon="4.389170000">
         <ele>1.000000</ele>
       </trkpt>
