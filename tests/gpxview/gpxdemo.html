@@ -5,7 +5,8 @@
     <link rel="stylesheet" href="/assets/css/leaflet.min.css" />
     <script src="/assets/js/leaflet.min.js"></script>
     <script src="/assets/js/gpx.min.js"></script>
-
+    <script src="/assets/js/gpx-custom.min.js"></script>
+    
     <!-- Map styling -->
     <style type="text/css">
     .map {
@@ -17,51 +18,6 @@
   </head>
     <body>
     <!-- Having a one-elem solution is convenient for us, but not necessarily the best -->
-    <div id="gpx-demo" gpx-src="https://mrblog.nl/tests/gpxview/demo.gpx" class="map" />
-    
-   
-    <script type="application/javascript">
-    // Include these from a separate file
-    // Perhaps use a logic to search for symkey.png automatically?
-    var customIconUrls = {
-	'Start Of Track'    : '/assets/img/gpx/pin-icon-start.png',
-	'End Of Track'      : '/assets/img/gpx/pin-icon-end.png',
-	'Shadow'            : '/assets/img/gpx/pin-shadow.png',
-	'Campground'	: '/assets/img/gpx/campground.png',
-	'Hotel'		: '/assets/img/gpx/hotel.png',
-	'Restaurant'	: '/assets/img/gpx/restaurant.png',
-	'Bed and Breakfast'	: '/assets/img/gpx/bed_breakfast.png',
-	'Parking Area'	: '/assets/img/gpx/parking.png',
-	'Bus Stop'		: '/assets/img/gpx/busstop.png',
-	'Sign Post'         : '/assets/img/gpx/signpost.png'
-    }
-
-    function display_gpx(elt) {
-	if (!elt) return;
-
-        // Get source URI of gpx file
-        var url = elt.getAttribute('gpx-src');
-        if (!url) return;
-
-        var map = L.map(elt);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
-
-	// Construct the GPX object	
-	new L.GPX(url, {
-	    async: true,
-	    marker_options : {
-		startIconUrl: customIconUrls['Start Of Track'],
-		endIconUrl  : customIconUrls['End Of Track'],
-		shadowUrl   : customIconUrls['Shadow'],
-		wptIconUrls : customIconUrls
-	    }
-	}).on('loaded', function(e) {
-	    map.fitBounds(e.target.getBounds());
-	}).addTo(map);
-    }
-
-    // Display map and details inside element with specified id
-    display_gpx(document.getElementById('gpx-demo'));
-    </script>
+    <div id="gpx-demo" gpx-src="https://mrblog.nl/tests/gpxview/demo.gpx" class="map" ></div>
   </body>
 </html>
