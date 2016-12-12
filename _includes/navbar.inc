@@ -10,10 +10,10 @@
     </button>
 
 
-    <a class="navbar-brand" href="/">
+    <a class="navbar-brand" href="$site.url$">
       <span class="glyphicon glyphicon-home"></span>
     </a>
-    <a class="navbar-brand" href="/">$site.name$</a>
+    <a class="navbar-brand" href="$site.url$">$site.name$</a>
 
   </div>
 
@@ -22,13 +22,13 @@
     <!-- Link to feed(s) -->
     <ul class="nav navbar-nav navbar-right">
       <li>
-	<a href="/feed/atom.xml" title="Atom feed of postings" class="glyphicon icon rss-icon"></a>
+	<a href="$site.url$/feed/atom.xml" title="Atom feed of postings" class="glyphicon icon rss-icon"></a>
       </li>
     </ul>
 
     <!-- % if include.search != 'disabled'  %} -->
     <!-- Search form -->
-    <form method="get" class="navbar-form navbar-right" role="search" action="/search" data-search-form >
+    <form method="get" class="navbar-form navbar-right" role="search" action="$site.url$/search" data-search-form >
       <div class="form-group">
         <input id="q" type="search" class="form-control input-sm" name="q" placeholder="Search" data-search-input />
       </div>

@@ -6,7 +6,7 @@
   </span>
   <!-- Other menu items -->
   <ul class="nav navbar-nav navbar-right">
-    <li><a href="/about">About</a></li>
-    <li><a href="/archive">Archive</a></li>
+    <li><a href="$site.url$/about">About</a></li>
+    <li><a href="$site.url$/archive">Archive</a></li>
   </ul>
 </nav>

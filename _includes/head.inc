@@ -4,20 +4,20 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 
 <!-- Bootstrap -->
-<link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="$site.url$/assets/css/bootstrap.min.css" />
 
 <!-- syntax highlighting CSS -->
-<link rel="stylesheet" type="text/css" href="/assets/css/syntax.min.css"/>
+<link rel="stylesheet" type="text/css" href="$site.url$/assets/css/syntax.min.css"/>
 
 <!-- Custom CSS -->
-<link rel="stylesheet" type="text/css" href="/assets/fonts/stylesheet.css"/>
-<link rel="stylesheet" type="text/css" href="/assets/css/main.min.css"/>
-<link rel="stylesheet" type="text/css" href="/assets/css/leaflet.min.css" />
+<link rel="stylesheet" type="text/css" href="$site.url$/assets/fonts/stylesheet.css"/>
+<link rel="stylesheet" type="text/css" href="$site.url$/assets/css/main.min.css"/>
+<link rel="stylesheet" type="text/css" href="$site.url$/assets/css/leaflet.min.css" />
 
 <!-- Feeds we expose -->
-<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="/feed/atom.xml" />
+<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="$site.url$/feed/atom.xml" />
 
 <!-- For gpx maps -->
-<script src="/assets/js/leaflet.min.js"></script>
-<script src="/assets/js/gpx.min.js"></script>]
-<script src="/assets/js/gpx-custom.min.js"></script>
+<script src="$site.url$/assets/js/leaflet.min.js"></script>
+<script src="$site.url$/assets/js/gpx.min.js"></script>]
+<script src="$site.url$/assets/js/gpx-custom.min.js"></script>
