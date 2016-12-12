@@ -6,7 +6,8 @@ module Config where
 
 import Hakyll.Core.Configuration
 import Hakyll.Web.Feed
-
+import Hakyll.Core.Identifier.Pattern
+    
 author :: String
 author = "Marcel van der Boom"
 authoremail :: String
@@ -18,7 +19,18 @@ siteurl = "https://mrblog.nl"
 copyrightYear :: String
 copyrightYear = "2016"
 
+-- Static files and directories
+staticFiles :: [Pattern]
+staticFiles = [
+ "robots.txt", "favicon.ico"]
 
+staticDirs :: [String]
+staticDirs = [
+ "assets/img",                  -- Generic images
+ "assets/img/gpx",              -- Images for the gpx viewer
+ "assets/css/images",           -- CSS images
+ "assets/fonts",                -- Fonts
+ "files",".well-known","tests"] -- Misc.
 
 -- Make the Hakyll configuration explicit and specify overrides
 config :: Configuration

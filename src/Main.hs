@@ -153,16 +153,12 @@ templateR = do
 staticR :: Rules ()
 staticR = do
   -- Single files that need to be copied
-  mapM_ static ["robots.txt", "favicon.ico"]
+  mapM_ static staticFiles
   
   -- Whole directories that need to be copied
   -- TODO: move this to a config file
-  mapM_ (dir static) ["assets/img/gpx",                         -- | Generic images
-                      "assets/img",
-                      "assets/css/images", "assets/js/images", -- | Images referred to from js or css
-                      "assets/fonts",                          -- | Font resources
-                      "files",".well-known","tests"]           -- | Legacy files and tests (transient I hope)
-
+  mapM_ (dir static) staticDirs
+    
   -- Compress js files
   match "assets/js/*.js" $ do
     route $ setExtension "min.js"
