@@ -369,3 +369,9 @@ figure.shadowed img {
     margin-top: 10px; margin-bottom: 15px;
 }
 
+/* GPX map related styling */
+.map {
+	border: 5px #aaa solid; border-radius: 5px;
+        box-shadow: 0 0 3px 3px #bbb;
+        width: auto; height: 800px; margin: 1em auto;
+}

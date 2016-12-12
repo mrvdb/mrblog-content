@@ -12,6 +12,12 @@
 <!-- Custom CSS -->
 <link rel="stylesheet" type="text/css" href="/assets/fonts/stylesheet.css"/>
 <link rel="stylesheet" type="text/css" href="/assets/css/main.min.css"/>
+<link rel="stylesheet" type="text/css" href="/assets/css/leaflet.min.css" />
 
 <!-- Feeds we expose -->
 <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="/feed/atom.xml" />
+
+<!-- For gpx maps -->
+<script src="/assets/js/leaflet.min.js"></script>
+<script src="/assets/js/gpx.min.js"></script>]
+<script src="/assets/js/gpx-custom.min.js"></script>

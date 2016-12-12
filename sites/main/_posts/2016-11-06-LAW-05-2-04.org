@@ -1,0 +1,30 @@
+#+title: Hike: Katwijk aan Zee - De Zilk LAW 05-2 (04)
+#+published: 2016-11-06
+#+tags: hiking, gpx, suunto
+
+This post is the result of a little hike along one of the /Long
+Distance/ walks in the Netherlands: "LAW 05-2 (04) Katwijk aan Zee - de
+Zilk".
+
+I recorded the hike with my [[http://www.suunto.com/en-GB/Products/sports-watches/Suunto-Traverse/Suunto-Traverse-Amber/][Suunto Traverse]] watch and exported this as a GPX
+file. I used that gpx file as example data to create a little gpx
+viewer which can be embeded in html pages. With [[http://leafletjs.com/][Leaflet]] this is almost
+trivial to do.
+
+#+BEGIN_HTML
+<div id="gpx-20161106" gpx-src="/assets/gpx/Move_2016_11_06_09_16_34_Hiking.gpx" class="map" ></div>
+#+END_HTML
+
+The details of the hike are on my [[http://www.movescount.com/moves/move130168351][Movescount]] page for this move.
+
+If you zoom in on the map, you'll see that the recorded path is not an
+exact match with the followed path (the dotted lines). This is because
+I used a long interval of GPS fixes to record the path. I think it was
+a 10 second interval, so there's some tuning to do for this in future.
+
+The exported GPX has information about temperature, height, energy,
+speed and possibly some other stuff. My intention is to have this
+information incorporated in the map later on, similar to the way this
+is displayed on the movescount site.
+
+If you're interested, the GPX file is here: https://mrblog.nl/assets/gpx/Move_2016_11_06_09_16_34_Hiking.gpx
