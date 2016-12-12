@@ -1,24 +1,8 @@
-This directory contains the files needed for the program jekyll to
-produce a website, in this case my personal blog at http://mrblog.nl
-The content of the site is taken from the '_posts' and '_pages' folders.
+This directory contains the content files needed for the program hakyll to
+produce my website at http://mrblog.nl
 
-The content can be any format that jekyll supports, which includes at
-least markdown and html.
-
-By default, anything  in folders is copied to the website by
-jekyll unless:
-
-- the folder is special (starts with '_')
-- it is excluded through the jekyl configuration
-
-The files in this folder and in this folder and below alone should be
-enough to generate the complete site by a =jekyll build= run, because
-that is exactly what happens by pushing this folder to its git remote.
-
-The content itself however may find its origin in other places,
-typically an org-mode document or outline subtree; that is perfectly
-fine. As long as a supported jekyll format ends up in this folder, the
-site can be generated.
+The actual program built with the Hakyll library is *NOT* in this
+repository anymore.
 
 * Folders
   - _data :: a yaml file objects.yml in this directory can be accessed
