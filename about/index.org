@@ -20,14 +20,17 @@ to them:
 - Some of the images are hosted on [[http://flickr.com][flickr]], and
   some of them are on [[https://media.mrblog.nl][my own mediagoblin]] instance;
 - the [[http://entypo.com][Entypo]] icons are used;
-- Orgmode files are converted using  [[http://pandoc.org][pandoc]] which is integrated into [[http://jaspervdj.be/hakyll][hakyll]];
+- Orgmode files are converted using [[http://pandoc.org][pandoc]] which is integrated into
+  [[http://jaspervdj.be/hakyll][hakyll]];
 - +[[https://github.com/judofyr/ruby-oembed][ruby-oembed]] is used for automatic embedding of media with the help
   of an [[https://gist.github.com/vanto/1455726][oembed liquid tag]];+
 - A locally generated json file is used to implement search;
-  functionality. A modified version of [[https://github.com/mathaywarduk/jekyll-search][jekyll-search]] is used;
+  functionality. +A modified version of [[https://github.com/mathaywarduk/jekyll-search][jekyll-search]] is used+;
 - Bootstrap is dependent on the [[http://jquery.com][jquery]] library, but I use it directly
   too for the live statusnet feed and the search function;
-- the site is served with [[http://nginx.org][nginx]] on a machine running [[http://debian.org][Debian]] GNU/Linux;
+- the site is served with [[http://nginx.org][nginx]] on a machine running [[https://www.parabola.nu/][Parabola]]
+  GNU/Linux which is a derivative of [[https://archlinux.org][Arch Linux]] with all non-free
+  components removed;
 - for the git log listing (see below), I adapted the [[https://gist.github.com/alx/730347][gitactivity]] tag
   plugin by Alexandre Girard.
 
