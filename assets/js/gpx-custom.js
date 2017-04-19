@@ -1,7 +1,11 @@
 // Definition of the icons we want to use
 // TODO: wrap this in an object
 
-var iB = '/assets/img/gpx/';
+var iB             = '/assets/img/gpx/';
+
+// While tileserver should we use?
+var tilesUrl = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+var tilesUrl = 'https://{s}.tile.thunderforest.com/outdoors/{z}/{x}/{y}.png?apikey=b1987b4b4ef449a19332204f8b2dbdff';
 
 var customIconUrls = {
     'Start Of Track'	: iB + 'pin-icon-start.png',
@@ -28,7 +32,7 @@ function display_gpx(id) {
     if (!url) return;
 
     var map = L.map(elt);
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+    L.tileLayer(tilesUrl).addTo(map);
 
     // Construct the GPX object	
     new L.GPX(url, {
