@@ -1,7 +1,7 @@
 #+layout: photo
 #+title: Squirrel in Grand Canyon
 #+date: 2004-08-28
-#+tags: animals holiday usa
+#+tags: animals holiday usa photo
 
 
 [[/assets/img/gmg-186.jpg]]

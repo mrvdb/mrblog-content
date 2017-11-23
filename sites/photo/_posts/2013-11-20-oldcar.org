@@ -1,7 +1,7 @@
 #+layout: photo
 #+title: Old chassis in Hungarian museum
 #+date: 2013-08-30
-#+tags: cars holiday hungary
+#+tags: cars holiday hungary photo
 
 
 [[/assets/img/gmg-169.jpg]]

@@ -1,0 +1,7 @@
+#+layout: photo
+#+title: Sunset on dutch beach
+#+date: 2017-11-22
+#+tags: hiking nl photo dro
+
+
+[[/assets/img/20171122-sunset.jpg]]
