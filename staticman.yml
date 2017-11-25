@@ -17,7 +17,7 @@ comments:
   commitMessage: "New comment data"
 
   # Destination path (directory) for the data files. Accepts placeholders.
-  path: "_data/comments/{fields.title}/"
+  path: "_data/comments/{options.title}/"
   # Destination filename for the data files. Accepts placeholders.
   filename: "{@date:YYYY-MM-DD_hh:mm:ss}"
 
@@ -64,5 +64,4 @@ comments:
   # List of transformations to apply to any of the fields supplied. Keys are
   # the name of the field and values are possible transformation types.
 transforms:
-  email: md5 
-  title: slugify
+  email: md5
