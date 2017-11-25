@@ -4,10 +4,12 @@
 # another one to handle posts.
 comments:
   # (*) REQUIRED
-  #
   # Names of the fields the form is allowed to submit. If a field that is
   # not here is part of the request, an error will be thrown.
   allowedFields: ["name", "email", "url", "message"]
+  # Names of required fields. If any of these isn't in the request or is empty,
+  # an error will be thrown.
+  requiredFields: ["name", "email", "message"]
 
   # (*) REQUIRED
   #
@@ -19,9 +21,10 @@ comments:
   commitMessage: "New comment data"
 
   # (*) REQUIRED
-  #
-  # Destination path (filename) for the data files. Accepts placeholders.
-  filename: "_data/comments/entry{@timestamp}"
+  # Destination path (directory) for the data files. Accepts placeholders.
+  path: "_data/comments/{options.slug}"
+  # Destination filename for the data files. Accepts placeholders.
+  filename: "entry{@timestamp}"
 
   # The format of the generated data files. Accepted values are "json", "yaml"
   # or "frontmatter"
@@ -40,7 +43,7 @@ comments:
   # Whether entries need to be appproved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
   # Otherwise, entries will be published to the main branch automatically.
-  moderation: false
+  moderation: true
 
   # Name of the site. Used in notification emails.
   name: "mrblog.nl"
@@ -62,14 +65,6 @@ comments:
     # Mailgun domain (encrypted)
     #domain: "4r3e2w1q"
 
-  # (*) REQUIRED
-  #
-  # Destination path (directory) for the data files. Accepts placeholders.
-  path: "_data/comments/{options.slug}"
-
-  # Names of required fields. If any of these isn't in the request or is empty,
-  # an error will be thrown.
-  requiredFields: ["name", "email", "message"]
 
   # List of transformations to apply to any of the fields supplied. Keys are
   # the name of the field and values are possible transformation types.
