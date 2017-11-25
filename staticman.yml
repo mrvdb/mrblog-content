@@ -3,7 +3,6 @@
 # For example, you can have one property to handle comment submission and
 # another one to handle posts.
 comments:
-  # (*) REQUIRED
   # Names of the fields the form is allowed to submit. If a field that is
   # not here is part of the request, an error will be thrown.
   allowedFields: ["name", "email", "url", "message"]
@@ -11,20 +10,16 @@ comments:
   # an error will be thrown.
   requiredFields: ["name", "email", "message"]
 
-  # (*) REQUIRED
-  #
-  # Name of the branch being used. Must match the one sent in the URL of the
-  # request.
+  # Branch being used. Must match the one sent in the URL of the request.
   branch: "mrblog-comments"
 
   # Text to use as the commit message or pull request title. Accepts placeholders.
   commitMessage: "New comment data"
 
-  # (*) REQUIRED
   # Destination path (directory) for the data files. Accepts placeholders.
-  path: "_data/comments/{options.slug}"
+  path: "_data/comments/{options.title}/"
   # Destination filename for the data files. Accepts placeholders.
-  filename: "entry{@timestamp}"
+  filename: "{@date:YYYY-MM-DD_hh:mm:ss}"
 
   # The format of the generated data files. Accepted values are "json", "yaml"
   # or "frontmatter"
