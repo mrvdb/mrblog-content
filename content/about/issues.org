@@ -179,6 +179,11 @@ Options:
    An alternative deploy option could be a post-receive hook on the server side, this means only git and editor is enough to publish content, instead of hugo/git/rsync
 
    The site would then run a script after each push, taking care of updating the site on the right location on the server. An extra pro is that the amount of content that needs to go over the connection is probably a lot less (although rsync should be fairly efficient in just transferring the differences to what has already been published)
+***** TODO This would be useful to have when writing longer documents
+:PROPERTIES:
+:CREATED:  [2020-11-20 vr 15:04]
+:END:
+https: [[https://github.com/martignoni/hugo-notice][martignoni/hugo-notice: A Hugo theme component to display nice notices]]
 ***** DONE Find some sort of automated link checker                                 :build:
 :PROPERTIES:
 :CREATED:  [2015-03-20 vr 16:13]
@@ -325,3 +330,388 @@ Which was correct, the content files were double too, fixed now.
 :PROPERTIES:
 :CREATED:  [2020-11-18 wo 18:02]
 :END:
+***** Generic tasks
+:PROPERTIES:
+:Group: Hobbies
+:END:
+
+****** TODO Pullquote needs to be reimplemented for                                :build:
+:PROPERTIES:
+:CREATED:  [2016-04-08 vr 12:29]
+:END:
+
+Perhaps use a functionField for this, this allows for the syntax
+
+#+BEGIN_SRC haskell
+$somefunction("String argument")$
+#+END_SRC
+
+in templates. This function is defined in a context like
+
+#+BEGIN_SRC haskell
+postCtx :: Context String
+postCtx = functionField "somefunction" (\args _ -> error $ show args) <> defaultContext
+#+END_SRC
+
+which will just print the arguments while compiling the templates.
+
+An example for pullquote might be:
+
+#+BEGIN_SRC example
+$pullquote("right", "Paragraph with {marker that signals begin and} marker that signals end")$
+
+Resulting rendering mockup:
+"Paragraph with marker that signals beging and maker that signals end"
+                                 "...marker that signals begin and..."
+
+#+END_SRC
+
+In html this needs to happen:
+
+#+BEGIN_SRC html
+  <span class="pullquote-right" data-pullquote="...marker that signals begin and...">
+
+    Paragraph with marker that signals begin and marker that signals end
+  </span>
+#+END_SRC
+
+And the CSS can take care of the actual rendering.
+****** TODO Show post titles in prev/next links                                    :build:
+:PROPERTIES:
+:CREATED:  [2016-08-01 ma 14:39]
+:END:
+****** TODO Gitactivity needs to be reimplemented                                  :build:
+:PROPERTIES:
+:CREATED:  [2016-04-08 vr 12:30]
+:END:
+****** TODO Have =/tag= hold a tag cloud                                             :build:
+:PROPERTIES:
+:CREATED:  [2016-04-08 vr 12:31]
+:END:
+****** TODO Generate multiple versions for each post                               :build:
+:PROPERTIES:
+:CREATED:  [2016-04-08 vr 12:32]
+:END:
+This is now relatively easy.
+Minimal set: source+html
+
+- [X] source
+- [X] html
+- [ ] pdf
+- [ ] epub
+
+And provide some icon after the title or on the same line as the
+****** TODO Replace feed with my own template                                        :fix:
+:PROPERTIES:
+:CREATED:  [2016-04-08 vr 13:53]
+:END:
+Problem:
+- the updated field is a bit special, but i can copy code from
+****** TODO Implement the projects or subblog functionality                        :build:
+:PROPERTIES:
+:CREATED:  [2016-08-01 ma 12:58]
+:END:
+- http://ur1.ca/pj76y has an example implementation
+- using categories ?
+
+****** TODO Implement automatic linkchecker for mrblog.nl
+:PROPERTIES:
+:CREATED:  [2013-06-28 vr 06:24]
+:END:
+ Perhaps a cron job which does this.
+ - only report what can be fixed by me;
+ - report only if there is something to be fixed;
+ - check daily
+
+There is a =check= command for hakyll which does link checking. The
+question is if we can react to this while building the site, for
+example by striking through the text and altering the link to
+something else.
+****** TODO Find out how we can do subsites with subdomains while keeping the main site the same
+:PROPERTIES:
+:CREATED:  [2013-06-28 vr 08:12]
+:END:
+Usecase: cobra.mrblog.nl content is now also on mrblog.nl tagged with
+'cobra'
+
+****** TODO Once subdomain stuff is working, we should probably expose that structure through a new front page
+:PROPERTIES:
+:CREATED:  [2013-06-28 vr 08:12]
+:END:
+****** Thoughts on having a commenting system
+The site is using disqus now, which is comfortable, but a proprietary
+solution.
+
+******* Requirements
+- based on open source solutions only
+- multiple interfaces (web, mail, xmpp etc.)
+- static rendering of pages must be preserved (TODO: clarify this in
+  relation to on-site rendering with javascript)
+- authentication not needed, anyone may comment --> thus moderation
+- plain text storage (git based would be nice)
+
+Note: staticman.net more or less satisfies all criteria.
+
+******* Workflow
+Someone visits a page, wants to make a comment. There is *one* thing
+that user wants to do and that is fill a field with their
+comments. Extensive login and identification procedures are just
+getting in the way.
+What they will be prepared to do is easy identification, so they are
+credited with the comment or are able to follow the thread of
+discussion.
+
+******* Viable options
+- use gnu-social (non-static)
+- use pump.io (non-static)
+- homebrew js only solution
+- staticman.net :: automated solution to post files to git repository,
+                   which then can be picked up by the site compiler
+******* Scenario: using pump.io
+The first assumption I am going to make is that there is a pump.io
+note somewhere, i will be using:
+
+http://qua.name/mrb/note/gtOv6E2aSle9P2jMOGlUKA
+
+as the example. The comments to that note are considered comments to
+the posting on the website.
+Using the assumption the task can be split into the following
+sub-parts:
+1. Displaying the comments in the relevant page
+2.
+
+******** Ad 1. Displaying comments for a specific note
+The note displayed above can be had with a json representation like
+so:
+
+http://qua.name/api/note/gtOv6E2aSle9P2jMOGlUKA
+
+Complications:
+- that url requires a logged in user, so we need to log in /something/
+  to be able to view the comments, this can be a dummy user, so this
+  is probably not that big of a problem
+- the web url mentioned in the beginning *is* available without
+  authentication.
+The replies specifically for that note are at:
+
+http://qua.name/api/note/gtOv6E2aSle9P2jMOGlUKA/replies
+
+Host information is at:
+
+http://qua.name/.well-known/host-meta
+
+Registering an app delivered:
+#+BEGIN_SRC js
+  {
+      "client_id":"Is4xR0ErDe9_INvSo2Cz8Q",
+      "client_secret":"pk8oh4uk0E03iHsCyXd7_GqxBcb-auLsW7Y0gDCsje8",
+      "expires_at":0
+  }
+#+END_SRC
+
+According to the API document almost all API endpoints require user
+authorization. For the activity outbox 2-legged authentication (no
+user authentication needed) is possible, so we may be able to reach
+this data.
+
+This means, given that I want a static solution at the site, I either
+need:
+1. a secure js solution to use oauth
+2. an oauth proxy
+
+Using an oauth proxy displaying could be done as:
+1. using the endpoint to get the replies of an object, fetch the json
+   async;
+2. loop over the replies, using jquery templates for example and
+   deliver a dom fragment to be rendered.
+******* Scenario: using staticman.net
+I've begun implementing staticman.net usage. This is a log of that
+effort
+
+First step: getting the data
+----------------------------
+The current commenting system is disquss and they offer an export
+which dumps all comments into a proprietary xml file.
+
+I converted this xml file to a representation in json with [[https://github.com/Cheedoong/xml2json][xml2json]] to
+get the data in json format. Reason is that the staticman
+implementation directly produces json too, so I'm trying to mimick
+that. The reason I chose for staticman.net to produce json over yaml
+is that I already use json data for the site search /engine/ on the
+blog.
+
+The first idea was to extract a json file for every comment from the
+xml file and use that directly on site with a javascript piece to
+bridge it to rendering.
+
+Extracting the json file per comment is done with =jq= in a number of
+distinct steps (basically for loops). While tedious to do, it's
+scripted and now a reproduceable step.
+
+*************** TODO The messages sometimes hold html, do we want to keep this?       :check:
+It seems to be only <p> tags mostly, so I guess we can clean it a bit.
+*************** END
+
+Having separate files for each comment is less suitable for web
+exposure, because they can only be accessed by their URI. This means
+that their filenames must be known for them to be rendered by the
+browser. Gathering these filenames by hakyll or combining them into
+one 'well-known' file is then the next step.
+
+Choosing them to be gathered into one well-known filename is attractive
+because it fits nicely with the techniques already in use on my
+blog. The output of hakyll is a directory per post/page which
+contains, so far, 1 file per format of the content. (.html and .org so
+far) With that one file in place, a piece of client side code can then
+be written to render the page based on that file.
+
+So, first goal is to have in the directory:
+  - blog-slug.html :: the html page that is rendered
+  - blog-slug.org  :: the original content
+  - blog-slug.json :: data related to the page (comments, other
+                      metadata?)
+
+It's fairly trivial to also include the blog contents into the =.json=
+file also. In fact this might be a good starting point.
+
+
+****** Multisites
+I want to host multiple blogs below mrblog.nl, like:
+- (me.)mrblog.nl   :: main blog, having all content
+- cobra.mrblog.nl  :: the cobra build
+- hbx360.mrblog.nl :: cazeneuve hbx360 related stuff
+- sacia.mrblog.nl  :: sacia shaper related stuff
+- photo.mrblog.nl  :: photoblog (sparse subset of media.mrblog.nl)
+- tools.mrblog.nl  :: tools in general
+- media.mrblog.nl  :: mediastorage for all mrblog.nl sites (mediagoblin)
+
+The hosting of sub-blogs is probably quite easy to do by defining to
+publish them to subdirectories and make sure they are self-sufficient,
+meaning they have an index.html file there.
+
+One way to help with this is to use categories which are a bit
+special:
+- /work/code/_posts/blahblah.md -> post is in cats work and code and if
+  the permalink variable contains :categories the live site will
+  contain folders for the categories.
+- categories variable in front matter: YAML list or space separated
+  string; this just registers the category and makes the variables work.
+
+I like the specification of categories and blogs to be separate
+really, but file organisation above _posts is unavoidable to get them
+into categories so might as well use that to my advantage
+
+Another option could be to have a data file below _data which contains
+information on the sub-blogs.
+
+In URI terms this would be:
+1. http://mrblog.nl :: main blog, containing everything
+2. http://mrblog.nl/cobra  :: everything in http://cobra.mrblog.nl
+3. http://mrblog.nl/hbx360 :: everything in http://hbx360.mrblog.nl
+4. These should all be the same:
+   1. http://cobra.mrblog.nl/2013/11/15/the-title-of-the-post.html
+   2. http://mrblog.nl/cobra/2013/11/15/the-title-of-the-post.html
+   3. http://mrblog.nl/2013/11/15/the-title-of-the-post.html
+
+Item 4.3 is now in place. 4.2 is not really necessary
+
+Items 2. and 3. more or less dicate there should be folders in the
+sources named =cobra= and =hbx360= which have their own
+=index.html=
+
+Using a make/rake file different config files per site in the same
+directory (basically making multiple jekyll runs) is possible but
+seems a bit sensitive for conflicts. So, trying to avoid that is worth
+something.
+
+Some things (like having cobra.mrblog.nl serve up from a cobra
+(virtual) subdirectory can be arranged from nginx.
+
+Jekyll 2.0 adds a notion of /collections/ which are like pages (not
+time based content like posts) gathered in a /_collection/ directory,
+exposed in a =/collection= url part. They can be made to render
+(treated as an input format to be transformed) or just plain copied.
+
+[2017-01-14 za] As I'm progressing I'm more and more leaning towards
+one base domain (https://mrblog.nl in this case) and have features in
+the blog system to define my tags categories and what have we. This
+makes everything a lot simpler and probably more flexible.
+******* Requirements
+- [X] each subsite has its own feeds under its own domain
+- [ ] links in the feed point to the proper subdomain
+- [ ] main site has all content of all subsites, properly tagged and
+  least, preferably categorized too
+- [ ] everything can be generated and previewed as if it was one site
+- [ ] if resources are duplicated, the process to manage them should be
+  automated.
+- [ ] if not a separate theme, show the use that he is on a sub-blog.
+- [ ] http://sub.mrblog.nl/YYYY/MM/DD/title.html point to proper contents
+- [ ] http://mrblog.nl/sub/YYYY/MM/DD/title.thml point to proper contents
+- [X] http://mrblog.nl/YYY/MM/DD/title.html points to proper contents
+- [ ] a simple mechanism is in place for local testing.
+-
+
+******* References
+- http://maximebf.com/blog/2013/07/multi-site-jekyll/
+- http://www.garron.me/en/blog/multi-blog-site-jekyll.html
+
+******* Implementation
+Taking photo.mrblog.nl as example, the steps to implement it are as follows.
+
+- The source documents are in folders sites/blog1,
+sites/blog2... etc. This makes sure the documents are in categories
+automatically which we can filter on.
+Example: ./sites/photo/*.org  contains documents for
+http://photo.mrblog.nl The index.html loops over all content which is
+in category 'photo'. In addition, cross-blog posting can be done by
+setting the category in the frontmatter manually.
+- nginx points photo.mrblog.nl to ./photo as root dir
+-
+
+Given the amount of time I already spent on this, perhaps a separate
+subblog with syndication approach is simpler (it is).
+****** Blog article ideas
+******* TODO Consider a blog series on yubikey applications                       :write:
+:PROPERTIES:
+:CREATED:  [2015-07-21 Tue 10:27]
+:END:
+
+Series:
+Authenticating:
+---------------
+- OTP usage (with and without running own validation server)
+- FIDO U2F (only google uses this?)
+- OATH (use android as example, compare with google  auth app)
+- OpenPGP usage (gnupg, ssh, firefox, openkeychain, pass, password
+  store)
+- PIV (no usecase found yet)
+
+Encrypting
+----------
+- OpenPGP
+- PIV
+******* TODO Blog about the conflict of being open source and having 'next new features' :write:
+:PROPERTIES:
+:CREATED:  [2014-12-23 di 17:47]
+:END:
+****** TODO Create an anonymous blog, as some sort of game. "Find out who I am"    :build:
+:PROPERTIES:
+:CREATED:  [2013-06-17 ma 11:41]
+:END:
+
+Needs:
+- reliable TOR network access
+- anonymous email
+- encrypted connections to everywhere
+- damage controle system (assume new identity quickly when exposure
+  signs are there)
+- think about how
+- http://ur1.ca/ecl5w has some good information
+- the idea of findingout who I am is for play, it is not enough that
+  people "know" who I am, but they need a record of how they find
+  out. (I even consider spilling my identity upfront but that would
+  make it much less interesting)
+- researching the HOWTO is already leaking information, so the first
+  and foremost action is to get access to the TOR network completely.
+
+Recently acquired book from Mitnick may help with this.
