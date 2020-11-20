@@ -1,0 +1,17 @@
+#+title: Getting used to a new OS
+#+tags[]: current-affairs
+
+Last week i got myself a 17" Apple Powerbook. I've been wanting to
+check both hardware and OS X out for a long time. The combo of a Free
+BSD like core and the interface reputation of Apple seemed like an
+attractive combination.
+
+
+Not sure if it is yet, but so far I haven't been able to concentrate
+much on work ;-). Two things which stand out:
+1. There is much more to play out there than is healthy for a person
+2. I completely underestimated the way you set your machine to your
+   hands to work efficiently, i feel completely disabled using the new
+   machine.
+
+Let's see if that changes over the next few weeks.

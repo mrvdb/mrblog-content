@@ -1,0 +1,12 @@
+{
+  "_id": "940370898",
+  "_thread": "1430919227",
+  "_parent": null,
+  "name": "mvanderboom",
+  "email": "marcel@hsdev.com",
+  "message": "<p>I am using an #+ATTR_HTML: line before the link to the image. That line basically contains a style=\"...\" specification for one-off images. For semi-standard images the line contains a class=\"...\" spec.</p>",
+  "date": "2011-12-20T22:19:17Z",
+  "ip": "213.125.12.138",
+  "spam": "false",
+  "deleted": "false"
+}

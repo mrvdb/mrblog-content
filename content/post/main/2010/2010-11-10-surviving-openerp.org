@@ -1,0 +1,23 @@
+#+title: Surviving OpenERP
+#+tags[]: openerp
+#+draft: true
+
+
+* Discuss usecase for mailgate
+List of immediate apparent problems which make usage problematic:
+- no comment in the while file at all
+- =case_description= is never expanded (always =False=)
+- there is no ordering in the crm rules, this makes it unsuitable for
+  anything but the simplest, based on the fields in the form only
+- the mail body configured is a clear candidate for multiple languages
+  (this would have been no extra trouble during implementation) so the
+  mail message sent out can be in the customers language (CRM is about
+  customers aint it?)
+- the body is not set properly by mailgate (if this code is used
+  anywhere, someone would have noticed)
+- port number for mailgate is needed, if there is a multiple app
+  hosting server out there, it needs it.
+- canal on mailgate could be set automatically as the channel is by
+  defintion email. This saves time and improves accuracy of the
+  mailgate script.
+-

@@ -1,0 +1,32 @@
+#+title: Differential reconditioning part two
+#+tags[]: cobra donor-parts
+
+I did not trust my efforts of replacing the pinion seal; it looks
+kinda funny with the rubber <strong>on</strong> the axis instead of
+behind it. Add to that the fact the procedure could not be finished
+properly because of the front nut being loose to start with, I decided
+to have [[http://www.jaguar-kolvenbach.com][Kolvenbach]] take a look at it. Glad I did.
+
+
+[[/assets/img/gmg-383.jpg]]
+
+Not only was the pinion seal not installed properly, it was completely
+the wrong seal! On top of that the output shaft seals were also the
+wrong ones. A previous owner of the diff must have had the same
+problem as me.
+
+Anyways, all seals replaced now by people who know what they are
+doing. The new pinion seal properly sits behind the flange now.
+
+[[/assets/img/gmg-384.jpg]]
+
+While they had the diff in parts I figured they could just as easily
+give it a spray. I rounded it off by installing the backplate with new
+stainless bolts and a diff we have!
+
+[[/assets/img/gmg-385.jpg]]
+
+[[/assets/img/gmg-386.jpg]]
+
+I might give the base housing another spray, or use some POR
+chassis coat on it.

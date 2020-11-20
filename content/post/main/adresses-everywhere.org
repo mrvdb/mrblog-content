@@ -1,0 +1,55 @@
+#+title: Adresses everywhere
+#+categories[]:
+#+tags[]:
+#+draft: true
+
+Experiences during ipv6 implementation on local network:
+- providers lack quite a bit of knowledge, at least in the first line
+  support, which means getting things checked or changed will take
+  longer than usual;
+- some devices just dont support ipv6, like printers and scanners
+  which connect to the network or voip gateways
+- because what you effectively do is create a second network on top of
+  the existing one, everything gets complexer; making things ipv6 only
+  is still out of the question, so be prepared to deal with extra work
+- dns resolving will be slower, it may not be much but it will be
+  slower because there must now be at least an attempt to check if the
+  connection should use ipv4 or ipv6.
+- computer support is mostly flawles, both windows, android, ios and
+  linux work basically out of the box.
+- the amount of addresses you get can get quite high:
+  - if you use privacy extensions (windows, android and ios do by
+    default) you already get at least 3 addresses for each interface
+    (link local, the assigned prefix+mac address generated one and the
+    one temporarily generated for you for privacy reasons)
+  - more addresses come in for various reasons:
+    - some devices create private networks of their own (the Nest
+      thermostat for example)
+    - the temporary addresses stay around in the output of ifconfig
+      and ip addr for a while after they have expired.
+- voip migration seems pretty difficult still, because the whole
+  traffic bundle should exist on 1 protocol (either ipv4 or ipv6)
+- the way addresses should be assigned has not converged yet, but
+  dhcpv6 seems to be the loser in the game, that is it won't be used
+  for address management as such, but many implementations (such as
+  the one in openwrt firmware) also implement the router
+  advertisements under the same name, so in a way the software is
+  dhcpv6 = ra+dhcp
+- having worked with ipv4 for so long is a threshold, because many
+  things are just different; mostly better, but different
+- There is a whole set of new problems which surface, which may or may
+  not be my own incompetence, but nevertheless I ran into them:
+  - if the ipv6 routing to the outside screws up, the local network
+    suffers somehow, even though our config is as simple as it can
+    get, this should not have happened
+- the toolset for ipv6 is still messy and different per distribution
+  (rdisc6 is ndisc6 on arch linux, the syntax for traceroute is
+  different per distro etc.) Not a big problem, but confusing in the
+  beginning.
+
+
+*** First header
+*** Second header
+
+
+* Notes                                                                              :noexport:

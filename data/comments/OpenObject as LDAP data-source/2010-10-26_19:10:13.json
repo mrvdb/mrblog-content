@@ -1,0 +1,12 @@
+{
+  "_id": "940370873",
+  "_thread": "1430919137",
+  "_parent": null,
+  "name": "mrb",
+  "email": "mrb@hsdev.com",
+  "message": "<p>Sounds like you need to define an odbc datasource for the sql backend of slapd.</p>",
+  "date": "2010-10-26T19:10:13Z",
+  "ip": "213.125.12.138",
+  "spam": "false",
+  "deleted": "false"
+}

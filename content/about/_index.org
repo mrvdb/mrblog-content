@@ -1,0 +1,45 @@
+#+title: About
+#+layout: page
+
+The site /MrBlog.nl/ is my personal entry point to what I do on the web. It is mostly for myself to
+experiment with things while pretending to be a blog.
+
+* About me
+Here's a list of info and places where I can be found; these change quite a bit, so this place tries to be up to date with the current set:
+
+- email :: [[mailto:m@rcel.van-der-boom.nl][m@rcel.van-der-boom.nl]]
+- gpg key fingerprint :: =77DD A1B6 8D04 792A 8F85 D855 235E 5C8C F5E8 DFFB=
+- gpg public key :: [[public.key.txt]]
+- keybase identity :: [[https://keybase.io/mvanderboom][https://keybase.io/mvanderboom]]
+
+- microblogging ::  [[https://mastodon.nl/@mrb][@mrb@mastodon.nl]]
+- picture stream :: [[https://pixelfed.social/mrb][@mrb@pixelfed.social]]
+- github :: [[https://github.com/mrvdb][mrvdb]]
+
+* About this site
+I try to keep the main blog stream usable, but everything else on the site may be in limbo at any time. The site is used as an ongoing project to learn to use new languages and tools.
+
+It started out as a [[https://movabletype.org/][moveable type]] site in 2003, when I was developing [[https://en.wikipedia.org/wiki/Xaraya][Xaraya]] I ate my own dogfood and used that.  I had a tangent of using [[http://wordpress.org][Wordpress]] (2 different branches of it, actually) for a dedicated [[https://cobra.mrblog.nl][Cobra build log]] and have since merged those posts into here as well.
+
+The org-mode era started around that time when I used =org2blog= after moving from OSX to Linux. Almost within a month I dropped wordpress and replaced it with [[https://jekyllrb.com][Jekyll]]. As I've never like ruby as a language I changed that to [[https://jaspervdj.be/hakyll/][Hakyll]] which is a Haskell powered static blog engine. Maintaining the haskell site was easy content wise, but maintaining the actual blog program was hard, so I moved over all content to [[https://gohugo.io][Hugo]]
+
+This is where we are now.
+
+To build the site I have borrowed a number of tools and resources from others. I try to keep a complete list of them complete with links back to them:
+
+- blog system is [[https://gohugo.io][Hugo]];
+- hugo theme is based on  [[https://github.com/chipzoller/hugo-clarity][Clarity]];
+- all files are edited with the [[http://www.gnu.org/software/emacs/][Emacs]] editor;
+- I use [[http://git-scm.com][git]] to publish the blog to my server and to a repository on
+  [[https://github.com/mrvdb/mrblog][github]];
+- Content is mostly written in [[http://orgmode.org][orgmode]] or [[http://daringfireball.net/projects/markdown/][markdown]];
+- Bootstrap is dependent on the [[http://jquery.com][jquery]] library, but I use it directly
+  too for the live mastodon feed and the search function;
+- the site is served with [[http://nginx.org][nginx]] on a machine running [[https://www.parabola.nu/][Parabola]]
+  GNU/Linux which is a derivative of [[https://archlinux.org][Arch Linux]] with all non-free
+  components removed;
+
+If you feel that credit for one of your programs should be in this
+list, let me know.
+
+I keep an [[/about/issues/][issue list]] for this site on a separate page.

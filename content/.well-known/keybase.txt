@@ -1,0 +1,72 @@
+==================================================================
+https://keybase.io/mvanderboom
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mrblog.nl
+  * I am mvanderboom (https://keybase.io/mvanderboom) on keybase.
+  * I have a public key with fingerprint 77DD A1B6 8D04 792A 8F85  D855 235E 5C8C F5E8 DFFB
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "77dda1b68d04792a8f85d855235e5c8cf5e8dffb",
+            "host": "keybase.io",
+            "key_id": "235e5c8cf5e8dffb",
+            "kid": "0101ae528f2db12e3c0dd36bdaf962a29c4769cf7e6edd8a9a36bec90a4b646c6b170a",
+            "uid": "ace1e5272d9f14b6a4d71b4d27329119",
+            "username": "mvanderboom"
+        },
+        "revoke": {
+            "sig_ids": [
+                "42916e391970bca5b6238a030de6d04378338759dbe54d79450b151a3d590adf0f"
+            ]
+        },
+        "service": {
+            "hostname": "mrblog.nl",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1424881640,
+    "expire_in": 157680000,
+    "prev": "3fd3cf01758a3d33c65ba966528d09cc4e9ec364b75a6b1a7ea84016ab9dbd50",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFtkltoFUcYx/ckWmvA20NbL6notNoiUWd2dmZ2TjASG9qHFKkmscXiCXPbkzXJ
+7smek5NqFBRE25KGQKGUxgYftIpKfNBCH1rbgoitJSL0pQ14ffCGGonRKAjOBn1z
+X4b95v/9vv/8ZwZmVToVmbXvDzxxHHUgc/6WdJrvPh7rBTLW20C2F7SbqSUIo7xJ
+CkkYlUAWMKa1QJL6GnqMu8IPfKJ9QlxMDFG+CojxdRBIUAPa4mLaYTFSFM2qMLY1
++9Maalt9hb59agMiiIQhrh+4WiLXYAW1xlRqEXDqCpcrj1GuAmao0doXXNhNozgU
+nqQeVVQiBoXFdU/hhDLI0pireYCsQniaIelpl2GXI8RTYdEkkeg0Vt1ZFpE2iYzj
+TrCzBiSmHLebNIRimLe+iyD7OfBsHzWYI86gVIJI6mJfQAy1oTYUzHyMfUa4lobY
+YdwjUCKCBNbEmtQBDMAWy7ZDy6GagqdBvTSQyI44vyrqsL4KSVyKVdxhy22lUqGY
+TS2VthVSXY+RrS8IrTKMtL0j21E2STGMI5BFVqlKYYpEnuv5PqIerAHmi0KYmNYw
+VRBGfWi/dI4pWyTOBRqrACJGfGsWY0WJFJxSexcacqU8w43C1JOMCJuyYEb4HkRU
+SHtWTSBID9UVxSDLrE+Rt0wbWyRK3YkBO6u+ylRPczIVzmvTK9J35lTNnPvy8Q01
+zXhWHc658+/3+wbf3VNZP8m/nFgx1LD72NJLP3T9vGlu6b/+MwtvL/ukZeUHa+nK
+TVU3v17y+4dtOXC9hjd8t0Ttv7qnPz99cvHupz3rxs605y6enp17tPGPwUezZtyr
+O/pnxwIw7c79RrV36FzjidHPWqi7ZrPTUv96y8iO88cfji/trj10qiH4pb7SGf/2
+yJvPen4c+Kh/6/99401idOIs+7h2RaL+mug7+N7gRbZwuO9m9tTfhx9cG+7dgZev
+v/bTG09O6MbmuqYbOjc6OXbhwci+zW9/s2hDbfOFk/98ml09Z1HXyOX5D3nn+K9v
+zZx3b93p4cV7Q7Er8zis2/Lb9kM38tW1VyY27L/V9s5z
+=HfYw
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mvanderboom
+
+==================================================================

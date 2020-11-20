@@ -1,0 +1,9 @@
+#+title: First itch scratched
+#+tags[]: coding xaraya
+
+Brought back the metaweblog api module and activated it on this blog.
+
+
+The metaweblog api in Xaraya is incomplete, but the first
+result is there: multiple category support, directly from the blog
+client. (This post is in two for example)

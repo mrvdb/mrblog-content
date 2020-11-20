@@ -1,0 +1,12 @@
+{
+  "_id": "940370859",
+  "_thread": "1430919137",
+  "_parent": null,
+  "name": "Simon Vass",
+  "email": "svass@etech.ug",
+  "message": "<p>I think the main difference is I used the script inside openldap openldap-2.4.23/servers/slapd/back-sql/rdbms_depend/pgsql/backsql_create.sql which is slightly different from yours.</p>",
+  "date": "2010-10-26T17:06:31Z",
+  "ip": "41.210.162.90",
+  "spam": "false",
+  "deleted": "false"
+}

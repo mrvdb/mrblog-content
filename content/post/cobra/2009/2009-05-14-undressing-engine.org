@@ -1,0 +1,18 @@
+#+title: Undressing engine
+#+tags[]: cobra engine
+
+Having ordered a boat-load of engine-related parts, I started to
+prepare the engine for it. This consists mostly of removing parts from
+it and cleaning it up.
+
+
+[[/assets/img/gmg-315.jpg]]
+
+[[/assets/img/gmg-316.jpg]]
+
+The exhaust headers, thermostat outlet and the flexplate all need
+to be replaced by specific parts, either specifically made to fit the
+GD (like the exhaust headers) or modified to fit into the engine
+bay.
+
+[[/assets/img/gmg-317.jpg]]

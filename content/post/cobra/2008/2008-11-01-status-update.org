@@ -1,0 +1,58 @@
+#+title: Status update
+#+tags[]: front suspension garage info
+
+#+BEGIN_QUOTE
+It's been 117 days since my last confession...
+#+END_QUOTE
+
+So, perhaps a little status update is in order. Although I [[/2007/12/declaring-garage-finished.html][declared
+the garaged finished earlier]] there's always something that needs to be
+finished/improved. So, this summer we placed 2 new windows in the
+south wall.
+
+
+[[/assets/img/gmg-350.jpg]]
+
+
+With the help of [[http://www.rousse.nl][Peter Rousse]] new isolation was placed, and the wall
+was plated with Keralit panels.
+
+
+[[/assets/img/gmg-351.jpg]]
+
+Although not a very big job, it always takes more time than originally
+planned. And yet again, I forgot to take a picture of the finished
+project!
+
+Blogging wise, time was spent migrating from [[http://blogger.com][Blogger.com]] [[http://wordpress.org][Wordpress]]
+installation. This allows me to use all the server stuff I already
+have in place in the office anyway and gives me a bit more control
+over the blog. I also got fed up with google analytics slowing the
+blog down even further than I do myself with all the pictures.
+
+Wordpress also gives me a couple of extra options which would be
+harder to do at blogger:
+- [[http://www.bravenewcode.com/wptouch/][iphone specific theme]]
+- support for pages and posts within my ecto blogging client;
+- support for both categories and tags;
+- more flexible uploads which I'll need shortly.
+
+I have tried to keep all URLs the same where possible. All feeds and
+links should still work as they did on Blogger. I had to sacrifice the
+'/Followers/' widget and the '/Profile details/' which
+are Blogger specific items. There's some work left to cater for
+Internet Explorer users (although they should use a better browser
+anyway).
+
+Work on the cobra has been a bit slow, partly due to
+the above. All donor parts are basically done and waiting for me to
+put them on to the chassis. For the front-end I assemble the uprights,
+at first a bit baffled why the ball joints did not fit.
+
+[[/assets/img/gmg-352.jpg]]
+
+Took me a bit to realise there was still a part of the old ball joint
+attached to the upright which I apparently thought it was part of the
+upright. Other than that, quick job.
+
+[[/assets/img/gmg-353.jpg]]

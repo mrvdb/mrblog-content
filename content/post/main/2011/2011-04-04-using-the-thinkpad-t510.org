@@ -1,0 +1,88 @@
+#+title: Using the Thinkpad T510
+#+tags[]: thinkpad macbook review ubuntu
+#+draft: true
+
+
+I've elaborated a bit in a previous post about my dislikes of the way
+Apple seems to be heading. One of the consequences I took from that
+observation is that replacement of my laptop was not going to be
+another macbook.  Finding something comparable was not trivial.  After a
+couple of weeks I've settled on a Thinkpad T510, type 4384GEG. This
+blog entry details some of my finding of the process of acquiring it,
+configuring and using it for the first two weeks.
+
+Lenovo has a complex and long list of different models. Of the T510
+they have at least 10 base types, designated by a number of 4 digits
+(mine is 4384) and for each base type there are one or more subtypes.
+So, loads of choices. Lenovo has apparently a reference document
+=tabook.pdf= which supposedly lists all available models; I stopped
+counting after 50, it's way more than that.  Ironically the model
+which I eventually ordered is not in there.  On top of all this there
+are so called CTO (Customized To Order) models, but these seem only
+available for the US market.
+
+I spent literally 5 or 6 hours going over models matching my specs,
+trying to decipher which ones were actually available for me, meaning
+in the Netherlands or, if not possible, within Europe. After having
+selected the model, another 3 hours was spent to locate a place where
+they actually had /some/ thinkpad available in a showroom, meaning I
+could go visit and have a touch. I ended up with two potential
+suppliers, one of which stopped answering emails after my second
+question. Probably because they found out I was not going to order 50
+machines.
+
+The above was not what I was used to. Apple hardware is available
+everywhere, for the same price, and with a good chance of being in
+stock, so finding a Macbook is pretty much a no-brainer. Although the
+fact that the prices are fixed is probably not such a good thing, in
+practice it saves quite a bit of time.
+
+I was over two weeks into the 'buying a new laptop'-process and I
+hadn't even placed an order or seen a machine yet, because I was
+waiting on the one showroom I could find which would have a T510 or
+W510 in their showroom. Ordering the machine was pretty easy, because
+I had a full specsheet. Expected delivery time: 21 days. Sigh.
+
+[...skip 20 days...]
+
+On the day it was promised the order came in. Bonus points!
+
+My macbook was dying so I wanted to move to the T510 as quickly as
+possible. The process I had in mind was this:
+1. Install 64-bit Ubuntu 10.10 on the harddrive (well, after wiping it
+   clean of windows 7 and whatever else was on there)
+2. Move the SSD disk from the macbook as second disk into the t510 temporarily
+3. Move over and check my home dir and settings, install and recompile
+   applications along the way; I was expecting this to take a week or
+   so for my main needs and take whatever additional apps and
+   configuration during usage;
+4. Clear the SSD when done;
+5. Resize the harddisk partion of standard lenovo disk to be as small
+   as the SSD;
+6. Copy the partition over the the SSD;
+7. Swap the HDD out and replace with the SSD;
+8. Consider using the HDD as second drive in the DVD bay.
+
+It took almost a week indeed, no problems worth mentioning. What is
+worth mentioning though is that to swap harddisks in a Macbook pro you
+need to remove something like 24 (very small) screws, replace a bit of
+tape inside the machine and carefully pry of a couple of
+flatcable-connectors. For the lenovo there is literarlly *one* screw to
+remove to do the same process. *One!*
+
+During the above process I already found one quality of the t510 which
+I had hoped to be excellent: "The keyboard".  The keyboard is very
+good. If anything it's 'louder than the fashion' these days. There are
+many details on the t510 which tell me it has been deliberated
+engineered to accomodate keyboard users. Not that I also use the word
+/engineered/ rather than /designed/.
+
+
+
+
+
+9. detail some of the setup configuration for the hardware
+10. complain about the fuzzyness around the gps/3g chip in it
+11. list pros and cons of the machine, not directly comparing it to the
+    mbp
+12. conclude

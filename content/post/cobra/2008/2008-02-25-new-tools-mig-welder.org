@@ -1,0 +1,18 @@
+#+title: New tools: MIG welder
+#+tags[]: cobra tools
+
+I have been looking to buy a new welding machine for a
+while. Initially i had my mind set on a TIG machine, or one which
+could do both MIG and TIG. The lure of the very nice TIG welds got to
+me i guess.
+
+
+[[/assets/img/gmg-392.jpg]]
+
+A short talk with the guy at the excellent [[http://www.rustbuster.nl][Rustbuster]] shop quickly
+convinced me that MIG was the better option for my skill level;
+beginner, not to mention my wallet. A good TIG machine costs the
+world. After trying a few welds in their training room I went for the
+Cebora Bravo 155 machine. This was one of the rare occasions where i
+spent less money than originally envisioned. I am going to attend some
+welding course when time permits.

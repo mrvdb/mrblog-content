@@ -1,0 +1,36 @@
+#+title: Lowering the treshold
+#+tags[]: integration
+
+As mentioned earlier i like to treat weblogs as much as possible as a
+messaging activity. Not because i like messaging so much, but it has
+become the major activity in working the internet for me;
+communicating through news and mail. I find blogging interesting, but
+the threshold was always a bit high.
+
+
+
+Especially blogging on linux seems a tab bit less friendly than the
+excellent clients available for windows, and those didn't fit my
+pattern. What I did was basically the following:
+
+1. searched the net for email gateways to MT (found 3)
+2. literally threw the three files into one perl script ( they all had something i needed)
+3. reorganized and made it fit to be a baseline for me.
+
+So, phase 1 is complete, i can post in html with my email client to my
+blog (through a special email-address linked to it), selecting
+multiple categories.(by specifying them in a X-Categories custom mail
+header). Attachments to the email are automatically placed in the
+right location.
+
+
+Outstanding issues:
+
+1. a bit better extracting of the message (i left this posting as it
+   is generated, definitely not what you want for all postings, look
+   at the source of this page!)
+2. keywords, excerpt and extended entry support
+3. being able to comment through the same mechanism
+4. get the stylesheet of the blog as a template in the email composer (well, maybe not)
+5. Editting of posts
+6. specifying sites to ping

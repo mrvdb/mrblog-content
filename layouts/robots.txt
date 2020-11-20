@@ -1,0 +1,13 @@
+Sitemap: {{ .Site.BaseURL }}sitemap.xml
+
+User-agent: *
+Disallow: /feed/
+Disallow: /archive/
+Disallow: /assets/css/
+Disallow: /css
+Disallow: /files/
+Disallow: /assets/js/
+Disallow: /js
+Disallow: /tag/
+Disallow: /tags/
+Disallow: /page*/

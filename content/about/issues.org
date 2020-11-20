@@ -1,0 +1,67 @@
+#+TITLE: Issue list for this site
+#+LAYOUT: page
+#+OPTIONS: todo:t
+
+Because everything is orgmode now, I might as well keep an issue list
+for the site and publish it. Managing todo items is pretty well
+covered in org-mode ;-)
+
+**** TODO Move comment system to something static                                    :build:
+     :PROPERTIES:
+     :CREATED:  [2015-03-19 do 14:58]
+     :END:
+     To keep with the spirit of a Jekyll site, comments should really be
+     static as well.
+**** TODO Create a better way for handling remote images                             :build:
+     :PROPERTIES:
+     :CREATED:  [2015-03-19 do 15:23]
+     :END:
+
+     Similar to the gmg plugin, but more generic. Goal is to have a
+     quick way to insert a properly styled image, based on a class or keyword.
+**** TODO Make pages searchable                                                        :fix:
+     :PROPERTIES:
+     :CREATED:  [2015-03-19 do 15:27]
+     :END:
+     I think only posts are now handled by the search plugin
+**** TODO Make collections searchable                                                  :fix:
+     :PROPERTIES:
+     :CREATED:  [2015-03-19 do 15:28]
+     :END:
+**** TODO Adapt gmg preset to fetch small image and load large with lytebox        :improve:
+     :PROPERTIES:
+     :CREATED:  [2015-03-20 vr 16:12]
+     :END:
+**** TODO Find some sort of automated link checker                                   :build:
+     :PROPERTIES:
+     :CREATED:  [2015-03-20 vr 16:13]
+     :END:
+**** TODO Improve rendering of TODO list                                           :improve:
+     :PROPERTIES:
+     :CREATED:  [2015-03-21 za 12:25]
+     :END:
+**** TODO Configure multiple formats for mrblog.nl blog postings                     :build:
+     :PROPERTIES:
+     :CREATED:  [2015-03-18 wo 09:58]
+     :END:
+
+     Now all source is valid org-mode we have a plethora of nice options:
+     - deliver original source format (org-mode)
+     - pdf format        (for printing)
+     - openoffice format (for additional editing)
+     - plain text format (for email)
+
+     In the jekyll spirit, this should really all be generated statically
+     and published in the same way as org->html For the latter we use
+     org-ruby.
+
+     See also: https://github.com/fauno/jekyll-pandoc-multiple-formats
+**** TODO Convert everything to html5                                                :build:
+     :PROPERTIES:
+     :CREATED:  [2015-03-26 do 18:51]
+     :END:
+**** DONE Set mimetype at server for orgmode files
+     :PROPERTIES:
+     :CREATED:  [2016-08-02 di 18:04]
+     :END:
+     What should that be?

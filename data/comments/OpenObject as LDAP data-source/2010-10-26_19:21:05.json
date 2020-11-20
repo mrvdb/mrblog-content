@@ -1,0 +1,12 @@
+{
+  "_id": "940370877",
+  "_thread": "1430919137",
+  "_parent": null,
+  "name": "Simon Vass",
+  "email": "svass@etech.ug",
+  "message": "<p>I was wondering if case sensitivity is at work;</p><p>the data inside ldap_oc_mappings is</p><p>\"1\";\"inetOrgPerson\";\"ldap_inetOrgPerson\";\"id\";\"\";\"\";0<br>\"2\";\"organizationalUnit\";\"ldap_organizationalUnit\";\"id\";\"\";\"\";0</p><p>but the view is ldap_inetorgperson?</p>",
+  "date": "2010-10-26T19:21:05Z",
+  "ip": "41.210.162.90",
+  "spam": "false",
+  "deleted": "false"
+}

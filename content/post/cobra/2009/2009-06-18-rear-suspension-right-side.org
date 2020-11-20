@@ -1,0 +1,25 @@
+#+title: rear-suspension, right side
+#+tags[]: cobra rear-suspension
+
+Got the other oil seal and the thicker spacer in the mail today. As
+this new spacer is only 0.002" thicker than the one I used to
+determine the endfloat and that one seemed to give an endfloat of
+something indistinguishable from zero, I carefully measured the
+endfloat with the new spacer (0.150" thick).
+
+
+Apparently my measurements weren't that bad and I got a bit
+lucky. Measured endfloat now was 0.055 mm which corresponds to just a
+bit more than 0.002". This is just above the minimum. Phew!
+
+So, the all trial assembly to the complete rear end is now
+complete. What is left is the right-side camber shims (waiting for
+delivery) and measuring toe-in.
+
+One thing I noticed was that there is some play on the left side of
+the output-shaft of the diff. That is, i can turn the brake-disc a bit
+without a corresponding movement of the input shaft. The right side
+has this as well, but much less. I'll have to consult a jag expert to
+assess the limits on this. Mr. Haynes does only talk of *excessive
+crownwheel to pinion backlash* as the cause of a problem, but not how
+much of this backlash is allowed (maximally).

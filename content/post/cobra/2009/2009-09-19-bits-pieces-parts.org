@@ -1,0 +1,43 @@
+#+title: Bits, pieces, parts
+#+tags[]: cobra engine gearbox
+
+Fetched about half the ordered parts from speedon on friday. The other
+half still wasn't there! Come on GD, I've been waiting forever
+now. Apart from unpacking and identifying what is what I went about on
+a trial fitting spree.
+
+
+The gearbox was the bottleneck for delivery, (Tremec == GM so that may
+have something to do with it). It is here now but still without a
+flywheel and clutch assembly, so the only thing I can can do with it
+is temporarily mount it on the adapterplate and bell-housing and put
+it away for a while until the other bits arrive.
+
+[[/assets/img/gmg-273.jpg]]
+
+The throttle valve was converted to a cable operated one, but on
+assembly to the engine it touches some little pipe behind it. (what is
+that, anyway?) So, some adjusting to be done there.
+
+[[/assets/img/gmg-274.jpg]]
+
+[[/assets/img/gmg-275.jpg]]
+
+The engine mounts go together with an adapter plate. As assembly they
+are mounted onto the engine in two steps, easy peasy. I noticed the
+mount does not mount flat onto the adapter plate, should there be a
+rubber between them or is is just forced onto it? On final assembly
+I'll get back to that.
+
+[[/assets/img/gmg-276.jpg]]
+
+[[/assets/img/gmg-277.jpg]]
+
+And finally, the modified thermostat outlet. I'm going to polish that
+a bit later on to smooth out the welds a bit.  Also, there are
+basically 2 ways to mount the outlet. Shown here is the one where the
+outlet is most 'outwards'. If the outlet is turned 180 degrees it
+moves a bit inwards. When the engine goes in the chassis I'll have to
+revisit this too, judging what's best at that time.
+
+[[/assets/img/gmg-278.jpg]]

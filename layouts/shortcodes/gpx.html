@@ -1,0 +1,12 @@
+<div class="gpx-map-container">
+ {{ if .IsNamedParams }}
+   <div class="{{ if .Get "class" }}{{ .Get "class" }}{{ else }}gpx-map{{ end }}"
+     gpx-src="{{ .Page.Permalink }}{{ .Get "src" }}">
+   </div>
+
+ {{ else }}
+   <div class="{{ if len .Params | eq 2 }}{{ .Get 1 }}{{ else }}gpx-map{{ end }}"
+     gpx-src="{{ .Page.Permalink }}{{ .Get 0 }}">
+   </div>
+ {{ end }}
+</div>

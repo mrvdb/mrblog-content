@@ -1,0 +1,49 @@
+#+title: Rear hub buildup pt. 3
+#+tags[]: cobra donor-parts rear-suspension
+
+With all parts galvanized, a next step can be taken in building up the
+rear hubs. I can't complete the rear hubs completely because a spacer
+thickness needs to be determined to get the necessary endfloat in the
+hubs. Starting by putting the rear hub in a vice...
+
+
+[[/assets/img/gmg-305.jpg]]
+
+…and greasing up the bearing.
+
+[[/assets/img/gmg-306.jpg]]
+
+After placing the housing on top of the bearing and filling the cavity
+with lots of grease, the inner bearing can be driven in, but not
+completely. Formally, a jaguar specific tool (J15 or something like
+that) should be used to put pressure on the bearing. This tools
+contains a machined edge with a specific height (0.152" I think) which
+makes sure the bearing is not driven in completely. By leaving a
+little bit of room a (large) endfloat can be measured and from there
+the necessary spacer thickness can be calculated. Not having this tool
+I ordered the thickest spacer (0.148") for an alternative procedure.
+
+[[/assets/img/gmg-307.jpg]]
+
+With this spacer on top of the inner bearing the whole hub was put
+under the press to drive in the bearing. When the spacer is flat with
+the bearing the endfloat can be measured.
+
+[[/assets/img/gmg-308.jpg]]
+
+In my case the endfloat was 0.016" The target endfloat is between
+0.002" and 0.006", aiming at the average 0.004". So, instead of the
+0.148" spacer I would need a 0.148" - 0.012" = 0.136" which is exactly
+the size I took out of the donor part, so I can reuse that one.
+
+This result was expected for one hub only though. One of the hubs [[/2008/04/crack-in-the-pot.html][had
+to be replaced]] because of a crack. It is likely that this hub has
+different dimensions and another size spacer will be needed. Doing the
+same procedure for the other hub revealed that the 0.148" spacer would
+lead to an endfloat of near zero ?!?
+
+Hmm...
+
+So, I would need a spacer with a minimum thickness of 0.150" (leading
+to the minimal endfloat of 0.002") This spacer *used to* exist, but
+apparently not anymore. Need to sleep on this one what to do here.

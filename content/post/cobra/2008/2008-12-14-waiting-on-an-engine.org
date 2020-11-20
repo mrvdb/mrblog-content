@@ -1,0 +1,24 @@
+#+title: Waiting on an engine
+#+tags[]: cobra engine tools
+
+
+With the engine on the way, I went to [[http://buitelaar.nl][Buitelaar machinehandel]] to pick up an
+engine stand and crane and some other things which had been on my
+shopping list for a while. Combined it was worth a trip. If you're a
+"/tool nerd/" that shop is definitely worth a visit. Don't
+forget the drool bib.
+
+[[/assets/img/gmg-322.jpg]]
+
+I went for the el cheapo option on the stand and crane; this showed
+during assembly. I had to augment the bolt pack inside with quite a
+few to get the things assembled, but alas it's there now.
+
+While I was there I noticed a little gadget which seemed perfect to
+set the camber and castor for the suspension.
+
+[[/assets/img/gmg-323.jpg]]
+
+It's capable of doing both absolute and relative angle measurements
+and has a magnetic base. Sounds perfect in theory. I'll report back on
+how the thing works out in practice.

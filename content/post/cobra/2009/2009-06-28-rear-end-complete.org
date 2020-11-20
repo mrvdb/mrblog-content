@@ -1,0 +1,60 @@
+#+title: Rear-end complete?
+#+tags[]: cobra front-suspension rear-suspension
+
+Having the rear-end in 'concept' I started the final assembly using
+all new nuts and using the appropriate torque required. Where
+applicable I'm using the nord-lock washers instead of, or in addition
+to normal washers.
+
+
+[[/assets/img/gmg-295.jpg]]
+
+I've got a bit of a routine by now for the final assembly of a part of
+the car. Roughly it goes like:
+
+ 1. clean all the parts;
+ 2. put on the appropriate (nord-lock) washer;
+ 3. put some copper grease on the threads;
+ 4. hand-tighten the nuts;
+ 5. get out the torque-wrench;
+ 6. get back into the office to look up the torque requirements (optional step in theory, I always forget what the torque was);
+ 7. torque em-up;
+ 8. mark with nail-polish that it's done.
+
+[[/assets/img/gmg-296.jpg]]
+
+(and take some pictures in between all that)
+
+So, what's left for the rear end?
+
+ * I want to replace the straight grease nipples on the Upper Joints
+   with bended ones, as the straight ones seem unreachable, at least
+   with my grease gun;
+ * need to double check the torque on the big castellated nuts at the
+   end of the drive-shafts keeping the hub in place, 75 Nm seems a bit
+   low;
+ * the original jag had some protective covers for the drive shafts,
+   should I fit these? They seem a bit flimsy to me;
+ * mount the whole thing to the chassis obviously.
+
+
+I think that is about it.
+
+Having both the hubs completed, I wanted to do a quick measurement of
+rear toe-in (or, let's hope not, toe-out). So, clamped the laser to
+both hubs and marked the two projections on the garage-door.
+
+[[/assets/img/gmg-297.jpg]]
+
+Result: a bit more than 5mm overall toe-in over 4 meters. It's on the
+good side of the scale at least! (If it had not been I would not have
+known how to correct it BTW). The value seems a bit on the low end of
+the acceptable range, but once the rear-end is in the chassis, I'll do
+some more detailed measurements.
+
+Rest of the day was filled with entertaining some friends coming over
+and a couple of minor jobs, one of which was to paint the upper ball
+joints as they started to show some rust. We can't have that,
+obviously!
+
+[[/assets/img/gmg-298.jpg]]

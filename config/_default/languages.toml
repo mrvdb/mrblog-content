@@ -1,0 +1,15 @@
+
+# [en]
+#   title = "MrBlog"
+#   LanguageName = "English"
+#   weight = 10
+
+# [nl]
+#   title = "Clarity"
+#   LanguageName = "Nederlands"
+#   weight = 15
+
+# [pt]
+#   title = "Claridade" # just for the sake of showing this is possible
+#   LanguageName = "Português"
+#   weight = 20

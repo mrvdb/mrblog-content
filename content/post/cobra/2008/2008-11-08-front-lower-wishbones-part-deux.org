@@ -1,0 +1,26 @@
+#+title: Front lower wishbones part deux...
+#+tags[]: cobra donor-parts front-suspension
+
+Last week I got the last two missing thrust washers for the front
+lower wishbones. Eager to do something I assembled the left side at
+the front. Should have been an easy job, but I had a hard time putting
+the inner thrust washers in, because the wishbone is a '/GD-fit/'. Took
+me the best part of an hour which should have been a minute job.
+
+
+[[/assets/img/gmg-348.jpg]]
+
+The other wishbone is even worse, something which I [[/2008/07/04/front-lower-wishbone-buildup.html][already noticed]]
+when fitting the GD brackets to them. I think I'll have to construct
+some sort of temporary press to push the wishbone arms a bit apart to
+be able to fit the right side.
+
+On the other hand, pressing the water deflectors on to the uprights
+*was* an easy job, using the press.
+
+[[/assets/img/gmg-349.jpg]]
+
+I'm running out of nordlock washers, so I'll order a few next
+week. Once I have them I can finish the whole front-end I guess. I had
+planned to do the rear-end first, but I think I'll [[http://andysgd427.blogspot.com/search/label/Front%20axle%20rear%20axle][create the same
+wheelbarrow]] as Andy did.

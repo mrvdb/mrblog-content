@@ -1,0 +1,12 @@
+{
+  "_id": "940370889",
+  "_thread": "1430919137",
+  "_parent": null,
+  "name": "mrb",
+  "email": "mrb@hsdev.com",
+  "message": "<p>ldap_entries is a *view* not a table (in my implementation) Perhaps reread the last few paragraphs in the post on this?</p>",
+  "date": "2010-10-26T20:26:03Z",
+  "ip": "213.125.12.138",
+  "spam": "false",
+  "deleted": "false"
+}

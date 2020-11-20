@@ -1,0 +1,12 @@
+{
+  "_id": "940370876",
+  "_thread": "1430919137",
+  "_parent": null,
+  "name": "Simon Vass",
+  "email": "svass@etech.ug",
+  "message": "<p>Woops typo spotted, now getting a bit further.</p><p>==&gt;backsql_load_schema_map()<br>backsql_load_schema_map(): oc_query \"SELECT id,name,keytbl,keycol,create_proc,delete_proc,expect_return FROM ldap_oc_mappings\"<br>backsql_load_schema_map(): error executing oc_query: <br>Return code: -1<br>   nativeErrCode=7 SQLengineState=S1000 msg=\"ERROR:  permission denied for relation ldap_oc_mappings;<br>Error while executing the query\"</p>",
+  "date": "2010-10-26T19:16:25Z",
+  "ip": "41.210.162.90",
+  "spam": "false",
+  "deleted": "false"
+}

@@ -1,0 +1,145 @@
+/* Use to adjust everything except sass and css varibles, those should go into _override.sass */
+h1,h2,h3,h4,h5
+  font-weight: bold
+
+
+/* We use pages which do not need the sidebar/sharing and other post related stuff */
+.page
+ grid-template-columns: 100% 1fr
+
+/* Disable color mode switch for now, make sure the config priority is on the white one for now */
+.color_mode
+  display: none
+
+.posts
+  margin-top: 0
+
+.content
+  padding-top: 3rem
+
+/* I like the drop shadows */
+@mixin shadow
+  /* Do shadow in webkit and gecko rendering engines */
+  -webkit-box-shadow: #888 10px 10px 5px
+  -moz-box-shadow: #888 10px 10px 5px
+  box-shadow: #888 10px 10px 5px
+
+figure .image-scalable,
+.post_item p img,
+article img
+    @include shadow
+    max-width: 98%
+    margin-left: auto
+    display: block
+
+.ns
+  box-shadow: none
+
+.fl
+  float: left
+
+.fr
+  float: right
+
+.fl + p.img_alt,
+.fr + p.img_alt
+  display: none
+
+/* tag styling */
+.tags,
+.post_tag
+  text-transform: lowercase
+  background-color: #777
+  border-radius: .25em
+  margin: 0.1em
+  margin-right: 0.5em
+  padding-top: 0
+  padding-bottom: 0.1em
+  padding-right: 0.3em
+  padding-left: 0.35em
+  font-size: 12px
+
+.tags,
+a.post_tag
+  color: #{$light}
+
+.footer
+  position: fixed
+  right: 0
+  left: 0
+  bottom: 0
+  opacity: 0.90
+  margin: 0
+  padding: 0
+  background-color: #{$bg}
+  color: #{$light}
+
+/* Create space for the footer */
+article,
+.pagination
+  margin-bottom: 80px
+
+/* Adjust the spacing for lists */
+.post_content ol,
+.post_content ul
+  padding-left: 2.25rem
+
+li p
+  padding-top: 0
+  padding-bottom: 0
+
+/* Correction for the gpx mapping
+/* - set the height, otherwise the map won't show at all
+/* - use a shadow on the container, but not on the images inside
+/* - disable the max-width on the svg, otherwise it wont show
+.gpx-map
+  height: 800px
+
+div.gpx-map-container
+  @include shadow
+  margin-bottom: 1rem
+  margin-top: 1rem
+
+.gpx-map-container img
+  box-shadow: none
+
+.gpx-map-container svg
+  max-width: none
+
+// I use definition lists sometimes
+dl dt
+  font-weight: bold
+
+dl dd
+  margin-left: 1rem
+
+.nav_body
+  flex: none
+
+.mt-body
+  font-size: 70%
+
+img.logo
+  border-radius: 5px
+  width: 50px
+  margin-right: 20px
+
+.title
+  font-size: larger
+
+// Archive pages
+.archive
+  font-size: smaller
+
+.archive h2
+ margin-bottom: 0px
+
+.archive h3
+  margin-left: 2rem
+  margin-bottom: 0px
+  margin-top: 5px
+
+.archive h4,
+.archive .post_meta
+  margin-left: 4rem
+  margin-top: 0px

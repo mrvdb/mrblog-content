@@ -1,0 +1,21 @@
+#+title: Running out of air
+#+tags[]: cobra oops tools
+
+I am not sure what happened exactly but last week the power went
+out and I could not get it back on. The earth leakage circuit breaker
+activated and kept doing that when reset. It turned out the compressor
+was the cause. Unplugging it allowed the power to come back on. This
+weekend I had the time to figure out what had happened. Opening up the
+case and looking inside did not give much hope:
+
+
+[[/assets/img/gmg-393.jpg]]
+
+While the cracked housing is bad, that didn't explain the earth
+leakage. Opening up the motor itself did though:
+
+[[/assets/img/gmg-394.jpg]]
+
+That's fried! I'm hesitant to just put another motor back in. I'm
+thinking of turning the whole compressor in and getting one back with
+a little more grunt and running on 3 phase current

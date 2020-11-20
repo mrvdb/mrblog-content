@@ -1,0 +1,13 @@
+#+title: Hidden hero
+#+tags[]: cobra tools
+
+Usually not visible, but I expect this tool will save the day more
+than once during the whole Cobra building process.
+
+[[/assets/img/gmg-432.jpg]]
+
+
+That is, taking a picture of some stupid mistake I made to explain it
+to someone who actually knows what he is doing and help me out. Also,
+good excuse to fiddle with mirrors taking a picture *of* the camera *with*
+the camera

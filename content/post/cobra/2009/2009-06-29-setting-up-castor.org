@@ -1,0 +1,30 @@
+#+title: Setting up castor
+#+tags[]: cobra front-suspension
+
+While the final castor setting is determined by personal preference
+after a test ride, the initial castor setting target is between 3 to 5
+degrees. The first step is to determine the amount of shims which will
+not push the two parts of the upper wishbone together and won't push
+them apart either.
+
+
+Starting with the original 5 shims (although I think the original
+shims were of different thickness) turned out to be ok. I also started
+with the original setup of 3 shims to the front and 2 shims at the
+back.  This gave me a 4.4° on the left side and 5.0° on the
+right side of the car.
+
+[[/assets/img/gmg-292.jpg]]
+
+[[/assets/img/gmg-294.jpg]]
+
+Leaving the left side of the car alone, I moved all 3 shims to the
+back and that gave me 4.5° on the right side.
+
+[[/assets/img/gmg-293.jpg]]
+
+Should be close enough for now. The measurement is sort of 'an
+estimate of what it should be' at the moment. It does not really
+matter what the castor is (within reason obviously) as long as both
+sides are equal, we should be good to go. (Not that I have hands-on
+experience with this, it's all theory for me still)

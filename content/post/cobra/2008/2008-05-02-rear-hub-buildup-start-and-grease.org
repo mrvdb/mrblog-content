@@ -1,0 +1,32 @@
+#+title: Rear hub buildup start and grease
+#+tags[]: cobra donor-parts tools
+
+While waiting on the return of all the suspension components from
+the galvanizer, there is not much to do. One thing is to prepare the
+rear hubs for buildup.
+
+
+I started to put in the bearing tracks. The fulcrum ones are
+relatively easy.
+
+[[/assets/img/gmg-371.jpg]]
+
+The innner and outer bearing track is a different story though. Even
+with the proper bearing drifts it takes quite a bit of hammering to
+drive them home. After having done two, or rather one and a half i
+phoned the local garage with the question if i could use their
+press. That made it a lot easier! It did hurt a bit too see my hubs
+getting dirty again though.
+
+[[/assets/img/gmg-372.jpg]]
+
+Also did a bit of reading to choose a grease. I ended up with [[http://www.kroon-oil.com/en/products/catalogue/seg_aut/krgr/402/automotive/kroon-oil-greases/high-grade-grease-ht-q9][Kroon
+Oil Q9]] It had the words 'high grade' and 'automotive' on it, came with
+a free grease gun, which looks a whole lot easier than my current
+one....
+
+[[/assets/img/gmg-373.jpg]]
+
+and the stuff is blue! I'm sold.
+
+[[/assets/img/gmg-374.jpg]]

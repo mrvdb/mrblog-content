@@ -1,0 +1,30 @@
+#+title: Last bits of suspension to process
+#+tags[]: cobra donor-parts tools
+
+The rear hubs have been waiting for 2 parts to be galvanised; the
+water throwers. I bought these new as the originals were very pitted
+and dented.
+
+
+[[/assets/img/gmg-312.jpg]]
+
+It costs something like € 70,- to galvanise a box of parts. It does
+not matter if that box has 2 bits or is cramped full. So, I've been
+gathering things to fill the box with, but kind of struggled to get a
+reasonably filled box. As I do want to finish the rear end of the
+suspension soonish, the box was delivered to [[http://www.galvin.nl][Galvin]] to process. It
+should be back here within 2 or 3 weeks or so.
+
+[[/assets/img/gmg-313.jpg]]
+
+Not sure how I am going to fit the throwers onto the hub
+though. There is a small edge on the hubs over which the throwers
+should be 'clicked'. Obviously I do not want to damage the throwers so
+I'll either need to find a way to equalize the pressure over the
+circumference or heat it up so it sort of drops over it
+automatically. The edge seems to be smaller at the bottom than at the
+top, so heating it seems a plausible way to go.
+
+[[/assets/img/gmg-314.jpg]]
+
+Once I get them back, I'll give that a try first.

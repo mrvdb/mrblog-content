@@ -1,0 +1,12 @@
+{
+  "_id": "940370867",
+  "_thread": "1430919137",
+  "_parent": null,
+  "name": "Simon Vass",
+  "email": "svass@etech.ug",
+  "message": "<p>Hitting a new snag now. I install openldap with back-sql as per the instructions at <a href=\"http://www.darold.net/projects/ldap_pg/HOWTO/index.html\" rel=\"nofollow noopener\" title=\"http://www.darold.net/projects/ldap_pg/HOWTO/index.html\">http://www.darold.net/proje...</a></p><p>So now I am getting  nativeErrCode=0 SQLengineState=IM002 msg=\"[unixODBC][Driver Manager]Data source name not found, and no default driver specified\"</p><p>When I run slad from the commandline.</p><p>any thoughts?</p>",
+  "date": "2010-10-26T19:06:06Z",
+  "ip": "41.210.162.90",
+  "spam": "false",
+  "deleted": "false"
+}

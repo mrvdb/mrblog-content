@@ -1,0 +1,47 @@
+#+title: Completing the front hub
+#+tags[]: cobra front-suspension
+
+
+Back to the front again, completing the wheel hubs. First, put in the
+greased up bearing and press in the soaked oil seal:
+
+[[/assets/img/gmg-326.jpg]]
+
+
+[[/assets/img/gmg-327.jpg]]
+
+Then, put the disc and stub onto the stub axle.
+
+[[/assets/img/gmg-328.jpg]]
+[[/assets/img/gmg-329.jpg]]
+
+Grease up the other bearing and press this one in by hand. Put some
+more grease on top of the bearing.
+
+[[/assets/img/gmg-330.jpg]]
+[[/assets/img/gmg-331.jpg]]
+
+Put the D-washer on top and hand-tighten the nut while turning the
+disc.
+
+[[/assets/img/gmg-332.jpg]]
+[[/assets/img/gmg-333.jpg]]
+
+While turning the disc, torque up the nut up to 25ftlbs; the disc
+should still be able to turn albeit with some resistance. Loosen the
+nut by one flat and put on the locking cap and splitpin. I followed
+this procedure found at:
+[[http://www.bernardembden.com/xjs/hub/index.htm]] after trying to
+actually measure the endfloat.
+
+[[/assets/img/gmg-334.jpg]]
+[[/assets/img/gmg-335.jpg]]
+
+After that, I filled up the cavity with grease, which takes quite a
+bit of it! The new black caps dont come with a hole, so I drilled one
+in to be able to let the air out and being able to see when to stop
+putting grease in! Once it comes out, you're actually too late
+already, because it will keep coming out for 5 minutes more.
+
+[[/assets/img/gmg-336.jpg]]
+[[/assets/img/gmg-337.jpg]]

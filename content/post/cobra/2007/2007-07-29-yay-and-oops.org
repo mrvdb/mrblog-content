@@ -1,0 +1,27 @@
+#+title: Yay! and Oops!
+#+tags[]: cobra donor-parts oops tools
+
+Success on the pivot shaft:
+
+[[/assets/img/gmg-414.jpg]]
+
+
+Some careful sawing and using a vice to hold the puller slowly
+released the last bits from the pivot shaft.
+
+[[/assets/img/gmg-415.jpg]]
+
+Yay!
+
+On the other hand, trying to pull the stub axle from its carrier broke
+my puller:
+
+[[/assets/img/gmg-416.jpg]]
+
+Oops! I then took the carrier to the local garage where their press
+quickly persuaded the stub axle to come out. I must get me one of
+those too!
+
+All the donor parts are now disassembled, so the reconditioning of the
+diff is next. I ordered the gasket and a replacement pinion seal,
+let's hope that is all that is needed.

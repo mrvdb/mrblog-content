@@ -1,0 +1,28 @@
+#+title: Front lower wishbone buildup
+#+tags[]: cobra front-suspension
+
+Fitting the GD lower wishbone bracket to the wishbone seemed like a
+nice quick job. I layed out everything needed, took the obligatory
+picture ...
+
+
+[[/assets/img/gmg-357.jpg]]
+
+and did a trial fit, only to find out the bracket would not fit. (both
+of them in fact). In the end I had to put the wishbones under the
+press and squeeze it a bit to be able to get the bolts in. Let's call
+it an '/engineering fit/'.
+
+And the finished article:
+
+[[/assets/img/gmg-358.jpg]]
+
+I probably should have painted the other holes which are not used; I
+did not realise it at the time.
+
+Here's also a detail of the Nord-Lock washers I'm using. As a rule
+of thumb I'm adding around 20% to the specified torque numbers in the
+jaguar manual. With the nordlock-washers that should lead to about the
+same bolt tension.
+
+[[/assets/img/gmg-359.jpg]]

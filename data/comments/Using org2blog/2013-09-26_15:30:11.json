@@ -1,0 +1,12 @@
+{
+  "_id": "1059898496",
+  "_thread": "1430919227",
+  "_parent": "1059866811",
+  "name": "mvanderboom",
+  "email": "marcel@hsdev.com",
+  "message": "<p>Captions are fairly easy. Include a line</p><p>#+CAPTION: This text is the image caption.</p><p>before the image. As for references, perhaps the manual at <a href=\"http://orgmode.org\" rel=\"nofollow noopener\" title=\"orgmode.org\">orgmode.org</a> gives some insight. I'm fairly sure it is possible, but don't remember it by head.</p>",
+  "date": "2013-09-26T15:30:11Z",
+  "ip": "213.125.12.138",
+  "spam": "false",
+  "deleted": "false"
+}

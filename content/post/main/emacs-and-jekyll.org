@@ -1,0 +1,44 @@
+#+title: Jekyll support in emacs
+#+tags[]: emacs
+#+draft: true
+
+*** Making the process effective
+When writing articles, the activities basically consist of this boring
+list:
+1. Start a new file (based on a template)
+2. Jot down some points which I want to write about, make sure the
+   notes for myself get a =:noexport:= tag in orgmode;
+3. Fill in layout type (always post)
+4. Define some tags and other frontmatter material
+5. Start writing
+6. Save the file in the =_drafts= folder, give some thought about the filename
+7. Commit it to the local git repository
+8. When finished, move it to _posts, rename to something Jekyll wants
+   (Prefix with: 'yyyy-mm-dd-').
+9. Final checks and commit
+10. Git push
+11. - 35. Correct silly mistakes.
+
+To cover these boring bits, a quick search on '/jekyll mode emacs/' shows
+that others have done some work already:
+- [[https://github.com/diasjorge/jekyll.el][Emacs support for jekyll]] : support functions for working with
+     jekyll blog files.
+- [[https://github.com/nibrahim/Hyde][Hyde]] : major mode with front-end and git-support;
+- [[https://github.com/cinsk/jekyll-org][Jekyll with Emacs Org-mode]] : skeleton setup of a jekyll directory
+  with org-mode stuff preconfigured.
+
+The last assumes the conversion is done from within org-mode so that
+setup does not fit with what I have chosen to do. The first link is
+available as the =jekyll-el= package, so I'm using that as my starting
+point.
+
+
+** Points                                                                           :noexport:
+- overview of the emacs commands written; show highlighted sources
+-Content starts here
+
+*** First header
+*** Second header
+
+
+* Notes                                                                              :noexport:

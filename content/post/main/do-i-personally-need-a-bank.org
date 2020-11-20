@@ -1,0 +1,17 @@
+#+TITLE: Do I personally need a bank?
+#+tags[]:
+#+draft: true
+
+Content starts here
+
+*** First header
+*** Second header
+
+
+* Notes                                                                              :noexport:
+  Question to be answered: what happens if I stop using services of my
+  bank alltogether:
+  - work out some of the obvious cases like the types of accounts
+  - detail of some practical problems like paying suppliers and
+    receiving money from customers.
+  -

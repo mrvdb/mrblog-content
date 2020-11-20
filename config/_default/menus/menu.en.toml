@@ -1,0 +1,9 @@
+# Fill in menu items here
+
+[[main]]
+name = "About"
+url  = "/about"
+
+[[main]]
+name = "Archive"
+url  = "/archive"

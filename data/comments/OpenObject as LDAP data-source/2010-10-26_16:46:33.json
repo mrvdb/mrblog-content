@@ -1,0 +1,12 @@
+{
+  "_id": "940370858",
+  "_thread": "1430919137",
+  "_parent": null,
+  "name": "Simon Vass",
+  "email": "svass@etech.ug",
+  "message": "<p>Should</p><p><code>INSERT INTO ldap_attr_mappings(oc_map_id,name,sel_expr,from_tbls,join_where,expect_return) VALUES(1,'telephoneNumber','telephoneNumber',ldap_inetOrgPerson,'1=1',0);</code></p><p>read</p><p><code>INSERT INTO ldap_attr_mappings(oc_map_id,name,sel_expr,from_tbls,join_where,expect_return) VALUES(1,'telephoneNumber','telephoneNumber','ldap_inetOrgPerson','1=1',0); &lt;---Missing quotes</code>?</p><p>I now have another missing not null column param ;-)</p><p>ERROR:  null value in column \"param_order\" violates not-null constraint</p><p>Let me look it up and adjust</p>",
+  "date": "2010-10-26T16:46:33Z",
+  "ip": "41.210.162.90",
+  "spam": "false",
+  "deleted": "false"
+}

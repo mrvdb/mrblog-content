@@ -1,0 +1,23 @@
+{{ $pages := .Pages }}
+{{ if .IsHome }}
+  {{ $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ end }}
+<div class="grid-inverse wrap content">
+  <ul class="posts" id="posts">
+    <!-- context changes inside the range!! -->
+    {{ if .IsHome }}
+      {{- range (.Paginate $pages).Pages }}
+        {{ partial "full" . }}
+      {{- end }}
+    {{ else }}
+      {{- range (.Paginate $pages).Pages }}
+        {{ partial "excerpt" . }}
+      {{- end }}
+    {{ end }}
+
+    <li>
+      {{- template "_internal/pagination.html" . }}
+    </li>
+  </ul>
+  {{- partial "sidebar" . }}
+</div>

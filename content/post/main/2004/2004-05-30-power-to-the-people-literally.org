@@ -1,0 +1,52 @@
+#+title: Power to the people, literally
+#+tags[]: ideas
+
+Distributed and peer 2 peer systems&amp;nbsp; seem to have found it's
+way into several applications:
+- instant messaging (icq, jabber, msn etc.)
+- source control (bitkeeper)
+- file and content sharing (kazaa and the likes)
+- personal content (weblogs)
+- connectivity (wifi grids)
+
+
+It is my belief that this trend is more general than in computing
+only. By its character the principles of distributed production and
+p2p delivery are just easier to implement in information technology
+than in other areas. The area in which the principle will have the
+most impact in the next decades is distributed energy management.
+
+We will, most likely based on a combination of solar/wind energy
+and fuel cells, produce our energy needs in a distributed manner,
+delivering surplus energy to micro-grids in our neighborhood which in
+turn delivers to the macro-grids in our town.
+
+The same advantages which hold in computing are also valid in energy
+production:
+- localisation: create energy based on where it is needed, not at the
+  place we have the largest factory;
+- reliability: the effect of a failure is only affecting a small area,
+  not a whole city, like last summer in the US;
+- choice: if i have a surplus of energy i can deliver it /peer-to-peer/
+  to someone of my choice;
+- customization: energy needs for everyone are different, smaller
+  <em>energy plants</em> controlled by the users, not the producers;
+
+Now that fuel-cells will start to appear in notebooks and cellphones
+the process has started; we're still at the /mainframe/ stage though,
+but the general outline of the things to come isn't hard to
+imagine. Each change in type of energy and type of communication has
+caused radical changes in the past, i fully expect this one to do the
+same.
+
+By its character the principles of distributed production and p2p
+delivery are just easier to implement in information technology than
+in other areas.... We will, most likely based on a combination of
+solar/wind energy and fuel cells, produce our energy needs in a
+distributed manner, delivering surplus energy to micro-grids in our
+neighborhood which in turn delivers to the macro-grids in our
+town. customization: energy needs for everyone are different, smaller
+energy plants controlled by the users, not the producers; Now that
+fuel-cells will start to appear in notebooks and cellphones the
+process has started; we're still at the mainframe stage though, but
+the general outline of the things to come isn't hard to imagine.

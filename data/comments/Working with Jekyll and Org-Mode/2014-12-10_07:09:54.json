@@ -1,0 +1,12 @@
+{
+  "_id": "1734585522",
+  "_thread": "1970496096",
+  "_parent": "1733791743",
+  "name": "mvanderboom",
+  "email": "marcel@hsdev.com",
+  "message": "<p>I don't, Jekyll does that automatically for me. Just put in the org file as source in the jekyll folder where you keep your blog postings, run jekyll as normal and the plugin converts the org files to html files, just like it would markdown files.</p>",
+  "date": "2014-12-10T07:09:54Z",
+  "ip": "213.125.12.138",
+  "spam": "false",
+  "deleted": "false"
+}

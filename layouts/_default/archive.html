@@ -1,0 +1,25 @@
+{{ define "main" }}
+{{ $pages := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
+<div class="grid-inverse wrap content">
+
+  <ul class="posts archive" id="posts">
+    <h1>{{ with .Site.GetPage "section" .Section }}{{ .Title }}{{ end }}</h1>
+    {{ range $pages.GroupByDate "2006" "desc" }}
+      <h2>{{ .Key }}</h2>
+      <ul>
+        {{ range .Pages.GroupByDate "January" "desc"}}
+          <h3>{{ .Key }}</h3>
+          {{ range .Pages.ByDate.Reverse  }}
+            <li class="post_content">
+              <h4 class=" post_title">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+              </h4>
+              {{- partial "post-meta" . }}
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

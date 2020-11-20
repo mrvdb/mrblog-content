@@ -1,0 +1,12 @@
+{
+  "_id": "940454579",
+  "_thread": "1430919083",
+  "_parent": "940370847",
+  "name": "mrb",
+  "email": "mrb@hsdev.com",
+  "message": "<p>A dmg would indeed be very nice. It's quite an effort to do so though, as claws depends on a lot of 'non-osx-y' things (gtk, xwindows etc.).</p><p>Is the claws version that is available through the macports collection perhaps an option as \"middle ground\"? It will still be compiled on your machine, but with the port system, some of the complexity of doing that is hidden.</p>",
+  "date": "2010-03-09T15:39:45Z",
+  "ip": "213.125.12.138",
+  "spam": "false",
+  "deleted": "false"
+}

@@ -1,0 +1,12 @@
+{
+  "_id": "940454585",
+  "_thread": "1430919137",
+  "_parent": "940370855",
+  "name": "mrb",
+  "email": "mrb@hsdev.com",
+  "message": "<p>There are some typos in there. For one, after the CREATE TABLE statement for the ldap_organizationalUnit table there is a semicolon missing, leading to the syntax error.</p><p>Not sure about the error 'schema a not found' you'll have to dig around a bit to see what's wrong there.</p>",
+  "date": "2010-10-26T16:44:21Z",
+  "ip": "213.125.12.138",
+  "spam": "false",
+  "deleted": "false"
+}

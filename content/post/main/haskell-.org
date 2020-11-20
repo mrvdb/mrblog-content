@@ -1,0 +1,46 @@
+#+title: Haskell
+#+categories[]:
+#+tags[]:
+#+draft: true
+
+Content starts here
+
+#+BEGIN_SRC haskell
+  -- Instance of class Eq ar those things that implement the == method
+  -- and the /= method.
+
+  class Eq a where
+    (==), (/=) :: a -> a -> Bool
+
+    x /= y = not (x == y)
+    x == y = not (x /= y)
+
+  -- Ord class is defined, based on 'Eq' premise using the 'Ordering' type
+
+  data Ordering = LT | EQ | GT
+
+  class (Eq a) => Ord a where
+    compare            :: a -> a -> Ordering
+    (<), (<=), (>=), (>) :: a -> a -> Bool
+    max, min           :: a -> a -> a
+
+    compare x y | x == y     = EQ
+                | x <= y     = LT
+                | otherwise = GT
+
+    x <= y = compary x y /= GT
+    x < y = compare x y == LT
+    x >= y = compare x y /= LT
+    x > y = compare x y == GT
+
+    max x y | x <= y = y
+            | otherwise = x
+    min x y | x <= y = x
+            | otherwise = y
+
+#+END_SRC
+*** First header
+*** Second header
+
+
+* Notes                                                                              :noexport:

@@ -1,0 +1,27 @@
+#+title: Slowly moving from dirty to clean
+#+tags[]: cobra donor-parts tools
+
+The amount of dirty parts is shrinking considerably now. Especially
+after blasting the parts that are 'ready for painting' look amazing.
+
+
+[[/assets/img/gmg-380.jpg]]
+
+It makes the parts almost look like there is a paint finish on them.
+
+[[/assets/img/gmg-381.jpg]]
+
+I also got my hands on a broken bench drill. It's a new machine but
+the motor does not start well. Bit of a gamble, but it sounds like the
+startup capacitor is either the wrong size or broken. It's too big for
+my multimeter so i can not be sure if it is Ok or not.
+
+[[/assets/img/gmg-382.jpg]]
+
+Opening up the motor itself revealed a loose wire?!? Seconds before
+the motor ran smooth, so i must have torn it loose on opening up the
+motor. Other than that, the motor looked fine. I also noticed the
+motor got quite hot when trying to get it to run, but i'm hoping that
+is the abnormal load on the secondary coil during the testing. If I
+can get this fixed by a capacitor replacement, i got a really good
+deal! If not, i got a lousy one.

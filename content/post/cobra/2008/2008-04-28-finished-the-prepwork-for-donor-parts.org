@@ -1,0 +1,22 @@
+#+title: Finished the prepwork for donor parts
+#+tags[]: cobra donor-parts tools
+
+Spent the better parts of two days with my hands in the blasting
+cabinet, peeking through a window which doesn't reveal a whole lot of
+what is inside, due to the dust.
+
+
+[[/assets/img/gmg-378.jpg]]
+
+After a while I fabricated a suction device from an old vacuum
+cleaner. That helped a lot, until the vacuum cleaner decided to short
+out and smoke a bit.
+
+[[/assets/img/gmg-379.jpg]]
+
+This morning I gathered all the parts and delivered them to
+[[http://www.galvin.nl][Galvin]] where I had the hand brake parts treated too. This time
+the parts will be yellow-passivated, because that will provide a
+better profile for coatings than the blue passivation. Got some
+compliments of the guy at the factory, he said the parts he usually
+got to treat looked /a bit different/

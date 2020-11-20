@@ -1,0 +1,27 @@
+#+title: Aiming for wheels
+#+tags[]: cobra front-suspension garage
+
+I am working towards a situation where i can fit wheels to the front
+temporarily, so the chassis can be positioned over the rear end, not
+unlike a wheelbarrow. After that I'll want to fit temporary wheels to
+the back as well because the garage needs to be cleared out by the
+20th of July. After we created the new floor, some cracks started to
+appear and I made an arrangement with the contractor for repairs this
+summer.
+
+
+[[/assets/img/gmg-285.jpg]]
+
+So, that means we'll need to clear out the whole garage, [[/2007/08/were-almost-there.html][again]],
+and having some wheels on the chassis makes that a whole lot
+easier. Ideally I want to have the suspension set-up completely by
+that date, but we'll see.
+
+One thing I noticed at the front was that the damper bracket opening
+was a bit smaller than the one on the left. This is probably caused by
+the welding process which puts strain on the metal and causes it to
+bend. We're talking 2 milimeters I think. With a piece of thread and
+two M12 nuts I carefully widened the bracket a bit, just enough to get
+proper clearance on the damper.
+
+[[/assets/img/gmg-286.jpg]]

@@ -1,0 +1,16 @@
+#+title: Opportunity: apt-get like program on windows
+#+tags[]: ideas
+
+As more and more open source software runs well on windows (something
+which has not always been that way to my great frustration), becomes
+more cross platform (e.g. [[http://www.xchat.org][xchat]], [[http://www.sodipodi.com][sodipodi]], [[http://gaim.sourceforge.net][gaim]], [[http://www.openoffice.org][openoffice]] ), i found
+myself needing an apt-get equivalent on windows.
+
+
+Usually windows versions of OSS are either file archives to be dumped
+into their install directory, or wrapped in a (big) windows
+installer. I [[http://www.google.nl/search?q=apt-get+win32][searched]] for a windows version for apt-get, but got not
+much to work with / from.
+
+I wonder why, can't be that difficult. Shame i have no credit left on
+my time account.

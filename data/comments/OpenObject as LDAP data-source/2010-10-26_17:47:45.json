@@ -1,0 +1,12 @@
+{
+  "_id": "940370860",
+  "_thread": "1430919137",
+  "_parent": null,
+  "name": "Simon Vass",
+  "email": "svass@etech.ug",
+  "message": "<p>it seems to be the <br>WHERE <br>    <a href=\"http://a.email\" rel=\"nofollow noopener\" title=\"a.email\">a.email</a>  ''  AND <br>    <a href=\"http://a.email\" rel=\"nofollow noopener\" title=\"a.email\">a.email</a>  '\"' AND <br>    a.type  =  'contact';</p><p>So I have subsituted it to. I take it this just filters out all the records without an email address and not type contact?</p><p>WHERE <br>    <a href=\"http://a.email\" rel=\"nofollow noopener\" title=\"a.email\">a.email</a>  IS NOT NULL AND <br>    a.type  =  'contact';</p>",
+  "date": "2010-10-26T17:47:45Z",
+  "ip": "41.210.162.90",
+  "spam": "false",
+  "deleted": "false"
+}

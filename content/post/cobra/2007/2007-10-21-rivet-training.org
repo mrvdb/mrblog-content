@@ -1,0 +1,22 @@
+#+title: Rivet training
+#+tags[]: cobra tools
+
+Ok, got a new tool which burned another hole in the wallet. Blind
+rivets are the things which come pre-installed for the chassis plate
+and the pre-drilled positions for the T-pieces in the brake-lines.
+
+
+[[/assets/img/gmg-401.jpg]]
+
+It's not trivial to make a good rivet I found out. The first thing you
+have to get right is the amount of shrinkage you want to introduce in
+the rivet. Too little and the rivet is loose, too much and it deforms
+too much.
+
+[[/assets/img/gmg-402.jpg]]
+
+The next thing to be aware of (at least in the aluminium rivets I
+bought for practice) is the speed at which you 'rivet'. Slow is the
+thing, apparently. If you go to fast the threads will be ruined. I'm
+waiting for delivery of the steel rivets to be used for attaching the
+brake-lines to the chassis.

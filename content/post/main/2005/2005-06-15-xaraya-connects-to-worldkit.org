@@ -1,0 +1,13 @@
+#+title: Xaraya connects to worldkit
+#+tags[]: integration xaraya
+
+For play, i constructed a couple of templates on the [[http://xaraya.com][Xaraya]] site to
+connect the [[http://brainoff.com/worldkit][Worldkit]] package to a xaraya installation to construct a
+[[http://xaraya.com/worldmap][geographical map]] (flash based) of the registered users on the Xaraya
+site.
+
+Worldkit uses an RSS feed with location information to construct an
+image where the data points are shown on a map. In doing so, of course
+the RSS feed can be subscribed to in the 'normal' way too, giving you
+an addressbook directly in your aggregator of all people who have
+provided their longitude and latitude information on the site.

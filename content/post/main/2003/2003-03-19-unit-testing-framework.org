@@ -1,0 +1,27 @@
+#+title: Unit testing framework
+#+tags[]: revision-control xaraya
+
+Last week we started implementing a unit testing framework for
+Xaraya, which is highly integrated with the bitkeeper repository.
+
+
+As of now it allows you to register testsuites and testcases which can
+be run once or repeatedly with =bk tests=
+
+I expected this to be an investment for the long run. The longer we
+used it, sometimes the tests would fail and we could fix things more
+quickly.
+
+To my surprise the tests started failing basically right
+from the beginning, even when very premature code was available. Both
+bugs in the testframework as in the codebase itself showed up
+immediately.
+
+I found that the crux to this is that having a test framework puts
+your mind in a /different state/. While developing you're trying to make
+things work, while writing tests you're trying to make things
+break. This combination has worked already in the early stages, i can
+hardly wait to see how this is going to work when the number of tests
+starts to grow and we actually use that information in our process.
+
+The scepsis has gone, unit testing rocks!

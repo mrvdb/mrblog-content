@@ -1,0 +1,30 @@
+#+title: Practice run for spraying the donor parts
+#+tags[]: cobra donor-parts garage
+
+Given the amount of time already spent on preparing the donor
+parts, I am a bit hesitant to just start spraying the POR15 onto them
+without a bit of experience. As my motorbike needed new exhausts and
+as such had to be disassembled anyway, I prepared a couple of parts of
+the bike for spraying.
+
+
+First, with the help of an /el cheapo/ gazebo, I created an
+improvised spray booth.
+
+[[/assets/img/gmg-367.jpg]]
+
+This worked much better than expected. After a bit of testing to get
+the viscosity of the chassis coat right and the spray gun adjusted,
+spraying the two bike parts was a quick job. The goal was to record
+the settings for the gun, the amount of solvent to use and, obviously,
+look at the end result.
+
+[[/assets/img/gmg-368.jpg]]
+
+The chassis coat, when sprayed, gives a unique finish, more matte than
+brushed. The breather is no luxury, this stuff is nasty.
+
+The rest of the day was spent masking the jag parts. I'll probably
+spent tomorrow completing the masking and re-assembling the bike, so I
+can get it out of the way (you can just see it behind the tent on the
+left)

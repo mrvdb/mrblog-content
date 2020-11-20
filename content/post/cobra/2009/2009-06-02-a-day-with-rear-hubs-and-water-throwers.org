@@ -1,0 +1,55 @@
+#+title: A day with rear hubs and water throwers
+#+tags[]: cobra donor-parts rear-suspension
+
+Fitting the water throwers turned out to be more labour intensive than
+I thought. A little bit of research on [[http://www.jag-lovers.org/][Jaguar Enthusiast site]] gave me
+some experience tales of other people and some insight on what to
+expect. Heating the thrower and quickly fitting it around the machined
+edge on the hub seemed the way to go.
+
+
+There are a couple of hurdles to overcome. First, when the thing gets
+hot gloves are mandatory which makes handling the piece more
+cumbersome and handling the thrower quickly but steadily over the hub
+proved to be quite a dexterity challenge.
+
+Next, to much heat will ruin the passivation layer on the zinc, so I
+do not want to heat them up to the point where that happens.
+
+And third, the heating will expand the part, but we're talking parts
+of millimetres here; I figured about 0.5 mm difference between the cold
+and heated part. This means we'll have to make sure the cold part is
+brought within that range. There's also not much room for error.
+
+So, first thing was to do a trial run to get some feel for the
+procedure and the measurements. The cold part inner diameter was about
+.8mm smaller than the diameter of the edge. Heating did not make it
+possible to fit the part but clearly showed a difference in size. I
+had the hub in the freezer overnight which may have helped a bit too,
+size-wise.
+
+So, the only thing I could think of was putting the ring in a
+reference position (cold) and marking how far the circumference would
+go over the edge by pushing sort of in the same manner I would be able
+to do while handling the hot part. Marking the arc on the ring and
+then carefully sanding the complete inner diameter of the thrower to
+enlarge it a little, fitting the piece regularly.
+
+After quite some sanding and trial fitting and two 'hot sessions' it
+dropped on!
+
+[[/assets/img/gmg-309.jpg]]
+
+You can see the reference mark and some
+burn traces in the bottom part of the picture. I'm not sure if you can
+make it out on the picture below, but the hard work paid off. Nice fit
+I think.
+
+[[/assets/img/gmg-310.jpg]]
+
+Fitting the seating ring and bearing is easy with a press. There is a
+little bit of room between the bearing and the seating ring. I'm not
+sure if that is supposed to be there, but I do not want to push too
+hard with the press on the bearing.
+
+[[/assets/img/gmg-311.jpg]]

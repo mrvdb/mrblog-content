@@ -1,0 +1,246 @@
+* DONE replace #tags: with #tags[]: in org files
+:PROPERTIES:
+:CREATED:  [2020-11-14 za 18:09]
+:END:
+
+this can be automated
+* DONE dates meta is all wrong
+:PROPERTIES:
+:CREATED:  [2020-11-14 za 18:10]
+:END:
+* DONE codestyling is incomplete, some style are invisible
+:PROPERTIES:
+:CREATED:  [2020-11-14 za 18:32]
+:END:
+
+This is caused by having '=' inline code in the orgmode format
+
+https://github.com/chipzoller/hugo-clarity/pull/85
+
+* DONE frontpage should display full content for a number of postings
+:PROPERTIES:
+:CREATED:  [2020-11-14 za 18:30]
+:END:
+* DONE read a bit more about configuration
+:PROPERTIES:
+:CREATED:  [2020-11-14 za 18:28]
+:END:
+* DONE get the gpx component working in hugo, probably needs a plugin of some sort
+:PROPERTIES:
+:CREATED:  [2020-11-14 za 18:31]
+:END:
+
+* DONE improve shadow of content images
+:PROPERTIES:
+:CREATED:  [2020-11-17 di 13:56]
+:END:
+
+I want basically a shadown for pictures which are content of their own, but I dont want a shadow if the image is supporting the text flow, like in the bitcoin article.
+
+This can probably be done along the way, but it should be very easy to include
+
+Current situation:
+- when just linking to an image file, the filename will be the caption and the image will have a shadow
+- it makes sense to define some classes so the can just set that.
+  - ns :: no shadow
+  - fl :: float left
+    fr :: float right
+* DONE do i want the toml, i think i prefer yaml
+:PROPERTIES:
+:CREATED:  [2020-11-14 za 18:28]
+:END:
+* DONE configure the social icons
+:PROPERTIES:
+:CREATED:  [2020-11-14 za 18:10]
+:END:
+
+- i basically want the url copy, mastodon
+* DONE get the social timeline plugin back on to the frontpage
+:PROPERTIES:
+:CREATED:  [2020-11-14 za 18:31]
+:END:
+
+Why do I want this actually? It is not adding anything useful for the reader other than seeing what I am reading on my mastodon account.
+
+* DONE logo/siteicon etc
+:PROPERTIES:
+:CREATED:  [2020-11-14 za 18:11]
+:END:
+* DONE move over about page
+:PROPERTIES:
+:CREATED:  [2020-11-14 za 18:27]
+:END:
+
+In the theme now, while it is a content page in my old site. I think hugo calls this a page bundle.
+
+- added layout=page new template and adjustment for pages
+-
+
+What I want:
+- [X] /about the content of the about page, not listed in rss or other stuff
+- [X] /about/issues.html or /about/issues which shows the issues page
+
+The first is easy, but I can't get the second one to work
+* DONE remove/disable the boilerplate content
+:PROPERTIES:
+:CREATED:  [2020-11-14 za 18:28]
+:END:
+* DONE configure archetypes
+:PROPERTIES:
+:CREATED:  [2020-11-18 wo 12:46]
+:END:
+This is just needed when using the cli interface, with hugo new?
+* DONE adjust social line to home line instead of my line?
+:PROPERTIES:
+:CREATED:  [2020-11-18 wo 12:51]
+:END:
+* DONE make sure the taxonomy is configured properly
+:PROPERTIES:
+:CREATED:  [2020-11-14 za 18:28]
+:END:
+
+We just need tags at first. Series sounds like something what would work if the subsite multisite idea does not work out, but for now, just tags is sufficient
+
+* DONE get katex locally?
+:PROPERTIES:
+:CREATED:  [2020-11-16 ma 10:46]
+:END:
+
+It is a function I do not use much, so I am postponing this for now.
+* DONE Build the group by year template
+:PROPERTIES:
+:CREATED:  [2020-11-16 ma 14:48]
+:END:
+* DONE on the archive page some posts are double
+:PROPERTIES:
+:CREATED:  [2020-11-18 wo 17:29]
+:END:
+
+Which was correct, the content files were double too, fixed now.
+* DONE /archive needs a link
+:PROPERTIES:
+:CREATED:  [2020-11-18 wo 19:15]
+:END:
+* DONE look at the robots.txt file
+:PROPERTIES:
+:CREATED:  [2020-11-18 wo 18:02]
+:END:
+* TODO create git ancestry
+:PROPERTIES:
+:CREATED:  [2020-11-18 wo 17:22]
+:END:
+This will be a bit tricky, as the original git has two unfinished branches and quite a few of untracked files which should be tracked.
+* TODO assess generate vs webserver config
+:PROPERTIES:
+:CREATED:  [2020-11-18 wo 17:24]
+:END:
+For example the aliases generate directories, which is a bit messy on the server side, but leaves stuff in control locally. //
+
+Is ther anything special in the webserver config now? I recall there being some aliases and redirects.
+
+- old /feed is now /index.xml
+- /category is rewritten to /tag
+- cors header is added
+-
+* TODO CSS changes to do
+:PROPERTIES:
+:CREATED:  [2020-11-16 ma 10:47]
+:END:
+- +titles blue+
+- +tags smaller+
+- +drop shadow for the images, taking the auto resize of the theme into account+
+- make use of the icon font (calendar and home icon)
+- +restyle main titles, should be more condensed, see old site+
+- +mail icon for about is not very fitting+
+
+* TODO remove some whitespace from the list of toots
+:PROPERTIES:
+:CREATED:  [2020-11-18 wo 12:57]
+:END:
+* TODO replace boost/favourite texts with icons
+:PROPERTIES:
+:CREATED:  [2020-11-18 wo 12:57]
+:END:
+* TODO Move this TODO in site
+:PROPERTIES:
+:CREATED:  [2020-11-19 do 11:24]
+:END:
+
+There is an issue list, so merge it with that ( and provide a bit better styling for TODO items
+* TODO Do not render /tags or make it the tag cloud
+:PROPERTIES:
+:CREATED:  [2020-11-19 do 17:18]
+:END:
+It is the normal list page now
+* After deployment
+:PROPERTIES:
+:CREATED:  [2020-11-19 do 17:37]
+:END:
+** TODO add search functionality
+:PROPERTIES:
+:CREATED:  [2020-11-14 za 18:10]
+:END:
+
+https://gohugo.io/tools/search/
+
+
+https://gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae looks ok-ish
+
+
+The basic method is the same, generate some data file to query with client side code. Typically a json file.
+While this is fine for small sites, this doesn't scale very well, the json file gets loaded completely for every search. At some point a smarter solution is needed.
+
+In terms of implementation, typically some template is constructed, which is then generated alongside the pages, uploaded so the client side code can access it.
+
+fuse.js gets the most votes
+
+The theme I am using is planning an implementation for search in their 2.0 version which may be fine to wait for.
+** TODO integrate existing comments
+:PROPERTIES:
+:CREATED:  [2020-11-18 wo 17:21]
+:END:
+
+They are not on site right now. But I have json exports from the disqus days.
+
+No need to do this directly, but I don want to save the data.
+
+I like the idea of staticman although i do not want to rely on github for the comments, I think it is possible to self host, but this may be quite a bit of work. Probably postponing.
+
+I also like the idea of having the comments on a social site, and not having them directly on the blog itself, but that has a few nicknacks as well. I haven't seen an implementation yet which I liked.
+
+** TODO When viewing a post, show related in the sidebar
+:PROPERTIES:
+:CREATED:  [2020-11-18 wo 11:07]
+:END:
+** TODO look at automatically minifying
+:PROPERTIES:
+:CREATED:  [2020-11-19 do 11:14]
+:END:
+I think there is a section in the documentation about the hugo pipe which may be related to this? Ideally this should be an option in the staging/production environment to set
+** TODO After deploy: reorganize content files
+:PROPERTIES:
+:CREATED:  [2020-11-19 do 11:24]
+:END:
+There are a couple of folders below content which shouldn't really be there. The files folder should be examined and most of the files should probably move to its relevant document / posting where the post is converted to a page bundle. The downside is that the filesystem will then be littered with all these files and it will be hard to optimize for them or move them to a CDN if needed.
+** TODO Extend the deployment script
+:PROPERTIES:
+:CREATED:  [2020-11-18 wo 17:24]
+:END:
+
+hugo deploy does only supports some cloud services, so i just need some sort of script to rsync the whole shebang.
+
+Options:
+
+1. rsync script to sync .site dir
+
+   This is basically what the old site did, manual action, no frills. Good way to start I guess.
+
+2. Use ansible for deployment
+
+   Another option is to use an ansible script which can do the rsync, but also help configure the webserver and other things that may help manage the deployment.
+
+3. Post receive hook on server
+
+   An alternative deploy option could be a post-receive hook on the server side, this means only git and editor is enough to publish content, instead of hugo/git/rsync
+
+   The site would then run a script after each push, taking care of updating the site on the right location on the server. An extra pro is that the amount of content that needs to go over the connection is probably a lot less (although rsync should be fairly efficient in just transferring the differences to what has already been published)

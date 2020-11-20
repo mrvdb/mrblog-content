@@ -1,0 +1,11 @@
+#+title: RelaxNG versus W3 XSD
+#+tags[]: ideas
+
+xmlhack: Expressing mixed content in RELAX NG versus WXS
+[[http://xmlhack.com/read.php?item=1880]]
+
+
+This is a nice reference. We are experimenting with expressing the
+blocklayout language in RNG, exactly because the XSD stuff is just
+plain unreadable. The [[http://xmlhack.com/read.php?item=1714][RelaxMeter]] test for ambiguity is especially
+interesting for checking a solution specified in RNG.

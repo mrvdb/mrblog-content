@@ -1,0 +1,31 @@
+#+title: Further work on front-suspension
+#+tags[]: cobra front-suspension
+
+Continued with the front-suspension today. As mentioned yesterday, the
+right lower wishbone needed some help, so the two arms were pulled
+outwards a bit with a pulley and a piece of wood placed to keep them
+like that. After that fitting wasn't that hard.
+
+
+[[/assets/img/gmg-346.jpg]]
+
+After assembly, I noticed that the right side fulcrum shaft was a
+about a centimeter shorter than the shaft used on the left side
+???. After fastening them both the left side didn't "clamp", so the
+longer one is definitely not right. Checking the invoices from the
+supplier did not show a difference between the shafts. So, I'll have
+to contact them about that next week.
+
+The upper wishbone fitting also did not go as planned. While the right
+side one fits nicely, the left uppper wishbone does not clear the
+chassis as can be seen in the picture below.
+
+[[/assets/img/gmg-347.jpg]]
+
+Now, before I start cutting into the chassis, I'm going to chat to
+some other people on this. It's not much of a difference and I
+probably could force fit it, but I want to make sure I'm not doing
+anything else wrong. The right side is a snug fit, just clearing the
+chassis.
+
+All in all a bit less than I had planned for today. Oh well.

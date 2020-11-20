@@ -1,0 +1,66 @@
+#+title: The obligatory what, why and how...
+#+tags[]: cobra info
+
+Building your own car has a certain lure to it. Not only the car
+enthusiast, but almost everyone without exception, when told about my
+plans, reacted with something similar to '/cool/!'
+
+
+*What?*
+
+So, what are these plans? In short, building me one of these:
+
+[[/assets/img/gmg-433.jpg]]
+
+What you see there is an /AC Cobra Replica/, [[http://www.gdcars.com][Gardner Douglas]] style. This
+car is a replica of a 60's sports car originally manufactured by the
+British '/AC Cars/', but made famous when [[http://www.carrollshelby.com][Carroll Shelby]] got his hands
+on it to combine it with an American V8 Engine.
+
+The first phase to building a car apparently is to spend countless
+hours browsing the internet to get a grip on costs, supplier info and
+the differences of all the offerings. Especially in the beginning of
+this process, it is easy to lose whole weekends just doing that.
+
+Two things stood out in this search process as being more important
+than any supplier info:
+  1. talking to people who have already built one;
+  2. reading the *[[http://str-427-cobra.blogspot.com][excellent]]* build logs of other people who are
+     building.
+
+So, part of the plan is to document it, inspired by Simon's
+excellent blog I linked to above. The journal will be mostly for
+myself, but if it can please others like Simon's site helped me, that
+will be very good.
+
+*Why?*
+
+I am not one of those car builders having a long outstanding wish
+to build a Cobra kit car, although the thought has been on my mind on
+and off for a couple of years. I am the owner of a small software
+company and my daily work mostly consists of sitting behind a computer
+screen, either communicating or programming. While I love the job, it
+lacks a component which makes my body ache, dirty and smell bad; this
+project will fill those gaps nicely.
+
+Another part is just the curiosity if I can do this. It is a project
+of reasonable complexity with a certain element of (financial) risk
+attached to it. I guess if I just wanted to have a nice car, buying
+one far outsmarts building one.
+
+Luckily there's no real obligation to be rational on all of this,
+since many elements of it are not. Having fun just doing it is
+enough.
+
+*How?*
+
+We are in the fortunate situation to be living in a rural area
+where our home and my office are combined. Behind these is a
+reasonably big garage. It isn't in a very good shape, in terms of
+weather protection, so part of the project is to rebuild part of the
+garage, making it suitable to build the car. Part of the journal will
+be filled with the activity on rebuilding the garage.
+
+Anyways, enjoy!
+
+marcel

@@ -1,0 +1,10 @@
+#+title: org inline code causes hugo error
+
+When format is orgmode, code blocks generate an error when we use inline styling in the source file.
+
+
+=inline code=
+
+#+BEGIN_SRC sh
+  export CPPFLAGS=-I/opt/local/include
+#+END_SRC

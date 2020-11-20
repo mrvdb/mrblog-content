@@ -1,0 +1,24 @@
+#+title: It should have been easier
+#+tags[]: cobra oops rear-suspension
+
+Assembling the rear driveshafts with the universal joints is an easy
+job ( [[/2007/07/first-day-first-problems.html][unlike the disassembly]] of them). Especially using my press,
+getting in the Universal Joints is very easy to do and the first was
+completed in no time.
+
+
+[[/assets/img/gmg-324.jpg]]
+
+The second however, disaster! The first joint went in smoothly but
+when I pressed in the second the complete "top lid" of one of the caps
+broke off!!! Aargh. No idea how this happened. I did not subject the
+joints to excessive force, although using a press sort of hides these
+forces.
+
+[[/assets/img/gmg-325.jpg]]
+
+So, after a minute or two of swearing I pressed out the one joint
+which, thankfully, did not damage the shaft and came out pretty
+easily. It should just be a matter of purchasing a new UJ now and
+pressing that in. All in all, the job took me 4 hours where it should
+have been like 10 minutes.

@@ -1,0 +1,85 @@
+publishDir: .site
+baseurl: 'https://mrblog.nl/'   # Needs the slash for share icons in the theme
+title: Marcel van der Boom
+author: Marcel van der Boom
+copyright: 'Copyright © 2020, Marcel van der Boom, all rights reserved.'
+paginate: 5
+theme: clarity
+enableRobotsTXT: true
+IsMultilingual: false
+DefaultContentLanguage: en
+disableLanguages:
+  - nl
+  - pt
+rssLimit: 20
+outputs:
+  home:
+    - HTML
+    - RSS                       # main feed
+  section:                      # maybe rss later
+    - HTML
+  page:
+    - HTML
+  taxonomy:
+    - HTML
+  taxonomyTerm:
+    - HTML
+taxonomies:                     # just tags for now
+  tag: tags
+  #project: projects
+  #category: categories
+permalinks:
+  post: '/:year/:month/:slug/'  # this is close, but not quite the same as the old blog
+markup:
+  goldmark:
+    renderer:
+      hardWraps: false
+      unsafe: true              # set to false to disable raw html and math functions
+      xhtml: false
+    extensions:
+      typographer: false
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    hl_Lines: '--'
+    lineNoStart: 1
+    lineNos: true               # leave this to true otherwise the in-site toggle wont work
+    lineNumbersInTable: false
+    noClasses: false            # need this for the theme to work properly
+    style: irrelevant           # doesnt matter, themes are built in, FIXME
+    tabWidth: 2
+params:
+  author: Marcel van der Boom
+  description: Personal site of Marcel van der Boom
+  ga_analytics: XXXXXXXXXX
+  numberOfTagsShown: 14
+  fallBackOgImage: images/thumbnail.png
+  codeMaxLines: 7               # lines in codeblock
+  codeLineNumbers: false
+  enableMathNotation: true
+  mainSections:                 # where is our main content section
+    - post
+  centerLogo: false
+  logo: logos/mrb.png           # the mu character
+  figurePositionShow: true      # leave to true, controlled in content
+  figurePositionLabel: Figure
+  mobileNavigation: left
+  enforceLightMode: true         # dark mode is not configured yet, so disable it
+  languageMenuName: "\U0001F310" # 🌐
+  comment: false
+  numberOfRecentPosts: 5
+  numberOfFeaturedPosts: 5
+  dateFormat: '2006-01-02'
+  customCSS:
+    - css/leaflet.css           # for gpx maps
+    - css/mastodon.widget.css   # for mastodon timeline widget
+  customJS:
+    - js/leaflet.js
+    - js/gpx.js
+    - js/gpx-custom.js
+    - js/jquery.js
+    - js/mastodon.widget.js
+frontmatter:
+  date:
+    - ':filename'
+    - ':default'                # also check filename for date if there is none in frontmatter

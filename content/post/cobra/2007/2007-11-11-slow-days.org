@@ -1,0 +1,26 @@
+#+title: Slow days
+#+tags[]: cobra donor-parts
+
+Steadily working on the donor parts, but days are a bit slow
+lately. Finishing the details of the garage takes its time as
+well. After treating the first donor parts, I'm not completely
+satisfied with the finish that por15 plus the chassiscoat leaves.
+
+
+The por15 itself is very nice, glossy and very smooth, so that's nice,
+but the chassis coat ruins the bit by leaving stripes and not
+smoothing out. Have to think about how to go about that. The first
+thing is to add a bit of solvent to the chassis coat to make it smooth
+out a bit better.
+
+[[/assets/img/gmg-399.jpg]]
+
+Next to that, inspecting the donor parts in detail reveals some
+things which need some attention. The parts are mostly in good
+condition, but obviously show their age and use.
+
+[[/assets/img/gmg-400.jpg]]
+
+One of the parts showed a worn (broken ?) inner wall. The other shaft
+[[/2007/07/first-day-first-problems.html][had problems too]] but those I managed to repair to satisfaction. This
+one will have to be replaced.

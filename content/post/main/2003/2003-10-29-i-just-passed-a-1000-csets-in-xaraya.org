@@ -1,0 +1,10 @@
+#+title: I just passed a 1000 csets in Xaraya
+#+tags[]: revision-control xaraya
+
+Some hours ago my changeset number 1000 went into the xaraya
+repository.
+
+As you can see in the comments, it's not a good one, basically
+cleaning up some mess i made earlier that day.
+
+Nevertheless, it's there

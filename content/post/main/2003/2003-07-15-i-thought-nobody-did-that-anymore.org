@@ -1,0 +1,10 @@
+#+title: I thought nobody did that anymore
+#+tags[]: people
+
+[[http://greg.abstrakt.ch/archives/2003/07/quines_mutating][quines, mutating code and virtual life]] :: Imagination is key to your
+dreams coming true: quines, mutating code and virtual life
+
+
+Kinda funny. I used quines all the time when i wanted to learn a
+new programming language during college. I thought it was extinct
+(except Douglas H. of course but he's a dinosaur anyway )
