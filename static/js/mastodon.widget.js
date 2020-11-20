@@ -402,5 +402,8 @@ $(document).ready(function() {
            target_selector  : '#timeline'
           ,instance_uri    : 'https://mastodon.nl'
           ,access_token    : '91QfqkMcE6AHWz7NQrBJ1Gbhj4naWCPbt6NWN0R729M'
-          ,account_id      : '81518'});
+        ,account_id      : '81518'
+        ,pic_icon        : '[PICTURE]'
+        ,boosts_count_icon : '🚀'
+        ,favourites_count_icon : '💘'});
       });
