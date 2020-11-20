@@ -5,6 +5,7 @@ author: Marcel van der Boom
 copyright: 'Copyright © 2020, Marcel van der Boom, all rights reserved.'
 paginate: 5
 theme: clarity
+enableGitInfo: false
 enableRobotsTXT: true
 IsMultilingual: false
 DefaultContentLanguage: en
