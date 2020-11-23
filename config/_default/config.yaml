@@ -63,7 +63,7 @@ params:
     - post
   centerLogo: false
   logo: logos/mrb.png           # the mu character
-  figurePositionShow: true      # leave to true, controlled in content
+  figurePositionShow: true      # leave to true, controlled in content by setting classes
   figurePositionLabel: Figure
   mobileNavigation: left
   enforceLightMode: true         # dark mode is not configured yet, so disable it

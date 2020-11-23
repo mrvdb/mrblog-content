@@ -35,10 +35,3 @@ point.
 
 ** Points                                                                           :noexport:
 - overview of the emacs commands written; show highlighted sources
--Content starts here
-
-*** First header
-*** Second header
-
-
-* Notes                                                                              :noexport:

@@ -9,11 +9,30 @@ it. Managing todo items is pretty well covered in org-mode ;-)
 
 #+COMMENT: Leave the indents of the headers as they are below
 #+COMMENT: it affects rendering on site and I dont have a good way of doing this with css
-**** Current issues
-***** DONE Improve rendering of this TODO list                                    :improve:
-     :PROPERTIES:
-     :CREATED:  [2015-03-21 za 12:25]
-     :END:
+* Current issues
+***** TODO assess generate vs webserver config                                      :write:
+:PROPERTIES:
+:CREATED:  [2020-11-18 wo 17:24]
+:END:
+For example the aliases generate directories, which is a bit messy on the server side, but leaves stuff in control locally. //
+
+Is ther anything special in the webserver config now? I recall there being some aliases and redirects.
+
+- old /feed is now /index.xml
+- /category is rewritten to /tag
+- cors header is added
+-
+***** TODO CSS changes to do                                                        :build:
+:PROPERTIES:
+:CREATED:  [2020-11-16 ma 10:47]
+:END:
+- +titles blue+
+- +tags smaller+
+- +drop shadow for the images, taking the auto resize of the theme into account+
+- make use of the icon font (calendar and home icon)
+- +restyle main titles, should be more condensed, see old site+
+- +mail icon for about is not very fitting+
+
 ***** TODO Configure multiple output formats for mrblog.nl blog postings            :build:
      :PROPERTIES:
      :CREATED:  [2015-03-18 wo 09:58]
@@ -29,56 +48,30 @@ it. Managing todo items is pretty well covered in org-mode ;-)
      +In the jekyll spirit, this should really all be generated statically and published in the same way as org->html For the latter we use org-ruby.+ Using hugo now
 
      See also: https://github.com/fauno/jekyll-pandoc-multiple-formats
-***** TODO merge git ancestry
+***** TODO merge git ancestry                                                       :build:
 :PROPERTIES:
 :CREATED:  [2020-11-18 wo 17:22]
 :END:
 This will be a bit tricky, as the original git has two unfinished branches and quite a few of untracked files which should be tracked.
 
 [2020-11-20 vr] Just created a new repository for now, might merge later
-***** TODO assess generate vs webserver config
+***** TODO This would be useful to have when writing longer documents               :check:
 :PROPERTIES:
-:CREATED:  [2020-11-18 wo 17:24]
+:CREATED:  [2020-11-20 vr 15:04]
 :END:
-For example the aliases generate directories, which is a bit messy on the server side, but leaves stuff in control locally. //
-
-Is ther anything special in the webserver config now? I recall there being some aliases and redirects.
-
-- old /feed is now /index.xml
-- /category is rewritten to /tag
-- cors header is added
--
-***** TODO CSS changes to do
-:PROPERTIES:
-:CREATED:  [2020-11-16 ma 10:47]
-:END:
-- +titles blue+
-- +tags smaller+
-- +drop shadow for the images, taking the auto resize of the theme into account+
-- make use of the icon font (calendar and home icon)
-- +restyle main titles, should be more condensed, see old site+
-- +mail icon for about is not very fitting+
-
-***** TODO remove some whitespace from the list of toots
-:PROPERTIES:
-:CREATED:  [2020-11-18 wo 12:57]
-:END:
-***** TODO replace boost/favourite texts with icons
-:PROPERTIES:
-:CREATED:  [2020-11-18 wo 12:57]
-:END:
-***** TODO Do not render /tags or make it the tag cloud
+https: [[https://github.com/martignoni/hugo-notice][martignoni/hugo-notice: A Hugo theme component to display nice notices]]
+***** TODO Do not render /tags or make it the tag cloud                               :fix:
 :PROPERTIES:
 :CREATED:  [2020-11-19 do 17:18]
 :END:
 It is the normal list page now
+***** TODO Scrolling on the map component starts zoom when scrolling page             :fix:
+:PROPERTIES:
+:CREATED:  [2020-11-20 vr 18:42]
+:END:
+
+Not sure if I want to change it, but it is annoying.
 ***** Remnants from earlier iterations
-****** TODO Move comment system to something static                                :build:
-     :PROPERTIES:
-     :CREATED:  [2015-03-19 do 14:58]
-     :END:
-     To keep with the spirit of a Jekyll site, comments should really be
-     static as well.
 ****** TODO Create a better way for handling remote images                         :build:
      :PROPERTIES:
      :CREATED:  [2015-03-19 do 15:23]
@@ -90,252 +83,7 @@ It is the normal list page now
 :PROPERTIES:
      :CREATED:  [2015-03-19 do 15:28]
      :END:
-****** CANCELLED Make collections searchable                                         :fix:
-:PROPERTIES:
-     :CREATED:  [2015-03-19 do 15:27]
-     :END:
-:LOGBOOK:
-- State "CANCELLED"  from "TODO"       [2020-11-20 vr 13:41] \\
-  Replaced with hugo, search is different now
-:END:
-     I think only posts are now handled by the search plugin
-****** CANCELLED Adapt gmg preset to fetch small image and load large with lytebox :improve:
-     :PROPERTIES:
-     :CREATED:  [2015-03-20 vr 16:12]
-     :END:
-:LOGBOOK:
-- State "CANCELLED"  from "TODO"       [2020-11-20 vr 14:44] \\
-  Not using gmg anymore.
-:END:
-***** After deployment
-:PROPERTIES:
-:CREATED:  [2020-11-19 do 17:37]
-:END:
-****** TODO add search functionality
-:PROPERTIES:
-:CREATED:  [2020-11-14 za 18:10]
-:END:
-
-https://gohugo.io/tools/search/
-
-
-https://gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae looks ok-ish
-
-
-The basic method is the same, generate some data file to query with client side code. Typically a json file.
-While this is fine for small sites, this doesn't scale very well, the json file gets loaded completely for every search. At some point a smarter solution is needed.
-
-In terms of implementation, typically some template is constructed, which is then generated alongside the pages, uploaded so the client side code can access it.
-
-fuse.js gets the most votes
-
-The theme I am using is planning an implementation for search in their 2.0 version which may be fine to wait for.
-****** TODO integrate existing comments
-:PROPERTIES:
-:CREATED:  [2020-11-18 wo 17:21]
-:END:
-
-They are not on site right now. But I have json exports from the disqus days.
-
-No need to do this directly, but I don want to save the data.
-
-I like the idea of staticman although i do not want to rely on github for the comments, I think it is possible to self host, but this may be quite a bit of work. Probably postponing.
-
-I also like the idea of having the comments on a social site, and not having them directly on the blog itself, but that has a few nicknacks as well. I haven't seen an implementation yet which I liked.
-
-****** TODO When viewing a post, show related in the sidebar
-:PROPERTIES:
-:CREATED:  [2020-11-18 wo 11:07]
-:END:
-****** TODO look at automatically minifying
-:PROPERTIES:
-:CREATED:  [2020-11-19 do 11:14]
-:END:
-I think there is a section in the documentation about the hugo pipe which may be related to this? Ideally this should be an option in the staging/production environment to set
-****** TODO After deploy: reorganize content files
-:PROPERTIES:
-:CREATED:  [2020-11-19 do 11:24]
-:END:
-There are a couple of folders below content which shouldn't really be there. The files folder should be examined and most of the files should probably move to its relevant document / posting where the post is converted to a page bundle. The downside is that the filesystem will then be littered with all these files and it will be hard to optimize for them or move them to a CDN if needed.
-****** TODO Extend the deployment script
-:PROPERTIES:
-:CREATED:  [2020-11-18 wo 17:24]
-:END:
-
-hugo deploy does only supports some cloud services, so i just need some sort of script to rsync the whole shebang.
-
-Options:
-
-1. rsync script to sync .site dir
-
-   This is basically what the old site did, manual action, no frills. Good way to start I guess.
-
-2. Use ansible for deployment
-
-   Another option is to use an ansible script which can do the rsync, but also help configure the webserver and other things that may help manage the deployment.
-
-3. Post receive hook on server
-
-   An alternative deploy option could be a post-receive hook on the server side, this means only git and editor is enough to publish content, instead of hugo/git/rsync
-
-   The site would then run a script after each push, taking care of updating the site on the right location on the server. An extra pro is that the amount of content that needs to go over the connection is probably a lot less (although rsync should be fairly efficient in just transferring the differences to what has already been published)
-***** TODO This would be useful to have when writing longer documents
-:PROPERTIES:
-:CREATED:  [2020-11-20 vr 15:04]
-:END:
-https: [[https://github.com/martignoni/hugo-notice][martignoni/hugo-notice: A Hugo theme component to display nice notices]]
-***** DONE Find some sort of automated link checker                                 :build:
-:PROPERTIES:
-:CREATED:  [2015-03-20 vr 16:13]
-:END:
-For now, using muffet on the command line and manually correcting. What I want is semi-automated processing on publish where links are marked as dead by css for example
-
-***** DONE Move this TODO in site
-:PROPERTIES:
-:CREATED:  [2020-11-19 do 11:24]
-:END:
-
-There is an issue list, so merge it with that ( and provide a bit better styling for TODO items
-***** DONE Set mimetype at server for orgmode files
-     :PROPERTIES:
-     :CREATED:  [2016-08-02 di 18:04]
-     :END:
-     What should that be?
-
-
-     * DONE replace #tags: with #tags[]: in org files
-:PROPERTIES:
-:CREATED:  [2020-11-14 za 18:09]
-:END:
-
-this can be automated
-***** DONE dates meta is all wrong
-:PROPERTIES:
-:CREATED:  [2020-11-14 za 18:10]
-:END:
-***** DONE codestyling is incomplete, some style are invisible
-:PROPERTIES:
-:CREATED:  [2020-11-14 za 18:32]
-:END:
-
-This is caused by having '=' inline code in the orgmode format
-
-https://github.com/chipzoller/hugo-clarity/pull/85
-
-***** DONE frontpage should display full content for a number of postings
-:PROPERTIES:
-:CREATED:  [2020-11-14 za 18:30]
-:END:
-***** DONE read a bit more about configuration
-:PROPERTIES:
-:CREATED:  [2020-11-14 za 18:28]
-:END:
-***** DONE get the gpx component working in hugo, probably needs a plugin of some sort
-:PROPERTIES:
-:CREATED:  [2020-11-14 za 18:31]
-:END:
-
-***** DONE improve shadow of content images
-:PROPERTIES:
-:CREATED:  [2020-11-17 di 13:56]
-:END:
-
-I want basically a shadown for pictures which are content of their own, but I dont want a shadow if the image is supporting the text flow, like in the bitcoin article.
-
-This can probably be done along the way, but it should be very easy to include
-
-Current situation:
-- when just linking to an image file, the filename will be the caption and the image will have a shadow
-- it makes sense to define some classes so the can just set that.
-  - ns :: no shadow
-  - fl :: float left
-    fr :: float right
-***** DONE do i want the toml, i think i prefer yaml
-:PROPERTIES:
-:CREATED:  [2020-11-14 za 18:28]
-:END:
-***** DONE configure the social icons
-:PROPERTIES:
-:CREATED:  [2020-11-14 za 18:10]
-:END:
-
-- i basically want the url copy, mastodon
-***** DONE get the social timeline plugin back on to the frontpage
-:PROPERTIES:
-:CREATED:  [2020-11-14 za 18:31]
-:END:
-
-Why do I want this actually? It is not adding anything useful for the reader other than seeing what I am reading on my mastodon account.
-
-***** DONE logo/siteicon etc
-:PROPERTIES:
-:CREATED:  [2020-11-14 za 18:11]
-:END:
-***** DONE move over about page
-:PROPERTIES:
-:CREATED:  [2020-11-14 za 18:27]
-:END:
-
-In the theme now, while it is a content page in my old site. I think hugo calls this a page bundle.
-
-- added layout=page new template and adjustment for pages
--
-
-What I want:
-- [X] /about the content of the about page, not listed in rss or other stuff
-- [X] /about/issues.html or /about/issues which shows the issues page
-
-The first is easy, but I can't get the second one to work
-***** DONE remove/disable the boilerplate content
-:PROPERTIES:
-:CREATED:  [2020-11-14 za 18:28]
-:END:
-***** DONE configure archetypes
-:PROPERTIES:
-:CREATED:  [2020-11-18 wo 12:46]
-:END:
-This is just needed when using the cli interface, with hugo new?
-***** DONE adjust social line to home line instead of my line?
-:PROPERTIES:
-:CREATED:  [2020-11-18 wo 12:51]
-:END:
-***** DONE make sure the taxonomy is configured properly
-:PROPERTIES:
-:CREATED:  [2020-11-14 za 18:28]
-:END:
-
-We just need tags at first. Series sounds like something what would work if the subsite multisite idea does not work out, but for now, just tags is sufficient
-
-***** DONE get katex locally?
-:PROPERTIES:
-:CREATED:  [2020-11-16 ma 10:46]
-:END:
-
-It is a function I do not use much, so I am postponing this for now.
-***** DONE Build the group by year template
-:PROPERTIES:
-:CREATED:  [2020-11-16 ma 14:48]
-:END:
-***** DONE on the archive page some posts are double
-:PROPERTIES:
-:CREATED:  [2020-11-18 wo 17:29]
-:END:
-
-Which was correct, the content files were double too, fixed now.
-***** DONE /archive needs a link
-:PROPERTIES:
-:CREATED:  [2020-11-18 wo 19:15]
-:END:
-***** DONE look at the robots.txt file
-:PROPERTIES:
-:CREATED:  [2020-11-18 wo 18:02]
-:END:
-***** Generic tasks
-:PROPERTIES:
-:Group: Hobbies
-:END:
-
-****** TODO Pullquote needs to be reimplemented for                                :build:
+****** TODO Pullquote needs to be reimplemented                                    :build:
 :PROPERTIES:
 :CREATED:  [2016-04-08 vr 12:29]
 :END:
@@ -414,7 +162,7 @@ Problem:
 - http://ur1.ca/pj76y has an example implementation
 - using categories ?
 
-****** TODO Implement automatic linkchecker for mrblog.nl
+****** TODO Implement automatic linkchecker for mrblog.nl                          :build:
 :PROPERTIES:
 :CREATED:  [2013-06-28 vr 06:24]
 :END:
@@ -427,22 +175,43 @@ There is a =check= command for hakyll which does link checking. The
 question is if we can react to this while building the site, for
 example by striking through the text and altering the link to
 something else.
-****** TODO Find out how we can do subsites with subdomains while keeping the main site the same
+****** TODO Implement subsites with subdomains while keeping the main site the same :build:
 :PROPERTIES:
 :CREATED:  [2013-06-28 vr 08:12]
 :END:
 Usecase: cobra.mrblog.nl content is now also on mrblog.nl tagged with
 'cobra'
 
-****** TODO Once subdomain stuff is working, we should probably expose that structure through a new front page
+****** TODO Expose subdomain structure on front page                               :build:
 :PROPERTIES:
 :CREATED:  [2013-06-28 vr 08:12]
 :END:
-****** Thoughts on having a commenting system
-The site is using disqus now, which is comfortable, but a proprietary
+****** TODO Create an anonymous blog, as some sort of game. "Find out who I am"    :build:
+:PROPERTIES:
+:CREATED:  [2013-06-17 ma 11:41]
+:END:
+
+Needs:
+- reliable TOR network access
+- anonymous email
+- encrypted connections to everywhere
+- damage controle system (assume new identity quickly when exposure
+  signs are there)
+- think about how
+- http://ur1.ca/ecl5w has some good information
+- the idea of findingout who I am is for play, it is not enough that
+  people "know" who I am, but they need a record of how they find
+  out. (I even consider spilling my identity upfront but that would
+  make it much less interesting)
+- researching the HOWTO is already leaking information, so the first
+  and foremost action is to get access to the TOR network completely.
+
+Recently acquired book from Mitnick may help with this.
+***** Thoughts on having a commenting system
+The site is using +disqus+ (not anymore) now, which is comfortable, but a proprietary
 solution.
 
-******* Requirements
+****** Requirements
 - based on open source solutions only
 - multiple interfaces (web, mail, xmpp etc.)
 - static rendering of pages must be preserved (TODO: clarify this in
@@ -452,7 +221,7 @@ solution.
 
 Note: staticman.net more or less satisfies all criteria.
 
-******* Workflow
+****** Workflow
 Someone visits a page, wants to make a comment. There is *one* thing
 that user wants to do and that is fill a field with their
 comments. Extensive login and identification procedures are just
@@ -461,13 +230,13 @@ What they will be prepared to do is easy identification, so they are
 credited with the comment or are able to follow the thread of
 discussion.
 
-******* Viable options
+****** Viable options
 - use gnu-social (non-static)
 - use pump.io (non-static)
 - homebrew js only solution
 - staticman.net :: automated solution to post files to git repository,
                    which then can be picked up by the site compiler
-******* Scenario: using pump.io
+****** Scenario: using pump.io
 The first assumption I am going to make is that there is a pump.io
 note somewhere, i will be using:
 
@@ -478,53 +247,40 @@ the posting on the website.
 Using the assumption the task can be split into the following
 sub-parts:
 1. Displaying the comments in the relevant page
-2.
 
-******** Ad 1. Displaying comments for a specific note
-The note displayed above can be had with a json representation like
-so:
 
-http://qua.name/api/note/gtOv6E2aSle9P2jMOGlUKA
+(the next section contains api keys, so is encrypted by default, in case this gets published somewhere)
+******* Ad 1. Displaying comments for a specific note
 
-Complications:
-- that url requires a logged in user, so we need to log in /something/
-  to be able to view the comments, this can be a dummy user, so this
-  is probably not that big of a problem
-- the web url mentioned in the beginning *is* available without
-  authentication.
-The replies specifically for that note are at:
+-----BEGIN PGP MESSAGE-----
 
-http://qua.name/api/note/gtOv6E2aSle9P2jMOGlUKA/replies
-
-Host information is at:
-
-http://qua.name/.well-known/host-meta
-
-Registering an app delivered:
-#+BEGIN_SRC js
-  {
-      "client_id":"Is4xR0ErDe9_INvSo2Cz8Q",
-      "client_secret":"pk8oh4uk0E03iHsCyXd7_GqxBcb-auLsW7Y0gDCsje8",
-      "expires_at":0
-  }
-#+END_SRC
-
-According to the API document almost all API endpoints require user
-authorization. For the activity outbox 2-legged authentication (no
-user authentication needed) is possible, so we may be able to reach
-this data.
-
-This means, given that I want a static solution at the site, I either
-need:
-1. a secure js solution to use oauth
-2. an oauth proxy
-
-Using an oauth proxy displaying could be done as:
-1. using the endpoint to get the replies of an object, fetch the json
-   async;
-2. loop over the replies, using jquery templates for example and
-   deliver a dom fragment to be rendered.
-******* Scenario: using staticman.net
+hQEMA79Ps5L+qnrdAQgAyjV6+jk8SoGTKzf8+SuTUIN9M1Z4lvUWvkyF2SU+W8iR
+OH62xh0DldMlluvb191fsA8S81Qkrl6FecvSamnJNGOpXL9vsXdkKzXpn109zkoX
++IjskILrOzcmt/Vjt6bMrPj3HE3TaGv1FY71sGF/n4XIlxSngbZvx3b0z8RPmGP6
+1mC08vGIIzXbrKJGQbKGA+f4vUUAg0GsUy+QZ03N722G9Se+QPhyQ87GIFzuCm78
+Jn0r2FxHgqQgaP1Q3P5rWDnPy8oT1cshZccw9NYWYj7TDpXVdmSMPu2VZ46fXY3q
+ygsIVyHPuL9fJWv2tz8u3fbcDgJZ5nrhJoDGZt7cLdLpAZYAtcELZJAPdC4oXhWR
+HVWjC/G/+KjdhS4Xv2vzUcTZZwnVSJQmvl2/WJdjyW6Poa5z9onGztMLTORlgKr8
+CFQlw1TtDTwBmC8kGoVpGIAyazHlg55/Aj3eNODPStQJBOz7vsOp8fCpGa8TreL1
+5KdEUt9DHVL3EenedQXKY1Sp1hAJFH0jg/XqZJbG+MJjz/18yXs6kVAxgXZiJo1Z
+AVlS6Aa+UcHju3fO9mBHwUFNaQ/oPFQLmrOV2AH5UpBfNu+k3sHyaM/5Ntmo7Sh0
+/1nebKsMbJpJsMXZTNAPpIYusqOZJ2e2lgehMoq4po4+2uzRaqwloImmqOurmezt
+jQccNECGEDwi2Al14w1V3sm6xoa8f1pbkVxW7/GV/ayIBL2IDr6mS2zoEidDyelx
+GPj66PNw5P9JKF2zHP/FZtWzfyi0bzwOoNb3A4fIEb9EgLTi1eCqePML4TgFwhAn
+9rvk3fzE3i5pUkfMj0FOLMDk2igK918SATH6byfgAVGBgNPerLfHCGZotYiULUqD
+ShZUz/tKa3GVtniluts+xJAObtl7xKjwtiVMbU0N4tfsqOxjgmJYCVk9qoK2a/XU
+BSpfCVzXkxyH6vJzD3wSXWWX2HEtAGBPGUdapH2Zx6I0Y0up7VEKmmGEn0WJIu8x
+AoFGEDrD+Ng0r0HK2ZjBcVzAjnysFBT4j9DJKTDxjp5UjKiPfFnmAP8U9XBolYT3
+aPrHhSNCCguLDqQ1KrLxx6Lk2WjcommfGOhZ8/it1LzJE9MomNhY8FHn3YZB5cbe
+zWRYyiDahxseRli4sHaGGTkWX/DWfDV3qI61BT6sKgNJ1Q+838PhZlHIuKqoZeia
+c5w9EBd3nSdC8K9aF5bE/eQKG0ZK77ThYw2G+rIWAVyRSWwmMR3sUoA+YPl1DPIL
+vCMzx/FYiti8w1qihrI6xJD360V+TO9A3xIdeEBSiQwhgyaW+Hf8a/GcqftMj8iQ
+ihtLcIMD8hkPaIJDjDttk4+7DY7O1uCNWWvM5/WdurFOH+iheVeNp4EqqJvic/wU
+6Y7sAjhx8IQ8gNBsgiJXhEVUcUxSsZ8cRh4B+6KSmvWWtoX5YFXjOAeqB7opkISI
+VCBYPrar7YqrDuZnNJ5rUn8=
+=5atE
+-----END PGP MESSAGE-----
+****** Scenario: using staticman.net
 I've begun implementing staticman.net usage. This is a log of that
 effort
 
@@ -573,9 +329,7 @@ So, first goal is to have in the directory:
 
 It's fairly trivial to also include the blog contents into the =.json=
 file also. In fact this might be a good starting point.
-
-
-****** Multisites
+***** Multisites
 I want to host multiple blogs below mrblog.nl, like:
 - (me.)mrblog.nl   :: main blog, having all content
 - cobra.mrblog.nl  :: the cobra build
@@ -636,7 +390,7 @@ exposed in a =/collection= url part. They can be made to render
 one base domain (https://mrblog.nl in this case) and have features in
 the blog system to define my tags categories and what have we. This
 makes everything a lot simpler and probably more flexible.
-******* Requirements
+****** Requirements
 - [X] each subsite has its own feeds under its own domain
 - [ ] links in the feed point to the proper subdomain
 - [ ] main site has all content of all subsites, properly tagged and
@@ -651,11 +405,11 @@ makes everything a lot simpler and probably more flexible.
 - [ ] a simple mechanism is in place for local testing.
 -
 
-******* References
+****** References
 - http://maximebf.com/blog/2013/07/multi-site-jekyll/
 - http://www.garron.me/en/blog/multi-blog-site-jekyll.html
 
-******* Implementation
+****** Implementation
 Taking photo.mrblog.nl as example, the steps to implement it are as follows.
 
 - The source documents are in folders sites/blog1,
@@ -670,8 +424,8 @@ setting the category in the frontmatter manually.
 
 Given the amount of time I already spent on this, perhaps a separate
 subblog with syndication approach is simpler (it is).
-****** Blog article ideas
-******* TODO Consider a blog series on yubikey applications                       :write:
+***** Blog article ideas
+****** TODO Consider a blog series on yubikey applications                         :write:
 :PROPERTIES:
 :CREATED:  [2015-07-21 Tue 10:27]
 :END:
@@ -690,28 +444,104 @@ Encrypting
 ----------
 - OpenPGP
 - PIV
-******* TODO Blog about the conflict of being open source and having 'next new features' :write:
+****** TODO Blog about the conflict of being open source and having 'next new features' :write:
 :PROPERTIES:
 :CREATED:  [2014-12-23 di 17:47]
 :END:
-****** TODO Create an anonymous blog, as some sort of game. "Find out who I am"    :build:
+** TODO Perhaps put mastodon shortcode into my blog to use                             :check:
 :PROPERTIES:
-:CREATED:  [2013-06-17 ma 11:41]
+:CREATED:  [2020-11-21 za 09:16]
+:END:
+https: [[https://kevingimbel.de/blog/2018/09/mastodon-embed-shortcode-for-hugo/][Mastodon Embed Shortcode for hugo — KevOps — DevOps, Cooking, and everything else I want to write about]]
+
+** TODO consider a 'short note' like publication type                                  :build:
+:PROPERTIES:
+:CREATED:  [2020-11-19 do 13:25]
+:END:
+This would not be posted in the main line, but appear in a footer, sidebar or something else. It's a microblog like thing.
+
+** TODO Look into having an automated list of updates on my blog                       :check:
+:PROPERTIES:
+:CREATED:  [2020-11-19 do 11:20]
+:END:
+https: [[https://gohugo.io/maintenance/][Maintenance | Hugo]]
+
+* After first deployment
+:PROPERTIES:
+:CREATED:  [2020-11-19 do 17:37]
+:END:
+***** TODO add search functionality                                                 :build:
+:PROPERTIES:
+:CREATED:  [2020-11-14 za 18:10]
 :END:
 
-Needs:
-- reliable TOR network access
-- anonymous email
-- encrypted connections to everywhere
-- damage controle system (assume new identity quickly when exposure
-  signs are there)
-- think about how
-- http://ur1.ca/ecl5w has some good information
-- the idea of findingout who I am is for play, it is not enough that
-  people "know" who I am, but they need a record of how they find
-  out. (I even consider spilling my identity upfront but that would
-  make it much less interesting)
-- researching the HOWTO is already leaking information, so the first
-  and foremost action is to get access to the TOR network completely.
+https://gohugo.io/tools/search/
 
-Recently acquired book from Mitnick may help with this.
+
+https://gist.github.com/eddiewebb/735feb48f50f0ddd65ae5606a1cb41ae looks ok-ish
+
+
+The basic method is the same, generate some data file to query with client side code. Typically a json file.
+While this is fine for small sites, this doesn't scale very well, the json file gets loaded completely for every search. At some point a smarter solution is needed.
+
+In terms of implementation, typically some template is constructed, which is then generated alongside the pages, uploaded so the client side code can access it.
+
+fuse.js gets the most votes
+
+The theme I am using is planning an implementation for search in their 2.0 version which may be fine to wait for.
+***** TODO integrate existing comments                                              :build:
+:PROPERTIES:
+:CREATED:  [2020-11-18 wo 17:21]
+:END:
+
+They are not on site right now. But I have json exports from the disqus days.
+
+No need to do this directly, but I don want to save the data.
+
+I like the idea of staticman although i do not want to rely on github for the comments, I think it is possible to self host, but this may be quite a bit of work. Probably postponing.
+
+I also like the idea of having the comments on a social site, and not having them directly on the blog itself, but that has a few nicknacks as well. I haven't seen an implementation yet which I liked.
+
+***** TODO When viewing a post, show related content in the sidebar                 :build:
+:PROPERTIES:
+:CREATED:  [2020-11-18 wo 11:07]
+:END:
+***** TODO look at automatically minifying                                          :check:
+:PROPERTIES:
+:CREATED:  [2020-11-19 do 11:14]
+:END:
+I think there is a section in the documentation about the hugo pipe which may be related to this? Ideally this should be an option in the staging/production environment to set
+***** TODO After deploy: reorganize content files                                   :build:
+:PROPERTIES:
+:CREATED:  [2020-11-19 do 11:24]
+:END:
+There are a couple of folders below content which shouldn't really be there. The files folder should be examined and most of the files should probably move to its relevant document / posting where the post is converted to a page bundle. The downside is that the filesystem will then be littered with all these files and it will be hard to optimize for them or move them to a CDN if needed.
+***** TODO Extend the deployment script                                             :write:
+:PROPERTIES:
+:CREATED:  [2020-11-18 wo 17:24]
+:END:
+
+hugo deploy does only supports some cloud services, so i just need some sort of script to rsync the whole shebang.
+
+Options:
+
+1. rsync script to sync .site dir
+
+   This is basically what the old site did, manual action, no frills. Good way to start I guess.
+
+2. Use ansible for deployment
+
+   Another option is to use an ansible script which can do the rsync, but also help configure the webserver and other things that may help manage the deployment.
+
+3. Post receive hook on server
+
+   An alternative deploy option could be a post-receive hook on the server side, this means only git and editor is enough to publish content, instead of hugo/git/rsync
+
+   The site would then run a script after each push, taking care of updating the site on the right location on the server. An extra pro is that the amount of content that needs to go over the connection is probably a lot less (although rsync should be fairly efficient in just transferring the differences to what has already been published)
+***** TODO Make the gpx shortcode into a hugo module                                :write:
+:PROPERTIES:
+:CREATED:  [2020-11-21 za 09:14]
+:END:
+Or even better: use https://github.com/altrdev/hugo-leaflet
+
+This requires fontawesome which is also helpful for some other items such as using a calendar icon and share icons.
