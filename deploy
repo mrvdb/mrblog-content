@@ -2,12 +2,12 @@
 
 USER=mrb
 HOST=mrblog.nl
-DIR=/srv/https/mrblog.nl/
+DIR=/srv/http/mrblog.nl/
 
 echo "Regenerating whole site..."
 hugo --cleanDestinationDir || exit
 
 echo "Publishing to .$HOST:$DIR'..."
-echo rsync -avz --delete .site/ ${USER}@${HOST}:${DIR} || exit
+rsync -avz --delete .site/ ${USER}@${HOST}:${DIR} || exit
 
 exit 0
