@@ -508,15 +508,15 @@ Options:
 
 1. rsync script to sync .site dir
 
-   This is basically what the old site did, manual action, no frills. Good way to start I guess.
+   This is basically what the old site did, manual action, no frills. Good way to start I guess. I did this now using a local git alias =git deploy= which runs an rsync script from the root of the repository. I would have liked a post-push-hook, but apparently that is not the proper way to use git according to the bosses.
 
 2. Use ansible for deployment
 
-   Another option is to use an ansible script which can do the rsync, but also help configure the webserver and other things that may help manage the deployment.
+   Another option is to use an ansible script which can do the rsync, but also help configure the webserver and other things that may help manage the deployment. The latter part is unquestioned, but I'd hesitatie to use ansible to publish content, if only for speed reasons.
 
 3. Post receive hook on server
 
-   An alternative deploy option could be a post-receive hook on the server side, this means only git and editor is enough to publish content, instead of hugo/git/rsync
+   An alternative deploy option could be a post-receive hook on the server side, this means only git and editor is enough (locally) to publish content, instead of hugo/git/rsync. This requires hugo on the server though, so it's not much better in general.
 
    The site would then run a script after each push, taking care of updating the site on the right location on the server. An extra pro is that the amount of content that needs to go over the connection is probably a lot less (although rsync should be fairly efficient in just transferring the differences to what has already been published)
 ***** TODO Make the gpx shortcode into a hugo module                                :write:
