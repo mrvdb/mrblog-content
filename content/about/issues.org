@@ -10,18 +10,6 @@ it. Managing todo items is pretty well covered in org-mode ;-)
 #+COMMENT: Leave the indents of the headers as they are below
 #+COMMENT: it affects rendering on site and I dont have a good way of doing this with css
 * Current issues
-***** TODO assess generate vs webserver config                                      :write:
-:PROPERTIES:
-:CREATED:  [2020-11-18 wo 17:24]
-:END:
-For example the aliases generate directories, which is a bit messy on the server side, but leaves stuff in control locally. //
-
-Is ther anything special in the webserver config now? I recall there being some aliases and redirects.
-
-- old /feed is now /index.xml
-- /category is rewritten to /tag
-- cors header is added
--
 ***** TODO CSS changes to do                                                        :build:
 :PROPERTIES:
 :CREATED:  [2020-11-16 ma 10:47]
@@ -48,13 +36,6 @@ Is ther anything special in the webserver config now? I recall there being some 
      +In the jekyll spirit, this should really all be generated statically and published in the same way as org->html For the latter we use org-ruby.+ Using hugo now
 
      See also: https://github.com/fauno/jekyll-pandoc-multiple-formats
-***** TODO merge git ancestry                                                       :build:
-:PROPERTIES:
-:CREATED:  [2020-11-18 wo 17:22]
-:END:
-This will be a bit tricky, as the original git has two unfinished branches and quite a few of untracked files which should be tracked.
-
-[2020-11-20 vr] Just created a new repository for now, might merge later
 ***** TODO This would be useful to have when writing longer documents               :check:
 :PROPERTIES:
 :CREATED:  [2020-11-20 vr 15:04]
@@ -545,3 +526,10 @@ Options:
 Or even better: use https://github.com/altrdev/hugo-leaflet
 
 This requires fontawesome which is also helpful for some other items such as using a calendar icon and share icons.
+***** TODO Look at https://fed.brid.gy                                              :check:
+:PROPERTIES:
+:CREATED:  [2018-07-18 wo 22:01]
+:END:
+It's a procedure to bring /normal/ websites into the fediverse without having a framework, it's a modular setup which can be implemented in different levels, depending on the need.
+
+Not sure where I would use this though.
