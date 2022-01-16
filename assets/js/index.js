@@ -1,5 +1,4 @@
 
-const pageHasLoaded = 'DOMContentLoaded';
 (function toggleColorModes(){
     const light = 'lit';
     const dark = 'dim';
@@ -468,4 +467,4 @@ function fileClosure(){
     // add new code above this line
 }
 
-window.addEventListener(pageHasLoaded, fileClosure());
+window.addEventListener('DOMContentLoaded', fileClosure());
