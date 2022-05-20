@@ -1,6 +1,9 @@
 {{ $s := .Site.Params }}
 <aside class="sidebar">
   <section class="sidebar_inner">
+    <br/>
+    {{ partial "search/widget" . }}
+
     {{- $posts := where (where .Site.RegularPages "Permalink" "!=" .Permalink) "Type" "in" $s.mainSections }}
     {{- $featured := default 8 $s.numberOfFeaturedPosts }}
     {{- with first $featured (where $posts "Params.featured" true)}}

@@ -17,6 +17,7 @@ outputs:
   home:
     - HTML
     - RSS                       # main feed
+    - JSON
   section:                      # maybe rss later
     - HTML
   page:
@@ -59,6 +60,7 @@ params:
   codeMaxLines: 7               # lines in codeblock
   codeLineNumbers: false
   enableMathNotation: true
+  enableSearch: true
   mainSections:                 # where is our main content section
     - post
   centerLogo: false
