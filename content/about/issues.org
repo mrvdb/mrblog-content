@@ -425,9 +425,29 @@ Encrypting
 ----------
 - OpenPGP
 - PIV
-****** TODO Blog about the conflict of being open source and having 'next new features' :write:
+****** TODO the conflict of being open source and having 'next new features'       :write:
 :PROPERTIES:
 :CREATED:  [2014-12-23 di 17:47]
+:END:
+****** TODO Project: cobra                                                         :write:
+:PROPERTIES:
+:CREATED:  [2022-04-10 zo 12:53]
+:END:
+****** TODO Project: Cazeneuve HBX                                                 :write:
+:PROPERTIES:
+:CREATED:  [2022-04-10 zo 12:53]
+:END:
+****** TODO Project: Sacia Shaper                                                  :write:
+:PROPERTIES:
+:CREATED:  [2022-04-10 zo 12:53]
+:END:
+****** TODO Project: Power9 machine                                                :write:
+:PROPERTIES:
+:CREATED:  [2022-04-10 zo 12:53]
+:END:
+****** TODO Project: Cars (for each one?)                                          :write:
+:PROPERTIES:
+:CREATED:  [2022-04-10 zo 12:53]
 :END:
 ** TODO Perhaps put mastodon shortcode into my blog to use                             :check:
 :PROPERTIES:
