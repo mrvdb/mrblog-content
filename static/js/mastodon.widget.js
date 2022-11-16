@@ -303,13 +303,19 @@ MastodonApi.prototype.listStatuses = function() {
 	$('.mt-body', this.widget).append(toot);
 
 	// media attachments? >>>
-	if(status_.media_attachments.length>0) {
+        var st = status_;
+        if (status_.reblog) {
+            st = status_.reblog;
+        }
+
+	if(st.media_attachments.length>0) {
 	    var pic;
-	    for(var picid in status_.media_attachments) {
-		pic = this.replaceMedias(content, status_.media_attachments[picid], status_.sensitive);
+	    for(var picid in st.media_attachments) {
+		pic = this.replaceMedias(content, st.media_attachments[picid], st.sensitive);
 		toot.append( pic );
 	    }
 	}
+
 	// <<<
 
 	// stats (boosts + favourites counts) >>>
