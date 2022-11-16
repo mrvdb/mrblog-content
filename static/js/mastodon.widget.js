@@ -78,7 +78,7 @@ var MastodonApi = function(params_) {
 		.addClass('nsfw-opened');
 	}
 
-    };
+    }
 
 
     /**
@@ -105,7 +105,7 @@ var MastodonApi = function(params_) {
 	});
 	$('body').append(filter);
 	return filter;
-    };
+    }
 
 
     // spoiler buttons events
@@ -116,7 +116,7 @@ var MastodonApi = function(params_) {
 
     // clicks on media icon links
     this.widget.on('click', '.toot-media-link', toggleMedia);
-};
+}
 /* <<< end constructor */
 
 
@@ -130,7 +130,7 @@ MastodonApi.version = "1.07"; // display
 MastodonApi.text = {
     spoilerBtnClosed  : "Show more"
     ,spoilerBtnOpened : "Show less"
-    ,nsfwLabel        : "CW"
+    ,nsfwLabel        : "NSFW"
     ,nsfwViewMsg      : "Click to view"
 };
 /* <<< */
@@ -155,7 +155,7 @@ MastodonApi.prototype.listStatuses = function() {
 
     // get request
     $.ajax({
-	url: this.INSTANCE_URI+'/api/v1/timelines/home'
+	url: this.INSTANCE_URI+'/api/v1/accounts/'+this.ACCOUNT_ID+'/statuses'
 	,headers: {
 	    Authorization : 'Bearer '+this.ACCESS_TOKEN
 	}
@@ -239,6 +239,7 @@ MastodonApi.prototype.listStatuses = function() {
 	    content = $("<div class='toot-text'>" + status_.content + "</div>" + "<div class='toot-medias'></div>");
 	}
 
+
 	if(status_.reblog) {
 	    // data from BOOSTED status
 
@@ -259,6 +260,7 @@ MastodonApi.prototype.listStatuses = function() {
 
 	    // user name and url
 	    user = $("<div class='mt-user'><a href='"+status_.reblog.account.url+"'>"+status_.reblog.account.username+"</a></div>");
+            content = $("<div class='toot-text'>" + status_.reblog.content + "</div>" + "<div class='toot-medias'></div>");
 	}
 	else {
 	    // data from status
@@ -312,19 +314,13 @@ MastodonApi.prototype.listStatuses = function() {
 
 	// stats (boosts + favourites counts) >>>
 	// data
-        var boostsCountIcon='';
-        var favouritesCountIcon='';
-        if(status_.reblogs_count > 0) {
-            boostsCountIcon = '<span class="toot-status-boosts">'
-                + this.boostsCountIcon +":"+ status_.reblogs_count    + '</span>';
-        }
-        if(status_.favourites_count > 0) {
-            favouritesCountIcon = '<span class="toot-status-favourites">'
-                + this.favouritesCountIcon +":"+ status_.favourites_count + '</span>';
-        }
+	var boostsCountIcon     = '<span class="toot-status-boosts">'     + this.boostsCountIcon     +":"+ status_.reblogs_count    + '</span>';
+	var favouritesCountIcon = '<span class="toot-status-favourites">' + this.favouritesCountIcon +":"+ status_.favourites_count + '</span>';
+
 	// html nodes
 	var statusBar = $('<div class="toot-status">' +
-			  boostsCountIcon + favouritesCountIcon +
+			  boostsCountIcon +
+			  favouritesCountIcon +
 			  '</div>');
 
 	toot.append( statusBar );
