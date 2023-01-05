@@ -77,6 +77,7 @@ params:
   customCSS:
     - css/leaflet.css           # for gpx maps
     - css/mastodon.widget.css   # for mastodon timeline widget
+    - css/local.css             # corrections and changes
   customJS:
     - js/leaflet.js
     - js/gpx.js
