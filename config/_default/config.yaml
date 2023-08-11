@@ -24,8 +24,6 @@ outputs:
     - HTML
   taxonomy:
     - HTML
-  taxonomyTerm:
-    - HTML
 taxonomies:                     # just tags for now
   tag: tags
   #project: projects
