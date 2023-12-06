@@ -1,0 +1,12 @@
+#+title: Jaguar XKR leather interior restoration
+#+date: 2023-12-06T11:59:36+01:00
+#+description: Video of restoration result of leather interior of Jaguar XKR 2010
+#+draft: false
+#+tags[]: jaguar car restoration video
+
+I had the leather interior of my Jaguar XKR restored last week and the supplier provided me with a video of it; in the "before/after" style. Rob did an amazing job on the whole of the interior.
+
+
+#+CAPTION: [[/assets/video/xkr-interior.mp4][Impression of XKR interior restoration]]
+#+attr_html: :controls :muted :width 55% :align right
+[[/assets/video/xkr-interior.mp4]]
