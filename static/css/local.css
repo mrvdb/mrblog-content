@@ -2,3 +2,8 @@
 .highlight_wrap, .panel_box {
     background: #002538 !important;
 }
+
+/* Introduce a tiny bit of paragraph spacing */
+li p {
+    padding-bottom: 5pt;
+}
