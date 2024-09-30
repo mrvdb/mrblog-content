@@ -3,7 +3,8 @@ baseurl: 'https://mrblog.nl/'   # Needs the slash for share icons in the theme
 title: Marcel van der Boom
 author: Marcel van der Boom
 copyright: 'Copyright © 2022, Marcel van der Boom, all rights reserved.'
-paginate: 5
+pagination:
+        pagerSize: 5
 theme: clarity
 enableGitInfo: false
 enableRobotsTXT: true
