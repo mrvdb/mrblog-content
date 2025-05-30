@@ -408,9 +408,9 @@ $(document).ready(function() {
     // jQUERY is required!
     new MastodonApi({
         target_selector  : '#timeline'
-        ,instance_uri    : 'https://mastodon.nl'
-        ,access_token    : '91QfqkMcE6AHWz7NQrBJ1Gbhj4naWCPbt6NWN0R729M'
-        ,account_id      : '81518'
+        ,instance_uri    : 'https://van-der-boom.nl'
+        ,access_token    : 'ODKWZMQXOTKTYZC0NI0ZNZBILWI5NZKTM2VJNJE1N2MXMGNI'
+        ,account_id      : '01GA6QW19E2Z71A6T32SZND3CE'
         ,pic_icon        : '[PICTURE]'
         ,boosts_count_icon : '🚀'
         ,favourites_count_icon : '💘'});
